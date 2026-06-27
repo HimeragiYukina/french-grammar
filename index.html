@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>法语语法手册 A1–C2 · Grammaire française</title>
+<style>
+  :root{
+    --bg:#f7f7f9; --panel:#ffffff; --ink:#1d1f24; --muted:#6b7280; --line:#e6e7eb;
+    --fr:#0f3d6b; --frbg:#eef4fb; --zh:#3a3f47;
+    --accent:#2563eb; --tip:#b4530a; --tipbg:#fdf3e7;
+    --a1:#16a34a; --a2:#0891b2; --b1:#d97706; --b2:#9333ea; --c1:#4f46e5; --c2:#be123c;
+    --radius:14px; --maxw:880px;
+  }
+  html[data-theme="dark"]{
+    --bg:#15171c; --panel:#1d2027; --ink:#e8eaed; --muted:#9aa0aa; --line:#2c3038;
+    --fr:#9cc7f5; --frbg:#18293c; --zh:#c9cdd4;
+    --accent:#5b9bf7; --tip:#e8a85c; --tipbg:#2c2415;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+    line-height:1.7;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent);text-decoration:none}
+  /* layout */
+  .wrap{display:flex;min-height:100vh}
+  #sidebar{width:290px;flex:0 0 290px;background:var(--panel);border-right:1px solid var(--line);
+    height:100vh;position:sticky;top:0;overflow-y:auto;padding:18px 14px}
+  #main{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center}
+  .inner{width:100%;max-width:var(--maxw);padding:0 22px 80px}
+  /* sidebar */
+  .brand{font-weight:700;font-size:18px;padding:6px 8px 14px;border-bottom:1px solid var(--line);margin-bottom:10px}
+  .brand small{display:block;font-weight:400;color:var(--muted);font-size:12px;margin-top:3px}
+  .navlevel{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--muted);
+    margin:14px 8px 4px;text-transform:uppercase}
+  .navcat{font-size:12.5px;font-weight:600;color:var(--muted);margin:9px 8px 2px}
+  .navitem{display:block;padding:4px 10px;border-radius:8px;font-size:13.5px;color:var(--ink);cursor:pointer}
+  .navitem:hover{background:var(--frbg)}
+  .navitem.active{background:var(--accent);color:#fff}
+  /* topbar */
+  .topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+    backdrop-filter:blur(8px);padding:14px 0 10px;width:100%;display:flex;justify-content:center}
+  .topbar .tb{width:100%;max-width:var(--maxw);padding:0 22px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  #search{flex:1;min-width:160px;padding:9px 13px;border:1px solid var(--line);border-radius:10px;
+    background:var(--panel);color:var(--ink);font-size:14px}
+  .chips{display:flex;gap:6px;flex-wrap:wrap}
+  .chip{padding:6px 11px;border:1px solid var(--line);border-radius:20px;background:var(--panel);
+    color:var(--muted);font-size:13px;cursor:pointer;font-weight:600}
+  .chip.on{color:#fff;border-color:transparent}
+  .chip[data-l="ALL"].on{background:var(--accent)}
+  .chip[data-l="A1"].on{background:var(--a1)} .chip[data-l="A2"].on{background:var(--a2)}
+  .chip[data-l="B1"].on{background:var(--b1)} .chip[data-l="B2"].on{background:var(--b2)}
+  .chip[data-l="C1"].on{background:var(--c1)} .chip[data-l="C2"].on{background:var(--c2)}
+  .iconbtn{padding:6px 10px;border:1px solid var(--line);border-radius:10px;background:var(--panel);
+    color:var(--ink);cursor:pointer;font-size:14px}
+  .ctl{padding:6px 8px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);font-size:12.5px;max-width:160px}
+  .spd{display:flex;align-items:center;gap:4px;padding:4px 9px;border:1px solid var(--line);border-radius:10px;background:var(--panel);font-size:12.5px;color:var(--muted)}
+  .spd input[type=range]{width:76px;accent-color:var(--accent);vertical-align:middle}
+  .spd b{color:var(--ink);font-weight:600;min-width:42px;text-align:right}
+  /* hero */
+  .hero{padding:24px 0 6px}
+  .hero h1{font-size:27px;margin:0 0 6px}
+  .hero p{color:var(--muted);margin:4px 0;font-size:14.5px}
+  .count{color:var(--muted);font-size:13px;margin:10px 0 0}
+  /* card */
+  .cathead{font-size:13px;font-weight:700;color:var(--muted);letter-spacing:.04em;
+    margin:30px 0 4px;padding-top:8px;border-top:1px dashed var(--line)}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:18px 20px;margin:14px 0;scroll-margin-top:80px}
+  .card h3{margin:0;font-size:19px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .card h3 .zh{font-size:15px;color:var(--muted);font-weight:600}
+  .badge{font-size:11px;font-weight:700;color:#fff;padding:2px 8px;border-radius:6px}
+  .badge.A1{background:var(--a1)} .badge.A2{background:var(--a2)}
+  .badge.B1{background:var(--b1)} .badge.B2{background:var(--b2)}
+  .badge.C1{background:var(--c1)} .badge.C2{background:var(--c2)}
+  .expl{margin:12px 0}
+  .expl .zh{color:var(--zh)}
+  .expl .fr{color:var(--fr);background:var(--frbg);border-left:3px solid var(--fr);
+    padding:8px 12px;border-radius:0 8px 8px 0;margin-top:8px;font-size:14.5px}
+  .forms{margin:12px 0;overflow-x:auto}
+  table{border-collapse:collapse;width:100%;font-size:14px}
+  th,td{border:1px solid var(--line);padding:6px 10px;text-align:left}
+  th{background:var(--frbg);color:var(--fr);font-weight:600}
+  .ex{margin:6px 0 0;padding:0;list-style:none}
+  .ex li{padding:8px 0;border-top:1px solid var(--line)}
+  .ex li:first-child{border-top:none}
+  .ex .fr{color:var(--fr);font-weight:600;font-size:15px}
+  .ex .fr b{color:var(--accent)}
+  .ex .zh{color:var(--muted);font-size:13.5px;margin-top:2px}
+  .tip{margin-top:13px;background:var(--tipbg);border-radius:10px;padding:10px 13px;font-size:13.8px}
+  .tip b{color:var(--tip)}
+  .tts{border:none;background:transparent;cursor:pointer;font-size:13px;padding:0 3px;opacity:.5;vertical-align:baseline;line-height:1}
+  .tts:hover{opacity:1;transform:scale(1.15)}
+  .tts.playing{opacity:1;animation:pulse .8s infinite}
+  @keyframes pulse{50%{opacity:.4}}
+  .practice{margin-top:14px;border-top:1px solid var(--line);padding-top:11px}
+  .practice .label{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .reveal{border:1px solid var(--accent);color:var(--accent);background:transparent;border-radius:7px;padding:1px 8px;font-size:11.5px;cursor:pointer;font-weight:600;margin-left:6px;white-space:nowrap;vertical-align:baseline}
+  .reveal:hover{background:var(--accent);color:#fff}
+  .say-all{margin-left:auto;border:1px solid var(--accent);color:var(--accent);background:transparent;border-radius:7px;padding:2px 9px;font-size:12px;cursor:pointer;font-weight:600;white-space:nowrap}
+  .say-all:hover{background:var(--accent);color:#fff}
+  .say-all.playing{background:var(--accent);color:#fff;animation:pulse .8s infinite}
+  .say-from{margin-left:6px;border:1px solid var(--accent);color:var(--accent);background:transparent;border-radius:7px;padding:2px 9px;font-size:12px;cursor:pointer;font-weight:600;white-space:nowrap}
+  .say-from:hover{background:var(--accent);color:#fff}
+  .say-from.playing{background:var(--accent);color:#fff;animation:pulse .8s infinite}
+  .card.reading{box-shadow:0 0 0 2px var(--accent)}
+  .tts-transport{display:inline-flex;gap:4px}
+  .iconbtn:disabled{opacity:.4;cursor:default}
+  .qs{margin:8px 0 0;padding-left:24px}
+  .qs li{padding:5px 0}
+  .qs .q{color:var(--ink);font-size:14.5px}
+  .qs .a{margin-top:4px;color:#0a7d3c;background:var(--frbg);border-radius:6px;padding:5px 10px;font-weight:600;font-size:14px}
+  html[data-theme="dark"] .qs .a{color:#5fcf89}
+  .qs .anote{color:var(--muted);font-weight:400;font-size:12.5px}
+  .hint{color:var(--muted);font-weight:400;font-size:.86em}
+  .label{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px}
+  .hidden{display:none!important}
+  .nores{color:var(--muted);padding:40px 0;text-align:center}
+  /* mobile */
+  #menuToggle{display:none}
+  @media(max-width:820px){
+    #sidebar{position:fixed;left:0;top:0;z-index:50;transform:translateX(-100%);transition:.25s}
+    #sidebar.open{transform:translateX(0)}
+    #menuToggle{display:inline-block}
+    .inner,.topbar .tb{padding-left:16px;padding-right:16px}
+  }
+  .scrim{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:40}
+  .scrim.open{display:block}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <aside id="sidebar"></aside>
+  <div class="scrim" id="scrim"></div>
+  <div id="main">
+    <div class="topbar">
+      <div class="tb">
+        <button class="iconbtn" id="menuToggle">☰</button>
+        <input id="search" type="search" placeholder="搜索语法点 / Rechercher (中文或法语)…" autocomplete="off">
+        <div class="chips" id="chips">
+          <span class="chip on" data-l="ALL">全部</span>
+          <span class="chip" data-l="A1">A1</span>
+          <span class="chip" data-l="A2">A2</span>
+          <span class="chip" data-l="B1">B1</span>
+          <span class="chip" data-l="B2">B2</span>
+          <span class="chip" data-l="C1">C1</span>
+          <span class="chip" data-l="C2">C2</span>
+        </div>
+        <select id="voiceSel" class="ctl" title="法语语音 / Voix française"></select>
+        <button class="iconbtn" id="voiceTest" title="试听 / Tester la voix">▶</button>
+        <span class="spd" title="语速 / Vitesse">🐢<input id="rate" type="range" min="0.5" max="1.4" step="0.05" value="0.95">🐇<b id="rateVal">0.95×</b></span>
+        <span class="tts-transport" id="ttsBar"><button class="iconbtn" id="ttsPause" title="暂停 / Pause" disabled>⏸</button><button class="iconbtn" id="ttsStop" title="停止 / Arrêter" disabled>⏹</button></span>
+        <button class="iconbtn" id="themeBtn" title="深色/浅色">🌓</button>
+      </div>
+    </div>
+    <div class="inner">
+      <div class="hero">
+        <h1>法语语法手册 · Grammaire française A1–C2</h1>
+        <p>覆盖 A1–C2 全部核心语法点,每点含<strong>中法双语讲解 + 例句 + 易错点 + 练习</strong>;法语内容均可点 🔊 朗读(TTS)。</p>
+        <p>Tous les points de grammaire essentiels du niveau A1 au C2, avec explications bilingues, exemples, pièges, exercices et synthèse vocale (🔊).</p>
+        <p class="count" id="count"></p>
+      </div>
+      <div id="content"></div>
+      <div class="nores hidden" id="nores">没有匹配的语法点 · Aucun résultat</div>
+    </div>
+  </div>
+</div>
+<script>
+/* ============================================================
+   数据结构 · 每个语法点:
+   { id, level:"A1|A2|B1|B2", cat:"中文分类", catFr, title, titleFr,
+     zh:"中文讲解", fr:"explication FR",
+     forms?:"<table>…</table>",
+     ex:[{fr,zh}, …],
+     tip?:"易错点(中文为主)" }
+   例句法语里用 <b>…</b> 高亮重点结构。
+   ============================================================ */
+const A1 = [
+  // ---------- 名词与冠词 ----------
+  { id:"a1-genre", level:"A1", cat:"名词与冠词", catFr:"Noms et articles",
+    title:"L'article défini", titleFr:"L'article défini · 定冠词",
+    zh:"法语每个名词都有<strong>阴阳性</strong>,且冠词必须与名词的性、数一致。定冠词指<strong>特指/已知/独一无二</strong>的事物:阳性 <b>le</b>、阴性 <b>la</b>、元音或哑音 h 前缩为 <b>l'</b>、复数一律 <b>les</b>。",
+    fr:"Tout nom français a un genre (masculin/féminin). L'article défini (le, la, l', les) s'emploie pour une chose précise, connue ou unique.",
+    forms:"<table><tr><th>阳性 m.</th><th>阴性 f.</th><th>元音/h 前</th><th>复数 pl.</th></tr><tr><td>le livre</td><td>la table</td><td>l'ami, l'heure</td><td>les livres</td></tr></table>",
+    ex:[
+      {fr:"<b>Le</b> soleil brille.", zh:"太阳照耀着。(独一无二)"},
+      {fr:"J'aime <b>la</b> musique.", zh:"我喜欢音乐。(泛指整类)"},
+      {fr:"<b>Les</b> enfants jouent dans <b>le</b> parc.", zh:"孩子们在公园里玩。"}
+    ],
+    tip:"<b>易错:</b>名词的阴阳性必须连词一起记(记 <em>une table</em> 而不是单记 table)。à/de + le/les 要缩合:<em>à+le=au, à+les=aux, de+le=du, de+les=des</em>。" },
+
+  { id:"a1-indefini", level:"A1", cat:"名词与冠词", catFr:"Noms et articles",
+    title:"L'article indéfini", titleFr:"L'article indéfini · 不定冠词",
+    zh:"不定冠词指<strong>非特指、初次提到、可数</strong>的事物:阳性 <b>un</b>、阴性 <b>une</b>、复数 <b>des</b>。",
+    fr:"L'article indéfini (un, une, des) désigne une chose non précise, mentionnée pour la première fois.",
+    ex:[
+      {fr:"C'est <b>un</b> livre et <b>une</b> revue.", zh:"这是一本书和一本杂志。"},
+      {fr:"Il y a <b>des</b> étudiants dans la classe.", zh:"教室里有一些学生。"}
+    ],
+    tip:"<b>易错:</b>否定句中 un/une/des 通常变 <b>de</b>:<em>Je n'ai pas <b>de</b> voiture.</em>(我没有车。)" },
+
+  { id:"a1-pluriel", level:"A1", cat:"名词与冠词", catFr:"Noms et articles",
+    title:"Le pluriel des noms", titleFr:"Le pluriel des noms · 名词复数",
+    zh:"名词复数一般在词尾加 <b>-s</b>(不发音)。特殊:-au/-eau/-eu → 加 <b>-x</b>;-al → 改 <b>-aux</b>;以 -s/-x/-z 结尾不变。",
+    fr:"On forme généralement le pluriel en ajoutant -s. Cas particuliers : -eau→-eaux, -al→-aux, etc.",
+    forms:"<table><tr><th>规则</th><th>单数</th><th>复数</th></tr><tr><td>一般 +s</td><td>un ami</td><td>des amis</td></tr><tr><td>-eau +x</td><td>un château</td><td>des châteaux</td></tr><tr><td>-al→-aux</td><td>un journal</td><td>des journaux</td></tr><tr><td>-s/-x 不变</td><td>un bus</td><td>des bus</td></tr></table>",
+    ex:[{fr:"Les <b>animaux</b> du zoo.", zh:"动物园的动物们。(animal→animaux)"}],
+    tip:"<b>易错:</b>复数 -s 不发音,口语靠<strong>冠词</strong>(le/les、un/des)区分单复数。" },
+
+  { id:"a1-partitif", level:"A1", cat:"名词与冠词", catFr:"Noms et articles",
+    title:"L'article partitif", titleFr:"L'article partitif · 部分冠词",
+    zh:"部分冠词表示<strong>不可数/不定量</strong>的一部分:阳性 <b>du</b>、阴性 <b>de la</b>、元音前 <b>de l'</b>。常用于食物、抽象概念。",
+    fr:"L'article partitif (du, de la, de l') exprime une quantité indéterminée d'une chose non comptable.",
+    ex:[
+      {fr:"Je bois <b>du</b> café et <b>de l'</b>eau.", zh:"我喝(一些)咖啡和水。"},
+      {fr:"Tu as <b>de la</b> chance !", zh:"你真走运!"}
+    ],
+    tip:"<b>易错:</b>否定后及数量词后用 <b>de</b>:<em>pas <b>de</b> café、beaucoup <b>de</b> café</em>。对比:<em>J'aime <b>le</b> café</em>(泛指,用定冠词)vs <em>Je bois <b>du</b> café</em>(部分量)。" },
+
+  // ---------- 代词与 être/avoir ----------
+  { id:"a1-sujets", level:"A1", cat:"主语代词与系动词", catFr:"Pronoms sujets, être/avoir",
+    title:"Les pronoms sujets", titleFr:"Les pronoms sujets · 主语人称代词",
+    zh:"主语代词:<b>je</b>(我)、<b>tu</b>(你,熟人)、<b>il/elle/on</b>(他/她/我们口语)、<b>nous</b>(我们)、<b>vous</b>(您/你们)、<b>ils/elles</b>(他们/她们)。",
+    fr:"Les pronoms sujets remplacent le sujet. « on » = « nous » à l'oral ; « vous » est aussi la forme de politesse.",
+    ex:[
+      {fr:"<b>Vous</b> parlez français ?", zh:"您说法语吗?(礼貌)"},
+      {fr:"<b>On</b> va au cinéma.", zh:"我们去看电影。(口语 on=nous)"}
+    ],
+    tip:"<b>易错:</b>je 在元音前缩为 j'(<em>j'habite</em>)。on 的动词永远用<strong>第三人称单数</strong>。" },
+
+  { id:"a1-etre", level:"A1", cat:"主语代词与系动词", catFr:"Pronoms sujets, être/avoir",
+    title:"Le verbe « être »", titleFr:"Le verbe « être » · 动词「是」",
+    zh:"être(是)是最重要的动词之一,用于身份、国籍、职业、状态、形容词描述。",
+    fr:"« Être » sert à exprimer l'identité, la nationalité, la profession, l'état.",
+    forms:"<table><tr><td>je suis</td><td>nous sommes</td></tr><tr><td>tu es</td><td>vous êtes</td></tr><tr><td>il/elle est</td><td>ils/elles sont</td></tr></table>",
+    ex:[
+      {fr:"Je <b>suis</b> étudiant.", zh:"我是学生。(职业不加冠词)"},
+      {fr:"Nous <b>sommes</b> français.", zh:"我们是法国人。"}
+    ],
+    tip:"<b>易错:</b>表职业/国籍时形容词或名词<strong>不加冠词</strong>:<em>Il est médecin.</em>(他是医生。)" },
+
+  { id:"a1-avoir", level:"A1", cat:"主语代词与系动词", catFr:"Pronoms sujets, être/avoir",
+    title:"Le verbe « avoir »", titleFr:"Le verbe « avoir » · 动词「有」",
+    zh:"avoir(有)表示拥有、年龄,也是大多数复合时态的助动词(见 A2 复合过去时)。",
+    fr:"« Avoir » exprime la possession, l'âge, et sert d'auxiliaire aux temps composés.",
+    forms:"<table><tr><td>j'ai</td><td>nous avons</td></tr><tr><td>tu as</td><td>vous avez</td></tr><tr><td>il/elle a</td><td>ils/elles ont</td></tr></table>",
+    ex:[
+      {fr:"J'<b>ai</b> vingt ans.", zh:"我二十岁。(年龄用 avoir,不用 être!)"},
+      {fr:"Elle <b>a</b> deux frères.", zh:"她有两个兄弟。"}
+    ],
+    tip:"<b>易错:</b>年龄用 avoir 不用 être——中文「我<em>是</em>20岁」≠ 法语,法语是「我<em>有</em>20岁」。" },
+
+  { id:"a1-cest-ilya", level:"A1", cat:"主语代词与系动词", catFr:"Pronoms sujets, être/avoir",
+    title:"« c'est » et « il y a »", titleFr:"« c'est » / « il y a » · 这是/有",
+    zh:"<b>c'est</b>(这是)用于指认、介绍;<b>il y a</b>(有)表示存在。复数 <em>ce sont</em>。",
+    fr:"« C'est » présente ou identifie ; « il y a » indique l'existence (invariable).",
+    ex:[
+      {fr:"<b>C'est</b> mon ami Paul.", zh:"这是我的朋友保罗。"},
+      {fr:"<b>Il y a</b> un problème.", zh:"有一个问题。"},
+      {fr:"Dans la ville, <b>il y a</b> beaucoup de musées.", zh:"城里有很多博物馆。"}
+    ],
+    tip:"<b>易错:</b>il y a 永远不变(没有复数 *il y ont*)。c'est vs il est:<em>C'est un médecin</em>(c'est+冠词+名词)/ <em>Il est médecin</em>(il est+职业)。" },
+
+  // ---------- 现在时 ----------
+  { id:"a1-present-er", level:"A1", cat:"直陈式现在时", catFr:"Le présent de l'indicatif",
+    title:"Le présent : verbes en -ER", titleFr:"现在时:第一组动词 -ER",
+    zh:"第一组动词(占 90%)去掉 -er,加词尾 <b>-e, -es, -e, -ons, -ez, -ent</b>。现在时表示当前、习惯、普遍真理。",
+    fr:"1er groupe (-er) : on retire -er et on ajoute les terminaisons. Le présent exprime une action actuelle, habituelle ou générale.",
+    forms:"<table><tr><th>parler 说</th><th></th></tr><tr><td>je parle</td><td>nous parlons</td></tr><tr><td>tu parles</td><td>vous parlez</td></tr><tr><td>il parle</td><td>ils parlent</td></tr></table>",
+    ex:[
+      {fr:"Nous <b>habitons</b> à Paris.", zh:"我们住在巴黎。"},
+      {fr:"Ils <b>regardent</b> la télé.", zh:"他们在看电视。"}
+    ],
+    tip:"<b>易错:</b>-e, -es, -ent 词尾都<strong>不发音</strong>,三个发音相同(je/tu/ils parle(s/nt))。" },
+
+  { id:"a1-present-ir", level:"A1", cat:"直陈式现在时", catFr:"Le présent de l'indicatif",
+    title:"Le présent : verbes en -IR", titleFr:"现在时:第二组动词 -IR",
+    zh:"第二组动词(如 finir)词尾 <b>-is, -is, -it, -issons, -issez, -issent</b>,复数有特征性的 <b>-iss-</b>。",
+    fr:"2e groupe (-ir, type finir) : présence de l'infixe -iss- au pluriel.",
+    forms:"<table><tr><th>finir 完成</th><th></th></tr><tr><td>je finis</td><td>nous finissons</td></tr><tr><td>tu finis</td><td>vous finissez</td></tr><tr><td>il finit</td><td>ils finissent</td></tr></table>",
+    ex:[
+      {fr:"Je <b>finis</b> mon travail.", zh:"我完成我的工作。"},
+      {fr:"Les fleurs <b>grandissent</b> vite.", zh:"花长得很快。"}
+    ],
+    tip:"<b>易错:</b>不是所有 -ir 动词都是第二组!<em>partir, dormir, venir</em> 属第三组(不规则),没有 -iss-。" },
+
+  { id:"a1-present-irreg", level:"A1", cat:"直陈式现在时", catFr:"Le présent de l'indicatif",
+    title:"Verbes irréguliers fréquents", titleFr:"常见不规则动词(第三组)",
+    zh:"高频不规则动词必须单独记。最常用:<b>aller</b>(去)、<b>faire</b>(做)、<b>prendre</b>(拿/乘)、<b>venir</b>(来)、<b>pouvoir</b>(能)、<b>vouloir</b>(想)、<b>devoir</b>(应该)。",
+    fr:"Les verbes irréguliers les plus fréquents doivent être mémorisés un par un.",
+    forms:"<table><tr><th></th><th>aller</th><th>faire</th><th>prendre</th></tr><tr><td>je</td><td>vais</td><td>fais</td><td>prends</td></tr><tr><td>tu</td><td>vas</td><td>fais</td><td>prends</td></tr><tr><td>il</td><td>va</td><td>fait</td><td>prend</td></tr><tr><td>nous</td><td>allons</td><td>faisons</td><td>prenons</td></tr><tr><td>vous</td><td>allez</td><td>faites</td><td>prenez</td></tr><tr><td>ils</td><td>vont</td><td>font</td><td>prennent</td></tr></table>",
+    ex:[
+      {fr:"Je <b>vais</b> à l'école, tu <b>fais</b> tes devoirs.", zh:"我去学校,你做作业。"},
+      {fr:"Nous <b>prenons</b> le bus.", zh:"我们乘公交。"}
+    ],
+    tip:"<b>易错:</b><em>vous faites</em>、<em>vous dites</em>、<em>vous êtes</em> 是少数不以 -ez 结尾的 vous 形式。" },
+
+  // ---------- 形容词 ----------
+  { id:"a1-adj", level:"A1", cat:"形容词", catFr:"Les adjectifs",
+    title:"L'accord et la place de l'adjectif", titleFr:"形容词的配合与位置",
+    zh:"品质形容词与名词<strong>性数一致</strong>:阴性一般 +e,复数 +s。位置:<strong>多数后置</strong>;少数<strong>短而常用</strong>的形容词前置:<b>beau, joli, grand, petit, gros, jeune, nouveau, vieux, bon, mauvais, long</b>(表示美丑、大小、新旧、好坏、年龄等)。",
+    fr:"L'adjectif qualificatif s'accorde en genre et en nombre. La plupart se placent après le nom ; quelques-uns (petits et courants) avant.",
+    forms:"<table><tr><th>阳单</th><th>阴单</th><th>阳复</th><th>阴复</th></tr><tr><td>grand</td><td>grande</td><td>grands</td><td>grandes</td></tr><tr><td>heureux</td><td>heureuse</td><td>heureux</td><td>heureuses</td></tr></table>",
+    ex:[
+      {fr:"une <b>petite</b> maison <b>blanche</b>", zh:"一座白色的小房子(petit 前置,blanc 后置)"},
+      {fr:"des étudiants <b>intelligents</b>", zh:"聪明的学生们"}
+    ],
+    tip:"<b>易错:</b>有些形容词前置/后置<strong>意义不同</strong>:<em>un <b>grand</b> homme</em>(伟人)vs <em>un homme <b>grand</b></em>(高个子)。" },
+
+  { id:"a1-possessif", level:"A1", cat:"形容词", catFr:"Les adjectifs",
+    title:"Les adjectifs possessifs", titleFr:"主有形容词(物主)",
+    zh:"主有形容词与<strong>被拥有物</strong>的性数一致(不是与拥有者!):mon/ma/mes(我的)、ton/ta/tes、son/sa/ses、notre/nos、votre/vos、leur/leurs。",
+    fr:"L'adjectif possessif s'accorde avec l'objet possédé, pas avec le possesseur.",
+    forms:"<table><tr><th></th><th>阳单</th><th>阴单</th><th>复数</th></tr><tr><td>我的</td><td>mon</td><td>ma</td><td>mes</td></tr><tr><td>你的</td><td>ton</td><td>ta</td><td>tes</td></tr><tr><td>他/她的</td><td>son</td><td>sa</td><td>ses</td></tr></table>",
+    ex:[
+      {fr:"<b>son</b> père et <b>sa</b> mère", zh:"他/她的父亲和母亲(son/sa 不分他/她!)"},
+      {fr:"<b>mon</b> amie", zh:"我的(女性)朋友(阴性名词以元音开头用 mon,非 ma)"}
+    ],
+    tip:"<b>易错:</b>son/sa 不区分「他的/她的」,只看名词性别。阴性名词若以<strong>元音</strong>开头,用 mon/ton/son(<em>mon école</em>)。" },
+
+  { id:"a1-demonstratif", level:"A1", cat:"形容词", catFr:"Les adjectifs",
+    title:"Les adjectifs démonstratifs", titleFr:"指示形容词(这/那)",
+    zh:"指示形容词「这/那」:阳性 <b>ce</b>、元音前 <b>cet</b>、阴性 <b>cette</b>、复数 <b>ces</b>。",
+    fr:"L'adjectif démonstratif (ce, cet, cette, ces) désigne ce que l'on montre.",
+    ex:[
+      {fr:"<b>Ce</b> livre, <b>cet</b> arbre, <b>cette</b> femme, <b>ces</b> enfants.", zh:"这本书、这棵树、这个女人、这些孩子。"}
+    ],
+    tip:"<b>易错:</b>阳性名词以元音/哑音 h 开头时用 <b>cet</b>(<em>cet homme, cet hôtel</em>),发音与 cette 相同。" },
+
+  // ---------- 疑问与否定 ----------
+  { id:"a1-negation", level:"A1", cat:"疑问与否定", catFr:"Interrogation et négation",
+    title:"La négation « ne… pas »", titleFr:"否定 ne… pas",
+    zh:"基本否定把动词夹在 <b>ne… pas</b> 之间(ne 在元音前缩为 n')。",
+    fr:"La négation de base encadre le verbe : ne + verbe + pas.",
+    ex:[
+      {fr:"Je <b>ne</b> parle <b>pas</b> anglais.", zh:"我不说英语。"},
+      {fr:"Il <b>n'</b>aime <b>pas</b> le café.", zh:"他不喜欢咖啡。"}
+    ],
+    tip:"<b>易错:</b>否定后不定冠词/部分冠词变 de:<em>Je n'ai <b>pas de</b> voiture.</em> 口语中 ne 常被省略(<em>Je sais pas</em>),但书面必须保留。" },
+
+  { id:"a1-question", level:"A1", cat:"疑问与否定", catFr:"Interrogation et négation",
+    title:"Les trois formes de questions", titleFr:"疑问句的三种形式",
+    zh:"是非问句三种:①<strong>语调</strong>(口语,陈述句末升调)②<strong>est-ce que</strong>(中性)③<strong>倒装</strong>(正式,主谓倒置加连字符)。",
+    fr:"Trois registres pour l'interrogation totale : intonation (familier), est-ce que (standard), inversion (soutenu).",
+    ex:[
+      {fr:"Tu viens ? / <b>Est-ce que</b> tu viens ? / <b>Viens-tu</b> ?", zh:"你来吗?(三种:口语/中性/正式)"},
+      {fr:"<b>Aimez-vous</b> la France ?", zh:"您喜欢法国吗?(倒装)"}
+    ],
+    tip:"<b>易错:</b>倒装时若第三人称动词以元音结尾,加 <strong>-t-</strong>:<em>A-<b>t</b>-il</em>、<em>Parle-<b>t</b>-elle</em>。" },
+
+  { id:"a1-mots-interro", level:"A1", cat:"疑问与否定", catFr:"Interrogation et négation",
+    title:"Les mots interrogatifs", titleFr:"疑问词",
+    zh:"常用疑问词:<b>qui</b>(谁)、<b>que/quoi</b>(什么)、<b>où</b>(哪里)、<b>quand</b>(何时)、<b>comment</b>(怎样)、<b>combien</b>(多少)、<b>pourquoi</b>(为什么)、<b>quel(le)</b>(哪个/什么样的)。",
+    fr:"Les mots interrogatifs introduisent une question partielle.",
+    ex:[
+      {fr:"<b>Où</b> habites-tu ? <b>Quand</b> arrives-tu ?", zh:"你住哪儿?你何时到?"},
+      {fr:"<b>Quelle</b> heure est-il ?", zh:"几点了?(quel 与名词配合)"}
+    ],
+    tip:"<b>易错:</b>quel 是<strong>疑问形容词</strong>,要与名词性数配合:quel/quelle/quels/quelles。" },
+
+  // ---------- 介词与基础表达 ----------
+  { id:"a1-prep-lieu", level:"A1", cat:"介词与基础表达", catFr:"Prépositions et expressions",
+    title:"Prépositions de lieu (pays/villes)", titleFr:"地点介词(国家/城市)",
+    zh:"城市用 <b>à</b>;阴性国家(多数以 -e 结尾)用 <b>en</b>;阳性国家用 <b>au</b>;复数国家用 <b>aux</b>。",
+    fr:"Ville → à ; pays féminin → en ; pays masculin → au ; pays pluriel → aux.",
+    forms:"<table><tr><th>城市</th><th>阴性国</th><th>阳性国</th><th>复数国</th></tr><tr><td>à Paris</td><td>en France</td><td>au Japon</td><td>aux États-Unis</td></tr></table>",
+    ex:[
+      {fr:"J'habite <b>à</b> Lyon, <b>en</b> France.", zh:"我住在里昂,在法国。"},
+      {fr:"Il va <b>au</b> Canada et <b>aux</b> Pays-Bas.", zh:"他去加拿大和荷兰。"}
+    ],
+    tip:"<b>易错:</b>来自某国用 de/du/des:<em>Je viens <b>de</b> France / <b>du</b> Japon / <b>des</b> États-Unis.</em>" },
+
+  { id:"a1-prep-base", level:"A1", cat:"介词与基础表达", catFr:"Prépositions et expressions",
+    title:"Prépositions courantes", titleFr:"常用介词",
+    zh:"高频介词:<b>à</b>(到/在)、<b>de</b>(的/从)、<b>dans</b>(在…里)、<b>sur</b>(在…上)、<b>sous</b>(在…下)、<b>chez</b>(在…家/处)、<b>avec</b>(和)、<b>pour</b>(为了)、<b>entre</b>(之间)。",
+    fr:"Prépositions fréquentes de lieu et de relation.",
+    ex:[
+      {fr:"Le livre est <b>sur</b> la table, <b>dans</b> le sac.", zh:"书在桌上、在包里。"},
+      {fr:"Je vais <b>chez</b> le médecin.", zh:"我去看医生(去医生那儿)。"}
+    ],
+    tip:"<b>易错:</b><b>chez</b> 只用于<strong>人</strong>(chez moi, chez le coiffeur),不用于地点名词。" },
+
+  { id:"a1-heure-date", level:"A1", cat:"介词与基础表达", catFr:"Prépositions et expressions",
+    title:"L'heure et la date", titleFr:"时间与日期",
+    zh:"问时间:<em>Quelle heure est-il ?</em> 答:<em>Il est…</em>。日期:<em>le + 数字 + 月份</em>(1号用 premier)。星期前不加冠词表「这个/那个」,加 le 表「每逢」。",
+    fr:"L'heure : « Il est trois heures et demie ». La date : « le 14 juillet ». « le lundi » = tous les lundis.",
+    ex:[
+      {fr:"Il est <b>huit heures et quart</b>.", zh:"八点一刻。"},
+      {fr:"Nous sommes <b>le premier mai</b>.", zh:"今天是五月一日。(1号=premier)"},
+      {fr:"<b>Le</b> samedi, je fais du sport.", zh:"每逢周六我运动。"}
+    ],
+    tip:"<b>易错:</b>月份/星期<strong>不大写</strong>(janvier, lundi)。" },
+
+  // ---------- 基础时态雏形 ----------
+  { id:"a1-futur-proche", level:"A1", cat:"基础时态表达", catFr:"Premiers temps",
+    title:"Le futur proche", titleFr:"最近将来时 (aller + inf.)",
+    zh:"<b>aller</b>(现在时)+ <strong>动词原形</strong>,表示即将/计划要做的事,口语极常用。",
+    fr:"« aller » au présent + infinitif : action future proche ou programmée.",
+    ex:[
+      {fr:"Je <b>vais manger</b> dans dix minutes.", zh:"我十分钟后要吃饭。"},
+      {fr:"Nous <b>allons partir</b> demain.", zh:"我们明天要出发。"}
+    ],
+    tip:"<b>易错:</b>否定包住 aller:<em>Je <b>ne vais pas</b> sortir.</em>(原形不被否定包住。)" },
+
+  { id:"a1-passe-recent", level:"A1", cat:"基础时态表达", catFr:"Premiers temps",
+    title:"Le passé récent", titleFr:"最近过去时 (venir de + inf.)",
+    zh:"<b>venir de</b>(现在时)+ <strong>动词原形</strong>,表示「刚刚」做完某事。",
+    fr:"« venir de » au présent + infinitif : action qui vient de se terminer.",
+    ex:[
+      {fr:"Il <b>vient d'</b>arriver.", zh:"他刚到。"},
+      {fr:"Je <b>viens de</b> finir.", zh:"我刚完成。"}
+    ],
+    tip:"<b>对比:</b>futur proche(将做)↔ passé récent(刚做)是一对,口语高频。" },
+
+  { id:"a1-vouloir-inf", level:"A1", cat:"基础时态表达", catFr:"Premiers temps",
+    title:"Verbe + infinitif", titleFr:"动词 + 原形(愿望/能力)",
+    zh:"情态/意愿动词后直接跟<strong>动词原形</strong>:vouloir(想)、pouvoir(能)、devoir(应该)、aimer(喜欢)、aller(去做)。",
+    fr:"Après vouloir, pouvoir, devoir, aimer… on emploie directement l'infinitif.",
+    ex:[
+      {fr:"Je <b>veux apprendre</b> le français.", zh:"我想学法语。"},
+      {fr:"Tu <b>dois travailler</b>.", zh:"你应该工作。"},
+      {fr:"J'<b>aime voyager</b>.", zh:"我喜欢旅行。"}
+    ],
+    tip:"<b>易错:</b>两个动词连用时,第二个永远用<strong>原形</strong>,不再变位。" }
+];
+
+const A2 = [
+  // ---------- 复合过去时 / 未完成过去时 ----------
+  { id:"a2-pc-avoir", level:"A2", cat:"过去时:passé composé / imparfait", catFr:"Le passé",
+    title:"Le passé composé avec « avoir »", titleFr:"复合过去时(助动词 avoir)",
+    zh:"复合过去时表示<strong>已完成的过去动作</strong>。构成:<b>avoir</b>(现在时)+ <strong>过去分词</strong>。过去分词:第一组 -er→<b>-é</b>,第二组 -ir→<b>-i</b>,第三组多不规则(<em>avoir→eu, faire→fait, prendre→pris, voir→vu, être→été</em>)。",
+    fr:"Le passé composé exprime une action passée achevée : avoir (présent) + participe passé. La plupart des verbes utilisent « avoir ».",
+    forms:"<table><tr><th>原形</th><th>过去分词</th><th>例</th></tr><tr><td>parler</td><td>parlé</td><td>j'ai parlé</td></tr><tr><td>finir</td><td>fini</td><td>j'ai fini</td></tr><tr><td>prendre</td><td>pris</td><td>j'ai pris</td></tr></table>",
+    ex:[
+      {fr:"Hier, j'<b>ai mangé</b> au restaurant.", zh:"昨天我在餐厅吃了饭。"},
+      {fr:"Elle <b>a fini</b> ses devoirs.", zh:"她完成了作业。"}
+    ],
+    tip:"<b>易错:</b>用 avoir 时,过去分词<strong>不与主语配合</strong>(*elle a mangée* ✗)。仅当直接宾语提前时才配合(见 B1)。" },
+
+  { id:"a2-pc-etre", level:"A2", cat:"过去时:passé composé / imparfait", catFr:"Le passé",
+    title:"Le passé composé avec « être »", titleFr:"复合过去时(助动词 être)",
+    zh:"少数表示<strong>位移/状态变化</strong>的动词及<strong>所有代词式动词</strong>用 <b>être</b> 作助动词,过去分词与<strong>主语</strong>性数配合。记忆口诀「DR & MRS VANDERTRAMP」或「la maison d'être」:naître, mourir, aller, venir, arriver, partir, entrer, sortir, monter, descendre, rester, tomber, retourner, passer, devenir…",
+    fr:"Certains verbes de mouvement/changement d'état et tous les verbes pronominaux utilisent « être ». Le participe s'accorde avec le sujet.",
+    ex:[
+      {fr:"Elle <b>est allée</b> à Paris.", zh:"她去了巴黎。(allée 配合阴性主语)"},
+      {fr:"Ils <b>sont arrivés</b> en retard.", zh:"他们迟到了。(arrivés 配合阳性复数)"},
+      {fr:"Nous <b>sommes parti(e)s</b> tôt.", zh:"我们很早就出发了。"}
+    ],
+    tip:"<b>易错:</b>être 类动词过去分词必须配合主语:elle est venu<b>e</b>、ils sont venu<b>s</b>。monter/descendre/sortir/passer 带宾语时改用 avoir。" },
+
+  { id:"a2-imparfait", level:"A2", cat:"过去时:passé composé / imparfait", catFr:"Le passé",
+    title:"L'imparfait", titleFr:"未完成过去时",
+    zh:"未完成过去时表示过去的<strong>背景、习惯、状态、正在进行</strong>。构成:取 <b>nous</b> 现在时词干 + 词尾 <b>-ais, -ais, -ait, -ions, -iez, -aient</b>。",
+    fr:"L'imparfait exprime une description, une habitude ou une action en cours dans le passé. Radical du « nous » présent + terminaisons.",
+    forms:"<table><tr><th>parler (nous parlons)</th><th></th></tr><tr><td>je parlais</td><td>nous parlions</td></tr><tr><td>tu parlais</td><td>vous parliez</td></tr><tr><td>il parlait</td><td>ils parlaient</td></tr></table>",
+    ex:[
+      {fr:"Quand j'<b>étais</b> petit, je <b>jouais</b> au foot.", zh:"我小时候常踢足球。(习惯+状态)"},
+      {fr:"Il <b>faisait</b> beau et les oiseaux <b>chantaient</b>.", zh:"天气晴朗,鸟儿在歌唱。(背景描写)"}
+    ],
+    tip:"<b>易错:</b>唯一不规则词干是 <b>être → ét-</b>(j'étais)。词尾发音:-ais/-ait/-aient 同音。" },
+
+  { id:"a2-pc-vs-imp", level:"A2", cat:"过去时:passé composé / imparfait", catFr:"Le passé",
+    title:"Passé composé vs imparfait", titleFr:"复合过去时 vs 未完成过去时 ⭐",
+    zh:"这是法语最高频的难点。<b>passé composé</b>=推进情节的<strong>具体、完成</strong>的动作(然后发生了什么);<b>imparfait</b>=<strong>背景、习惯、状态、正在进行</strong>(当时是什么样)。常一句并用:背景(imp)中突然发生(PC)。",
+    fr:"Le passé composé fait avancer le récit (action ponctuelle, achevée) ; l'imparfait pose le décor (description, habitude, action en cours).",
+    ex:[
+      {fr:"Je <b>dormais</b> quand le téléphone <b>a sonné</b>.", zh:"电话响时我正在睡觉。(背景 imp + 突发 PC)"},
+      {fr:"Hier il <b>a plu</b> toute la journée.", zh:"昨天下了一整天雨。(限定、完成→PC)"}
+    ],
+    tip:"<b>判断技巧:</b>能问「然后呢?」→ PC;描述「当时的样子/反复」→ imparfait。信号词:soudain/hier → PC;souvent/toujours/quand j'étais → imparfait。" },
+
+  // ---------- 简单将来时 ----------
+  { id:"a2-futur-simple", level:"A2", cat:"简单将来时", catFr:"Le futur simple",
+    title:"Le futur simple", titleFr:"简单将来时",
+    zh:"表示<strong>较远/确定的将来</strong>(书面、计划、预测)。构成:多数以<strong>动词原形</strong>为词干(-re 去 e)+ 词尾 <b>-ai, -as, -a, -ons, -ez, -ont</b>(来自 avoir)。",
+    fr:"Le futur simple exprime un futur lointain ou certain. Radical = infinitif + terminaisons (-ai, -as, -a, -ons, -ez, -ont).",
+    forms:"<table><tr><th>不规则词干</th><th></th></tr><tr><td>être → ser-</td><td>je serai</td></tr><tr><td>avoir → aur-</td><td>j'aurai</td></tr><tr><td>aller → ir-</td><td>j'irai</td></tr><tr><td>faire → fer-</td><td>je ferai</td></tr><tr><td>venir → viendr-</td><td>je viendrai</td></tr><tr><td>pouvoir → pourr-</td><td>je pourrai</td></tr></table>",
+    ex:[
+      {fr:"Demain, je <b>partirai</b> à huit heures.", zh:"明天我八点出发。"},
+      {fr:"Nous <b>serons</b> heureux de vous revoir.", zh:"我们将很高兴再见到您。"}
+    ],
+    tip:"<b>对比:</b>口语近期用 futur proche(je vais partir),书面/较远用 futur simple(je partirai)。" },
+
+  // ---------- 宾语代词 ----------
+  { id:"a2-cod", level:"A2", cat:"宾语代词与 en/y", catFr:"Pronoms compléments",
+    title:"Les pronoms COD", titleFr:"直接宾语代词 (COD)",
+    zh:"直接宾语代词替代<strong>无介词</strong>的宾语:<b>me, te, le/la, nous, vous, les</b>。位置:<strong>放在变位动词前</strong>。",
+    fr:"Le pronom COD remplace un complément direct (sans préposition) et se place devant le verbe.",
+    ex:[
+      {fr:"Tu vois Marie ? — Oui, je <b>la</b> vois.", zh:"你看见玛丽了吗?——看见了(她)。"},
+      {fr:"Ces livres, je <b>les</b> ai achetés.", zh:"这些书,我买了(它们)。"}
+    ],
+    tip:"<b>易错:</b>le/la 在元音前缩为 l'(<em>je l'aime</em>)。复合时态中 COD 提前 → 过去分词配合(<em>les livres que j'ai achet<b>és</b></em>,见 B1)。" },
+
+  { id:"a2-coi", level:"A2", cat:"宾语代词与 en/y", catFr:"Pronoms compléments",
+    title:"Les pronoms COI", titleFr:"间接宾语代词 (COI)",
+    zh:"间接宾语代词替代「<b>à</b> + 人」:<b>me, te, lui, nous, vous, leur</b>。常见于 parler à, téléphoner à, donner à, écrire à。",
+    fr:"Le pronom COI remplace « à + personne » : me, te, lui, nous, vous, leur.",
+    ex:[
+      {fr:"Je téléphone à Paul → Je <b>lui</b> téléphone.", zh:"我给保罗打电话 → 我给他打电话。"},
+      {fr:"Tu parles à tes parents ? — Oui, je <b>leur</b> parle.", zh:"你和父母说吗?——我和他们说。"}
+    ],
+    tip:"<b>易错:</b><b>lui</b> 不分男女(=à lui/à elle);<b>leur</b>(给他们)无 -s,别与主有形容词 leurs 混。" },
+
+  { id:"a2-en", level:"A2", cat:"宾语代词与 en/y", catFr:"Pronoms compléments",
+    title:"Le pronom « en »", titleFr:"代词 en",
+    zh:"<b>en</b> 替代「<b>de</b> + 物」、<strong>部分冠词/不定冠词宾语</strong>、<strong>数量</strong>。",
+    fr:"« en » remplace « de + chose », un partitif, ou une quantité.",
+    ex:[
+      {fr:"Tu veux du café ? — Oui, j'<b>en</b> veux.", zh:"你要咖啡吗?——要(一些)。"},
+      {fr:"Des amis ? J'<b>en</b> ai beaucoup.", zh:"朋友?我有很多。"},
+      {fr:"Il revient de Paris → Il <b>en</b> revient.", zh:"他从巴黎回来 → 他从那儿回来。"}
+    ],
+    tip:"<b>易错:</b>带数量时 en 保留数词:<em>Combien de frères ? — J'<b>en</b> ai deux.</em>(我有两个。)" },
+
+  { id:"a2-y", level:"A2", cat:"宾语代词与 en/y", catFr:"Pronoms compléments",
+    title:"Le pronom « y »", titleFr:"代词 y",
+    zh:"<b>y</b> 替代「<b>à</b> + 地点/物」或地点状语。",
+    fr:"« y » remplace « à + lieu/chose » ou un complément de lieu.",
+    ex:[
+      {fr:"Tu vas à Lyon ? — Oui, j'<b>y</b> vais.", zh:"你去里昂吗?——去(那儿)。"},
+      {fr:"Je pense à mon examen → J'<b>y</b> pense.", zh:"我在想我的考试 → 我在想这事。"}
+    ],
+    tip:"<b>易错:</b>「à + 人」用 lui/leur,不用 y(<em>Je pense à elle</em> 保留重读代词)。" },
+
+  // ---------- 代词式动词 / 命令式 ----------
+  { id:"a2-pronominaux", level:"A2", cat:"代词式动词与命令式", catFr:"Verbes pronominaux, impératif",
+    title:"Les verbes pronominaux", titleFr:"代词式(自反)动词",
+    zh:"代词式动词带反身代词(<b>me, te, se, nous, vous, se</b>),表示自反(se laver 洗自己)、相互(se parler 互相说)或固定用法(se souvenir)。<strong>复合时态一律用 être</strong>。",
+    fr:"Les verbes pronominaux portent un pronom réfléchi et se conjuguent avec « être » aux temps composés.",
+    forms:"<table><tr><th>se lever 起床</th><th></th></tr><tr><td>je me lève</td><td>nous nous levons</td></tr><tr><td>tu te lèves</td><td>vous vous levez</td></tr><tr><td>il se lève</td><td>ils se lèvent</td></tr></table>",
+    ex:[
+      {fr:"Je <b>me</b> lève à 7 heures.", zh:"我七点起床。"},
+      {fr:"Elle <b>s'</b>est couchée tard.", zh:"她睡得很晚。(复合时态用 être)"}
+    ],
+    tip:"<b>易错:</b>反身代词的人称要跟主语一致(je <b>me</b>、tu <b>te</b>)。否定:<em>Je <b>ne me</b> lève <b>pas</b>.</em>" },
+
+  { id:"a2-imperatif", level:"A2", cat:"代词式动词与命令式", catFr:"Verbes pronominaux, impératif",
+    title:"L'impératif", titleFr:"命令式",
+    zh:"命令式表示命令、建议、请求,只有<strong>三种人称</strong>(tu, nous, vous),<strong>省略主语</strong>。第一组动词及 aller 的 <b>tu</b> 形式去掉词尾 -s。",
+    fr:"L'impératif (ordre, conseil) existe à 3 personnes sans sujet exprimé. Le -s final tombe au « tu » des verbes en -er.",
+    forms:"<table><tr><th></th><th>parler</th><th>être</th><th>avoir</th></tr><tr><td>(tu)</td><td>parle !</td><td>sois !</td><td>aie !</td></tr><tr><td>(nous)</td><td>parlons !</td><td>soyons !</td><td>ayons !</td></tr><tr><td>(vous)</td><td>parlez !</td><td>soyez !</td><td>ayez !</td></tr></table>",
+    ex:[
+      {fr:"<b>Écoute</b> bien ! <b>Ne parlez pas</b> !", zh:"好好听!别说话!"},
+      {fr:"<b>Lève-toi</b> !", zh:"起来!(代词式肯定命令,te→toi 后置)"}
+    ],
+    tip:"<b>易错:</b>肯定命令时代词后置加连字符且 me/te→<b>moi/toi</b>(<em>Donne-<b>moi</b> ça</em>);否定命令代词回到动词前(<em>Ne me donne pas ça</em>)。" },
+
+  // ---------- 比较级 / 最高级 ----------
+  { id:"a2-comparatif", level:"A2", cat:"比较级与最高级", catFr:"Comparatif et superlatif",
+    title:"Le comparatif", titleFr:"比较级",
+    zh:"比较用 <b>plus / moins / aussi</b> + 形容词/副词 + <b>que</b>。比较名词数量用 <b>plus de / moins de / autant de</b>。",
+    fr:"Comparatif : plus / moins / aussi + adjectif + que. Avec un nom : plus de / moins de / autant de.",
+    ex:[
+      {fr:"Paul est <b>plus grand que</b> Marie.", zh:"保罗比玛丽高。"},
+      {fr:"J'ai <b>autant de</b> livres <b>que</b> toi.", zh:"我和你有一样多的书。"}
+    ],
+    tip:"<b>易错(不规则):</b>bon→<b>meilleur</b>(更好,形容词)、bien→<b>mieux</b>(更好,副词)。别说 *plus bon*。" },
+
+  { id:"a2-superlatif", level:"A2", cat:"比较级与最高级", catFr:"Comparatif et superlatif",
+    title:"Le superlatif", titleFr:"最高级",
+    zh:"最高级 <b>le/la/les plus / moins</b> + 形容词,表示「最…」。形容词若后置,定冠词重复。",
+    fr:"Superlatif : le/la/les plus / moins + adjectif.",
+    ex:[
+      {fr:"C'est <b>le plus</b> beau jour de ma vie.", zh:"这是我一生中最美好的一天。"},
+      {fr:"la ville <b>la plus</b> intéressante", zh:"最有趣的城市(后置,冠词重复)"}
+    ],
+    tip:"<b>易错:</b>不规则:le <b>meilleur</b>(最好的,形)/ le <b>mieux</b>(最好地,副)。「在…中」用 <b>de</b>:<em>le plus grand <b>de</b> la classe</em>。" },
+
+  // ---------- 关系代词(基础) ----------
+  { id:"a2-qui-que", level:"A2", cat:"关系代词(基础)", catFr:"Pronoms relatifs simples",
+    title:"Les pronoms relatifs « qui » / « que »", titleFr:"关系代词 qui / que",
+    zh:"关系代词连接两句、避免重复。<b>qui</b> 作从句<strong>主语</strong>(后接动词);<b>que</b> 作从句<strong>直接宾语</strong>(后接主语)。",
+    fr:"« qui » est sujet de la subordonnée ; « que » en est le complément d'objet direct.",
+    ex:[
+      {fr:"C'est l'homme <b>qui</b> habite ici.", zh:"这是住在这儿的男人。(qui=主语)"},
+      {fr:"Voici le livre <b>que</b> j'aime.", zh:"这是我喜欢的书。(que=宾语)"}
+    ],
+    tip:"<b>判断:</b>关系词后<strong>直接是动词</strong>→qui;后面<strong>是主语</strong>→que。que 在元音前缩 qu',qui <strong>永不</strong>缩写。" },
+
+  { id:"a2-ou-relatif", level:"A2", cat:"关系代词(基础)", catFr:"Pronoms relatifs simples",
+    title:"Le pronom relatif « où »", titleFr:"关系代词 où(地点/时间)",
+    zh:"<b>où</b> 引导<strong>地点或时间</strong>从句。",
+    fr:"« où » introduit une subordonnée de lieu ou de temps.",
+    ex:[
+      {fr:"La ville <b>où</b> je suis né.", zh:"我出生的城市。"},
+      {fr:"Le jour <b>où</b> il est parti.", zh:"他离开的那天。(时间也用 où!)"}
+    ],
+    tip:"<b>易错:</b>表时间的「那天/那年」用 <b>où</b> 而非 *quand*(<em>l'année <b>où</b>…</em>)。" },
+
+  // ---------- 数量 / 时间介词 / 礼貌条件式 ----------
+  { id:"a2-quantite", level:"A2", cat:"数量与时间表达", catFr:"Quantité et temps",
+    title:"Les expressions de quantité", titleFr:"数量表达",
+    zh:"数量副词/量词后一律接 <b>de</b>(无冠词):beaucoup de, un peu de, trop de, assez de, un kilo de, une bouteille de…",
+    fr:"Après un adverbe ou une mesure de quantité, on emploie « de » sans article.",
+    ex:[
+      {fr:"Il y a <b>beaucoup de</b> monde.", zh:"人很多。"},
+      {fr:"Je voudrais <b>un kilo de</b> pommes.", zh:"我想要一公斤苹果。"}
+    ],
+    tip:"<b>易错:</b>是 beaucoup <b>de</b> livres,不是 *beaucoup des livres*(除非特指)。" },
+
+  { id:"a2-temps-prep", level:"A2", cat:"数量与时间表达", catFr:"Quantité et temps",
+    title:"depuis / pendant / il y a / dans", titleFr:"时间介词对比 ⭐",
+    zh:"<b>depuis</b>(自…以来,持续到现在,+现在时)、<b>pendant</b>(持续多久)、<b>il y a</b>(…之前)、<b>dans</b>(…之后,将来)。",
+    fr:"depuis (origine, encore vrai) ; pendant (durée) ; il y a (passé, « il y a 3 ans ») ; dans (futur).",
+    ex:[
+      {fr:"J'apprends le français <b>depuis</b> deux ans.", zh:"我学法语两年了(还在学,用现在时)。"},
+      {fr:"Il est parti <b>il y a</b> une heure ; il revient <b>dans</b> dix minutes.", zh:"他一小时前走的;十分钟后回来。"}
+    ],
+    tip:"<b>易错:</b>「做某事多久了」用 <b>depuis + 现在时</b>(法语用现在时,中文是「了」)。il y a 在这里=「以前」,不是「有」。" },
+
+  { id:"a2-politesse", level:"A2", cat:"数量与时间表达", catFr:"Quantité et temps",
+    title:"Le conditionnel de politesse", titleFr:"礼貌的条件式(入门)",
+    zh:"条件式可用于<strong>委婉、礼貌</strong>的请求与愿望。最常用:<b>je voudrais</b>(我想要)、<b>j'aimerais</b>(我希望)、<b>pourriez-vous…?</b>(您能否…?)。完整条件式见 B1。",
+    fr:"Le conditionnel adoucit une demande (politesse) : je voudrais, j'aimerais, pourriez-vous…",
+    ex:[
+      {fr:"<b>Je voudrais</b> un café, s'il vous plaît.", zh:"我想要一杯咖啡,谢谢。"},
+      {fr:"<b>Pourriez-vous</b> m'aider ?", zh:"您能帮我吗?"}
+    ],
+    tip:"<b>对比:</b><em>Je veux</em>(我要,直接)显得生硬;<em>Je voudrais</em>(我想)更礼貌得体。" }
+]; /* A2-PLACEHOLDER */
+const B1 = [
+  // ---------- 时态扩展 ----------
+  { id:"b1-pqp", level:"B1", cat:"时态扩展", catFr:"Temps composés",
+    title:"Le plus-que-parfait", titleFr:"愈过去时(过去的过去)",
+    zh:"表示在另一个过去动作<strong>之前</strong>就已完成的动作。构成:<b>avoir/être 的未完成过去时(imparfait)</b> + 过去分词。配合规则同复合过去时。",
+    fr:"Le plus-que-parfait exprime une action antérieure à une autre action passée : auxiliaire à l'imparfait + participe passé.",
+    ex:[
+      {fr:"Quand je suis arrivé, le train <b>était</b> déjà <b>parti</b>.", zh:"我到的时候,火车已经开走了。"},
+      {fr:"Elle a raconté ce qu'elle <b>avait vu</b>.", zh:"她讲了她(之前)看到的事。"}
+    ],
+    tip:"<b>用途:</b>讲过去的事时区分先后层次(先发生的用 plus-que-parfait);也用于 si 假设第三型(见假设句)。" },
+
+  // ---------- 条件式 ----------
+  { id:"b1-cond-present", level:"B1", cat:"条件式", catFr:"Le conditionnel",
+    title:"Le conditionnel présent", titleFr:"条件式现在时",
+    zh:"构成:<strong>简单将来时的词干</strong> + <strong>未完成过去时的词尾</strong>(-ais, -ais, -ait, -ions, -iez, -aient)。用途:①礼貌 ②愿望 ③假设的结果(si+imparfait)④未经证实的传闻。",
+    fr:"Conditionnel = radical du futur + terminaisons de l'imparfait. Emplois : politesse, souhait, hypothèse, information non confirmée.",
+    forms:"<table><tr><th>parler</th><th>être</th><th>avoir</th></tr><tr><td>je parlerais</td><td>je serais</td><td>j'aurais</td></tr><tr><td>nous parlerions</td><td>nous serions</td><td>nous aurions</td></tr></table>",
+    ex:[
+      {fr:"<b>J'aimerais</b> voyager au Canada.", zh:"我想去加拿大旅行。(愿望)"},
+      {fr:"Selon la presse, il <b>serait</b> malade.", zh:"据报道,他可能病了。(传闻)"}
+    ],
+    tip:"<b>记忆:</b>词干和 futur 相同(ser-, aur-, ir-),词尾和 imparfait 相同。区分:je parlerai(将来)/ je parlerais(条件)。" },
+
+  { id:"b1-cond-passe", level:"B1", cat:"条件式", catFr:"Le conditionnel",
+    title:"Le conditionnel passé", titleFr:"条件式过去时",
+    zh:"构成:<b>avoir/être 的条件式现在时</b> + 过去分词。表示<strong>过去未实现的事、后悔、责备</strong>。",
+    fr:"Conditionnel passé = auxiliaire au conditionnel présent + participe passé. Exprime le regret, le reproche, l'irréel du passé.",
+    ex:[
+      {fr:"J'<b>aurais dû</b> partir plus tôt.", zh:"我本该早点走。(后悔)"},
+      {fr:"À ta place, je <b>n'aurais pas accepté</b>.", zh:"换作我,我不会答应的。"}
+    ],
+    tip:"<b>高频句型:</b>j'aurais dû / j'aurais pu / j'aurais aimé + 原形 = 「本该/本可以/本想」,口语书面都常用。" },
+
+  // ---------- 虚拟式 ----------
+  { id:"b1-subj-present", level:"B1", cat:"虚拟式现在时", catFr:"Le subjonctif présent",
+    title:"Le subjonctif présent : formation", titleFr:"虚拟式现在时:构成 ⭐",
+    zh:"虚拟式表达<strong>主观</strong>(意愿、情感、怀疑、必要),几乎总在 <b>que</b> 引导的从句中。构成:取 <b>ils</b> 现在时词干 + 词尾 <b>-e, -es, -e, -ions, -iez, -ent</b>(nous/vous 形同 imparfait)。",
+    fr:"Le subjonctif exprime la subjectivité. Radical = 3e personne pluriel du présent (ils) + terminaisons.",
+    forms:"<table><tr><th>规则(parler)</th><th>不规则</th></tr><tr><td>que je parle</td><td>être: que je sois</td></tr><tr><td>que tu parles</td><td>avoir: que j'aie</td></tr><tr><td>que nous parlions</td><td>aller: que j'aille</td></tr><tr><td>qu'ils parlent</td><td>faire: que je fasse / pouvoir: puisse / savoir: sache</td></tr></table>",
+    ex:[
+      {fr:"Il faut que tu <b>fasses</b> tes devoirs.", zh:"你必须做作业。"},
+      {fr:"Je veux que vous <b>soyez</b> à l'heure.", zh:"我要你们准时。"}
+    ],
+    tip:"<b>易错:</b>必须记牢 être/avoir/aller/faire/pouvoir/savoir/vouloir 的不规则虚拟式——B2 的虚拟式过去时建在这之上。" },
+
+  { id:"b1-subj-declencheurs", level:"B1", cat:"虚拟式现在时", catFr:"Le subjonctif présent",
+    title:"Les déclencheurs du subjonctif", titleFr:"触发虚拟式的词 ⭐",
+    zh:"虚拟式不是「随便用」,而是被特定结构<strong>触发</strong>。四大类 + 连词:①意愿(vouloir/souhaiter que)②情感(être content/avoir peur que)③怀疑/否定(douter que, ne pas penser que)④必要/判断(il faut que, il est important que)。",
+    fr:"Le subjonctif est déclenché par : volonté, émotion, doute, nécessité/jugement, et certaines conjonctions.",
+    forms:"<table><tr><th>类别</th><th>触发词</th></tr><tr><td>意愿</td><td>vouloir que, souhaiter que, exiger que</td></tr><tr><td>情感</td><td>être content/triste que, avoir peur que, regretter que</td></tr><tr><td>怀疑/必要</td><td>douter que, il faut que, il est possible que</td></tr><tr><td>连词</td><td>bien que, pour que, avant que, à condition que, jusqu'à ce que, à moins que</td></tr></table>",
+    ex:[
+      {fr:"<b>Bien qu'</b>il <b>soit</b> fatigué, il travaille.", zh:"尽管他累了,他还在工作。"},
+      {fr:"Je reste <b>jusqu'à ce que</b> tu <b>reviennes</b>.", zh:"我待到你回来为止。"}
+    ],
+    tip:"<b>关键对比:</b>espérer que + <strong>直陈式</strong>(j'espère qu'il viendra !),但 souhaiter que + 虚拟式。penser que 肯定用直陈,否定/疑问用虚拟。" },
+
+  // ---------- 假设句 ----------
+  { id:"b1-si", level:"B1", cat:"假设句 si", catFr:"L'hypothèse avec « si »",
+    title:"Les trois types de phrases avec « si »", titleFr:"si 假设句三型 ⭐",
+    zh:"<b>三种固定搭配,绝不能在 si 从句里用条件式!</b>①<strong>真实/可能</strong>:si+现在时 → 将来时;②<strong>现在的非真实</strong>:si+未完成过去 → 条件式现在;③<strong>过去的非真实</strong>:si+愈过去时 → 条件式过去。",
+    fr:"Trois constructions hypothétiques. Jamais de conditionnel directement après « si » !",
+    forms:"<table><tr><th>型</th><th>si 从句</th><th>主句</th></tr><tr><td>①可能</td><td>si + présent</td><td>futur</td></tr><tr><td>②现在非真实</td><td>si + imparfait</td><td>conditionnel présent</td></tr><tr><td>③过去非真实</td><td>si + plus-que-parfait</td><td>conditionnel passé</td></tr></table>",
+    ex:[
+      {fr:"<b>Si</b> j'ai le temps, je <b>viendrai</b>.", zh:"①如果我有空,我会来。"},
+      {fr:"<b>Si</b> j'avais le temps, je <b>viendrais</b>.", zh:"②(其实没空)如果我有空,我就来了。"},
+      {fr:"<b>Si</b> j'avais eu le temps, je <b>serais venu</b>.", zh:"③(当时没空)我要是有空就来了。"}
+    ],
+    tip:"<b>最高频错误:</b>*Si je serais riche…* ✗ → 应为 <em>Si j'<b>étais</b> riche…</em>。si 后只能是现在时/未完成过去/愈过去时。" },
+
+  // ---------- 间接引语 / 被动 ----------
+  { id:"b1-discours-indirect", level:"B1", cat:"间接引语", catFr:"Le discours indirect",
+    title:"Le discours indirect (au présent)", titleFr:"间接引语(现在)",
+    zh:"转述他人话语。陈述句用 <b>que</b>;是非问用 <b>si</b>;特殊疑问保留疑问词(quoi→<b>ce que</b>);命令用 <b>de + 原形</b>。人称、时间、指示词随之改变。",
+    fr:"Rapporter les paroles : que (déclaration), si (question oui/non), ce que (quoi), de + infinitif (ordre).",
+    ex:[
+      {fr:"Il dit : « Je suis fatigué » → Il dit <b>qu'</b>il est fatigué.", zh:"他说他累了。"},
+      {fr:"Elle demande : « Tu viens ? » → Elle demande <b>si</b> je viens.", zh:"她问我来不来。"},
+      {fr:"« Sors ! » → Il me dit <b>de</b> sortir.", zh:"他让我出去。"}
+    ],
+    tip:"<b>易错:</b>「什么」在间接引语里:Qu'est-ce que tu fais ? → Il demande <b>ce que</b> je fais。主句过去时要做时态后移(见 B2 时态呼应)。" },
+
+  { id:"b1-passif", level:"B1", cat:"被动语态", catFr:"La voix passive",
+    title:"La voix passive", titleFr:"被动语态",
+    zh:"被动:<b>être</b>(与原时态一致)+ <strong>过去分词</strong>(与主语配合)+ <b>par</b>(施动者)。时态由 être 承担。",
+    fr:"Passif = être (au temps voulu) + participe passé accordé avec le sujet + par + agent.",
+    ex:[
+      {fr:"Le voleur <b>a été arrêté par</b> la police.", zh:"小偷被警察抓了。"},
+      {fr:"Cette maison <b>est construite</b> en pierre.", zh:"这房子是石头建的。"}
+    ],
+    tip:"<b>易错:</b>只有<strong>及物动词</strong>(带直接宾语)能变被动。感受/状态有时用 <b>de</b> 而非 par(<em>aimé <b>de</b> tous</em>)。" },
+
+  // ---------- 代词进阶 ----------
+  { id:"b1-double-pronoms", level:"B1", cat:"代词进阶", catFr:"Pronoms : approfondissement",
+    title:"L'ordre des doubles pronoms", titleFr:"双代词的语序",
+    zh:"两个宾语代词同时出现时,语序固定:<b>me/te/se/nous/vous</b> → <b>le/la/les</b> → <b>lui/leur</b> → <b>y</b> → <b>en</b>。",
+    fr:"Ordre des pronoms compléments : me te se nous vous / le la les / lui leur / y / en.",
+    forms:"<table><tr><td>me te se<br>nous vous</td><td>le la les</td><td>lui leur</td><td>y</td><td>en</td></tr></table>",
+    ex:[
+      {fr:"Il me donne le livre → Il <b>me le</b> donne.", zh:"他把书给我 → 他把它给我。"},
+      {fr:"Tu donnes les clés à Paul ? → Tu <b>les lui</b> donnes ?", zh:"你把钥匙给保罗?→ 你把它们给他?"}
+    ],
+    tip:"<b>易错:</b>肯定命令式语序不同且后置:<em>Donne-<b>les-moi</b> !</em>(把它们给我!)" },
+
+  { id:"b1-possessifs-pron", level:"B1", cat:"代词进阶", catFr:"Pronoms : approfondissement",
+    title:"Les pronoms possessifs", titleFr:"主有代词(le mien…)",
+    zh:"代替「主有形容词+名词」,避免重复:<b>le mien/la mienne</b>(我的)、le tien、le sien、le nôtre、le vôtre、le leur,与所指名词性数一致。",
+    fr:"Le pronom possessif remplace « adjectif possessif + nom » : le mien, le tien, le sien, le nôtre, le vôtre, le leur.",
+    ex:[
+      {fr:"C'est ta voiture ? — Non, c'est <b>la sienne</b>.", zh:"这是你的车吗?——不,是他/她的。"},
+      {fr:"Mes idées et <b>les tiennes</b>.", zh:"我的想法和你的。"}
+    ],
+    tip:"<b>易错:</b>带定冠词,会与 à/de 缩合:<em>Je préfère mon vélo <b>au tien</b></em>(à+le tien)。" },
+
+  { id:"b1-demonstratifs-pron", level:"B1", cat:"代词进阶", catFr:"Pronoms : approfondissement",
+    title:"Les pronoms démonstratifs", titleFr:"指示代词(celui…)",
+    zh:"<b>celui/celle/ceux/celles</b>(这个/那个),后常接 <b>-ci/-là</b>、<b>de+名词</b>、或关系从句(qui/que/dont)。中性:<b>ce/ceci/cela/ça</b>。",
+    fr:"Pronoms démonstratifs : celui, celle, ceux, celles (+ -ci/-là, de…, qui/que…). Neutres : ce, ceci, cela, ça.",
+    ex:[
+      {fr:"Quel livre ? — <b>Celui de</b> Marie.", zh:"哪本书?——玛丽的那本。"},
+      {fr:"<b>Ceux qui</b> veulent partir peuvent.", zh:"想走的人可以走。"}
+    ],
+    tip:"<b>用途:</b><em>celui de</em> 表所属、<em>celui qui/que</em> 引出从句——议论文里指代上文非常好用。" },
+
+  { id:"b1-dont", level:"B1", cat:"代词进阶", catFr:"Pronoms : approfondissement",
+    title:"Le pronom relatif « dont »", titleFr:"关系代词 dont ⭐",
+    zh:"<b>dont</b> 替代结构中带 <b>de</b> 的成分:de 引导的动词补语(parler <b>de</b>、avoir besoin <b>de</b>)、所属关系(「…的」)、数量。",
+    fr:"« dont » remplace un complément introduit par « de » (verbe + de, possession, quantité).",
+    ex:[
+      {fr:"Le livre <b>dont</b> je t'ai parlé.", zh:"我跟你说过的那本书。(parler de)"},
+      {fr:"L'homme <b>dont</b> la voiture est rouge.", zh:"那辆车是红色的男人。(所属:他的车)"}
+    ],
+    tip:"<b>易错:</b>普遍薄弱!凡是动词/形容词搭配 <b>de</b>(avoir besoin de, être fier de, s'occuper de)都用 dont。语序:dont + 主语 + 动词。" },
+
+  // ---------- 非谓语 / 否定 / 连接 ----------
+  { id:"b1-gerondif", level:"B1", cat:"副动词与否定", catFr:"Gérondif et négations",
+    title:"Le gérondif", titleFr:"副动词(en + 现在分词)",
+    zh:"<b>en</b> + 现在分词(nous 词干+<b>-ant</b>),表示<strong>同时、方式、条件</strong>。<strong>主语必须与主句相同</strong>。",
+    fr:"Gérondif = « en » + participe présent. Exprime la simultanéité, la manière ou la condition. Même sujet que le verbe principal.",
+    ex:[
+      {fr:"Il chante <b>en travaillant</b>.", zh:"他一边工作一边唱歌。(同时)"},
+      {fr:"<b>En cherchant</b> bien, tu trouveras.", zh:"好好找的话,你会找到的。(条件)"}
+    ],
+    tip:"<b>易错:</b>三个不规则现在分词:être→<b>étant</b>,avoir→<b>ayant</b>,savoir→<b>sachant</b>。" },
+
+  { id:"b1-negations", level:"B1", cat:"副动词与否定", catFr:"Gérondif et négations",
+    title:"Les négations complexes", titleFr:"复杂否定",
+    zh:"除 ne…pas 外:<b>ne…plus</b>(不再)、<b>ne…jamais</b>(从不)、<b>ne…rien</b>(什么都不)、<b>ne…personne</b>(没人)、<b>ne…que</b>(只,=seulement,其实是限制非否定)、<b>ne…aucun(e)</b>(没有任何)。",
+    fr:"ne…plus, ne…jamais, ne…rien, ne…personne, ne…que (restriction = seulement), ne…aucun.",
+    ex:[
+      {fr:"Je <b>ne</b> bois <b>que</b> de l'eau.", zh:"我只喝水。(ne…que=只,非否定→不变 de!)"},
+      {fr:"Il <b>n'</b>y a <b>personne</b>.", zh:"没有人。"}
+    ],
+    tip:"<b>易错:</b>ne…que 是<strong>限制</strong>,后面冠词<strong>不变 de</strong>(对比 ne…pas de)。rien/personne 可作主语:<em>Personne n'est venu.</em>" },
+
+  { id:"b1-connecteurs-base", level:"B1", cat:"逻辑连接(基础)", catFr:"Connecteurs de base",
+    title:"Cause, conséquence, but", titleFr:"原因 · 结果 · 目的(基础)",
+    zh:"基础逻辑连接:<strong>原因</strong> parce que / car / puisque / comme(句首);<strong>结果</strong> donc / alors / c'est pourquoi;<strong>目的</strong> pour + 原形 / pour que + 虚拟式。(高级连接词见 B2)",
+    fr:"Cause : parce que, car, puisque, comme. Conséquence : donc, c'est pourquoi. But : pour (+inf.), pour que (+subj.).",
+    ex:[
+      {fr:"Je révise <b>parce que</b> j'ai un examen.", zh:"我复习是因为有考试。"},
+      {fr:"Je t'explique <b>pour que</b> tu <b>comprennes</b>.", zh:"我解释给你听,好让你明白。(pour que+虚拟)"}
+    ],
+    tip:"<b>区别:</b>parce que 回答「为什么」(放后);puisque/comme 引出<strong>已知</strong>原因;car 偏书面、不放句首。" }
+]; /* B1-PLACEHOLDER */
+const B2 = [
+  // ---------- 虚拟式进阶 ----------
+  { id:"b2-subj-passe", level:"B2", cat:"虚拟式进阶", catFr:"Subjonctif : approfondissement",
+    title:"Le subjonctif passé", titleFr:"虚拟式过去时 ⭐",
+    zh:"表示在主句之前已<strong>完成</strong>的主观动作。构成:<b>avoir/être 的虚拟式现在时</b> + 过去分词(que j'aie fait / que je sois venu)。",
+    fr:"Le subjonctif passé marque l'antériorité par rapport à la principale : avoir/être au subjonctif présent + participe passé.",
+    ex:[
+      {fr:"Je suis content que tu <b>sois venu</b>.", zh:"我很高兴你来了。(来在前,已完成)"},
+      {fr:"Bien qu'il <b>ait travaillé</b>, il a échoué.", zh:"尽管他努力了,还是失败了。"}
+    ],
+    tip:"<b>对比:</b>同时/将来用虚拟式现在(que tu viennes),已完成用虚拟式过去(que tu sois venu)。触发词与现在时完全相同。" },
+
+  { id:"b2-mode-choix", level:"B2", cat:"虚拟式进阶", catFr:"Subjonctif : approfondissement",
+    title:"Indicatif, subjonctif ou conditionnel ?", titleFr:"直陈/虚拟/条件式的选择 ⭐",
+    zh:"<strong>确定/客观事实</strong>→直陈式;<strong>主观(意愿/情感/怀疑)</strong>→虚拟式;<strong>假设/不确定/委婉</strong>→条件式。同一个动词换语气意义全变。",
+    fr:"Certitude → indicatif ; subjectivité → subjonctif ; hypothèse → conditionnel.",
+    ex:[
+      {fr:"Je pense qu'il <b>a</b> raison.", zh:"我认为他对。(肯定→直陈)"},
+      {fr:"Je ne pense pas qu'il <b>ait</b> raison.", zh:"我不认为他对。(否定→虚拟)"},
+      {fr:"Il <b>aurait</b> raison de partir.", zh:"他要是走也有道理。(假设→条件)"}
+    ],
+    tip:"<b>规律:</b>croire/penser/trouver/être sûr 在<strong>肯定句</strong>用直陈,<strong>否定/疑问</strong>转虚拟;il est probable que+直陈,但 il est possible que+虚拟。" },
+
+  // ---------- 时态呼应 ----------
+  { id:"b2-concordance", level:"B2", cat:"时态呼应", catFr:"Concordance des temps",
+    title:"La concordance des temps", titleFr:"时态呼应(间接引语过去)⭐",
+    zh:"主句是过去时,转述的从句时态要<strong>后移</strong>:现在时→未完成过去;复合过去→愈过去;简单将来→条件式现在;先将来→条件式过去。时间词也变(hier→la veille…)。",
+    fr:"Quand le verbe introducteur est au passé, les temps de la subordonnée reculent.",
+    forms:"<table><tr><th>直接</th><th>间接(主句过去)</th></tr><tr><td>présent</td><td>imparfait</td></tr><tr><td>passé composé</td><td>plus-que-parfait</td></tr><tr><td>futur</td><td>conditionnel présent</td></tr><tr><td>aujourd'hui / demain / hier</td><td>ce jour-là / le lendemain / la veille</td></tr></table>",
+    ex:[
+      {fr:"« Je viendrai demain. » → Il a dit qu'il <b>viendrait le lendemain</b>.", zh:"他说他第二天会来。"},
+      {fr:"« J'ai fini. » → Elle a dit qu'elle <b>avait fini</b>.", zh:"她说她已经完成了。"}
+    ],
+    tip:"<b>易错:</b>这是听力转述与书面引述的核心。时态后移 + 人称/时间/指示词三类一起改。" },
+
+  // ---------- 非谓语进阶 ----------
+  { id:"b2-participe-present", level:"B2", cat:"非谓语进阶", catFr:"Participe et propositions",
+    title:"Le participe présent et la proposition participiale", titleFr:"现在分词与分词从句",
+    zh:"现在分词(-ant)可<strong>替代关系从句(qui…)</strong>或表<strong>原因</strong>;当它有<strong>自己的主语</strong>时构成「分词独立从句」(书面)。与副动词区别:现在分词<strong>不带 en</strong>、可不同主语。",
+    fr:"Le participe présent remplace une relative (qui…) ou exprime la cause. Avec un sujet propre = proposition participiale (registre écrit).",
+    ex:[
+      {fr:"Les personnes <b>parlant</b> français… (= qui parlent)", zh:"说法语的人……(替代 qui 从句)"},
+      {fr:"<b>Le train ayant du retard</b>, nous avons attendu.", zh:"由于火车晚点,我们等了。(分词独立从句,自带主语)"}
+    ],
+    tip:"<b>区别三者:</b>en travaillant(副动词,同主语/同时)≠ travaillant(现在分词,替代从句/原因)≠ 形容词性 -ant(un livre intéress<b>ant</b>,要配合)。" },
+
+  { id:"b2-se-faire", level:"B2", cat:"非谓语进阶", catFr:"Participe et propositions",
+    title:"« se faire / se voir » + infinitif", titleFr:"被动替代:se faire / se voir + 原形",
+    zh:"用 <b>se faire</b> / <b>se voir</b> + 原形表达被动,强调主语<strong>承受</strong>某事(常带遭遇意味),书面新闻常见。",
+    fr:"« se faire / se voir + infinitif » : tournure passive mettant l'accent sur le sujet qui subit l'action.",
+    ex:[
+      {fr:"Il <b>s'est fait voler</b> son portefeuille.", zh:"他的钱包被偷了。"},
+      {fr:"Elle <b>s'est vu refuser</b> l'entrée.", zh:"她被拒绝入内。"}
+    ],
+    tip:"<b>用途:</b>当施动者不明或想突出受害/受影响的主语时很自然;比标准被动更口语化、也更显地道。" },
+
+  // ---------- 关系代词进阶 ----------
+  { id:"b2-relatifs-composes", level:"B2", cat:"关系代词进阶", catFr:"Relatifs composés",
+    title:"Les pronoms relatifs composés", titleFr:"复合关系代词(lequel…)⭐",
+    zh:"「介词 + 关系代词」,指<strong>物</strong>为主(指人可用 qui):<b>lequel/laquelle/lesquels/lesquelles</b>;与 <b>à</b> 缩合为 <b>auquel/auxquels/auxquelles</b>(阴单 à laquelle 不缩)。<strong>⚠️ 单个 de 引导的补语用 <b>dont</b>,不是 duquel</strong>;只有在<strong>以 de 结尾的介词短语</strong>(à côté de、près de、au cours de…)后才用 <b>duquel/de laquelle/desquels</b>。中性:<b>ce dont、ce à quoi、ce sur quoi</b>。",
+    fr:"Préposition + lequel/auquel/de laquelle… (choses surtout ; personnes : qui). Attention : « de » seul → dont ; duquel/desquels seulement après une locution en « de » (à côté de…).",
+    ex:[
+      {fr:"Le projet <b>auquel</b> je pense. (penser à)", zh:"我在想的那个项目。"},
+      {fr:"La raison <b>pour laquelle</b> je suis venu.", zh:"我来的原因。"},
+      {fr:"Le pont <b>à côté duquel</b> j'habite. (à côté de)", zh:"我住在旁边的那座桥。(短语以 de 结尾 → duquel)"},
+      {fr:"Voici <b>ce à quoi</b> je m'attendais.", zh:"这正是我所期待的。"}
+    ],
+    tip:"<b>对比:</b>le livre <b>dont</b> je parle(parler de,单 de → dont)↔ la maison <b>près de laquelle</b> j'habite(短语 près de → de laquelle)。<b>指人:</b>介词后优先用 qui(la personne <b>avec qui</b>…);parmi/entre 后指人用 lesquels。" },
+
+  // ---------- 强调与名词化 ----------
+  { id:"b2-mise-relief", level:"B2", cat:"强调与名词化", catFr:"Mise en relief, nominalisation",
+    title:"La mise en relief", titleFr:"强调句 mise en relief",
+    zh:"突出句子某成分:<b>c'est … qui</b>(强调主语)/ <b>c'est … que</b>(强调其他成分);<b>ce qui / ce que … , c'est …</b>(把重点后置)。",
+    fr:"Mettre en valeur un élément : c'est … qui/que ; ce qui/ce que…, c'est…",
+    ex:[
+      {fr:"<b>C'est</b> Marie <b>qui</b> a raison.", zh:"是玛丽对(而不是别人)。"},
+      {fr:"<b>Ce que</b> je veux, <b>c'est</b> la paix.", zh:"我想要的,是和平。"}
+    ],
+    tip:"<b>用途:</b>口语和议论文里调整信息重点的利器;开头 <em>Ce qui me frappe, c'est…</em> 是很地道的表态开场。" },
+
+  { id:"b2-nominalisation", level:"B2", cat:"强调与名词化", catFr:"Mise en relief, nominalisation",
+    title:"La nominalisation", titleFr:"名词化",
+    zh:"把动词/形容词转成名词,使行文更<strong>正式、紧凑</strong>(新闻标题、议论文)。常见后缀:-tion, -ment, -age, -té, -ure。",
+    fr:"Transformer un verbe/adjectif en nom : registre écrit, titres, style soutenu. Suffixes : -tion, -ment, -té…",
+    ex:[
+      {fr:"Les prix augmentent. → <b>L'augmentation</b> des prix.", zh:"物价上涨 → 物价的上涨。"},
+      {fr:"Le président est arrivé. → <b>L'arrivée</b> du président.", zh:"总统到达 → 总统的到达。"}
+    ],
+    tip:"<b>用途:</b>让书面表达更地道、紧凑——同一信息用名词化更显书面 B2 语感。多积累「动词↔名词」配对。" },
+
+  // ---------- 时态 ----------
+  { id:"b2-futur-anterieur", level:"B2", cat:"时态补全", catFr:"Le futur antérieur",
+    title:"Le futur antérieur", titleFr:"先将来时",
+    zh:"表示在另一个将来动作<strong>之前</strong>就会完成的事。构成:<b>avoir/être 的简单将来时</b> + 过去分词。常与 quand / dès que / une fois que 连用。",
+    fr:"Le futur antérieur exprime une action achevée avant une autre action future : avoir/être au futur + participe passé.",
+    ex:[
+      {fr:"Quand j'<b>aurai fini</b>, je t'appellerai.", zh:"等我完成了,我就给你打电话。"},
+      {fr:"Dès qu'il <b>sera arrivé</b>, nous partirons.", zh:"他一到,我们就出发。"}
+    ],
+    tip:"<b>易错:</b>「等…之后再…」:从句先完成用先将来,主句用简单将来——两个都用将来,中文却常是「了」。" },
+
+  // ---------- 逻辑连接(高级) ----------
+  { id:"b2-opposition-concession", level:"B2", cat:"逻辑连接(高级)", catFr:"Articulateurs : opposition, concession",
+    title:"Opposition et concession", titleFr:"对立与让步 ⭐",
+    zh:"<strong>对立</strong>(两事并列相反):alors que, tandis que, contrairement à, en revanche, par contre。<strong>让步</strong>(预期之外):<b>bien que/quoique</b>(+虚拟)、<b>malgré</b>(+名词)、<b>avoir beau</b>(+原形)、même si(+直陈)、pourtant, cependant, néanmoins, toutefois, quand même。",
+    fr:"Opposition : alors que, tandis que, en revanche. Concession : bien que (+subj), malgré (+nom), avoir beau (+inf), même si (+indic), pourtant.",
+    ex:[
+      {fr:"<b>Bien qu'</b>il <b>soit</b> riche, il est malheureux.", zh:"尽管他富有,却不幸福。(bien que+虚拟)"},
+      {fr:"Il <b>a beau</b> insister, je refuse.", zh:"他再坚持也没用,我拒绝。(avoir beau+原形)"},
+      {fr:"<b>Malgré</b> la pluie, ils sont sortis.", zh:"尽管下雨,他们还是出门了。(malgré+名词)"}
+    ],
+    tip:"<b>易错:</b>bien que / quoique 后<strong>必须虚拟式</strong>;malgré 后<strong>必须名词</strong>(不能跟句子);même si 后用<strong>直陈式</strong>(不是虚拟)。" },
+
+  { id:"b2-cause-consequence", level:"B2", cat:"逻辑连接(高级)", catFr:"Articulateurs : cause, conséquence",
+    title:"Cause et conséquence (soutenu)", titleFr:"原因与结果(高级)",
+    zh:"<strong>原因</strong>:étant donné que, du fait de, en raison de, compte tenu de, sous prétexte que, faute de;<b>grâce à</b>(正面)/ <b>à cause de</b>(负面)。<strong>结果</strong>:si bien que, de (telle) sorte que, <b>tellement/si … que</b>, <b>tant de … que</b>, au point que, d'où。",
+    fr:"Cause : étant donné que, en raison de, faute de, grâce à / à cause de. Conséquence : si bien que, tellement…que, au point que.",
+    ex:[
+      {fr:"Il a <b>tellement</b> travaillé <b>qu'</b>il est épuisé.", zh:"他工作得如此之多,以致筋疲力尽。"},
+      {fr:"<b>En raison du</b> mauvais temps, le vol est annulé.", zh:"由于天气恶劣,航班取消。"}
+    ],
+    tip:"<b>语域:</b>口语 parce que / donc → 书面升级为 étant donné que / par conséquent / si bien que,作文里轮换使用显层次。" },
+
+  { id:"b2-but-condition", level:"B2", cat:"逻辑连接(高级)", catFr:"Articulateurs : but, condition",
+    title:"But, condition, hypothèse", titleFr:"目的与条件(高级)",
+    zh:"<strong>目的</strong>:afin que(+虚拟)/ afin de(+原形)、de peur que、de manière à、en vue de。<strong>条件</strong>:à condition que(+虚拟)、pourvu que、à moins que(+ne)、au cas où(+条件式)、pour peu que。",
+    fr:"But : afin que (+subj), afin de (+inf), de peur que. Condition : à condition que (+subj), à moins que, au cas où (+conditionnel).",
+    ex:[
+      {fr:"Je t'aide <b>afin que</b> tu <b>réussisses</b>.", zh:"我帮你,好让你成功。(afin que+虚拟)"},
+      {fr:"<b>Au cas où</b> il <b>pleuvrait</b>, prends un parapluie.", zh:"万一下雨,带把伞。(au cas où+条件式)"}
+    ],
+    tip:"<b>易错:</b>同主语用 afin <b>de</b>+原形,异主语用 afin <b>que</b>+虚拟。au cas où 后接<strong>条件式</strong>(独特!)。" },
+
+  // ---------- 配合规则 ----------
+  { id:"b2-accord-pp", level:"B2", cat:"过去分词配合", catFr:"Accord du participe passé",
+    title:"L'accord du participe passé (avancé)", titleFr:"过去分词配合(进阶)⭐",
+    zh:"三条规则:①<b>être</b> 作助动词 → 与<strong>主语</strong>配合;②<b>avoir</b> 作助动词 → 仅当<strong>直接宾语提前</strong>(在动词之前)时与该宾语配合;③<strong>代词式动词</strong> → 反身代词是直接宾语时配合,后面另有直接宾语则不配合。",
+    fr:"être → accord avec le sujet ; avoir → accord avec le COD si placé avant ; pronominaux → accord si le pronom est COD.",
+    ex:[
+      {fr:"Les fleurs que j'ai <b>achetées</b> sont belles.", zh:"我买的花很美。(que=COD 提前→配合)"},
+      {fr:"Elle s'est <b>lavée</b>. / Elle s'est <b>lavé</b> les mains.", zh:"她洗了(自己)。/ 她洗了手。(后者 COD 在后→不配合)"},
+      {fr:"Elles se sont <b>parlé</b>.", zh:"她们互相说了话。(se=COI→不配合)"}
+    ],
+    tip:"<b>易错:</b>avoir 时默认<strong>不配合</strong>,只有 COD(que / 提前的代词 le/la/les)在前才配合。se parler/se téléphoner 的 se 是间接宾语,永不配合。" },
+
+  // ---------- 语域与措辞 ----------
+  { id:"b2-registres", level:"B2", cat:"语域与措辞", catFr:"Registres et nuances",
+    title:"Les registres de langue", titleFr:"语域(正式/通用/口语)",
+    zh:"同一意思按场合分<strong>三个语域</strong>:soutenu(正式书面)/ courant(中性通用)/ familier(口语随便)。B2 要能<strong>识别并按场合切换</strong>(写作偏 soutenu/courant,角色扮演口语可 familier)。",
+    fr:"Trois registres : soutenu, courant, familier. Au B2, savoir les reconnaître et les adapter au contexte.",
+    forms:"<table><tr><th>familier</th><th>courant</th><th>soutenu</th></tr><tr><td>bosser</td><td>travailler</td><td>œuvrer</td></tr><tr><td>un truc</td><td>une chose</td><td>un élément</td></tr><tr><td>Ça va ?</td><td>Comment allez-vous ?</td><td>Comment vous portez-vous ?</td></tr></table>",
+    ex:[
+      {fr:"<b>familier:</b> Je suis crevé. / <b>courant:</b> Je suis fatigué. / <b>soutenu:</b> Je suis épuisé.", zh:"我累死了 / 我累了 / 我疲惫不堪。"}
+    ],
+    tip:"<b>易错:</b>写作里别用 familier(on→nous、ça→cela、des trucs→des éléments);疑问句别全用语调,适当倒装更正式。" },
+
+  { id:"b2-modalisation", level:"B2", cat:"语域与措辞", catFr:"Registres et nuances",
+    title:"La modalisation", titleFr:"情态弱化 / 留有分寸",
+    zh:"用<strong>缓和、留余地</strong>的措辞表达观点,显得有分寸、像 B2 母语者:il semblerait que, on pourrait avancer que, dans une certaine mesure, il n'est pas exclu que, sans doute(+倒装)。",
+    fr:"Nuancer son propos : il semblerait que, on pourrait dire que, dans une certaine mesure, sans doute…",
+    ex:[
+      {fr:"<b>Il semblerait que</b> la situation s'améliore.", zh:"情况似乎在好转。(留余地)"},
+      {fr:"<b>On pourrait avancer que</b> ce choix est risqué.", zh:"或许可以说,这一选择有风险。"}
+    ],
+    tip:"<b>用途:</b>议论文避免绝对化(把 c'est faux 换成 cela paraît discutable),既显成熟又防被反驳。" },
+
+  { id:"b2-adj-sens", level:"B2", cat:"语域与措辞", catFr:"Registres et nuances",
+    title:"Adjectifs à sens variable", titleFr:"位置影响词义的形容词",
+    zh:"少数形容词<strong>前置/后置意义不同</strong>:un <b>ancien</b> élève(以前的)/ un objet <b>ancien</b>(古老的);mon <b>propre</b> bureau(自己的)/ un bureau <b>propre</b>(干净的);un <b>cher</b> ami(亲爱的)/ un repas <b>cher</b>(昂贵的);un <b>grand</b> homme(伟人)/ un homme <b>grand</b>(高个)。",
+    fr:"Certains adjectifs changent de sens selon leur place : ancien, propre, cher, grand, seul, dernier, pauvre…",
+    ex:[
+      {fr:"la <b>dernière</b> semaine (最后一周) / la semaine <b>dernière</b> (上周)", zh:"最后一周 / 上周。"},
+      {fr:"un <b>pauvre</b> homme (可怜的人) / un homme <b>pauvre</b> (穷人)", zh:"可怜的人 / 贫穷的人。"}
+    ],
+    tip:"<b>用途:</b>B2 阅读理解与精准表达的细节分;遇到这些词留意位置,意思可能完全相反。" }
+]; /* B2-PLACEHOLDER */
+
+const C1 = [
+  // ---------- 文学时态(识别) ----------
+  { id:"c1-passe-simple", level:"C1", cat:"文学时态(识别为主)", catFr:"Temps littéraires",
+    title:"Le passé simple", titleFr:"简单过去时(文学叙事)",
+    zh:"书面/文学叙事中表示已完成、不重复的动作(口语、书信几乎不用,但<strong>阅读必须认识</strong>)。第一组 -er → -ai/-as/-a/-âmes/-âtes/-èrent;-ir/-re/-oir 多为 -is… 或 -us…。",
+    fr:"Le passé simple est le temps du récit écrit/littéraire (action achevée, ponctuelle). À reconnaître en lecture.",
+    forms:"<table><tr><th>parler</th><th>finir</th><th>être</th><th>avoir</th><th>faire</th></tr><tr><td>il parla</td><td>il finit</td><td>il fut</td><td>il eut</td><td>il fit</td></tr><tr><td>ils parlèrent</td><td>ils finirent</td><td>ils furent</td><td>ils eurent</td><td>ils firent</td></tr></table>",
+    ex:[
+      {fr:"Il <b>entra</b>, <b>salua</b> et s'<b>assit</b>.", zh:"他进来,打了招呼,坐下。"},
+      {fr:"Victor Hugo <b>naquit</b> en 1802 et <b>mourut</b> en 1885.", zh:"雨果生于 1802 年,卒于 1885 年。"}
+    ],
+    tip:"<b>用途:</b>功能等同口语的 passé composé,与 imparfait 配合(背景 imparfait + 推进 passé simple)。C1 重点是<strong>读懂</strong>,不必口头使用。" },
+
+  { id:"c1-subj-imparfait", level:"C1", cat:"文学时态(识别为主)", catFr:"Temps littéraires",
+    title:"L'imparfait du subjonctif", titleFr:"虚拟式未完成过去时(文学)",
+    zh:"文学语体中,主句为过去时时与之呼应(现代口语一律用<strong>虚拟式现在时</strong>代替)。由简单过去时派生:qu'il parlât, qu'il fût, qu'il eût, qu'il vînt。<strong>以识别为主</strong>。",
+    fr:"Subjonctif imparfait : concordance soutenue après une principale au passé (remplacé par le subjonctif présent à l'oral).",
+    forms:"<table><tr><th>parler</th><th>être</th><th>avoir</th><th>venir</th></tr><tr><td>qu'il parlât</td><td>qu'il fût</td><td>qu'il eût</td><td>qu'il vînt</td></tr></table>",
+    ex:[
+      {fr:"Il fallait qu'il <b>partît</b> sur-le-champ.", zh:"当时他必须立刻动身。(现代:qu'il parte)"},
+      {fr:"Je craignais qu'elle ne <b>vînt</b> pas.", zh:"我怕她不来。(现代:qu'elle ne vienne pas)"}
+    ],
+    tip:"<b>易混:</b>qu'il <b>fût</b>(虚拟式未完成,带 ^)≠ il <b>fut</b>(简单过去)。日常写作用虚拟式现在时即可。" },
+
+  { id:"c1-cond-2e", level:"C1", cat:"文学时态(识别为主)", catFr:"Temps littéraires",
+    title:"Le conditionnel passé 2ᵉ forme", titleFr:"条件式过去时第二式(文学)",
+    zh:"文学语体里用<strong>虚拟式愈过去时</strong>(eût/fût + 过去分词)代替条件式过去时,多见于固定表达。",
+    fr:"Forme littéraire = subjonctif plus-que-parfait à valeur de conditionnel passé.",
+    ex:[
+      {fr:"Il <b>eût aimé</b> vous connaître.", zh:"他本会愿意认识您。(= il aurait aimé)"},
+      {fr:"On <b>eût dit</b> un rêve.", zh:"简直像一场梦。(= on aurait dit)"},
+      {fr:"Il <b>eût fallu</b> agir plus tôt.", zh:"本该早点行动。(= il aurait fallu)"}
+    ],
+    tip:"<b>高频固定:</b>on eût dit、il eût fallu、j'eusse préféré。识别为主,知道它 = 条件式过去即可。" },
+
+  // ---------- 倒装与强调 ----------
+  { id:"c1-inversion", level:"C1", cat:"倒装与强调", catFr:"Inversion et emphase",
+    title:"L'inversion stylistique du sujet", titleFr:"文体性主谓倒装 ⭐",
+    zh:"某些副词置于<strong>句首</strong>时,主谓<strong>倒装</strong>:<b>aussi</b>(=因此)、<b>à peine… que</b>、<b>peut-être</b>、<b>sans doute</b>、<b>encore</b>、<b>du moins</b>、<b>ainsi</b>、<b>en vain</b>。",
+    fr:"Après certains adverbes en tête de phrase, on inverse sujet et verbe (registre soutenu).",
+    ex:[
+      {fr:"<b>Peut-être viendra-t-il</b> demain.", zh:"也许他明天会来。"},
+      {fr:"<b>À peine</b> était-il sorti <b>qu'</b>il se mit à pleuvoir.", zh:"他刚出门就下起了雨。"},
+      {fr:"Il pleuvait ; <b>aussi sommes-nous</b> restés.", zh:"下雨了,因此我们留了下来。"}
+    ],
+    tip:"<b>易错:</b>句首 <b>aussi</b> = 「因此」要倒装;句中 aussi = 「也」<strong>不</strong>倒装。口语可用 du coup / donc 替代。" },
+
+  { id:"c1-dislocation", level:"C1", cat:"倒装与强调", catFr:"Inversion et emphase",
+    title:"La dislocation et la mise en relief", titleFr:"移位复指与强调",
+    zh:"把成分<strong>移到句首/句尾并用代词复指</strong>(dislocation),突出主题、口吻地道;或叠加 c'est…qui/que。",
+    fr:"La dislocation détache un élément et le reprend par un pronom — très fréquent à l'oral.",
+    ex:[
+      {fr:"<b>Moi</b>, ce film, je <b>l'</b>ai adoré.", zh:"我嘛,这部电影,我超爱。"},
+      {fr:"<b>Ce qui</b> compte, <b>c'est</b> l'effort.", zh:"重要的是努力。"},
+      {fr:"Il est génial, <b>ton</b> frère.", zh:"你哥哥真棒。(句尾复指)"}
+    ],
+    tip:"<b>语域:</b>dislocation 是地道<strong>口语</strong>标志;书面议论文则多用 c'est…que / ce qui…c'est。" },
+
+  // ---------- 高级让步与假设 ----------
+  { id:"c1-concession-indefinie", level:"C1", cat:"高级让步与假设", catFr:"Concession et hypothèse",
+    title:"La concession indéfinie", titleFr:"无论…(quoi que / quel que)⭐",
+    zh:"「无论…」结构,后接<strong>虚拟式</strong>:<b>quoi que</b>(无论什么)、<b>qui que</b>(无论谁)、<b>où que</b>(无论哪里)、<b>quel(le) que + être</b>(无论…是什么,quel 与主语配合)、<b>si/aussi/quelque + 形容词 + que</b>(无论多么…)。",
+    fr:"Concession indéfinie + subjonctif : quoi que, qui que, où que, quel que (+ accord), si/aussi… que.",
+    ex:[
+      {fr:"<b>Quoi que</b> tu <b>fasses</b>, je te soutiens.", zh:"无论你做什么,我都支持你。"},
+      {fr:"<b>Quel que soit</b> le résultat, restons calmes.", zh:"无论结果如何,我们保持冷静。"},
+      {fr:"<b>Si</b> difficile que ce <b>soit</b>, persévère.", zh:"无论多难,坚持下去。"}
+    ],
+    tip:"<b>易错:</b><b>quoique</b>(一个词 = bien que,「尽管」)≠ <b>quoi que</b>(两个词 = 「无论什么」)。<b>quel que</b> 分写,quel 与后面主语配合(quelle que soit、quels que soient)。" },
+
+  { id:"c1-hypothese-sans-si", level:"C1", cat:"高级让步与假设", catFr:"Concession et hypothèse",
+    title:"L'hypothèse sans « si »", titleFr:"不用 si 表假设",
+    zh:"不用 si 表假设:<b>au cas où</b>(+条件式)、<b>à condition de</b>(+原形)/<b>à condition que</b>(+虚拟)、<b>avec/sans</b> + 名词、<b>gérondif</b>(en + 分词)、<b>à supposer que / en admettant que / pour peu que</b>(+虚拟)。",
+    fr:"Exprimer l'hypothèse autrement qu'avec « si » : au cas où, à condition de/que, gérondif, avec/sans, pour peu que…",
+    ex:[
+      {fr:"<b>En travaillant</b> davantage, tu réussirais.", zh:"再用功些,你就能成功。(= Si tu travaillais plus)"},
+      {fr:"<b>Au cas où</b> tu <b>aurais</b> faim, il y a du pain.", zh:"万一你饿了,有面包。"},
+      {fr:"<b>Avec</b> un peu de chance, on y arrivera.", zh:"运气好的话,我们能做到。"}
+    ],
+    tip:"<b>易错:</b>au cas où 接<strong>条件式</strong>(独特!);gérondif 表假设要求与主句<strong>同主语</strong>。" },
+
+  // ---------- 虚拟式与配合细节 ----------
+  { id:"c1-ne-expletif", level:"C1", cat:"虚拟式与配合细节", catFr:"Subjonctif et accords",
+    title:"Le « ne » explétif", titleFr:"赘词 ne(不表否定)⭐",
+    zh:"「赘词 ne」<strong>不表否定</strong>,出现在 craindre/avoir peur que、avant que、à moins que、de peur/crainte que、empêcher que,以及<strong>不等比较</strong>(plus/moins/autre… que)之后;属较正式语体,常可省略。",
+    fr:"Le « ne » explétif n'est pas une négation (registre soutenu, souvent facultatif).",
+    ex:[
+      {fr:"Je crains qu'il <b>ne</b> soit trop tard.", zh:"我怕太晚了。(并非否定!)"},
+      {fr:"Pars avant qu'il <b>ne</b> pleuve.", zh:"趁还没下雨走吧。"},
+      {fr:"Il est plus malin qu'on <b>ne</b> le pense.", zh:"他比人们想的更精明。"}
+    ],
+    tip:"<b>易错:</b>别把 ne explétif 当否定翻译!要表真正否定得用 ne…pas(à moins qu'il ne vienne <b>pas</b> = 除非他不来)。" },
+
+  { id:"c1-accord-avance", level:"C1", cat:"虚拟式与配合细节", catFr:"Subjonctif et accords",
+    title:"L'accord du participe passé (cas avancés)", titleFr:"过去分词配合(高级难点)⭐",
+    zh:"几类难配合:① <b>fait</b> + 原形<strong>永不配合</strong>(elle s'est fait mal;les robes qu'elle a fait faire);② 过去分词 + 原形:提前的 COD 是原形动作的<strong>施动者</strong>则配合,否则不配合;③ COD 是 <b>en</b> 时一般<strong>不配合</strong>。",
+    fr:"Cas pièges : fait + inf. invariable ; participe + infinitif (accord si le COD fait l'action) ; COD = en → pas d'accord.",
+    ex:[
+      {fr:"Les artistes que j'ai <b>vus</b> chanter.", zh:"我看见唱歌的艺术家们。(他们在唱→配合)"},
+      {fr:"La chanson que j'ai <b>entendu</b> chanter.", zh:"我听人唱的那首歌。(歌是被唱→不配合)"},
+      {fr:"Des fautes ? J'en ai <b>fait</b>.", zh:"错误?我犯过一些。(COD=en→不配合)"}
+    ],
+    tip:"<b>口诀:</b>提前的是「做动作的人」→配合;是「被动作的物」→不配合。<b>fait + 原形</b>一律写 fait。" },
+
+  // ---------- 高级连接与从句 ----------
+  { id:"c1-connecteurs-soutenus", level:"C1", cat:"高级连接与从句", catFr:"Articulation soutenue",
+    title:"Connecteurs logiques soutenus", titleFr:"高级逻辑连接词 ⭐",
+    zh:"<b>d'autant (plus/moins) que</b>(尤其因为)、<b>dans la mesure où</b>(就…而言/鉴于)、<b>quitte à</b>(哪怕要)、<b>sans quoi / faute de quoi</b>(否则)、<b>dès lors que</b>(既然/一旦)、<b>or</b>(然而,引入新论据)。",
+    fr:"Articulateurs soutenus : d'autant que, dans la mesure où, quitte à, sans quoi, dès lors que, or.",
+    ex:[
+      {fr:"Il est <b>d'autant plus</b> déçu <b>qu'</b>il espérait gagner.", zh:"他更失望,因为本指望能赢。"},
+      {fr:"Dépêchons-nous, <b>sans quoi</b> nous serons en retard.", zh:"快点,否则要迟到。"},
+      {fr:"Tous le savaient. <b>Or</b>, personne n'agit.", zh:"人人都知道。然而无人行动。"}
+    ],
+    tip:"<b>用途:</b><b>or</b> 在论证中引入「与预期相反的事实/新前提」,是法语议论文的标志性连接词。" },
+
+  { id:"c1-apres-que", level:"C1", cat:"高级连接与从句", catFr:"Articulation soutenue",
+    title:"« après que » + indicatif", titleFr:"après que 接直陈式 ⭐",
+    zh:"<b>après que</b> 按规范接<strong>直陈式</strong>(动作已实现),而 <b>avant que</b> 接<strong>虚拟式</strong>——这是高频「过度纠正」错点(连母语者也常误用虚拟)。",
+    fr:"« après que » + indicatif (fait réel) ; « avant que » + subjonctif. Erreur très fréquente.",
+    ex:[
+      {fr:"<b>Après qu'</b>il <b>est</b> parti, j'ai rangé.", zh:"他走之后,我收拾了。(直陈式)"},
+      {fr:"Range <b>avant qu'</b>il <b>arrive</b>.", zh:"在他到之前收拾好。(虚拟式)"}
+    ],
+    tip:"<b>记:</b>après que = 事已发生 → 直陈式。别写成 *après qu'il soit parti*(常见错误)。" },
+
+  { id:"c1-impersonnelles", level:"C1", cat:"高级连接与从句", catFr:"Articulation soutenue",
+    title:"Les tournures impersonnelles soutenues", titleFr:"正式无人称句式",
+    zh:"正式语体的客观表达:<b>il convient de</b>(宜/应)、<b>il importe que</b>(+虚拟,重要的是)、<b>il s'avère que</b>(事实证明)、<b>force est de constater que</b>(不得不承认)、<b>il va de soi que</b>(不言而喻)、<b>il n'empêche que</b>(尽管如此)。",
+    fr:"Tournures impersonnelles soutenues : il convient de, il importe que (+subj), il s'avère que, force est de constater que…",
+    ex:[
+      {fr:"<b>Il convient de</b> rester prudent.", zh:"宜保持谨慎。"},
+      {fr:"<b>Force est de constater que</b> rien n'a changé.", zh:"不得不承认,什么都没变。"}
+    ],
+    tip:"<b>用途:</b>正式书面的「高级句架」;il importe que / il convient que 接<strong>虚拟式</strong>。" },
+
+  // ---------- 正字法 ----------
+  { id:"c1-adj-verbal", level:"C1", cat:"正字法细节", catFr:"Orthographe",
+    title:"Adjectif verbal vs participe présent", titleFr:"动词形容词 vs 现在分词 ⭐",
+    zh:"同源但<strong>拼写常不同</strong>:现在分词(动词性,<strong>不变</strong>,常带宾语/状语)vs 动词形容词(<strong>配合</strong>)。差异:fatigant / fatigu<b>ant</b>、provocant / provoqu<b>ant</b>、différent / différ<b>ant</b>、négligent / néglige<b>ant</b>、précédent / précéd<b>ant</b>。",
+    fr:"L'adjectif verbal s'accorde ; le participe présent est invariable. Orthographe souvent différente (-gu-/-qu-/-a-).",
+    ex:[
+      {fr:"une journée <b>fatigante</b>", zh:"累人的一天(形容词→配合)"},
+      {fr:"<b>Fatiguant</b> tout le monde, il partit.", zh:"他弄得大家都累,然后离开了。(分词→不变,-gu-)"},
+      {fr:"des arguments <b>convaincants</b> / en <b>convainquant</b> son chef", zh:"有说服力的论据 / 在说服上司时"}
+    ],
+    tip:"<b>判断:</b>能配合性数(fatigante/fatigants)→形容词;不变且常带宾语、可拼成 -gu-/-qu-/-a-(fatiguant, provoquant, différant)→分词。" }
+]; /* C1-PLACEHOLDER */
+const C2 = [
+  // ---------- 文学时态精通 ----------
+  { id:"c2-passe-anterieur", level:"C2", cat:"文学时态精通", catFr:"Temps littéraires (maîtrise)",
+    title:"Le passé antérieur", titleFr:"先过去时(文学)",
+    zh:"文学语体中表示在另一<strong>简单过去时</strong>动作之前刚完成的动作,常在 quand / dès que / lorsque / à peine… que 引导的从句里。构成:avoir/être 的<strong>简单过去时</strong> + 过去分词。",
+    fr:"Le passé antérieur marque l'antériorité immédiate par rapport à un passé simple : auxiliaire au passé simple + participe passé.",
+    forms:"<table><tr><th>finir</th><th>partir</th></tr><tr><td>quand il <b>eut fini</b></td><td>dès qu'elle <b>fut partie</b></td></tr></table>",
+    ex:[
+      {fr:"<b>Quand</b> il <b>eut terminé</b>, il se leva et sortit.", zh:"他一写完,就起身出去了。"},
+      {fr:"À peine <b>fut-il</b> arrivé qu'on l'appela.", zh:"他刚到就被人叫走了。"}
+    ],
+    tip:"<b>搭配:</b>从句先过去时(先完成)+ 主句简单过去时。口语对应「愈过去时 + 复合过去时」。识别为主。" },
+
+  { id:"c2-concordance-litteraire", level:"C2", cat:"文学时态精通", catFr:"Temps littéraires (maîtrise)",
+    title:"La concordance littéraire du subjonctif", titleFr:"虚拟式的文学时态呼应",
+    zh:"严格文学语体里,主句过去时 → 从句虚拟式用 <strong>imparfait</strong>(同时)或 <strong>plus-que-parfait</strong>(在前)(现代口语一律用现在时/过去时)。",
+    fr:"Concordance soutenue : principale au passé → subjonctif imparfait (simultanéité) ou plus-que-parfait (antériorité).",
+    ex:[
+      {fr:"Je voulais qu'il <b>vînt</b>.", zh:"我当时想要他来。(现代:qu'il vienne)"},
+      {fr:"Bien qu'il <b>eût plu</b>, ils sortirent.", zh:"尽管之前下过雨,他们还是出门了。"}
+    ],
+    tip:"<b>现状:</b>仅在很正式/文学写作里这样配;日常用虚拟式现在时即可。C2 要求<strong>读懂并能识别</strong>。" },
+
+  // ---------- 高级让步与虚拟 ----------
+  { id:"c2-concession-soutenue", level:"C2", cat:"高级让步与虚拟", catFr:"Concession et subjonctif fins",
+    title:"La concession soutenue", titleFr:"高级让步结构 ⭐",
+    zh:"<b>quand bien même</b>(+条件式,即便)、<b>n'était / n'eût été</b>(+名词,若非)、<b>encore que</b>(+虚拟,虽然)、<b>tout + 形容词 + que</b>(+直陈,尽管)、<b>pour autant que</b>(+虚拟,就…而言)。",
+    fr:"Concession soutenue : quand bien même (+cond.), n'était (+nom), encore que (+subj.), tout… que (+ind.).",
+    ex:[
+      {fr:"<b>Quand bien même</b> il pleuvrait, je sortirais.", zh:"即便下雨,我也会出门。"},
+      {fr:"<b>N'était</b> son aide, j'aurais échoué.", zh:"若非他的帮助,我早就失败了。"},
+      {fr:"<b>Tout</b> intelligent <b>qu'</b>il est, il se trompe.", zh:"他再聪明也会出错。"}
+    ],
+    tip:"<b>关键:</b>quand bien même + <strong>条件式</strong>;tout… que + <strong>直陈式</strong>(强调事实);encore que + <strong>虚拟式</strong>。" },
+
+  { id:"c2-subj-fin", level:"C2", cat:"高级让步与虚拟", catFr:"Concession et subjonctif fins",
+    title:"Les emplois fins du subjonctif", titleFr:"虚拟式的细微用法 ⭐",
+    zh:"<b>non que</b>(+虚拟,并非因为)、<b>le fait que</b>(常+虚拟)、<b>de sorte que</b>(<strong>目的</strong>+虚拟 / <strong>结果</strong>+直陈,意义不同!)、<b>soit que… soit que</b>(+虚拟)、<strong>最高级 / le seul / le premier + qui</strong>(+虚拟,表主观)。",
+    fr:"Nuances : non que (+subj.), de sorte que (but→subj. / conséquence→ind.), le seul qui… (+subj.).",
+    ex:[
+      {fr:"<b>Non qu'</b>il <b>soit</b> bête, mais il est distrait.", zh:"并非他笨,而是他心不在焉。"},
+      {fr:"Parle fort <b>de sorte qu'</b>on t'<b>entende</b>.", zh:"大声说,以便别人听见。(目的→虚拟)"},
+      {fr:"C'est le seul qui <b>sache</b> la vérité.", zh:"他是唯一知道真相的人。"}
+    ],
+    tip:"<b>对比:</b>de sorte que 表<strong>目的</strong>→虚拟、表<strong>结果</strong>→直陈(…, de sorte qu'on l'entendait)。最高级 + qui 用虚拟表主观判断。" },
+
+  // ---------- 配合极难情形 ----------
+  { id:"c2-accord-extreme", level:"C2", cat:"配合极难情形", catFr:"Accords extrêmes",
+    title:"L'accord du participe : cas extrêmes", titleFr:"过去分词配合(极难情形)⭐",
+    zh:"① 代词式动词中 se 是<strong>间接</strong>宾语 → <strong>不配合</strong>:se succéder / se plaire / se nuire / se parler / se ressembler(elles se sont <b>succédé</b>);② <b>coûté / pesé / valu / vécu / couru</b> 作<strong>本义</strong>(数量)不配合,<strong>引申义</strong>配合;③ <b>ci-joint / excepté / vu / passé</b> 置于名词<strong>前</strong>不配合。",
+    fr:"se succéder/plaire/nuire (se = COI → invariable) ; coûté/pesé/valu (sens propre → invariable) ; ci-joint antéposé → invariable.",
+    ex:[
+      {fr:"Les rois qui se sont <b>succédé</b>.", zh:"相继即位的国王们。(se = à qn → 不配合)"},
+      {fr:"Veuillez trouver <b>ci-joint</b> la facture.", zh:"随附发票,请查收。(前置→不配合)"},
+      {fr:"Les sommes que ce projet a <b>coûté</b>.", zh:"这个项目花掉的钱。(本义→不配合)"}
+    ],
+    tip:"<b>判断:</b>se succéder = succéder <b>à</b> qn → se 是间接宾语 → 不配合。ci-joint 前置不配合、后置配合。" },
+
+  // ---------- 风格与倒装 ----------
+  { id:"c2-inversion-style", level:"C2", cat:"风格与倒装", catFr:"Style et inversion",
+    title:"L'inversion et la postposition stylistiques", titleFr:"文体性主语后置与倒装",
+    zh:"文学/正式语体的主语后置:引述语(« … », <b>dit-il</b>)、地点状语句首(<b>Sur la colline se dressait</b> un château)、关系从句中(la ville <b>où vivait</b> ma grand-mère)。",
+    fr:"Postposition du sujet : incises (dit-il), complément en tête (Au loin s'étendait la mer), relatives.",
+    ex:[
+      {fr:"« Je viendrai », <b>répondit-elle</b>.", zh:"「我会来」,她答道。"},
+      {fr:"Au loin <b>s'étendait</b> la mer.", zh:"远处,大海绵延展开。"},
+      {fr:"Ainsi <b>parlait</b> le sage.", zh:"智者如是说。"}
+    ],
+    tip:"<b>用途:</b>状语/补语置于句首时,书面常将主语后置以求文雅或句子平衡;口语不必。" },
+
+  { id:"c2-ellipse", level:"C2", cat:"风格与倒装", catFr:"Style et inversion",
+    title:"L'ellipse et la concision", titleFr:"省略与凝练(高级书面)",
+    zh:"高级书面追求<strong>省略</strong>与凝练:省去可复原的动词/主语、名词化、破折号、并列省略(asyndète),提升紧凑与力度。",
+    fr:"Le style soutenu recourt à l'ellipse (omission d'éléments récupérables) pour la concision.",
+    ex:[
+      {fr:"Les uns riaient ; les autres, <b>en larmes</b>.", zh:"一些人笑着,另一些人则泪流满面。(省略动词)"},
+      {fr:"<b>Inutile d'</b>insister.", zh:"不必坚持了。(= Il est inutile d'insister.)"},
+      {fr:"<b>À chacun</b> son métier.", zh:"各司其职。(格言式省略)"}
+    ],
+    tip:"<b>要点:</b>省略须可复原、不致歧义;新闻标题、格言、议论文小结中常见。" },
+
+  // ---------- 情态与推测 ----------
+  { id:"c2-conjecture", level:"C2", cat:"情态与推测", catFr:"Modalisation",
+    title:"Le futur et le conditionnel de conjecture", titleFr:"推测性将来时/条件式 ⭐",
+    zh:"用时态表<strong>推测</strong>而非时间:<b>futur de conjecture</b>(多半…:Il <b>sera</b> malade = 他大概病了);<b>conditionnel</b> 表<strong>未经证实</strong>(新闻:Il y <b>aurait</b> des victimes = 据称有伤亡);devoir / pouvoir 表情态推测。",
+    fr:"Le futur/conditionnel peut exprimer la conjecture (probabilité, information non confirmée).",
+    ex:[
+      {fr:"On sonne — ce <b>sera</b> le facteur.", zh:"有人按铃——多半是邮差。"},
+      {fr:"Selon la presse, le bilan <b>s'élèverait</b> à dix morts.", zh:"据媒体,死亡人数或达十人。"},
+      {fr:"Il <b>doit</b> être déjà parti.", zh:"他想必已经走了。"}
+    ],
+    tip:"<b>阅读信号:</b>新闻里的条件式 = 「据称/有待证实」,是阅读理解的重要信号词;别理解成普通假设。" },
+
+  // ---------- 词法与衔接 ----------
+  { id:"c2-rection", level:"C2", cat:"词法与篇章衔接", catFr:"Rection et cohésion",
+    title:"La rection verbale fine", titleFr:"动词介词支配的细微差别 ⭐",
+    zh:"换介词即换义:<b>tenir à</b>(珍视/坚持)vs <b>tenir de</b>(像/源自);<b>jouer à</b>(玩运动)vs <b>jouer de</b>(演奏乐器);<b>manquer à</b>(使想念)vs <b>manquer de</b>(缺);<b>il s'agit de</b>(涉及)、<b>en vouloir à</b>(怪罪)。",
+    fr:"La préposition change le sens : tenir à/de, jouer à/de, manquer à/de, en vouloir à, il s'agit de.",
+    ex:[
+      {fr:"Je <b>tiens à</b> toi. / Il <b>tient de</b> son père.", zh:"我在乎你。/ 他像他父亲。"},
+      {fr:"Elle <b>joue du</b> piano et <b>au</b> tennis.", zh:"她弹钢琴、打网球。"},
+      {fr:"Tu me <b>manques</b>.", zh:"我想你。(manquer à 的特殊语序!)"}
+    ],
+    tip:"<b>高频错点:</b>「我想你」= <b>Tu me manques</b>(字面:你对我而言缺失),主宾与中文相反。" },
+
+  { id:"c2-cause-niee", level:"C2", cat:"词法与篇章衔接", catFr:"Rection et cohésion",
+    title:"La cause niée et nuancée", titleFr:"否定/修正原因的句式",
+    zh:"精细论证中否定或修正一个原因:<b>non (pas) que… mais (parce que)</b>(并非因为…而是,non que 后接<strong>虚拟</strong>)、<b>ce n'est pas que… c'est que</b>。",
+    fr:"Nier/nuancer une cause : non (pas) que… mais… (subjonctif après non que) ; ce n'est pas que… c'est que…",
+    ex:[
+      {fr:"Il a refusé, <b>non qu'</b>il <b>soit</b> timide, <b>mais</b> par principe.", zh:"他拒绝了,并非因为胆小,而是出于原则。"},
+      {fr:"<b>Ce n'est pas que</b> je n'aime pas, <b>c'est que</b> je n'ai pas le temps.", zh:"不是我不喜欢,而是我没时间。"}
+    ],
+    tip:"<b>用途:</b>non que + 虚拟式;这是议论文里「先否定一个看似的原因」的高级句式。" },
+
+  { id:"c2-cohesion", level:"C2", cat:"词法与篇章衔接", catFr:"Rection et cohésion",
+    title:"Les marqueurs de cohésion de haut niveau", titleFr:"高阶篇章衔接词 ⭐",
+    zh:"<b>or</b>(然而,引入新论据)、<b>au demeurant</b>(再者/不过)、<b>en l'occurrence</b>(具体而言/就此而言)、<b>partant</b>(因而)、<b>cela étant</b>(话虽如此)、<b>quoi qu'il en soit</b>(无论如何)、<b>à cet égard</b>(在这方面)。",
+    fr:"Connecteurs de haut niveau : or, au demeurant, en l'occurrence, partant, cela étant, quoi qu'il en soit, à cet égard.",
+    ex:[
+      {fr:"<b>Quoi qu'il en soit</b>, la décision est prise.", zh:"无论如何,决定已经做出。"},
+      {fr:"<b>En l'occurrence</b>, il avait raison.", zh:"就此事而言,他是对的。"},
+      {fr:"Le projet coûte cher ; <b>cela étant</b>, il est nécessaire.", zh:"项目很贵;话虽如此,它是必要的。"}
+    ],
+    tip:"<b>用途:</b>这些词让议论文衔接更密、语体更高;quoi qu'il en soit / cela étant 常用于段落收束或转折。" },
+
+  { id:"c2-exclamation", level:"C2", cat:"词法与篇章衔接", catFr:"Rection et cohésion",
+    title:"Tournures exclamatives soutenues", titleFr:"文学感叹与强调句式",
+    zh:"<b>Que de…!</b>(多么多…!)、<b>Que ne…!</b>(怎么不…/真该…,文学)、<b>Combien…!</b>,以及比较从句中的文学性 <b>ne</b>。",
+    fr:"Exclamation soutenue : Que de… ! (quantité), Que ne… ! (regret littéraire), Combien… !",
+    ex:[
+      {fr:"<b>Que de</b> temps perdu !", zh:"浪费了多少时间啊!"},
+      {fr:"<b>Que ne</b> l'as-tu dit plus tôt !", zh:"你怎么不早说!(文学,带惋惜)"},
+      {fr:"Il est plus âgé que je <b>ne</b> le croyais.", zh:"他比我以为的要年长。"}
+    ],
+    tip:"<b>结构:</b>Que de + 名词 = 「多么多…」;Que ne + 倒装 = 文学化的「真该…/怎么不…」。" }
+]; /* C2-PLACEHOLDER */
+const PRACTICE = {
+  "a1-genre": [ {q:"___ soleil brille et ___ lune aussi. (定冠词)", a:"Le soleil brille et la lune aussi."}, {q:"J'aime ___ musique et ___ enfants jouent. (定冠词)", a:"J'aime la musique et les enfants jouent."}, {q:"___ ami de Paul arrive à ___ heure. (定冠词,元音前)", a:"L'ami de Paul arrive à l'heure."} ],
+  "a1-indefini": [ {q:"C'est ___ livre et ___ revue. (不定冠词)", a:"C'est un livre et une revue."}, {q:"Il y a ___ étudiants dans la classe. (不定冠词复数)", a:"Il y a des étudiants dans la classe."} ],
+  "a1-pluriel": [ {q:"Les ___ du zoo sont magnifiques. (animal → 复数)", a:"Les animaux du zoo sont magnifiques."}, {q:"Il y a deux ___ sur la colline. (château → 复数)", a:"Il y a deux châteaux sur la colline.", note:"-eau 结尾加 -x"} ],
+  "a1-partitif": [ {q:"Je bois ___ café et ___ eau. (部分冠词)", a:"Je bois du café et de l'eau.", note:"阳性 du,元音前 de l'"}, {q:"Tu as ___ chance ! (部分冠词,阴性)", a:"Tu as de la chance !"} ],
+  "a1-sujets": [ {q:"___ parlez français ? (您,礼貌)", a:"Vous parlez français ?"}, {q:"___ va au cinéma. (口语「我们」= on)", a:"On va au cinéma.", note:"on 用第三人称单数动词"} ],
+  "a1-etre": [ {q:"Je ___ étudiant et nous ___ français. (être)", a:"Je suis étudiant et nous sommes français."}, {q:"Vous ___ médecin. (être,职业不加冠词)", a:"Vous êtes médecin."} ],
+  "a1-avoir": [ {q:"J'___ vingt ans. (avoir,年龄)", a:"J'ai vingt ans.", note:"年龄用 avoir,不用 être"}, {q:"Elle ___ deux frères et ils ___ un chien. (avoir)", a:"Elle a deux frères et ils ont un chien."} ],
+  "a1-cest-ilya": [ {q:"___ mon ami Paul. (这是)", a:"C'est mon ami Paul."}, {q:"Dans la ville, ___ beaucoup de musées. (有,存在)", a:"Dans la ville, il y a beaucoup de musées.", note:"il y a 永远不变"} ],
+  "a1-present-er": [ {q:"Nous ___ à Paris. (habiter)", a:"Nous habitons à Paris."}, {q:"Ils ___ la télé. (regarder)", a:"Ils regardent la télé."} ],
+  "a1-present-ir": [ {q:"Je ___ mon travail. (finir)", a:"Je finis mon travail."}, {q:"Les fleurs ___ vite. (grandir,复数有 -iss-)", a:"Les fleurs grandissent vite."} ],
+  "a1-present-irreg": [ {q:"Je ___ à l'école et tu ___ tes devoirs. (aller / faire)", a:"Je vais à l'école et tu fais tes devoirs."}, {q:"Nous ___ le bus. (prendre)", a:"Nous prenons le bus."}, {q:"Vous ___ la cuisine. (faire,注意特殊变位)", a:"Vous faites la cuisine.", note:"faites 不以 -ez 结尾"} ],
+  "a1-adj": [ {q:"une ___ maison ___ (petit / blanc,注意位置和配合)", a:"une petite maison blanche.", note:"petit 前置,blanc 后置,均配合阴性"}, {q:"des étudiants ___ (intelligent,阳性复数)", a:"des étudiants intelligents."} ],
+  "a1-possessif": [ {q:"___ père et ___ mère. (他的,主有形容词)", a:"son père et sa mère.", note:"看名词性别,不分他/她"}, {q:"___ amie habite ici. (我的,阴性名词以元音开头)", a:"Mon amie habite ici.", note:"元音前阴性也用 mon"} ],
+  "a1-demonstratif": [ {q:"___ livre, ___ arbre, ___ femme, ___ enfants. (指示形容词)", a:"Ce livre, cet arbre, cette femme, ces enfants."}, {q:"___ homme est mon voisin. (指示形容词,阳性元音前)", a:"Cet homme est mon voisin.", note:"阳性元音/哑音 h 前用 cet"} ],
+  "a1-negation": [ {q:"Je ___ parle ___ anglais. (ne… pas)", a:"Je ne parle pas anglais."}, {q:"Il ___ aime ___ le café. (ne… pas,元音前)", a:"Il n'aime pas le café."} ],
+  "a1-question": [ {q:"改成 est-ce que 疑问句:Tu viens ? → ___", a:"Est-ce que tu viens ?"}, {q:"改成倒装疑问句:Vous aimez la France. → ___", a:"Aimez-vous la France ?"} ],
+  "a1-mots-interro": [ {q:"___ habites-tu ? (哪里)", a:"Où habites-tu ?"}, {q:"___ heure est-il ? (疑问形容词,与 heure 配合)", a:"Quelle heure est-il ?", note:"quelle 与阴性名词配合"} ],
+  "a1-prep-lieu": [ {q:"J'habite ___ Lyon, ___ France. (城市 / 阴性国家)", a:"J'habite à Lyon, en France."}, {q:"Il va ___ Japon et ___ États-Unis. (阳性国 / 复数国)", a:"Il va au Japon et aux États-Unis."} ],
+  "a1-prep-base": [ {q:"Le livre est ___ la table, ___ le sac. (在…上 / 在…里)", a:"Le livre est sur la table, dans le sac."}, {q:"Je vais ___ le médecin. (去…那儿,用于人)", a:"Je vais chez le médecin.", note:"chez 只用于人"} ],
+  "a1-heure-date": [ {q:"Nous sommes ___ mai. (5月1日,1号用 premier)", a:"Nous sommes le premier mai."}, {q:"___ samedi, je fais du sport. (每逢周六)", a:"Le samedi, je fais du sport.", note:"le + 星期 = 每逢"} ],
+  "a1-futur-proche": [ {q:"Je ___ dans dix minutes. (manger,最近将来时)", a:"Je vais manger dans dix minutes."}, {q:"Nous ___ demain. (partir,最近将来时)", a:"Nous allons partir demain."} ],
+  "a1-passe-recent": [ {q:"Il ___ arriver. (最近过去时,元音前)", a:"Il vient d'arriver.", note:"venir de + 原形,元音前 d'"}, {q:"Je ___ finir. (最近过去时)", a:"Je viens de finir."} ],
+  "a1-vouloir-inf": [ {q:"Je ___ le français. (vouloir + apprendre)", a:"Je veux apprendre le français.", note:"第二个动词用原形"}, {q:"Tu ___ . (devoir + travailler)", a:"Tu dois travailler."} ],
+  "a2-pc-avoir": [ {q:"Hier soir, nous ___ (regarder) un film. <span class=hint>提示:复合过去时,助动词 avoir</span>", a:"Hier soir, nous avons regardé un film.", note:"第一组 -er → 过去分词 -é;用 avoir 时不与主语配合。"}, {q:"Ce matin, elle ___ (prendre) le bus. <span class=hint>提示:prendre 的过去分词不规则</span>", a:"Ce matin, elle a pris le bus.", note:"prendre → pris;avoir 类不配合主语。"} ],
+  "a2-pc-etre": [ {q:"Marie ___ (aller) à Paris la semaine dernière. <span class=hint>提示:être 类,过去分词配合主语</span>", a:"Marie est allée à Paris la semaine dernière.", note:"aller 用 être;阴性单数 → allée。"}, {q:"Mes frères ___ (partir) très tôt. <span class=hint>提示:être 类,阳性复数</span>", a:"Mes frères sont partis très tôt.", note:"阳性复数 → partis。"} ],
+  "a2-imparfait": [ {q:"Quand j'___ (être) jeune, j'habitais à la campagne. <span class=hint>提示:未完成过去时,状态</span>", a:"Quand j'étais jeune, j'habitais à la campagne.", note:"être 不规则词干 ét-。"}, {q:"Tous les dimanches, nous ___ (manger) chez ma grand-mère. <span class=hint>提示:过去的习惯</span>", a:"Tous les dimanches, nous mangions chez ma grand-mère.", note:"词干 mange- + -ions。"} ],
+  "a2-pc-vs-imp": [ {q:"Je ___ (lire) quand on ___ (frapper) à la porte. <span class=hint>提示:背景 + 突发</span>", a:"Je lisais quand on a frappé à la porte.", note:"背景→imparfait;突发→passé composé。"}, {q:"Hier, il ___ (faire) froid, alors je ___ (rester) à la maison. <span class=hint>提示:天气描写 + 完成动作</span>", a:"Hier, il faisait froid, alors je suis resté à la maison.", note:"天气→imparfait;完成动作→passé composé(être)。"} ],
+  "a2-futur-simple": [ {q:"Demain, nous ___ (être) en vacances. <span class=hint>提示:简单将来时,词干 ser-</span>", a:"Demain, nous serons en vacances."}, {q:"L'année prochaine, j'___ (aller) au Japon. <span class=hint>提示:词干 ir-</span>", a:"L'année prochaine, j'irai au Japon."} ],
+  "a2-cod": [ {q:"Tu connais cette chanson ? — Oui, je ___ connais. <span class=hint>提示:替代 cette chanson</span>", a:"Oui, je la connais.", note:"阴性单数直接宾语 → la,置于动词前。"}, {q:"Vous regardez les enfants ? — Oui, je ___ regarde. <span class=hint>提示:替代 les enfants</span>", a:"Oui, je les regarde."} ],
+  "a2-coi": [ {q:"Tu écris à ta sœur ? — Oui, je ___ écris. <span class=hint>提示:à + 人</span>", a:"Oui, je lui écris.", note:"à + 单数人 → lui,不分男女。"}, {q:"Il parle à ses collègues ? — Oui, il ___ parle. <span class=hint>提示:à + 复数人</span>", a:"Oui, il leur parle.", note:"à + 复数人 → leur(无 -s)。"} ],
+  "a2-en": [ {q:"Tu bois de l'eau ? — Oui, j'___ bois. <span class=hint>提示:替代部分冠词宾语</span>", a:"Oui, j'en bois."}, {q:"Combien de voitures as-tu ? — J'___ ai deux. <span class=hint>提示:数量,en 保留数词</span>", a:"J'en ai deux.", note:"带数量时数词 deux 保留。"} ],
+  "a2-y": [ {q:"Tu vas au cinéma ce soir ? — Oui, j'___ vais. <span class=hint>提示:à + 地点</span>", a:"Oui, j'y vais."}, {q:"Elle pense à ses vacances → Elle ___ pense. <span class=hint>提示:à + 物</span>", a:"Elle y pense.", note:"penser à + 物 → y;à + 人则用 lui。"} ],
+  "a2-pronominaux": [ {q:"Le matin, je ___ (se lever) à six heures. <span class=hint>提示:代词式动词现在时</span>", a:"Le matin, je me lève à six heures.", note:"反身代词 me 跟主语一致。"}, {q:"Hier, elle ___ (se coucher) très tard. <span class=hint>提示:复合过去时用 être</span>", a:"Hier, elle s'est couchée très tard.", note:"用 être,过去分词配合主语 → couchée。"} ],
+  "a2-imperatif": [ {q:"(à un ami) ___ (parler) plus lentement ! <span class=hint>提示:tu 命令式,-er 去 -s</span>", a:"Parle plus lentement !", note:"第一组动词 tu 命令式去 -s。"}, {q:"(à un ami) Tu es fatigué ? ___ (se reposer) ! <span class=hint>提示:肯定命令,te → toi</span>", a:"Repose-toi !", note:"肯定命令代词后置,te → toi。"} ],
+  "a2-comparatif": [ {q:"Cette voiture est ___ chère ___ l'autre. (= +) <span class=hint>提示:优等比较</span>", a:"Cette voiture est plus chère que l'autre."}, {q:"Ton idée est ___ que la mienne. (bon, = +) <span class=hint>提示:bon 的优等比较不规则</span>", a:"Ton idée est meilleure que la mienne.", note:"bon → meilleur(e),不能说 plus bon。"} ],
+  "a2-superlatif": [ {q:"C'est ___ grand monument de la ville. (= 最) <span class=hint>提示:le plus + 形容词</span>", a:"C'est le plus grand monument de la ville."}, {q:"Paris est ___ belle ville ___ monde. (= 世界上最美) <span class=hint>提示:后置冠词重复;『在…中』用 de</span>", a:"Paris est la plus belle ville du monde.", note:"du monde = de + le monde。"} ],
+  "a2-qui-que": [ {q:"C'est une amie ___ travaille avec moi. <span class=hint>提示:从句缺主语</span>", a:"C'est une amie qui travaille avec moi.", note:"后接动词 → qui。"}, {q:"Voici le gâteau ___ ma mère a préparé. <span class=hint>提示:从句缺直接宾语</span>", a:"Voici le gâteau que ma mère a préparé.", note:"后接主语 → que。"} ],
+  "a2-ou-relatif": [ {q:"Voici la maison ___ j'ai grandi. <span class=hint>提示:地点</span>", a:"Voici la maison où j'ai grandi."}, {q:"Je me souviens du jour ___ nous nous sommes rencontrés. <span class=hint>提示:时间也用它</span>", a:"Je me souviens du jour où nous nous sommes rencontrés.", note:"表时间的「那天」用 où。"} ],
+  "a2-quantite": [ {q:"Dans cette ville, il y a ___ touristes. (beaucoup) <span class=hint>提示:数量副词 + de</span>", a:"Dans cette ville, il y a beaucoup de touristes.", note:"beaucoup de(无冠词),不是 beaucoup des。"}, {q:"Je voudrais ___ eau, s'il vous plaît. (une bouteille) <span class=hint>提示:量词 + de</span>", a:"Je voudrais une bouteille d'eau, s'il vous plaît.", note:"元音前缩 d'。"} ],
+  "a2-temps-prep": [ {q:"J'habite à Lyon ___ trois ans. (自三年前至今) <span class=hint>提示:持续到现在 + 现在时</span>", a:"J'habite à Lyon depuis trois ans.", note:"depuis + 现在时(中文「了」,法语现在时)。"}, {q:"Le film commence ___ dix minutes. (十分钟后) <span class=hint>提示:将来「…之后」</span>", a:"Le film commence dans dix minutes."} ],
+  "a2-politesse": [ {q:"Au café : ___ un thé, s'il vous plaît. (vouloir, je,礼貌) <span class=hint>提示:条件式</span>", a:"Je voudrais un thé, s'il vous plaît.", note:"je voudrais 比 je veux 更礼貌。"}, {q:"___ m'aider, s'il vous plaît ? (pouvoir, vous,礼貌请求) <span class=hint>提示:条件式倒装</span>", a:"Pourriez-vous m'aider, s'il vous plaît ?"} ],
+  "b1-pqp": [ {q:"Quand je suis arrivé à la gare, le train ___ déjà ___ (partir). (到达前火车已开走)", a:"Quand je suis arrivé à la gare, le train était déjà parti."}, {q:"Elle nous a raconté ce qu'elle ___ (voir) la veille. (转述之前看到的)", a:"Elle nous a raconté ce qu'elle avait vu la veille."} ],
+  "b1-cond-present": [ {q:"___ (vouloir, je) un café, s'il vous plaît. (礼貌)", a:"Je voudrais un café, s'il vous plaît.", note:"futur 词干 voudr- + imparfait 词尾。"}, {q:"Si j'avais de l'argent, j'___ (acheter) une maison. (假设的结果)", a:"Si j'avais de l'argent, j'achèterais une maison."}, {q:"Selon la presse, le ministre ___ (être) malade. (未经证实的传闻)", a:"Selon la presse, le ministre serait malade."} ],
+  "b1-cond-passe": [ {q:"J'___ (devoir) partir plus tôt. (后悔:本该)", a:"J'aurais dû partir plus tôt."}, {q:"Si tu m'avais prévenu, je ___ (venir) t'aider. (过去未实现)", a:"Si tu m'avais prévenu, je serais venu t'aider.", note:"venir 用 être,配合主语。"} ],
+  "b1-subj-present": [ {q:"Il faut que tu ___ (faire) tes devoirs ce soir. (必要→虚拟)", a:"Il faut que tu fasses tes devoirs ce soir.", note:"faire 不规则:fasse。"}, {q:"Je veux que vous ___ (être) à l'heure demain. (意愿→虚拟)", a:"Je veux que vous soyez à l'heure demain.", note:"être 不规则:soyez。"} ],
+  "b1-subj-declencheurs": [ {q:"Bien qu'il ___ (être) fatigué, il continue. (bien que→虚拟)", a:"Bien qu'il soit fatigué, il continue."}, {q:"J'espère qu'il ___ (venir) à la fête. (espérer que→直陈式!)", a:"J'espère qu'il viendra à la fête.", note:"espérer que 接直陈,不是虚拟。"}, {q:"Je reste jusqu'à ce que tu ___ (revenir). (jusqu'à ce que→虚拟)", a:"Je reste jusqu'à ce que tu reviennes."} ],
+  "b1-si": [ {q:"Si j'___ (avoir) le temps demain, je ___ (venir) te voir. (①真实:现在时→将来时)", a:"Si j'ai le temps demain, je viendrai te voir."}, {q:"Si j'___ (être) riche, je ___ (voyager) partout. (②现在非真实:未完成→条件式现在)", a:"Si j'étais riche, je voyagerais partout.", note:"si 后绝不用条件式。"}, {q:"Si j'___ (savoir) la vérité, je ___ (ne rien dire). (③过去非真实:愈过去→条件式过去)", a:"Si j'avais su la vérité, je n'aurais rien dit."} ],
+  "b1-discours-indirect": [ {q:"Il dit : « Je suis fatigué. » → Il dit ___ il est fatigué. (陈述句)", a:"Il dit qu'il est fatigué."}, {q:"Elle me demande : « Tu viens ? » → Elle me demande ___ je viens. (是非问)", a:"Elle me demande si je viens."}, {q:"« Qu'est-ce que tu fais ? » → Il demande ___ je fais. (特殊疑问)", a:"Il demande ce que je fais.", note:"qu'est-ce que → ce que。"} ],
+  "b1-passif": [ {q:"La police a arrêté le voleur. → Le voleur ___ (arrêter,被动) par la police. (复合过去时被动)", a:"Le voleur a été arrêté par la police."}, {q:"Tout le monde aime ce professeur. → Ce professeur est aimé ___ tout le monde. (情感用 de)", a:"Ce professeur est aimé de tout le monde.", note:"感受/状态常用 de 而非 par。"} ],
+  "b1-double-pronoms": [ {q:"Il me donne le livre. → Il ___ donne. (me + le)", a:"Il me le donne."}, {q:"Tu donnes les clés à Paul ? → Tu ___ donnes ? (les + lui)", a:"Tu les lui donnes ?"}, {q:"Donne le livre à moi ! → ___ ! (肯定命令式)", a:"Donne-le-moi !", note:"肯定命令语序:le 在 moi 之前。"} ],
+  "b1-possessifs-pron": [ {q:"C'est ta voiture ? — Non, c'est ___ (à elle). (她的)", a:"Non, c'est la sienne.", note:"配合 voiture 阴性。"}, {q:"Je préfère mon vélo ___ (à + le tien). (à 与冠词缩合)", a:"Je préfère mon vélo au tien.", note:"à + le tien → au tien。"} ],
+  "b1-demonstratifs-pron": [ {q:"Quel livre veux-tu ? — ___ (celui + de) Marie. (这个 + 所属)", a:"Celui de Marie."}, {q:"___ (ceux + qui) veulent partir peuvent le faire. (那些 + 从句)", a:"Ceux qui veulent partir peuvent le faire."} ],
+  "b1-dont": [ {q:"Voici le livre ___ je t'ai parlé. (parler de → ?)", a:"Voici le livre dont je t'ai parlé."}, {q:"C'est l'outil ___ j'ai besoin. (avoir besoin de → ?)", a:"C'est l'outil dont j'ai besoin."}, {q:"Je connais un homme ___ la voiture est rouge. (所属:他的车)", a:"Je connais un homme dont la voiture est rouge.", note:"语序:dont + 主语 + 动词。"} ],
+  "b1-gerondif": [ {q:"Il chante ___ (travailler). (同时:一边…一边)", a:"Il chante en travaillant.", note:"en + 现在分词。"}, {q:"___ (chercher) bien, tu trouveras. (条件:好好找的话)", a:"En cherchant bien, tu trouveras."} ],
+  "b1-negations": [ {q:"Je bois seulement de l'eau. → Je ___ bois ___ de l'eau. (ne…que,冠词不变!)", a:"Je ne bois que de l'eau.", note:"ne…que 是限制,保留 de l'eau。"}, {q:"Il y a quelqu'un ? — Non, il ___ y a ___. (没有人)", a:"Non, il n'y a personne."} ],
+  "b1-connecteurs-base": [ {q:"Je révise beaucoup ___ j'ai un examen lundi. (原因)", a:"Je révise beaucoup parce que j'ai un examen lundi."}, {q:"Je t'explique tout ___ tu ___ (comprendre). (目的:pour que→虚拟)", a:"Je t'explique tout pour que tu comprennes.", note:"pour que + 虚拟式。"} ],
+  "b2-subj-passe": [ {q:"Je suis ravi que vous ___ (terminer) le projet avant la réunion. (已完成→虚拟式过去)", a:"Je suis ravi que vous ayez terminé le projet avant la réunion."}, {q:"Bien qu'elle ___ (partir) tôt, elle a manqué son train. (已发生→虚拟式过去)", a:"Bien qu'elle soit partie tôt, elle a manqué son train.", note:"partir 用 être,分词配合阴性。"} ],
+  "b2-mode-choix": [ {q:"Je suis sûr qu'il ___ (avoir) raison. (肯定→直陈)", a:"Je suis sûr qu'il a raison."}, {q:"Je ne crois pas qu'il ___ (avoir) raison. (否定→虚拟)", a:"Je ne crois pas qu'il ait raison."} ],
+  "b2-concordance": [ {q:"« Je finirai demain. » → Il a dit qu'il ___ . (主句过去→后移 + 时间词)", a:"Il a dit qu'il finirait le lendemain.", note:"futur → conditionnel;demain → le lendemain。"}, {q:"« J'ai vu ce film hier. » → Elle a expliqué qu'elle ___ . (后移 + 时间词)", a:"Elle a expliqué qu'elle avait vu ce film la veille.", note:"passé composé → plus-que-parfait;hier → la veille。"} ],
+  "b2-participe-present": [ {q:"Remplacez la relative : Les candidats <b>qui possèdent</b> un diplôme… → Les candidats ___ un diplôme… (现在分词)", a:"Les candidats possédant un diplôme.", note:"qui possèdent → possédant。"}, {q:"« Comme le magasin était fermé, nous sommes rentrés. » → proposition participiale : ___ , nous sommes rentrés. (自带主语)", a:"Le magasin étant fermé, nous sommes rentrés."} ],
+  "b2-se-faire": [ {q:"On lui a volé sa voiture. → Il ___ sa voiture. (se faire,强调受害者)", a:"Il s'est fait voler sa voiture.", note:"se faire 中 fait 永不配合。"}, {q:"On a refusé l'accès à cette journaliste. → Cette journaliste ___ l'accès. (se voir + 原形)", a:"Cette journaliste s'est vu refuser l'accès.", note:"vu 不配合。"} ],
+  "b2-relatifs-composes": [ {q:"C'est un collègue. Je travaille avec lui. → C'est le collègue ___ je travaille. (介词+指人)", a:"C'est le collègue avec qui je travaille.", note:"介词后指人优先用 qui。"}, {q:"Voilà l'objectif. Je tiens à cet objectif. → Voilà l'objectif ___ je tiens. (tenir à + 物)", a:"Voilà l'objectif auquel je tiens.", note:"à + lequel → auquel。"}, {q:"C'est la rivière. J'habite au bord de cette rivière. → C'est la rivière ___ j'habite. (短语以 de 结尾)", a:"C'est la rivière au bord de laquelle j'habite.", note:"au bord de → de laquelle,不用 dont。"} ],
+  "b2-mise-relief": [ {q:"Paul a cassé le vase. → ___ a cassé le vase. (强调主语→c'est…qui)", a:"C'est Paul qui a cassé le vase."}, {q:"Je veux la justice. → ___ , c'est la justice. (ce que…, c'est…)", a:"Ce que je veux, c'est la justice."} ],
+  "b2-nominalisation": [ {q:"Les températures ont baissé. → ___ des températures. (动词→名词)", a:"La baisse des températures.", note:"baisser → la baisse。"}, {q:"Le ministre a démissionné. → ___ du ministre. (-ion)", a:"La démission du ministre.", note:"démissionner → la démission。"} ],
+  "b2-futur-anterieur": [ {q:"Quand tu ___ (lire) ce livre, tu me le rendras. (从句先完成→先将来)", a:"Quand tu auras lu ce livre, tu me le rendras."}, {q:"Dès qu'elle ___ (rentrer), nous dînerons. (先完成,être 助动词)", a:"Dès qu'elle sera rentrée, nous dînerons.", note:"être 简单将来 + 分词配合阴性。"} ],
+  "b2-opposition-concession": [ {q:"___ il ___ (être) très qualifié, il n'a pas obtenu le poste. (尽管→bien que+虚拟)", a:"Bien qu'il soit très qualifié, il n'a pas obtenu le poste."}, {q:"___ ses efforts, il a échoué. (malgré + 名词)", a:"Malgré ses efforts, il a échoué.", note:"malgré 后跟名词,不能跟句子。"}, {q:"Il ___ crier, personne ne l'entend. (avoir beau + 原形)", a:"Il a beau crier, personne ne l'entend."} ],
+  "b2-cause-consequence": [ {q:"Il a ___ insisté ___ j'ai fini par accepter. (如此…以致→tellement…que)", a:"Il a tellement insisté que j'ai fini par accepter."}, {q:"Le match est reporté ___ fortes pluies. (由于+名词,正式)", a:"Le match est reporté en raison des fortes pluies.", note:"en raison de + les → des。"} ],
+  "b2-but-condition": [ {q:"Il économise ___ (pouvoir) acheter une maison. (同主语→afin de+原形)", a:"Il économise afin de pouvoir acheter une maison."}, {q:"Le prof répète ___ tous ___ (comprendre). (异主语→afin que+虚拟)", a:"Le prof répète afin que tous comprennent."}, {q:"___ il ___ (avoir) un imprévu, appelle-moi. (万一→au cas où+条件式)", a:"Au cas où il y aurait un imprévu, appelle-moi.", note:"au cas où 后接条件式。"} ],
+  "b2-accord-pp": [ {q:"Les lettres que j'ai ___ (écrire) sont sur la table. (COD 提前→配合)", a:"Les lettres que j'ai écrites sont sur la table.", note:"COD 阴性复数提前 → écrites。"}, {q:"Elle s'est ___ (laver) les mains. (后有直接宾语→不配合)", a:"Elle s'est lavé les mains.", note:"COD「les mains」在后 → 不配合。"}, {q:"Elles se sont ___ (parler) pendant des heures. (se 是间接宾语)", a:"Elles se sont parlé pendant des heures.", note:"se = COI(parler à)→ 不配合。"} ],
+  "b2-registres": [ {q:"Au registre courant : « Je suis crevé. » → « Je suis ___. » (口语→通用)", a:"Je suis fatigué.", note:"crevé → fatigué。"}, {q:"Au registre soutenu : « Tu peux me filer un truc ? » → « Pourriez-vous me donner ___ ? » (口语→正式)", a:"Pourriez-vous me donner un élément ?", note:"un truc → un élément。"} ],
+  "b2-modalisation": [ {q:"Nuancez : « La situation s'améliore. » → ___ la situation s'améliore. (il semblerait que)", a:"Il semblerait que la situation s'améliore."}, {q:"Atténuez : « C'est faux. » → « Cela ___ discutable. » (避免绝对化)", a:"Cela paraît discutable."} ],
+  "b2-adj-sens": [ {q:"Placez <b>ancien</b> (= 以前的) : C'est mon ___ professeur ___ de français. (前置)", a:"C'est mon ancien professeur de français.", note:"前置 ancien = 以前的。"}, {q:"Placez <b>dernière</b> (= 上周) : Je l'ai vu la ___ semaine ___. (后置)", a:"Je l'ai vu la semaine dernière.", note:"后置 dernière = 上(周)。"} ],
+  "c1-passe-simple": [ {q:"Mettez au passé simple : Il est entré, a salué et s'est assis. → Il ___ .", a:"Il entra, salua et s'assit."}, {q:"Mettez au passé simple : Victor Hugo est né en 1802 et est mort en 1885. → Victor Hugo ___ en 1802 et ___ en 1885.", a:"Victor Hugo naquit en 1802 et mourut en 1885."} ],
+  "c1-subj-imparfait": [ {q:"Réécrivez en français moderne : Il fallait qu'il <b>partît</b> sur-le-champ. → Il fallait qu'il ___ sur-le-champ.", a:"Il fallait qu'il parte sur-le-champ."}, {q:"Réécrivez en français moderne : Je craignais qu'elle ne <b>vînt</b> pas. → Je craignais qu'elle ne ___ pas.", a:"Je craignais qu'elle ne vienne pas.", note:"文学 vînt → 现代 vienne。"} ],
+  "c1-cond-2e": [ {q:"Réécrivez en français courant : Il <b>eût aimé</b> vous connaître. → Il ___ vous connaître.", a:"Il aurait aimé vous connaître."}, {q:"Réécrivez en français courant : Il <b>eût fallu</b> agir plus tôt. → Il ___ agir plus tôt.", a:"Il aurait fallu agir plus tôt.", note:"文学 eût fallu = 现代 aurait fallu。"} ],
+  "c1-inversion": [ {q:"Faites l'inversion : Peut-être / il / viendra / demain. → ___ demain.", a:"Peut-être viendra-t-il demain."}, {q:"Complétez (刚…就) : À peine ___ sorti qu'il se mit à pleuvoir. (il / être)", a:"À peine était-il sorti qu'il se mit à pleuvoir."}, {q:"Inversion après <b>aussi</b> (=因此) : Il pleuvait ; aussi ___ restés. (nous / être)", a:"Il pleuvait ; aussi sommes-nous restés."} ],
+  "c1-dislocation": [ {q:"Disloquez le COD (口语) : J'ai adoré ce film. → Ce film, je ___ .", a:"Ce film, je l'ai adoré."}, {q:"Mise en relief avec <b>ce qui… c'est</b> : L'effort compte. → ___ compte, ___ l'effort.", a:"Ce qui compte, c'est l'effort."} ],
+  "c1-concession-indefinie": [ {q:"Complétez (无论什么,+虚拟) : ___ tu fasses, je te soutiens.", a:"Quoi que tu fasses, je te soutiens."}, {q:"Complétez (无论…如何,quel 配合) : ___ le résultat, restons calmes.", a:"Quel que soit le résultat, restons calmes.", note:"quel que 分写,与 résultat 配合。"}, {q:"Complétez (无论多难,+虚拟) : ___ difficile que ce soit, persévère. (si)", a:"Si difficile que ce soit, persévère."} ],
+  "c1-hypothese-sans-si": [ {q:"Remplacez « si » par un gérondif : Si tu travaillais davantage, tu réussirais. → ___ davantage, tu réussirais.", a:"En travaillant davantage, tu réussirais."}, {q:"Complétez avec <b>au cas où</b> (+条件式!) : ___ tu ___ faim, il y a du pain. (avoir)", a:"Au cas où tu aurais faim, il y a du pain.", note:"au cas où 接条件式。"} ],
+  "c1-ne-expletif": [ {q:"Ajoutez le <b>ne</b> explétif : Je crains qu'il ___ soit trop tard.", a:"Je crains qu'il ne soit trop tard.", note:"此 ne 非否定。"}, {q:"Ajoutez le <b>ne</b> explétif : Il est plus malin qu'on ___ le pense.", a:"Il est plus malin qu'on ne le pense."} ],
+  "c1-accord-avance": [ {q:"Accordez (施动者→配合) : Les artistes que j'ai ___ chanter. (voir)", a:"Les artistes que j'ai vus chanter.", note:"他们在唱→配合。"}, {q:"Accordez ou non (被动作→不配合) : La chanson que j'ai ___ chanter. (entendre)", a:"La chanson que j'ai entendu chanter.", note:"歌是被唱→不配合。"}, {q:"Accordez ou non (COD = en) : Des fautes ? J'en ai ___ . (faire)", a:"Des fautes ? J'en ai fait."} ],
+  "c1-connecteurs-soutenus": [ {q:"Reliez avec <b>d'autant plus… que</b> : Il est ___ déçu ___ il espérait gagner.", a:"Il est d'autant plus déçu qu'il espérait gagner."}, {q:"Complétez avec <b>or</b> : Tous le savaient. ___ , personne n'agit.", a:"Tous le savaient. Or, personne n'agit."} ],
+  "c1-apres-que": [ {q:"Complétez (直陈式!) : Après qu'il ___ (partir, passé composé), j'ai rangé.", a:"Après qu'il est parti, j'ai rangé.", note:"après que 接直陈式。"}, {q:"Complétez (avant que → 虚拟) : Range avant qu'il ___ (arriver).", a:"Range avant qu'il arrive."} ],
+  "c1-impersonnelles": [ {q:"Complétez avec <b>il convient de</b> : ___ rester prudent.", a:"Il convient de rester prudent."}, {q:"Complétez avec <b>force est de constater que</b> : ___ rien n'a changé.", a:"Force est de constater que rien n'a changé."} ],
+  "c1-adj-verbal": [ {q:"Adjectif verbal (配合) : une journée ___ (fatiguer)", a:"une journée fatigante", note:"形容词→配合,拼 -gant。"}, {q:"Participe présent (不变,-gu-) : ___ tout le monde, il partit. (fatiguer)", a:"Fatiguant tout le monde, il partit.", note:"分词带宾语→不变,拼 -guant。"} ],
+  "c2-passe-anterieur": [ {q:"改写成文学语体(先过去时 + 简单过去时) : « Quand il a eu fini son discours, il est sorti. »", a:"Quand il eut fini son discours, il sortit."}, {q:"改为先过去时 + 简单过去时 : « Dès qu'elle était partie, le silence est retombé. »", a:"Dès qu'elle fut partie, le silence retomba."} ],
+  "c2-concordance-litteraire": [ {q:"改写成文学呼应(虚拟式未完成过去) : « Je voulais qu'il vienne. »", a:"Je voulais qu'il vînt."}, {q:"改写成文学呼应(表「在前」用虚拟式愈过去) : « Bien qu'il ait plu, ils sortirent. »", a:"Bien qu'il eût plu, ils sortirent."} ],
+  "c2-concession-soutenue": [ {q:"« Quand bien même il ___ (pleuvoir), je sortirais. » (即便)", a:"Quand bien même il pleuvrait, je sortirais.", note:"quand bien même + 条件式。"}, {q:"« Tout intelligent qu'il ___ (être), il se trompe. » (强调事实→直陈)", a:"Tout intelligent qu'il est, il se trompe.", note:"tout… que + 直陈式。"}, {q:"« ___ (n'être) son aide, j'aurais échoué. » (若非)", a:"N'était son aide, j'aurais échoué."} ],
+  "c2-subj-fin": [ {q:"« Non qu'il ___ (être) bête, mais il est distrait. » (并非)", a:"Non qu'il soit bête, mais il est distrait.", note:"non que + 虚拟式。"}, {q:"« Parle fort de sorte qu'on t'___ (entendre). » (目的)", a:"Parle fort de sorte qu'on t'entende.", note:"de sorte que 表目的→虚拟。"}, {q:"« C'est le seul qui ___ (savoir) la vérité. » (主观→虚拟)", a:"C'est le seul qui sache la vérité."} ],
+  "c2-accord-extreme": [ {q:"« Les rois qui se sont ___ (succéder). » (se = à qn)", a:"Les rois qui se sont succédé.", note:"se = 间接宾语 → 不配合。"}, {q:"« Veuillez trouver ___ (ci-joint) la facture. » (置于名词前)", a:"Veuillez trouver ci-joint la facture.", note:"ci-joint 前置 → 不配合。"}, {q:"« Les sommes que ce projet a ___ (coûter). » (本义/数量)", a:"Les sommes que ce projet a coûté.", note:"coûté 本义 → 不配合。"} ],
+  "c2-inversion-style": [ {q:"主语后置 : « La mer s'étendait au loin. » → « Au loin ___ . »", a:"Au loin s'étendait la mer."}, {q:"主语后置 : « Sur la colline, un château se dressait. »", a:"Sur la colline se dressait un château."} ],
+  "c2-ellipse": [ {q:"用省略式改写 : « Il est inutile d'insister. » → « ___ insister. »", a:"Inutile d'insister."}, {q:"省略可复原的动词 : « Les uns riaient ; les autres pleuraient, en larmes. » → « Les uns riaient ; les autres, ___ . »", a:"Les uns riaient ; les autres, en larmes."} ],
+  "c2-conjecture": [ {q:"« On sonne — ce ___ (être,推测性将来时) le facteur. » (多半是)", a:"On sonne — ce sera le facteur.", note:"futur de conjecture = 大概。"}, {q:"« Selon la presse, le bilan ___ (s'élever,新闻条件式) à dix morts. » (据称)", a:"Selon la presse, le bilan s'élèverait à dix morts.", note:"条件式 = 未经证实。"} ],
+  "c2-rection": [ {q:"« Tu me ___ (manquer). » (我想你)", a:"Tu me manques.", note:"manquer à:主宾与中文相反。"}, {q:"« Elle ___ (jouer) du piano et ___ (jouer) au tennis. »", a:"Elle joue du piano et joue au tennis.", note:"jouer de 乐器 / jouer à 运动。"}, {q:"« Il ___ (tenir) de son père. » (像)", a:"Il tient de son père.", note:"tenir de = 像;tenir à = 在乎。"} ],
+  "c2-cause-niee": [ {q:"« Il a refusé, non qu'il ___ (être) timide, mais par principe. » (并非因为)", a:"Il a refusé, non qu'il soit timide, mais par principe.", note:"non que + 虚拟式。"}, {q:"补全 : « ___ je n'aime pas, ___ je n'ai pas le temps. » (不是…而是…)", a:"Ce n'est pas que je n'aime pas, c'est que je n'ai pas le temps."} ],
+  "c2-cohesion": [ {q:"« ___ , la décision est prise. » (无论如何)", a:"Quoi qu'il en soit, la décision est prise."}, {q:"« ___ , il avait raison. » (就此事而言)", a:"En l'occurrence, il avait raison."}, {q:"« Le projet coûte cher ; ___ , il est nécessaire. » (话虽如此)", a:"Le projet coûte cher ; cela étant, il est nécessaire."} ],
+  "c2-exclamation": [ {q:"« ___ temps perdu ! » (多么多…!表数量)", a:"Que de temps perdu !"}, {q:"« Il est plus âgé que je ___ le croyais. » (比较从句的赘词 ne)", a:"Il est plus âgé que je ne le croyais."} ],
+};
+
+const GRAMMAR = [...A1, ...A2, ...B1, ...B2, ...C1, ...C2];
+
+/* ===================== 渲染 ===================== */
+const $ = s => document.querySelector(s);
+const content = $("#content"), sidebar = $("#sidebar");
+let activeLevel = "ALL", query = "";
+
+function escAttr(s){return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function stripTags(s){return String(s).replace(/<[^>]+>/g,'');}
+function tts(fr){const t=stripTags(fr);return t?`<button class="tts" data-tts="${escAttr(t)}" title="朗读法语 / Écouter">🔊</button>`:"";}
+function cardHTML(g){
+  const forms = g.forms ? `<div class="forms">${g.forms}</div>` : "";
+  const tip = g.tip ? `<div class="tip">${g.tip}</div>` : "";
+  const ex = (g.ex||[]).map(e=>`<li><div class="fr">${tts(e.fr)} ${e.fr}</div><div class="zh">${e.zh}</div></li>`).join("");
+  const pr = (typeof PRACTICE!=="undefined" && PRACTICE[g.id]) || null;
+  let practice="";
+  if(pr && pr.length){
+    const items = pr.map(p=>`<li><div class="q">${p.q} <button class="reveal">显示答案 / Réponse</button></div><div class="a hidden">✓ ${p.a} ${tts(p.a)}${p.note?` <span class="anote">${p.note}</span>`:""}</div></li>`).join("");
+    practice = `<div class="practice"><div class="label">练习 · Exercices</div><ol class="qs">${items}</ol></div>`;
+  }
+  return `<article class="card" id="${g.id}" data-level="${g.level}">
+    <h3><span class="ttl">${g.titleFr}</span> ${tts(g.title)} <span class="badge ${g.level}">${g.level}</span> <button class="say-all" title="仅朗读本节(标题+讲解+例句) / Lire cette fiche">▶ 整段朗读</button> <button class="say-from" title="从本节起连续朗读全部,可在顶栏暂停/停止 / Lire en continu à partir d'ici">⏩ 从此连读</button></h3>
+    <div class="expl">
+      <div class="zh">${g.zh}</div>
+      <div class="fr">${tts(g.fr)} ${g.fr}</div>
+    </div>
+    ${forms}
+    <div class="label">例句 · Exemples</div>
+    <ul class="ex">${ex}</ul>
+    ${tip}
+    ${practice}
+  </article>`;
+}
+
+function matches(g){
+  if(activeLevel!=="ALL" && g.level!==activeLevel) return false;
+  if(!query) return true;
+  const hay = (g.title+g.titleFr+g.zh+g.fr+g.cat+(g.ex||[]).map(e=>e.fr+e.zh).join("")).toLowerCase();
+  return hay.includes(query);
+}
+
+function render(){
+  if(typeof stopSpeak==='function')stopSpeak();
+  const list = GRAMMAR.filter(matches);
+  // group by level then cat, preserving order
+  let html="", lastCat="";
+  const order = {A1:1,A2:2,B1:3,B2:4,C1:5,C2:6};
+  list.sort((a,b)=> (order[a.level]-order[b.level]) || 0);
+  list.forEach(g=>{
+    const key = g.level+" · "+g.cat;
+    if(key!==lastCat){ html += `<div class="cathead">${g.level} · ${g.cat} <span style="font-weight:400">/ ${g.catFr}</span></div>`; lastCat=key; }
+    html += cardHTML(g);
+  });
+  content.innerHTML = html;
+  $("#nores").classList.toggle("hidden", list.length>0);
+  $("#count").textContent = `共 ${GRAMMAR.length} 个语法点 · 当前显示 ${list.length} 个`;
+  buildSidebar(list);
+}
+
+function buildSidebar(list){
+  let html = `<div class="brand">法语语法手册<small>Grammaire française · A1–C2</small></div>`;
+  let lastLevel="", lastCat="";
+  list.forEach(g=>{
+    if(g.level!==lastLevel){ html+=`<div class="navlevel">${g.level}</div>`; lastLevel=g.level; lastCat=""; }
+    if(g.cat!==lastCat){ html+=`<div class="navcat">${g.cat}</div>`; lastCat=g.cat; }
+    html += `<span class="navitem" data-id="${g.id}">${g.titleFr.split(" · ")[0]}</span>`;
+  });
+  sidebar.innerHTML = html;
+  sidebar.querySelectorAll(".navitem").forEach(n=>{
+    n.onclick=()=>{
+      const el=document.getElementById(n.dataset.id);
+      if(el){el.scrollIntoView({behavior:"smooth",block:"start"});
+        sidebar.querySelectorAll(".navitem").forEach(x=>x.classList.remove("active"));
+        n.classList.add("active");
+        closeMenu();}
+    };
+  });
+}
+
+/* ===================== 交互 ===================== */
+$("#search").addEventListener("input", e=>{ query=e.target.value.trim().toLowerCase(); render(); });
+$("#chips").addEventListener("click", e=>{
+  if(!e.target.classList.contains("chip")) return;
+  activeLevel=e.target.dataset.l;
+  $("#chips").querySelectorAll(".chip").forEach(c=>c.classList.toggle("on", c.dataset.l===activeLevel));
+  render();
+});
+const themeBtn=$("#themeBtn");
+function setTheme(t){ document.documentElement.setAttribute("data-theme",t); try{localStorage.setItem("gr-theme",t);}catch(e){} }
+themeBtn.onclick=()=>{ const cur=document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark"; setTheme(cur); };
+try{ const saved=localStorage.getItem("gr-theme"); if(saved) setTheme(saved); }catch(e){}
+
+/* mobile menu */
+const scrim=$("#scrim");
+function closeMenu(){ sidebar.classList.remove("open"); scrim.classList.remove("open"); }
+$("#menuToggle").onclick=()=>{ sidebar.classList.toggle("open"); scrim.classList.toggle("open"); };
+scrim.onclick=closeMenu;
+
+/* ===== TTS(法语朗读 + 语音选择 + 语速调节) ===== */
+let frVoice=null, voices=[], rate=0.95, curBtn=null, speakGen=0, speaking=false, paused=false, pendingNext=null;
+const voiceSel=document.getElementById('voiceSel'), rateInput=document.getElementById('rate'),
+      rateVal=document.getElementById('rateVal'), voiceTest=document.getElementById('voiceTest'),
+      ttsPause=document.getElementById('ttsPause'), ttsStop=document.getElementById('ttsStop');
+function lsGet(k){try{return localStorage.getItem(k);}catch(e){return null;}}
+function lsSet(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+function loadVoices(){
+  voices=(window.speechSynthesis?speechSynthesis.getVoices():[])||[];
+  if(!voiceSel)return;
+  const fr=voices.filter(v=>/^fr/i.test(v.lang));
+  const saved=lsGet('gr-voice');
+  voiceSel.innerHTML='';
+  if(fr.length){
+    fr.forEach(v=>{const o=document.createElement('option');o.value=v.name;o.textContent=v.name.replace(/^(Microsoft|Google)\s+/,'')+' · '+v.lang;voiceSel.appendChild(o);});
+    frVoice = fr.find(v=>v.name===saved) || fr.find(v=>/fr[-_]?FR/i.test(v.lang)) || fr[0];
+    voiceSel.value=frVoice.name;
+  }else{
+    const o=document.createElement('option');o.value='';o.textContent='系统默认 fr-FR / Défaut';voiceSel.appendChild(o);
+    frVoice=null;
+  }
+}
+if('speechSynthesis' in window){loadVoices();window.speechSynthesis.onvoiceschanged=loadVoices;}
+if(voiceSel)voiceSel.addEventListener('change',e=>{frVoice=voices.find(v=>v.name===e.target.value)||null;lsSet('gr-voice',e.target.value);});
+if(rateInput){
+  const sr=parseFloat(lsGet('gr-rate'));
+  if(!isNaN(sr)){rate=sr;rateInput.value=sr;}
+  if(rateVal)rateVal.textContent=rate.toFixed(2)+'×';
+  rateInput.addEventListener('input',e=>{rate=parseFloat(e.target.value);if(rateVal)rateVal.textContent=rate.toFixed(2)+'×';lsSet('gr-rate',e.target.value);});
+}
+if(voiceTest)voiceTest.addEventListener('click',()=>speak('Bonjour ! Ceci est un exemple de prononciation française.'));
+function updateTransport(){
+  if(ttsStop)ttsStop.disabled=!speaking;
+  if(ttsPause){ttsPause.disabled=!speaking;ttsPause.textContent=paused?'▶':'⏸';ttsPause.title=paused?'继续 / Reprendre':'暂停 / Pause';}
+}
+function togglePause(){
+  if(!speaking||!('speechSynthesis' in window))return;
+  if(paused){paused=false;try{speechSynthesis.resume();}catch(e){}if(pendingNext){const f=pendingNext;pendingNext=null;f();}}
+  else{paused=true;try{speechSynthesis.pause();}catch(e){}}
+  updateTransport();
+}
+if(ttsPause)ttsPause.addEventListener('click',togglePause);
+if(ttsStop)ttsStop.addEventListener('click',stopSpeak);
+function clearReading(){document.querySelectorAll('.card.reading').forEach(x=>x.classList.remove('reading'));}
+function stopSpeak(){
+  speakGen++; speaking=false; paused=false; pendingNext=null;
+  try{if('speechSynthesis' in window)speechSynthesis.cancel();}catch(e){}
+  document.querySelectorAll('.tts.playing,.say-all.playing,.say-from.playing').forEach(x=>x.classList.remove('playing'));
+  clearReading(); curBtn=null; updateTransport();
+}
+function utter(text){
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang=(frVoice&&frVoice.lang)||'fr-FR'; if(frVoice)u.voice=frVoice; u.rate=rate;
+  return u;
+}
+function playItems(items,btn){
+  items=(items||[]).filter(x=>x&&x.t);
+  if(!('speechSynthesis' in window)||!items.length)return;
+  stopSpeak(); const gen=speakGen;
+  speaking=true; paused=false; curBtn=btn||null; if(btn)btn.classList.add('playing');
+  let i=0,lastCard=null;
+  function next(){
+    if(gen!==speakGen)return;
+    if(paused){pendingNext=next;return;}
+    if(i>=items.length){speaking=false;if(btn)btn.classList.remove('playing');clearReading();updateTransport();return;}
+    const it=items[i++];
+    if(it.card&&it.card!==lastCard){clearReading();it.card.classList.add('reading');try{it.card.scrollIntoView({behavior:'smooth',block:'center'});}catch(e){}lastCard=it.card;}
+    const u=utter(it.t);
+    u.onend=()=>{if(gen===speakGen)next();};
+    u.onerror=()=>{if(gen===speakGen)next();};
+    try{speechSynthesis.speak(u);}catch(e){}
+  }
+  next(); updateTransport();
+}
+function speak(text,btn){ playItems([{t:text}],btn); }
+/* 事件委托:朗读 + 揭示答案 */
+content.addEventListener('click',e=>{
+  const sf=e.target.closest('.say-from');
+  if(sf){
+    stopSpeak();
+    const card=sf.closest('.card');
+    const cards=[...content.querySelectorAll('.card')];
+    const start=cards.indexOf(card); const items=[];
+    for(let k=start;k<cards.length;k++){
+      [...cards[k].querySelectorAll('.tts')].filter(x=>!x.closest('.practice')).forEach(x=>items.push({t:x.getAttribute('data-tts'),card:cards[k]}));
+    }
+    playItems(items,null); return;
+  }
+  const sa=e.target.closest('.say-all');
+  if(sa){
+    const was=sa.classList.contains('playing'); stopSpeak(); if(was)return;
+    const card=sa.closest('.card');
+    const items=[...card.querySelectorAll('.tts')].filter(x=>!x.closest('.practice')).map(x=>({t:x.getAttribute('data-tts'),card}));
+    playItems(items,sa); return;
+  }
+  const b=e.target.closest('.tts');
+  if(b){speak(b.getAttribute('data-tts'),b);return;}
+  const r=e.target.closest('.reveal');
+  if(r){
+    const li=r.closest('li'); const a=li&&li.querySelector('.a'); if(!a)return;
+    const show=a.classList.contains('hidden');
+    a.classList.toggle('hidden',!show);
+    r.textContent=show?'隐藏答案 / Masquer':'显示答案 / Réponse';
+    return;
+  }
+});
+
+render();
+</script>
+</body>
+</html>
