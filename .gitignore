@@ -1,0 +1,12 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器 / 工具
+.vscode/
+.idea/
+.claude/
+
+# TTS 生成的中间产物
+tools/strings.json
