@@ -165,6 +165,7 @@
     </div>
   </div>
 </div>
+<script src="audio/manifest.js"></script>
 <script>
 /* ============================================================
    数据结构 · 每个语法点:
@@ -1444,35 +1445,52 @@ function closeMenu(){ sidebar.classList.remove("open"); scrim.classList.remove("
 $("#menuToggle").onclick=()=>{ sidebar.classList.toggle("open"); scrim.classList.toggle("open"); };
 scrim.onclick=closeMenu;
 
-/* ===== TTS(法语朗读 + 语音选择 + 语速调节) ===== */
+/* ===== TTS(法语朗读:高清神经语音 + 系统语音回退 + 语速调节) =====
+   优先播放预生成的高清 mp3(edge-tts,iOS/离线/GitHub Pages 均可用);
+   无对应音频或选了系统语音时,回退到浏览器 Web Speech。 */
 let frVoice=null, voices=[], rate=0.95, curBtn=null, speakGen=0, speaking=false, paused=false, pendingNext=null;
+let useNeural=false, neuralVoice='fr-FR', curAudio=null;
+const MAN=(typeof window!=='undefined' && window.AUDIO_MANIFEST) || null;
+const audioEl=(typeof Audio!=='undefined') ? new Audio() : null;
+if(audioEl){ audioEl.preload='auto'; try{audioEl.preservesPitch=true;audioEl.mozPreservesPitch=true;audioEl.webkitPreservesPitch=true;}catch(e){} }
 const voiceSel=document.getElementById('voiceSel'), rateInput=document.getElementById('rate'),
       rateVal=document.getElementById('rateVal'), voiceTest=document.getElementById('voiceTest'),
       ttsPause=document.getElementById('ttsPause'), ttsStop=document.getElementById('ttsStop');
 function lsGet(k){try{return localStorage.getItem(k);}catch(e){return null;}}
 function lsSet(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+function setVoiceFromValue(val){
+  if(val && val.indexOf('neural:')===0){ useNeural=true; neuralVoice=val.slice(7); frVoice=null; }
+  else if(val && val.indexOf('sys:')===0){ useNeural=false; const name=val.slice(4); frVoice=voices.find(v=>v.name===name)||null; }
+  else { useNeural=false; frVoice=null; }
+}
+function applyVoiceChoice(saved){
+  const opts=[...voiceSel.options].map(o=>o.value);
+  let pick=(saved && opts.indexOf(saved)>=0) ? saved : null;
+  if(!pick && MAN && MAN.voices && MAN.voices.length) pick='neural:'+(MAN.voices.indexOf('fr-FR')>=0?'fr-FR':MAN.voices[0]);
+  if(!pick){ const s=voices.find(v=>/fr[-_]?FR/i.test(v.lang))||voices.find(v=>/^fr/i.test(v.lang)); if(s)pick='sys:'+s.name; }
+  if(!pick && opts.length) pick=opts[0];
+  if(pick==null)return;
+  voiceSel.value=pick; setVoiceFromValue(pick);
+}
 function loadVoices(){
   voices=(window.speechSynthesis?speechSynthesis.getVoices():[])||[];
   if(!voiceSel)return;
+  const prev=voiceSel.value, saved=lsGet('gr-voice');
   const fr=voices.filter(v=>/^fr/i.test(v.lang));
-  const saved=lsGet('gr-voice');
   voiceSel.innerHTML='';
-  if(fr.length){
-    fr.forEach(v=>{const o=document.createElement('option');o.value=v.name;o.textContent=v.name.replace(/^(Microsoft|Google)\s+/,'')+' · '+v.lang;voiceSel.appendChild(o);});
-    frVoice = fr.find(v=>v.name===saved) || fr.find(v=>/fr[-_]?FR/i.test(v.lang)) || fr[0];
-    voiceSel.value=frVoice.name;
-  }else{
-    const o=document.createElement('option');o.value='';o.textContent='系统默认 fr-FR / Défaut';voiceSel.appendChild(o);
-    frVoice=null;
-  }
+  if(MAN && MAN.voices){ MAN.voices.forEach(code=>{ const o=document.createElement('option'); o.value='neural:'+code; const lb=(MAN.labels&&MAN.labels[code])||''; o.textContent='🔊 '+code+(lb?' · '+lb:'')+' · 高清'; voiceSel.appendChild(o); }); }
+  fr.forEach(v=>{ const o=document.createElement('option'); o.value='sys:'+v.name; o.textContent=v.name.replace(/^(Microsoft|Google)\s+/,'')+' · '+v.lang; voiceSel.appendChild(o); });
+  if(!voiceSel.options.length){ const o=document.createElement('option'); o.value=''; o.textContent='系统默认 fr-FR / Défaut'; voiceSel.appendChild(o); }
+  applyVoiceChoice(prev || saved);
 }
-if('speechSynthesis' in window){loadVoices();window.speechSynthesis.onvoiceschanged=loadVoices;}
-if(voiceSel)voiceSel.addEventListener('change',e=>{frVoice=voices.find(v=>v.name===e.target.value)||null;lsSet('gr-voice',e.target.value);});
+loadVoices();
+if('speechSynthesis' in window){ try{window.speechSynthesis.onvoiceschanged=loadVoices;}catch(e){} }
+if(voiceSel)voiceSel.addEventListener('change',e=>{ setVoiceFromValue(e.target.value); lsSet('gr-voice',e.target.value); });
 if(rateInput){
   const sr=parseFloat(lsGet('gr-rate'));
   if(!isNaN(sr)){rate=sr;rateInput.value=sr;}
   if(rateVal)rateVal.textContent=rate.toFixed(2)+'×';
-  rateInput.addEventListener('input',e=>{rate=parseFloat(e.target.value);if(rateVal)rateVal.textContent=rate.toFixed(2)+'×';lsSet('gr-rate',e.target.value);});
+  rateInput.addEventListener('input',e=>{ rate=parseFloat(e.target.value); if(rateVal)rateVal.textContent=rate.toFixed(2)+'×'; lsSet('gr-rate',e.target.value); if(curAudio){try{curAudio.playbackRate=rate;}catch(err){}} });
 }
 if(voiceTest)voiceTest.addEventListener('click',()=>speak('Bonjour ! Ceci est un exemple de prononciation française.'));
 function updateTransport(){
@@ -1480,9 +1498,17 @@ function updateTransport(){
   if(ttsPause){ttsPause.disabled=!speaking;ttsPause.textContent=paused?'▶':'⏸';ttsPause.title=paused?'继续 / Reprendre':'暂停 / Pause';}
 }
 function togglePause(){
-  if(!speaking||!('speechSynthesis' in window))return;
-  if(paused){paused=false;try{speechSynthesis.resume();}catch(e){}if(pendingNext){const f=pendingNext;pendingNext=null;f();}}
-  else{paused=true;try{speechSynthesis.pause();}catch(e){}}
+  if(!speaking)return;
+  if(paused){
+    paused=false;
+    if(curAudio){curAudio.play().catch(function(){});}
+    else if('speechSynthesis' in window){try{speechSynthesis.resume();}catch(e){}}
+    if(pendingNext){const f=pendingNext;pendingNext=null;f();}
+  }else{
+    paused=true;
+    if(curAudio){try{curAudio.pause();}catch(e){}}
+    else if('speechSynthesis' in window){try{speechSynthesis.pause();}catch(e){}}
+  }
   updateTransport();
 }
 if(ttsPause)ttsPause.addEventListener('click',togglePause);
@@ -1491,6 +1517,8 @@ function clearReading(){document.querySelectorAll('.card.reading').forEach(x=>x.
 function stopSpeak(){
   speakGen++; speaking=false; paused=false; pendingNext=null;
   try{if('speechSynthesis' in window)speechSynthesis.cancel();}catch(e){}
+  if(audioEl){try{audioEl.pause();}catch(e){} audioEl.onended=null; audioEl.onerror=null;}
+  curAudio=null;
   document.querySelectorAll('.tts.playing,.say-all.playing,.say-from.playing').forEach(x=>x.classList.remove('playing'));
   clearReading(); curBtn=null; updateTransport();
 }
@@ -1499,22 +1527,43 @@ function utter(text){
   u.lang=(frVoice&&frVoice.lang)||'fr-FR'; if(frVoice)u.voice=frVoice; u.rate=rate;
   return u;
 }
+function audioURLFor(text){
+  if(!useNeural||!MAN||!MAN.map)return null;
+  const f=MAN.map[text];
+  return f ? (MAN.base+neuralVoice+'/'+f) : null;
+}
+function speakOne(text,done){
+  if(!('speechSynthesis' in window)){done&&done();return;}
+  const u=utter(text); u.onend=()=>done&&done(); u.onerror=()=>done&&done();
+  try{speechSynthesis.speak(u);}catch(e){done&&done();}
+}
 function playItems(items,btn){
   items=(items||[]).filter(x=>x&&x.t);
-  if(!('speechSynthesis' in window)||!items.length)return;
+  if(!items.length)return;
+  if(!('speechSynthesis' in window) && !(useNeural&&MAN&&audioEl))return;
   stopSpeak(); const gen=speakGen;
   speaking=true; paused=false; curBtn=btn||null; if(btn)btn.classList.add('playing');
   let i=0,lastCard=null;
   function next(){
     if(gen!==speakGen)return;
     if(paused){pendingNext=next;return;}
-    if(i>=items.length){speaking=false;if(btn)btn.classList.remove('playing');clearReading();updateTransport();return;}
+    if(i>=items.length){speaking=false;if(btn)btn.classList.remove('playing');clearReading();curAudio=null;updateTransport();return;}
     const it=items[i++];
     if(it.card&&it.card!==lastCard){clearReading();it.card.classList.add('reading');try{it.card.scrollIntoView({behavior:'smooth',block:'center'});}catch(e){}lastCard=it.card;}
-    const u=utter(it.t);
-    u.onend=()=>{if(gen===speakGen)next();};
-    u.onerror=()=>{if(gen===speakGen)next();};
-    try{speechSynthesis.speak(u);}catch(e){}
+    const url=audioURLFor(it.t);
+    if(url&&audioEl){
+      curAudio=audioEl;
+      audioEl.onended=()=>{if(gen===speakGen){curAudio=null;next();}};
+      audioEl.onerror=()=>{if(gen!==speakGen)return;curAudio=null;speakOne(it.t,()=>{if(gen===speakGen)next();});};
+      try{audioEl.pause();}catch(e){}
+      audioEl.src=url;
+      try{audioEl.playbackRate=rate||1;}catch(e){}
+      const pr=audioEl.play();
+      if(pr&&pr.catch)pr.catch(()=>{if(gen!==speakGen)return;curAudio=null;speakOne(it.t,()=>{if(gen===speakGen)next();});});
+    }else{
+      curAudio=null;
+      speakOne(it.t,()=>{if(gen===speakGen)next();});
+    }
   }
   next(); updateTransport();
 }
