@@ -1357,6 +1357,8 @@ let activeLevel = "ALL", query = "";
 function escAttr(s){return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function stripTags(s){return String(s).replace(/<[^>]+>/g,'');}
 function tts(fr){const t=stripTags(fr);return t?`<button class="tts" data-tts="${escAttr(t)}" title="朗读法语 / Écouter">🔊</button>`:"";}
+// titleFr is "français · 中文" for some entries but Chinese-only for others; g.title always holds the French
+function fullTitle(g){return /[一-鿿]/.test(g.titleFr.split(" · ")[0]) ? `${g.title} · ${g.titleFr}` : g.titleFr;}
 function cardHTML(g){
   const forms = g.forms ? `<div class="forms">${g.forms}</div>` : "";
   const tip = g.tip ? `<div class="tip">${g.tip}</div>` : "";
@@ -1368,7 +1370,7 @@ function cardHTML(g){
     practice = `<div class="practice"><div class="label">练习 · Exercices</div><ol class="qs">${items}</ol></div>`;
   }
   return `<article class="card" id="${g.id}" data-level="${g.level}">
-    <h3><span class="ttl">${g.titleFr}</span> ${tts(g.title)} <span class="badge ${g.level}">${g.level}</span> <button class="say-all" title="仅朗读本节(标题+讲解+例句) / Lire cette fiche">▶ 整段朗读</button> <button class="say-from" title="从本节起连续朗读全部,可在顶栏暂停/停止 / Lire en continu à partir d'ici">⏩ 从此连读</button></h3>
+    <h3><span class="ttl">${fullTitle(g)}</span> ${tts(g.title)} <span class="badge ${g.level}">${g.level}</span> <button class="say-all" title="仅朗读本节(标题+讲解+例句) / Lire cette fiche">▶ 整段朗读</button> <button class="say-from" title="从本节起连续朗读全部,可在顶栏暂停/停止 / Lire en continu à partir d'ici">⏩ 从此连读</button></h3>
     <div class="expl">
       <div class="zh">${g.zh}</div>
       <div class="fr">${tts(g.fr)} ${g.fr}</div>
@@ -1412,7 +1414,7 @@ function buildSidebar(list){
   list.forEach(g=>{
     if(g.level!==lastLevel){ html+=`<div class="navlevel">${g.level}</div>`; lastLevel=g.level; lastCat=""; }
     if(g.cat!==lastCat){ html+=`<div class="navcat">${g.cat}</div>`; lastCat=g.cat; }
-    html += `<span class="navitem" data-id="${g.id}">${g.titleFr.split(" · ")[0]}</span>`;
+    html += `<span class="navitem" data-id="${g.id}">${fullTitle(g).split(" · ")[0]}</span>`;
   });
   sidebar.innerHTML = html;
   sidebar.querySelectorAll(".navitem").forEach(n=>{
