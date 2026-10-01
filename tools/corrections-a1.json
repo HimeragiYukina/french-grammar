@@ -1,0 +1,62 @@
+[
+  {
+    "old": "否定/数量词后用 de:pas de、beaucoup de 后部分冠词一律变 de(元音前 d')",
+    "new": "普通全量否定/数量词后通常用 de:pas de、beaucoup de(元音前 d');être 表语、对比否定或指定整体的数量表达有例外",
+    "reason": "部分冠词的 de 规则有例外"
+  },
+  {
+    "old": "il y a 永远不变:即使后面是复数 musées,il y a 形式也不变",
+    "new": "il y a 不随宾语单复数变化:即使后面是复数 musées,现在时仍为 il y a;其他时态可用 il y avait、il y aura",
+    "reason": "无人称结构仍有时态变化"
+  },
+  {
+    "old": "il y a 永远不变(没有复数 *il y ont*)",
+    "new": "il y a 不随所引入名词的数变化(没有复数 *il y ont*),但会随时态改变",
+    "reason": "澄清数不变而非时态不变"
+  },
+  {
+    "old": "复数双写 n",
+    "new": "ils 形式双写 n,但 nous venons/vous venez 不双写",
+    "reason": "venir 只有指定形式双写"
+  },
+  {
+    "old": "un/une/des、du/de la 在 pas 之后一律变 de",
+    "new": "普通全量否定的直接宾语中 un/une/des、du/de la 通常变 de;être 表语或对比否定常保留原冠词",
+    "reason": "避免否定一律变 de"
+  },
+  {
+    "old": "倒装时若第三人称动词以元音结尾,加",
+    "new": "倒装时第三人称单数动词以 a/e 结尾且后接 il/elle/on 时,通常加",
+    "reason": "限定插入 t 的条件"
+  },
+  {
+    "old": "后面只能接人,不接地点名词",
+    "new": "通常接人、职业指人或代词;也能接某些企业名称,但不直接接 gare 等一般地点名词",
+    "reason": "chez 可接机构名"
+  },
+  {
+    "old": "只用于<strong>人</strong>(chez moi, chez le coiffeur),不用于地点名词",
+    "new": "通常用于<strong>人及其处所</strong>(chez moi, chez le coiffeur),也可用于企业名(chez Renault);普通地点用 à/dans 等",
+    "reason": "chez 可接企业"
+  },
+  {
+    "old": "两个动词连用时,第二个永远用<strong>原形</strong>,不再变位",
+    "new": "本节这些动词的原形补语用<strong>原形</strong>,不随主语再变位;但复合时态(例如 j’ai mangé)和从句结构不能套用此规则",
+    "reason": "限定原形规则的范围"
+  },
+  {
+    "old": "阳性国家用 <b>au</b>",
+    "new": "辅音开头的阳性国家用 <b>au</b>,元音开头的阳性国家通常用 <b>en</b>(en Iran)",
+    "reason": "补充元音起始阳性国家"
+  },
+  {
+    "old": "否定后不定冠词/部分冠词变 de:",
+    "new": "普通全量否定的直接宾语中,不定冠词/部分冠词通常变 de:",
+    "reason": "否定例外"
+  },
+  {
+    "old": "星期无冠词=这一个:不加冠词指最近的那个周六,与 le samedi(每逢)相对",
+    "new": "星期无冠词=特定一次:由时态和语境决定指过去或将来的某个周六,与通常表习惯的 le samedi 相对",
+    "reason": "星期无冠词非固定将来"
+  }
+]

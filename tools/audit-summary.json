@@ -1,0 +1,986 @@
+{
+  "method": "六个分批独立助手逐句审校：原有说明、表格、例句、练习，以及扩写的全部说明、例句、译文和边界；数量核对仅验证审校记录覆盖，不构成语言正确性的自动证明。",
+  "limitations": "重点规则有外部权威核验；原创例句不是官方逐句认证，亦非第三方母语专业编辑认证。",
+  "totals": {
+    "original_examples": 427,
+    "practice_items": 436,
+    "expansion_sections": 311,
+    "expansion_examples": 812,
+    "points": 97,
+    "index_revision_records": 133,
+    "expansion_revision_records": 61,
+    "final_editorial_revisions": 1
+  },
+  "coverage": [
+    {
+      "id": "a1-genre",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-indefini",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-pluriel",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-partitif",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-sujets",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-etre",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-avoir",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-cest-ilya",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-present-er",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-present-ir",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-present-irreg",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-adj",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-possessif",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-demonstratif",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-negation",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-question",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-mots-interro",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 8,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-prep-lieu",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-prep-base",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-heure-date",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-futur-proche",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-passe-recent",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a1-vouloir-inf",
+      "level": "A1",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a1.json"
+    },
+    {
+      "id": "a2-pc-avoir",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 2,
+      "expansion_examples": 4,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-pc-etre",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-imparfait",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-pc-vs-imp",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-futur-simple",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-cod",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-coi",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-en",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-y",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-pronominaux",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-imperatif",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-comparatif",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-superlatif",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-qui-que",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-ou-relatif",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-quantite",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-temps-prep",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 4,
+      "expansion_sections": 6,
+      "expansion_examples": 12,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "a2-politesse",
+      "level": "A2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-a2.json"
+    },
+    {
+      "id": "b1-pqp",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-cond-present",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-cond-passe",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-subj-present",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-subj-declencheurs",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 7,
+      "practice_items": 7,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-si",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-discours-indirect",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-passif",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-double-pronoms",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-possessifs-pron",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-demonstratifs-pron",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-dont",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-gerondif",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-negations",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 7,
+      "practice_items": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 14,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b1-connecteurs-base",
+      "level": "B1",
+      "status": "reviewed",
+      "original_examples": 7,
+      "practice_items": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 16,
+      "record": "tools/audit-b1.json"
+    },
+    {
+      "id": "b2-subj-passe",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-mode-choix",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-concordance",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-participe-present",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-se-faire",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-relatifs-composes",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 7,
+      "practice_items": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-mise-relief",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-nominalisation",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-futur-anterieur",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-opposition-concession",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 7,
+      "practice_items": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-cause-consequence",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 8,
+      "practice_items": 8,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-but-condition",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 7,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-accord-pp",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 6,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-registres",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-modalisation",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "b2-adj-sens",
+      "level": "B2",
+      "status": "reviewed",
+      "original_examples": 7,
+      "practice_items": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 16,
+      "record": "tools/audit-b2.json"
+    },
+    {
+      "id": "c1-passe-simple",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-subj-imparfait",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-cond-2e",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 7,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-inversion",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 15,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-dislocation",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-concession-indefinie",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-hypothese-sans-si",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 5,
+      "expansion_sections": 4,
+      "expansion_examples": 16,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-ne-expletif",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 5,
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-accord-avance",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 14,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-connecteurs-soutenus",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 6,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-apres-que",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-impersonnelles",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c1-adj-verbal",
+      "level": "C1",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 16,
+      "record": "tools/audit-c1.json"
+    },
+    {
+      "id": "c2-passe-anterieur",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 6,
+      "record": "tools/audit-c2.json"
+    },
+    {
+      "id": "c2-concordance-litteraire",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 4,
+      "record": "tools/audit-c2.json"
+    },
+    {
+      "id": "c2-concession-soutenue",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 5,
+      "expansion_sections": 5,
+      "expansion_examples": 12,
+      "record": "tools/audit-c2.json"
+    },
+    {
+      "id": "c2-subj-fin",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 6,
+      "expansion_sections": 5,
+      "expansion_examples": 14,
+      "record": "tools/audit-c2.json"
+    },
+    {
+      "id": "c2-accord-extreme",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 6,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "record": "tools/audit-c2.json"
+    },
+    {
+      "id": "c2-inversion-style",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-c2.json"
+    },
+    {
+      "id": "c2-ellipse",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-c2.json"
+    },
+    {
+      "id": "c2-conjecture",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 5,
+      "practice_items": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "record": "tools/audit-c2.json"
+    },
+    {
+      "id": "c2-rection",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 6,
+      "practice_items": 6,
+      "expansion_sections": 5,
+      "expansion_examples": 16,
+      "record": "tools/audit-c2.json"
+    },
+    {
+      "id": "c2-cause-niee",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 3,
+      "practice_items": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "record": "tools/audit-c2.json"
+    },
+    {
+      "id": "c2-cohesion",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 7,
+      "practice_items": 7,
+      "expansion_sections": 7,
+      "expansion_examples": 14,
+      "record": "tools/audit-c2.json"
+    },
+    {
+      "id": "c2-exclamation",
+      "level": "C2",
+      "status": "reviewed",
+      "original_examples": 4,
+      "practice_items": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "record": "tools/audit-c2.json"
+    }
+  ]
+}

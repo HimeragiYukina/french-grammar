@@ -28,12 +28,12 @@ const windowStub = new Proxy({}, {
 });
 const localStorageStub = { getItem() { return null; }, setItem() {}, removeItem() {} };
 
-let GRAMMAR = null, PRACTICE = null;
+let GRAMMAR = null, PRACTICE = null, EXPANSIONS = null;
 try {
   const fn = new Function('document', 'window', 'localStorage', 'navigator', 'speechSynthesis', 'Audio',
-    script + '\n;return {G: typeof GRAMMAR!=="undefined"?GRAMMAR:null, P: typeof PRACTICE!=="undefined"?PRACTICE:null};');
+    script + '\n;return {G: typeof GRAMMAR!=="undefined"?GRAMMAR:null, P: typeof PRACTICE!=="undefined"?PRACTICE:null, X: typeof EXPANSIONS!=="undefined"?EXPANSIONS:null};');
   const r = fn(documentStub, windowStub, localStorageStub, { language: 'fr' }, undefined, undefined);
-  GRAMMAR = r.G; PRACTICE = r.P;
+  GRAMMAR = r.G; PRACTICE = r.P; EXPANSIONS = r.X;
 } catch (e) { console.error('RUN ERROR', e); process.exit(1); }
 
 if (!Array.isArray(GRAMMAR)) { console.error('GRAMMAR not found'); process.exit(1); }
@@ -43,6 +43,7 @@ const set = new Set();
 const add = s => { if (s == null) return; const t = strip(s); if (t.trim()) set.add(t); };
 
 GRAMMAR.forEach(g => { add(g.title); add(g.fr); (g.ex || []).forEach(e => add(e.fr)); });
+Object.values(EXPANSIONS || {}).forEach(x => (x.sections || []).forEach(s => (s.examples || []).forEach(e => add(e.fr))));
 Object.values(PRACTICE || {}).forEach(arr => (arr || []).forEach(p => add(p.a)));
 add('Bonjour ! Ceci est un exemple de prononciation française.'); // voiceTest sample
 

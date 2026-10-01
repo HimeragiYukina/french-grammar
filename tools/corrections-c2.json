@@ -1,0 +1,97 @@
+[
+  {
+    "old": "口语对应「愈过去时 + 复合过去时」。识别为主。",
+    "new": "日常可按语境改为复合过去时等;连词常已说明先后,不必一律改成愈过去时。识别为主。",
+    "reason": "先过去时现代改写不是固定愈过去时。"
+  },
+  {
+    "old": "他一写完,就起身出去了。",
+    "new": "他一完成,就起身出去了。",
+    "reason": "terminer 未指明写作活动。"
+  },
+  {
+    "old": "日常用虚拟式现在时即可。C2 要求",
+    "new": "日常按同时/先行关系用虚拟式现在时或过去时。C2 要求",
+    "reason": "现代先行关系仍需要虚拟式过去时。"
+  },
+  {
+    "old": "<b>tout + 形容词 + que</b>(+直陈,尽管)",
+    "new": "<b>tout + 形容词 + que</b>(常+直陈,亦可用虚拟,尽管)",
+    "reason": "tout…que 不只允许直陈式。"
+  },
+  {
+    "old": "tout… que (+ind.).",
+    "new": "tout… que (souvent +ind., aussi +subj.).",
+    "reason": "补充虚拟式可能性。"
+  },
+  {
+    "old": "tout… que + <strong>直陈式</strong>(强调事实)",
+    "new": "tout… que 常用<strong>直陈式</strong>(强调事实),亦可用虚拟式",
+    "reason": "避免绝对式选择规则。"
+  },
+  {
+    "old": "动词凝固为 n'était / n'eût été",
+    "new": "省略条件结构,相当于 si ce n'était / sans",
+    "reason": "n'était 的条件功能更准确。"
+  },
+  {
+    "old": "ci-joint antéposé → invariable.",
+    "new": "ci-joint : invariable en tête de phrase ou avant un nom sans déterminant ; accord facultatif avant un nom déterminé dans la phrase.",
+    "reason": "ci-joint 前置须按位置和限定词判定。"
+  },
+  {
+    "old": "③ <b>ci-joint / excepté / vu / passé</b> 置于名词<strong>前</strong>不配合。",
+    "new": "③ <b>excepté / vu / passé</b> 前置作介词通常不变;<b>ci-joint</b> 句首或无冠词名词前不变,句内带限定词名词前可配合或不配合。",
+    "reason": "区分词性和 ci-joint 的两可情况。"
+  },
+  {
+    "old": "随附发票,请查收。(前置→不配合)",
+    "new": "随附发票,请查收。(此处不配合或配合均可)",
+    "reason": "la facture 有限定词且句内,两可。"
+  },
+  {
+    "old": "ci-joint 前置不配合:置于名词 la facture 之前 → 不变",
+    "new": "ci-joint 在句内限定名词前:此处可不变,也可写 ci-jointe la facture",
+    "reason": "明确可接受变体。"
+  },
+  {
+    "old": "ci-joint 前置不配合、后置配合。",
+    "new": "ci-joint 句首或无冠词名词前不变;句内限定名词前两可;后置形容词配合。",
+    "reason": "补全规范。"
+  },
+  {
+    "old": "ci-joint 前置不配合:对照情形——后置作形容词时须与 déclaration 配合",
+    "new": "ci-joint 后置形容词配合:须与 déclaration 配合",
+    "reason": "use 标签与后置例句对应。"
+  },
+  {
+    "old": "并列省略(asyndète)",
+    "new": "无连词并置(asyndète)",
+    "reason": "asyndète 省连接词,不是省动词。"
+  },
+  {
+    "old": "名词化与并列省略:新闻标题",
+    "new": "名词化与无连词并置:新闻标题",
+    "reason": "术语纠正。"
+  },
+  {
+    "old": "人皆有死;然而苏格拉底是人;故苏格拉底有死。",
+    "new": "人皆有死;而苏格拉底是人;故苏格拉底有死。",
+    "reason": "or 在推理中引入前提,无对立含义。"
+  },
+  {
+    "old": "我多么怀念那些逝去的岁月啊!",
+    "new": "我多么惋惜那些逝去的岁月啊!",
+    "reason": "regretter 的确切情感要依语境,怀念不是唯一释义。"
+  },
+  {
+    "old": "ci-joint 前置 → 不配合。",
+    "new": "句内限定名词前可不变或配合:ci-joint / ci-jointe la facture 均可。",
+    "reason": "练习注释不能把两可误判成强制不变。"
+  },
+  {
+    "old": "ci-joint 后置 → 配合(前置则不变)。",
+    "new": "ci-joint 后置形容词 → 配合;句首/无冠词名词前不变,句内限定名词前两可。",
+    "reason": "修正练习反向规则。"
+  }
+]

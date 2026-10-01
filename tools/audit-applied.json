@@ -1,0 +1,800 @@
+[
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-genre",
+    "reason": "限定为本题，非所有阳性或阴性名词只用定冠词。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-genre",
+    "reason": "避免将定冠词解释为绝对世界唯一或所有语境必用。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-genre",
+    "reason": "区别哑音h和嘘音h。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-pluriel",
+    "reason": "补复数规则例外，避免与扩写边界矛盾。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-pluriel",
+    "reason": "练习注释不应把当前例子推广成绝对规律。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-partitif",
+    "reason": "原tip比已修正文和扩写绝对。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-etre",
+    "reason": "带评价职业名词和国籍名词不同于简单表语。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-etre",
+    "reason": "使注释与详解适用范围一致。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-etre",
+    "reason": "练习注释避免绝对化。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-present-er",
+    "reason": "移除没有来源与统计范围的90%，补aller例外。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-demonstratif",
+    "reason": "cet规则须同时满足阳性单数，阴性元音前仍cette。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-demonstratif",
+    "reason": "注释限定cet的性数。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-demonstratif",
+    "reason": "练习注释同步。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-prep-lieu",
+    "reason": "法文同步中文已有元音起始阳性国例外。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-prep-lieu",
+    "reason": "来源阳性国元音也需说明。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-prep-base",
+    "reason": "两个基本位置用不同对象，避免不解释容器就让同一书同时在桌上和包内。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-prep-base",
+    "reason": "同步例句对象。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-prep-base",
+    "reason": "同步练习明确两个对象。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-prep-base",
+    "reason": "同步练习答案。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a1.json",
+    "id": "a1-prep-base",
+    "reason": "原注释与正文修正冲突。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-imparfait",
+    "reason": "答案正确，旧推导会得出错误拼写 mangeions。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-y",
+    "reason": "纠正与正文相矛盾的动词支配注释。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-superlatif",
+    "reason": "本题形容词前置，提示不应说后置重复。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-pc-vs-imp",
+    "reason": "复合过去时可叙述长时段、状态和重复整体，并非只瞬时。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-pc-vs-imp",
+    "reason": "时长不自动决定时态，叙事推进不是每例必有。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-pc-vs-imp",
+    "reason": "中文说明不得补造当天语境。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-pc-vs-imp",
+    "reason": "纠正练习注释与新正文的信号词边界冲突。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-pc-vs-imp",
+    "reason": "依据叙事视角而不是机械信号词。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-pc-vs-imp",
+    "reason": "天气也可用有界复合过去，且交代第一人称配合边界。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-pc-avoir",
+    "reason": "避免把该句结论误推广到所有 avoir 结构。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-cod",
+    "reason": "与不定式及命令式的例外保持跨章一致。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-qui-que",
+    "reason": "宾语代词和倒装会使邻词口诀失效。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-qui-que",
+    "reason": "纠正仅按词序判断，并区分规范与口语省音。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-qui-que",
+    "reason": "练习同样必须按句法角色判断。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-qui-que",
+    "reason": "练习同样必须按句法角色判断。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-temps-prep",
+    "reason": "depuis 可连到过去参照点，不能仅解释现在仍真实。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-en",
+    "reason": "en 可以指人且包括来源，与新增边界一致。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-pronominaux",
+    "reason": "se coucher 是上床就寝，并不直接断言入睡时点。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-imperatif",
+    "reason": "正文应预告与例外边界一致的连接 s。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-imperatif",
+    "reason": "me/te 不是在全部肯定命令中都成 moi/toi。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-politesse",
+    "reason": "s’il vous plaît 为请求礼貌标记，请；不是 merci 的直译。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-a2.json",
+    "id": "a2-politesse",
+    "reason": "礼貌依场景，表达个人愿望的 je veux 并非必然无礼。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-cond-present",
+    "reason": "未完成条件句不必反事实。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-subj-present",
+    "reason": "不规则动词并非限定六个。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-subj-declencheurs",
+    "reason": "OQLF承认现实强调直陈用法,但多个规范著作反对,不作绝对断言。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-subj-declencheurs",
+    "reason": "疑问penser可直陈,扩写原文已有正确对照。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-subj-declencheurs",
+    "reason": "限于肯定,防止过度推广。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-subj-declencheurs",
+    "reason": "避免否定/疑問机械选式。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-subj-declencheurs",
+    "reason": "明确学习推荐而不绝对化。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-subj-declencheurs",
+    "reason": "练习与扩写边界一致。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-si",
+    "reason": "原表漏现在与命令式。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-si",
+    "reason": "将来假设也可用未完成时,不一定反事实。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-si",
+    "reason": "避免句子没有语境却直接断言事实相反,且原翻译过去色彩过重。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-si",
+    "reason": "与总说明及扩写一致。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-si",
+    "reason": "原练习与已正确修订tip矛盾。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-discours-indirect",
+    "reason": "quoi并非总替换,需保留de quoi/à quoi。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-discours-indirect",
+    "reason": "当天同地转述不必调整demain/ici。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-discours-indirect",
+    "reason": "避免机械时态后移。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-double-pronoms",
+    "reason": "默认表仅适用于前置代词,并非所有表格组合都合法。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-double-pronoms",
+    "reason": "练习输入改为自然常规法语;à moi只有明确对比时自然。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-demonstratifs-pron",
+    "reason": "中性代词也能指现场具体事物,原绝对化。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-dont",
+    "reason": "中文歧义与不自然修正。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-gerondif",
+    "reason": "保留规范检查点并给固定表达边界。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-negations",
+    "reason": "避免将无人称存在句的真实主语机械标COD。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-negations",
+    "reason": "与章节口语边界一致。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-connecteurs-base",
+    "reason": "原use与已正确tip矛盾。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-connecteurs-base",
+    "reason": "car可句号后大写开句。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-connecteurs-base",
+    "reason": "将推荐模式与强制位置分开。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-connecteurs-base",
+    "reason": "修正练习注释。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-connecteurs-base",
+    "reason": "rester en forme是身体健康良好状态,不局限身材外形。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b1.json",
+    "id": "b1-discours-indirect",
+    "reason": "法语摘要同步中文，不能把所有quoi机械替换为ce que。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-subj-passe",
+    "reason": "虚拟式过去可表示未来完成，不限于过去主观事件",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-subj-passe",
+    "reason": "补全完成及未来截止点意义",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-mode-choix",
+    "reason": "避免确定性和主观性机械对应语气",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-mode-choix",
+    "reason": "原概括过度绝对",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-se-faire",
+    "reason": "两结构语域不同",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-se-faire",
+    "reason": "限定 fait 不变规则",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-se-faire",
+    "reason": "vu 不能无条件不变",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-relatifs-composes",
+    "reason": "避免宣布其他正式关系结构绝对不合法",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-relatifs-composes",
+    "reason": "与扩写边界保持一致",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-opposition-concession",
+    "reason": "说明文学用法边界",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-cause-consequence",
+    "reason": "原因评价不是绝对二分",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-but-condition",
+    "reason": "避免主语相同从句绝对禁令",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-but-condition",
+    "reason": "说明选择倾向而非禁令",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-but-condition",
+    "reason": "去掉才用的绝对措辞",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-but-condition",
+    "reason": "题目缺少无人称存在结构 y，与答案不匹配",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-accord-pp",
+    "reason": "前置COD不是充分条件",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-registres",
+    "reason": "词义限制不可被语域表掩盖",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-registres",
+    "reason": "élément不等于任意truc",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-registres",
+    "reason": "补回 très 强度",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-registres",
+    "reason": "口语疑问未必失礼",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-registres",
+    "reason": "转换语域不应丢失强度",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-registres",
+    "reason": "加入具体对象语境，避免truc机械替换élément",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-registres",
+    "reason": "题答语义需一致",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-registres",
+    "reason": "修正语域绝对禁令",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-adj-sens",
+    "reason": "独处不等于孤独",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-b2.json",
+    "id": "b2-futur-anterieur",
+    "reason": "主句也可命令式，与本章第三道练习一致",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-cond-2e",
+    "reason": "第二式是传统名称，实际使用不只固定表达。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-cond-2e",
+    "reason": "中文措辞自然程度调整。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-cond-2e",
+    "reason": "避免所有虚拟式愈过去时都被视作条件式过去。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-hypothese-sans-si",
+    "reason": "现有题答正是同主语 que 从句，旧注释绝对化并自相矛盾。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-accord-avance",
+    "reason": "不是人/物类别决定配合，且不能推广至 pouvoir/devoir 等所有动词。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-apres-que",
+    "reason": "动作在现实已实现不是规范选择的必要条件。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-apres-que",
+    "reason": "未来事件仍接直陈式，应避免 fait réel 的误读。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-adj-verbal",
+    "reason": "原分词与离开的原因关系无上下文生硬，改为自然的同时原因。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-adj-verbal",
+    "reason": "与改后的例句相符，不添先后意义。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-adj-verbal",
+    "reason": "练习采用更自然语境并保持同样考点。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-adj-verbal",
+    "reason": "与练习题同步；词形答案仍为 Fatiguant。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c1.json",
+    "id": "c1-connecteurs-soutenus",
+    "reason": "预算条件的中文译文更准确自然。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-passe-anterieur",
+    "reason": "先过去时不一律含立即相接。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-passe-anterieur",
+    "reason": "同步移除必然立即性。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-passe-anterieur",
+    "reason": "appeler不自带离开或叫走的意义。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-concordance-litteraire",
+    "reason": "未完成过去虚拟式亦可表达后于过去主句的愿望动作。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-concordance-litteraire",
+    "reason": "同步法语说明。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-concordance-litteraire",
+    "reason": "venir愿望通常后于愿望，不强行标同时。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-concession-soutenue",
+    "reason": "过去结果使用明确过去反事实形式。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-concession-soutenue",
+    "reason": "与已修正示例时态对应。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-concession-soutenue",
+    "reason": "练习明确过去反事实目标，排除时态歧义。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-concession-soutenue",
+    "reason": "pour autant que知识范围限定并非必然让步。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-concession-soutenue",
+    "reason": "统一语义术语。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-subj-fin",
+    "reason": "最高级关系从句不只qui且非强制虚拟。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-subj-fin",
+    "reason": "同步法语说明。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-subj-fin",
+    "reason": "原prompt只填avoir/être却答案增加eu/été且未限定过去；题目须明确目标时态。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-accord-extreme",
+    "reason": "本义/引申义不能完整概括，peser colis可本义及物配合。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-accord-extreme",
+    "reason": "同步核心句法依据。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-accord-extreme",
+    "reason": "题注按宾语性质判定。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-ellipse",
+    "reason": "原练习省略pleuraient不是后续en larmes的直接可复原谓语，改为明确省略étaient。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-ellipse",
+    "reason": "明确恢复的系动词。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-inversion-style",
+    "reason": "住在花园语境不常见，改用自然的村庄。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-inversion-style",
+    "reason": "练习问答同步。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-inversion-style",
+    "reason": "练习问答同步。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-conjecture",
+    "reason": "不能将新闻中的所有条件式都等同传闻。",
+    "occurrences": 1
+  },
+  {
+    "file": "audit-fixes-c2.json",
+    "id": "c2-cohesion",
+    "reason": "or既可引入支持也可反驳前提。",
+    "occurrences": 2
+  }
+]

@@ -1,0 +1,225 @@
+[
+  {
+    "old": "阳性 le,阴性 la",
+    "new": "本句 soleil 为阳性用 le，lune 为阴性用 la",
+    "reason": "限定为本题，非所有阳性或阴性名词只用定冠词。",
+    "location": "index",
+    "id": "a1-genre"
+  },
+  {
+    "old": "独一无二:le soleil 世上只有一个,属于独一无二的事物,须用定冠词",
+    "new": "语境中的唯一对象:le soleil 指我们共同认识的太阳；定冠词的唯一性通常相对于语境",
+    "reason": "避免将定冠词解释为绝对世界唯一或所有语境必用。",
+    "location": "index",
+    "id": "a1-genre"
+  },
+  {
+    "old": "元音/h 前</th>",
+    "new": "元音/哑音 h 前</th>",
+    "reason": "区别哑音h和嘘音h。",
+    "location": "index",
+    "id": "a1-genre"
+  },
+  {
+    "old": "名词复数一般在词尾加 <b>-s</b>(不发音)。特殊:-au/-eau/-eu → 加 <b>-x</b>;-al → 改 <b>-aux</b>;以 -s/-x/-z 结尾不变。",
+    "new": "名词复数一般在词尾加 <b>-s</b>(通常不发音)。-eau 一般加 <b>-x</b>；-au/-eu 多数加 <b>-x</b>，-al 多数改 <b>-aux</b>，但有 pneus、festivals 等例外；以 -s/-x/-z 结尾通常拼写不变。",
+    "reason": "补复数规则例外，避免与扩写边界矛盾。",
+    "location": "index",
+    "id": "a1-pluriel",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21821/la-grammaire/le-nom/pluriel-des-noms/pluriel-en-x/pluriel-des-noms-en-8209al"
+  },
+  {
+    "old": "-al 结尾复数变 -aux",
+    "new": "animal 属于 -al 通常变 -aux 的类型：animaux；festival 等另有例外",
+    "reason": "练习注释不应把当前例子推广成绝对规律。",
+    "location": "index",
+    "id": "a1-pluriel",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21821/la-grammaire/le-nom/pluriel-des-noms/pluriel-en-x/pluriel-des-noms-en-8209al"
+  },
+  {
+    "old": "<b>易错:</b>否定后及数量词后用 <b>de</b>:",
+    "new": "<b>易错:</b>普通全量否定的直接宾语及 beaucoup 等数量表达后通常用 <b>de</b>（être 表语、对比否定及限定整体等有例外）:",
+    "reason": "原tip比已修正文和扩写绝对。",
+    "location": "index",
+    "id": "a1-partitif",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23514/la-grammaire/les-determinants/determinants-indefinis/de-dans-une-phrase-negative"
+  },
+  {
+    "old": "<b>易错:</b>表职业/国籍时形容词或名词<strong>不加冠词</strong>:",
+    "new": "<b>易错:</b>简单职业表语通常不加冠词，国籍形容词也不加冠词；职业名词带评价或限定时可能带冠词:",
+    "reason": "带评价职业名词和国籍名词不同于简单表语。",
+    "location": "index",
+    "id": "a1-etre"
+  },
+  {
+    "old": "职业:être+职业名词且不加冠词",
+    "new": "职业:本句 être + 简单职业名词 étudiant，通常不加冠词；带评价或限定时另论",
+    "reason": "使注释与详解适用范围一致。",
+    "location": "index",
+    "id": "a1-etre"
+  },
+  {
+    "old": "vous êtes,职业名词前不加冠词",
+    "new": "vous êtes；本句为简单职业表语，médecin 前通常不加冠词",
+    "reason": "练习注释避免绝对化。",
+    "location": "index",
+    "id": "a1-etre"
+  },
+  {
+    "old": "第一组动词(占 90%)去掉 -er",
+    "new": "第一组动词（通常以 -er 结尾，aller 除外）去掉 -er",
+    "reason": "移除没有来源与统计范围的90%，补aller例外。",
+    "location": "index",
+    "id": "a1-present-er"
+  },
+  {
+    "old": "指示形容词「这/那」:阳性 <b>ce</b>、元音前 <b>cet</b>、阴性 <b>cette</b>、复数 <b>ces</b>。",
+    "new": "指示形容词「这/那」:阳性单数辅音或嘘音 h 前 <b>ce</b>、阳性单数元音或哑音 h 前 <b>cet</b>、阴性单数 <b>cette</b>、复数 <b>ces</b>。",
+    "reason": "cet规则须同时满足阳性单数，阴性元音前仍cette。",
+    "location": "index",
+    "id": "a1-demonstratif"
+  },
+  {
+    "old": "四种形式总览:ce+阳性单数、cet+元音前、cette+阴性单数、ces+复数",
+    "new": "四种形式总览:ce+阳性单数辅音前、cet+阳性单数元音/哑音 h 前、cette+阴性单数、ces+复数",
+    "reason": "注释限定cet的性数。",
+    "location": "index",
+    "id": "a1-demonstratif"
+  },
+  {
+    "old": "阳性 ce,元音前 cet,阴性 cette,复数 ces",
+    "new": "阳性单数辅音前 ce、元音/哑音 h 前 cet；阴性单数 cette；复数 ces",
+    "reason": "练习注释同步。",
+    "location": "index",
+    "id": "a1-demonstratif"
+  },
+  {
+    "old": "Ville → à ; pays féminin → en ; pays masculin → au ; pays pluriel → aux.",
+    "new": "Ville → généralement à ; pays féminin ou masculin commençant par une voyelle/un h muet → généralement en ; pays masculin commençant par une consonne/un h aspiré → au ; pays pluriel → aux.",
+    "reason": "法文同步中文已有元音起始阳性国例外。",
+    "location": "index",
+    "id": "a1-prep-lieu",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23897/la-syntaxe/les-prepositions/preposition-devant-un-nom/les-prepositions-devant-un-nom-de-pays"
+  },
+  {
+    "old": "来源用 de/du/des:阴性国 de,阳性国 du,复数国 des",
+    "new": "来源通常用 de/d’、du、des:阴性国 de/d’，辅音起始阳性国 du，元音起始阳性国通常 d’（d’Iran），复数国 des",
+    "reason": "来源阳性国元音也需说明。",
+    "location": "index",
+    "id": "a1-prep-lieu"
+  },
+  {
+    "old": "Le livre est <b>sur</b> la table, <b>dans</b> le sac.",
+    "new": "Le livre est <b>sur</b> la table et les clés sont <b>dans</b> le sac.",
+    "reason": "两个基本位置用不同对象，避免不解释容器就让同一书同时在桌上和包内。",
+    "location": "index",
+    "id": "a1-prep-base"
+  },
+  {
+    "old": "书在桌上、在包里。",
+    "new": "书在桌上，钥匙在包里。",
+    "reason": "同步例句对象。",
+    "location": "index",
+    "id": "a1-prep-base"
+  },
+  {
+    "old": "Le livre est ___ la table, ___ le sac. (在…上 / 在…里)",
+    "new": "Le livre est ___ la table et les clés sont ___ le sac. (在…上 / 在…里)",
+    "reason": "同步练习明确两个对象。",
+    "location": "index",
+    "id": "a1-prep-base"
+  },
+  {
+    "old": "Le livre est sur la table, dans le sac.",
+    "new": "Le livre est sur la table et les clés sont dans le sac.",
+    "reason": "同步练习答案。",
+    "location": "index",
+    "id": "a1-prep-base"
+  },
+  {
+    "old": "chez 只用于人",
+    "new": "本句 chez 后接职业指人 le médecin；chez 也可用于某些企业名称，如 chez Renault",
+    "reason": "原注释与正文修正冲突。",
+    "location": "index",
+    "id": "a1-prep-base",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "old": "新的办公室在二楼。",
+    "new": "新的办公室在地面层以上第二层（按法国常用编号，相当于中文的三楼）。",
+    "reason": "deuxième étage按法国语境不等于中文二楼，保留差异。",
+    "location": "expansion",
+    "id": "a1-pluriel",
+    "path": [
+      "sections",
+      1,
+      "examples",
+      0,
+      "zh"
+    ]
+  },
+  {
+    "old": "明确数量词后用 de；普通“完全没有”的否定也通常用 de/d’，而 être 表语、明确对比不自动改变冠词。",
+    "new": "beaucoup、计量单位等数量表达后，泛指数量通常用 de；普通“完全没有”的否定也通常用 de/d’，而 être 表语、明确对比不自动改变冠词。la plupart des… 或对特定整体取量等结构另论。",
+    "reason": "不是所有明确数量表达后一律de，如la plupart des。",
+    "location": "expansion",
+    "id": "a1-partitif",
+    "path": [
+      "sections",
+      2,
+      "explanation"
+    ]
+  },
+  {
+    "old": "一位老朋友住进了新公寓。",
+    "new": "一位老朋友住在一套新公寓里。",
+    "reason": "habite只陈述居住，不断言搬入或住进。",
+    "location": "expansion",
+    "id": "a1-adj",
+    "path": [
+      "sections",
+      2,
+      "examples",
+      1,
+      "zh"
+    ]
+  },
+  {
+    "old": "她会开车，但今晚不想开。",
+    "new": "她可以开车，但今晚不想开。",
+    "reason": "peut可为能力或许可，本句没有明确技能语境；译可以保留歧义。",
+    "location": "expansion",
+    "id": "a1-present-irreg",
+    "path": [
+      "sections",
+      2,
+      "examples",
+      1,
+      "zh"
+    ]
+  },
+  {
+    "old": "能力不等于意愿。",
+    "new": "pouvoir 表能力或许可，具体由语境判断；允许或能够不等于想做。",
+    "reason": "与pouvoir及savoir区分一致。",
+    "location": "expansion",
+    "id": "a1-present-irreg",
+    "path": [
+      "sections",
+      2,
+      "examples",
+      1,
+      "use"
+    ]
+  },
+  {
+    "old": "*Je vais mange → Je vais manger；*Je vais ne pas sortir 若普通否定计划，应 Je ne vais pas sortir。",
+    "new": "*Je vais mange → Je vais manger；普通否定计划通常说 Je ne vais pas sortir。Je vais ne pas sortir 可在刻意否定不定式动作的对比语境中出现，但不宜作为初学者的常规否定表达。",
+    "reason": "原星号容易把可成立的否定范围结构完全判错。",
+    "location": "expansion",
+    "id": "a1-futur-proche",
+    "path": [
+      "errors"
+    ]
+  }
+]

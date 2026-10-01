@@ -1,0 +1,580 @@
+{
+  "a2-pc-avoir": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 2,
+    "new_examples": 4,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "避免把该句结论误推广到所有 avoir 结构。",
+        "source": null
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "助动词、第一/二/三组分词及否定副词位置核验；四条原例和四道题的变位正确。一般主语不配合规则保留前置COD边界。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+    ]
+  },
+  "a2-pc-etre": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 6,
+    "practice_questions": 4,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [
+      {
+        "location": "expansion",
+        "field": "sections.2.explanation",
+        "reason": "COI 不配合不要求句内另有后置 COD：elles se sont parlé 即无 COD。",
+        "source": null
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "六条原例和四道题的助动词及配合正确；monter带COD和不及物区别成立。修订扩写COI定义，不把另有后置COD作为不配合必需条件。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/22942/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-etre/accord-du-participe-passe-des-verbes-occasionnellement-pronominaux"
+    ]
+  },
+  "a2-imparfait": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 4,
+    "new_examples": 8,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "答案正确，旧推导会得出错误拼写 mangeions。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24195/la-grammaire/le-verbe/conjugaison/formes-de-limparfait"
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "四条原例和四道题答案正确，nous mangions推导注释纠正；étudiions双i及mangeais/commenciez拼写正确。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24195/la-grammaire/le-verbe/conjugaison/formes-de-limparfait"
+    ]
+  },
+  "a2-pc-vs-imp": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "复合过去时可叙述长时段、状态和重复整体，并非只瞬时。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+      },
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "时长不自动决定时态，叙事推进不是每例必有。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+      },
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "中文说明不得补造当天语境。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+      },
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "纠正练习注释与新正文的信号词边界冲突。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+      },
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "依据叙事视角而不是机械信号词。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+      },
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "天气也可用有界复合过去，且交代第一人称配合边界。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+      },
+      {
+        "location": "expansion",
+        "field": "comparison",
+        "reason": "把常见读法写成绝对意义过强，避免隐含“终于”无语境。",
+        "source": null
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "四原例、四题时态均符合所给语境；注释去除机械信号词与未经提供的当天限定；pouvoir复合过去的成功读法改为常见而非绝对。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+    ]
+  },
+  "a2-futur-simple": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "四例四题未来词干和词尾正确；quand将来与条件si现在区分正确；未来距离和确定性的限制与OQLF一致。",
+    "sources_checked": [
+      "https://laits.utexas.edu/tex/pd/taf4.html",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24127/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-simple",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24122/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-proche"
+    ]
+  },
+  "a2-cod": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "与不定式及命令式的例外保持跨章一致。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif"
+      },
+      {
+        "location": "expansion",
+        "field": "sections.2.examples.0.use",
+        "reason": "明确该用法为表语复指，不是名词 COD，拼写与原句一致。",
+        "source": null
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "四原例四题代词位置和COD配合正确；中性le明确为表语/命题替代；原位置定义加不定式与肯定命令例外。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif"
+    ]
+  },
+  "a2-coi": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 3,
+    "practice_questions": 3,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "三原例三题lui/leur/nous支配正确；penser à/tenir à重读结构与y章互相核对。lui可指女性，leur不加s。",
+    "sources_checked": [
+      "https://laits.utexas.edu/tex/gr/pro6.html"
+    ]
+  },
+  "a2-en": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "en 可以指人且包括来源，与新增边界一致。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23513/la-grammaire/les-pronoms/pronoms-personnels/le-pronom-personnel-en"
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "四原例四题数量保留、部分数量和来源正确；纠正原法语概述不足，en可指人；不将不定量en与特指le混同。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/23513/la-grammaire/les-pronoms/pronoms-personnels/le-pronom-personnel-en"
+    ]
+  },
+  "a2-y": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 3,
+    "practice_questions": 4,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "纠正与正文相矛盾的动词支配注释。",
+        "source": "https://laits.utexas.edu/tex/gr/pro6.html"
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "三原例四题答案正确；修正penser à人的错误注释；chez等地点、s’habituer à及不定式位置正确。",
+    "sources_checked": [
+      "https://laits.utexas.edu/tex/gr/pro6.html"
+    ]
+  },
+  "a2-pronominaux": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 5,
+    "practice_questions": 5,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "se coucher 是上床就寝，并不直接断言入睡时点。",
+        "source": null
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "五原例五题现在/复合过去变位正确；s’écrire/s’appeler等根据支配区别；se rendre compte不配合经OQLF核验；就寝译文与睡眠动作区分。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/22942/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-etre/accord-du-participe-passe-des-verbes-occasionnellement-pronominaux",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/23436/la-grammaire/le-verbe/accord-du-participe-passe/cas-particuliers-daccord-du-participe-passe/invariabilite-du-participe-passe-de-se-rendre-compte"
+    ]
+  },
+  "a2-imperatif": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 4,
+    "practice_questions": 5,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "正文应预告与例外边界一致的连接 s。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24203/la-grammaire/le-verbe/conjugaison/formes-de-limperatif"
+      },
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "me/te 不是在全部肯定命令中都成 moi/toi。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif"
+      },
+      {
+        "location": "expansion",
+        "field": "sections.2.explanation",
+        "reason": "同一权威页明确 en 和 y 均需省音，而原说明只提 en。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif"
+      },
+      {
+        "location": "expansion",
+        "field": "boundaries",
+        "reason": "OQLF 特别列出 laisser + en + 不定式的连接 s 例外。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24203/la-grammaire/le-verbe/conjugaison/formes-de-limperatif"
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "四原例五题形式正确；OQLF核实代词先后、en/y省音、无s动词连接s及laisser例外；未把不定式宾语误连到命令动词。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24203/la-grammaire/le-verbe/conjugaison/formes-de-limperatif",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif"
+    ]
+  },
+  "a2-comparatif": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 5,
+    "practice_questions": 6,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "五原例六题性数、meilleur/mieux及名词量正确；aussi/autant分工经OQLF核验；plus bon特殊两个性质比较边界保留。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/22019/la-syntaxe/la-comparaison/comparaison-avec-aussi-que-autant-que-et-autant-de"
+    ]
+  },
+  "a2-superlatif": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "本题形容词前置，提示不应说后置重复。",
+        "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22465/la-syntaxe/la-comparaison/accord-de-le-dans-les-comparaisons-avec-le-plus-le-mieux-le-moins"
+      },
+      {
+        "location": "expansion",
+        "field": "sections.1.examples.1.fr",
+        "reason": "明确比较各图书馆藏书量，避免 de la ville 紧邻 livres 的歧义。",
+        "source": null
+      },
+      {
+        "location": "expansion",
+        "field": "sections.1.examples.1.zh",
+        "reason": "与润色后的法语比较范围一致。",
+        "source": null
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "四原例四题答案正确；belle前置提示纠正；副词le不变和同对象不同时间le不变经OQLF核验；图书馆数量例去歧义。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/22465/la-syntaxe/la-comparaison/accord-de-le-dans-les-comparaisons-avec-le-plus-le-mieux-le-moins"
+    ]
+  },
+  "a2-qui-que": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 3,
+    "practice_questions": 3,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "宾语代词和倒装会使邻词口诀失效。",
+        "source": null
+      },
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "纠正仅按词序判断，并区分规范与口语省音。",
+        "source": null
+      },
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "练习同样必须按句法角色判断。",
+        "source": null
+      },
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "练习同样必须按句法角色判断。",
+        "source": null
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "三原例三题答案正确；将邻词口诀改为句法角色判断，确保与新增倒装/代词示例一致。",
+    "sources_checked": []
+  },
+  "a2-ou-relatif": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 3,
+    "practice_questions": 3,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "三原例三题où正确；新增d’où/par où及时间补语由OQLF核验；地点名词可作COD而用que的对照正确。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21461/la-grammaire/les-pronoms/pronoms-relatifs/ou-employe-comme-pronom-relatif-ou-adverbe"
+    ]
+  },
+  "a2-quantite": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [
+      {
+        "location": "expansion",
+        "field": "sections.0.examples.1.use",
+        "reason": "移除中文教程中多余英文 oil/salt，准确解释缩合。",
+        "source": null
+      },
+      {
+        "location": "expansion",
+        "field": "errors",
+        "reason": "纠错后示例应自然，un peu 对可数 amis 不宜作基础推荐。",
+        "source": null
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "四原例四题de/d’正确；特定集合de+les与la plupart des正确；纠错选自然不可数temps示例。",
+    "sources_checked": []
+  },
+  "a2-temps-prep": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 3,
+    "practice_questions": 4,
+    "new_sections": 6,
+    "new_examples": 12,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "depuis 可连到过去参照点，不能仅解释现在仍真实。",
+        "source": null
+      },
+      {
+        "location": "expansion",
+        "field": "errors",
+        "reason": "原错误栏把正确 J’étudie depuis deux ans 打×，且省略对象不易读；明确真实误区。",
+        "source": null
+      },
+      {
+        "location": "expansion",
+        "field": "boundaries",
+        "reason": "限制结论为本节时间用法，保留参照点差异。",
+        "source": null
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "三原例四题时间定位正确；六节覆盖depuis/pendant/il y a/dans/en/pour与否定depuis；将错误栏正确原句标×的缺陷改掉。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+    ]
+  },
+  "a2-politesse": {
+    "reviewed": [
+      "原zh/fr/forms/ex/tip（有forms则全部）",
+      "PRACTICE全部题干/答案/注释",
+      "扩写全部section/title/explanation/examples.fr/zh/use",
+      "comparison/errors/boundaries",
+      "同层与B1/C1的配合、代词及时间边界一致性"
+    ],
+    "original_examples": 3,
+    "practice_questions": 3,
+    "new_sections": 3,
+    "new_examples": 6,
+    "findings": [
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "s’il vous plaît 为请求礼貌标记，请；不是 merci 的直译。",
+        "source": null
+      },
+      {
+        "location": "index",
+        "field": "原文本精确替换",
+        "reason": "礼貌依场景，表达个人愿望的 je veux 并非必然无礼。",
+        "source": null
+      },
+      {
+        "location": "expansion",
+        "field": "sections.2.examples.0.zh",
+        "reason": "“把法语发音说得更好”汉语不自然，改为准确中文。",
+        "source": null
+      }
+    ],
+    "status": "已完成独立逐句审校；原页面修正待主任务合并，扩写修正已落盘",
+    "source_limits": "权威来源核验关键细则，不表示每条自写例句都出自来源；初级规则保留适用范围，未覆盖全部高阶语言学争议。",
+    "review_conclusion": "三原例三题条件式形态正确；礼貌译文和语境限定润色；同主语不定式与不同主语虚拟式区分成立。",
+    "sources_checked": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24127/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-simple"
+    ]
+  }
+}

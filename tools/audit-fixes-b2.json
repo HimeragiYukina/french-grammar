@@ -1,0 +1,257 @@
+[
+  {
+    "id": "b2-subj-passe",
+    "location": "index",
+    "old": "表示在主句之前已<strong>完成</strong>的主观动作。",
+    "new": "表示相对于参照点已<strong>完成</strong>的动作;可评价已经发生的事实,也可要求未来截止点前完成。",
+    "reason": "虚拟式过去可表示未来完成，不限于过去主观事件",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif"
+  },
+  {
+    "id": "b2-subj-passe",
+    "location": "index",
+    "old": "Le subjonctif passé marque l'antériorité par rapport à la principale :",
+    "new": "Le subjonctif passé présente une action accomplie, antérieure à un repère passé, présent ou futur :",
+    "reason": "补全完成及未来截止点意义",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif"
+  },
+  {
+    "id": "b2-mode-choix",
+    "location": "index",
+    "old": "<strong>确定/客观事实</strong>→直陈式;<strong>主观(意愿/情感/怀疑)</strong>→虚拟式;<strong>假设/不确定/委婉</strong>→条件式。同一个动词换语气意义全变。",
+    "new": "先看支配结构与说话者立场:直陈式提出断言、判断或概率;虚拟式用于意愿、情感、怀疑等结构,也可涉及真实事实;条件式可表达假设、委婉、未核实消息或过去的未来。",
+    "reason": "避免确定性和主观性机械对应语气"
+  },
+  {
+    "id": "b2-mode-choix",
+    "location": "index",
+    "old": "Certitude → indicatif ; subjectivité → subjonctif ; hypothèse → conditionnel.",
+    "new": "Le mode dépend de la construction et du point de vue : assertion à l’indicatif, souhait ou appréciation au subjonctif, hypothèse ou atténuation au conditionnel.",
+    "reason": "原概括过度绝对"
+  },
+  {
+    "id": "b2-se-faire",
+    "location": "index",
+    "old": "比标准被动更口语化、也更显地道。",
+    "new": "se faire 常见于口语;se voir 往往更书面正式,选择要看语境。",
+    "reason": "两结构语域不同",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "b2-se-faire",
+    "location": "index",
+    "old": "se faire 中 fait 永不配合。",
+    "new": "本题 fait 后直接接不定式 voler,因此不配合;并非所有 faire 结构都不配合。",
+    "reason": "限定 fait 不变规则",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "b2-se-faire",
+    "location": "index",
+    "old": "note:\"vu 不配合。\"",
+    "new": "note:\"本题 se 对应 refuser à 的间接宾语,因此 vu 不配合;其他 se voir 结构须另分析。\"",
+    "reason": "vu 不能无条件不变",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "b2-relatifs-composes",
+    "location": "index",
+    "old": "(单个 de,别用 duquel)",
+    "new": "(普通 de 补语,请用常见的 dont)",
+    "reason": "避免宣布其他正式关系结构绝对不合法"
+  },
+  {
+    "id": "b2-relatifs-composes",
+    "location": "index",
+    "old": "考查单 de→dont:s'occuper de 的补语由单独 de 引导,用 dont 而非 duquel。",
+    "new": "考查普通 de 补语的常见表达:s'occuper de 用 dont 最自然;不把 dont 的优先选择推广为所有文体的绝对禁令。",
+    "reason": "与扩写边界保持一致"
+  },
+  {
+    "id": "b2-opposition-concession",
+    "location": "index",
+    "old": "malgré 后跟名词,不能跟句子。",
+    "new": "本题 malgré 后跟名词组;标准学习用法优先 malgré + 名词组,从句用 bien que。历史文学 malgré que 用法另论。",
+    "reason": "说明文学用法边界",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "b2-cause-consequence",
+    "location": "index",
+    "old": "考查 grâce à:结果是好事用 grâce à,坏事才用 à cause de。",
+    "new": "本题 grâce à 表有利原因;à cause de 常表不利原因,但二者可有反讽或中性语境,不能按好坏绝对二分。",
+    "reason": "原因评价不是绝对二分"
+  },
+  {
+    "id": "b2-but-condition",
+    "location": "index",
+    "old": "主句 je 与从句 tu 主语不同,必须用 afin que+虚拟式",
+    "new": "主句 je 与从句 tu 主语不同,此处用 afin que+虚拟式;同主语常优先用 afin de+原形",
+    "reason": "避免主语相同从句绝对禁令"
+  },
+  {
+    "id": "b2-but-condition",
+    "location": "index",
+    "old": "同主语用 afin <b>de</b>+原形,异主语用 afin <b>que</b>+虚拟。",
+    "new": "同主语通常优先用 afin <b>de</b>+原形;不同主语用 afin <b>que</b>+虚拟更明确,但这不是所有同主语从句的绝对禁令。",
+    "reason": "说明选择倾向而非禁令"
+  },
+  {
+    "id": "b2-but-condition",
+    "location": "index",
+    "old": "同主语用 de peur de,异主语才用 de peur que+虚拟式。",
+    "new": "同主语通常用 de peur de;不同主语用 de peur que+虚拟式,同主语从句并非绝对不合法。",
+    "reason": "去掉才用的绝对措辞"
+  },
+  {
+    "id": "b2-but-condition",
+    "location": "index",
+    "old": "___ il ___ (avoir) un imprévu, appelle-moi.",
+    "new": "___ il y ___ (avoir) un imprévu, appelle-moi.",
+    "reason": "题目缺少无人称存在结构 y，与答案不匹配"
+  },
+  {
+    "id": "b2-accord-pp",
+    "location": "index",
+    "old": "只有 COD(que / 提前的代词 le/la/les)在前才配合。",
+    "new": "一般与前置 COD 配合;感知动词+原形、fait/laissé+原形、en 和量度补语等另按详细规则判断。",
+    "reason": "前置COD不是充分条件",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "b2-registres",
+    "location": "index",
+    "old": "<td>œuvrer</td>",
+    "new": "<td>œuvrer (为事业努力,非任意工作)</td>",
+    "reason": "词义限制不可被语域表掩盖"
+  },
+  {
+    "id": "b2-registres",
+    "location": "index",
+    "old": "<td>un élément</td>",
+    "new": "<td>un élément (某整体的组成部分)</td>",
+    "reason": "élément不等于任意truc"
+  },
+  {
+    "id": "b2-registres",
+    "location": "index",
+    "old": "我累死了 / 我累了 / 我疲惫不堪。",
+    "new": "我累死了 / 我非常疲劳 / 我疲惫不堪。",
+    "reason": "补回 très 强度"
+  },
+  {
+    "id": "b2-registres",
+    "location": "index",
+    "old": "语调疑问最随便,est-ce que 中性,倒装最正式",
+    "new": "语调疑问常见于自然口语,est-ce que 中性,倒装常较正式;tu/vous 另反映人际关系",
+    "reason": "口语疑问未必失礼"
+  },
+  {
+    "id": "b2-registres",
+    "location": "index",
+    "old": "a:\"Je suis fatigué.\", note:\"crevé → fatigué。\"",
+    "new": "a:\"Je suis très fatigué.\", note:\"crevé 随便且程度强,用 très fatigué 保留强度。\"",
+    "reason": "转换语域不应丢失强度"
+  },
+  {
+    "id": "b2-registres",
+    "location": "index",
+    "old": "Au registre soutenu : « Tu peux me filer un truc ? » → « Pourriez-vous me donner ___ ? » (口语→正式)",
+    "new": "Dans un contexte où l’on demande un document, rendez la demande plus formelle : « Tu peux me filer ce document ? » → « Pourriez-vous me transmettre ___ ? »",
+    "reason": "加入具体对象语境，避免truc机械替换élément"
+  },
+  {
+    "id": "b2-registres",
+    "location": "index",
+    "old": "a:\"Pourriez-vous me donner un élément ?\", note:\"un truc → un élément。\"",
+    "new": "a:\"Pourriez-vous me transmettre ce document ?\", note:\"保留文档这一具体对象,用 transmettre、vous、条件式调整语体;truc 不等于 élément。\"",
+    "reason": "题答语义需一致"
+  },
+  {
+    "id": "b2-registres",
+    "location": "index",
+    "old": "正式语体用倒装疑问,不用语调疑问。",
+    "new": "本题要求倒装;倒装常较正式,但礼貌场景也可使用自然的语调疑问。",
+    "reason": "修正语域绝对禁令"
+  },
+  {
+    "id": "b2-adj-sens",
+    "location": "index",
+    "old": "考查 seul 前置=唯一的;后置=孤独的。",
+    "new": "考查 seul 前置通常表唯一/仅有;后置可表独自、没有陪伴,不一定含孤独感。",
+    "reason": "独处不等于孤独"
+  },
+  {
+    "id": "b2-relatifs-composes",
+    "location": "expansion",
+    "old": "我们停下来的地方附近那栋房子正在出售。",
+    "new": "我们在其附近停下的那栋房子正在出售。",
+    "reason": "原译文把修饰关系倒置：停在房子附近，非房子在停靠地点附近"
+  },
+  {
+    "id": "b2-relatifs-composes",
+    "location": "expansion",
+    "old": "指人 with qui，不必强求 laquelle。",
+    "new": "指人用 avec qui，不必强求 laquelle。",
+    "reason": "修正中英混杂 with qui"
+  },
+  {
+    "id": "b2-cause-consequence",
+    "location": "expansion",
+    "old": "si bien que/de sorte que 表已发生结果时通常直陈式；si + 形容词/副词 + que，tellement + 动词/形容词/副词 + que，tant de/tellement de + 名词 + que。d'où + 名词压缩结果。",
+    "new": "si bien que/de sorte que 表已发生结果时通常用直陈式；si + 形容词/副词 + que，动词 + tellement + que，tellement + 形容词/副词 + que，tant de/tellement de + 名词 + que。d’où + 名词压缩结果。",
+    "reason": "tellement修饰动词时常后置，原公式暗示前置"
+  },
+  {
+    "id": "b2-modalisation",
+    "location": "expansion",
+    "old": "情态化是表达说话者对命题的态度，可弱化，也可强化。il semble/semblerait que、il se peut que、il n'est pas exclu que 常接虚拟式；条件式可保留消息来源的不确定性。",
+    "new": "情态化表达说话者对命题的态度，可弱化也可强化。il semble/semblerait que 表保留或可能性时常接虚拟式，呈现明显事实时也可接直陈式；il se peut que、il n’est pas exclu que 接虚拟式。条件式可保留消息来源的不确定性。",
+    "reason": "明确 sembler 不是固定虚拟式触发词",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle"
+  },
+  {
+    "id": "b2-modalisation",
+    "location": "expansion",
+    "old": "据多名目击者称，车辆可能闯了红灯。",
+    "new": "据多名目击者称，那辆车据说闯了红灯。",
+    "reason": "条件式来源保留不只是事件概率，改据说更对应use"
+  },
+  {
+    "id": "b2-relatifs-composes",
+    "location": "expansion",
+    "old": "原文‘单个 de 必须 dont，duquel 只有复合介词后才能用’过度绝对。教学主路径是普通 de 优先 dont，复合介词保留 de；文学/正式文体和避免歧义时存在其他合法选择。",
+    "new": "不能把“普通 de 优先 dont”理解成“duquel 只有复合介词后才合法”。教学主路径是普通 de 优先 dont，复合介词保留 de；文学、正式文体和避免歧义时存在其他合法选择。",
+    "reason": "不再声称当前原文仍有已经修复的错误"
+  },
+  {
+    "id": "b2-se-faire",
+    "location": "expansion",
+    "old": "错：Elles se sont faites aider → se sont fait aider；错：Elles se sont vues refuser l'entrée → se sont vu refuser l'entrée。原文‘vu 永不配合’须删除，改为按宾语与不定式关系判断。",
+    "new": "错：Elles se sont faites aider → se sont fait aider；错：Elles se sont vues refuser l'entrée → se sont vu refuser l'entrée。vu 是否配合须按宾语与不定式关系判断，不可一律判为不变。",
+    "reason": "去除不准确的原文历史指称",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "b2-concordance",
+    "location": "expansion",
+    "old": "原文‘从句时态要后移’应改成‘过去视点转述通常后移’。原话中的未完成过去常保持未完成过去；虚拟式现代呼应不按直陈式表格机械变化。",
+    "new": "过去视点转述通常后移，而不是逢过去主句就机械后移。原话中的未完成过去常保持未完成过去；现代虚拟式的时态呼应不按直陈式表格机械变化。",
+    "reason": "去除已修复的原文历史指称"
+  },
+  {
+    "id": "b2-accord-pp",
+    "location": "expansion",
+    "old": "错：Elles se sont téléphonées → téléphoné；错：Les difficultés qu'il a fait disparaître，不能改 faites；错：Les chansons que j’ai entendues chanter → Les chansons que j’ai entendu chanter（歌曲是被唱的对象）。",
+    "new": "错：Elles se sont téléphonées → téléphoné；正确：Les difficultés qu'il a fait disparaître，不能把 fait 改为 faites；错：Les chansons que j’ai entendues chanter → Les chansons que j’ai entendu chanter（歌曲是被唱的对象）。",
+    "reason": "正确fait不变例句不应标为错",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "b2-futur-anterieur",
+    "location": "index",
+    "old": "从句先完成用先将来,主句用简单将来——两个都用将来,中文却常是「了」。",
+    "new": "从句强调先完成时用先将来;主句常用简单将来,也可用命令式等。中文通常用「了」而不显式标将来。",
+    "reason": "主句也可命令式，与本章第三道练习一致"
+  }
+]

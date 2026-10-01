@@ -1,0 +1,97 @@
+[
+  {
+    "old": "书面/文学叙事中表示已完成、不重复的动作",
+    "new": "书面/文学叙事中把动作或时期作为已完成、有边界的整体叙述",
+    "reason": "简单过去可概括有界时期内重复动作，也不限瞬时动作。"
+  },
+  {
+    "old": "action achevée, ponctuelle",
+    "new": "action envisagée comme un tout achevé",
+    "reason": "简单过去不等于瞬时性。"
+  },
+  {
+    "old": "功能等同口语的 passé composé",
+    "new": "日常叙述中常以 passé composé 对应,但两者的叙述视角和语体并非完全相同",
+    "reason": "避免完全等同两种时态。"
+  },
+  {
+    "old": "现代口语一律用<strong>虚拟式现在时</strong>代替",
+    "new": "现代法语中,同时或后时关系通常用<strong>虚拟式现在时</strong>;相对先时则常用虚拟式过去时",
+    "reason": "区分未完成虚拟式与愈过去虚拟式的现代替代。"
+  },
+  {
+    "old": "现代口语一律改用虚拟式现在 vienne",
+    "new": "现代通常改用虚拟式现在 vienne,此句保持从句否定 ne…pas",
+    "reason": "一律太绝对，且 ne…pas 是真否定。"
+  },
+  {
+    "old": "某些副词置于<strong>句首</strong>时,主谓<strong>倒装</strong>",
+    "new": "某些副词或连接用法置于<strong>句首</strong>时,正式文体常采用主谓<strong>倒装</strong>,具体须看义项与结构",
+    "reason": "并非列表所有副词后都强制倒装。"
+  },
+  {
+    "old": "表结果的 aussi 置句首必须倒装 sommes-nous",
+    "new": "表结果的 aussi 置句首在正式文体中通常倒装 sommes-nous",
+    "reason": "避免过强的必须。"
+  },
+  {
+    "old": "句首 <b>aussi</b> = 「因此」要倒装",
+    "new": "句首结果义 <b>aussi</b> = 「因此」,正式文体通常倒装",
+    "reason": "按义项而非仅位置。"
+  },
+  {
+    "old": "en vain 置句首触发文体性倒装,ainsi、du moins、encore 同理",
+    "new": "en vain 在此采用文体性倒装;ainsi、du moins、encore 是否倒装还须结合义项和语体",
+    "reason": "ainsi 方式义等不是无条件倒装。"
+  },
+  {
+    "old": "书面议论文则多用 c'est…que / ce qui…c'est",
+    "new": "书面议论文也常用 c'est…que / ce qui…c'est;这些强调结构在口语中同样常见",
+    "reason": "强调结构非书面独占。"
+  },
+  {
+    "old": "主从句主语不同用 à condition que + 虚拟式;同主语则用 à condition de + 原形",
+    "new": "主从句主语不同可用 à condition que + 虚拟式;同主语通常可简化为 à condition de + 原形,也可保留 que 从句",
+    "reason": "同主语用不定式并非绝对强制。"
+  },
+  {
+    "old": "要表达真否定必须用完整的 ne…pas;单独的 ne 只是赘词",
+    "new": "此句的 ne…pas 是真否定;其他正式结构中的 ne 单独也可能表否定,应结合谓词和句法判断",
+    "reason": "ne pouvoir 等可单独真否定。"
+  },
+  {
+    "old": "要表真正否定得用 ne…pas(à moins qu'il ne vienne <b>pas</b> = 除非他不来)",
+    "new": "本结构中加 pas 可明确否定(à moins qu'il ne vienne <b>pas</b> = 除非他不来);另有 ne seul 真否定的正式用法",
+    "reason": "区分赘词和 ne seul，不宣称否定只能 ne…pas。"
+  },
+  {
+    "old": "(elle s'est fait mal;les robes qu'elle a fait faire)",
+    "new": "(elle s'est fait couper les cheveux;les robes qu'elle a fait faire)",
+    "reason": "mal 不是不定式，改为真正 fait + infinitif 示例。"
+  },
+  {
+    "old": "après que = 事已发生 → 直陈式",
+    "new": "après que 把前一事件作为后续事件的完成前提 → 规范用直陈式,未来语境也一样",
+    "reason": "未来尚未实际发生仍直陈式。"
+  },
+  {
+    "old": "动作已实现,规范用直陈式复合过去时 est parti,而非虚拟式",
+    "new": "此过去语境动作已实现,规范用直陈式复合过去时 est parti;未来语境仍用直陈式",
+    "reason": "说明事已发生只适用于此例，非规则充分依据。"
+  },
+  {
+    "old": "绝不用虚拟式",
+    "new": "规范写作用直陈式;实际现代用法中虚拟式虽常见,仍与此规范有区别",
+    "reason": "承认实际语言差异。"
+  },
+  {
+    "old": "他弄得大家都累,然后离开了。(分词→不变,-gu-)",
+    "new": "他令大家疲惫,便离开了。(分词→不变,-gu-;具体时间或原因关系依语境)",
+    "reason": "现在分词不自动表示先后“然后”。"
+  },
+  {
+    "old": "不变且常带宾语、可拼成 -gu-/-qu-/-a-(fatiguant, provoquant, différant)→分词",
+    "new": "动词性、不变并可带宾语→现在分词;fatiguant/provoquant/différant 与相应形容词拼写不同,需按具体词记忆",
+    "reason": "避免把局部拼写变化当通用派生规则。"
+  }
+]

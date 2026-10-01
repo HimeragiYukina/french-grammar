@@ -1,0 +1,453 @@
+{
+  "level": "A1",
+  "method": "独立逐句读取原卡全部字段、练习题干/答案/注释，以及全部扩写字段；核验法语变位配合、中文译义、自然场景和例外。原index未改，精确修正交由主任务合并。",
+  "coverage": [
+    {
+      "id": "a1-genre",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 6,
+      "practice_questions_answers_notes": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 3
+    },
+    {
+      "id": "a1-indefini",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_questions_answers_notes": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    },
+    {
+      "id": "a1-pluriel",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_questions_answers_notes": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 3
+    },
+    {
+      "id": "a1-partitif",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_questions_answers_notes": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 2
+    },
+    {
+      "id": "a1-sujets",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 5,
+      "practice_questions_answers_notes": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    },
+    {
+      "id": "a1-etre",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_questions_answers_notes": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 3
+    },
+    {
+      "id": "a1-avoir",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_questions_answers_notes": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    },
+    {
+      "id": "a1-cest-ilya",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 5,
+      "practice_questions_answers_notes": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    },
+    {
+      "id": "a1-present-er",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_questions_answers_notes": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 1
+    },
+    {
+      "id": "a1-present-ir",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_questions_answers_notes": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    },
+    {
+      "id": "a1-present-irreg",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 6,
+      "practice_questions_answers_notes": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 2
+    },
+    {
+      "id": "a1-adj",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_questions_answers_notes": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 1
+    },
+    {
+      "id": "a1-possessif",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_questions_answers_notes": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    },
+    {
+      "id": "a1-demonstratif",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 5,
+      "practice_questions_answers_notes": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 3
+    },
+    {
+      "id": "a1-negation",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_questions_answers_notes": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    },
+    {
+      "id": "a1-question",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_questions_answers_notes": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    },
+    {
+      "id": "a1-mots-interro",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 5,
+      "practice_questions_answers_notes": 8,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    },
+    {
+      "id": "a1-prep-lieu",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_questions_answers_notes": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 2
+    },
+    {
+      "id": "a1-prep-base",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 6,
+      "practice_questions_answers_notes": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 5
+    },
+    {
+      "id": "a1-heure-date",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_questions_answers_notes": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    },
+    {
+      "id": "a1-futur-proche",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_questions_answers_notes": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 1
+    },
+    {
+      "id": "a1-passe-recent",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_questions_answers_notes": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    },
+    {
+      "id": "a1-vouloir-inf",
+      "status": "reviewed",
+      "original_fields_reviewed": [
+        "zh",
+        "fr",
+        "forms where present",
+        "all ex.fr/zh/use",
+        "tip"
+      ],
+      "original_examples": 5,
+      "practice_questions_answers_notes": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "comparison_errors_boundaries_reviewed": true,
+      "fix_count": 0
+    }
+  ],
+  "totals": {
+    "grammar_points": 23,
+    "original_examples": 94,
+    "practice_questions": 99,
+    "expansion_sections": 69,
+    "expansion_examples": 138,
+    "index_fixes": 20,
+    "expansion_fixes": 6
+  },
+  "sources": [
+    {
+      "title": "OQLF — Généralités sur la négation",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23905/la-syntaxe/la-negation-et-la-restriction/generalites-sur-la-negation",
+      "notes": "已读取：ne…pas 的位置、复合时态助动词、口语省略与书面语限制。"
+    },
+    {
+      "title": "Académie française — annoncer, conjugaison",
+      "url": "https://dictionnaire-academie.fr/conjuguer/A9A1834",
+      "notes": "已检索：第一组 -cer 动词 c/ç 交替。"
+    },
+    {
+      "title": "Académie française — rougir, conjugaison",
+      "url": "https://dictionnaire-academie.fr/conjuguer/A9R3066",
+      "notes": "已检索：第二组现在时 -is/-it/-issons/-issez/-issent。"
+    },
+    {
+      "title": "OQLF — Prépositions devant un nom de pays",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23897/la-syntaxe/les-prepositions/preposition-devant-un-nom/les-prepositions-devant-un-nom-de-pays",
+      "notes": "独立审校读取：国家前en/au、元音和哑音h边界。"
+    },
+    {
+      "title": "OQLF — Pluriel des noms en -al",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21821/la-grammaire/le-nom/pluriel-des-noms/pluriel-en-x/pluriel-des-noms-en-8209al",
+      "notes": "独立审校读取：通常-aux及festivals等例外。"
+    },
+    {
+      "title": "OQLF — De dans une phrase négative",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23514/la-grammaire/les-determinants/determinants-indefinis/de-dans-une-phrase-negative",
+      "notes": "独立审校读取：普通否定de、对比否定与être表语保留。"
+    },
+    {
+      "title": "OQLF — Pluriel des noms en -au, -eau et -eu",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22604/la-grammaire/le-nom/pluriel-des-noms/pluriel-en-x/pluriel-des-noms-en-8209au-8209eau-et-8209eu",
+      "notes": "独立审校读取：pneus/bleus/landaus/sarraus等例外。"
+    },
+    {
+      "title": "Académie française — Questions de langue",
+      "url": "https://www.academie-francaise.fr/questions-de-langue",
+      "notes": "独立审校已读取：À ou chez（机构、企业）及Impératif等相关规范。"
+    }
+  ],
+  "limitations": [
+    "权威资料重点核实易错规则，并非逐句外部认证；教学例句为原创，没有逐句抄写来源。",
+    "法国语境楼层编号与中文编号不同，已明确译注。",
+    "使用/语体差异用通常、语境、规范书面等限定，没有声称所有地方及口语完全一致。"
+  ]
+}

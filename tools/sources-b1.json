@@ -1,0 +1,62 @@
+[
+  {
+    "title": "OQLF — Formes du subjonctif",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+    "notes": "核实虚拟式词尾、avoir/être 例外与不规则词干；自行编写例句。"
+  },
+  {
+    "title": "OQLF — Mode verbal après si",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si",
+    "notes": "条件 si 不用条件式；间接疑问 si 可用条件式；高语体让步 si 的例外。"
+  },
+  {
+    "title": "OQLF — Le pronom relatif dont",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22904/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-dont",
+    "notes": "核实 dont 的 de 关系、物主词/en 重复、嵌套介词补语边界。"
+  },
+  {
+    "title": "OQLF — Subjonctif après certains verbes",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24253/la-grammaire/le-verbe/modes/subjonctif/subjonctif-apres-certains-verbes",
+    "notes": "核实愿望、要求、判断触发结构。"
+  },
+  {
+    "title": "Académie française — Questions de langue : Impératif",
+    "url": "https://www.academie-francaise.fr/questions-de-langue",
+    "notes": "核实命令式双代词次序、否定前置、en/y 和连字符规则。"
+  },
+  {
+    "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+    "notes": "独立复核连词语气与 bien que 规范分歧。"
+  },
+  {
+    "title": "OQLF — Emploi de car",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23500/la-syntaxe/les-conjonctions/emploi-de-car",
+    "notes": "独立复核 car 可在句号后承接前句。"
+  },
+  {
+    "title": "OQLF — Emploi de parce que et de puisque",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23501/la-syntaxe/les-conjonctions/emploi-de-parce-que-et-de-puisque",
+    "notes": "区分客观原因与被视为明显的依据。"
+  },
+  {
+    "title": "OQLF — Formules interrogatives ce que et qu’est-ce que",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23281/la-syntaxe/linterrogation/formules-interrogatives-ce-que-et-quest-ce-que",
+    "notes": "独立复核间接疑问语序。"
+  },
+  {
+    "title": "OQLF — Sujet sous-entendu du participe présent",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24712/la-syntaxe/constructions-syntaxiques-boiteuses/logique-syntaxique-sujet-sous-entendu-du-participe-present",
+    "notes": "独立复核副动词隐含主语与固定表达边界。"
+  },
+  {
+    "title": "OQLF — Le pronom indéfini personne",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22893/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-personne",
+    "notes": "独立复核人称否定代词与位置。"
+  },
+  {
+    "title": "OQLF — Le pronom indéfini rien",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23886/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-rien",
+    "notes": "独立复核非正式口语与正式否定。"
+  }
+]

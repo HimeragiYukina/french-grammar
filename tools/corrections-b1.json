@@ -1,0 +1,37 @@
+[
+  {
+    "old": "虚拟式表达<strong>主观</strong>(意愿、情感、怀疑、必要),几乎总在 <b>que</b> 引导的从句中。构成:取 <b>ils</b> 现在时词干 + 词尾 <b>-e, -es, -e, -ions, -iez, -ent</b>(nous/vous 形同 imparfait)。",
+    "new": "虚拟式常由愿望、情感、判断、必要性或特定连接词触发。规则词尾为 -e, -es, -e, -ions, -iez, -ent；je/tu/il/ils 一般取直陈式 ils 的词干，nous/vous 通常取直陈式 nous 的词干。双词干动词如 prendre：prenne/prenions；être、avoir 等另记。",
+    "reason": "补足双词干及 être/avoir 例外，避免把所有人称都按 ils 词干变化。"
+  },
+  {
+    "old": "Le subjonctif exprime la subjectivité. Radical = 3e personne pluriel du présent (ils) + terminaisons.",
+    "new": "Le subjonctif est souvent imposé par une construction. Pour de nombreux verbes, les personnes du singulier et ils/elles utilisent le radical de ils au présent ; nous/vous utilisent celui de nous. Avoir et être sont irréguliers.",
+    "reason": "原法文单一 ils 词干规则不完整。"
+  },
+  {
+    "old": "<b>三种固定搭配,绝不能在 si 从句里用条件式!</b>①<strong>真实/可能</strong>:si+现在时 → 将来时;②<strong>现在的非真实</strong>:si+未完成过去 → 条件式现在;③<strong>过去的非真实</strong>:si+愈过去时 → 条件式过去。",
+    "new": "<b>条件 si 的三种主要模式：</b>①现实或可实现：si + 现在时，主句可用现在、将来或命令式；②现在或未来假设：si + 未完成过去时，主句条件式现在时（不一定反事实）；③过去反事实：si + 愈过去时，主句条件式过去时。条件 si 后不使用条件式；si 表“是否”时另论。",
+    "reason": "修正主句模式、试探性假设和间接疑问例外。"
+  },
+  {
+    "old": "Trois constructions hypothétiques. Jamais de conditionnel directement après « si » !",
+    "new": "Trois constructions principales pour l’hypothèse. Pas de conditionnel après si exprimant une condition ; le conditionnel est possible après si introduisant une interrogation indirecte.",
+    "reason": "禁止条件式仅适用于条件 si，非所有 si。"
+  },
+  {
+    "old": "<b>最高频错误:</b>*Si je serais riche…* ✗ → 应为 <em>Si j'<b>étais</b> riche…</em>。si 后只能是现在时/未完成过去/愈过去时。",
+    "new": "<b>常错：</b><em>Si je serais riche…</em>（条件句）应为 <em>Si j’étais riche…</em>。但 <em>Je me demande s’il serait d’accord</em> 中 si 表“是否”，可以用条件式；现实条件也可用复合过去时，如 <em>Si tu as fini, viens</em>。",
+    "reason": "避免“si 后只能三种时态”的过度绝对化。"
+  },
+  {
+    "old": "<b>区别:</b>parce que 回答「为什么」(放后);puisque/comme 引出<strong>已知</strong>原因;car 偏书面、不放句首。",
+    "new": "<b>辨析：</b>parce que 常回答“为什么”；puisque 将原因作为已知或明显依据；comme 原因从句通常前置，但原因不必已知；car 常偏书面，通常承接前句解释，也可在句号后写 Car。",
+    "reason": "comme 不等同已知原因；car 并非绝对不能句首。"
+  },
+  {
+    "old": "<b>易错:</b>普遍薄弱!凡是动词/形容词搭配 <b>de</b>(avoir besoin de, être fier de, s'occuper de)都用 dont。语序:dont + 主语 + 动词。",
+    "new": "<b>选择方法：</b>先还原 <em>parler de / avoir besoin de / être fier de</em> 等结构。dont 已包含 de，勿重复 en 或物主词。所属关系可说 <em>dont la voiture…</em>；复合介词或嵌套介词组须保留，如 <em>près de laquelle / sur le toit de laquelle</em>。",
+    "reason": "避免任何含 de 的结构一律 dont。"
+  }
+]
