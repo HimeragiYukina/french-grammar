@@ -1,0 +1,267 @@
+[
+  {
+    "id": "a2-imparfait",
+    "location": "index",
+    "old": "词干 mange- + -ions。",
+    "new": "manger 的 nous 形式为 mangeons；nous/vous 的 i 前不保留用于读音的 e，所以 mang- + -ions → mangions。",
+    "reason": "答案正确，旧推导会得出错误拼写 mangeions。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24195/la-grammaire/le-verbe/conjugaison/formes-de-limparfait"
+  },
+  {
+    "id": "a2-y",
+    "location": "index",
+    "old": "penser à + 物 → y;à + 人则用 lui。",
+    "new": "penser à + 物 → y;penser à + 人用 à lui/à elle 等重读结构,不是 lui 前置。",
+    "reason": "纠正与正文相矛盾的动词支配注释。",
+    "source": "https://laits.utexas.edu/tex/gr/pro6.html"
+  },
+  {
+    "id": "a2-superlatif",
+    "location": "index",
+    "old": "提示:后置冠词重复;『在…中』用 de",
+    "new": "提示:belle 前置,用 la plus belle ville;『在…中』用 de",
+    "reason": "本题形容词前置，提示不应说后置重复。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22465/la-syntaxe/la-comparaison/accord-de-le-dans-les-comparaisons-avec-le-plus-le-mieux-le-moins"
+  },
+  {
+    "id": "a2-pc-vs-imp",
+    "location": "index",
+    "old": "Le passé composé fait avancer le récit (action ponctuelle, achevée) ; l'imparfait pose le décor (description, habitude, action en cours).",
+    "new": "Le passé composé présente un événement comme un tout achevé et peut faire avancer le récit ; l'imparfait décrit une situation ou une action en cours dans le passé.",
+    "reason": "复合过去时可叙述长时段、状态和重复整体，并非只瞬时。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+  },
+  {
+    "id": "a2-pc-vs-imp",
+    "location": "index",
+    "old": "toute la journée 限定了起止完整的时段,动作被视为整体完成,推进情节",
+    "new": "此句把一整天的下雨作为完整事件来概括;长时段也可用 PC,不必承担推进情节的功能",
+    "reason": "时长不自动决定时态，叙事推进不是每例必有。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+  },
+  {
+    "id": "a2-pc-vs-imp",
+    "location": "index",
+    "old": "était 描述当时的身体状态,est resté 是当天完成的具体行为",
+    "new": "était 描述当时身体状态,est resté 把卧床这一段作为整体叙述;法语未指定是哪一天",
+    "reason": "中文说明不得补造当天语境。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+  },
+  {
+    "id": "a2-pc-vs-imp",
+    "location": "index",
+    "old": "考查习惯与一次性事件的对比:souvent → imparfait;une fois → passé composé。",
+    "new": "此语境童年习惯用 imparfait,某次见到海豚的完整事件用 passé composé；souvent/une fois 本身不是绝对选时态规则。",
+    "reason": "纠正练习注释与新正文的信号词边界冲突。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+  },
+  {
+    "id": "a2-pc-vs-imp",
+    "location": "index",
+    "old": "考查信号词:soudain → PC;正在进行的背景 → imparfait(dînions)。",
+    "new": "此句突然喊叫作为整体事件用 PC,晚餐过程作背景用 imparfait(dînions)；不能仅凭 soudain 决定时态。",
+    "reason": "依据叙事视角而不是机械信号词。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+  },
+  {
+    "id": "a2-pc-vs-imp",
+    "location": "index",
+    "old": "天气→imparfait;完成动作→passé composé(être)。",
+    "new": "此句把寒冷作为背景用 imparfait,留在家里作为整体事件用 passé composé；说话者为女性也可 suis restée。",
+    "reason": "天气也可用有界复合过去，且交代第一人称配合边界。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose"
+  },
+  {
+    "id": "a2-pc-avoir",
+    "location": "index",
+    "old": "主语虽是第三人称,avoir 类分词仍不配合",
+    "new": "此句直接宾语 ses valises 后置,fait 不配合;分词配合不能按主语人称决定",
+    "reason": "避免把该句结论误推广到所有 avoir 结构。"
+  },
+  {
+    "id": "a2-cod",
+    "location": "index",
+    "old": "位置:<strong>放在变位动词前</strong>。",
+    "new": "位置:通常<strong>放在所属动词前</strong>;复合时态放助动词前,双动词结构通常放所属不定式前,肯定命令式后置。",
+    "reason": "与不定式及命令式的例外保持跨章一致。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif"
+  },
+  {
+    "id": "a2-qui-que",
+    "location": "index",
+    "old": "<b>qui</b> 作从句<strong>主语</strong>(后接动词);<b>que</b> 作从句<strong>直接宾语</strong>(后接主语)。",
+    "new": "<b>qui</b> 作从句<strong>主语</strong>;<b>que</b> 作从句<strong>直接宾语</strong>。按从句缺少的成分判断,不要只看关系词后紧邻什么词。",
+    "reason": "宾语代词和倒装会使邻词口诀失效。"
+  },
+  {
+    "id": "a2-qui-que",
+    "location": "index",
+    "old": "关系词后<strong>直接是动词</strong>→qui;后面<strong>是主语</strong>→que。que 在元音前缩 qu',qui <strong>永不</strong>缩写。",
+    "new": "先还原从句:先行词作<strong>主语</strong>→qui;作<strong>直接宾语</strong>→que。qui 后也可有 me 等宾语代词,que 后也可有倒装动词。que 在元音或哑音 h 前缩 qu',标准关系词 qui 不省音。",
+    "reason": "纠正仅按词序判断，并区分规范与口语省音。"
+  },
+  {
+    "id": "a2-qui-que",
+    "location": "index",
+    "old": "后接动词 → qui。",
+    "new": "从句缺主语,先行词 une amie 作 travaille 的主语 → qui。",
+    "reason": "练习同样必须按句法角色判断。"
+  },
+  {
+    "id": "a2-qui-que",
+    "location": "index",
+    "old": "后接主语 → que。",
+    "new": "从句主语为 ma mère,先行词 gâteau 作 a préparé 的直接宾语 → que。",
+    "reason": "练习同样必须按句法角色判断。"
+  },
+  {
+    "id": "a2-temps-prep",
+    "location": "index",
+    "old": "depuis (origine, encore vrai) ; pendant (durée) ; il y a (passé, « il y a 3 ans ») ; dans (futur).",
+    "new": "depuis relie un point de départ ou une durée à un moment de référence ; pendant exprime une durée ; il y a situe un fait avant le présent, dans situe un fait après le présent.",
+    "reason": "depuis 可连到过去参照点，不能仅解释现在仍真实。"
+  },
+  {
+    "id": "a2-en",
+    "location": "index",
+    "old": "« en » remplace « de + chose », un partitif, ou une quantité.",
+    "new": "« en » peut reprendre un complément en « de », un complément à valeur partitive ou quantitative, ainsi qu'un lieu d'origine. Il peut aussi représenter des personnes.",
+    "reason": "en 可以指人且包括来源，与新增边界一致。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23513/la-grammaire/les-pronoms/pronoms-personnels/le-pronom-personnel-en"
+  },
+  {
+    "id": "a2-pronominaux",
+    "location": "index",
+    "old": "她睡得很晚。(复合时态用 être)",
+    "new": "她很晚才上床睡觉。(复合时态用 être)",
+    "reason": "se coucher 是上床就寝，并不直接断言入睡时点。"
+  },
+  {
+    "id": "a2-imperatif",
+    "location": "index",
+    "old": "第一组动词及 aller 的 <b>tu</b> 形式去掉词尾 -s。",
+    "new": "第一组动词及 aller 的 <b>tu</b> 形式通常无词尾 -s;直接连接代词 y/en 时可加连接 s,如 Vas-y !。",
+    "reason": "正文应预告与例外边界一致的连接 s。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24203/la-grammaire/le-verbe/conjugaison/formes-de-limperatif"
+  },
+  {
+    "id": "a2-imperatif",
+    "location": "index",
+    "old": "肯定命令时代词后置加连字符且 me/te→<b>moi/toi</b>",
+    "new": "肯定命令时代词后置加连字符且 me/te 通常→<b>moi/toi</b>;在 en/y 前则用 m'/t' 缩合",
+    "reason": "me/te 不是在全部肯定命令中都成 moi/toi。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif"
+  },
+  {
+    "id": "a2-politesse",
+    "location": "index",
+    "old": "我想要一杯咖啡,谢谢。",
+    "new": "请给我一杯咖啡。",
+    "reason": "s’il vous plaît 为请求礼貌标记，请；不是 merci 的直译。"
+  },
+  {
+    "id": "a2-politesse",
+    "location": "index",
+    "old": "<em>Je veux</em>(我要,直接)显得生硬;",
+    "new": "<em>Je veux</em>(我要,直接)在服务请求中可能显得生硬;",
+    "reason": "礼貌依场景，表达个人愿望的 je veux 并非必然无礼。"
+  },
+  {
+    "id": "a2-pc-etre",
+    "location": "expansion",
+    "field": "sections.2.explanation",
+    "old": "代词式复合时态用être，但分词并非一律与主语配合。se作COD时通常配合；se作COI且后有COD时不配合。",
+    "new": "代词式复合时态用être，但分词并非一律与主语配合。在可按宾语分析的自反/相互结构中，se作前置COD时配合；se作COI本身不引发配合，另有COD时还看该COD的位置。固有代词式及特殊搭配另见进阶。",
+    "reason": "COI 不配合不要求句内另有后置 COD：elles se sont parlé 即无 COD。"
+  },
+  {
+    "id": "a2-pc-vs-imp",
+    "location": "expansion",
+    "field": "comparison",
+    "old": "Je pouvais sortir：当时具备外出的条件，未说明是否出去；J’ai pu sortir：那次终于/成功出去了。否定Je n’ai pas pu通常表示那次未能实现。",
+    "new": "Je pouvais sortir：当时具备外出的条件，未说明是否出去；J’ai pu sortir：在常见的现实叙述中指那次得以外出。具体语境可影响读法，不把 pouvoir + PC 永远等同于成功实现。Je n’ai pas pu sortir 通常表示那次没能出去。",
+    "reason": "把常见读法写成绝对意义过强，避免隐含“终于”无语境。"
+  },
+  {
+    "id": "a2-cod",
+    "location": "expansion",
+    "field": "sections.2.examples.0.use",
+    "old": "le替代prêt这一性质，不用la。",
+    "new": "le替代“准备好”这一性质，即前句prête所表达的状态；它是中性表语代词，不按阴性写la。",
+    "reason": "明确该用法为表语复指，不是名词 COD，拼写与原句一致。"
+  },
+  {
+    "id": "a2-imperatif",
+    "location": "expansion",
+    "field": "sections.2.explanation",
+    "old": "无s的tu命令直接接y/en时常加连接s：Vas-y、Manges-en。moi/toi在en前通常缩合m’/t’；不是一律保留moi/toi。",
+    "new": "无s的tu命令直接连接y/en时加连接s：Vas-y、Manges-en。me/te在en或y前缩合m’/t’，如Donne-m’en、Fais-m’y penser；不是一律保留moi/toi。",
+    "reason": "同一权威页明确 en 和 y 均需省音，而原说明只提 en。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif"
+  },
+  {
+    "id": "a2-imperatif",
+    "location": "expansion",
+    "field": "boundaries",
+    "old": "若en/y不直接附属于该命令动词，不机械加s：Va en chercher（去找一些，en属于chercher）。offrir、ouvrir等tu命令也无s；不只-er原形如此。",
+    "new": "若en/y属于后接不定式而非该命令动词，通常不加连接s或连字符：Va en chercher（去找一些，en属于chercher）。laisser有连接s的例外：Laisses-en échapper un peu（放掉一点），不可把前一口诀绝对化。offrir、ouvrir等tu命令也无s；不只-er原形如此。",
+    "reason": "OQLF 特别列出 laisser + en + 不定式的连接 s 例外。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24203/la-grammaire/le-verbe/conjugaison/formes-de-limperatif"
+  },
+  {
+    "id": "a2-superlatif",
+    "location": "expansion",
+    "field": "sections.1.examples.1.fr",
+    "old": "Cette bibliothèque possède le plus de livres de la ville.",
+    "new": "De toutes les bibliothèques de la ville, celle-ci possède le plus de livres.",
+    "reason": "明确比较各图书馆藏书量，避免 de la ville 紧邻 livres 的歧义。"
+  },
+  {
+    "id": "a2-superlatif",
+    "location": "expansion",
+    "field": "sections.1.examples.1.zh",
+    "old": "这家图书馆拥有全市最多的书。",
+    "new": "在全市所有图书馆中，这家藏书最多。",
+    "reason": "与润色后的法语比较范围一致。"
+  },
+  {
+    "id": "a2-quantite",
+    "location": "expansion",
+    "field": "sections.0.examples.1.use",
+    "old": "不可数oil和salt的量，元音前d’。",
+    "new": "huile 和 sel 均作不可数名词表示物质量；huile 以元音开头，所以 de 缩为 d’。",
+    "reason": "移除中文教程中多余英文 oil/salt，准确解释缩合。"
+  },
+  {
+    "id": "a2-quantite",
+    "location": "expansion",
+    "field": "errors",
+    "old": "× beaucoup du pain（泛指）→ ✓ beaucoup de pain；× un peu amis → ✓ un peu d’amis（但语境常更自然quelques amis）。",
+    "new": "× beaucoup du pain（泛指）→ ✓ beaucoup de pain；× un peu temps → ✓ un peu de temps。少量可数朋友通常说quelques amis，不把不自然的un peu d’amis作为首选示例。",
+    "reason": "纠错后示例应自然，un peu 对可数 amis 不宜作基础推荐。"
+  },
+  {
+    "id": "a2-temps-prep",
+    "location": "expansion",
+    "field": "errors",
+    "old": "× J’étudie depuis deux ans用PC来表达仍在学 → ✓ J’étudie depuis deux ans；但不能因此禁止所有depuis+PC。",
+    "new": "要说“我学法语两年了，现在还在学”，基础表达用 J’étudie le français depuis deux ans（现在时），不能仅因中文“了”机械写成 J’ai étudié le français pendant deux ans（通常呈现一个完整阶段）。但 depuis 可用于否定PC或累计已发生事件等结构，不是与PC绝不兼容。",
+    "reason": "原错误栏把正确 J’étudie depuis deux ans 打×，且省略对象不易读；明确真实误区。"
+  },
+  {
+    "id": "a2-temps-prep",
+    "location": "expansion",
+    "field": "boundaries",
+    "old": "depuis hier与pendant hier不能互换。过去叙事的“三天前/后”常用trois jours auparavant/plus tard，以免把参照点误固定为说话现在。",
+    "new": "depuis hier与pendant hier不能互换。这里讲的是时间补语，不要与depuis/dans的其他义项混淆。过去叙事相对过去参照点的“三天前/后”常用trois jours auparavant/plus tard，以免把参照点误固定为说话现在。",
+    "reason": "限制结论为本节时间用法，保留参照点差异。"
+  },
+  {
+    "id": "a2-politesse",
+    "location": "expansion",
+    "field": "sections.2.examples.0.zh",
+    "old": "我想学着把法语发音说得更好。",
+    "new": "我想学习更准确地发法语音。",
+    "reason": "“把法语发音说得更好”汉语不自然，改为准确中文。"
+  }
+]

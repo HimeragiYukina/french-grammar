@@ -1,0 +1,348 @@
+{
+  "b2-subj-passe": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 3,
+    "practice_questions": 3,
+    "new_sections": 3,
+    "new_examples": 6,
+    "corrections": 2,
+    "findings": [
+      "虚拟式过去可表示未来完成，不限于过去主观事件",
+      "补全完成及未来截止点意义"
+    ],
+    "sources": [
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+      "https://www.academie-francaise.fr/au-cas-ou-tu-seras"
+    ],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-mode-choix": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 3,
+    "new_examples": 8,
+    "corrections": 2,
+    "findings": [
+      "避免确定性和主观性机械对应语气",
+      "原概括过度绝对"
+    ],
+    "sources": [],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-concordance": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 4,
+    "new_examples": 8,
+    "corrections": 1,
+    "findings": [
+      "去除已修复的原文历史指称"
+    ],
+    "sources": [],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-participe-present": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 4,
+    "new_examples": 8,
+    "corrections": 0,
+    "findings": [],
+    "sources": [
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+      "https://www.academie-francaise.fr/au-cas-ou-tu-seras"
+    ],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-se-faire": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 3,
+    "practice_questions": 3,
+    "new_sections": 2,
+    "new_examples": 8,
+    "corrections": 4,
+    "findings": [
+      "两结构语域不同",
+      "限定 fait 不变规则",
+      "vu 不能无条件不变",
+      "去除不准确的原文历史指称"
+    ],
+    "sources": [
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+      "https://www.academie-francaise.fr/au-cas-ou-tu-seras"
+    ],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-relatifs-composes": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 7,
+    "practice_questions": 7,
+    "new_sections": 3,
+    "new_examples": 8,
+    "corrections": 5,
+    "findings": [
+      "避免宣布其他正式关系结构绝对不合法",
+      "与扩写边界保持一致",
+      "原译文把修饰关系倒置：停在房子附近，非房子在停靠地点附近",
+      "修正中英混杂 with qui",
+      "不再声称当前原文仍有已经修复的错误"
+    ],
+    "sources": [],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-mise-relief": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 2,
+    "new_examples": 8,
+    "corrections": 0,
+    "findings": [],
+    "sources": [],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-nominalisation": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 4,
+    "practice_questions": 4,
+    "new_sections": 3,
+    "new_examples": 6,
+    "corrections": 0,
+    "findings": [],
+    "sources": [],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-futur-anterieur": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 3,
+    "practice_questions": 3,
+    "new_sections": 3,
+    "new_examples": 6,
+    "corrections": 1,
+    "findings": [
+      "主句也可命令式，与本章第三道练习一致"
+    ],
+    "sources": [],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-opposition-concession": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 7,
+    "practice_questions": 7,
+    "new_sections": 3,
+    "new_examples": 12,
+    "corrections": 1,
+    "findings": [
+      "说明文学用法边界"
+    ],
+    "sources": [
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+      "https://www.academie-francaise.fr/au-cas-ou-tu-seras"
+    ],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-cause-consequence": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 8,
+    "practice_questions": 8,
+    "new_sections": 3,
+    "new_examples": 12,
+    "corrections": 2,
+    "findings": [
+      "原因评价不是绝对二分",
+      "tellement修饰动词时常后置，原公式暗示前置"
+    ],
+    "sources": [],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-but-condition": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 6,
+    "practice_questions": 7,
+    "new_sections": 4,
+    "new_examples": 12,
+    "corrections": 4,
+    "findings": [
+      "避免主语相同从句绝对禁令",
+      "说明选择倾向而非禁令",
+      "去掉才用的绝对措辞",
+      "题目缺少无人称存在结构 y，与答案不匹配"
+    ],
+    "sources": [
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+      "https://www.academie-francaise.fr/au-cas-ou-tu-seras"
+    ],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-accord-pp": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 5,
+    "practice_questions": 6,
+    "new_sections": 4,
+    "new_examples": 12,
+    "corrections": 2,
+    "findings": [
+      "前置COD不是充分条件",
+      "正确fait不变例句不应标为错"
+    ],
+    "sources": [
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+      "https://www.academie-francaise.fr/au-cas-ou-tu-seras"
+    ],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-registres": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 3,
+    "practice_questions": 4,
+    "new_sections": 3,
+    "new_examples": 8,
+    "corrections": 8,
+    "findings": [
+      "词义限制不可被语域表掩盖",
+      "élément不等于任意truc",
+      "补回 très 强度",
+      "口语疑问未必失礼",
+      "转换语域不应丢失强度",
+      "加入具体对象语境，避免truc机械替换élément",
+      "题答语义需一致",
+      "修正语域绝对禁令"
+    ],
+    "sources": [],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-modalisation": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 5,
+    "practice_questions": 5,
+    "new_sections": 3,
+    "new_examples": 12,
+    "corrections": 2,
+    "findings": [
+      "明确 sembler 不是固定虚拟式触发词",
+      "条件式来源保留不只是事件概率，改据说更对应use"
+    ],
+    "sources": [
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://www.academie-francaise.fr/questions-de-langue",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+      "https://www.academie-francaise.fr/au-cas-ou-tu-seras"
+    ],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  },
+  "b2-adj-sens": {
+    "status": "reviewed",
+    "checked": [
+      "原始zh/fr/forms/ex/tip",
+      "原始PRACTICE题目/答案/note",
+      "扩写全部解释/法语/译文/use/比较/错误/边界"
+    ],
+    "original_examples": 7,
+    "practice_questions": 7,
+    "new_sections": 3,
+    "new_examples": 16,
+    "corrections": 1,
+    "findings": [
+      "独处不等于孤独"
+    ],
+    "sources": [],
+    "limitations": "助手逐句审读与重点规则权威核对；未声称每个原创例句均有外部逐句出处。特殊文学/地域形式按边界标注，不绝对排除。"
+  }
+}

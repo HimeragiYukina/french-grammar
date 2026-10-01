@@ -1,0 +1,77 @@
+[
+  {
+    "old": "少数表示<strong>位移/状态变化</strong>的动词及<strong>所有代词式动词</strong>用 <b>être</b> 作助动词,过去分词与<strong>主语</strong>性数配合。",
+    "new": "一些指定的不及物位移/状态变化动词及<strong>所有代词式动词</strong>用 <b>être</b> 作助动词。前一类通常与主语性数配合；代词式动词的分词须另分析直接宾语，不能一律配合。",
+    "reason": "代词式动词être助动词不保证分词与主语配合；多数移动动词并不用être。"
+  },
+  {
+    "old": "Certains verbes de mouvement/changement d'état et tous les verbes pronominaux utilisent « être ». Le participe s'accorde avec le sujet.",
+    "new": "Certains verbes intransitifs de mouvement/changement d'état et tous les verbes pronominaux utilisent « être ». Pour les verbes pronominaux, l'accord dépend de la construction.",
+    "reason": "同步修正法语说明。"
+  },
+  {
+    "old": "<b>易错:</b>être 类动词过去分词必须配合主语:elle est venu<b>e</b>、ils sont venu<b>s</b>。monter/descendre/sortir/passer 带宾语时改用 avoir。",
+    "new": "<b>易错:</b>非代词式的 être 类动词通常配合主语:elle est venu<b>e</b>、ils sont venu<b>s</b>。代词式另判断:elles se sont parlé。monter/descendre/sortir 等带直接宾语的相关用法改用 avoir。",
+    "reason": "排除代词式例外且指定直接宾语。"
+  },
+  {
+    "old": "能问「然后呢?」→ PC;描述「当时的样子/反复」→ imparfait。信号词:soudain/hier → PC;souvent/toujours/quand j'étais → imparfait。",
+    "new": "整体事件常用 PC;描述「当时的样子/过程/习惯」常用 imparfait。hier、souvent 等只提供语境，不能单凭信号词决定时态。",
+    "reason": "hier可与imparfait，souvent可与PC。"
+  },
+  {
+    "old": "表示<strong>较远/确定的将来</strong>(书面、计划、预测)。",
+    "new": "表示<strong>未来事件</strong>，可用于预测、承诺或指示；时间可近可远，也不保证事件一定发生。",
+    "reason": "简单将来时不等于确定或远期。"
+  },
+  {
+    "old": "Le futur simple exprime un futur lointain ou certain.",
+    "new": "Le futur simple situe un événement dans l'avenir, proche ou lointain ; il peut exprimer une prévision, une promesse ou une instruction.",
+    "reason": "同步修正法语说明。"
+  },
+  {
+    "old": "口语近期用 futur proche(je vais partir),书面/较远用 futur simple(je partirai)。",
+    "new": "futur proche(je vais partir)常强调当前打算/迹象；futur simple(je partirai)把事件投射到未来。两者不能仅按口语/书面或近/远划分。",
+    "reason": "移除机械时间距离划分。"
+  },
+  {
+    "old": "间接宾语代词替代「<b>à</b> + 人」:",
+    "new": "在 parler à、donner à 等搭配中，间接宾语代词可替代「<b>à</b> + 人」:",
+    "reason": "penser à、tenir à等不用lui/leur。"
+  },
+  {
+    "old": "Le pronom COI remplace « à + personne » :",
+    "new": "Avec des verbes comme parler à et donner à, le pronom COI remplace « à + personne » :",
+    "reason": "同步限定范围。"
+  },
+  {
+    "old": "「à + 人」用 lui/leur,不用 y(<em>Je pense à elle</em> 保留重读代词)。",
+    "new": "「à + 人」需看动词搭配:parler à→lui/leur；penser à→à lui/à elle 等重读结构。基础标准用法一般不用 y 指特定人。",
+    "reason": "同一原tip存在前后冲突。"
+  },
+  {
+    "old": "表时间的先行词(年/日/时刻)一律用 où",
+    "new": "先行词在从句中作时间状语时用 où；若作直接宾语等，则按其句法角色选关系词",
+    "reason": "时间名词也可作COD选que。"
+  },
+  {
+    "old": "数量副词/量词后一律接 <b>de</b>(无冠词):",
+    "new": "常见数量副词/度量词后，泛指名词通常接 <b>de</b>(无冠词):",
+    "reason": "特指集合及la plupart des等例外。"
+  },
+  {
+    "old": "Après un adverbe ou une mesure de quantité, on emploie « de » sans article.",
+    "new": "Après beaucoup, peu ou une mesure de quantité, un nom non déterminé est généralement introduit par « de » sans article ; les ensembles définis et certaines expressions font exception.",
+    "reason": "同步去除一律。"
+  },
+  {
+    "old": "<b>depuis</b>(自…以来,持续到现在,+现在时)、<b>pendant</b>(持续多久)、",
+    "new": "<b>depuis</b>(自…以来,持续到参照时点；现在参照常配现在时)、<b>pendant</b>(持续多久，可用于过去或未来)、",
+    "reason": "depuis可配过去参照imparfait，否定PC；pendant非只过去。"
+  },
+  {
+    "old": "「做某事多久了」用 <b>depuis + 现在时</b>(法语用现在时,中文是「了」)。",
+    "new": "「做某事至今多久了」通常用 <b>depuis + 现在时</b>；过去参照可用 imparfait，否定也可用 passé composé。",
+    "reason": "限定规则适用范围。"
+  }
+]

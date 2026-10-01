@@ -1,0 +1,77 @@
+[
+  {
+    "old": "vu 永不配合",
+    "new": "此处 vu 不配合(se 为 remettre à 的间接宾语);其他 se voir + 原形结构须分析原形动作的施事",
+    "reason": "se voir 的 vu 不是永不配合，学院明确区分受影响者与原形施事。"
+  },
+  {
+    "old": "croire/penser/trouver/être sûr 在<strong>肯定句</strong>用直陈,<strong>否定/疑问</strong>转虚拟;il est probable que+直陈,但 il est possible que+虚拟。",
+    "new": "croire/penser 等肯定句通常用直陈;否定/疑问中常用虚拟表达怀疑或保留,但可依语境保留直陈。il est probable que 通常接直陈,il est possible que 通常接虚拟。",
+    "reason": "否定与疑问并不机械强制虚拟式。"
+  },
+  {
+    "old": "主句是过去时,转述的从句时态要<strong>后移</strong>",
+    "new": "以过去说话时刻为参照转述时,从句时态通常<strong>后移</strong>",
+    "reason": "普遍事实和仍有效的信息可保留现在时。"
+  },
+  {
+    "old": "Quand le verbe introducteur est au passé, les temps de la subordonnée reculent.",
+    "new": "Avec un verbe introducteur au passé, les temps reculent généralement ; une vérité générale ou une information encore valable peut rester au présent.",
+    "reason": "补入不强制后移的边界。"
+  },
+  {
+    "old": "<strong>⚠️ 单个 de 引导的补语用 <b>dont</b>,不是 duquel</strong>;只有在<strong>以 de 结尾的介词短语</strong>(à côté de、près de、au cours de…)后才用 <b>duquel/de laquelle/desquels</b>。",
+    "new": "<strong>普通 de 引导的补语通常优先用 <b>dont</b></strong>;在<strong>以 de 结尾的介词短语</strong>(à côté de、près de、au cours de…)后通常保留 de,用 <b>duquel/de laquelle/desquels</b>。其他正式或消歧用法另见详细说明。",
+    "reason": "dont 最常见但不是 duquel/de qui 在普通 de 后的绝对排除规则。"
+  },
+  {
+    "old": "Attention : « de » seul → dont ; duquel/desquels seulement après une locution en « de » (à côté de…).",
+    "new": "« Dont » est généralement préféré pour un complément en « de » ; après une locution comme « à côté de », on conserve la préposition avec « duquel/de laquelle… ».",
+    "reason": "删除 seulement 绝对化。"
+  },
+  {
+    "old": "必须用 dont,不能用 duquel",
+    "new": "通常优先用 dont;不要把这一教学主路径当作所有文体的绝对禁令",
+    "reason": "普通 de 后复合关系代词存在正式及消歧用法。"
+  },
+  {
+    "old": "malgré 只能接名词 la pluie,不能接从句",
+    "new": "学习者标准用法为 malgré + 名词组(这里 la pluie);malgré que 的历史/文学用法另见边界说明",
+    "reason": "原文过于绝对，正式教学仍推荐名词结构。"
+  },
+  {
+    "old": "malgré 后<strong>必须名词</strong>(不能跟句子)",
+    "new": "标准学习用法为 malgré + <strong>名词组</strong>;从句优先改用 bien que",
+    "reason": "保留规范主路径并避免抹去实际用法。"
+  },
+  {
+    "old": "au cas où 是唯一固定接条件式的条件连词",
+    "new": "au cas où 在标准假设用法中接条件式;dans le cas où 也可接条件式",
+    "reason": "不是唯一条件结构。"
+  },
+  {
+    "old": "正面原因用 grâce à,负面原因用 à cause de",
+    "new": "grâce à 通常表有利原因,也可反讽;à cause de 常表不利原因,也有中性用法",
+    "reason": "褒贬是倾向而非绝对规则。"
+  },
+  {
+    "old": "后接无冠词名词",
+    "new": "常接无冠词名词,也可依特指语境使用限定词",
+    "reason": "faute de 后零冠词并非绝对。"
+  },
+  {
+    "old": "<b>familier:</b> Je suis crevé. / <b>courant:</b> Je suis fatigué. / <b>soutenu:</b> Je suis épuisé.",
+    "new": "<b>familier:</b> Je suis crevé. / <b>courant:</b> Je suis très fatigué. / <b>sens plus intense:</b> Je suis épuisé.",
+    "reason": "épuisé 主要是强度而非正式语域。"
+  },
+  {
+    "old": "三语域词汇分层:同一意思在 familier/courant/soutenu 中用词不同",
+    "new": "语域与强度分辨:crevé 随便;fatigué 中性;épuisé 表精疲力竭,并非只用于正式语域",
+    "reason": "防止同义词替换掩盖词义强度。"
+  },
+  {
+    "old": "写作里别用 familier(on→nous、ça→cela、des trucs→des éléments)",
+    "new": "正式写作避免不合场合的 familier;按含义选择 nous/cela/明确名词,但泛指 on 可保留,des trucs 不一定等于 des éléments",
+    "reason": "on、词义与语域不能机械替换。"
+  }
+]

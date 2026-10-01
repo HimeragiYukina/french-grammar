@@ -1,0 +1,1137 @@
+{
+  "b1-pqp": {
+    "sections": [
+      {
+        "title": "构成与过去参照点",
+        "explanation": "avoir/être 的未完成过去时 + 过去分词；先找到叙述中的过去参照点，再表达此前已完成的事。avoir 的分词通常不随主语配合，être 的配合仍要看动词类别。",
+        "examples": [
+          {
+            "fr": "Quand Léa est rentrée, nous avions déjà dîné.",
+            "zh": "莱娅回家时，我们已经吃过晚饭了。",
+            "use": "回家是过去参照点；吃饭先完成。"
+          },
+          {
+            "fr": "La porte était ouverte : quelqu’un avait oublié de la fermer.",
+            "zh": "门开着：有人先前忘了关门。",
+            "use": "背景状态后补交代原因。"
+          }
+        ]
+      },
+      {
+        "title": "回忆、转述与先前经历",
+        "explanation": "叙述不必按时间顺序；愈过去时可以回到更早经历，并非要求两个动作紧挨着发生。",
+        "examples": [
+          {
+            "fr": "Il m’a montré les photos qu’il avait prises dix ans plus tôt.",
+            "zh": "他给我看了他十年前拍的照片。",
+            "use": "较早经历。"
+          },
+          {
+            "fr": "Je savais qu’elle était déjà venue ici.",
+            "zh": "我知道她以前已经来过这里。",
+            "use": "过去的认知和更早的经历。"
+          }
+        ]
+      },
+      {
+        "title": "过去未实现条件",
+        "explanation": "si + 愈过去时常提出与过去事实相反的条件；结果可指过去，也可影响现在。",
+        "examples": [
+          {
+            "fr": "Si tu avais réservé, nous aurions eu une table.",
+            "zh": "你要是提前预订，我们当时就能有座位了。",
+            "use": "过去条件与过去结果。"
+          },
+          {
+            "fr": "Si j’avais appris à conduire, je serais plus autonome aujourd’hui.",
+            "zh": "如果我以前学过开车，今天就会更独立。",
+            "use": "过去条件、现在结果，混合条件句。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Je suis arrivé et le train est parti 在通常顺序叙述中理解为先到、后发车（et 本身不严格规定先后）；Quand je suis arrivé, le train était parti 明确到达之前火车已经走了。Il pleuvait 是背景中正在下雨；il avait plu 强调参照点之前下过雨。",
+    "errors": "错误：Elle avait partie。改：Elle était partie（partir 用 être）。错误：Elles avaient achetées des billets。改：Elles avaient acheté des billets（后置 COD 不触发配合）。",
+    "boundaries": "愈过去时不是“很久以前”的时态；时间近远不决定它，过去参照点和先后关系才决定。独立的 Ah ! Si j’avais su ! 表示追悔，主句可以省略。"
+  },
+  "b1-cond-present": {
+    "sections": [
+      {
+        "title": "构成与假设结果",
+        "explanation": "简单将来时词干 + -ais, -ais, -ait, -ions, -iez, -aient；-re 原形去末尾 e，être→ser-, avoir→aur-, aller→ir-。si + 未完成过去时的条件可是不现实，也可是较低可能性。",
+        "examples": [
+          {
+            "fr": "Si j’habitais près du bureau, j’y irais à pied.",
+            "zh": "如果我住在办公室附近，我会步行去。",
+            "use": "与当前居住情况不同。"
+          },
+          {
+            "fr": "Si le directeur acceptait, nous lancerions le projet lundi.",
+            "zh": "如果经理同意，我们会周一启动项目。",
+            "use": "尚未确定的试探方案。"
+          }
+        ]
+      },
+      {
+        "title": "礼貌请求、愿望与建议",
+        "explanation": "条件式降低表达的强度；voudrais/aimerais 表愿望，pourriez-vous 请求帮助，devrais 建议或预期。",
+        "examples": [
+          {
+            "fr": "Je voudrais prendre rendez-vous pour demain.",
+            "zh": "我想预约明天的时间。",
+            "use": "在服务场景提出请求。"
+          },
+          {
+            "fr": "Pourriez-vous me prévenir si l’horaire change ?",
+            "zh": "时间有变时，您能通知我吗？",
+            "use": "请对方采取行动。"
+          },
+          {
+            "fr": "Tu devrais faire une pause.",
+            "zh": "你应该休息一下。",
+            "use": "建议，而非命令。"
+          },
+          {
+            "fr": "J’aimerais que vous restiez encore un peu.",
+            "zh": "我希望你们再留一会儿。",
+            "use": "愿望引出不同主语的虚拟式从句。"
+          }
+        ]
+      },
+      {
+        "title": "过去视角下的将来",
+        "explanation": "过去说话、想法中的后续动作使用条件式；此时不必有任何假设或不确定。",
+        "examples": [
+          {
+            "fr": "Elle m’a dit qu’elle arriverait à huit heures.",
+            "zh": "她告诉我她会八点到。",
+            "use": "说话时间之后的到达。"
+          },
+          {
+            "fr": "Nous pensions que le magasin serait ouvert.",
+            "zh": "我们以为商店会开门。",
+            "use": "过去的预期。"
+          }
+        ]
+      },
+      {
+        "title": "未经证实的信息",
+        "explanation": "新闻和转述中条件式标示信息尚未由说话者确认；应同时交代消息来源。",
+        "examples": [
+          {
+            "fr": "Selon un témoin, le conducteur aurait une trentaine d’années.",
+            "zh": "据一名目击者说，司机大概三十多岁。",
+            "use": "身份描述未经核实。"
+          },
+          {
+            "fr": "D’après la presse, une nouvelle ligne ouvrirait en juin.",
+            "zh": "据媒体报道，一条新线路可能在六月开通。",
+            "use": "报道中的待确认计划。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Je viendrai demain 是直陈式将来、直接承诺；je viendrais si je pouvais 是附条件的结果。Je veux 更直接，je voudrais 更委婉。Elle a dit qu’elle viendrait 的条件式主要表示过去将来，不自动等于“也许来”。",
+    "errors": "错误：Si j’aurais le temps, je viendrais。改：Si j’avais le temps, je viendrais。注意 je parlerai（将来）与 je parlerais（条件）拼写不同。",
+    "boundaries": "礼貌条件式不改变实际时间：Je voudrais un café 是现在点单。新闻条件式应保留信息未证实的含义，不能译成已确认事实。"
+  },
+  "b1-cond-passe": {
+    "sections": [
+      {
+        "title": "构成与过去反事实",
+        "explanation": "avoir/être 的条件式现在时 + 过去分词；过去分词配合遵循相应复合时态规则。",
+        "examples": [
+          {
+            "fr": "Si le train avait été à l’heure, nous serions arrivés avant midi.",
+            "zh": "火车要是准点，我们就会在中午前到达。",
+            "use": "过去条件没有满足。"
+          },
+          {
+            "fr": "Avec ton aide, j’aurais terminé plus vite.",
+            "zh": "有你的帮助，我本来会更快做完。",
+            "use": "条件可用介词短语表达。"
+          }
+        ]
+      },
+      {
+        "title": "遗憾、责备与未实现愿望",
+        "explanation": "aurais dû 强调本应做，aurais pu 强调原有可能，aurais aimé 强调愿望未实现；语气可能带责备，应结合人称和语境。",
+        "examples": [
+          {
+            "fr": "J’aurais dû sauvegarder le fichier.",
+            "zh": "我本该保存文件的。",
+            "use": "自我追悔。"
+          },
+          {
+            "fr": "Tu aurais pu me prévenir !",
+            "zh": "你当时明明可以告诉我的！",
+            "use": "责备没有采取行动。"
+          },
+          {
+            "fr": "J’aurais aimé rencontrer ta grand-mère.",
+            "zh": "我本想见见你的祖母。",
+            "use": "未实现愿望。"
+          },
+          {
+            "fr": "Nous aurions voulu rester, mais le dernier bus partait.",
+            "zh": "我们本想留下，但末班公交要开了。",
+            "use": "愿望被现实条件阻断。"
+          }
+        ]
+      },
+      {
+        "title": "过去传闻与过去将来完成",
+        "explanation": "同一形式也可标记未经证实的过去事件，或过去视角下将已完成的动作；不要一律解释为遗憾。",
+        "examples": [
+          {
+            "fr": "Selon les enquêteurs, le suspect aurait quitté le pays.",
+            "zh": "据调查人员说，嫌疑人据称已经离境。",
+            "use": "过去事件尚未证实。"
+          },
+          {
+            "fr": "Le tableau aurait été vendu à un collectionneur privé.",
+            "zh": "这幅画据称已售给私人收藏家。",
+            "use": "传闻中的被动动作。"
+          },
+          {
+            "fr": "Elle a promis qu’elle aurait fini avant notre arrivée.",
+            "zh": "她答应说，在我们到达前她会做完。",
+            "use": "过去视角下将来某参照点前完成。"
+          },
+          {
+            "fr": "Il pensait qu’ils seraient rentrés avant minuit.",
+            "zh": "他以为他们会在午夜前回到家。",
+            "use": "过去预期的先行完成。"
+          }
+        ]
+      }
+    ],
+    "comparison": "J’aurais dû appeler 是“本该打电话”；je devrais appeler 是现在或未来的建议。Il a quitté le pays 陈述事实；il aurait quitté le pays 表示消息尚未证实。",
+    "errors": "错误：Si tu aurais appelé…。改：Si tu avais appelé…。错误：Elles seraient parti。改：Elles seraient parties。",
+    "boundaries": "条件式过去时本身不保证动作没有发生：报道中的 auraient gagné 可能是真实但未证实。追悔与传闻要从语境区别。"
+  },
+  "b1-subj-present": {
+    "sections": [
+      {
+        "title": "规则构成与双词干",
+        "explanation": "je/tu/il/ils 一般取直陈式现在时 ils 的词干（去 -ent），加 -e/-es/-e/-ent；nous/vous 通常取直陈式现在时 nous 的词干（去 -ons），加 -ions/-iez。因此 venir：vienne / venions；prendre：prenne / prenions；boire：boive / buvions。",
+        "examples": [
+          {
+            "fr": "Il faut que tu prennes ce médicament après le repas.",
+            "zh": "你需要饭后服这种药。",
+            "use": "ils prennent → prenn-。"
+          },
+          {
+            "fr": "Il faut que nous prenions une décision.",
+            "zh": "我们必须作出决定。",
+            "use": "nous prenons → pren-，不能写 prennions。"
+          },
+          {
+            "fr": "Je souhaite qu’elle vienne avec nous.",
+            "zh": "我希望她跟我们一起来。",
+            "use": "单数 vienn-。"
+          },
+          {
+            "fr": "Il est important que vous veniez à l’heure.",
+            "zh": "你们准时到很重要。",
+            "use": "vous veniez 使用 ven-。"
+          }
+        ]
+      },
+      {
+        "title": "不规则形式与时间理解",
+        "explanation": "être：sois/sois/soit/soyons/soyez/soient；avoir：aie/aies/ait/ayons/ayez/aient；faire→fasse、pouvoir→puisse、savoir→sache。aller：aille/ allions；vouloir：veuille/ voulions。现在虚拟式可指现在或将来，由上下文决定。",
+        "examples": [
+          {
+            "fr": "Je doute qu’il sache la réponse.",
+            "zh": "我怀疑他知道答案。",
+            "use": "savoir 的特殊词干。"
+          },
+          {
+            "fr": "Il faut que vous soyez ici demain à neuf heures.",
+            "zh": "你们明天九点必须在这里。",
+            "use": "现在虚拟式表达将来。"
+          },
+          {
+            "fr": "Je suis heureux que tu aies le temps de venir.",
+            "zh": "我很高兴你有时间来。",
+            "use": "avoir → aies。"
+          },
+          {
+            "fr": "Il vaut mieux que nous allions à pied.",
+            "zh": "我们最好步行去。",
+            "use": "aller 的 nous 形式。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Je sais qu’elle vient 陈述认知事实；je veux qu’elle vienne 表愿望。Je suis content qu’elle soit là 的事实完全可能真实，虚拟式由情感结构触发，不能理解成“事情不真实”。",
+    "errors": "错误：按 ils boivent 给 nous 写 boivions。改：que nous buvions。错误：que vous faisez。改：que vous fassiez。不要见 que 就使用虚拟式。",
+    "boundaries": "“nous/vous 与未完成过去时相同”的助记不适用于所有动词：être 的 soyons/soyez、avoir 的 ayons/ayez 不同。虚拟式通常在从句，但 Qu’il entre ! 等独立祈愿、命令结构也可使用。"
+  },
+  "b1-subj-declencheurs": {
+    "sections": [
+      {
+        "title": "愿望、命令和必要性",
+        "explanation": "vouloir/souhaiter/exiger que、il faut que 等选择虚拟式。两个动作同一施事时常用不定式，但并非所有触发词都能机械改为同一结构。",
+        "examples": [
+          {
+            "fr": "Je veux que tu relises ce passage.",
+            "zh": "我要你再读一遍这一段。",
+            "use": "主句、从句施事不同。"
+          },
+          {
+            "fr": "Il faut que chacun apporte son passeport.",
+            "zh": "每个人都必须带护照。",
+            "use": "必要性。"
+          }
+        ]
+      },
+      {
+        "title": "情感与评价",
+        "explanation": "être content/triste que、regretter que、il est important que 对事件作情感或价值评价，即使事实确定也用虚拟式。",
+        "examples": [
+          {
+            "fr": "Je suis contente que tu sois parmi nous.",
+            "zh": "我很高兴你在我们身边。",
+            "use": "真实事实上的喜悦。"
+          },
+          {
+            "fr": "Il est dommage qu’il pleuve aujourd’hui.",
+            "zh": "今天下雨真遗憾。",
+            "use": "对实际天气评价。"
+          }
+        ]
+      },
+      {
+        "title": "怀疑与可能性",
+        "explanation": "douter que、il est possible que 通常虚拟式；肯定 penser/croire que 通常直陈式，否定或疑问的选式还受说话者是否认可从句内容影响。",
+        "examples": [
+          {
+            "fr": "Je doute qu’elle puisse venir.",
+            "zh": "我怀疑她能来。",
+            "use": "怀疑能力或可能性。"
+          },
+          {
+            "fr": "Il est possible que le train soit en retard.",
+            "zh": "火车可能晚点。",
+            "use": "可能性结构。"
+          },
+          {
+            "fr": "Je ne crois pas qu’il ait raison.",
+            "zh": "我不认为他说得对。",
+            "use": "不认可观点。"
+          },
+          {
+            "fr": "Penses-tu qu’il viendra ?",
+            "zh": "你认为他会来吗？",
+            "use": "真实询问预测，直陈式可成立。"
+          }
+        ]
+      },
+      {
+        "title": "连接词与关键例外",
+        "explanation": "pour que、avant que、jusqu’à ce que、à condition que、à moins que 后用虚拟式；bien que 在学习者规范表达中优先用虚拟式，强调事实的直陈式虽见于用法但受部分规范著作批评。肯定 espérer que 通常直陈式；après que 在规范法语中用直陈式。",
+        "examples": [
+          {
+            "fr": "Je ferme la porte pour que le bébé puisse dormir.",
+            "zh": "我关上门，好让宝宝睡觉。",
+            "use": "目的尚待实现。"
+          },
+          {
+            "fr": "Bien qu’elle soit débutante, elle comprend très bien.",
+            "zh": "虽然她是初学者，她理解得很好。",
+            "use": "让步不表示事实虚假。"
+          },
+          {
+            "fr": "J’attendrai jusqu’à ce que tu reviennes.",
+            "zh": "我会等到你回来。",
+            "use": "未达到的终点。"
+          },
+          {
+            "fr": "J’espère qu’elle réussira son examen.",
+            "zh": "我希望她会通过考试。",
+            "use": "肯定 espérer 的通常选式。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Je souhaite qu’il réussisse 与 J’espère qu’il réussira 都表示希望，但前者虚拟式、后者通常直陈式。Avant qu’il parte 指动作尚未完成；après qu’il est parti 指动作已经完成，规范选式不同。",
+    "errors": "错误：Il faut que tu fais。改：Il faut que tu fasses。错误：J’espère qu’il soit là demain。通常改：J’espère qu’il sera là demain。",
+    "boundaries": "否定/疑问 penser 或 espérer 后并非永远只有一种语气。avant que、à moins que 等正式语体中可有赘词 ne：avant qu’il ne parte；此 ne 不表示否定，真正否定仍须 pas 等。"
+  },
+  "b1-si": {
+    "sections": [
+      {
+        "title": "现实或可实现条件",
+        "explanation": "si + 直陈式现在时，主句可用现在、将来或命令式，不只一种将来式搭配。条件从句现在时可指未来。",
+        "examples": [
+          {
+            "fr": "Si tu viens demain, nous dînerons ensemble.",
+            "zh": "你明天来的话，我们一起吃晚饭。",
+            "use": "未来条件用现在 viens。"
+          },
+          {
+            "fr": "Si tu as froid, ferme la fenêtre.",
+            "zh": "你冷的话，就关上窗。",
+            "use": "主句命令式。"
+          },
+          {
+            "fr": "Si on chauffe l’eau, elle s’évapore.",
+            "zh": "加热水时，水会蒸发。",
+            "use": "一般规律，两边现在时。"
+          },
+          {
+            "fr": "Si tu veux, on prend un café.",
+            "zh": "你愿意的话，我们喝杯咖啡。",
+            "use": "现在提议。"
+          }
+        ]
+      },
+      {
+        "title": "现在或未来的假设",
+        "explanation": "si + 未完成过去时，主句条件式现在时；可能表示反事实，也可能只是距离现实较远或试探的将来假设。",
+        "examples": [
+          {
+            "fr": "Si j’étais à ta place, je demanderais un délai.",
+            "zh": "如果我处在你的位置，我会请求延期。",
+            "use": "与现实不同的视角。"
+          },
+          {
+            "fr": "Si elle venait samedi, nous pourrions lui montrer la ville.",
+            "zh": "如果她周六来，我们就能带她看看这座城市。",
+            "use": "将来试探假设，并不断言她不会来。"
+          }
+        ]
+      },
+      {
+        "title": "过去反事实与混合结果",
+        "explanation": "si + 愈过去时，结果用条件式过去时表示过去未实现结果；用条件式现在时则表示现在的影响。",
+        "examples": [
+          {
+            "fr": "Si nous étions partis plus tôt, nous aurions évité les bouchons.",
+            "zh": "我们要是早点出发，当时就能避开堵车。",
+            "use": "过去条件、过去结果。"
+          },
+          {
+            "fr": "Si tu avais gardé le reçu, tu pourrais te faire rembourser maintenant.",
+            "zh": "你要是保留了收据，现在就能退款了。",
+            "use": "过去条件、现在结果。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Si j’ai le temps, je viendrai：作为可实现计划；si j’avais le temps, je viendrais：假设距离更远或当前没空。Je me demande s’il viendrait avec nous 中 si 意为“是否”，不是条件，条件式可以出现。",
+    "errors": "错误：Si tu viendras demain…。改：Si tu viens demain…。错误：Si je serais riche…。改：Si j’étais riche…。但不能把所有 si 后的条件式都判错，要先辨识是否为间接疑问。",
+    "boundaries": "三种模式是教学主干，不能说 si 后“只能现在、未完成过去、愈过去”。Si tu as déjà payé, entre 使用复合过去时作现实条件。独立 Si on allait au cinéma ? 用于建议。"
+  },
+  "b1-discours-indirect": {
+    "sections": [
+      {
+        "title": "转述陈述与指代调整",
+        "explanation": "dire/expliquer/répondre que + 陈述语序；现在时引述动词一般不要求机械后移时态。人称和物主词按谁说、谁听、谁转述来调整。",
+        "examples": [
+          {
+            "fr": "Paul dit : « Je suis prêt. » → Paul dit qu’il est prêt.",
+            "zh": "保罗说：“我准备好了。”→ 保罗说他准备好了。",
+            "use": "说话者 je 变 il。"
+          },
+          {
+            "fr": "Marie me dit : « Ton dossier est complet. » → Marie me dit que mon dossier est complet.",
+            "zh": "玛丽对我说：“你的材料齐了。”→ 玛丽告诉我我的材料齐了。",
+            "use": "ton 变 mon 取决于转述者。"
+          }
+        ]
+      },
+      {
+        "title": "间接疑问",
+        "explanation": "是非问用 si，特殊问保留 où/quand/comment/pourquoi；“什么”作主语用 ce qui，作宾语用 ce que。去掉 est-ce que 和疑问中的人称代词倒装，通常采用陈述语序；名词主语在某些结构中仍可后置，如 Il demande où habite Paul。 “什么”若作介词补语，通常保留介词 + quoi：De quoi parles-tu ? → Il demande de quoi tu parles。",
+        "examples": [
+          {
+            "fr": "Elle demande si nous avons réservé.",
+            "zh": "她问我们是否预订了。",
+            "use": "是非问，可保留复合过去时。"
+          },
+          {
+            "fr": "Il veut savoir où tu habites.",
+            "zh": "他想知道你住在哪里。",
+            "use": "où + 主语 + 动词。"
+          },
+          {
+            "fr": "Elle demande ce qui fait ce bruit.",
+            "zh": "她问是什么在发出这个声音。",
+            "use": "什么作主语，ce qui。"
+          },
+          {
+            "fr": "Il demande ce que tu cherches.",
+            "zh": "他问你在找什么。",
+            "use": "什么作宾语，ce que。"
+          }
+        ]
+      },
+      {
+        "title": "命令、请求与时空定位",
+        "explanation": "dire/demander/conseiller à quelqu’un de + 不定式；否定放不定式前。ici/demain/ce 等只有参照地点或日期改变时才调整。",
+        "examples": [
+          {
+            "fr": "Le médecin me conseille de me reposer.",
+            "zh": "医生建议我休息。",
+            "use": "不同人称的自反代词需调整。"
+          },
+          {
+            "fr": "Elle nous demande de ne pas faire de bruit.",
+            "zh": "她请我们不要制造噪音。",
+            "use": "否定不定式 ne pas + faire。"
+          },
+          {
+            "fr": "Il dit qu’il viendra demain.",
+            "zh": "他说他明天会来。",
+            "use": "当天转述可保留 demain。"
+          },
+          {
+            "fr": "Il m’a dit lundi qu’il viendrait le lendemain.",
+            "zh": "他周一告诉我，他会第二天来。",
+            "use": "转述时视角和时间坐标改变。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Il demande : « Qu’est-ce qui se passe ? » → Il demande ce qui se passe；« Qu’est-ce que tu fais ? » → Il demande ce que tu fais。Demander si 不表示条件，其后可有将来或条件式。",
+    "errors": "错误：Il demande où habites-tu。改：Il demande où tu habites。错误：Elle demande qu’est-ce que je veux。改：Elle demande ce que je veux。",
+    "boundaries": "不是所有请求都能用 demander de：Elle demande que la réunion soit reportée 是明确从句主语的请求，虚拟式。转述不是逐字翻译，务必先确认指代和现实日期。"
+  },
+  "b1-passif": {
+    "sections": [
+      {
+        "title": "构成、时态与信息焦点",
+        "explanation": "主动句 COD 成为被动主语；être 按所需时态变位 + 与主语性数配合的过去分词。施事通常由 par 引入，也可省略。",
+        "examples": [
+          {
+            "fr": "Les invitations ont été envoyées hier.",
+            "zh": "邀请函昨天已经寄出了。",
+            "use": "复合过去时被动：ont été + envoyées。"
+          },
+          {
+            "fr": "Le pont sera réparé l’année prochaine.",
+            "zh": "这座桥将于明年修缮。",
+            "use": "将来时放在 être 上。"
+          },
+          {
+            "fr": "La réunion est organisée par les étudiants.",
+            "zh": "会议由学生组织。",
+            "use": "施事需要明确。"
+          },
+          {
+            "fr": "Les billets sont vendus à l’entrée.",
+            "zh": "门票在入口处出售。",
+            "use": "强调购买方式，施事不重要。"
+          }
+        ]
+      },
+      {
+        "title": "动作、结果状态与施事介词",
+        "explanation": "être + 分词可能强调正在执行的被动动作，也可能描述动作后的状态。par 是普通施事介词；de 在某些情感、认知和状态表达中常见，不是所有此类动词都必须改用 de。",
+        "examples": [
+          {
+            "fr": "La porte est fermée par le gardien chaque soir.",
+            "zh": "看门人每天晚上关门。",
+            "use": "惯常动作和施事。"
+          },
+          {
+            "fr": "La porte est fermée ; passez par l’autre entrée.",
+            "zh": "门关着；请走另一个入口。",
+            "use": "当前结果状态。"
+          },
+          {
+            "fr": "Cette actrice est connue de tous.",
+            "zh": "这位演员人人都认识。",
+            "use": "connu de，认知状态。"
+          },
+          {
+            "fr": "Le professeur est apprécié de ses élèves.",
+            "zh": "这位老师受到学生喜爱。",
+            "use": "表示喜爱、欣赏的状态时,de 常见；par 在合适语境中也可用。"
+          }
+        ]
+      },
+      {
+        "title": "on 与自反被动替代",
+        "explanation": "口语常用 on + 主动形式；se + 动词可表达一般性质或使用方式，未必说明一次具体动作。",
+        "examples": [
+          {
+            "fr": "On a annulé le concert.",
+            "zh": "音乐会取消了。",
+            "use": "口语用 on 作不明施事。"
+          },
+          {
+            "fr": "Le concert a été annulé.",
+            "zh": "音乐会被取消了。",
+            "use": "被动突出音乐会。"
+          },
+          {
+            "fr": "Ce livre se lit facilement.",
+            "zh": "这本书读起来很轻松。",
+            "use": "性质而非一次被读事件。"
+          },
+          {
+            "fr": "Ces chaussures se vendent bien.",
+            "zh": "这些鞋卖得很好。",
+            "use": "一般销售情况。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Le gardien ferme la porte 强调施事；la porte est fermée par le gardien 调整焦点。La porte est fermée 可是状态，la porte a été fermée 明确发生过关门动作。",
+    "errors": "错误：La lettre a été envoyé。改：La lettre a été envoyée。错误：Il a été téléphoné par Marie（试图将 téléphoner à 的对象作被动主语）。改：Marie lui a téléphoné。",
+    "boundaries": "普通被动主要要求直接及物结构；个别词汇或无人称被动另有边界，不宜把“所有及物动词都能自然被动化”当绝对规则。avoir 等虽可直接带宾语，也不是所有语境都适合被动。"
+  },
+  "b1-double-pronoms": {
+    "sections": [
+      {
+        "title": "陈述句与否定句顺序",
+        "explanation": "动词前按 me/te/se/nous/vous → le/la/les → lui/leur → y → en 排列；复合时态放在助动词前，否定 ne 在代词前、pas 在变位动词后。不是任意代词都可随意组合。",
+        "examples": [
+          {
+            "fr": "Je te le donne demain.",
+            "zh": "我明天把它给你。",
+            "use": "te 在 le 前。"
+          },
+          {
+            "fr": "Je les lui ai envoyés.",
+            "zh": "我已经把它们寄给他／她了。",
+            "use": "les 在 lui 前；此例 les 指阳性复数或混合群体，前置 COD 使 envoyés 配合；如指阴性复数，应为 envoyées。"
+          },
+          {
+            "fr": "Je ne vous en parlerai pas.",
+            "zh": "我不会跟你们谈这个。",
+            "use": "vous + en；否定包住代词和变位动词。"
+          },
+          {
+            "fr": "Il y en a trois.",
+            "zh": "有三个。(若在地点语境中,也可译“那里有三个”。)",
+            "use": "y 在 en 前；存在句。"
+          }
+        ]
+      },
+      {
+        "title": "肯定和否定命令式",
+        "explanation": "肯定命令式代词后置并用连字符：le/la/les → moi/toi/lui/nous/vous/leur → y → en；moi/toi 在 en 前缩合为 m’/t’。否定命令式回到动词前的普通顺序。",
+        "examples": [
+          {
+            "fr": "Donne-le-moi, s’il te plaît.",
+            "zh": "请把它给我。",
+            "use": "肯定命令式 le + moi。"
+          },
+          {
+            "fr": "Parlez-lui-en demain.",
+            "zh": "明天跟他／她谈谈这个。",
+            "use": "lui + en 后置。"
+          },
+          {
+            "fr": "Donne-m’en un peu.",
+            "zh": "给我一点。",
+            "use": "moi 在 en 前变 m’。"
+          },
+          {
+            "fr": "Ne me le donne pas maintenant.",
+            "zh": "现在别把它给我。",
+            "use": "否定恢复 me + le，前置。"
+          }
+        ]
+      },
+      {
+        "title": "不定式与实际支配动词",
+        "explanation": "代词通常紧靠它所补充的动词：不定式宾语放不定式前，而不是一律放变位动词前。faire 等使役结构有特殊规则。",
+        "examples": [
+          {
+            "fr": "Je vais le lui expliquer.",
+            "zh": "我将把这件事向他／她解释。",
+            "use": "le lui 是 expliquer 的补语。"
+          },
+          {
+            "fr": "Tu peux m’en donner deux ?",
+            "zh": "你可以给我两个吗？",
+            "use": "m’en 属于 donner。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Je te le donne 与 Je le lui donne 的顺序不同，由代词组别决定；Donne-le-moi 与 Ne me le donne pas 同时改变位置和形式。",
+    "errors": "错误：Je lui le donne。改：Je le lui donne。错误：Donne-moi-le。改：Donne-le-moi。错误：Je le lui vais expliquer。改：Je vais le lui expliquer。",
+    "boundaries": "不要按表机械堆叠三四个代词；某些组合不自然或不可用，可改成重读代词和介词短语。肯定命令式 Va-t’en 使用自反代词的缩合；表达“去那里”通常说 Vas-y，注意追加 s。moi/toi 在 y 前的缩合形式如 Mène-m’y 在部分语法家那里可接受，但使用意见有差异，学习者可优先采用 Mène-moi là-bas 以避免复杂排列。"
+  },
+  "b1-possessifs-pron": {
+    "sections": [
+      {
+        "title": "按所属物配合、按所属者选人称",
+        "explanation": "le mien/la mienne/les miens/les miennes；le tien、le sien 同理；le nôtre/le vôtre/le leur，复数 les nôtres/les vôtres/les leurs。性数跟被替代的名词，所属者只决定 mien/tien/sien 等系列。",
+        "examples": [
+          {
+            "fr": "Mon ordinateur est récent ; le sien est plus ancien.",
+            "zh": "我的电脑较新；他／她的电脑更旧。",
+            "use": "ordinateur 阳性，不由所属者性别决定。"
+          },
+          {
+            "fr": "Ta chambre est petite ; la mienne est plus grande.",
+            "zh": "你的房间小；我的更大。",
+            "use": "chambre 阴性。"
+          },
+          {
+            "fr": "Nos enfants sont ici ; les leurs sont à l’école.",
+            "zh": "我们的孩子在这里；他们的孩子在学校。",
+            "use": "多人所属者 leur，所属物复数。"
+          },
+          {
+            "fr": "Votre avis et le nôtre sont différents.",
+            "zh": "你们的意见和我们的意见不同。",
+            "use": "nôtre 有长音符。"
+          }
+        ]
+      },
+      {
+        "title": "介词缩合与避免名词重复",
+        "explanation": "保留定冠词；à/de 与 le/les 缩合为 au/aux、du/des，与 la 不缩合。主有代词系列用 le/la/les，不像部分其他名词组会出现 l’。名词需能从语境恢复。",
+        "examples": [
+          {
+            "fr": "Je préfère cette méthode à la vôtre.",
+            "zh": "比起你们的方法，我更喜欢这个方法。",
+            "use": "à + la 不缩合。"
+          },
+          {
+            "fr": "Nous parlons de nos problèmes, pas des leurs.",
+            "zh": "我们谈的是我们的问题，不是他们的问题。",
+            "use": "de + les leurs → des leurs。"
+          },
+          {
+            "fr": "Mon sac ressemble au tien.",
+            "zh": "我的包跟你的很像。",
+            "use": "à + le tien → au tien。"
+          },
+          {
+            "fr": "Je prends mes clés ; prends les tiennes.",
+            "zh": "我拿我的钥匙；你拿你的。",
+            "use": "clés 阴性复数。"
+          }
+        ]
+      }
+    ],
+    "comparison": "C’est mon livre 用限定词修饰名词；c’est le mien 用代词替代整个名词组。Notre maison 中 notre 无长音符；la nôtre 中 nôtre 有长音符。Le sien 可能是他的或她的，必要时说 à lui/à elle 澄清。",
+    "errors": "错误：C’est mien（普通指代用法）。改：C’est le mien。错误：ma voiture et le tien。改：ma voiture et la tienne。",
+    "boundaries": "les miens/les siens 等可指亲人或同伴：Elle est rentrée auprès des siens，意为回到家人身边。faire des siennes 等固定表达有独立含义，不宜逐字理解。"
+  },
+  "b1-demonstratifs-pron": {
+    "sections": [
+      {
+        "title": "有性数的代词与必要限定",
+        "explanation": "celui/celle/ceux/celles 按替代名词配合；简单形式通常后接 de 名词组、关系从句或其他限定，-ci/-là 则可独立指示。",
+        "examples": [
+          {
+            "fr": "J’ai perdu mon chargeur ; peux-tu me prêter celui de Paul ?",
+            "zh": "我丢了充电器；你能借我保罗那个吗？",
+            "use": "celui de 指已知同类物。"
+          },
+          {
+            "fr": "Cette veste coûte moins cher que celle que tu portes.",
+            "zh": "这件外套比你穿的那件便宜。",
+            "use": "celle + que 关系从句。"
+          },
+          {
+            "fr": "Ceux qui ont réservé peuvent entrer.",
+            "zh": "预订过的人可以进入。",
+            "use": "复数人物泛指。"
+          },
+          {
+            "fr": "Je préfère celles qui sont en cuir.",
+            "zh": "我更喜欢那些皮制的。",
+            "use": "如鞋子 chaussures，阴性复数。"
+          }
+        ]
+      },
+      {
+        "title": "-ci/-là 的指示与对照",
+        "explanation": "-ci 常指较近或刚提到的项目，-là 较远；实际口语 -là 也很常见，不应只按物理距离判断。",
+        "examples": [
+          {
+            "fr": "Tu veux cette pomme ? — Non, celle-là, près du panier.",
+            "zh": "你要这个苹果吗？——不，要篮子旁边那个。",
+            "use": "现场指示。"
+          },
+          {
+            "fr": "Il y a deux modèles : celui-ci est léger, celui-là est plus solide.",
+            "zh": "有两个型号：这个轻，那个更结实。",
+            "use": "成对对照。"
+          }
+        ]
+      },
+      {
+        "title": "中性 ce/ceci/cela/ça",
+        "explanation": "指整件事、抽象内容或尚未辨认的对象；ce 常与 être 连用或用于 ce qui/ce que，ça 口语普遍，cela 更常见于正式书面。",
+        "examples": [
+          {
+            "fr": "C’est exactement ce que je voulais.",
+            "zh": "这正是我想要的。",
+            "use": "中性 ce + 关系结构。"
+          },
+          {
+            "fr": "Cela demande beaucoup de patience.",
+            "zh": "这需要很大的耐心。",
+            "use": "指整个任务。"
+          },
+          {
+            "fr": "Ça me fait plaisir de te revoir.",
+            "zh": "再见到你让我很高兴。",
+            "use": "自然口语。"
+          },
+          {
+            "fr": "Écoutez bien ceci : le rendez-vous est annulé.",
+            "zh": "请仔细听下面这件事：约会取消了。",
+            "use": "ceci 引出下文。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Cette robe 的 cette 是限定词，celle-ci 是代词。Je préfère celle de Marie 指一件同类物；Je préfère cela 可指一个方案或整体事情。",
+    "errors": "错误：Je prends celui（孤立、无补充的普通用法）。改：Je prends celui-ci。错误：ces qui veulent venir。改：ceux qui veulent venir。",
+    "boundaries": "ce 不像 ça 一样自由作所有动词主语：Cela fonctionne / Ça fonctionne，不写 Ce fonctionne。celui/celle 可后接更丰富限定语，但初学阶段优先掌握 de、关系从句与 -ci/-là。"
+  },
+  "b1-dont": {
+    "sections": [
+      {
+        "title": "动词和形容词的 de 补语",
+        "explanation": "先恢复简单句：parler de ce livre、avoir besoin de cet outil、être fier de ce résultat，才能判断 dont。dont 已包含 de 的关系，不再重复 de/en。",
+        "examples": [
+          {
+            "fr": "Le sujet dont nous parlons est délicat.",
+            "zh": "我们谈的这个话题很敏感。",
+            "use": "parler de。"
+          },
+          {
+            "fr": "Voici l’outil dont j’ai besoin.",
+            "zh": "这就是我需要的工具。",
+            "use": "avoir besoin de。"
+          },
+          {
+            "fr": "C’est un résultat dont elle est fière.",
+            "zh": "这是让她自豪的结果。",
+            "use": "fière de。"
+          },
+          {
+            "fr": "L’enfant dont il s’occupe a six ans.",
+            "zh": "他照顾的孩子六岁。",
+            "use": "s’occuper de，先行词可为人。"
+          }
+        ]
+      },
+      {
+        "title": "所属关系与部分列举",
+        "explanation": "dont 可对应名词的 de 补语，常译为“其……”，相关名词前用定冠词而非再次用物主词。也可引出集合中的部分。",
+        "examples": [
+          {
+            "fr": "J’ai rencontré une artiste dont les œuvres sont exposées ici.",
+            "zh": "我遇到了一位艺术家，她的作品在这里展出。",
+            "use": "les œuvres de cette artiste。"
+          },
+          {
+            "fr": "Nous avons visité un village dont le centre est piéton.",
+            "zh": "我们游览了一个中心区为步行区的村庄。",
+            "use": "le centre du village。"
+          },
+          {
+            "fr": "Elle a acheté cinq livres, dont deux romans.",
+            "zh": "她买了五本书，其中两本是小说。",
+            "use": "集合中的部分。"
+          },
+          {
+            "fr": "Dix candidats ont répondu, dont trois par téléphone.",
+            "zh": "十位应聘者作了回复，其中三位通过电话回复。",
+            "use": "部分及其方式。"
+          }
+        ]
+      },
+      {
+        "title": "与介词关系形式的边界",
+        "explanation": "含 à côté de、près de 等复合介词时，保留整个介词结构并用 lequel/qui 等；如果名词补语嵌在介词短语内，也不要机械抽成 dont。",
+        "examples": [
+          {
+            "fr": "La maison près de laquelle nous habitons est en vente.",
+            "zh": "我们住处附近的那栋房子在出售。",
+            "use": "près de 作为整体保留。"
+          },
+          {
+            "fr": "La collègue à côté de qui je suis assis travaille ici.",
+            "zh": "坐在我旁边的女同事在这里工作。",
+            "use": "人物，à côté de qui。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Le livre que je lis：lire le livre，直接宾语用 que；le livre dont je parle：parler du livre，de 补语用 dont。La maison dont le toit est rouge 可用 dont；la maison sur le toit de laquelle… 的补语嵌于 sur 介词组，宜保留 de laquelle。",
+    "errors": "错误：Le livre dont j’en parle。改：Le livre dont je parle。错误：L’homme dont sa voiture est rouge。改：L’homme dont la voiture est rouge。",
+    "boundaries": "dont 不替代任意含 de 的字符串。来源意义如 la ville d’où je viens 通常用 d’où；数量中的 dont 不要求补出完整谓语。"
+  },
+  "b1-gerondif": {
+    "sections": [
+      {
+        "title": "构成与同时动作",
+        "explanation": "en + 现在分词，通常用直陈式现在时 nous 词干 + -ant；être→étant、avoir→ayant、savoir→sachant。副动词不作性数配合，施事通常与主句主语一致。",
+        "examples": [
+          {
+            "fr": "Elle consulte ses messages en attendant le bus.",
+            "zh": "她等公交时查看消息。",
+            "use": "同一主语，两动作重叠。"
+          },
+          {
+            "fr": "Nous avons parlé en marchant le long du fleuve.",
+            "zh": "我们沿河走的时候交谈。",
+            "use": "行走作为交谈背景。"
+          }
+        ]
+      },
+      {
+        "title": "手段、条件与原因",
+        "explanation": "具体意义由主句和语境决定；en + 分词可以说明怎么做、怎样才能实现、何事造成结果，不能一律译作“一边”。",
+        "examples": [
+          {
+            "fr": "Il apprend la prononciation en imitant les dialogues.",
+            "zh": "他通过模仿对话学习发音。",
+            "use": "手段。"
+          },
+          {
+            "fr": "Vous économiserez de l’énergie en baissant le chauffage.",
+            "zh": "降低暖气温度就能节约能源。",
+            "use": "手段兼条件。"
+          },
+          {
+            "fr": "En prenant ce raccourci, nous arriverons plus tôt.",
+            "zh": "走这条近路，我们会更早到。",
+            "use": "条件。"
+          },
+          {
+            "fr": "Il s’est blessé en tombant dans l’escalier.",
+            "zh": "他从楼梯上摔下时受了伤。",
+            "use": "动作带来结果。"
+          }
+        ]
+      },
+      {
+        "title": "tout en 的同时性与让步",
+        "explanation": "tout en 强调同时发生，也常形成“尽管……仍……”的让步意味，须看两个命题是否构成反预期。",
+        "examples": [
+          {
+            "fr": "Elle cuisine tout en écoutant les nouvelles.",
+            "zh": "她做饭的同时听新闻。",
+            "use": "强调同时。"
+          },
+          {
+            "fr": "Tout en reconnaissant ses qualités, je ne peux pas l’engager.",
+            "zh": "虽然承认他的优点，我仍不能录用他。",
+            "use": "让步。"
+          }
+        ]
+      }
+    ],
+    "comparison": "En arrivant, Paul a appelé 指 Paul 到达时打电话；Paul arrivant, nous avons fermé la porte 是现在分词独立结构，可有不同主语。Il apprend en lisant 表学习方式；il aime lire 中 lire 是动词的宾语。",
+    "errors": "错误：En arrivant à la gare, le train était déjà parti（到达者误连成火车）。改：Quand je suis arrivé à la gare, le train était déjà parti。错误：en faisent。改：en faisant。",
+    "boundaries": "副动词的同主语规则是普通规范用法的重要检查点；固定表达 en passant、en attendant 某些句子较特殊。表示清晰先后完成，可用 après avoir + 分词，而不强行套同时副动词。"
+  },
+  "b1-negations": {
+    "sections": [
+      {
+        "title": "时间否定与复合时态位置",
+        "explanation": "ne…plus 表以前有、现在不再；ne…jamais 表从不或未曾。变位动词前 ne，简单时态后 plus/jamais；复合时态置助动词后。",
+        "examples": [
+          {
+            "fr": "Je ne travaille plus le dimanche.",
+            "zh": "我现在不再周日工作。",
+            "use": "过去做过，现在停止。"
+          },
+          {
+            "fr": "Nous n’avons jamais visité cette région.",
+            "zh": "我们从未去过这个地区。",
+            "use": "经历否定。"
+          },
+          {
+            "fr": "Elle n’est plus revenue depuis son départ.",
+            "zh": "她离开后就再也没有回来。",
+            "use": "plus 位于助动词后。"
+          },
+          {
+            "fr": "Je ne mange jamais avant de courir.",
+            "zh": "我跑步前从不吃东西。",
+            "use": "习惯否定。"
+          }
+        ]
+      },
+      {
+        "title": "rien/personne 的功能与位置",
+        "explanation": "rien 物、personne 人；作主语在句首并保留 ne。复合时态宾语 rien 通常在助动词后，personne 通常在分词后；介词补语则保留介词。",
+        "examples": [
+          {
+            "fr": "Je n’ai rien entendu.",
+            "zh": "我什么都没听到。",
+            "use": "rien 在分词前。"
+          },
+          {
+            "fr": "Je n’ai vu personne.",
+            "zh": "我没看到任何人。",
+            "use": "personne 在分词后。"
+          },
+          {
+            "fr": "Rien ne fonctionne.",
+            "zh": "什么都不起作用。",
+            "use": "rien 作主语，单数动词。"
+          },
+          {
+            "fr": "Elle ne parle à personne.",
+            "zh": "她不跟任何人说话。",
+            "use": "à + personne。"
+          }
+        ]
+      },
+      {
+        "title": "aucun、组合否定与限制",
+        "explanation": "aucun/aucune 通常单数并按名词配合；ni…ni 可并列否定。ne…que 意为只有，que 放在受限制成分前，冠词通常保留。",
+        "examples": [
+          {
+            "fr": "Aucune solution ne convient.",
+            "zh": "没有一种方案合适。",
+            "use": "aucune 作主语限定词。"
+          },
+          {
+            "fr": "Je n’ai ni frère ni sœur.",
+            "zh": "我既没有兄弟，也没有姐妹。",
+            "use": "并列否定，普通名词前可省冠词。"
+          },
+          {
+            "fr": "Je ne prends que du thé.",
+            "zh": "我只喝茶。",
+            "use": "限制，不是全否定。"
+          },
+          {
+            "fr": "Il ne travaille que le matin.",
+            "zh": "他只在上午工作。",
+            "use": "限制时间。"
+          },
+          {
+            "fr": "Je ne vois plus personne ici.",
+            "zh": "我在这里再也见不到任何人了。",
+            "use": "plus 与 personne 可以组合。"
+          },
+          {
+            "fr": "Nous n’avons jamais rien demandé.",
+            "zh": "我们从未要求任何东西。",
+            "use": "jamais 与 rien 可以组合。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Je n’ai pas de voiture 是没有车；je n’ai qu’une voiture 是只有一辆车。Je ne l’ai pas vu 是没看见他；je ne l’ai plus vu 是此后再没看见他。",
+    "errors": "错误：Je n’ai pas rien compris（若想说全没理解）。改：Je n’ai rien compris。错误：Je n’ai personne vu。改：Je n’ai vu personne。错误：Je ne bois que d’eau。改：Je ne bois que de l’eau。",
+    "boundaries": "口语常省 ne，但正式写作保留。aucuns frais、aucunes funérailles 等只有复数或复数义变化的名词可用复数 aucun。ne…pas que 可表示“不只”：Il n’y a pas que toi。"
+  },
+  "b1-connecteurs-base": {
+    "sections": [
+      {
+        "title": "parce que、puisque、comme 与 car",
+        "explanation": "parce que 回答原因；puisque 将原因作为已知或显然依据；comme 原因从句通常前置，不必原因一定已为听者所知；car 常书面、为前文提供解释或论据，通常不用于直接回答 Pourquoi。",
+        "examples": [
+          {
+            "fr": "Pourquoi pars-tu ? — Parce que je suis fatigué.",
+            "zh": "你为什么走？——因为我累了。",
+            "use": "直接回答原因。"
+          },
+          {
+            "fr": "Je suis rentré plus tôt parce que le dernier train partait à vingt heures.",
+            "zh": "我提前回去了，因为末班火车晚上八点发车。",
+            "use": "提供事件的具体原因，无需预设听者已经知道。"
+          },
+          {
+            "fr": "Puisque tu connais le chemin, passe devant.",
+            "zh": "既然你认识路，就走前面吧。",
+            "use": "共同接受的依据。"
+          },
+          {
+            "fr": "Puisque personne ne répond, la boutique est sans doute fermée.",
+            "zh": "既然没人回应，店大概关门了。",
+            "use": "显然事实支撑推断。"
+          },
+          {
+            "fr": "Comme il faisait froid, nous sommes rentrés.",
+            "zh": "因为天气冷，我们回去了。",
+            "use": "前置原因框架。"
+          },
+          {
+            "fr": "Comme le train était complet, elle a pris le bus.",
+            "zh": "因为火车客满，她乘了公交。",
+            "use": "说明原因，可为新信息。"
+          },
+          {
+            "fr": "Il doit être chez lui, car la lumière est allumée.",
+            "zh": "他应该在家，因为灯亮着。",
+            "use": "car 引入推断依据。"
+          },
+          {
+            "fr": "Je ne peux pas venir, car j’ai déjà un rendez-vous.",
+            "zh": "我不能来，因为已有约会。",
+            "use": "书面解释。"
+          }
+        ]
+      },
+      {
+        "title": "结果与推论",
+        "explanation": "donc 表逻辑后果或推断，alors 常表示当时结果并可兼时间义，c’est pourquoi 明确承接前述原因，适合书面组织。",
+        "examples": [
+          {
+            "fr": "Le pont est fermé, donc nous devons faire un détour.",
+            "zh": "桥关闭了，所以我们必须绕行。",
+            "use": "事实导致实际后果。"
+          },
+          {
+            "fr": "Tous les billets sont vendus ; donc le concert aura lieu à guichets fermés.",
+            "zh": "票全部售完了，因此音乐会将满场举行。",
+            "use": "逻辑结论。"
+          },
+          {
+            "fr": "Il a raté son bus, alors il a pris un taxi.",
+            "zh": "他错过公交，于是乘了出租车。",
+            "use": "叙事后果。"
+          },
+          {
+            "fr": "Il n’avait plus de batterie ; c’est pourquoi il n’a pas répondu.",
+            "zh": "他的手机没电了，所以他没有回复。",
+            "use": "清楚标记解释关系。"
+          }
+        ]
+      },
+      {
+        "title": "目的与主语关系",
+        "explanation": "pour + 不定式常用于同一施事的目的；pour que + 虚拟式常用于不同施事。目的尚待实现，不等于结果实际发生。",
+        "examples": [
+          {
+            "fr": "Je prends des notes pour mieux retenir les idées.",
+            "zh": "我记笔记以便更好地记住这些观点。",
+            "use": "同一施事。"
+          },
+          {
+            "fr": "Elle économise pour acheter un vélo.",
+            "zh": "她存钱是为了买自行车。",
+            "use": "将来目标。"
+          },
+          {
+            "fr": "Parle plus lentement pour que je puisse noter.",
+            "zh": "说慢一点，好让我能记下来。",
+            "use": "两个施事。"
+          },
+          {
+            "fr": "Nous avons envoyé le document pour que chacun prépare la réunion.",
+            "zh": "我们发送了文件，以便每个人准备会议。",
+            "use": "目的从句，未保证已准备。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Je suis resté parce qu’il pleuvait 解释原因；il pleuvait, donc je suis resté 表结果。Je crie pour qu’il m’entende 表目的；je crie si fort qu’il m’entend 表已经发生的结果。",
+    "errors": "错误：pour que tu comprends。改：pour que tu comprennes。错误：pour réussir tu（想说让你成功）。改：pour que tu réussisses。",
+    "boundaries": "“car 绝不能放句首”过于绝对：篇章中 Car 可以在句号后承接前句解释，但不自然作为脱离前文的独立原因开头。comme 另可表比较或时间，alors 另可表“那时”，须按上下文辨义。"
+  }
+}

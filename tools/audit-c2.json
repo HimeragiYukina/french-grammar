@@ -1,0 +1,265 @@
+[
+  {
+    "id": "c2-passe-anterieur",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 3,
+    "practice_items": 3,
+    "expanded_sections": 2,
+    "expanded_examples": 6,
+    "fixes": 4,
+    "findings": [
+      "先过去时不一律含立即相接。",
+      "同步移除必然立即性。",
+      "appeler不自带离开或叫走的意义。",
+      "去掉已修正原文历史诊断。"
+    ],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": []
+  },
+  {
+    "id": "c2-concordance-litteraire",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 3,
+    "practice_items": 3,
+    "expanded_sections": 2,
+    "expanded_examples": 4,
+    "fixes": 6,
+    "findings": [
+      "未完成过去虚拟式亦可表达后于过去主句的愿望动作。",
+      "同步法语说明。",
+      "venir愿望通常后于愿望，不强行标同时。",
+      "修正词干推导展示，原vint/finit/fut不是tu形式且-̂t不清楚。",
+      "避免对呼应规则再度绝对化。",
+      "现有原文已不含该错误。"
+    ],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps"
+    ]
+  },
+  {
+    "id": "c2-concession-soutenue",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 6,
+    "practice_items": 5,
+    "expanded_sections": 5,
+    "expanded_examples": 12,
+    "fixes": 6,
+    "findings": [
+      "过去结果使用明确过去反事实形式。",
+      "与已修正示例时态对应。",
+      "练习明确过去反事实目标，排除时态歧义。",
+      "pour autant que知识范围限定并非必然让步。",
+      "统一语义术语。",
+      "补充名词非宾语以及复数呼应。"
+    ],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+    ]
+  },
+  {
+    "id": "c2-subj-fin",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 6,
+    "practice_items": 6,
+    "expanded_sections": 5,
+    "expanded_examples": 14,
+    "fixes": 5,
+    "findings": [
+      "最高级关系从句不只qui且非强制虚拟。",
+      "同步法语说明。",
+      "原prompt只填avoir/être却答案增加eu/été且未限定过去；题目须明确目标时态。",
+      "原句可解但较笨重，加入明确候选人集合使关系从句自然。",
+      "与法语明确候选人集合一致。"
+    ],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/25168/la-grammaire/le-verbe/modes/subjonctif/subjonctif-et-subordonnee-relative",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+    ]
+  },
+  {
+    "id": "c2-accord-extreme",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 6,
+    "practice_items": 6,
+    "expanded_sections": 4,
+    "expanded_examples": 12,
+    "fixes": 6,
+    "findings": [
+      "本义/引申义不能完整概括，peser colis可本义及物配合。",
+      "同步核心句法依据。",
+      "题注按宾语性质判定。",
+      "中文复读容易误为重复年级，relire在材料校阅语境用重新校读。",
+      "同上。",
+      "原文此前已修正，不保留对现有原文的不实诊断。"
+    ],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21856/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-des-verbes-exprimant-une-quantite"
+    ]
+  },
+  {
+    "id": "c2-inversion-style",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 4,
+    "practice_items": 4,
+    "expanded_sections": 3,
+    "expanded_examples": 6,
+    "fixes": 3,
+    "findings": [
+      "住在花园语境不常见，改用自然的村庄。",
+      "练习问答同步。",
+      "练习问答同步。"
+    ],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": []
+  },
+  {
+    "id": "c2-ellipse",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 4,
+    "practice_items": 4,
+    "expanded_sections": 3,
+    "expanded_examples": 6,
+    "fixes": 2,
+    "findings": [
+      "原练习省略pleuraient不是后续en larmes的直接可复原谓语，改为明确省略étaient。",
+      "明确恢复的系动词。"
+    ],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": []
+  },
+  {
+    "id": "c2-conjecture",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 5,
+    "practice_items": 4,
+    "expanded_sections": 3,
+    "expanded_examples": 10,
+    "fixes": 2,
+    "findings": [
+      "不能将新闻中的所有条件式都等同传闻。",
+      "去除说明中非必要混用法语副词。"
+    ],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": []
+  },
+  {
+    "id": "c2-rection",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 6,
+    "practice_items": 6,
+    "expanded_sections": 5,
+    "expanded_examples": 16,
+    "fixes": 1,
+    "findings": [
+      "删除无据且无教学必要的钢琴角色猜想，换明确常见搭配。"
+    ],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": []
+  },
+  {
+    "id": "c2-cause-niee",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 3,
+    "practice_items": 3,
+    "expanded_sections": 3,
+    "expanded_examples": 6,
+    "fixes": 0,
+    "findings": [],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": []
+  },
+  {
+    "id": "c2-cohesion",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 7,
+    "practice_items": 7,
+    "expanded_sections": 7,
+    "expanded_examples": 14,
+    "fixes": 2,
+    "findings": [
+      "or既可引入支持也可反驳前提。",
+      "现有译文已经正确，不应虚构仍存错误。"
+    ],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": []
+  },
+  {
+    "id": "c2-exclamation",
+    "reviewed": [
+      "原zh/fr/forms（存在时）/ex法语译文用途/tip",
+      "PRACTICE全部题目、答案、note",
+      "扩写全部explanation/examples/fr/zh/use/comparison/errors/boundaries"
+    ],
+    "original_examples": 4,
+    "practice_items": 4,
+    "expanded_sections": 4,
+    "expanded_examples": 10,
+    "fixes": 1,
+    "findings": [
+      "注释动词与nous ne le pensions例句一致。"
+    ],
+    "status": "逐句审校完成；已直接修正扩写，原文待主任务合并",
+    "limitations": "例句由助手语法与语义审读；并非每个自编句都有第三方逐句认证。权威来源用于细微规范核验，不将语体变体一概判错。",
+    "sources": []
+  }
+]

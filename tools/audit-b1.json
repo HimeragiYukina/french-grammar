@@ -1,0 +1,816 @@
+[
+  {
+    "id": "b1-pqp",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_items": 3,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 0,
+    "expansion_fixes": 1,
+    "findings": [
+      "et本身不编码严格先后。"
+    ],
+    "sources": [],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-cond-present",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_items": 4,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 1,
+    "expansion_fixes": 0,
+    "findings": [
+      "未完成条件句不必反事实。"
+    ],
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+    ],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-cond-passe",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_items": 3,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 0,
+    "expansion_fixes": 0,
+    "findings": [
+      "逐句审读未发现需要修改的实质性错误。"
+    ],
+    "sources": [],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-subj-present",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_items": 4,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 1,
+    "expansion_fixes": 0,
+    "findings": [
+      "不规则动词并非限定六个。"
+    ],
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif"
+    ],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-subj-declencheurs",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 7,
+      "practice_items": 7,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 6,
+    "expansion_fixes": 1,
+    "findings": [
+      "OQLF承认现实强调直陈用法,但多个规范著作反对,不作绝对断言。",
+      "疑问penser可直陈,扩写原文已有正确对照。",
+      "限于肯定,防止过度推广。",
+      "避免否定/疑問机械选式。",
+      "明确学习推荐而不绝对化。",
+      "练习与扩写边界一致。",
+      "按OQLF说明标注bien que异体与规范分歧。"
+    ],
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24253/la-grammaire/le-verbe/modes/subjonctif/subjonctif-apres-certains-verbes"
+    ],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-si",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_items": 3,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 5,
+    "expansion_fixes": 0,
+    "findings": [
+      "原表漏现在与命令式。",
+      "将来假设也可用未完成时,不一定反事实。",
+      "避免句子没有语境却直接断言事实相反,且原翻译过去色彩过重。",
+      "与总说明及扩写一致。",
+      "原练习与已正确修订tip矛盾。"
+    ],
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+    ],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-discours-indirect",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 5,
+      "practice_items": 5,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 4,
+    "expansion_fixes": 1,
+    "findings": [
+      "quoi并非总替换,需保留de quoi/à quoi。",
+      "当天同地转述不必调整demain/ici。",
+      "避免机械时态后移。",
+      "补全原文quoi规则的边界。",
+      "法语摘要同步中文，不能把所有quoi机械替换为ce que。"
+    ],
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/23281/la-syntaxe/linterrogation/formules-interrogatives-ce-que-et-quest-ce-que"
+    ],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-passif",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_items": 4,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 0,
+    "expansion_fixes": 1,
+    "findings": [
+      "清除英文appreciation并澄清非强制de。"
+    ],
+    "sources": [],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-double-pronoms",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_items": 5,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 2,
+    "expansion_fixes": 2,
+    "findings": [
+      "默认表仅适用于前置代词,并非所有表格组合都合法。",
+      "练习输入改为自然常规法语;à moi只有明确对比时自然。",
+      "未给先行词的分词性数不能唯一规定。",
+      "il y a固定y不必有那里意义。"
+    ],
+    "sources": [
+      "https://www.academie-francaise.fr/questions-de-langue"
+    ],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-possessifs-pron",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_items": 3,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 0,
+    "expansion_fixes": 1,
+    "findings": [
+      "主有代词不存在l’形式,原无关说明易混。"
+    ],
+    "sources": [],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-demonstratifs-pron",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_items": 4,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 1,
+    "expansion_fixes": 0,
+    "findings": [
+      "中性代词也能指现场具体事物,原绝对化。"
+    ],
+    "sources": [],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-dont",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 4,
+      "practice_items": 5,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 1,
+    "expansion_fixes": 0,
+    "findings": [
+      "中文歧义与不自然修正。"
+    ],
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/22904/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-dont"
+    ],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-gerondif",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 3,
+      "practice_items": 4,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 1,
+    "expansion_fixes": 0,
+    "findings": [
+      "保留规范检查点并给固定表达边界。"
+    ],
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/24712/la-syntaxe/constructions-syntaxiques-boiteuses/logique-syntaxique-sujet-sous-entendu-du-participe-present"
+    ],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-negations",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 7,
+      "practice_items": 7,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 3,
+      "expansion_examples": 14,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 2,
+    "expansion_fixes": 1,
+    "findings": [
+      "避免将无人称存在句的真实主语机械标COD。",
+      "与章节口语边界一致。",
+      "中文自然程度。"
+    ],
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/22893/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-personne",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/23886/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-rien"
+    ],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  },
+  {
+    "id": "b1-connecteurs-base",
+    "coverage": {
+      "original_fields": [
+        "title",
+        "titleFr",
+        "zh",
+        "fr",
+        "forms if present",
+        "ex.fr",
+        "ex.zh",
+        "ex.use",
+        "tip"
+      ],
+      "original_examples": 7,
+      "practice_items": 7,
+      "practice_fields": [
+        "q",
+        "a",
+        "note"
+      ],
+      "expansion_sections": 3,
+      "expansion_examples": 16,
+      "expansion_fields": [
+        "title",
+        "explanation",
+        "examples.fr",
+        "examples.zh",
+        "examples.use",
+        "comparison",
+        "errors",
+        "boundaries"
+      ]
+    },
+    "reviewed_checks": [
+      "逐句法语拼写、变位、配合及代词位置",
+      "逐句中文译文、指代、自然度与时间关系",
+      "语体、条件与例外及跨主题一致性",
+      "每节例句的用法归属与数量"
+    ],
+    "index_fixes": 5,
+    "expansion_fixes": 3,
+    "findings": [
+      "原use与已正确tip矛盾。",
+      "car可句号后大写开句。",
+      "将推荐模式与强制位置分开。",
+      "修正练习注释。",
+      "rester en forme是身体健康良好状态,不局限身材外形。",
+      "换用肯定主句的原因例，避免否定主句与parce que的作用域歧义。",
+      "换用肯定主句的原因例，避免否定主句与parce que的作用域歧义。",
+      "换用肯定主句的原因例，避免否定主句与parce que的作用域歧义。"
+    ],
+    "sources": [
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/23500/la-syntaxe/les-conjonctions/emploi-de-car",
+      "https://vitrinelinguistique.oqlf.gouv.qc.ca/23501/la-syntaxe/les-conjonctions/emploi-de-parce-que-et-de-puisque"
+    ],
+    "limitations": [
+      "这是独立助手语言审校，不是母语编辑或逐句官方认证；原创例句未宣称取自权威来源。",
+      "未发现变位硬错；语气变体、口语省略和信息结构按语境判断。"
+    ]
+  }
+]

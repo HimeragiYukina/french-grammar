@@ -1,0 +1,354 @@
+{
+  "scope": "C1全部13点独立交叉审校",
+  "counts": {
+    "points": 13,
+    "originalExamples": 64,
+    "practiceItems": 62,
+    "newSections": 44,
+    "newExamples": 142,
+    "expansionFixes": 9,
+    "indexFixes": 12
+  },
+  "items": [
+    {
+      "id": "c1-passe-simple",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 4,
+      "practiceItems": 4,
+      "newSections": 3,
+      "newExamples": 6,
+      "status": "逐句审校完成；未发现需修正问题",
+      "fixes": [],
+      "sources": [],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-subj-imparfait",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 3,
+      "practiceItems": 4,
+      "newSections": 3,
+      "newExamples": 6,
+      "status": "审校完成；修正已落扩写/原文待主任务应用",
+      "fixes": [
+        {
+          "location": "expansion",
+          "reason": "去除不能直观阅读的组合音符词尾，明确第三人称构成。",
+          "source": "助手句法、法中语义与形态校核"
+        },
+        {
+          "location": "expansion",
+          "reason": "douter 怀疑命题成立，避免中文“怀疑是否”方向不清。",
+          "source": "助手句法、法中语义与形态校核"
+        }
+      ],
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif"
+      ],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-cond-2e",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 5,
+      "practiceItems": 4,
+      "newSections": 3,
+      "newExamples": 7,
+      "status": "审校完成；修正已落扩写/原文待主任务应用",
+      "fixes": [
+        {
+          "location": "index",
+          "reason": "第二式是传统名称，实际使用不只固定表达。",
+          "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif"
+        },
+        {
+          "location": "index",
+          "reason": "中文措辞自然程度调整。",
+          "source": "助手句法、法中语义与形态校核"
+        },
+        {
+          "location": "index",
+          "reason": "避免所有虚拟式愈过去时都被视作条件式过去。",
+          "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif"
+        }
+      ],
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif"
+      ],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-inversion",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 6,
+      "practiceItems": 6,
+      "newSections": 3,
+      "newExamples": 15,
+      "status": "审校完成；修正已落扩写/原文待主任务应用",
+      "fixes": [
+        {
+          "location": "expansion",
+          "reason": "原说明误将 était arrivée 当作不使用愈过去时的例子。",
+          "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23472/la-syntaxe/le-sujet-dans-la-phrase/inversion-sujet-verbe-apres-des-adverbes-comme-peut-etre-en-tete-de-phrase"
+        }
+      ],
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/23472/la-syntaxe/le-sujet-dans-la-phrase/inversion-sujet-verbe-apres-des-adverbes-comme-peut-etre-en-tete-de-phrase"
+      ],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-dislocation",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 4,
+      "practiceItems": 4,
+      "newSections": 3,
+      "newExamples": 10,
+      "status": "逐句审校完成；未发现需修正问题",
+      "fixes": [],
+      "sources": [],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-concession-indefinie",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 6,
+      "practiceItems": 7,
+      "newSections": 3,
+      "newExamples": 12,
+      "status": "逐句审校完成；未发现需修正问题",
+      "fixes": [],
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-hypothese-sans-si",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 6,
+      "practiceItems": 5,
+      "newSections": 4,
+      "newExamples": 16,
+      "status": "审校完成；修正已落扩写/原文待主任务应用",
+      "fixes": [
+        {
+          "location": "index",
+          "reason": "现有题答正是同主语 que 从句，旧注释绝对化并自相矛盾。",
+          "source": "助手句法、法中语义与形态校核"
+        }
+      ],
+      "sources": [],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-ne-expletif",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 6,
+      "practiceItems": 5,
+      "newSections": 4,
+      "newExamples": 10,
+      "status": "逐句审校完成；未发现需修正问题",
+      "fixes": [],
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/23907/la-syntaxe/la-negation-et-la-restriction/emploi-de-ne-seul-ou-avec-un-adverbe-de-negation"
+      ],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-accord-avance",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 4,
+      "practiceItems": 4,
+      "newSections": 4,
+      "newExamples": 14,
+      "status": "审校完成；修正已落扩写/原文待主任务应用",
+      "fixes": [
+        {
+          "location": "index",
+          "reason": "不是人/物类别决定配合，且不能推广至 pouvoir/devoir 等所有动词。",
+          "source": "https://www.academie-francaise.fr/questions-de-langue"
+        }
+      ],
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-connecteurs-soutenus",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 6,
+      "practiceItems": 6,
+      "newSections": 4,
+      "newExamples": 12,
+      "status": "审校完成；修正已落扩写/原文待主任务应用",
+      "fixes": [
+        {
+          "location": "index",
+          "reason": "预算条件的中文译文更准确自然。",
+          "source": "助手句法、法中语义与形态校核"
+        }
+      ],
+      "sources": [],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-apres-que",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 3,
+      "practiceItems": 3,
+      "newSections": 3,
+      "newExamples": 6,
+      "status": "审校完成；修正已落扩写/原文待主任务应用",
+      "fixes": [
+        {
+          "location": "expansion",
+          "reason": "以现在习惯中的已完成前提更清楚体现 après que 的先后关系。",
+          "source": "https://www.academie-francaise.fr/apres-que"
+        },
+        {
+          "location": "expansion",
+          "reason": "随例句更新时态分析。",
+          "source": "https://www.academie-francaise.fr/apres-que"
+        },
+        {
+          "location": "index",
+          "reason": "动作在现实已实现不是规范选择的必要条件。",
+          "source": "https://www.academie-francaise.fr/apres-que"
+        },
+        {
+          "location": "index",
+          "reason": "未来事件仍接直陈式，应避免 fait réel 的误读。",
+          "source": "https://www.academie-francaise.fr/apres-que"
+        }
+      ],
+      "sources": [
+        "https://www.academie-francaise.fr/apres-que"
+      ],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-impersonnelles",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 6,
+      "practiceItems": 6,
+      "newSections": 3,
+      "newExamples": 12,
+      "status": "审校完成；修正已落扩写/原文待主任务应用",
+      "fixes": [
+        {
+          "location": "expansion",
+          "reason": "“您们”不自然；informés 已是复数，因此用你们。",
+          "source": "助手句法、法中语义与形态校核"
+        },
+        {
+          "location": "expansion",
+          "reason": "补明复数过去分词与礼貌单数 vous 的配合边界。",
+          "source": "https://www.academie-francaise.fr/questions-de-langue"
+        }
+      ],
+      "sources": [],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    },
+    {
+      "id": "c1-adj-verbal",
+      "reviewed": [
+        "原title/zh/fr/forms/ex/tip（forms若有）",
+        "PRACTICE全部q/a/note",
+        "扩写全部title/explanation/fr/zh/use/comparison/errors/boundaries"
+      ],
+      "originalExamples": 5,
+      "practiceItems": 4,
+      "newSections": 4,
+      "newExamples": 16,
+      "status": "审校完成；修正已落扩写/原文待主任务应用",
+      "fixes": [
+        {
+          "location": "expansion",
+          "reason": "jury 不必为刑事陪审团，gain de cause 不限胜诉；译文保持法文未给出的制度背景。",
+          "source": "助手句法、法中语义与形态校核"
+        },
+        {
+          "location": "expansion",
+          "reason": "原文例句建议修改后，边界不再回指旧例。",
+          "source": "https://www.academie-francaise.fr/questions-de-langue"
+        },
+        {
+          "location": "index",
+          "reason": "原分词与离开的原因关系无上下文生硬，改为自然的同时原因。",
+          "source": "https://www.academie-francaise.fr/questions-de-langue"
+        },
+        {
+          "location": "index",
+          "reason": "与改后的例句相符，不添先后意义。",
+          "source": "助手句法、法中语义与形态校核"
+        },
+        {
+          "location": "index",
+          "reason": "练习采用更自然语境并保持同样考点。",
+          "source": "https://www.academie-francaise.fr/questions-de-langue"
+        },
+        {
+          "location": "index",
+          "reason": "与练习题同步；词形答案仍为 Fatiguant。",
+          "source": "https://www.academie-francaise.fr/questions-de-langue"
+        }
+      ],
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ],
+      "limitations": "原创例句经助手形态、语义、译文与跨主题复核；并非来源逐句摘录或第三方法语母语者认证。文学形式以识别为主；après que按规范并注明实际变体，laissé说明传统与1990建议并存。"
+    }
+  ]
+}

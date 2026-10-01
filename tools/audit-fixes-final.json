@@ -1,0 +1,10 @@
+[
+  {
+    "id": "b2-modalisation",
+    "location": "expansion",
+    "old": "错：Il n'est pas exclu qu'il vient → qu'il vienne；避免把 sans doute 永远译为‘毫无疑问’。原文‘sans doute + 倒装’应注明书面倾向，不能误说所有位置都必须倒装。",
+    "new": "错：Il n'est pas exclu qu'il vient → qu'il vienne；避免把 sans doute 永远译为‘毫无疑问’。sans doute 放句首时，正式文体常采用倒装；不能误说所有位置都必须倒装。",
+    "reason": "删除对旧稿的编辑指称，直接说明句首倒装的正式文体语境。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23472/la-syntaxe/le-sujet-dans-la-phrase/inversion-sujet-verbe-apres-des-adverbes-comme-peut-etre-en-tete-de-phrase"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "c1-subj-imparfait",
+    "location": "expansion",
+    "old": "以简单过去时第二人称单数去掉 -s，再接 -sse, -sses, -̂t, -ssions, -ssiez, -ssent；第三人称单数带长音符：tu parlas→qu’il parlât，tu finis→qu’il finît，tu eus→qu’il eût。只用于文学、古典或刻意郑重语体。",
+    "new": "以简单过去时第二人称单数去掉 -s，再接 -sse, -sses, -ssions, -ssiez, -ssent；第三人称单数在所得词干的末尾元音上加长音符，再加 -t；第三人称单数带长音符：tu parlas→qu’il parlât，tu finis→qu’il finît，tu eus→qu’il eût。主要用于文学、古典或刻意郑重语体。",
+    "reason": "去除不能直观阅读的组合音符词尾，明确第三人称构成。",
+    "source": "助手句法、法中语义与形态校核"
+  },
+  {
+    "id": "c1-subj-imparfait",
+    "location": "expansion",
+    "old": "她怀疑他此前是否理解了问题。",
+    "new": "她怀疑他此前理解了问题。",
+    "reason": "douter 怀疑命题成立，避免中文“怀疑是否”方向不清。",
+    "source": "助手句法、法中语义与形态校核"
+  },
+  {
+    "id": "c1-inversion",
+    "location": "expansion",
+    "old": "相对刚完成事件与紧接事件，不必一律使用愈过去时。",
+    "new": "était arrivée 是 être 的未完成过去时 + 过去分词，整体为愈过去时；que 后的 demanda 是简单过去时，表紧接事件。",
+    "reason": "原说明误将 était arrivée 当作不使用愈过去时的例子。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23472/la-syntaxe/le-sujet-dans-la-phrase/inversion-sujet-verbe-apres-des-adverbes-comme-peut-etre-en-tete-de-phrase"
+  },
+  {
+    "id": "c1-apres-que",
+    "location": "expansion",
+    "old": "Après qu’il termine son service, il rentre à pied.",
+    "new": "Après qu’il a terminé son service, il rentre à pied.",
+    "reason": "以现在习惯中的已完成前提更清楚体现 après que 的先后关系。",
+    "source": "https://www.academie-francaise.fr/apres-que"
+  },
+  {
+    "id": "c1-apres-que",
+    "location": "expansion",
+    "old": "现在时表示反复的一般关系。",
+    "new": "主句现在时表示习惯；从句复合过去时标出每次先完成值班，再回家。",
+    "reason": "随例句更新时态分析。",
+    "source": "https://www.academie-francaise.fr/apres-que"
+  },
+  {
+    "id": "c1-impersonnelles",
+    "location": "expansion",
+    "old": "重要的是，您们在决定前获得信息。",
+    "new": "重要的是，你们在作决定前充分了解情况。",
+    "reason": "“您们”不自然；informés 已是复数，因此用你们。",
+    "source": "助手句法、法中语义与形态校核"
+  },
+  {
+    "id": "c1-impersonnelles",
+    "location": "expansion",
+    "old": "明确主体 vous，虚拟式 soyez。",
+    "new": "vous 此处指多人，informés 按阳性或混合群体配合；虚拟式 soyez。若单指一位男性，可写 vous soyez informé。",
+    "reason": "补明复数过去分词与礼貌单数 vous 的配合边界。",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "c1-adj-verbal",
+    "location": "expansion",
+    "old": "她用证据说服了陪审团，因而胜诉。",
+    "new": "她用证据说服了评审团，因而赢得了裁决。",
+    "reason": "jury 不必为刑事陪审团，gain de cause 不限胜诉；译文保持法文未给出的制度背景。",
+    "source": "助手句法、法中语义与形态校核"
+  },
+  {
+    "id": "c1-adj-verbal",
+    "location": "expansion",
+    "old": "不得把“有状语”作为唯一判别条件：différent de… 是形容词也有补语。形容词只有在词汇确实存在时才能使用；如 ayant 不存在对应常用形容词。原例 Fatiguant tout le monde, il partit 不自动表示“然后”，分词常表示同时/原因，需根据上下文翻译。",
+    "new": "不得把“有状语”作为唯一判别条件：différent de… 是形容词也有补语。形容词只有在词汇确实存在时才能使用；如 ayant 不存在对应常用形容词。分词 Fatiguant tout le monde 明确宾语，不独自标明“然后”；若先后完成是重点，可用 ayant fatigué。",
+    "reason": "原文例句建议修改后，边界不再回指旧例。",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "c1-cond-2e",
+    "location": "index",
+    "old": "文学语体里用<strong>虚拟式愈过去时</strong>(eût/fût + 过去分词)代替条件式过去时,多见于固定表达。",
+    "new": "文学语体里<strong>虚拟式愈过去时</strong>(eût/fût + 过去分词)可承担条件式过去时的作用,亦见于反事实条件和结果;此传统名称不代表所有 eût/fût + 分词都能分析为条件式。",
+    "reason": "第二式是传统名称，实际使用不只固定表达。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif"
+  },
+  {
+    "id": "c1-cond-2e",
+    "location": "index",
+    "old": "我本更希望他闭口不言。",
+    "new": "我本来更希望他保持沉默。",
+    "reason": "中文措辞自然程度调整。",
+    "source": "助手句法、法中语义与形态校核"
+  },
+  {
+    "id": "c1-cond-2e",
+    "location": "index",
+    "old": "知道它 = 条件式过去即可。",
+    "new": "在相应假设或评价语境中可对应条件式过去;受主句支配的先时虚拟式从句须另行分析。",
+    "reason": "避免所有虚拟式愈过去时都被视作条件式过去。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif"
+  },
+  {
+    "id": "c1-hypothese-sans-si",
+    "location": "index",
+    "old": "考查 à condition que + 虚拟式表条件(同主语时改用 à condition de + 原形)。",
+    "new": "考查 à condition que + 虚拟式表条件;同主语时通常可简化为 à condition de + 原形,也可保留 que 从句。",
+    "reason": "现有题答正是同主语 que 从句，旧注释绝对化并自相矛盾。",
+    "source": "助手句法、法中语义与形态校核"
+  },
+  {
+    "id": "c1-accord-avance",
+    "location": "index",
+    "old": "<b>口诀:</b>提前的是「做动作的人」→配合;是「被动作的物」→不配合。<b>fait + 原形</b>一律写 fait。",
+    "new": "<b>口诀(感知分词+原形):</b>提前的直接宾语本身实施原形动作→配合;若只是原形的宾语→感知分词不配合。人、动物或事物均须按句法分析;<b>fait + 原形</b>一律写 fait。",
+    "reason": "不是人/物类别决定配合，且不能推广至 pouvoir/devoir 等所有动词。",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "c1-apres-que",
+    "location": "index",
+    "old": "按规范接<strong>直陈式</strong>(动作已实现)",
+    "new": "按规范接<strong>直陈式</strong>(将前一事件视为后续事件的完成前提,未来安排亦如此)",
+    "reason": "动作在现实已实现不是规范选择的必要条件。",
+    "source": "https://www.academie-francaise.fr/apres-que"
+  },
+  {
+    "id": "c1-apres-que",
+    "location": "index",
+    "old": "« après que » + indicatif (fait réel) ; « avant que » + subjonctif. Erreur très fréquente.",
+    "new": "« après que » + indicatif : le fait est envisagé comme accompli avant un autre, même dans un contexte futur ; « avant que » + subjonctif.",
+    "reason": "未来事件仍接直陈式，应避免 fait réel 的误读。",
+    "source": "https://www.academie-francaise.fr/apres-que"
+  },
+  {
+    "id": "c1-adj-verbal",
+    "location": "index",
+    "old": "<b>Fatiguant</b> tout le monde, il partit.",
+    "new": "<b>Fatiguant</b> tout le monde, il rendit la réunion pénible.",
+    "reason": "原分词与离开的原因关系无上下文生硬，改为自然的同时原因。",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "c1-adj-verbal",
+    "location": "index",
+    "old": "他令大家疲惫,便离开了。(分词→不变,-gu-;具体时间或原因关系依语境)",
+    "new": "他使大家疲惫,令会议变得难熬。(分词→不变,-gu-)",
+    "reason": "与改后的例句相符，不添先后意义。",
+    "source": "助手句法、法中语义与形态校核"
+  },
+  {
+    "id": "c1-adj-verbal",
+    "location": "index",
+    "old": "___ tout le monde, il partit. (fatiguer)",
+    "new": "___ tout le monde, il rendit la réunion pénible. (fatiguer)",
+    "reason": "练习采用更自然语境并保持同样考点。",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "c1-adj-verbal",
+    "location": "index",
+    "old": "Fatiguant tout le monde, il partit.",
+    "new": "Fatiguant tout le monde, il rendit la réunion pénible.",
+    "reason": "与练习题同步；词形答案仍为 Fatiguant。",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "c1-connecteurs-soutenus",
+    "location": "index",
+    "old": "就预算得到遵守而言,这个项目是可行的。",
+    "new": "在不超出预算的前提下,这个项目是可行的。",
+    "reason": "预算条件的中文译文更准确自然。",
+    "source": "助手句法、法中语义与形态校核"
+  }
+]

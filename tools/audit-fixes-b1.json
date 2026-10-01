@@ -1,0 +1,302 @@
+[
+  {
+    "id": "b1-cond-present",
+    "location": "index",
+    "old": "主句用条件式现在表非真实结果",
+    "new": "主句用条件式现在表假设结果;是否反事实由语境决定",
+    "reason": "未完成条件句不必反事实。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+  },
+  {
+    "id": "b1-subj-present",
+    "location": "index",
+    "old": "六大不规则虚拟式之一,必须硬记",
+    "new": "常见不规则虚拟式之一,须单独记忆",
+    "reason": "不规则动词并非限定六个。"
+  },
+  {
+    "id": "b1-subj-declencheurs",
+    "location": "index",
+    "old": "让步连词后必须用虚拟式",
+    "new": "学习者在此类 bien que 让步结构中优先用虚拟式",
+    "reason": "OQLF承认现实强调直陈用法,但多个规范著作反对,不作绝对断言。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+  },
+  {
+    "id": "b1-subj-declencheurs",
+    "location": "index",
+    "old": "penser que 在否定/疑问时改用虚拟式",
+    "new": "penser que 在否定时常用虚拟式,疑问及否定中的选式还取决于是否认可从句内容",
+    "reason": "疑问penser可直陈,扩写原文已有正确对照。"
+  },
+  {
+    "id": "b1-subj-declencheurs",
+    "location": "index",
+    "old": "espérer que 不触发虚拟,接直陈式(此处为将来时)",
+    "new": "肯定 espérer que 通常接直陈式(此处为将来时);否定/疑问另论",
+    "reason": "限于肯定,防止过度推广。"
+  },
+  {
+    "id": "b1-subj-declencheurs",
+    "location": "index",
+    "old": "espérer que + <strong>直陈式</strong>(j'espère qu'il viendra !),但 souhaiter que + 虚拟式。penser que 肯定用直陈,否定/疑问用虚拟。",
+    "new": "肯定 espérer que 通常用<strong>直陈式</strong>(j'espère qu'il viendra !),但 souhaiter que 用虚拟式。penser que 肯定通常用直陈,否定/疑问则按断言角度选择,常见虚拟式。",
+    "reason": "避免否定/疑問机械选式。"
+  },
+  {
+    "id": "b1-subj-declencheurs",
+    "location": "index",
+    "old": "bien que 必接虚拟式:soit",
+    "new": "bien que 的规范学习用法采用虚拟式:soit",
+    "reason": "明确学习推荐而不绝对化。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+  },
+  {
+    "id": "b1-subj-declencheurs",
+    "location": "index",
+    "old": "espérer que 接直陈,不是虚拟。",
+    "new": "此处肯定 espérer que 通常接直陈式;否定/疑问不能照搬。",
+    "reason": "练习与扩写边界一致。"
+  },
+  {
+    "id": "b1-si",
+    "location": "index",
+    "old": "<td>①可能</td><td>si + présent</td><td>futur</td>",
+    "new": "<td>①现实/可能</td><td>si + présent</td><td>présent / futur / impératif</td>",
+    "reason": "原表漏现在与命令式。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+  },
+  {
+    "id": "b1-si",
+    "location": "index",
+    "old": "<td>②现在非真实</td>",
+    "new": "<td>②现在/未来假设</td>",
+    "reason": "将来假设也可用未完成时,不一定反事实。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+  },
+  {
+    "id": "b1-si",
+    "location": "index",
+    "old": "②(其实没空)如果我有空,我就来了。",
+    "new": "②如果我有空,我就会来。(本例可设定目前没空)",
+    "reason": "避免句子没有语境却直接断言事实相反,且原翻译过去色彩过重。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+  },
+  {
+    "id": "b1-si",
+    "location": "index",
+    "old": "第②型(现在非真实):si + imparfait,主句条件式现在,与现状相反",
+    "new": "第②型(现在/未来假设):si + imparfait,主句条件式现在;可与现状相反,也可作试探假设",
+    "reason": "与总说明及扩写一致。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+  },
+  {
+    "id": "b1-si",
+    "location": "index",
+    "old": "si 后绝不用条件式。",
+    "new": "条件 si 后不用条件式;表“是否”的间接疑问 si 可用条件式。",
+    "reason": "原练习与已正确修订tip矛盾。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+  },
+  {
+    "id": "b1-discours-indirect",
+    "location": "index",
+    "old": "特殊疑问保留疑问词(quoi→<b>ce que</b>)",
+    "new": "特殊疑问按功能保留或调整疑问词(主语“什么”→<b>ce qui</b>,直接宾语“什么”→<b>ce que</b>,介词+quoi通常保留)",
+    "reason": "quoi并非总替换,需保留de quoi/à quoi。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23281/la-syntaxe/linterrogation/formules-interrogatives-ce-que-et-quest-ce-que"
+  },
+  {
+    "id": "b1-discours-indirect",
+    "location": "index",
+    "old": "人称、时间、指示词随之改变。",
+    "new": "人称按转述视角改变;时间、地点与指示词仅在参照改变时调整。",
+    "reason": "当天同地转述不必调整demain/ici。"
+  },
+  {
+    "id": "b1-discours-indirect",
+    "location": "index",
+    "old": "主句过去时要做时态后移(见 B2 时态呼应)。",
+    "new": "主句过去时常做相对时态调整;仍有效事实或同一时空可保留原时态(见 B2 时态呼应)。",
+    "reason": "避免机械时态后移。"
+  },
+  {
+    "id": "b1-double-pronoms",
+    "location": "index",
+    "old": "两个宾语代词同时出现时,语序固定:",
+    "new": "普通动词前的宾语代词按组序排列(肯定命令式另论):",
+    "reason": "默认表仅适用于前置代词,并非所有表格组合都合法。",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "b1-double-pronoms",
+    "location": "index",
+    "old": "Donne le livre à moi !",
+    "new": "Donne-moi le livre !",
+    "reason": "练习输入改为自然常规法语;à moi只有明确对比时自然。",
+    "source": "https://www.academie-francaise.fr/questions-de-langue"
+  },
+  {
+    "id": "b1-demonstratifs-pron",
+    "location": "index",
+    "old": "指代整件事或整个情况,不指具体名词",
+    "new": "常指整件事或情况,也可指尚未识别或未按名词性数分类的具体对象",
+    "reason": "中性代词也能指现场具体事物,原绝对化。"
+  },
+  {
+    "id": "b1-dont",
+    "location": "index",
+    "old": "那辆车是红色的男人。(所属:他的车)",
+    "new": "他的车是红色的那个男人。(所属:他的车)",
+    "reason": "中文歧义与不自然修正。"
+  },
+  {
+    "id": "b1-gerondif",
+    "location": "index",
+    "old": "<strong>主语必须与主句相同</strong>",
+    "new": "<strong>普通规范用法中,隐含主语通常与主句主语相同</strong>",
+    "reason": "保留规范检查点并给固定表达边界。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24712/la-syntaxe/constructions-syntaxiques-boiteuses/logique-syntaxique-sujet-sous-entendu-du-participe-present"
+  },
+  {
+    "id": "b1-negations",
+    "location": "index",
+    "old": "personne 作宾语置于动词之后",
+    "new": "否定代词 personne 置于 il y a 之后",
+    "reason": "避免将无人称存在句的真实主语机械标COD。"
+  },
+  {
+    "id": "b1-negations",
+    "location": "index",
+    "old": "ne 不能省。",
+    "new": "正式规范写作保留 ne;非正式口语常省。",
+    "reason": "与章节口语边界一致。"
+  },
+  {
+    "id": "b1-connecteurs-base",
+    "location": "index",
+    "old": "表原因时必须放句首,引出已知背景",
+    "new": "原因 comme 从句通常前置,提供原因背景;原因不必双方已知",
+    "reason": "原use与已正确tip矛盾。"
+  },
+  {
+    "id": "b1-connecteurs-base",
+    "location": "index",
+    "old": "偏书面,连接两个分句,不能放句首",
+    "new": "偏书面,承接前文作解释;可在句号后以 Car 开头",
+    "reason": "car可句号后大写开句。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23500/la-syntaxe/les-conjonctions/emploi-de-car"
+  },
+  {
+    "id": "b1-connecteurs-base",
+    "location": "index",
+    "old": "表原因须放句首。",
+    "new": "原因 comme 从句通常前置,本题按句首模式练习。",
+    "reason": "将推荐模式与强制位置分开。"
+  },
+  {
+    "id": "b1-connecteurs-base",
+    "location": "index",
+    "old": "书面原因连词,不放句首。",
+    "new": "偏书面的解释连词,通常承接前句;句号后也可写 Car。",
+    "reason": "修正练习注释。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23500/la-syntaxe/les-conjonctions/emploi-de-car"
+  },
+  {
+    "id": "b1-connecteurs-base",
+    "location": "index",
+    "old": "我运动是为了保持身材。",
+    "new": "我运动是为了保持健康状态。",
+    "reason": "rester en forme是身体健康良好状态,不局限身材外形。"
+  },
+  {
+    "id": "b1-pqp",
+    "location": "expansion",
+    "old": "Je suis arrivé et le train est parti：先到、后发车；Quand je suis arrivé, le train était parti：到达之前火车已经走了。Il pleuvait 是背景中正在下雨；il avait plu 强调参照点之前下过雨。",
+    "new": "Je suis arrivé et le train est parti 在通常顺序叙述中理解为先到、后发车（et 本身不严格规定先后）；Quand je suis arrivé, le train était parti 明确到达之前火车已经走了。Il pleuvait 是背景中正在下雨；il avait plu 强调参照点之前下过雨。",
+    "reason": "et本身不编码严格先后。"
+  },
+  {
+    "id": "b1-double-pronoms",
+    "location": "expansion",
+    "old": "les 在 lui 前；前置 COD 使 envoyés 配合。",
+    "new": "les 在 lui 前；此例 les 指阳性复数或混合群体，前置 COD 使 envoyés 配合；如指阴性复数，应为 envoyées。",
+    "reason": "未给先行词的分词性数不能唯一规定。"
+  },
+  {
+    "id": "b1-double-pronoms",
+    "location": "expansion",
+    "old": "那里有三个。",
+    "new": "有三个。(若在地点语境中,也可译“那里有三个”。)",
+    "reason": "il y a固定y不必有那里意义。"
+  },
+  {
+    "id": "b1-possessifs-pron",
+    "location": "expansion",
+    "old": "保留定冠词；à/de 与 le/les 缩合为 au/aux、du/des，与 la 或 l’ 不同。名词需能从语境恢复。",
+    "new": "保留定冠词；à/de 与 le/les 缩合为 au/aux、du/des，与 la 不缩合。主有代词系列用 le/la/les，不像部分其他名词组会出现 l’。名词需能从语境恢复。",
+    "reason": "主有代词不存在l’形式,原无关说明易混。"
+  },
+  {
+    "id": "b1-subj-declencheurs",
+    "location": "expansion",
+    "old": "pour que、bien que、avant que、jusqu’à ce que、à condition que、à moins que 后用虚拟式。肯定 espérer que 通常直陈式；après que 在规范法语中用直陈式。",
+    "new": "pour que、avant que、jusqu’à ce que、à condition que、à moins que 后用虚拟式；bien que 在学习者规范表达中优先用虚拟式，强调事实的直陈式虽见于用法但受部分规范著作批评。肯定 espérer que 通常直陈式；après que 在规范法语中用直陈式。",
+    "reason": "按OQLF说明标注bien que异体与规范分歧。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+  },
+  {
+    "id": "b1-discours-indirect",
+    "location": "expansion",
+    "old": "是非问用 si，特殊问保留 où/quand/comment/pourquoi；“什么”作主语用 ce qui，作宾语用 ce que。去掉 est-ce que 和疑问中的人称代词倒装，通常采用陈述语序；名词主语在某些结构中仍可后置，如 Il demande où habite Paul。",
+    "new": "是非问用 si，特殊问保留 où/quand/comment/pourquoi；“什么”作主语用 ce qui，作宾语用 ce que。去掉 est-ce que 和疑问中的人称代词倒装，通常采用陈述语序；名词主语在某些结构中仍可后置，如 Il demande où habite Paul。 “什么”若作介词补语，通常保留介词 + quoi：De quoi parles-tu ? → Il demande de quoi tu parles。",
+    "reason": "补全原文quoi规则的边界。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23281/la-syntaxe/linterrogation/formules-interrogatives-ce-que-et-quest-ce-que"
+  },
+  {
+    "id": "b1-passif",
+    "location": "expansion",
+    "old": "appreciation 中 de 的常见用法。",
+    "new": "表示喜爱、欣赏的状态时,de 常见；par 在合适语境中也可用。",
+    "reason": "清除英文appreciation并澄清非强制de。"
+  },
+  {
+    "id": "b1-negations",
+    "location": "expansion",
+    "old": "我再也看不到有人在这里了。",
+    "new": "我在这里再也见不到任何人了。",
+    "reason": "中文自然程度。"
+  },
+  {
+    "id": "b1-connecteurs-base",
+    "location": "expansion",
+    "old": "Je n’ai pas appelé parce que mon téléphone était déchargé.",
+    "new": "Je suis rentré plus tôt parce que le dernier train partait à vingt heures.",
+    "reason": "换用肯定主句的原因例，避免否定主句与parce que的作用域歧义。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23501/la-syntaxe/les-conjonctions/emploi-de-parce-que-et-de-puisque"
+  },
+  {
+    "id": "b1-connecteurs-base",
+    "location": "expansion",
+    "old": "我没有打电话，因为手机没电了。",
+    "new": "我提前回去了，因为末班火车晚上八点发车。",
+    "reason": "换用肯定主句的原因例，避免否定主句与parce que的作用域歧义。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23501/la-syntaxe/les-conjonctions/emploi-de-parce-que-et-de-puisque"
+  },
+  {
+    "id": "b1-connecteurs-base",
+    "location": "expansion",
+    "old": "提供新原因。",
+    "new": "提供事件的具体原因，无需预设听者已经知道。",
+    "reason": "换用肯定主句的原因例，避免否定主句与parce que的作用域歧义。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23501/la-syntaxe/les-conjonctions/emploi-de-parce-que-et-de-puisque"
+  },
+  {
+    "id": "b1-discours-indirect",
+    "location": "index",
+    "old": "ce que (quoi), de + infinitif (ordre).",
+    "new": "ce que/ce qui (question sur une chose), préposition + quoi, de + infinitif (ordre).",
+    "reason": "法语摘要同步中文，不能把所有quoi机械替换为ce que。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23281/la-syntaxe/linterrogation/formules-interrogatives-ce-que-et-quest-ce-que"
+  }
+]

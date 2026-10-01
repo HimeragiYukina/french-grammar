@@ -1,0 +1,350 @@
+[
+  {
+    "id": "c2-passe-anterieur",
+    "location": "index",
+    "old": "文学语体中表示在另一<strong>简单过去时</strong>动作之前刚完成的动作",
+    "new": "文学语体中表示在另一<strong>简单过去时</strong>动作之前完成的动作；紧接关系常由连词强调",
+    "reason": "先过去时不一律含立即相接。"
+  },
+  {
+    "id": "c2-passe-anterieur",
+    "location": "index",
+    "old": "Le passé antérieur marque l'antériorité immédiate par rapport à un passé simple",
+    "new": "Le passé antérieur marque une action accomplie antérieure à un événement au passé simple",
+    "reason": "同步移除必然立即性。"
+  },
+  {
+    "id": "c2-passe-anterieur",
+    "location": "index",
+    "old": "他刚到就被人叫走了。",
+    "new": "他刚到就有人叫他了。",
+    "reason": "appeler不自带离开或叫走的意义。"
+  },
+  {
+    "id": "c2-concordance-litteraire",
+    "location": "index",
+    "old": "<strong>imparfait</strong>(同时)或",
+    "new": "<strong>imparfait</strong>(同时或在后)或",
+    "reason": "未完成过去虚拟式亦可表达后于过去主句的愿望动作。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps"
+  },
+  {
+    "id": "c2-concordance-litteraire",
+    "location": "index",
+    "old": "subjonctif imparfait (simultanéité)",
+    "new": "subjonctif imparfait (simultanéité ou postériorité)",
+    "reason": "同步法语说明。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps"
+  },
+  {
+    "id": "c2-concordance-litteraire",
+    "location": "index",
+    "old": "主句过去时 + 从句同时 → vînt",
+    "new": "主句过去时 + 从句同时或在后 → vînt",
+    "reason": "venir愿望通常后于愿望，不强行标同时。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps"
+  },
+  {
+    "id": "c2-concession-soutenue",
+    "location": "index",
+    "old": "<b>N'était</b> son aide, j'aurais échoué.",
+    "new": "<b>N'eût été</b> son aide, j'aurais échoué.",
+    "reason": "过去结果使用明确过去反事实形式。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete"
+  },
+  {
+    "id": "c2-concession-soutenue",
+    "location": "index",
+    "old": "use:\"n'était:后接名词,表『若非』,省略条件结构,相当于 si ce n'était / sans\"",
+    "new": "use:\"n'eût été:后接单数名词,表过去的『若非』,相当于 si ce n'avait été / sans\"",
+    "reason": "与已修正示例时态对应。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete"
+  },
+  {
+    "id": "c2-concession-soutenue",
+    "location": "index",
+    "old": "q:\"« ___ (n'être) son aide, j'aurais échoué. » (若非)\", a:\"N'était son aide, j'aurais échoué.\", note:\"n'était + 名词 = 若非。\"",
+    "new": "q:\"« ___ son aide, j'aurais échoué. » (若非，n’être 的文学过去反事实形式)\", a:\"N'eût été son aide, j'aurais échoué.\", note:\"n’eût été + 单数名词 = 若非；过去反事实条件。\"",
+    "reason": "练习明确过去反事实目标，排除时态歧义。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete"
+  },
+  {
+    "id": "c2-concession-soutenue",
+    "location": "index",
+    "old": "表限定范围的让步",
+    "new": "表示判断范围的限定",
+    "reason": "pour autant que知识范围限定并非必然让步。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+  },
+  {
+    "id": "c2-concession-soutenue",
+    "location": "index",
+    "old": "表『就…而言』的限定性让步",
+    "new": "表示『在所知范围内』的判断限定",
+    "reason": "统一语义术语。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+  },
+  {
+    "id": "c2-subj-fin",
+    "location": "index",
+    "old": "<strong>最高级 / le seul / le premier + qui</strong>(+虚拟,表主观)",
+    "new": "<strong>最高级 / le seul / le premier + 关系从句</strong>(常用虚拟表评价；明确叙述事实也可用直陈)",
+    "reason": "最高级关系从句不只qui且非强制虚拟。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/25168/la-grammaire/le-verbe/modes/subjonctif/subjonctif-et-subordonnee-relative"
+  },
+  {
+    "id": "c2-subj-fin",
+    "location": "index",
+    "old": "le seul qui… (+subj.).",
+    "new": "le seul qui… (souvent +subj., indicatif possible selon le sens).",
+    "reason": "同步法语说明。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/25168/la-grammaire/le-verbe/modes/subjonctif/subjonctif-et-subordonnee-relative"
+  },
+  {
+    "id": "c2-subj-fin",
+    "location": "index",
+    "old": "« Soit qu'il ___ (avoir) peur, soit qu'il ___ (être) distrait, il n'a pas répondu. » (或是…或是…)",
+    "new": "« Soit qu'il ___ peur, soit qu'il ___ distrait, il n'a pas répondu. » (avoir / être，虚拟式过去；或是…或是…)",
+    "reason": "原prompt只填avoir/être却答案增加eu/été且未限定过去；题目须明确目标时态。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+  },
+  {
+    "id": "c2-accord-extreme",
+    "location": "index",
+    "old": "作<strong>本义</strong>(数量)不配合,<strong>引申义</strong>配合",
+    "new": "带非直接宾语的<strong>数量补语</strong>时不配合；有前置<strong>直接宾语</strong>时配合",
+    "reason": "本义/引申义不能完整概括，peser colis可本义及物配合。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21856/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-des-verbes-exprimant-une-quantite"
+  },
+  {
+    "id": "c2-accord-extreme",
+    "location": "index",
+    "old": "coûté/pesé/valu (sens propre → invariable)",
+    "new": "coûté/pesé/valu (complément de quantité non direct → invariable)",
+    "reason": "同步核心句法依据。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21856/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-des-verbes-exprimant-une-quantite"
+  },
+  {
+    "id": "c2-accord-extreme",
+    "location": "index",
+    "old": "note:\"coûté 本义 → 不配合。\"",
+    "new": "note:\"此处价钱是数量补语，不是直接宾语，所以 coûté 不配合。\"",
+    "reason": "题注按宾语性质判定。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21856/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-des-verbes-exprimant-une-quantite"
+  },
+  {
+    "id": "c2-ellipse",
+    "location": "index",
+    "old": "Les uns riaient ; les autres pleuraient, en larmes.",
+    "new": "Les uns riaient ; les autres étaient en larmes.",
+    "reason": "原练习省略pleuraient不是后续en larmes的直接可复原谓语，改为明确省略étaient。"
+  },
+  {
+    "id": "c2-ellipse",
+    "location": "index",
+    "old": "考查并列句中省略可复原的动词。",
+    "new": "此句省去第二分句的 étaient，以逗号标示；不是把 pleuraient 与 en larmes 当成同一个词义。",
+    "reason": "明确恢复的系动词。"
+  },
+  {
+    "id": "c2-inversion-style",
+    "location": "index",
+    "old": "le jardin où ma grand-mère vivait",
+    "new": "le village où ma grand-mère vivait",
+    "reason": "住在花园语境不常见，改用自然的村庄。"
+  },
+  {
+    "id": "c2-inversion-style",
+    "location": "index",
+    "old": "le jardin où ___",
+    "new": "le village où ___",
+    "reason": "练习问答同步。"
+  },
+  {
+    "id": "c2-inversion-style",
+    "location": "index",
+    "old": "le jardin où vivait ma grand-mère",
+    "new": "le village où vivait ma grand-mère",
+    "reason": "练习问答同步。"
+  },
+  {
+    "id": "c2-conjecture",
+    "location": "index",
+    "old": "新闻里的条件式 = 「据称/有待证实」,是阅读理解的重要信号词;别理解成普通假设。",
+    "new": "新闻条件式可表示「据称/有待证实」，但新闻文本也有真正假设或过去将来；结合消息来源和上下文判断。",
+    "reason": "不能将新闻中的所有条件式都等同传闻。"
+  },
+  {
+    "id": "c2-cohesion",
+    "location": "index",
+    "old": "<b>or</b>(然而,引入新论据)",
+    "new": "<b>or</b>(而/然而,引入新前提或论据)",
+    "reason": "or既可引入支持也可反驳前提。"
+  },
+  {
+    "id": "c2-concordance-litteraire",
+    "location": "expansion",
+    "path": [
+      "sections",
+      0,
+      "explanation"
+    ],
+    "old": "由简单过去时 tu 形式去 -s，再加 -sse, -sses, -̂t, -ssions, -ssiez, -ssent；如 vint → vînt，finit → finît，fut → fût。",
+    "new": "通常取简单过去时 tu 形式去末尾 -s，加 -sse, -sses, -ssions, -ssiez, -ssent；第三人称单数在该基底末元音上加抑扬符，再加 -t：tu vins → vin- → qu’il vînt；tu finis → fini- → qu’il finît；tu fus → fu- → qu’il fût。",
+    "reason": "修正词干推导展示，原vint/finit/fut不是tu形式且-̂t不清楚。"
+  },
+  {
+    "id": "c2-concordance-litteraire",
+    "location": "expansion",
+    "path": [
+      "errors"
+    ],
+    "old": "有先行关系时仍须虚拟式过去时",
+    "new": "先行的动作通常用虚拟式过去时明确表达；某些状态/被动表述也可能由上下文承载时间关系",
+    "reason": "避免对呼应规则再度绝对化。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps"
+  },
+  {
+    "id": "c2-concession-soutenue",
+    "location": "expansion",
+    "path": [
+      "sections",
+      3,
+      "explanation"
+    ],
+    "old": "ne 不与 pas 配套。",
+    "new": "ne 在该书面结构中单独使用；名词是后置主语，复数须 n’étaient / n’eussent été，不能插入 de。",
+    "reason": "补充名词非宾语以及复数呼应。",
+    "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete"
+  },
+  {
+    "id": "c2-accord-extreme",
+    "location": "expansion",
+    "path": [
+      "sections",
+      3,
+      "examples",
+      0,
+      "zh"
+    ],
+    "old": "复读过",
+    "new": "重新校读过",
+    "reason": "中文复读容易误为重复年级，relire在材料校阅语境用重新校读。"
+  },
+  {
+    "id": "c2-accord-extreme",
+    "location": "expansion",
+    "path": [
+      "sections",
+      3,
+      "examples",
+      1,
+      "zh"
+    ],
+    "old": "复读过",
+    "new": "重新校读过",
+    "reason": "同上。"
+  },
+  {
+    "id": "c2-accord-extreme",
+    "location": "expansion",
+    "path": [
+      "errors"
+    ],
+    "old": "原文“ci-joint 前置一律不配合”过度简化：",
+    "new": "“ci-joint 前置一律不配合”是过度简化：",
+    "reason": "原文此前已修正，不保留对现有原文的不实诊断。"
+  },
+  {
+    "id": "c2-passe-anterieur",
+    "location": "expansion",
+    "path": [
+      "errors"
+    ],
+    "old": "原例 Quand il eut terminé 只说“完成了”，若无写作上下文，译成“一写完”过于具体。",
+    "new": "Quand il eut terminé 只说“完成了”，没有上下文不能擅自译成“一写完”。",
+    "reason": "去掉已修正原文历史诊断。"
+  },
+  {
+    "id": "c2-concordance-litteraire",
+    "location": "expansion",
+    "path": [
+      "errors"
+    ],
+    "old": "原说明“日常用虚拟式现在时即可”需补充：",
+    "new": "不能把“日常用虚拟式现在时即可”当通用规则：",
+    "reason": "现有原文已不含该错误。"
+  },
+  {
+    "id": "c2-cohesion",
+    "location": "expansion",
+    "path": [
+      "boundaries"
+    ],
+    "old": "原三段论译文“然而苏格拉底是人”应改为“而苏格拉底是人”",
+    "new": "三段论中 or 常译为“而”，例如“而苏格拉底是人”",
+    "reason": "现有译文已经正确，不应虚构仍存错误。"
+  },
+  {
+    "id": "c2-rection",
+    "location": "expansion",
+    "path": [
+      "boundaries"
+    ],
+    "old": "jouer le piano 在某些句中可能指扮演“钢琴”角色等，不是常规演奏用法。",
+    "new": "表示演奏某件乐器，基础标准搭配用 jouer de（jouer du piano）；jouer + 直接宾语还可指演奏某作品（jouer une sonate）或扮演角色（jouer Hamlet），不能只看宾语外形选介词。",
+    "reason": "删除无据且无教学必要的钢琴角色猜想，换明确常见搭配。"
+  },
+  {
+    "id": "c2-subj-fin",
+    "location": "expansion",
+    "path": [
+      "sections",
+      4,
+      "examples",
+      3,
+      "fr"
+    ],
+    "old": "Il est le premier qui est arrivé ce matin.",
+    "new": "Paul est le premier candidat qui est arrivé ce matin.",
+    "reason": "原句可解但较笨重，加入明确候选人集合使关系从句自然。"
+  },
+  {
+    "id": "c2-subj-fin",
+    "location": "expansion",
+    "path": [
+      "sections",
+      4,
+      "examples",
+      3,
+      "zh"
+    ],
+    "old": "他是今天早上第一个到的人。",
+    "new": "保罗是今天早上第一个到的候选人。",
+    "reason": "与法语明确候选人集合一致。"
+  },
+  {
+    "id": "c2-exclamation",
+    "location": "expansion",
+    "path": [
+      "sections",
+      3,
+      "examples",
+      0,
+      "use"
+    ],
+    "old": "pensais",
+    "new": "pensions",
+    "reason": "注释动词与nous ne le pensions例句一致。"
+  },
+  {
+    "id": "c2-conjecture",
+    "location": "expansion",
+    "path": [
+      "boundaries"
+    ],
+    "old": "口语 souvent 用",
+    "new": "口语常用",
+    "reason": "去除说明中非必要混用法语副词。"
+  }
+]

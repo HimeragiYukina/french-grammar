@@ -1,0 +1,437 @@
+[
+  {
+    "file": "corrections-a1.json",
+    "reason": "部分冠词的 de 规则有例外",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a1.json",
+    "reason": "无人称结构仍有时态变化",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a1.json",
+    "reason": "澄清数不变而非时态不变",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a1.json",
+    "reason": "venir 只有指定形式双写",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a1.json",
+    "reason": "避免否定一律变 de",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a1.json",
+    "reason": "限定插入 t 的条件",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a1.json",
+    "reason": "chez 可接机构名",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a1.json",
+    "reason": "chez 可接企业",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a1.json",
+    "reason": "限定原形规则的范围",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a1.json",
+    "reason": "补充元音起始阳性国家",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a1.json",
+    "reason": "否定例外",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a1.json",
+    "reason": "星期无冠词非固定将来",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "代词式动词être助动词不保证分词与主语配合；多数移动动词并不用être。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "同步修正法语说明。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "排除代词式例外且指定直接宾语。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "hier可与imparfait，souvent可与PC。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "简单将来时不等于确定或远期。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "同步修正法语说明。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "移除机械时间距离划分。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "penser à、tenir à等不用lui/leur。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "同步限定范围。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "同一原tip存在前后冲突。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "时间名词也可作COD选que。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "特指集合及la plupart des等例外。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "同步去除一律。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "depuis可配过去参照imparfait，否定PC；pendant非只过去。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-a2.json",
+    "reason": "限定规则适用范围。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b1.json",
+    "reason": "补足双词干及 être/avoir 例外，避免把所有人称都按 ils 词干变化。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b1.json",
+    "reason": "原法文单一 ils 词干规则不完整。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b1.json",
+    "reason": "修正主句模式、试探性假设和间接疑问例外。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b1.json",
+    "reason": "禁止条件式仅适用于条件 si，非所有 si。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b1.json",
+    "reason": "避免“si 后只能三种时态”的过度绝对化。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b1.json",
+    "reason": "comme 不等同已知原因；car 并非绝对不能句首。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b1.json",
+    "reason": "避免任何含 de 的结构一律 dont。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "se voir 的 vu 不是永不配合，学院明确区分受影响者与原形施事。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "否定与疑问并不机械强制虚拟式。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "普遍事实和仍有效的信息可保留现在时。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "补入不强制后移的边界。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "dont 最常见但不是 duquel/de qui 在普通 de 后的绝对排除规则。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "删除 seulement 绝对化。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "普通 de 后复合关系代词存在正式及消歧用法。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "原文过于绝对，正式教学仍推荐名词结构。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "保留规范主路径并避免抹去实际用法。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "不是唯一条件结构。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "褒贬是倾向而非绝对规则。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "faute de 后零冠词并非绝对。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "épuisé 主要是强度而非正式语域。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "防止同义词替换掩盖词义强度。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-b2.json",
+    "reason": "on、词义与语域不能机械替换。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "简单过去可概括有界时期内重复动作，也不限瞬时动作。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "简单过去不等于瞬时性。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "避免完全等同两种时态。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "区分未完成虚拟式与愈过去虚拟式的现代替代。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "一律太绝对，且 ne…pas 是真否定。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "并非列表所有副词后都强制倒装。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "避免过强的必须。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "按义项而非仅位置。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "ainsi 方式义等不是无条件倒装。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "强调结构非书面独占。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "同主语用不定式并非绝对强制。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "ne pouvoir 等可单独真否定。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "区分赘词和 ne seul，不宣称否定只能 ne…pas。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "mal 不是不定式，改为真正 fait + infinitif 示例。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "未来尚未实际发生仍直陈式。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "说明事已发生只适用于此例，非规则充分依据。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "承认实际语言差异。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "现在分词不自动表示先后“然后”。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c1.json",
+    "reason": "避免把局部拼写变化当通用派生规则。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "先过去时现代改写不是固定愈过去时。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "terminer 未指明写作活动。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "现代先行关系仍需要虚拟式过去时。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "tout…que 不只允许直陈式。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "补充虚拟式可能性。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "避免绝对式选择规则。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "n'était 的条件功能更准确。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "ci-joint 前置须按位置和限定词判定。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "区分词性和 ci-joint 的两可情况。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "la facture 有限定词且句内,两可。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "明确可接受变体。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "补全规范。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "use 标签与后置例句对应。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "asyndète 省连接词,不是省动词。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "术语纠正。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "or 在推理中引入前提,无对立含义。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "regretter 的确切情感要依语境,怀念不是唯一释义。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "练习注释不能把两可误判成强制不变。",
+    "occurrences": 1
+  },
+  {
+    "file": "corrections-c2.json",
+    "reason": "修正练习反向规则。",
+    "occurrences": 1
+  }
+]
