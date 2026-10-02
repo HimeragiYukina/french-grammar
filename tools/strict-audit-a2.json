@@ -1,0 +1,457 @@
+{
+  "level": "A2",
+  "method": "助手逐项阅读并独立语义审校全部原讲解、形式、例句用法及提示、原练习题答注释；全部扩写段落、比较、错误、边界及新增练习；全部语境句子、译文、理由、替代形式及题答注释。疑点通过列出的OQLF及大学教学正文实际浏览核验。计数脚本仅用于覆盖统计，不替代语义审读。",
+  "coverage": [
+    {
+      "id": "a2-pc-avoir",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-pc-etre",
+      "original_examples": 6,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-imparfait",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-pc-vs-imp",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-futur-simple",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-cod",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-coi",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-en",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-y",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-pronominaux",
+      "original_examples": 5,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-imperatif",
+      "original_examples": 4,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-comparatif",
+      "original_examples": 5,
+      "original_practice": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-superlatif",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-qui-que",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-ou-relatif",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-quantite",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-temps-prep",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 7,
+      "expansion_examples": 14,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-politesse",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    }
+  ],
+  "context_coverage": [
+    {
+      "id": "a2-context-rendezvous-manque",
+      "sentences": 5,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-context-course-achat",
+      "sentences": 5,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-context-reservation-horaire",
+      "sentences": 5,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    }
+  ],
+  "changes": [
+    {
+      "file": "tools/grammar-a2.json",
+      "path": [
+        "practice",
+        "a2-y",
+        2,
+        "note"
+      ],
+      "before": "问句 chez toi 从回答者视角是 chez moi，y 回指同一住所；代词位置在 vais 前。",
+      "after": "问句 chez toi 从回答者视角是 chez moi，y 回指同一住所；代词位置在 reste 前。",
+      "reason": "修正把本题reste误称vais。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-a2.json",
+      "path": [
+        "a2-en",
+        "sections",
+        3,
+        "explanation"
+      ],
+      "before": "在对方已经指出商品的语境中，en 可代替数量表达里的名词部分，但 un、deux、un kilo 等具体数量仍保留。否定零数量通常说 ne…pas en，而不是保留被否定的 un；若要明确否定一个、实为两个，则另有对比表达。en 不是随便删除一切 de 后内容的工具：地点来源可用 en，人的补语还要按动词和语境判断。",
+      "after": "在对方已经指出商品的语境中，en 可代替数量表达里的名词部分，但 un、deux、un kilo 等具体数量仍保留。否定零数量通常说 ne/n’ + en + 变位动词或助动词 + pas（如 Je n’en ai pas），而不是保留被否定的 un；若要明确否定一个、实为两个，则另有对比表达。en 不是随便删除一切 de 后内容的工具：地点来源可用 en，人的补语还要按动词和语境判断。",
+      "reason": "否定结构中的en必须位于变位动词或助动词前，原示意会误导词序。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/23513/la-grammaire/les-pronoms/pronoms-personnels/le-pronom-personnel-en"
+      ]
+    },
+    {
+      "file": "tools/expansion-a2.json",
+      "path": [
+        "a2-en",
+        "practice",
+        2,
+        "note"
+      ],
+      "before": "通常不用 Je n’en ai pas une 来表达一般无车；带 une 易引出对比数量。",
+      "after": "一般表达没有车可说 Je n’en ai pas；保留 une 可以强调数量或作对比，Je n’en ai pas une seule 则强调一辆也没有。",
+      "reason": "说明保留数量可作零数量强调，不能归为仅对比。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/23513/la-grammaire/les-pronoms/pronoms-personnels/le-pronom-personnel-en"
+      ]
+    },
+    {
+      "file": "tools/expansion-a2.json",
+      "path": [
+        "a2-pc-avoir",
+        "practice",
+        0,
+        "q"
+      ],
+      "before": "您昨天已经支付，但截至现在还未收到发票。用 payer / recevoir、passé composé 和 pas encore 写两句。",
+      "after": "你作为付款人，昨天已经支付，但截至现在还未收到发票。用 je、payer / recevoir、passé composé 和 pas encore 写一句含 mais 的话。",
+      "reason": "原题您与答案je视角不一致，要求两句与单句答案不一致。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-a2.json",
+      "path": [
+        "a2-politesse",
+        "practice",
+        0,
+        "note"
+      ],
+      "before": "不是 Je pourrais répéter，后者问自己能否重复。",
+      "after": "这里请求工作人员做动作，应使用 vous。Je pourrais répéter 陈述“我可以重复”，不是向对方提出重复的请求；问“我可以重复吗”可说 Est-ce que je pourrais répéter… ?。Pourriez-vous… ? 之外，Est-ce que vous pourriez… ? 也能表达礼貌请求。",
+      "reason": "原说明把陈述句误解为问题；补充同样成立的请求形式。",
+      "sources": [
+        "https://laits.utexas.edu/tex/gr/tac1.html"
+      ]
+    },
+    {
+      "file": "tools/grammar-a2.json",
+      "path": [
+        "grammar",
+        10,
+        "tip"
+      ],
+      "before": "<b>易错:</b>肯定命令时代词后置加连字符且 me/te 通常→<b>moi/toi</b>;在 en/y 前则用 m'/t' 缩合(<em>Donne-<b>moi</b> ça</em>);否定命令代词回到动词前(<em>Ne me donne pas ça</em>)。",
+      "after": "<b>易错:</b>肯定命令时代词后置加连字符且 me/te 通常→<b>moi/toi</b>(<em>Donne-<b>moi</b> ça</em>);在 en/y 前则用 m'/t' 缩合(<em>Donne-m’en un</em>);否定命令代词回到动词前(<em>Ne me donne pas ça</em>)。",
+      "reason": "分开moi形式和en前缩合例句，原括号位置造成误读。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/23513/la-grammaire/les-pronoms/pronoms-personnels/le-pronom-personnel-en"
+      ]
+    },
+    {
+      "file": "tools/grammar-a2.json",
+      "path": [
+        "grammar",
+        3,
+        "zh"
+      ],
+      "before": "这是法语最高频的难点。<b>passé composé</b>=推进情节的<strong>具体、完成</strong>的动作(然后发生了什么);<b>imparfait</b>=<strong>背景、习惯、状态、正在进行</strong>(当时是什么样)。常一句并用:背景(imp)中突然发生(PC)。",
+      "after": "这是法语最高频的难点。<b>passé composé</b>把事件作为<strong>已完成的整体</strong>陈述，常用于推进情节(然后发生了什么)，也能概括一段持续或重复的经历；<b>imparfait</b>常描写<strong>背景、习惯、状态、正在进行</strong>(当时是什么样)，不突出事件终点。常一句并用:背景(imp)中发生事件(PC)。",
+      "reason": "避免把PC等同于短暂具体动作或只推进情节。",
+      "sources": [
+        "https://laits.utexas.edu/tex/gr/tap8.html"
+      ]
+    },
+    {
+      "file": "tools/grammar-a2.json",
+      "path": [
+        "grammar",
+        4,
+        "ex",
+        0,
+        "use"
+      ],
+      "before": "规则构成+确定计划:partir 以动词原形为词干 + -ai,表示确定的将来安排",
+      "after": "规则构成+将来安排:partir 以动词原形为词干 + -ai,说话者陈述计划中的出发时间，时态本身不保证计划一定实现。",
+      "reason": "去除时态必然确定发生的暗示。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-a2.json",
+      "path": [
+        "practice",
+        "a2-cod",
+        1,
+        "q"
+      ],
+      "before": "Vous regardez les enfants ? — Oui, je ___ regarde. <span class=hint>提示:替代 les enfants</span>",
+      "after": "Vous regardez les enfants ? — Oui, je ___ regarde. <span class=hint>提示:向一位受访者使用尊称 vous；替代 les enfants</span>",
+      "reason": "明确vous为单人尊称，使je回答视角唯一。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-a2.json",
+      "path": [
+        "grammar",
+        14,
+        "tip"
+      ],
+      "before": "<b>易错:</b>表时间的「那天/那年」用 <b>où</b> 而非 *quand*(<em>l'année <b>où</b>…</em>)。",
+      "after": "<b>易错:</b>「那天/那年」在关系从句中充当时间状语时，用 <b>où</b> 而非 *quand*(<em>l'année <b>où</b> j'ai eu mon bac</em>)；若从句把那一天当直接宾语，则用 que(<em>le jour que je préfère</em>)。",
+      "reason": "限定où为时间状语，避免凡时间先行词必用où的过度规则。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-a2.json",
+      "path": [
+        "practice",
+        "a2-ou-relatif",
+        1,
+        "note"
+      ],
+      "before": "表时间的「那天」用 où。",
+      "after": "这里「那天」在从句中作时间状语，用 où。rencontrés 对应男性或混合群体；若 nous 全为女性，可写 rencontrées。",
+      "reason": "补充题干未限定性别时同样成立的配合。",
+      "sources": []
+    },
+    {
+      "file": "tools/context-a2.json",
+      "path": [
+        2,
+        "sentences",
+        2,
+        "zh"
+      ],
+      "before": "“我想周五上午过来；您能告诉我预约办理大约需要多长时间吗？”",
+      "after": "“我想星期五上午来；您能告诉我预约会面需要多长时间吗？”",
+      "reason": "删除原文问句没有的“大约”，environ属于下一句回答。",
+      "sources": []
+    },
+    {
+      "file": "tools/context-a2.json",
+      "path": [
+        1,
+        "sentences",
+        0,
+        "why"
+      ],
+      "before": "现在时 commence 表达已有安排；du matériel 引入泛指用品。后文具体介绍 cahiers，后面的 en 回指本子，不是直接代替 matériel。",
+      "after": "现在时 commence 表达已有安排；du matériel 引入泛指用品。后文具体介绍 cahiers，后面的 en 回指本子，不是直接代替 matériel。je vais 在此表示眼下为明天的课去采购；也可明确说 aujourd’hui, je vais…，避免把准备购物误解为明天上课时才购物。",
+      "reason": "明确现在时购物与未来课程的时间关系。",
+      "sources": []
+    },
+    {
+      "file": "tools/context-a2.json",
+      "path": [
+        0,
+        "sentences",
+        4,
+        "why"
+      ],
+      "before": "avons parlé把有界的一小时作整体；sommes sortis是离开事件；était/étaient描写离开时环境。",
+      "after": "avons parlé把有界的一小时作整体；sommes sortis是离开事件；était/étaient描写离开时环境。sortis 对应男性或混合群体；若 nous 全为女性，应写 sorties（前句 retrouvés 同理为 retrouvées）。",
+      "reason": "故事未指定叙述者性别，补全另一种正确配合。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-a2.json",
+      "path": [
+        "a2-coi",
+        "sections",
+        0,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "我给姐姐写了信；我把照片发给她了。",
+      "after": "我给姐姐或妹妹写了信；我把照片发给她了。",
+      "reason": "sœur未提供年龄信息；不把姐妹关系额外确定为姐姐，统一跨级译法。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-a2.json",
+      "path": [
+        "a2-comparatif",
+        "sections",
+        1,
+        "examples",
+        1,
+        "zh"
+      ],
+      "before": "他旅行和姐姐一样多，但花钱更少。",
+      "after": "他旅行和姐姐或妹妹一样多，但花钱更少。",
+      "reason": "sœur未提供年龄信息；不把姐妹关系额外确定为姐姐，统一跨级译法。",
+      "sources": []
+    }
+  ],
+  "uncertainties": [
+    "开放式写句题的答案为可接受示例，不穷尽词序、词汇或礼貌表达；性别未指定时接受符合指称群体的分词配合。",
+    "PC/imparfait的观察角度依语境决定，课程限定条件与参考答案不宣称排除所有其他可成立语境。"
+  ],
+  "sources": [
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23513/la-grammaire/les-pronoms/pronoms-personnels/le-pronom-personnel-en",
+      "title": "OQLF — Le pronom personnel en",
+      "checked_claim": "en可指人、数量与来源；肯定及否定命令中的位置。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif",
+      "title": "OQLF — Pronoms personnels employés avec un verbe à l’impératif",
+      "checked_claim": "命令式代词顺序、连字符及不定式代词边界。"
+    },
+    {
+      "url": "https://laits.utexas.edu/tex/gr/tac1.html",
+      "title": "University of Texas — Conditional",
+      "checked_claim": "条件式构成、愿望、建议和礼貌请求，不把陈述句自动当疑问句。"
+    },
+    {
+      "url": "https://laits.utexas.edu/tex/gr/prep1.html",
+      "title": "University of Texas — Depuis, pendant, pour",
+      "checked_claim": "depuis延续参照点；pendant不限过去时；pour部分计划时长。"
+    },
+    {
+      "url": "https://laits.utexas.edu/tex/gr/tap8.html",
+      "title": "University of Texas — Narration: passé composé vs. imparfait",
+      "checked_claim": "完成整体与背景观察视角，不依单一信号词判定。"
+    },
+    {
+      "url": "https://laits.utexas.edu/tex/gr/pro6.html",
+      "title": "University of Texas — Pronoun y",
+      "checked_claim": "y地点及非人à补语；penser à人用重读代词。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose",
+      "title": "OQLF — Généralités sur le passé composé",
+      "checked_claim": "PC可表完成、结果及已界定的重复经历。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22465/la-syntaxe/la-comparaison/accord-de-le-dans-les-comparaisons-avec-le-plus-le-mieux-le-moins",
+      "title": "OQLF — Accord de le dans les comparaisons",
+      "checked_claim": "动词副词最高级le不变；同一实体程度与不同实体比较区分。"
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "level": "C1",
+  "method": "逐项读取13原卡全部解释、形式、例句、用途、提示及全部62练习的题答注释；逐句审读44扩写小节142例的法语、中文、用途以及比较、错误和边界。疑点实际浏览OQLF/Académie条目核验，修改逐路径记录；脚本仅统计和验证完整性，不替代语义审读。",
+  "coverage": [
+    {
+      "id": "c1-passe-simple",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-subj-imparfait",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-cond-2e",
+      "original_examples": 5,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 7,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-inversion",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 15,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-dislocation",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-concession-indefinie",
+      "original_examples": 6,
+      "original_practice": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-hypothese-sans-si",
+      "original_examples": 6,
+      "original_practice": 5,
+      "expansion_sections": 4,
+      "expansion_examples": 16,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-ne-expletif",
+      "original_examples": 6,
+      "original_practice": 5,
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-accord-avance",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 14,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-connecteurs-soutenus",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-apres-que",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-impersonnelles",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-adj-verbal",
+      "original_examples": 5,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 16,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    }
+  ],
+  "changes": [
+    {
+      "file": "tools/expansion-c1.json",
+      "path": [
+        "c1-subj-imparfait",
+        "sections",
+        0,
+        "explanation"
+      ],
+      "before": "以简单过去时第二人称单数去掉 -s，再接 -sse, -sses, -ssions, -ssiez, -ssent；第三人称单数在所得词干的末尾元音上加长音符，再加 -t；第三人称单数带长音符：tu parlas→qu’il parlât，tu finis→qu’il finît，tu eus→qu’il eût。主要用于文学、古典或刻意郑重语体。",
+      "after": "以简单过去时第二人称单数去掉 -s，再接 -sse, -sses, -ssions, -ssiez, -ssent；第三人称单数在所得词干的末尾元音上加长音符，再加 -t；第三人称单数带长音符：tu parlas→qu’il parlât，tu finis→qu’il finît，tu eus→qu’il eût。haïr 和 ouïr 的第三人称单数保留分音符而不加长音符：qu’il haït、qu’elle ouït；croître 的各人称均保留 û，以区别 croire。主要用于文学、古典或刻意郑重语体。",
+      "reason": "补充构形例外，避免长音符规则绝对化。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif"
+      ]
+    },
+    {
+      "file": "tools/expansion-c1.json",
+      "path": [
+        "c1-subj-imparfait",
+        "sections",
+        2,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "他遗憾她此前没等他就走了。",
+      "after": "他遗憾她此前没有和他一起走。",
+      "reason": "sans lui 未说明是否等待他，去除额外含义。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "grammar",
+        6,
+        "ex",
+        5,
+        "zh"
+      ],
+      "before": "没有你的帮助,我永远做不到。(= Si tu ne m'avais pas aidé)",
+      "after": "如果当时没有你的帮助，我就不可能成功。(= Si tu ne m'avais pas aidé)",
+      "reason": "恢复过去反事实语义，避免译为一般现在能力。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif"
+      ]
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "grammar",
+        11,
+        "ex",
+        3,
+        "zh"
+      ],
+      "before": "事实证明,那些数字是假的。",
+      "after": "事实证明，那些数据是错误的。",
+      "reason": "faux 在该语境不必表示故意伪造。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "grammar",
+        1,
+        "tip"
+      ],
+      "before": "<b>易混:</b>qu'il <b>fût</b>(虚拟式未完成,带 ^)≠ il <b>fut</b>(简单过去)。日常写作用虚拟式现在时即可。",
+      "after": "<b>易混:</b>qu'il <b>fût</b>(虚拟式未完成,带 ^)≠ il <b>fut</b>(简单过去)。现代日常表达中，同期或后续事件一般用虚拟式现在时；先于主句参照点的已完成事件一般用虚拟式过去时。",
+      "reason": "区分现代替代形式的时间关系。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif"
+      ]
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "grammar",
+        8,
+        "zh"
+      ],
+      "before": "几类难配合:① <b>fait</b> + 原形<strong>永不配合</strong>(elle s'est fait couper les cheveux;les robes qu'elle a fait faire);② 过去分词 + 原形:提前的 COD 是原形动作的<strong>施动者</strong>则配合,否则不配合;③ COD 是 <b>en</b> 时一般<strong>不配合</strong>。",
+      "after": "几类难配合:① <b>fait</b> + 原形<strong>永不配合</strong>(elle s'est fait couper les cheveux;les robes qu'elle a fait faire);② avoir 助动词后的过去分词（如 vu、entendu）+ 原形：提前的 COD 同时是该分词的直接宾语、又是原形动作的<strong>施动者</strong>则配合,否则不配合;③ COD 是 <b>en</b> 时一般<strong>不配合</strong>。",
+      "reason": "限定规则句法条件，避免把动作施动者当作唯一判据。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21859/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-suivi-dun-infinitif"
+      ]
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "grammar",
+        8,
+        "fr"
+      ],
+      "before": "Cas pièges : fait + inf. invariable ; participe + infinitif (accord si le COD fait l'action) ; COD = en → pas d'accord.",
+      "after": "Cas pièges : fait + inf. invariable ; avec avoir, participe suivi d’un infinitif (accord si le COD antéposé du participe est aussi le sujet sous-entendu de l’infinitif) ; COD = en → généralement pas d’accord.",
+      "reason": "补充avoir及提前COD条件；en的不变为一般规则。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21859/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-suivi-dun-infinitif",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21037/la-grammaire/le-verbe/accord-du-participe-passe/cas-particuliers-daccord-du-participe-passe/accord-du-participe-passe-avec-le-pronom-en"
+      ]
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "practice",
+        "c1-accord-avance",
+        2,
+        "note"
+      ],
+      "before": "COD 是 en 时过去分词不配合:fait",
+      "after": "本题 COD 是 en，采用一般不配合规则，写 fait；文学中偶见配合。",
+      "reason": "标明通常规则与文学变体。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21037/la-grammaire/le-verbe/accord-du-participe-passe/cas-particuliers-daccord-du-participe-passe/accord-du-participe-passe-avec-le-pronom-en"
+      ]
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "grammar",
+        5,
+        "ex",
+        5,
+        "use"
+      ],
+      "before": "对比(quoique vs quoi que):quoique 一个词 = bien que『尽管』;quoi que 两个词 = 『无论什么』,均接虚拟式",
+      "after": "对比(quoique vs quoi que):quoique 一个词 = bien que『尽管』;quoi que 两个词 = 『无论什么』,本例均用虚拟式。quoi que 接虚拟式；quoique 通常接虚拟式，OQLF 亦记录直陈式用法，不能概括为毫无例外",
+      "reason": "避免把不同结构的选式绝对化。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "practice",
+        "c1-subj-imparfait",
+        2,
+        "q"
+      ],
+      "before": "Choisissez la bonne forme (fût ou fut ?) : Bien qu'il ___ (être) tard, personne ne partit. <span class=hint>提示:bien que 要求虚拟式,文学语体</span>",
+      "after": "Choisissez la bonne forme (fût ou fut ?) : Bien qu'il ___ (être) tard, personne ne partit. <span class=hint>提示:本题按规范文学语体选虚拟式</span>",
+      "reason": "明确题目预期规范，避免忽略实际变体。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "practice",
+        "c1-subj-imparfait",
+        2,
+        "note"
+      ],
+      "before": "考查 fût(虚拟式未完成,带长音符)与 fut(简单过去时)的辨析:bien que 后须用虚拟式。",
+      "after": "考查 fût(虚拟式未完成,带长音符)与 fut(简单过去时)的辨析:本题选规范文学虚拟式；直陈式实际亦见，但受到若干语法书批评。",
+      "reason": "说明规范答案与实际变体。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "practice",
+        "c1-concession-indefinie",
+        5,
+        "q"
+      ],
+      "before": "Un mot ou deux ? Choisissez : ___ (quoique / quoi que) tu dises, il ne changera pas d'avis.",
+      "after": "Un mot ou deux ? Choisissez pour exprimer « 无论你说什么 » : ___ (quoique / quoi que) tu dises, il ne changera pas d'avis.",
+      "reason": "明确无论什么语义，避免对不同解读一概排斥。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "grammar",
+        10,
+        "zh"
+      ],
+      "before": "<b>après que</b> 按规范接<strong>直陈式</strong>(将前一事件视为后续事件的完成前提,未来安排亦如此),而 <b>avant que</b> 接<strong>虚拟式</strong>——这是高频「过度纠正」错点(连母语者也常误用虚拟)。",
+      "after": "<b>après que</b> 按规范接<strong>直陈式</strong>(将前一事件视为后续事件的完成前提,未来安排亦如此),而 <b>avant que</b> 接<strong>虚拟式</strong>。实际用法中也常见 après que + 虚拟式；本章按 Académie française 的规范要求练习直陈式。",
+      "reason": "不把实际选式差异误归因于过度纠正。",
+      "sources": [
+        "https://www.academie-francaise.fr/apres-que"
+      ]
+    },
+    {
+      "file": "tools/expansion-c1.json",
+      "path": [
+        "c1-cond-2e",
+        "sections",
+        2,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "看他的脸色，仿佛他一夜没睡。",
+      "after": "看他的脸色，仿佛他没睡觉。",
+      "reason": "原文未出现一夜，去除无依据的时长。",
+      "sources": []
+    },
+    {
+      "file": "tools/sources-c1.json",
+      "path": [],
+      "before": [
+        {
+          "title": "Académie française — Après que",
+          "url": "https://www.academie-francaise.fr/apres-que",
+          "notes": "规范要求直陈式；补充未来先将来时，不把规则等同于现实已发生。"
+        },
+        {
+          "title": "OQLF — Constructions avec un ne explétif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+          "notes": "赘词 ne 为可省正式用法；比较、恐惧、avant que、à moins que；不与真否定混淆。"
+        },
+        {
+          "title": "OQLF — Verbe exprimant la crainte suivi de que",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que",
+          "notes": "否定恐惧主句通常不加赘词 ne；否定兼疑问有例外。"
+        },
+        {
+          "title": "OQLF — Emploi de ne seul ou avec un adverbe de négation",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23907/la-syntaxe/la-negation-et-la-restriction/emploi-de-ne-seul-ou-avec-un-adverbe-de-negation",
+          "notes": "用于核验 ne 不带 pas 也可能是真否定，避免原文绝对化。"
+        },
+        {
+          "title": "OQLF — Conditionnel passé et plus-que-parfait du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif",
+          "notes": "文学反事实条件与结果均可用虚拟式愈过去；第二式是传统名称，现代文法多按虚拟式分析。"
+        },
+        {
+          "title": "Académie française — Adjectif verbal ou participe présent",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "同页面问题标题定位：形容词配合，分词不变；fatigant/fatiguant 等拼写区分。"
+        },
+        {
+          "title": "OQLF — Inversion sujet-verbe après des adverbes comme peut-être",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23472/la-syntaxe/le-sujet-dans-la-phrase/inversion-sujet-verbe-apres-des-adverbes-comme-peut-etre-en-tete-de-phrase",
+          "notes": "独立审校已读取：代词倒装、名词主语复合倒装、peut-être que 不倒装及副词义项、书面倾向。"
+        },
+        {
+          "title": "Académie française — Questions de langue：配合、quelque…que/quel que",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "独立审校已读配合、不定式施事、1990 laissé、泛指让步quelque与quel que相关段落。"
+        }
+      ],
+      "after": [
+        {
+          "title": "Académie française — Après que",
+          "url": "https://www.academie-francaise.fr/apres-que",
+          "notes": "规范要求直陈式；补充未来先将来时，不把规则等同于现实已发生。"
+        },
+        {
+          "title": "OQLF — Constructions avec un ne explétif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+          "notes": "赘词 ne 为可省正式用法；比较、恐惧、avant que、à moins que；不与真否定混淆。"
+        },
+        {
+          "title": "OQLF — Verbe exprimant la crainte suivi de que",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que",
+          "notes": "否定恐惧主句通常不加赘词 ne；否定兼疑问有例外。"
+        },
+        {
+          "title": "OQLF — Emploi de ne seul ou avec un adverbe de négation",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23907/la-syntaxe/la-negation-et-la-restriction/emploi-de-ne-seul-ou-avec-un-adverbe-de-negation",
+          "notes": "用于核验 ne 不带 pas 也可能是真否定，避免原文绝对化。"
+        },
+        {
+          "title": "OQLF — Conditionnel passé et plus-que-parfait du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif",
+          "notes": "文学反事实条件与结果均可用虚拟式愈过去；第二式是传统名称，现代文法多按虚拟式分析。"
+        },
+        {
+          "title": "Académie française — Adjectif verbal ou participe présent",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "同页面问题标题定位：形容词配合，分词不变；fatigant/fatiguant 等拼写区分。"
+        },
+        {
+          "title": "OQLF — Inversion sujet-verbe après des adverbes comme peut-être",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23472/la-syntaxe/le-sujet-dans-la-phrase/inversion-sujet-verbe-apres-des-adverbes-comme-peut-etre-en-tete-de-phrase",
+          "notes": "独立审校已读取：代词倒装、名词主语复合倒装、peut-être que 不倒装及副词义项、书面倾向。"
+        },
+        {
+          "title": "Académie française — Questions de langue：配合、quelque…que/quel que",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "独立审校已读配合、不定式施事、1990 laissé、泛指让步quelque与quel que相关段落。"
+        },
+        {
+          "title": "OQLF：Formes du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+          "notes": "虚拟式构形、haïr/ouïr及croître例外"
+        },
+        {
+          "title": "OQLF：Subjonctif ou indicatif après les subordonnants composés",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+          "notes": "bien que/quoique变体；quoi que、avant que及après que选式"
+        },
+        {
+          "title": "OQLF：Accord du participe passé suivi d’un infinitif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21859/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-suivi-dun-infinitif",
+          "notes": "提前COD须属分词且为不定式隐含主语"
+        },
+        {
+          "title": "OQLF：Accord du participe passé avec le pronom en",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21037/la-grammaire/le-verbe/accord-du-participe-passe/cas-particuliers-daccord-du-participe-passe/accord-du-participe-passe-avec-le-pronom-en",
+          "notes": "en作COD一般不变、文学配合及en作间接宾语"
+        }
+      ],
+      "reason": "补充本轮实际浏览核查的权威条目。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21859/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-suivi-dun-infinitif",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21037/la-grammaire/le-verbe/accord-du-participe-passe/cas-particuliers-daccord-du-participe-passe/accord-du-participe-passe-avec-le-pronom-en",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+        "https://www.academie-francaise.fr/apres-que",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif"
+      ]
+    },
+    {
+      "file": "tools/expansion-c1.json",
+      "path": [
+        "c1-inversion",
+        "sections",
+        0,
+        "explanation"
+      ],
+      "before": "正式书面语句首 peut-être、sans doute 可采用动词—主语代词倒装。动词与代词用连字符；第三人称单数元音衔接补 -t-：viendra-t-il；动词已有 t/d 不补：vient-il, prend-elle。名词主语一般保留在前，另用代词复指。",
+      "after": "正式书面语句首 peut-être、sans doute 可采用动词—主语代词倒装。动词与代词用连字符；第三人称单数动词拼写以 a/e 结尾且后接 il/elle/on 时加 -t-：viendra-t-il、parle-t-elle；vaincre/convaincre 的 c 结尾也加：vainc-t-il。动词已有 t/d 不补：vient-il、prend-elle。这里看拼写，不能只凭发音是否元音。名词主语一般保留在前，另用代词复指。",
+      "reason": "主任务跨级复核：明确按动词末尾拼写判断连接t，补vaincre/convaincre的-c例外；加拿大语言官方明确a/c/e而不是所有发音元音。",
+      "sources": [
+        "https://nos-langues.canada.ca/fr/cles-de-la-redaction/t-euphonique-t-on-t-en-t-il"
+      ]
+    },
+    {
+      "file": "tools/sources-c1.json",
+      "path": [],
+      "before": [
+        {
+          "title": "Académie française — Après que",
+          "url": "https://www.academie-francaise.fr/apres-que",
+          "notes": "规范要求直陈式；补充未来先将来时，不把规则等同于现实已发生。"
+        },
+        {
+          "title": "OQLF — Constructions avec un ne explétif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+          "notes": "赘词 ne 为可省正式用法；比较、恐惧、avant que、à moins que；不与真否定混淆。"
+        },
+        {
+          "title": "OQLF — Verbe exprimant la crainte suivi de que",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que",
+          "notes": "否定恐惧主句通常不加赘词 ne；否定兼疑问有例外。"
+        },
+        {
+          "title": "OQLF — Emploi de ne seul ou avec un adverbe de négation",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23907/la-syntaxe/la-negation-et-la-restriction/emploi-de-ne-seul-ou-avec-un-adverbe-de-negation",
+          "notes": "用于核验 ne 不带 pas 也可能是真否定，避免原文绝对化。"
+        },
+        {
+          "title": "OQLF — Conditionnel passé et plus-que-parfait du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif",
+          "notes": "文学反事实条件与结果均可用虚拟式愈过去；第二式是传统名称，现代文法多按虚拟式分析。"
+        },
+        {
+          "title": "Académie française — Adjectif verbal ou participe présent",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "同页面问题标题定位：形容词配合，分词不变；fatigant/fatiguant 等拼写区分。"
+        },
+        {
+          "title": "OQLF — Inversion sujet-verbe après des adverbes comme peut-être",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23472/la-syntaxe/le-sujet-dans-la-phrase/inversion-sujet-verbe-apres-des-adverbes-comme-peut-etre-en-tete-de-phrase",
+          "notes": "独立审校已读取：代词倒装、名词主语复合倒装、peut-être que 不倒装及副词义项、书面倾向。"
+        },
+        {
+          "title": "Académie française — Questions de langue：配合、quelque…que/quel que",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "独立审校已读配合、不定式施事、1990 laissé、泛指让步quelque与quel que相关段落。"
+        },
+        {
+          "title": "OQLF：Formes du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+          "notes": "虚拟式构形、haïr/ouïr及croître例外"
+        },
+        {
+          "title": "OQLF：Subjonctif ou indicatif après les subordonnants composés",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+          "notes": "bien que/quoique变体；quoi que、avant que及après que选式"
+        },
+        {
+          "title": "OQLF：Accord du participe passé suivi d’un infinitif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21859/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-suivi-dun-infinitif",
+          "notes": "提前COD须属分词且为不定式隐含主语"
+        },
+        {
+          "title": "OQLF：Accord du participe passé avec le pronom en",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21037/la-grammaire/le-verbe/accord-du-participe-passe/cas-particuliers-daccord-du-participe-passe/accord-du-participe-passe-avec-le-pronom-en",
+          "notes": "en作COD一般不变、文学配合及en作间接宾语"
+        }
+      ],
+      "after": [
+        {
+          "title": "Académie française — Après que",
+          "url": "https://www.academie-francaise.fr/apres-que",
+          "notes": "规范要求直陈式；补充未来先将来时，不把规则等同于现实已发生。"
+        },
+        {
+          "title": "OQLF — Constructions avec un ne explétif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+          "notes": "赘词 ne 为可省正式用法；比较、恐惧、avant que、à moins que；不与真否定混淆。"
+        },
+        {
+          "title": "OQLF — Verbe exprimant la crainte suivi de que",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que",
+          "notes": "否定恐惧主句通常不加赘词 ne；否定兼疑问有例外。"
+        },
+        {
+          "title": "OQLF — Emploi de ne seul ou avec un adverbe de négation",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23907/la-syntaxe/la-negation-et-la-restriction/emploi-de-ne-seul-ou-avec-un-adverbe-de-negation",
+          "notes": "用于核验 ne 不带 pas 也可能是真否定，避免原文绝对化。"
+        },
+        {
+          "title": "OQLF — Conditionnel passé et plus-que-parfait du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif",
+          "notes": "文学反事实条件与结果均可用虚拟式愈过去；第二式是传统名称，现代文法多按虚拟式分析。"
+        },
+        {
+          "title": "Académie française — Adjectif verbal ou participe présent",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "同页面问题标题定位：形容词配合，分词不变；fatigant/fatiguant 等拼写区分。"
+        },
+        {
+          "title": "OQLF — Inversion sujet-verbe après des adverbes comme peut-être",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23472/la-syntaxe/le-sujet-dans-la-phrase/inversion-sujet-verbe-apres-des-adverbes-comme-peut-etre-en-tete-de-phrase",
+          "notes": "独立审校已读取：代词倒装、名词主语复合倒装、peut-être que 不倒装及副词义项、书面倾向。"
+        },
+        {
+          "title": "Académie française — Questions de langue：配合、quelque…que/quel que",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "独立审校已读配合、不定式施事、1990 laissé、泛指让步quelque与quel que相关段落。"
+        },
+        {
+          "title": "OQLF：Formes du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+          "notes": "虚拟式构形、haïr/ouïr及croître例外"
+        },
+        {
+          "title": "OQLF：Subjonctif ou indicatif après les subordonnants composés",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+          "notes": "bien que/quoique变体；quoi que、avant que及après que选式"
+        },
+        {
+          "title": "OQLF：Accord du participe passé suivi d’un infinitif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21859/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-suivi-dun-infinitif",
+          "notes": "提前COD须属分词且为不定式隐含主语"
+        },
+        {
+          "title": "OQLF：Accord du participe passé avec le pronom en",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21037/la-grammaire/le-verbe/accord-du-participe-passe/cas-particuliers-daccord-du-participe-passe/accord-du-participe-passe-avec-le-pronom-en",
+          "notes": "en作COD一般不变、文学配合及en作间接宾语"
+        },
+        {
+          "title": "Portail linguistique du Canada — t euphonique",
+          "url": "https://nos-langues.canada.ca/fr/cles-de-la-redaction/t-euphonique-t-on-t-en-t-il",
+          "notes": "本轮主任务核验：第三人称单数倒装a/c/e拼写结尾加t，已有t/d不重复，含vainc-t-on例。"
+        }
+      ],
+      "reason": "补主任务实读的连接t官方来源。",
+      "sources": [
+        "https://nos-langues.canada.ca/fr/cles-de-la-redaction/t-euphonique-t-on-t-en-t-il"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "c1-concession-indefinie",
+      "detail": "quoique/bien que直陈式接受度在规范资料间不同，已区分OQLF描述与本题规范虚拟式答案。"
+    },
+    {
+      "id": "c1-accord-avance",
+      "detail": "en作COD的文学配合为有记录变体，题目按一般不配合规则；不宣称所有文学作者均遵循不变。"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+      "title": "OQLF：Formes du subjonctif",
+      "checked_claim": "虚拟式构形、haïr/ouïr及croître例外"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+      "title": "OQLF：Subjonctif ou indicatif après les subordonnants composés",
+      "checked_claim": "bien que/quoique变体；quoi que、avant que及après que选式"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21859/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-suivi-dun-infinitif",
+      "title": "OQLF：Accord du participe passé suivi d’un infinitif",
+      "checked_claim": "提前COD须属分词且为不定式隐含主语"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21037/la-grammaire/le-verbe/accord-du-participe-passe/cas-particuliers-daccord-du-participe-passe/accord-du-participe-passe-avec-le-pronom-en",
+      "title": "OQLF：Accord du participe passé avec le pronom en",
+      "checked_claim": "en作COD一般不变、文学配合及en作间接宾语"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+      "title": "OQLF：Constructions avec un ne explétif",
+      "checked_claim": "ne无否定义；sans que后不应加赘词ne"
+    },
+    {
+      "url": "https://www.academie-francaise.fr/apres-que",
+      "title": "Académie française：Après que",
+      "checked_claim": "après que接直陈式及过去先完成时/虚拟式区分"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif",
+      "title": "OQLF：Conditionnel passé et plus-que-parfait du subjonctif",
+      "checked_claim": "文学过去反事实及第二形式历史名称"
+    },
+    {
+      "url": "https://nos-langues.canada.ca/fr/cles-de-la-redaction/t-euphonique-t-on-t-en-t-il",
+      "title": "t euphonique",
+      "checked_claim": "连接t按拼写a/c/e及第三人称后置代词条件，含vainc-t-on。"
+    }
+  ]
+}

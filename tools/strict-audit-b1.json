@@ -1,0 +1,750 @@
+{
+  "level": "B1",
+  "method": "按所有id逐句阅读原讲解/表格/例句及题答注释、扩写各节全部例句与比较/错误/边界/新练习，以及三篇语境逐句fr/zh/why/alternative和题答；先语义审读，再用脚本记录计数和精确修改路径。不是母语专家认证。",
+  "coverage": [
+    {
+      "id": "b1-pqp",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-cond-present",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-cond-passe",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-subj-present",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-subj-declencheurs",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-si",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-discours-indirect",
+      "original_examples": 5,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-passif",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-double-pronoms",
+      "original_examples": 4,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-possessifs-pron",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-demonstratifs-pron",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-dont",
+      "original_examples": 4,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-gerondif",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-negations",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 14,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-connecteurs-base",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 4,
+      "expansion_examples": 18,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    }
+  ],
+  "context_coverage": [
+    {
+      "id": "b1-context-pique-nique",
+      "sentences": 8,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-context-reunion",
+      "sentences": 8,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-context-repas",
+      "sentences": 8,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    }
+  ],
+  "changes": [
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "grammar",
+        4,
+        "ex",
+        2,
+        "use"
+      ],
+      "before": "意愿类:souhaiter que + 虚拟式(对比:espérer que 接直陈式)",
+      "after": "意愿类:souhaiter que + 虚拟式；对比肯定 espérer que 通常用直陈式，否定或疑问另看断言角度。",
+      "reason": "在所有位置一致限定肯定espérer的通常规则。",
+      "sources": [
+        "https://www.dictionnaire-academie.fr/article/A9E2630"
+      ]
+    },
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "practice",
+        "b1-subj-declencheurs",
+        1,
+        "q"
+      ],
+      "before": "J'espère qu'il ___ (venir) à la fête. (espérer que→直陈式!)",
+      "after": "J'espère qu'il ___ (venir) à la fête demain. (肯定希望；用直陈式将来时)",
+      "reason": "原题viendra/vient等因时间语境未明确不应唯一判分。",
+      "sources": [
+        "https://www.dictionnaire-academie.fr/article/A9E2630"
+      ]
+    },
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "practice",
+        "b1-subj-declencheurs",
+        1,
+        "a"
+      ],
+      "before": "J'espère qu'il viendra à la fête.",
+      "after": "J'espère qu'il viendra à la fête demain.",
+      "reason": "与限定将来时间题干一致。",
+      "sources": [
+        "https://www.dictionnaire-academie.fr/article/A9E2630"
+      ]
+    },
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "practice",
+        "b1-subj-declencheurs",
+        4,
+        "q"
+      ],
+      "before": "Je suis triste que tu ___ (partir) si tôt. (情感→虚拟)",
+      "after": "Je suis triste que tu ___ (partir) si tôt demain. (尚未出发；用虚拟式现在时)",
+      "reason": "防止partes与sois parti过去先行的语义多解。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "practice",
+        "b1-subj-declencheurs",
+        4,
+        "a"
+      ],
+      "before": "Je suis triste que tu partes si tôt.",
+      "after": "Je suis triste que tu partes si tôt demain.",
+      "reason": "与题干时间一致。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "practice",
+        "b1-cond-passe",
+        1,
+        "note"
+      ],
+      "before": "venir 用 être,配合主语。",
+      "after": "venir 用 être，配合主语；本题按男性 je 写 venu，女性 je 用 venue。",
+      "reason": "补充题目未提供叙述者性别的同等正确答案。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "practice",
+        "b1-demonstratifs-pron",
+        3,
+        "note"
+      ],
+      "before": "考查中性代词 cela:指代前面整件事,不与名词配合。",
+      "after": "中性代词指代前面整件事，不作名词性数配合；cela 是参考答案，口语 ça 也正确，ceci 在合适指示语境中也可用。",
+      "reason": "承认题干允许的中性指代多解。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "practice",
+        "b1-connecteurs-base",
+        0,
+        "q"
+      ],
+      "before": "Je révise beaucoup ___ j'ai un examen lundi. (原因)",
+      "after": "Je révise beaucoup ___ j'ai un examen lundi. (原因；用 parce que)",
+      "reason": "原因语义不能唯一排除car/puisque，明确目标连接词。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "grammar",
+        14,
+        "ex",
+        0,
+        "use"
+      ],
+      "before": "原因(parce que):回答『为什么』,引出对方未知的原因",
+      "after": "原因(parce que):常回答“为什么”，本例引出复习的具体原因；并非所有 parce que 信息都必须为对方未知。",
+      "reason": "消除已扩写边界与原use矛盾。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "grammar",
+        14,
+        "ex",
+        2,
+        "use"
+      ],
+      "before": "原因(puisque):引出双方都已知的原因,相当于『既然』",
+      "after": "原因(puisque):把“你在这儿”当作已知或显然的依据，相当于“既然”。",
+      "reason": "不强制所有puisque都双方预先已知。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "grammar",
+        6,
+        "ex",
+        4,
+        "use"
+      ],
+      "before": "特殊疑问(quoi→ce que):qu'est-ce que / que 在间接引语中变为 ce que",
+      "after": "直接宾语“什么”:qu’est-ce que / 疑问 que 在此间接引语中变为 ce que；介词 + quoi 不按此规则替换。",
+      "reason": "缩小旧标签quoi→ceque过泛范围。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b1.json",
+      "path": [
+        "grammar",
+        11,
+        "tip"
+      ],
+      "before": "<b>选择方法：</b>先还原 <em>parler de / avoir besoin de / être fier de</em> 等结构。dont 已包含 de，勿重复 en 或物主词。所属关系可说 <em>dont la voiture…</em>；复合介词或嵌套介词组须保留，如 <em>près de laquelle / sur le toit de laquelle</em>。",
+      "after": "<b>选择方法：</b>先还原 <em>parler de / avoir besoin de / être fier de</em> 等结构。dont 已包含 de，勿用 en 或物主词再次表达同一 de 回指关系（其他独立补语仍可保留）。所属关系可说 <em>dont la voiture…</em>；复合介词或嵌套介词组须保留，如 <em>près de laquelle / sur le toit de laquelle</em>。",
+      "reason": "dont与en/物主词可以不同指称共存，不禁所有同句出现。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/22904/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-dont"
+      ]
+    },
+    {
+      "file": "tools/expansion-b1.json",
+      "path": [
+        "b1-dont",
+        "sections",
+        0,
+        "explanation"
+      ],
+      "before": "先恢复简单句：parler de ce livre、avoir besoin de cet outil、être fier de ce résultat，才能判断 dont。dont 已包含 de 的关系，不再重复 de/en。",
+      "after": "先恢复简单句：parler de ce livre、avoir besoin de cet outil、être fier de ce résultat，才能判断 dont。dont 已包含 de 的关系，不再用 de/en 重复同一回指；另指其他对象的独立补语不受此禁令限制。",
+      "reason": "限定赘余规则的语义关系。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/22904/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-dont"
+      ]
+    },
+    {
+      "file": "tools/expansion-b1.json",
+      "path": [
+        "b1-cond-present",
+        "sections",
+        0,
+        "examples",
+        0,
+        "use"
+      ],
+      "before": "与当前居住情况不同。",
+      "after": "本例按目前住得离办公室较远理解；这类形式也可设定试探的未来居住条件，并非仅凭时态证明事实相反。",
+      "reason": "不从si+未完成时单独推出事实。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+      ]
+    },
+    {
+      "file": "tools/expansion-b1.json",
+      "path": [
+        "b1-cond-present",
+        "sections",
+        3,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "据一名目击者说，司机大概三十多岁。",
+      "after": "据一名目击者说，司机大约三十岁。",
+      "reason": "une trentaine为约三十，不精确规定三十多。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-b1.json",
+      "path": [
+        "b1-subj-declencheurs",
+        "comparison"
+      ],
+      "before": "Je souhaite qu’il réussisse 与 J’espère qu’il réussira 都表示希望，但前者虚拟式、后者通常直陈式。Avant qu’il parte 指动作尚未完成；après qu’il est parti 指动作已经完成，规范选式不同。",
+      "after": "Je souhaite qu’il réussisse 与 J’espère qu’il réussira 都表示希望，但前者虚拟式、后者通常直陈式。Avant qu’il parte 把离开定位在另一个动作之后，不表示说话当下离开必未发生；après qu’il est parti 把离开定位在另一动作之前，规范上用直陈式。",
+      "reason": "avant/après的完成关系相对于主句，不是绝对说话时间。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/expansion-b1.json",
+      "path": [
+        "b1-subj-declencheurs",
+        "boundaries"
+      ],
+      "before": "否定/疑问 penser 或 espérer 后并非永远只有一种语气。avant que、à moins que 等正式语体中可有赘词 ne：avant qu’il ne parte；此 ne 不表示否定，真正否定仍须 pas 等。",
+      "after": "否定/疑问 penser 或 espérer 后并非强制虚拟式，选式取决于语义及断言角度。avant que、à moins que 等正式语体中可有赘词 ne：avant qu’il ne parte；此 ne 不表示否定。ne…pas 等可构成真正否定，部分正式结构的 ne 单独也能否定，不能只靠是否有 pas 判断。",
+      "reason": "保留非强制规则且消除ne单独永不能否定的暗示。",
+      "sources": [
+        "https://www.dictionnaire-academie.fr/article/A9E2630"
+      ]
+    },
+    {
+      "file": "tools/expansion-b1.json",
+      "path": [
+        "b1-dont",
+        "sections",
+        2,
+        "examples",
+        1,
+        "zh"
+      ],
+      "before": "坐在我旁边的女同事在这里工作。",
+      "after": "我坐在她旁边的那位女同事在这里工作。",
+      "reason": "保持原句je为assis的主语，不把同事说成落座者。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/22904/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-dont"
+      ]
+    },
+    {
+      "file": "tools/expansion-b1.json",
+      "path": [
+        "b1-si",
+        "sections",
+        3,
+        "examples",
+        1,
+        "use"
+      ],
+      "before": "当前没有车的设想，与已知事实拉开距离；不是过去的拥有状态叙述。",
+      "after": "本场景把没有车作为当前设定；未完成过去时用于有距离的假设，乘公交本身并不能证明没有车。",
+      "reason": "有车也能乘公交，移除无效事实推理。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+      ]
+    },
+    {
+      "file": "tools/context-b1.json",
+      "path": [
+        0,
+        "practice",
+        0,
+        "q"
+      ],
+      "before": "天放晴是可实现条件：Si le soleil ___ (revenir), nous ___ (déjeuner) au parc.",
+      "after": "天放晴是可实现条件，主句用将来时：Si le soleil ___ (revenir), nous ___ (déjeuner) au parc.",
+      "reason": "真实条件的主句也可现在，明确本题目标时态。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+      ]
+    },
+    {
+      "file": "tools/context-b1.json",
+      "path": [
+        1,
+        "sentences",
+        2,
+        "alternative"
+      ],
+      "before": "Si je lirais le document 询问的是从当时看我是否愿意或会读文件，不是询问是否已经读过。",
+      "after": "Elle voulait savoir si je lirais le document 询问的是从当时看我之后是否会读文件，不是是否已经读过；这里 lirais 表过去将来，并不自动表示愿意。",
+      "reason": "lirais不等于愿意，补全引述框架以避免孤立si歧义。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+      ]
+    },
+    {
+      "file": "tools/context-b1.json",
+      "path": [
+        1,
+        "sentences",
+        6,
+        "fr"
+      ],
+      "before": "Dès que j’ai reçu son tableau, je le lui ai transmis avec un court commentaire.",
+      "after": "Dès que j’ai reçu son tableau, je l’ai transmis à ma responsable ; je le lui ai envoyé avec un court commentaire.",
+      "reason": "原lui可回指Paul或主管；明确收件人，保留双代词示范。",
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ]
+    },
+    {
+      "file": "tools/context-b1.json",
+      "path": [
+        1,
+        "sentences",
+        6,
+        "zh"
+      ],
+      "before": "我一收到他的表格，就附上简短说明转给了女主管。",
+      "after": "我一收到他的表格，就转给了女主管，并附上简短说明发给她。",
+      "reason": "与明示收件人后的法语一致。",
+      "sources": []
+    },
+    {
+      "file": "tools/context-b1.json",
+      "path": [
+        1,
+        "sentences",
+        6,
+        "why"
+      ],
+      "before": "le 指 tableau，lui 指前文女主管；两个复合过去时叙述先后完成的动作。",
+      "after": "le 指 tableau，lui 指本句明示的 ma responsable；双代词 le 在 lui 前。复合过去时叙述先收到再转发，先后由 Dès que 及语境体现。",
+      "reason": "明示指称，避免把语法性别lui当女主管固有。",
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ]
+    },
+    {
+      "file": "tools/context-b1.json",
+      "path": [
+        1,
+        "sentences",
+        6,
+        "alternative"
+      ],
+      "before": "Je lui ai transmis son tableau 重说名词较清楚，但失去 le 展示的回指；lui 仍须由语境识别。",
+      "after": "Je lui ai transmis le tableau 重说名词 tableau，但若没有明示收件人，lui 仍可能指 Paul 或女主管，需要语境澄清。",
+      "reason": "旧son tableau也存在所属歧义，解释独立回指限制。",
+      "sources": []
+    },
+    {
+      "file": "tools/context-b1.json",
+      "path": [
+        2,
+        "sentences",
+        2,
+        "why"
+      ],
+      "before": "安装者 Nadia 与吃饭者不同，目的用 pour que + 虚拟式 puisse。",
+      "after": "Nadia 是摆放者，与吃饭者不同，目的用 pour que + 虚拟式 puisse；目的不保证后来确实一起吃饭。",
+      "reason": "installer tables译摆放比安装自然。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/sources-b1.json",
+      "path": [],
+      "before": [
+        {
+          "title": "OQLF — Formes du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+          "notes": "核实虚拟式词尾、avoir/être 例外与不规则词干；自行编写例句。"
+        },
+        {
+          "title": "OQLF — Mode verbal après si",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si",
+          "notes": "条件 si 不用条件式；间接疑问 si 可用条件式；高语体让步 si 的例外。"
+        },
+        {
+          "title": "OQLF — Le pronom relatif dont",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22904/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-dont",
+          "notes": "核实 dont 的 de 关系、物主词/en 重复、嵌套介词补语边界。"
+        },
+        {
+          "title": "OQLF — Subjonctif après certains verbes",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24253/la-grammaire/le-verbe/modes/subjonctif/subjonctif-apres-certains-verbes",
+          "notes": "核实愿望、要求、判断触发结构。"
+        },
+        {
+          "title": "Académie française — Questions de langue : Impératif",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "核实命令式双代词次序、否定前置、en/y 和连字符规则。"
+        },
+        {
+          "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+          "notes": "独立复核连词语气与 bien que 规范分歧。"
+        },
+        {
+          "title": "OQLF — Emploi de car",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23500/la-syntaxe/les-conjonctions/emploi-de-car",
+          "notes": "独立复核 car 可在句号后承接前句。"
+        },
+        {
+          "title": "OQLF — Emploi de parce que et de puisque",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23501/la-syntaxe/les-conjonctions/emploi-de-parce-que-et-de-puisque",
+          "notes": "区分客观原因与被视为明显的依据。"
+        },
+        {
+          "title": "OQLF — Formules interrogatives ce que et qu’est-ce que",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23281/la-syntaxe/linterrogation/formules-interrogatives-ce-que-et-quest-ce-que",
+          "notes": "独立复核间接疑问语序。"
+        },
+        {
+          "title": "OQLF — Sujet sous-entendu du participe présent",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24712/la-syntaxe/constructions-syntaxiques-boiteuses/logique-syntaxique-sujet-sous-entendu-du-participe-present",
+          "notes": "独立复核副动词隐含主语与固定表达边界。"
+        },
+        {
+          "title": "OQLF — Le pronom indéfini personne",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22893/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-personne",
+          "notes": "独立复核人称否定代词与位置。"
+        },
+        {
+          "title": "OQLF — Le pronom indéfini rien",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23886/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-rien",
+          "notes": "独立复核非正式口语与正式否定。"
+        },
+        {
+          "title": "Tex’s French Grammar — si clauses",
+          "url": "https://www.laits.utexas.edu/tex/gr/tac3.html",
+          "notes": "本轮核读：用于构成、语义选择与例外；例句及场景为原创。"
+        },
+        {
+          "title": "Tex’s French Grammar — infinitive constructions",
+          "url": "https://www.laits.utexas.edu/tex/gr/vinf1.html",
+          "notes": "本轮核读：用于构成、语义选择与例外；例句及场景为原创。"
+        },
+        {
+          "title": "OQLF — phrase à la forme passive",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22950/la-grammaire/la-grammaire-actuelle/la-phrase/phrase-a-la-forme-passive",
+          "notes": "本轮核读：用于构成、语义选择与例外；例句及场景为原创。"
+        },
+        {
+          "title": "Académie française — obéir",
+          "url": "https://www.dictionnaire-academie.fr/article/A9O0009",
+          "notes": "本轮核验特殊被动 être obéi；不能据此把一般间接宾语转换为被动主语。"
+        }
+      ],
+      "after": [
+        {
+          "title": "OQLF — Formes du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+          "notes": "核实虚拟式词尾、avoir/être 例外与不规则词干；自行编写例句。"
+        },
+        {
+          "title": "OQLF — Mode verbal après si",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si",
+          "notes": "条件 si 不用条件式；间接疑问 si 可用条件式；高语体让步 si 的例外。"
+        },
+        {
+          "title": "OQLF — Le pronom relatif dont",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22904/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-dont",
+          "notes": "核实 dont 的 de 关系、物主词/en 重复、嵌套介词补语边界。"
+        },
+        {
+          "title": "OQLF — Subjonctif après certains verbes",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24253/la-grammaire/le-verbe/modes/subjonctif/subjonctif-apres-certains-verbes",
+          "notes": "核实愿望、要求、判断触发结构。"
+        },
+        {
+          "title": "Académie française — Questions de langue : Impératif",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "核实命令式双代词次序、否定前置、en/y 和连字符规则。"
+        },
+        {
+          "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+          "notes": "独立复核连词语气与 bien que 规范分歧。"
+        },
+        {
+          "title": "OQLF — Emploi de car",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23500/la-syntaxe/les-conjonctions/emploi-de-car",
+          "notes": "独立复核 car 可在句号后承接前句。"
+        },
+        {
+          "title": "OQLF — Emploi de parce que et de puisque",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23501/la-syntaxe/les-conjonctions/emploi-de-parce-que-et-de-puisque",
+          "notes": "区分客观原因与被视为明显的依据。"
+        },
+        {
+          "title": "OQLF — Formules interrogatives ce que et qu’est-ce que",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23281/la-syntaxe/linterrogation/formules-interrogatives-ce-que-et-quest-ce-que",
+          "notes": "独立复核间接疑问语序。"
+        },
+        {
+          "title": "OQLF — Sujet sous-entendu du participe présent",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24712/la-syntaxe/constructions-syntaxiques-boiteuses/logique-syntaxique-sujet-sous-entendu-du-participe-present",
+          "notes": "独立复核副动词隐含主语与固定表达边界。"
+        },
+        {
+          "title": "OQLF — Le pronom indéfini personne",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22893/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-personne",
+          "notes": "独立复核人称否定代词与位置。"
+        },
+        {
+          "title": "OQLF — Le pronom indéfini rien",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23886/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-rien",
+          "notes": "独立复核非正式口语与正式否定。"
+        },
+        {
+          "title": "Tex’s French Grammar — si clauses",
+          "url": "https://www.laits.utexas.edu/tex/gr/tac3.html",
+          "notes": "本轮核读：用于构成、语义选择与例外；例句及场景为原创。"
+        },
+        {
+          "title": "Tex’s French Grammar — infinitive constructions",
+          "url": "https://www.laits.utexas.edu/tex/gr/vinf1.html",
+          "notes": "本轮核读：用于构成、语义选择与例外；例句及场景为原创。"
+        },
+        {
+          "title": "OQLF — phrase à la forme passive",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22950/la-grammaire/la-grammaire-actuelle/la-phrase/phrase-a-la-forme-passive",
+          "notes": "本轮核读：用于构成、语义选择与例外；例句及场景为原创。"
+        },
+        {
+          "title": "Académie française — obéir",
+          "url": "https://www.dictionnaire-academie.fr/article/A9O0009",
+          "notes": "本轮核验特殊被动 être obéi；不能据此把一般间接宾语转换为被动主语。"
+        },
+        {
+          "title": "Dictionnaire de l’Académie française — espérer",
+          "url": "https://www.dictionnaire-academie.fr/article/A9E2630",
+          "notes": "肯定希望可用现在/将来等直陈式，否定可用虚拟式，不规定否定疑问一律虚拟。"
+        }
+      ],
+      "reason": "补充本轮实际浏览的espérer原典来源。",
+      "sources": [
+        "https://www.dictionnaire-academie.fr/article/A9E2630"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "未发现剩余阻塞性语义错误；没有宣称所有自然语境都只接受参考答案。",
+    "语气选择、新闻消息保留和礼貌强度有语境依赖；已区分常规教学选择与唯一语法许可。"
+  ],
+  "sources": [
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si",
+      "title": "OQLF — Mode verbal après si",
+      "checked_claim": "条件si与间接疑问si的语气限制不同，条件句允许多种主句时态。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22904/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-dont",
+      "title": "OQLF — Le pronom relatif dont",
+      "checked_claim": "避免重复同一de/所属关系，嵌套介词补语边界。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+      "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+      "checked_claim": "目的连词虚拟式，avant/après相对关系，bien que规范变体。"
+    },
+    {
+      "url": "https://www.academie-francaise.fr/questions-de-langue",
+      "title": "Académie française — Questions de langue : Impératif",
+      "checked_claim": "前置代词顺序与肯定命令式区别。"
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9E2630",
+      "title": "Dictionnaire de l’Académie française — espérer",
+      "checked_claim": "肯定希望可用现在/将来等直陈式，否定可用虚拟式，不规定否定疑问一律虚拟。"
+    }
+  ]
+}

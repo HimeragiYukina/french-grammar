@@ -38,5 +38,20 @@
     "title": "Académie française — Questions de langue",
     "url": "https://www.academie-francaise.fr/questions-de-langue",
     "notes": "独立审校已读取：À ou chez（机构、企业）及Impératif等相关规范。"
+  },
+  {
+    "title": "OQLF — Le futur proche",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24122/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-proche",
+    "notes": "严格语义复核已实际读取：与当前参照点的联系，区别不只是未来远近。"
+  },
+  {
+    "title": "OQLF — Généralités sur les déterminants possessifs",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23485/la-grammaire/les-determinants/determinants-possessifs/generalites-sur-les-determinants-possessifs",
+    "notes": "严格语义复核已实际读取：按拥有者人称选系列，按所限定名词性数选形式。"
+  },
+  {
+    "title": "OQLF — Mon, ton et son devant des mots féminins",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24157/la-grammaire/les-determinants/determinants-possessifs/mon-ton-et-son-devant-des-mots-feminins",
+    "notes": "严格语义复核已实际读取：紧接词元音/哑音h规则；son ancienne école与ma nouvelle école；存在十一等词汇例外。"
   }
 ]

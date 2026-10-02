@@ -1,0 +1,747 @@
+{
+  "grammar": [
+    {
+      "id": "c2-passe-anterieur",
+      "level": "C2",
+      "cat": "文学时态精通",
+      "catFr": "Temps littéraires (maîtrise)",
+      "title": "Le passé antérieur",
+      "titleFr": "先过去时(文学)",
+      "zh": "文学语体中表示在另一<strong>简单过去时</strong>动作之前完成的动作；紧接关系常由连词强调,常在 quand / dès que / lorsque / à peine… que 引导的从句里。构成:avoir/être 的<strong>简单过去时</strong> + 过去分词。",
+      "fr": "Le passé antérieur marque une action accomplie antérieure à un événement au passé simple : auxiliaire au passé simple + participe passé.",
+      "forms": "<table><tr><th>finir</th><th>partir</th></tr><tr><td>quand il <b>eut fini</b></td><td>dès qu'elle <b>fut partie</b></td></tr></table>",
+      "ex": [
+        {
+          "fr": "<b>Quand</b> il <b>eut terminé</b>, il se leva et sortit.",
+          "zh": "他一完成,就起身出去了。",
+          "use": "时间连词从句:quand 引导的从句用先过去时,表示完成动作先于主句简单过去时;是否紧接发生由语境和连词共同决定。"
+        },
+        {
+          "fr": "À peine <b>fut-il</b> arrivé qu'on l'appela.",
+          "zh": "他刚到就有人叫他了。",
+          "use": "à peine…que 倒装:à peine 置于句首触发主谓倒装,先过去时表『刚…就…』"
+        },
+        {
+          "fr": "<b>Dès que</b> le soleil <b>se fut couché</b>, les invités partirent.",
+          "zh": "太阳刚一落山,客人们便离去了。",
+          "use": "时间连词从句:dès que 引导的从句用先过去时,代词式动词以 être 的简单过去时作助动词"
+        }
+      ],
+      "tip": "<b>搭配:</b>从句先过去时(先完成)+ 主句简单过去时。日常可按语境改为复合过去时等;连词常已说明先后,不必一律改成愈过去时。识别为主。"
+    },
+    {
+      "id": "c2-concordance-litteraire",
+      "level": "C2",
+      "cat": "文学时态精通",
+      "catFr": "Temps littéraires (maîtrise)",
+      "title": "La concordance littéraire du subjonctif",
+      "titleFr": "虚拟式的文学时态呼应",
+      "zh": "严格文学语体里,主句过去时 → 从句虚拟式用 <strong>imparfait</strong>(同时或在后)或 <strong>plus-que-parfait</strong>(在前)(现代通常用虚拟式现在时/过去时,并保留相对时间关系)。",
+      "fr": "Concordance soutenue : principale au passé → subjonctif imparfait (simultanéité ou postériorité) ou plus-que-parfait (antériorité).",
+      "ex": [
+        {
+          "fr": "Je voulais qu'il <b>vînt</b>.",
+          "zh": "我当时想要他来。(现代:qu'il vienne)",
+          "use": "虚拟式未完成过去:主句过去时,从句动作与之同时或在后 → imparfait du subjonctif"
+        },
+        {
+          "fr": "Bien qu'il <b>eût plu</b>, ils sortirent.",
+          "zh": "尽管之前下过雨,他们还是出门了。",
+          "use": "虚拟式愈过去:从句动作先于主句(先下过雨)→ plus-que-parfait du subjonctif"
+        },
+        {
+          "fr": "Il craignait qu'elle ne <b>fût</b> déjà loin.",
+          "zh": "他担心她已经走远了。(现代:qu'elle ne soit)",
+          "use": "虚拟式未完成过去:主句 imparfait,从句同时的状态用 fût,现代可作 soit；ne 为可省略的赘词，不表示她没有走远。"
+        }
+      ],
+      "tip": "<b>现状:</b>仅在很正式/文学写作里这样配;日常按同时/先行关系用虚拟式现在时或过去时。C2 要求<strong>读懂并能识别</strong>。"
+    },
+    {
+      "id": "c2-concession-soutenue",
+      "level": "C2",
+      "cat": "高级让步与虚拟",
+      "catFr": "Concession et subjonctif fins",
+      "title": "La concession soutenue",
+      "titleFr": "高级让步结构 ⭐",
+      "zh": "<b>quand bien même</b>(+条件式,即便)、<b>n'était / n'eût été</b>(+名词,若非)、<b>encore que</b>(通常+虚拟,虽然)、<b>tout + 形容词 + que</b>(常+直陈,亦可用虚拟,尽管)、<b>pour autant que</b>(常+虚拟,在…范围内;具体语气随意义变化)。",
+      "fr": "Concession soutenue : quand bien même (+cond.), n'était (+nom), encore que (+subj.), tout… que (souvent +ind., aussi +subj.).",
+      "ex": [
+        {
+          "fr": "<b>Quand bien même</b> il pleuvrait, je sortirais.",
+          "zh": "即便下雨,我也会出门。",
+          "use": "quand bien même:后接条件式,表『即便』的假设性让步"
+        },
+        {
+          "fr": "<b>N'eût été</b> son aide, j'aurais échoué.",
+          "zh": "若非他的帮助,我早就失败了。",
+          "use": "n'eût été:后接单数名词,表过去的『若非』,相当于 si ce n'avait été / sans"
+        },
+        {
+          "fr": "<b>Tout</b> intelligent <b>qu'</b>il est, il se trompe.",
+          "zh": "他再聪明也会出错。",
+          "use": "tout…que:后接直陈式,强调让步的内容是既成事实"
+        },
+        {
+          "fr": "<b>N'eût été</b> la tempête, nous serions arrivés à temps.",
+          "zh": "若非那场风暴,我们本会准时到达。",
+          "use": "n'eût été:本句为过去反事实条件『若非那场风暴』;后面的 serions arrivés 表未实现的过去结果。"
+        },
+        {
+          "fr": "Le projet est solide, <b>encore qu'</b>il <b>faille</b> vérifier certains chiffres.",
+          "zh": "这个方案很扎实,虽然某些数字还需核实。",
+          "use": "encore que:后接虚拟式,表事后补充的让步"
+        },
+        {
+          "fr": "<b>Pour autant que</b> je <b>sache</b>, rien n'a changé.",
+          "zh": "就我所知,一切都没有变。",
+          "use": "pour autant que:后接虚拟式,表示『在所知范围内』的判断限定"
+        }
+      ],
+      "tip": "<b>关键:</b>quand bien même + <strong>条件式</strong>;tout… que 常用<strong>直陈式</strong>(强调事实),亦可用虚拟式;encore que 通常 + <strong>虚拟式</strong>;特定文学语境可见其他语气。"
+    },
+    {
+      "id": "c2-subj-fin",
+      "level": "C2",
+      "cat": "高级让步与虚拟",
+      "catFr": "Concession et subjonctif fins",
+      "title": "Les emplois fins du subjonctif",
+      "titleFr": "虚拟式的细微用法 ⭐",
+      "zh": "<b>non que</b>(+虚拟,并非因为)、<b>le fait que</b>(常+虚拟)、<b>de sorte que</b>(<strong>目的</strong>+虚拟 / <strong>结果</strong>+直陈,意义不同!)、<b>soit que… soit que</b>(+虚拟)、<strong>最高级 / le seul / le premier + 关系从句</strong>(常用虚拟表评价；明确叙述事实也可用直陈)。",
+      "fr": "Nuances : non que (+subj.), de sorte que (but→subj. / conséquence→ind.), le seul qui… (souvent +subj., indicatif possible selon le sens).",
+      "ex": [
+        {
+          "fr": "<b>Non qu'</b>il <b>soit</b> bête, mais il est distrait.",
+          "zh": "并非他笨,而是他心不在焉。",
+          "use": "non que:否定一个想当然的原因,后接虚拟式"
+        },
+        {
+          "fr": "Parle fort <b>de sorte qu'</b>on t'<b>entende</b>.",
+          "zh": "大声说,以便别人听见。(目的→虚拟)",
+          "use": "de sorte que 表目的:尚未实现的目标 → 虚拟式(entende)"
+        },
+        {
+          "fr": "C'est le seul qui <b>sache</b> la vérité.",
+          "zh": "他是唯一知道真相的人。",
+          "use": "最高级/le seul + qui:表主观评价,关系从句用虚拟式"
+        },
+        {
+          "fr": "Il parlait très bas, <b>de sorte que</b> personne ne l'<b>entendait</b>.",
+          "zh": "他说话声音很低,结果谁也听不见。(结果→直陈)",
+          "use": "de sorte que 表结果:陈述实际发生的结果 → 直陈式"
+        },
+        {
+          "fr": "<b>Le fait qu'</b>il <b>soit</b> parti sans prévenir m'inquiète.",
+          "zh": "他不辞而别这件事让我担心。",
+          "use": "le fait que:置于句首作主语时常接虚拟式"
+        },
+        {
+          "fr": "<b>Soit qu'</b>il <b>ait</b> oublié, <b>soit qu'</b>il n'<b>ait</b> pas osé, il s'est tu.",
+          "zh": "或是忘了,或是不敢,他什么也没说。",
+          "use": "soit que… soit que:列举两个可能的原因,均接虚拟式"
+        }
+      ],
+      "tip": "<b>对比:</b>de sorte que 表<strong>目的</strong>→虚拟、表<strong>结果</strong>→直陈(…, de sorte qu'on l'entendait)。最高级 + qui 用虚拟表主观判断。"
+    },
+    {
+      "id": "c2-accord-extreme",
+      "level": "C2",
+      "cat": "配合极难情形",
+      "catFr": "Accords extrêmes",
+      "title": "L'accord du participe : cas extrêmes",
+      "titleFr": "过去分词配合(极难情形)⭐",
+      "zh": "① 代词式动词中 se 是<strong>间接</strong>宾语 → <strong>不配合</strong>:se succéder / se plaire / se nuire / se parler / se ressembler(elles se sont <b>succédé</b>);② <b>coûté / pesé / valu / vécu / couru</b> 带非直接宾语的<strong>数量补语</strong>时不配合；有前置<strong>直接宾语</strong>时配合;③ <b>excepté / vu / passé</b> 前置作介词通常不变;<b>ci-joint</b> 句首或无冠词名词前不变,句内带限定词名词前可配合或不配合。",
+      "fr": "se succéder/plaire/nuire (se = COI → invariable) ; coûté/pesé/valu (complément de quantité non direct → invariable) ; ci-joint : invariable en tête de phrase ou avant un nom sans déterminant ; accord facultatif avant un nom déterminé dans la phrase.",
+      "ex": [
+        {
+          "fr": "Les rois qui se sont <b>succédé</b>.",
+          "zh": "相继即位的国王们。(se = à qn → 不配合)",
+          "use": "se=间接宾语不配合:succéder à qn → se 为 COI,分词永不配合"
+        },
+        {
+          "fr": "Veuillez trouver <b>ci-joint</b> la facture.",
+          "zh": "随附发票,请查收。(此处不配合或配合均可)",
+          "use": "ci-joint 在句内限定名词前:此处可不变,也可写 ci-jointe la facture"
+        },
+        {
+          "fr": "Les sommes que ce projet a <b>coûté</b>.",
+          "zh": "这个项目花掉的钱。(本义→不配合)",
+          "use": "coûté 等本义不配合:coûter 本义(价钱数量)→ les sommes 非真正 COD,不配合"
+        },
+        {
+          "fr": "Les efforts que ce travail m'a <b>coûtés</b>.",
+          "zh": "这项工作让我付出的种种努力。(引申义→配合)",
+          "use": "coûté 等引申义配合:coûter 引申为『使付出』时 efforts 是真正 COD → 提前须配合"
+        },
+        {
+          "fr": "Elles se sont <b>plu</b> dès leur première rencontre.",
+          "zh": "她们初次见面就互相投缘。",
+          "use": "se=间接宾语不配合:plaire à qn → se 为 COI,分词不变"
+        },
+        {
+          "fr": "Veuillez signer la déclaration <b>ci-jointe</b>.",
+          "zh": "请在随附的声明上签字。(后置→配合)",
+          "use": "ci-joint 后置形容词配合:须与 déclaration 配合"
+        }
+      ],
+      "tip": "<b>判断:</b>se succéder = succéder <b>à</b> qn → se 是间接宾语 → 不配合。ci-joint 句首或无冠词名词前不变;句内限定名词前两可;后置形容词配合。"
+    },
+    {
+      "id": "c2-inversion-style",
+      "level": "C2",
+      "cat": "风格与倒装",
+      "catFr": "Style et inversion",
+      "title": "L'inversion et la postposition stylistiques",
+      "titleFr": "文体性主语后置与倒装",
+      "zh": "文学/正式语体的主语后置:引述语(« … », <b>dit-il</b>)、地点状语句首(<b>Sur la colline se dressait</b> un château)、关系从句中(la ville <b>où vivait</b> ma grand-mère)。",
+      "fr": "Postposition du sujet : incises (dit-il), complément en tête (Au loin s'étendait la mer), relatives.",
+      "ex": [
+        {
+          "fr": "« Je viendrai », <b>répondit-elle</b>.",
+          "zh": "「我会来」,她答道。",
+          "use": "引述语后置:直接引语后的插入语(incise)中主语与动词倒装"
+        },
+        {
+          "fr": "Au loin <b>s'étendait</b> la mer.",
+          "zh": "远处,大海绵延展开。",
+          "use": "状语句首后置:地点状语置于句首,名词主语移至动词之后"
+        },
+        {
+          "fr": "Ainsi <b>parlait</b> le sage.",
+          "zh": "智者如是说。",
+          "use": "状语句首后置:ainsi 等副词开头的文学句式引起主语后置"
+        },
+        {
+          "fr": "Il retourna dans la ville <b>où vivait</b> sa grand-mère.",
+          "zh": "他回到了祖母生活过的那座城市。",
+          "use": "关系从句后置:où 引导的从句中,短动词 + 名词主语常后置以求句子平衡"
+        }
+      ],
+      "tip": "<b>用途:</b>状语/补语置于句首时,书面常将主语后置以求文雅或句子平衡;口语不必。"
+    },
+    {
+      "id": "c2-ellipse",
+      "level": "C2",
+      "cat": "风格与倒装",
+      "catFr": "Style et inversion",
+      "title": "L'ellipse et la concision",
+      "titleFr": "省略与凝练(高级书面)",
+      "zh": "高级书面追求<strong>省略</strong>与凝练:省去可复原的动词/主语、名词化、破折号、无连词并置(asyndète),提升紧凑与力度。",
+      "fr": "Le style soutenu recourt à l'ellipse (omission d'éléments récupérables) pour la concision.",
+      "ex": [
+        {
+          "fr": "Les uns riaient ; les autres, <b>en larmes</b>.",
+          "zh": "一些人笑着,另一些人则泪流满面。(省略动词)",
+          "use": "省略动词:第二分句省去可复原的动词,以逗号代之,求对称与紧凑"
+        },
+        {
+          "fr": "<b>Inutile d'</b>insister.",
+          "zh": "不必坚持了。(= Il est inutile d'insister.)",
+          "use": "省略非人称主语:省去 Il est,仅留形容词 + de + 原形"
+        },
+        {
+          "fr": "<b>À chacun</b> son métier.",
+          "zh": "各司其职。(格言式省略)",
+          "use": "格言式省略:格言/成句中整个动词省去,凝练有力"
+        },
+        {
+          "fr": "<b>Démission surprise</b> du ministre : stupeur au Parlement.",
+          "zh": "部长突然辞职:议会一片愕然。(标题名词化)",
+          "use": "名词化与无连词并置:新闻标题以名词短语代替完整句,冒号并置两个事实(asyndète)"
+        }
+      ],
+      "tip": "<b>要点:</b>省略须可复原、不致歧义;新闻标题、格言、议论文小结中常见。"
+    },
+    {
+      "id": "c2-conjecture",
+      "level": "C2",
+      "cat": "情态与推测",
+      "catFr": "Modalisation",
+      "title": "Le futur et le conditionnel de conjecture",
+      "titleFr": "推测性将来时/条件式 ⭐",
+      "zh": "用时态表<strong>推测</strong>而非时间:<b>futur de conjecture</b>(多半…:Il <b>sera</b> malade = 他大概病了);<b>conditionnel</b> 表<strong>未经证实</strong>(新闻:Il y <b>aurait</b> des victimes = 据称有伤亡);devoir / pouvoir 表情态推测。",
+      "fr": "Le futur/conditionnel peut exprimer la conjecture (probabilité, information non confirmée).",
+      "ex": [
+        {
+          "fr": "On sonne — ce <b>sera</b> le facteur.",
+          "zh": "有人按铃——多半是邮差。",
+          "use": "推测性将来时:futur 表对当下情形的推测『多半是』,而非将来时间"
+        },
+        {
+          "fr": "Selon la presse, le bilan <b>s'élèverait</b> à dix morts.",
+          "zh": "据媒体报道，死亡人数据称达到十人。",
+          "use": "新闻条件式:conditionnel 表示消息未经证实,常见于新闻报道"
+        },
+        {
+          "fr": "Il <b>doit</b> être déjà parti.",
+          "zh": "他想必已经走了。",
+          "use": "情态动词推测:devoir + 原形表『想必/应该』的推断"
+        },
+        {
+          "fr": "Il n'est pas venu — il <b>aura oublié</b> notre rendez-vous.",
+          "zh": "他没来——多半是忘了我们的约会。",
+          "use": "推测性将来时:futur antérieur 表对已发生之事的推测"
+        },
+        {
+          "fr": "Il <b>a pu</b> manquer son train.",
+          "zh": "他可能是误了火车。",
+          "use": "情态动词推测:pouvoir 表比 devoir 更弱的可能性推断"
+        }
+      ],
+      "tip": "<b>阅读信号:</b>新闻条件式可表示「据称/有待证实」，但新闻文本也有真正假设或过去将来；结合消息来源和上下文判断。"
+    },
+    {
+      "id": "c2-rection",
+      "level": "C2",
+      "cat": "词法与篇章衔接",
+      "catFr": "Rection et cohésion",
+      "title": "La rection verbale fine",
+      "titleFr": "动词介词支配的细微差别 ⭐",
+      "zh": "换介词即换义:<b>tenir à</b>(珍视/坚持)vs <b>tenir de</b>(像/源自);<b>jouer à</b>(玩运动)vs <b>jouer de</b>(演奏乐器);<b>manquer à</b>(使想念)vs <b>manquer de</b>(缺);<b>il s'agit de</b>(涉及)、<b>en vouloir à</b>(怪罪)。",
+      "fr": "La préposition change le sens : tenir à/de, jouer à/de, manquer à/de, en vouloir à, il s'agit de.",
+      "ex": [
+        {
+          "fr": "Je <b>tiens à</b> toi. / Il <b>tient de</b> son père.",
+          "zh": "我在乎你。/ 他像他父亲。",
+          "use": "tenir à/de:tenir à = 珍视/坚持,tenir de = 像/源自,介词决定词义"
+        },
+        {
+          "fr": "Elle <b>joue du</b> piano et <b>au</b> tennis.",
+          "zh": "她弹钢琴、打网球。",
+          "use": "jouer à/de:jouer de + 乐器,jouer à + 运动或游戏"
+        },
+        {
+          "fr": "Tu me <b>manques</b>.",
+          "zh": "我想你。(manquer à 的特殊语序!)",
+          "use": "manquer à:『使想念』,主语是被想念的人,与中文主宾相反"
+        },
+        {
+          "fr": "Ce discours <b>manque de</b> conviction.",
+          "zh": "这篇演说缺乏说服力。",
+          "use": "manquer de:『缺乏』+ 名词,与 manquer à 意义迥异"
+        },
+        {
+          "fr": "Dans ce roman, il <b>s'agit d'</b>une vengeance familiale.",
+          "zh": "这部小说讲的是一场家族复仇。",
+          "use": "il s'agit de:非人称固定结构,主语永远是 il,表『涉及/讲的是』"
+        },
+        {
+          "fr": "Ne m'<b>en veux pas</b>, je ne l'ai pas fait exprès.",
+          "zh": "别怪我,我不是故意的。",
+          "use": "en vouloir à:固定短语『怪罪某人』,en 已凝固在结构中"
+        }
+      ],
+      "tip": "<b>高频错点:</b>「我想你」= <b>Tu me manques</b>(字面:你对我而言缺失),主宾与中文相反。"
+    },
+    {
+      "id": "c2-cause-niee",
+      "level": "C2",
+      "cat": "词法与篇章衔接",
+      "catFr": "Rection et cohésion",
+      "title": "La cause niée et nuancée",
+      "titleFr": "否定/修正原因的句式",
+      "zh": "精细论证中否定或修正一个原因:<b>non (pas) que… mais (parce que)</b>(并非因为…而是,non que 后接<strong>虚拟</strong>)、<b>ce n'est pas que… c'est que</b>。",
+      "fr": "Nier/nuancer une cause : non (pas) que… mais… (subjonctif après non que) ; ce n'est pas que… c'est que…",
+      "ex": [
+        {
+          "fr": "Il a refusé, <b>non qu'</b>il <b>soit</b> timide, <b>mais</b> par principe.",
+          "zh": "他拒绝了,并非因为胆小,而是出于原则。",
+          "use": "non que…mais:先以虚拟式否定一个想当然的原因,再以 mais 给出真实原因"
+        },
+        {
+          "fr": "<b>Ce n'est pas que</b> je n'aime pas, <b>c'est que</b> je n'ai pas le temps.",
+          "zh": "不是我不喜欢,而是我没时间。",
+          "use": "ce n'est pas que…c'est que:『不是…而是…』的否定—修正原因框架"
+        },
+        {
+          "fr": "Elle se tait, <b>non pas qu'</b>elle <b>ait</b> peur, <b>mais parce qu'</b>elle réfléchit.",
+          "zh": "她沉默着,并非因为害怕,而是因为在思考。",
+          "use": "non que…mais:变体 non pas que 同样接虚拟式,后接 mais parce que 引出真因"
+        }
+      ],
+      "tip": "<b>用途:</b>non que + 虚拟式;这是议论文里「先否定一个看似的原因」的高级句式。"
+    },
+    {
+      "id": "c2-cohesion",
+      "level": "C2",
+      "cat": "词法与篇章衔接",
+      "catFr": "Rection et cohésion",
+      "title": "Les marqueurs de cohésion de haut niveau",
+      "titleFr": "高阶篇章衔接词 ⭐",
+      "zh": "<b>or</b>(而/然而,引入新前提或论据)、<b>au demeurant</b>(再者/不过)、<b>en l'occurrence</b>(具体而言/就此而言)、<b>partant</b>(因而)、<b>cela étant</b>(话虽如此)、<b>quoi qu'il en soit</b>(无论如何)、<b>à cet égard</b>(在这方面)。",
+      "fr": "Connecteurs de haut niveau : or, au demeurant, en l'occurrence, partant, cela étant, quoi qu'il en soit, à cet égard.",
+      "ex": [
+        {
+          "fr": "<b>Quoi qu'il en soit</b>, la décision est prise.",
+          "zh": "无论如何,决定已经做出。",
+          "use": "quoi qu'il en soit:凝固的虚拟式短语『无论如何』,常用于段落收束"
+        },
+        {
+          "fr": "<b>En l'occurrence</b>, il avait raison.",
+          "zh": "就此事而言,他是对的。",
+          "use": "en l'occurrence:『就此事而言』,把一般论断落到具体情形"
+        },
+        {
+          "fr": "Le projet coûte cher ; <b>cela étant</b>, il est nécessaire.",
+          "zh": "项目很贵;话虽如此,它是必要的。",
+          "use": "cela étant:『话虽如此』,承认前述事实后引出转折"
+        },
+        {
+          "fr": "Tous les hommes sont mortels ; <b>or</b> Socrate est un homme ; donc Socrate est mortel.",
+          "zh": "人皆有死;而苏格拉底是人;故苏格拉底有死。",
+          "use": "or:引入推理的新前提或新论据,推动论证前进"
+        },
+        {
+          "fr": "Le style est dense, <b>au demeurant</b> élégant.",
+          "zh": "文风紧凑,而且不失优雅。",
+          "use": "au demeurant:『再者/不过』,补充一个略带转折的评价"
+        },
+        {
+          "fr": "La demande recule ; <b>partant</b>, les prix baissent.",
+          "zh": "需求回落;因而价格下降。",
+          "use": "partant:文语『因而』,以前句为因引出结果"
+        },
+        {
+          "fr": "<b>À cet égard</b>, aucune décision n'a encore été prise.",
+          "zh": "在这方面,尚未做出任何决定。",
+          "use": "à cet égard:『在这方面』,限定论述所指的方面"
+        }
+      ],
+      "tip": "<b>用途:</b>这些词让议论文衔接更密、语体更高;quoi qu'il en soit / cela étant 常用于段落收束或转折。"
+    },
+    {
+      "id": "c2-exclamation",
+      "level": "C2",
+      "cat": "词法与篇章衔接",
+      "catFr": "Rection et cohésion",
+      "title": "Tournures exclamatives soutenues",
+      "titleFr": "文学感叹与强调句式",
+      "zh": "<b>Que de…!</b>(多么多…!)、<b>Que ne…!</b>(怎么不…/真该…,文学)、<b>Combien…!</b>,以及比较从句中的文学性 <b>ne</b>。",
+      "fr": "Exclamation soutenue : Que de… ! (quantité), Que ne… ! (regret littéraire), Combien… !",
+      "ex": [
+        {
+          "fr": "<b>Que de</b> temps perdu !",
+          "zh": "浪费了多少时间啊!",
+          "use": "Que de…!:Que de + 名词,感叹数量之多"
+        },
+        {
+          "fr": "<b>Que ne</b> l'as-tu dit plus tôt !",
+          "zh": "你怎么不早说!(文学,带惋惜)",
+          "use": "Que ne…!:Que ne + 倒装,文学化的惋惜『怎么不…/真该…』"
+        },
+        {
+          "fr": "Il est plus âgé que je <b>ne</b> le croyais.",
+          "zh": "他比我以为的要年长。",
+          "use": "比较从句的文学 ne:不等比较(plus…que)后加赘词 ne,不表否定"
+        },
+        {
+          "fr": "<b>Combien</b> je regrette ces années passées !",
+          "zh": "我多么惋惜那些逝去的岁月啊!",
+          "use": "Combien…!:文学化感叹,置于句首修饰整个分句"
+        }
+      ],
+      "tip": "<b>结构:</b>Que de + 名词 = 「多么多…」;Que ne + 倒装 = 文学化的「真该…/怎么不…」。"
+    }
+  ],
+  "practice": {
+    "c2-passe-anterieur": [
+      {
+        "q": "改写成文学语体(先过去时 + 简单过去时) : « Quand il a eu fini son discours, il est sorti. »",
+        "a": "Quand il eut fini son discours, il sortit.",
+        "note": "考查时间连词从句:文学先过去时 + 简单过去时。原句 a eu fini 是过去超复合时（passé surcomposé）,不是普通复合过去时;此处表达先行完成。"
+      },
+      {
+        "q": "改为先过去时 + 简单过去时 : « Dès qu'elle est partie, le silence est retombé. »",
+        "a": "Dès qu'elle fut partie, le silence retomba.",
+        "note": "考查时间连词从句:dès que + 先过去时(être 类动词分词配合阴性)。"
+      },
+      {
+        "q": "« À peine ___ fini son repas que le téléphone sonna. » (il / avoir,先过去时 + 倒装)",
+        "a": "À peine eut-il fini son repas que le téléphone sonna.",
+        "note": "考查 à peine…que 倒装:句首 à peine 触发主谓倒装,从句用先过去时。"
+      }
+    ],
+    "c2-concordance-litteraire": [
+      {
+        "q": "改写成文学呼应(虚拟式未完成过去) : « Je voulais qu'il vienne. »",
+        "a": "Je voulais qu'il vînt.",
+        "note": "考查虚拟式未完成过去:主句过去时 + 从句同时或在后 → vînt。"
+      },
+      {
+        "q": "改写成文学呼应(表「在前」用虚拟式愈过去) : « Bien qu'il ait plu, ils sortirent. »",
+        "a": "Bien qu'il eût plu, ils sortirent.",
+        "note": "考查虚拟式愈过去:从句动作在前 → eût plu。"
+      },
+      {
+        "q": "改写成现代法语 : « Il doutait que nous eussions compris. » → « Il doutait que nous ___ . »",
+        "a": "Il doutait que nous ayons compris.",
+        "note": "考查识别文学呼应:虚拟式愈过去 eussions compris = 现代虚拟式过去 ayons compris。"
+      }
+    ],
+    "c2-concession-soutenue": [
+      {
+        "q": "« Quand bien même il ___ (pleuvoir), je sortirais. » (即便)",
+        "a": "Quand bien même il pleuvrait, je sortirais.",
+        "note": "quand bien même + 条件式。"
+      },
+      {
+        "q": "« Tout intelligent qu'il ___ (être), il se trompe. » (强调事实→直陈)",
+        "a": "Tout intelligent qu'il est, il se trompe.",
+        "note": "tout… que + 直陈式。"
+      },
+      {
+        "q": "« ___ son aide, j'aurais échoué. » (若非，n’être 的文学过去反事实形式)",
+        "a": "N'eût été son aide, j'aurais échoué.",
+        "note": "n’eût été + 单数名词 = 若非；过去反事实条件。"
+      },
+      {
+        "q": "« Le plan est bon, encore qu'il ___ (être) perfectible. » (虽然,补充让步)",
+        "a": "Le plan est bon, encore qu'il soit perfectible.",
+        "note": "考查 encore que + 虚拟式,表事后补充的让步。"
+      },
+      {
+        "q": "« ___ je m'en souvienne, il n'a jamais menti. » (就我记忆所及)",
+        "a": "Pour autant que je m'en souvienne, il n'a jamais menti.",
+        "note": "考查 pour autant que + 虚拟式,表示判断范围的限定。"
+      }
+    ],
+    "c2-subj-fin": [
+      {
+        "q": "« Non qu'il ___ (être) bête, mais il est distrait. » (并非)",
+        "a": "Non qu'il soit bête, mais il est distrait.",
+        "note": "non que + 虚拟式。"
+      },
+      {
+        "q": "« Parle fort de sorte qu'on t'___ (entendre). » (目的)",
+        "a": "Parle fort de sorte qu'on t'entende.",
+        "note": "de sorte que 表目的→虚拟。"
+      },
+      {
+        "q": "« C'est le seul qui ___ (savoir) la vérité. » (主观→虚拟)",
+        "a": "C'est le seul qui sache la vérité.",
+        "note": "最高级/le seul + qui → 虚拟式,表主观判断。"
+      },
+      {
+        "q": "« Il parlait très bas, de sorte que personne ne l'___ (entendre, 结果). »",
+        "a": "Il parlait très bas, de sorte que personne ne l'entendait.",
+        "note": "考查 de sorte que 表结果 → 直陈式,与表目的 + 虚拟式相对。"
+      },
+      {
+        "q": "« Le fait qu’il ___ (être) étranger ne change rien à l’affaire. » (本题练习常见的虚拟式现在)",
+        "a": "Le fait qu'il soit étranger ne change rien à l'affaire.",
+        "note": "本题按要求用 soit；le fait que 作主语时虚拟式常见，但 est 可在突出已知事实的语境成立，不能一律判错。"
+      },
+      {
+        "q": "« Soit qu'il ___ peur, soit qu'il ___ distrait, il n'a pas répondu. » (avoir / être，虚拟式过去；或是…或是…)",
+        "a": "Soit qu'il ait eu peur, soit qu'il ait été distrait, il n'a pas répondu.",
+        "note": "考查 soit que… soit que + 虚拟式(此处为虚拟式过去)。"
+      }
+    ],
+    "c2-accord-extreme": [
+      {
+        "q": "« Les rois qui se sont ___ (succéder). » (se = à qn)",
+        "a": "Les rois qui se sont succédé.",
+        "note": "se = 间接宾语 → 不配合。"
+      },
+      {
+        "q": "« Veuillez trouver ___ (ci-joint) la facture. » (置于名词前)",
+        "a": "Veuillez trouver ci-joint la facture.",
+        "note": "句内限定名词前可不变或配合:ci-joint / ci-jointe la facture 均可。"
+      },
+      {
+        "q": "« Les sommes que ce projet a ___ (coûter). » (本义/数量)",
+        "a": "Les sommes que ce projet a coûté.",
+        "note": "此处价钱是数量补语，不是直接宾语，所以 coûté 不配合。"
+      },
+      {
+        "q": "« Les efforts que ce projet nous a ___ (coûter). » (引申义)",
+        "a": "Les efforts que ce projet nous a coûtés.",
+        "note": "考查 coûter 引申义(使付出)→ COD 提前须配合。"
+      },
+      {
+        "q": "« Elles se sont ___ (parler) puis se sont ___ (plaire). » (se = à qn)",
+        "a": "Elles se sont parlé puis se sont plu.",
+        "note": "考查 se parler / se plaire:se 为间接宾语 → 分词不配合。"
+      },
+      {
+        "q": "« Vous trouverez la facture ___ (ci-joint, 置于名词后). »",
+        "a": "Vous trouverez la facture ci-jointe.",
+        "note": "考查 ci-joint 后置形容词 → 配合;句首/无冠词名词前不变,句内限定名词前两可。"
+      }
+    ],
+    "c2-inversion-style": [
+      {
+        "q": "主语后置 : « La mer s'étendait au loin. » → « Au loin ___ . »",
+        "a": "Au loin s'étendait la mer.",
+        "note": "考查状语句首引起的主语后置。"
+      },
+      {
+        "q": "主语后置 : « Sur la colline, un château se dressait. »",
+        "a": "Sur la colline se dressait un château.",
+        "note": "考查地点状语句首 + 名词主语后置。"
+      },
+      {
+        "q": "加入引述语(主语后置) : « Je reviendrai bientôt », ___ . (répondre, elle, 简单过去时)",
+        "a": "« Je reviendrai bientôt », répondit-elle.",
+        "note": "考查引述语 incise 中的主谓倒装。"
+      },
+      {
+        "q": "主语后置(关系从句) : « le village où ma grand-mère vivait » → « le village où ___ »",
+        "a": "le village où vivait ma grand-mère",
+        "note": "考查关系从句中名词主语后置的文体倒装。"
+      }
+    ],
+    "c2-ellipse": [
+      {
+        "q": "用省略式改写 : « Il est inutile d'insister. » → « ___ insister. »",
+        "a": "Inutile d'insister.",
+        "note": "考查省略非人称主语 Il est 的凝练句式。"
+      },
+      {
+        "q": "省略可复原的动词 : « Les uns riaient ; les autres étaient en larmes. » → « Les uns riaient ; les autres, ___ . »",
+        "a": "Les uns riaient ; les autres, en larmes.",
+        "note": "此句省去第二分句的 étaient，以逗号标示；不是把 pleuraient 与 en larmes 当成同一个词义。"
+      },
+      {
+        "q": "改写成格言式省略 : « Chacun a ses goûts. » → « ___ ses goûts. »",
+        "a": "À chacun ses goûts.",
+        "note": "考查格言式省略:省去动词,以 à chacun 开头。"
+      },
+      {
+        "q": "改写成新闻标题(名词化省略) : « Le ministre a démissionné. » → « ___ du ministre. »",
+        "a": "Démission du ministre.",
+        "note": "考查名词化省略:标题以名词短语代替完整句。"
+      }
+    ],
+    "c2-conjecture": [
+      {
+        "q": "« On sonne — ce ___ (être,推测性将来时) le facteur. » (多半是)",
+        "a": "On sonne — ce sera le facteur.",
+        "note": "futur de conjecture = 大概。"
+      },
+      {
+        "q": "« Selon la presse, le bilan ___ (s'élever,新闻条件式) à dix morts. » (据称)",
+        "a": "Selon la presse, le bilan s'élèverait à dix morts.",
+        "note": "条件式 = 未经证实。"
+      },
+      {
+        "q": "« Il n'est pas là ; il ___ (devoir) être déjà parti. » (想必)",
+        "a": "Il n'est pas là ; il doit être déjà parti.",
+        "note": "考查 devoir 表情态推测『想必』。"
+      },
+      {
+        "q": "« Il n'est pas venu — il ___ (oublier,先将来时表对已发生之事的推测). »",
+        "a": "Il n'est pas venu — il aura oublié.",
+        "note": "考查 futur antérieur de conjecture:推测某事多半已经发生。"
+      }
+    ],
+    "c2-rection": [
+      {
+        "q": "« Tu me ___ (manquer). » (我想你)",
+        "a": "Tu me manques.",
+        "note": "manquer à:主宾与中文相反。"
+      },
+      {
+        "q": "« Elle ___ (jouer) du piano et ___ (jouer) au tennis. »",
+        "a": "Elle joue du piano et joue au tennis.",
+        "note": "jouer de 乐器 / jouer à 运动。"
+      },
+      {
+        "q": "« Il ___ (tenir) de son père. » (像)",
+        "a": "Il tient de son père.",
+        "note": "tenir de = 像;tenir à = 在乎。"
+      },
+      {
+        "q": "« Ce rapport ___ (manquer) ___ précision. » (缺乏)",
+        "a": "Ce rapport manque de précision.",
+        "note": "考查 manquer de = 缺乏,与 manquer à(使想念)相对。"
+      },
+      {
+        "q": "« De quoi ___ -il dans ce chapitre ? » (s'agir,涉及什么)",
+        "a": "De quoi s'agit-il dans ce chapitre ?",
+        "note": "考查 il s'agit de 非人称结构,主语固定为 il。"
+      },
+      {
+        "q": "« Elle m'___ encore de mon retard. » (en vouloir,怪罪)",
+        "a": "Elle m'en veut encore de mon retard.",
+        "note": "考查 en vouloir à qn de qch = 因某事怪罪某人。"
+      }
+    ],
+    "c2-cause-niee": [
+      {
+        "q": "« Il a refusé, non qu'il ___ (être) timide, mais par principe. » (并非因为)",
+        "a": "Il a refusé, non qu'il soit timide, mais par principe.",
+        "note": "non que + 虚拟式。"
+      },
+      {
+        "q": "补全 : « ___ je n'aime pas, ___ je n'ai pas le temps. » (不是…而是…)",
+        "a": "Ce n'est pas que je n'aime pas, c'est que je n'ai pas le temps.",
+        "note": "考查 ce n'est pas que… c'est que 的否定—修正原因框架。"
+      },
+      {
+        "q": "« Elle se tait, non pas qu'elle ___ (avoir) peur, mais parce qu'elle réfléchit. » (并非因为)",
+        "a": "Elle se tait, non pas qu'elle ait peur, mais parce qu'elle réfléchit.",
+        "note": "考查 non (pas) que + 虚拟式,mais parce que + 直陈式给出真实原因。"
+      }
+    ],
+    "c2-cohesion": [
+      {
+        "q": "« ___ , la décision est prise. » (无论如何)（本题指定使用 quoi qu’il en soit。）",
+        "a": "Quoi qu'il en soit, la décision est prise.",
+        "note": "考查 quoi qu'il en soit 收束段落。"
+      },
+      {
+        "q": "« ___ , il avait raison. » (就此事而言)（本题指定使用 en l’occurrence。）",
+        "a": "En l'occurrence, il avait raison.",
+        "note": "考查 en l'occurrence 落到具体情形。"
+      },
+      {
+        "q": "« Le projet coûte cher ; ___ , il est nécessaire. » (话虽如此)（本题指定使用 cela étant。）",
+        "a": "Le projet coûte cher ; cela étant, il est nécessaire.",
+        "note": "考查 cela étant 承认事实后转折。"
+      },
+      {
+        "q": "« Il se dit pauvre ; ___ , il vient d'acheter une villa. » (然而,引入新论据)（本题指定使用 or。）",
+        "a": "Il se dit pauvre ; or, il vient d'acheter une villa.",
+        "note": "考查 or 引入与前述相抵的新论据。"
+      },
+      {
+        "q": "« La route est longue ; elle est, ___ , fort belle. » (再者/不过)（本题指定使用 au demeurant。）",
+        "a": "La route est longue ; elle est, au demeurant, fort belle.",
+        "note": "考查 au demeurant 补充略带转折的评价。"
+      },
+      {
+        "q": "« Les coûts augmentent ; ___ , les marges diminuent. » (因而,文语)（本题指定使用 partant。）",
+        "a": "Les coûts augmentent ; partant, les marges diminuent.",
+        "note": "考查文语连接词 partant = 因而。"
+      },
+      {
+        "q": "« ___ , votre proposition mérite examen. » (在这方面)（本题指定使用 à cet égard。）",
+        "a": "À cet égard, votre proposition mérite examen.",
+        "note": "考查 à cet égard 指回前文某方面；本题是句型填空，独立使用需补足所指方面。"
+      }
+    ],
+    "c2-exclamation": [
+      {
+        "q": "« ___ temps perdu ! » (多么多…!表数量)（指定 Que de 结构。）",
+        "a": "Que de temps perdu !",
+        "note": "考查 Que de + 名词的数量感叹。"
+      },
+      {
+        "q": "« Il est plus âgé que je ___ le croyais. » (比较从句的赘词 ne)",
+        "a": "Il est plus âgé que je ne le croyais.",
+        "note": "考查不等比较后的文学性赘词 ne。"
+      },
+      {
+        "q": "« ___ l'avez-vous avoué plus tôt ! » (真该早点承认,文学惋惜 + 倒装)",
+        "a": "Que ne l'avez-vous avoué plus tôt !",
+        "note": "考查 Que ne + 倒装的文学惋惜句式。"
+      },
+      {
+        "q": "« ___ je regrette ces années ! » (多么,文学感叹)（指定 Combien。）",
+        "a": "Combien je regrette ces années !",
+        "note": "考查 Combien…! 的文学感叹用法。"
+      }
+    ]
+  }
+}

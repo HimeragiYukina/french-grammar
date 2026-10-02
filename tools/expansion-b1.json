@@ -63,7 +63,7 @@
           {
             "fr": "Si j’habitais près du bureau, j’y irais à pied.",
             "zh": "如果我住在办公室附近，我会步行去。",
-            "use": "与当前居住情况不同。"
+            "use": "本例按目前住得离办公室较远理解；这类形式也可设定试探的未来居住条件，并非仅凭时态证明事实相反。"
           },
           {
             "fr": "Si le directeur acceptait, nous lancerions le projet lundi.",
@@ -120,7 +120,7 @@
         "examples": [
           {
             "fr": "Selon un témoin, le conducteur aurait une trentaine d’années.",
-            "zh": "据一名目击者说，司机大概三十多岁。",
+            "zh": "据一名目击者说，司机大约三十岁。",
             "use": "身份描述未经核实。"
           },
           {
@@ -356,9 +356,9 @@
         ]
       }
     ],
-    "comparison": "Je souhaite qu’il réussisse 与 J’espère qu’il réussira 都表示希望，但前者虚拟式、后者通常直陈式。Avant qu’il parte 指动作尚未完成；après qu’il est parti 指动作已经完成，规范选式不同。",
+    "comparison": "Je souhaite qu’il réussisse 与 J’espère qu’il réussira 都表示希望，但前者虚拟式、后者通常直陈式。Avant qu’il parte 把离开定位在另一个动作之后，不表示说话当下离开必未发生；après qu’il est parti 把离开定位在另一动作之前，规范上用直陈式。",
     "errors": "错误：Il faut que tu fais。改：Il faut que tu fasses。错误：J’espère qu’il soit là demain。通常改：J’espère qu’il sera là demain。",
-    "boundaries": "否定/疑问 penser 或 espérer 后并非永远只有一种语气。avant que、à moins que 等正式语体中可有赘词 ne：avant qu’il ne parte；此 ne 不表示否定，真正否定仍须 pas 等。"
+    "boundaries": "否定/疑问 penser 或 espérer 后并非强制虚拟式，选式取决于语义及断言角度。avant que、à moins que 等正式语体中可有赘词 ne：avant qu’il ne parte；此 ne 不表示否定。ne…pas 等可构成真正否定，部分正式结构的 ne 单独也能否定，不能只靠是否有 pas 判断。"
   },
   "b1-si": {
     "sections": [
@@ -419,11 +419,49 @@
             "use": "过去条件、现在结果。"
           }
         ]
+      },
+      {
+        "title": "提出方案：现实预案与暂时设想",
+        "explanation": "si + 现在时常用于仍可实现的计划，主句可用将来时或命令式；si + 未完成过去时把条件拉开为设想，主句条件式。这不是机械的概率百分比划分。同样的词汇换搭配会改变说话者的立场。si on + imparfait 可以提出建议，主句可省略；间接疑问中的 si 表“是否”，不适用条件句的禁用未来时口诀。",
+        "examples": [
+          {
+            "fr": "Si vous êtes disponible mardi, nous fixerons le rendez-vous ce jour-là.",
+            "zh": "如果您周二有空，我们就把预约定在那一天。",
+            "use": "把周二有空作为待确认的实际条件，主句将来时。"
+          },
+          {
+            "fr": "Si nous avions une voiture, nous pourrions accepter ce travail ; pour le moment, nous prenons le bus.",
+            "zh": "如果我们有车，就可以接受这份工作；目前我们乘公交车。",
+            "use": "本场景把没有车作为当前设定；未完成过去时用于有距离的假设，乘公交本身并不能证明没有车。"
+          }
+        ]
       }
     ],
     "comparison": "Si j’ai le temps, je viendrai：作为可实现计划；si j’avais le temps, je viendrais：假设距离更远或当前没空。Je me demande s’il viendrait avec nous 中 si 意为“是否”，不是条件，条件式可以出现。",
     "errors": "错误：Si tu viendras demain…。改：Si tu viens demain…。错误：Si je serais riche…。改：Si j’étais riche…。但不能把所有 si 后的条件式都判错，要先辨识是否为间接疑问。",
-    "boundaries": "三种模式是教学主干，不能说 si 后“只能现在、未完成过去、愈过去”。Si tu as déjà payé, entre 使用复合过去时作现实条件。独立 Si on allait au cinéma ? 用于建议。"
+    "boundaries": "三种模式是教学主干，不能说 si 后“只能现在、未完成过去、愈过去”。Si tu as déjà payé, entre 使用复合过去时作现实条件。独立 Si on allait au cinéma ? 用于建议。",
+    "practice": [
+      {
+        "q": "现实预案：Si le bureau ___ fermé demain, je ___ en ligne. (être / faire la demande；主句将来时)",
+        "a": "Si le bureau est fermé demain, je ferai la demande en ligne.",
+        "note": "条件 si 后现在时可指未来；主句 ferai 不是 ferais。"
+      },
+      {
+        "q": "现在没有更多时间，作假设：Si j’___ plus de temps, je ___ un cours. (avoir / suivre)",
+        "a": "Si j’avais plus de temps, je suivrais un cours.",
+        "note": "现在假设用 imparfait + conditionnel présent。"
+      },
+      {
+        "q": "解释 Je ne sais pas si le bureau sera ouvert demain 为什么可以用 sera。",
+        "a": "Ici, si signifie « est-ce que », et non « à condition que ».",
+        "note": "这里 si 引出“是否”的间接疑问，不是条件从句。"
+      }
+    ],
+    "related": [
+      "b1-cond-present",
+      "b1-cond-passe",
+      "b1-discours-indirect"
+    ]
   },
   "b1-discours-indirect": {
     "sections": [
@@ -798,7 +836,7 @@
     "sections": [
       {
         "title": "动词和形容词的 de 补语",
-        "explanation": "先恢复简单句：parler de ce livre、avoir besoin de cet outil、être fier de ce résultat，才能判断 dont。dont 已包含 de 的关系，不再重复 de/en。",
+        "explanation": "先恢复简单句：parler de ce livre、avoir besoin de cet outil、être fier de ce résultat，才能判断 dont。dont 已包含 de 的关系，不再用 de/en 重复同一回指；另指其他对象的独立补语不受此禁令限制。",
         "examples": [
           {
             "fr": "Le sujet dont nous parlons est délicat.",
@@ -859,7 +897,7 @@
           },
           {
             "fr": "La collègue à côté de qui je suis assis travaille ici.",
-            "zh": "坐在我旁边的女同事在这里工作。",
+            "zh": "我坐在她旁边的那位女同事在这里工作。",
             "use": "人物，à côté de qui。"
           }
         ]
@@ -1128,10 +1166,48 @@
             "use": "目的从句，未保证已准备。"
           }
         ]
+      },
+      {
+        "title": "表达原因、结果与目的：避免把目的当事实",
+        "explanation": "parce que 引入原因，donc/alors 连接结果，pour + 不定式常表示同一行动者的目的；pour que + 虚拟式用于另一主语的预期行动。目的不保证实现，不能把 pour que 直接换为直陈式事实。puisque 往往把原因作为已知或可接受的前提，parce que 更适合回答一个新提出的 pourquoi；也要看实际语境，不能说所有 parce que 都是新信息。",
+        "examples": [
+          {
+            "fr": "J’ai appelé parce que je n’avais pas reçu la confirmation ; on m’a donc envoyé un nouveau message.",
+            "zh": "我打电话是因为没有收到确认；于是对方给我重新发了一条消息。",
+            "use": "parce que 给出原因，donc 连接对方采取的结果行动。"
+          },
+          {
+            "fr": "Je vous laisse mon numéro pour que vous puissiez me joindre ; je garde le vôtre pour vous rappeler.",
+            "zh": "我留下号码以便您能联系我；我也保存您的号码，好给您回电话。",
+            "use": "第一目的由 vous 执行，用 pour que + puissiez；第二由 je 执行，用 pour + 不定式。"
+          }
+        ]
       }
     ],
     "comparison": "Je suis resté parce qu’il pleuvait 解释原因；il pleuvait, donc je suis resté 表结果。Je crie pour qu’il m’entende 表目的；je crie si fort qu’il m’entend 表已经发生的结果。",
     "errors": "错误：pour que tu comprends。改：pour que tu comprennes。错误：pour réussir tu（想说让你成功）。改：pour que tu réussisses。",
-    "boundaries": "“car 绝不能放句首”过于绝对：篇章中 Car 可以在句号后承接前句解释，但不自然作为脱离前文的独立原因开头。comme 另可表比较或时间，alors 另可表“那时”，须按上下文辨义。"
+    "boundaries": "“car 绝不能放句首”过于绝对：篇章中 Car 可以在句号后承接前句解释，但不自然作为脱离前文的独立原因开头。comme 另可表比较或时间，alors 另可表“那时”，须按上下文辨义。",
+    "practice": [
+      {
+        "q": "合并两句表达同一主语的目的：Je prends des notes. Je veux retenir les informations.",
+        "a": "Je prends des notes pour retenir les informations.",
+        "note": "目的由 je 执行，用 pour + 不定式。"
+      },
+      {
+        "q": "另一主语的目的：Je parle lentement pour que vous ___ . (comprendre)",
+        "a": "Je parle lentement pour que vous compreniez.",
+        "note": "pour que 后虚拟式；直陈式 comprenez 不适合此结构。"
+      },
+      {
+        "q": "分别用 parce que 与 donc 表达同一因果：公交取消→我走路回来。",
+        "a": "Je suis rentré à pied parce que le bus a été annulé. / Le bus a été annulé, donc je suis rentré à pied.",
+        "note": "原因与结果顺序相反；女性叙述者用 rentrée。"
+      }
+    ],
+    "related": [
+      "b1-subj-declencheurs",
+      "b1-subj-present",
+      "a2-pc-vs-imp"
+    ]
   }
 }

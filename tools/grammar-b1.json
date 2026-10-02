@@ -1,0 +1,901 @@
+{
+  "grammar": [
+    {
+      "id": "b1-pqp",
+      "level": "B1",
+      "cat": "时态扩展",
+      "catFr": "Temps composés",
+      "title": "Le plus-que-parfait",
+      "titleFr": "愈过去时(过去的过去)",
+      "zh": "表示在另一个过去动作<strong>之前</strong>就已完成的动作。构成:<b>avoir/être 的未完成过去时(imparfait)</b> + 过去分词。配合规则同复合过去时。",
+      "fr": "Le plus-que-parfait exprime une action antérieure à une autre action passée : auxiliaire à l'imparfait + participe passé.",
+      "ex": [
+        {
+          "fr": "Quand je suis arrivé, le train <b>était</b> déjà <b>parti</b>.",
+          "zh": "我到的时候,火车已经开走了。",
+          "use": "先后分层(être 类):『开走』发生在『到达』之前,partir 用 être 的 imparfait + 过去分词并配合主语"
+        },
+        {
+          "fr": "Elle a raconté ce qu'elle <b>avait vu</b>.",
+          "zh": "她讲了她(之前)看到的事。",
+          "use": "转述中的在前(avoir 类):『看到』发生在『讲述』之前,avoir 的 imparfait + vu"
+        },
+        {
+          "fr": "<b>Si</b> tu m'<b>avais écouté</b>, tu n'aurais pas fait cette erreur.",
+          "zh": "你要是(当时)听了我的,就不会犯这个错了。",
+          "use": "si 假设第三型:si + 愈过去时表过去未发生的条件,主句用条件式过去"
+        }
+      ],
+      "tip": "<b>用途:</b>讲过去的事时区分先后层次(先发生的用 plus-que-parfait);也用于 si 假设第三型(见假设句)。"
+    },
+    {
+      "id": "b1-cond-present",
+      "level": "B1",
+      "cat": "条件式",
+      "catFr": "Le conditionnel",
+      "title": "Le conditionnel présent",
+      "titleFr": "条件式现在时",
+      "zh": "构成:<strong>简单将来时的词干</strong> + <strong>未完成过去时的词尾</strong>(-ais, -ais, -ait, -ions, -iez, -aient)。用途:①礼貌 ②愿望 ③假设的结果(si+imparfait)④未经证实的传闻。",
+      "fr": "Conditionnel = radical du futur + terminaisons de l'imparfait. Emplois : politesse, souhait, hypothèse, information non confirmée.",
+      "forms": "<table><tr><th>parler</th><th>être</th><th>avoir</th></tr><tr><td>je parlerais</td><td>je serais</td><td>j'aurais</td></tr><tr><td>nous parlerions</td><td>nous serions</td><td>nous aurions</td></tr></table>",
+      "ex": [
+        {
+          "fr": "<b>J'aimerais</b> voyager au Canada.",
+          "zh": "我想去加拿大旅行。(愿望)",
+          "use": "愿望:j'aimerais + 原形表达心愿,比 je veux 委婉"
+        },
+        {
+          "fr": "Selon la presse, il <b>serait</b> malade.",
+          "zh": "据报道,他可能病了。(传闻)",
+          "use": "传闻:条件式表示未经证实的信息,selon… 是标志"
+        },
+        {
+          "fr": "<b>Pourriez</b>-vous fermer la fenêtre, s'il vous plaît ?",
+          "zh": "您能关一下窗户吗?(礼貌)",
+          "use": "礼貌:条件式软化请求,pourriez-vous 比 pouvez-vous 更客气"
+        },
+        {
+          "fr": "Si j'avais plus de temps, je <b>ferais</b> du sport.",
+          "zh": "如果我时间多一点,我就会去运动。(假设)",
+          "use": "假设的结果:与 si + imparfait 搭配,主句用条件式现在表假设结果;是否反事实由语境决定"
+        }
+      ],
+      "tip": "<b>记忆:</b>词干和 futur 相同(ser-, aur-, ir-),词尾和 imparfait 相同。区分:je parlerai(将来)/ je parlerais(条件)。"
+    },
+    {
+      "id": "b1-cond-passe",
+      "level": "B1",
+      "cat": "条件式",
+      "catFr": "Le conditionnel",
+      "title": "Le conditionnel passé",
+      "titleFr": "条件式过去时",
+      "zh": "构成:<b>avoir/être 的条件式现在时</b> + 过去分词。表示<strong>过去未实现的事、后悔、责备</strong>。",
+      "fr": "Conditionnel passé = auxiliaire au conditionnel présent + participe passé. Exprime le regret, le reproche, l'irréel du passé.",
+      "ex": [
+        {
+          "fr": "J'<b>aurais dû</b> partir plus tôt.",
+          "zh": "我本该早点走。(后悔)",
+          "use": "后悔:j'aurais dû + 原形 = 『本该』,对自己过去的选择表示遗憾"
+        },
+        {
+          "fr": "À ta place, je <b>n'aurais pas accepté</b>.",
+          "zh": "换作我,我不会答应的。",
+          "use": "假设自己的过去选择：à ta place + 条件式过去可表达与对方不同的选择，具体语气可为中性比较、建议或委婉批评，不自动断定对方做错。"
+        },
+        {
+          "fr": "Avec plus de chance, nous <b>aurions gagné</b> le match.",
+          "zh": "运气好一点的话,我们本来会赢这场比赛。",
+          "use": "过去未实现:表示过去本可能发生但实际没有发生的事"
+        }
+      ],
+      "tip": "<b>高频句型:</b>j'aurais dû / j'aurais pu / j'aurais aimé + 原形 = 「本该/本可以/本想」,口语书面都常用。"
+    },
+    {
+      "id": "b1-subj-present",
+      "level": "B1",
+      "cat": "虚拟式现在时",
+      "catFr": "Le subjonctif présent",
+      "title": "Le subjonctif présent : formation",
+      "titleFr": "虚拟式现在时:构成 ⭐",
+      "zh": "虚拟式常由愿望、情感、判断、必要性或特定连接词触发。规则词尾为 -e, -es, -e, -ions, -iez, -ent；je/tu/il/ils 一般取直陈式 ils 的词干，nous/vous 通常取直陈式 nous 的词干。双词干动词如 prendre：prenne/prenions；être、avoir 等另记。",
+      "fr": "Le subjonctif est souvent imposé par une construction. Pour de nombreux verbes, les personnes du singulier et ils/elles utilisent le radical de ils au présent ; nous/vous utilisent celui de nous. Avoir et être sont irréguliers.",
+      "forms": "<table><tr><th>规则(parler)</th><th>不规则</th></tr><tr><td>que je parle</td><td>être: que je sois</td></tr><tr><td>que tu parles</td><td>avoir: que j'aie</td></tr><tr><td>que nous parlions</td><td>aller: que j'aille</td></tr><tr><td>qu'ils parlent</td><td>faire: que je fasse / pouvoir: puisse / savoir: sache</td></tr></table>",
+      "ex": [
+        {
+          "fr": "Il faut que tu <b>fasses</b> tes devoirs.",
+          "zh": "你必须做作业。",
+          "use": "必要触发(il faut que):不规则动词 faire → que tu fasses"
+        },
+        {
+          "fr": "Je veux que vous <b>soyez</b> à l'heure.",
+          "zh": "我要你们准时。",
+          "use": "意愿触发(vouloir que):不规则动词 être → que vous soyez"
+        },
+        {
+          "fr": "Il est important que nous <b>parlions</b> de ce problème.",
+          "zh": "重要的是我们谈一谈这个问题。",
+          "use": "规则构成(nous/vous):parler → que nous parlions,词尾 -ions/-iez 形同 imparfait"
+        },
+        {
+          "fr": "Il faut que j'<b>aille</b> à la banque avant midi.",
+          "zh": "我得在中午前去一趟银行。",
+          "use": "不规则动词(aller):que j'aille,常见不规则虚拟式之一,须单独记忆"
+        }
+      ],
+      "tip": "<b>易错:</b>必须记牢 être/avoir/aller/faire/pouvoir/savoir/vouloir 的不规则虚拟式——B2 的虚拟式过去时建在这之上。"
+    },
+    {
+      "id": "b1-subj-declencheurs",
+      "level": "B1",
+      "cat": "虚拟式现在时",
+      "catFr": "Le subjonctif présent",
+      "title": "Les déclencheurs du subjonctif",
+      "titleFr": "触发虚拟式的词 ⭐",
+      "zh": "虚拟式不是「随便用」,而是被特定结构<strong>触发</strong>。四大类 + 连词:①意愿(vouloir/souhaiter que)②情感(être content/avoir peur que)③怀疑/否定(douter que, ne pas penser que)④必要/判断(il faut que, il est important que)。",
+      "fr": "Le subjonctif est déclenché par : volonté, émotion, doute, nécessité/jugement, et certaines conjonctions.",
+      "forms": "<table><tr><th>类别</th><th>触发词</th></tr><tr><td>意愿</td><td>vouloir que, souhaiter que, exiger que</td></tr><tr><td>情感</td><td>être content/triste que, avoir peur que, regretter que</td></tr><tr><td>怀疑/必要</td><td>douter que, il faut que, il est possible que</td></tr><tr><td>连词</td><td>bien que, pour que, avant que, à condition que, jusqu'à ce que, à moins que</td></tr></table>",
+      "ex": [
+        {
+          "fr": "<b>Bien qu'</b>il <b>soit</b> fatigué, il travaille.",
+          "zh": "尽管他累了,他还在工作。",
+          "use": "连词触发(bien que):学习者在此类 bien que 让步结构中优先用虚拟式"
+        },
+        {
+          "fr": "Je reste <b>jusqu'à ce que</b> tu <b>reviennes</b>.",
+          "zh": "我待到你回来为止。",
+          "use": "连词触发(jusqu'à ce que):时间连词『直到』后接虚拟式"
+        },
+        {
+          "fr": "Je souhaite que tu <b>réussisses</b> ton examen.",
+          "zh": "我希望你考试成功。",
+          "use": "意愿类:souhaiter que + 虚拟式；对比肯定 espérer que 通常用直陈式，否定或疑问另看断言角度。"
+        },
+        {
+          "fr": "J'ai peur qu'il <b>pleuve</b> demain.",
+          "zh": "我怕明天会下雨。",
+          "use": "情感类:avoir peur que + 虚拟式,pleuvoir → pleuve"
+        },
+        {
+          "fr": "Je ne pense pas que ce <b>soit</b> une bonne idée.",
+          "zh": "我不认为这是个好主意。",
+          "use": "怀疑/否定类:penser que 在否定时常用虚拟式,疑问及否定中的选式还取决于是否认可从句内容"
+        },
+        {
+          "fr": "Il est possible qu'elle <b>vienne</b> plus tard.",
+          "zh": "她有可能晚一点来。",
+          "use": "必要/判断类:il est possible que + 虚拟式"
+        },
+        {
+          "fr": "J'espère que tu <b>iras</b> mieux demain.",
+          "zh": "我希望你明天好一些。(espérer + 直陈式!)",
+          "use": "对比(espérer+直陈式):肯定 espérer que 通常接直陈式(此处为将来时);否定/疑问另论"
+        }
+      ],
+      "tip": "<b>关键对比:</b>肯定 espérer que 通常用<strong>直陈式</strong>(j'espère qu'il viendra !),但 souhaiter que 用虚拟式。penser que 肯定通常用直陈,否定/疑问则按断言角度选择,常见虚拟式。"
+    },
+    {
+      "id": "b1-si",
+      "level": "B1",
+      "cat": "假设句 si",
+      "catFr": "L'hypothèse avec « si »",
+      "title": "Les trois types de phrases avec « si »",
+      "titleFr": "si 假设句三型 ⭐",
+      "zh": "<b>条件 si 的三种主要模式：</b>①现实或可实现：si + 现在时，主句可用现在、将来或命令式；②现在或未来假设：si + 未完成过去时，主句条件式现在时（不一定反事实）；③过去反事实：si + 愈过去时，主句条件式过去时。条件 si 后不使用条件式；si 表“是否”时另论。",
+      "fr": "Trois constructions principales pour l’hypothèse. Pas de conditionnel après si exprimant une condition ; le conditionnel est possible après si introduisant une interrogation indirecte.",
+      "forms": "<table><tr><th>型</th><th>si 从句</th><th>主句</th></tr><tr><td>①现实/可能</td><td>si + présent</td><td>présent / futur / impératif</td></tr><tr><td>②现在/未来假设</td><td>si + imparfait</td><td>conditionnel présent</td></tr><tr><td>③过去非真实</td><td>si + plus-que-parfait</td><td>conditionnel passé</td></tr></table>",
+      "ex": [
+        {
+          "fr": "<b>Si</b> j'ai le temps, je <b>viendrai</b>.",
+          "zh": "①如果我有空,我会来。",
+          "use": "第①型(真实/可能):si + 现在时,主句将来时,条件确有可能实现"
+        },
+        {
+          "fr": "<b>Si</b> j'avais le temps, je <b>viendrais</b>.",
+          "zh": "②如果我有空,我就会来。(本例可设定目前没空)",
+          "use": "第②型(现在/未来假设):si + imparfait,主句条件式现在;可与现状相反,也可作试探假设"
+        },
+        {
+          "fr": "<b>Si</b> j'avais eu le temps, je <b>serais venu</b>.",
+          "zh": "③(当时没空)我要是有空就来了。",
+          "use": "第③型(过去非真实):si + 愈过去时,主句条件式过去,过去已无法改变"
+        }
+      ],
+      "tip": "<b>常错：</b><em>Si je serais riche…</em>（条件句）应为 <em>Si j’étais riche…</em>。但 <em>Je me demande s’il serait d’accord</em> 中 si 表“是否”，可以用条件式；现实条件也可用复合过去时，如 <em>Si tu as fini, viens</em>。"
+    },
+    {
+      "id": "b1-discours-indirect",
+      "level": "B1",
+      "cat": "间接引语",
+      "catFr": "Le discours indirect",
+      "title": "Le discours indirect (au présent)",
+      "titleFr": "间接引语(现在)",
+      "zh": "转述他人话语。陈述句用 <b>que</b>;是非问用 <b>si</b>;特殊疑问按功能保留或调整疑问词(主语“什么”→<b>ce qui</b>,直接宾语“什么”→<b>ce que</b>,介词+quoi通常保留);命令用 <b>de + 原形</b>。人称按转述视角改变;时间、地点与指示词仅在参照改变时调整。",
+      "fr": "Rapporter les paroles : que (déclaration), si (question oui/non), ce que/ce qui (question sur une chose), préposition + quoi, de + infinitif (ordre).",
+      "ex": [
+        {
+          "fr": "Il dit : « Je suis fatigué » → Il dit <b>qu'</b>il est fatigué.",
+          "zh": "他说他累了。",
+          "use": "陈述句(que):陈述内容用 que 引导,人称随说话人改变"
+        },
+        {
+          "fr": "Elle demande : « Tu viens ? » → Elle demande <b>si</b> je viens.",
+          "zh": "她问我来不来。",
+          "use": "是非问(si):是非问改用 si 引导,恢复正常语序"
+        },
+        {
+          "fr": "« Sors ! » → Il me dit <b>de</b> sortir.",
+          "zh": "他让我出去。",
+          "use": "命令(de+原形):命令式转述为 dire de + 动词原形"
+        },
+        {
+          "fr": "Elle me demande : « Où habites-tu ? » → Elle me demande <b>où</b> j'habite.",
+          "zh": "她问我住在哪里。",
+          "use": "特殊疑问保留疑问词；此处人称代词主语由 habites-tu 改为 j’habite，不保留问句的人称代词倒装。名词主语在某些间接疑问中仍可倒装，如 où habite Paul。"
+        },
+        {
+          "fr": "« Qu'est-ce que tu veux ? » → Il demande <b>ce que</b> je veux.",
+          "zh": "他问我想要什么。",
+          "use": "直接宾语“什么”:qu’est-ce que / 疑问 que 在此间接引语中变为 ce que；介词 + quoi 不按此规则替换。"
+        }
+      ],
+      "tip": "<b>易错:</b>「什么」在间接引语里:Qu'est-ce que tu fais ? → Il demande <b>ce que</b> je fais。主句过去时常做相对时态调整;仍有效事实或同一时空可保留原时态(见 B2 时态呼应)。"
+    },
+    {
+      "id": "b1-passif",
+      "level": "B1",
+      "cat": "被动语态",
+      "catFr": "La voix passive",
+      "title": "La voix passive",
+      "titleFr": "被动语态",
+      "zh": "被动:<b>être</b>(与原时态一致)+ <strong>过去分词</strong>(与主语配合)+ <b>par</b>(施动者)。时态由 être 承担。",
+      "fr": "Passif = être (au temps voulu) + participe passé accordé avec le sujet. L’agent peut être omis ou introduit, généralement par par, parfois par de selon le verbe et le sens.",
+      "ex": [
+        {
+          "fr": "Le voleur <b>a été arrêté par</b> la police.",
+          "zh": "小偷被警察抓了。",
+          "use": "基本构成(par):être 的复合过去时 + 过去分词 + par 引出施动者"
+        },
+        {
+          "fr": "Cette maison <b>est construite</b> en pierre.",
+          "zh": "这房子是石头建的。",
+          "use": "分词配合:主语 maison 阴性 → construite;施动者不重要时可省略"
+        },
+        {
+          "fr": "Les résultats <b>seront annoncés</b> demain.",
+          "zh": "结果将于明天公布。",
+          "use": "时态由 être 承担:将来时被动 = être 的将来时 seront + 过去分词"
+        },
+        {
+          "fr": "Ce professeur est <b>respecté de</b> tous ses élèves.",
+          "zh": "这位老师受到所有学生的尊敬。",
+          "use": "施动者用 de:感受/状态类动词(aimé, respecté, connu…)常用 de 而非 par"
+        }
+      ],
+      "tip": "<b>易错:</b>基础被动转换主要适用于带直接宾语的及物动词，原 COD 成为主语；avoir 等动词不能照公式随意转换。少数特殊结构如 obéir à → être obéi 需另学，不应反推所有 COI 都能变主语。施事可省略；感受/状态有时用 <b>de</b>（aimé <b>de</b> tous）。"
+    },
+    {
+      "id": "b1-double-pronoms",
+      "level": "B1",
+      "cat": "代词进阶",
+      "catFr": "Pronoms : approfondissement",
+      "title": "L'ordre des doubles pronoms",
+      "titleFr": "双代词的语序",
+      "zh": "普通动词前的宾语代词按组序排列(肯定命令式另论):<b>me/te/se/nous/vous</b> → <b>le/la/les</b> → <b>lui/leur</b> → <b>y</b> → <b>en</b>。",
+      "fr": "Ordre des pronoms compléments : me te se nous vous / le la les / lui leur / y / en.",
+      "forms": "<table><tr><td>me te se<br>nous vous</td><td>le la les</td><td>lui leur</td><td>y</td><td>en</td></tr></table>",
+      "ex": [
+        {
+          "fr": "Il me donne le livre → Il <b>me le</b> donne.",
+          "zh": "他把书给我 → 他把它给我。",
+          "use": "第一组语序:me/te/nous/vous 排在 le/la/les 之前"
+        },
+        {
+          "fr": "Tu donnes les clés à Paul ? → Tu <b>les lui</b> donnes ?",
+          "zh": "你把钥匙给保罗?→ 你把它们给他?",
+          "use": "第二组语序:le/la/les 排在 lui/leur 之前"
+        },
+        {
+          "fr": "Il me donne du café → Il <b>m'en</b> donne.",
+          "zh": "他给我咖啡 → 他给我(一些)。",
+          "use": "en 殿后:部分冠词宾语 → en,永远排在所有代词之后"
+        },
+        {
+          "fr": "Donne-<b>les-moi</b> !",
+          "zh": "把它们给我!",
+          "use": "肯定命令式:代词后置且顺序改变,直接宾语在前,me → moi"
+        }
+      ],
+      "tip": "<b>易错:</b>肯定命令式语序不同且后置:<em>Donne-<b>les-moi</b> !</em>(把它们给我!)"
+    },
+    {
+      "id": "b1-possessifs-pron",
+      "level": "B1",
+      "cat": "代词进阶",
+      "catFr": "Pronoms : approfondissement",
+      "title": "Les pronoms possessifs",
+      "titleFr": "主有代词(le mien…)",
+      "zh": "代替「主有形容词+名词」,避免重复:<b>le mien/la mienne</b>(我的)、le tien、le sien、le nôtre、le vôtre、le leur,与所指名词性数一致。",
+      "fr": "Le pronom possessif remplace « adjectif possessif + nom » : le mien, le tien, le sien, le nôtre, le vôtre, le leur.",
+      "ex": [
+        {
+          "fr": "C'est ta voiture ? — Non, c'est <b>la sienne</b>.",
+          "zh": "这是你的车吗?——不,是他/她的。",
+          "use": "基本替代:与 voiture 阴性单数配合 → la sienne,不区分他/她"
+        },
+        {
+          "fr": "Mes idées et <b>les tiennes</b>.",
+          "zh": "我的想法和你的。",
+          "use": "性数配合:idées 阴性复数 → les tiennes"
+        },
+        {
+          "fr": "Je parle de mon projet, et lui parle <b>du sien</b>.",
+          "zh": "我谈我的计划,他谈他的。",
+          "use": "缩合(de+le sien→du sien):主有代词的定冠词与 de 缩合"
+        }
+      ],
+      "tip": "<b>易错:</b>带定冠词,会与 à/de 缩合:<em>Je préfère mon vélo <b>au tien</b></em>(à+le tien)。"
+    },
+    {
+      "id": "b1-demonstratifs-pron",
+      "level": "B1",
+      "cat": "代词进阶",
+      "catFr": "Pronoms : approfondissement",
+      "title": "Les pronoms démonstratifs",
+      "titleFr": "指示代词(celui…)",
+      "zh": "<b>celui/celle/ceux/celles</b>(这个/那个),后常接 <b>-ci/-là</b>、<b>de+名词</b>、或关系从句(qui/que/dont)。中性:<b>ce/ceci/cela/ça</b>。",
+      "fr": "Pronoms démonstratifs : celui, celle, ceux, celles (+ -ci/-là, de…, qui/que…). Neutres : ce, ceci, cela, ça.",
+      "ex": [
+        {
+          "fr": "Quel livre ? — <b>Celui de</b> Marie.",
+          "zh": "哪本书?——玛丽的那本。",
+          "use": "celui de + 名词(所属):玛丽的那本,de 表所属关系"
+        },
+        {
+          "fr": "<b>Ceux qui</b> veulent partir peuvent.",
+          "zh": "想走的人可以走。",
+          "use": "celui + 关系从句:ceux qui = 那些…的人,后接 qui/que/dont"
+        },
+        {
+          "fr": "Quelle robe préfères-tu ? — <b>Celle-ci</b> ou <b>celle-là</b> ?",
+          "zh": "你喜欢哪条裙子?——这条还是那条?",
+          "use": "-ci/-là(近指/远指):与 robe 阴性单数配合 → celle-ci / celle-là"
+        },
+        {
+          "fr": "<b>Cela</b> ne m'intéresse pas.",
+          "zh": "这(件事)我不感兴趣。",
+          "use": "中性代词:cela/ça 常指整件事或情况,也可指尚未识别或未按名词性数分类的具体对象"
+        }
+      ],
+      "tip": "<b>用途:</b><em>celui de</em> 表所属、<em>celui qui/que</em> 引出从句——议论文里指代上文非常好用。"
+    },
+    {
+      "id": "b1-dont",
+      "level": "B1",
+      "cat": "代词进阶",
+      "catFr": "Pronoms : approfondissement",
+      "title": "Le pronom relatif « dont »",
+      "titleFr": "关系代词 dont ⭐",
+      "zh": "<b>dont</b> 替代结构中带 <b>de</b> 的成分:de 引导的动词补语(parler <b>de</b>、avoir besoin <b>de</b>)、所属关系(「…的」)、数量。",
+      "fr": "« dont » remplace un complément introduit par « de » (verbe + de, possession, quantité).",
+      "ex": [
+        {
+          "fr": "Le livre <b>dont</b> je t'ai parlé.",
+          "zh": "我跟你说过的那本书。(parler de)",
+          "use": "动词 + de(parler de):de 引导的动词补语 → dont"
+        },
+        {
+          "fr": "L'homme <b>dont</b> la voiture est rouge.",
+          "zh": "他的车是红色的那个男人。(所属:他的车)",
+          "use": "所属(…的):sa voiture → dont la voiture,语序为 dont + 主语 + 动词"
+        },
+        {
+          "fr": "Il a trois enfants, <b>dont</b> deux filles.",
+          "zh": "他有三个孩子,其中两个是女儿。",
+          "use": "数量(其中):dont + 数词 = 其中…,表示整体中的一部分"
+        },
+        {
+          "fr": "Voici le travail <b>dont</b> je suis fier.",
+          "zh": "这是我引以为豪的工作。",
+          "use": "形容词 + de(être fier de):形容词搭配 de 的补语同样用 dont"
+        }
+      ],
+      "tip": "<b>选择方法：</b>先还原 <em>parler de / avoir besoin de / être fier de</em> 等结构。dont 已包含 de，勿用 en 或物主词再次表达同一 de 回指关系（其他独立补语仍可保留）。所属关系可说 <em>dont la voiture…</em>；复合介词或嵌套介词组须保留，如 <em>près de laquelle / sur le toit de laquelle</em>。"
+    },
+    {
+      "id": "b1-gerondif",
+      "level": "B1",
+      "cat": "副动词与否定",
+      "catFr": "Gérondif et négations",
+      "title": "Le gérondif",
+      "titleFr": "副动词(en + 现在分词)",
+      "zh": "<b>en</b> + 现在分词(nous 词干+<b>-ant</b>),表示<strong>同时、方式、条件</strong>。<strong>普通规范用法中,隐含主语通常与主句主语相同</strong>。",
+      "fr": "Gérondif = « en » + participe présent. Exprime la simultanéité, la manière ou la condition. Même sujet que le verbe principal.",
+      "ex": [
+        {
+          "fr": "Il chante <b>en travaillant</b>.",
+          "zh": "他一边工作一边唱歌。(同时)",
+          "use": "同时:两个动作同时进行,『一边…一边』"
+        },
+        {
+          "fr": "<b>En cherchant</b> bien, tu trouveras.",
+          "zh": "好好找的话,你会找到的。(条件)",
+          "use": "条件:相当于 si tu cherches bien,『…的话』"
+        },
+        {
+          "fr": "Elle a appris le français <b>en écoutant</b> la radio.",
+          "zh": "她通过听广播学会了法语。",
+          "use": "方式:回答『怎么做到的』,表示手段或方法"
+        }
+      ],
+      "tip": "<b>易错:</b>三个不规则现在分词:être→<b>étant</b>,avoir→<b>ayant</b>,savoir→<b>sachant</b>。"
+    },
+    {
+      "id": "b1-negations",
+      "level": "B1",
+      "cat": "副动词与否定",
+      "catFr": "Gérondif et négations",
+      "title": "Les négations complexes",
+      "titleFr": "复杂否定",
+      "zh": "除 ne…pas 外:<b>ne…plus</b>(不再)、<b>ne…jamais</b>(从不)、<b>ne…rien</b>(什么都不)、<b>ne…personne</b>(没人)、<b>ne…que</b>(只,=seulement,其实是限制非否定)、<b>ne…aucun(e)</b>(没有任何)。",
+      "fr": "ne…plus, ne…jamais, ne…rien, ne…personne, ne…que (restriction = seulement), ne…aucun.",
+      "ex": [
+        {
+          "fr": "Je <b>ne</b> bois <b>que</b> de l'eau.",
+          "zh": "我只喝水。(ne…que=只,非否定→不变 de!)",
+          "use": "ne…que(只):限制而非否定,后面的冠词保持原样不变 de"
+        },
+        {
+          "fr": "Il <b>n'</b>y a <b>personne</b>.",
+          "zh": "没有人。",
+          "use": "ne…personne(没人):否定代词 personne 置于 il y a 之后"
+        },
+        {
+          "fr": "Elle <b>ne</b> fume <b>plus</b> depuis un an.",
+          "zh": "她一年前起就不再抽烟了。",
+          "use": "ne…plus(不再):过去做、现在不做的事"
+        },
+        {
+          "fr": "Je <b>ne</b> suis <b>jamais</b> allé en Italie.",
+          "zh": "我从没去过意大利。",
+          "use": "ne…jamais(从不):复合时态中 jamais 位于助动词与分词之间"
+        },
+        {
+          "fr": "Je <b>n'</b>ai <b>rien</b> compris.",
+          "zh": "我什么都没听懂。",
+          "use": "ne…rien(什么都不):复合时态中 rien 位于助动词与分词之间"
+        },
+        {
+          "fr": "Il <b>n'</b>a <b>aucune</b> idée.",
+          "zh": "他毫无头绪。",
+          "use": "ne…aucun(e)(没有任何):aucune 与 idée 性数配合,名词用单数"
+        },
+        {
+          "fr": "<b>Personne n'</b>est venu à la réunion.",
+          "zh": "没有人来开会。",
+          "use": "rien/personne 作主语:Personne ne + 动词,ne 保留"
+        }
+      ],
+      "tip": "<b>易错:</b>ne…que 是<strong>限制</strong>,后面冠词<strong>不变 de</strong>(对比 ne…pas de)。rien/personne 可作主语:<em>Personne n'est venu.</em>"
+    },
+    {
+      "id": "b1-connecteurs-base",
+      "level": "B1",
+      "cat": "逻辑连接(基础)",
+      "catFr": "Connecteurs de base",
+      "title": "Cause, conséquence, but",
+      "titleFr": "原因 · 结果 · 目的(基础)",
+      "zh": "基础逻辑连接:<strong>原因</strong> parce que / car / puisque / comme(句首);<strong>结果</strong> donc / alors / c'est pourquoi;<strong>目的</strong> pour + 原形 / pour que + 虚拟式。(高级连接词见 B2)",
+      "fr": "Cause : parce que, car, puisque, comme. Conséquence : donc, c'est pourquoi. But : pour (+inf.), pour que (+subj.).",
+      "ex": [
+        {
+          "fr": "Je révise <b>parce que</b> j'ai un examen.",
+          "zh": "我复习是因为有考试。",
+          "use": "原因(parce que):常回答“为什么”，本例引出复习的具体原因；并非所有 parce que 信息都必须为对方未知。"
+        },
+        {
+          "fr": "Je t'explique <b>pour que</b> tu <b>comprennes</b>.",
+          "zh": "我解释给你听,好让你明白。(pour que+虚拟)",
+          "use": "目的(pour que+虚拟式):主句与目的从句主语不同时用 pour que"
+        },
+        {
+          "fr": "<b>Puisque</b> tu es là, aide-moi !",
+          "zh": "既然你在这儿,就帮帮我吧!",
+          "use": "原因(puisque):把“你在这儿”当作已知或显然的依据，相当于“既然”。"
+        },
+        {
+          "fr": "<b>Comme</b> il pleuvait, nous sommes restés à la maison.",
+          "zh": "由于下雨,我们待在了家里。",
+          "use": "原因(comme):原因 comme 从句通常前置,提供原因背景;原因不必双方已知"
+        },
+        {
+          "fr": "Il est resté chez lui, <b>car</b> il était malade.",
+          "zh": "他待在家里,因为他病了。",
+          "use": "原因(car):偏书面,承接前文作解释;可在句号后以 Car 开头"
+        },
+        {
+          "fr": "Il pleut, <b>donc</b> je prends mon parapluie.",
+          "zh": "下雨了,所以我带上伞。",
+          "use": "结果(donc):由前一句推出自然结果"
+        },
+        {
+          "fr": "Je fais du sport <b>pour</b> rester en forme.",
+          "zh": "我运动是为了保持健康状态。",
+          "use": "目的(pour+原形):主句与目的的主语相同时用 pour + 动词原形"
+        }
+      ],
+      "tip": "<b>辨析：</b>parce que 常回答“为什么”；puisque 将原因作为已知或明显依据；comme 原因从句通常前置，但原因不必已知；car 常偏书面，通常承接前句解释，也可在句号后写 Car。"
+    }
+  ],
+  "practice": {
+    "b1-pqp": [
+      {
+        "q": "Quand je suis arrivé à la gare, le train ___ déjà ___ (partir). (到达前火车已开走)",
+        "a": "Quand je suis arrivé à la gare, le train était déjà parti.",
+        "note": "到达前已发生→愈过去时,partir 用 être:était parti"
+      },
+      {
+        "q": "Elle nous a raconté ce qu'elle ___ (voir) la veille. (转述之前看到的)",
+        "a": "Elle nous a raconté ce qu'elle avait vu la veille.",
+        "note": "转述之前发生的事→avait vu"
+      },
+      {
+        "q": "Si nous ___ (réserver) plus tôt, nous aurions eu des places. (si 假设第三型:愈过去时)",
+        "a": "Si nous avions réservé plus tôt, nous aurions eu des places.",
+        "note": "考查 si + 愈过去时(第三型假设):avoir 的 imparfait + 过去分词 → avions réservé。"
+      }
+    ],
+    "b1-cond-present": [
+      {
+        "q": "___ (vouloir, je) un café, s'il vous plaît. (礼貌)",
+        "a": "Je voudrais un café, s'il vous plaît.",
+        "note": "futur 词干 voudr- + imparfait 词尾。"
+      },
+      {
+        "q": "Si j'avais de l'argent, j'___ (acheter) une maison. (假设的结果)",
+        "a": "Si j'avais de l'argent, j'achèterais une maison.",
+        "note": "si + imparfait,主句用条件式现在时"
+      },
+      {
+        "q": "Selon la presse, le ministre ___ (être) malade. (未经证实的传闻)",
+        "a": "Selon la presse, le ministre serait malade.",
+        "note": "条件式表未经证实的传闻:serait"
+      },
+      {
+        "q": "Un jour, j'___ (aimer) visiter le Maroc. (愿望)",
+        "a": "Un jour, j'aimerais visiter le Maroc.",
+        "note": "考查条件式表愿望:j'aimerais + 原形,语气委婉。"
+      }
+    ],
+    "b1-cond-passe": [
+      {
+        "q": "J'___ (devoir) partir plus tôt. (后悔:本该)",
+        "a": "J'aurais dû partir plus tôt.",
+        "note": "aurais dû + 原形 = 本该(后悔)"
+      },
+      {
+        "q": "Si tu m'avais prévenu, je ___ (venir) t'aider. (过去未实现)",
+        "a": "Si tu m'avais prévenu, je serais venu t'aider.",
+        "note": "venir 用 être，配合主语；本题按男性 je 写 venu，女性 je 用 venue。"
+      },
+      {
+        "q": "Tu ___ (pouvoir) me prévenir ! (责备:你本可以…)",
+        "a": "Tu aurais pu me prévenir !",
+        "note": "考查条件式过去表责备:aurais pu + 原形 = 本可以,常用于抱怨对方。"
+      }
+    ],
+    "b1-subj-present": [
+      {
+        "q": "Il faut que tu ___ (faire) tes devoirs ce soir. (必要→虚拟)",
+        "a": "Il faut que tu fasses tes devoirs ce soir.",
+        "note": "faire 不规则:fasse。"
+      },
+      {
+        "q": "Je veux que vous ___ (être) à l'heure demain. (意愿→虚拟)",
+        "a": "Je veux que vous soyez à l'heure demain.",
+        "note": "être 不规则:soyez。"
+      },
+      {
+        "q": "Il est nécessaire que vous ___ (finir) ce travail avant vendredi. (规则构成)",
+        "a": "Il est nécessaire que vous finissiez ce travail avant vendredi.",
+        "note": "考查规则虚拟式构成:ils finissent → 词干 finiss- + -iez。"
+      },
+      {
+        "q": "Il faut que tu ___ (aller) chez le médecin. (不规则动词)",
+        "a": "Il faut que tu ailles chez le médecin.",
+        "note": "考查不规则虚拟式:aller → que tu ailles。"
+      }
+    ],
+    "b1-subj-declencheurs": [
+      {
+        "q": "Bien qu'il ___ (être) fatigué, il continue. (bien que→虚拟)",
+        "a": "Bien qu'il soit fatigué, il continue.",
+        "note": "bien que 的规范学习用法采用虚拟式:soit"
+      },
+      {
+        "q": "J'espère qu'il ___ (venir) à la fête demain. (肯定希望；用直陈式将来时)",
+        "a": "J'espère qu'il viendra à la fête demain.",
+        "note": "此处肯定 espérer que 通常接直陈式;否定/疑问不能照搬。"
+      },
+      {
+        "q": "Je reste jusqu'à ce que tu ___ (revenir). (jusqu'à ce que→虚拟)",
+        "a": "Je reste jusqu'à ce que tu reviennes.",
+        "note": "jusqu'à ce que 接虚拟式:reviennes"
+      },
+      {
+        "q": "Elle souhaite que nous ___ (venir) à son mariage. (意愿→虚拟)",
+        "a": "Elle souhaite que nous venions à son mariage.",
+        "note": "考查意愿类触发词:souhaiter que + 虚拟式,que nous venions。"
+      },
+      {
+        "q": "Je suis triste que tu ___ (partir) si tôt demain. (尚未出发；用虚拟式现在时)",
+        "a": "Je suis triste que tu partes si tôt demain.",
+        "note": "考查情感类触发词:être triste que + 虚拟式。"
+      },
+      {
+        "q": "Nous doutons que ce ___ (être) vrai. (怀疑→虚拟)",
+        "a": "Nous doutons que ce soit vrai.",
+        "note": "考查怀疑类触发词:douter que + 虚拟式。"
+      },
+      {
+        "q": "Il est important que chacun ___ (pouvoir) s'exprimer. (判断→虚拟)",
+        "a": "Il est important que chacun puisse s'exprimer.",
+        "note": "考查必要/判断类:il est important que + 虚拟式,pouvoir → puisse。"
+      }
+    ],
+    "b1-si": [
+      {
+        "q": "Si j'___ (avoir) le temps demain, je ___ (venir) te voir. (①真实:现在时→将来时)",
+        "a": "Si j'ai le temps demain, je viendrai te voir.",
+        "note": "型①真实假设:si + 现在时,主句将来时"
+      },
+      {
+        "q": "Si j'___ (être) riche, je ___ (voyager) partout. (②现在非真实:未完成→条件式现在)",
+        "a": "Si j'étais riche, je voyagerais partout.",
+        "note": "条件 si 后不用条件式;表“是否”的间接疑问 si 可用条件式。"
+      },
+      {
+        "q": "Si j'___ (savoir) la vérité, je ___ (ne rien dire). (③过去非真实:愈过去→条件式过去)",
+        "a": "Si j'avais su la vérité, je n'aurais rien dit.",
+        "note": "型③过去非真实:si + 愈过去,主句条件式过去"
+      }
+    ],
+    "b1-discours-indirect": [
+      {
+        "q": "Il dit : « Je suis fatigué. » → Il dit ___ il est fatigué. (陈述句)",
+        "a": "Il dit qu'il est fatigué.",
+        "note": "转述陈述句用 que 引导"
+      },
+      {
+        "q": "Elle me demande : « Tu viens ? » → Elle me demande ___ je viens. (是非问)",
+        "a": "Elle me demande si je viens.",
+        "note": "转述是非问用 si 引导"
+      },
+      {
+        "q": "« Qu'est-ce que tu fais ? » → Il demande ___ je fais. (特殊疑问)",
+        "a": "Il demande ce que je fais.",
+        "note": "qu'est-ce que → ce que。"
+      },
+      {
+        "q": "« Attendez-moi ! » → Elle nous dit ___ l'attendre. (命令)",
+        "a": "Elle nous dit de l'attendre.",
+        "note": "考查命令句的转述:dire de + 原形。"
+      },
+      {
+        "q": "« Où travailles-tu ? » → Il me demande ___ je travaille. (特殊疑问,保留疑问词)",
+        "a": "Il me demande où je travaille.",
+        "note": "考查疑问词保留:où 直接引导从句,主谓不倒装。"
+      }
+    ],
+    "b1-passif": [
+      {
+        "q": "La police a arrêté le voleur. → Le voleur ___ (arrêter,被动) par la police. (复合过去时被动)",
+        "a": "Le voleur a été arrêté par la police.",
+        "note": "被动 = être 变复合过去 + 过去分词:a été arrêté"
+      },
+      {
+        "q": "Tout le monde aime ce professeur. → Ce professeur est aimé ___ tout le monde. (情感用 de)",
+        "a": "Ce professeur est aimé de tout le monde.",
+        "note": "感受/状态常用 de 而非 par。"
+      },
+      {
+        "q": "On construit ces maisons en bois. → Ces maisons ___ (construire,被动现在时) en bois. (分词配合)",
+        "a": "Ces maisons sont construites en bois.",
+        "note": "考查被动分词的配合:主语阴性复数 → construites。"
+      },
+      {
+        "q": "On annoncera les résultats demain. → Les résultats ___ (annoncer,被动将来时) demain.",
+        "a": "Les résultats seront annoncés demain.",
+        "note": "考查时态由 être 承担:将来时被动 seront annoncés,分词配合复数。"
+      }
+    ],
+    "b1-double-pronoms": [
+      {
+        "q": "Il me donne le livre. → Il ___ donne. (me + le)",
+        "a": "Il me le donne.",
+        "note": "me/te 在 le/la/les 之前:me le"
+      },
+      {
+        "q": "Tu donnes les clés à Paul ? → Tu ___ donnes ? (les + lui)",
+        "a": "Tu les lui donnes ?",
+        "note": "le/la/les 在 lui/leur 之前:les lui"
+      },
+      {
+        "q": "Donne-moi le livre ! → ___ ! (肯定命令式)",
+        "a": "Donne-le-moi !",
+        "note": "肯定命令语序:le 在 moi 之前。"
+      },
+      {
+        "q": "Tu m'apportes des fleurs ? → Tu ___ apportes ? (me + en)",
+        "a": "Tu m'en apportes ?",
+        "note": "考查 en 殿后:me 在前缩合为 m'en,紧贴动词。"
+      },
+      {
+        "q": "Il retrouve ses amis au café. → Il ___ retrouve. (les + y)",
+        "a": "Il les y retrouve.",
+        "note": "考查 y 的位置:在 le/la/les 之后、en 之前。"
+      }
+    ],
+    "b1-possessifs-pron": [
+      {
+        "q": "C'est ta voiture ? — Non, c'est ___ (à elle). (她的)",
+        "a": "Non, c'est la sienne.",
+        "note": "配合 voiture 阴性。"
+      },
+      {
+        "q": "Je préfère mon vélo ___ (à + le tien). (à 与冠词缩合)",
+        "a": "Je préfère mon vélo au tien.",
+        "note": "à + le tien → au tien。"
+      },
+      {
+        "q": "Nos voisins ont un jardin plus grand que ___ (à nous). (我们的)",
+        "a": "Nos voisins ont un jardin plus grand que le nôtre.",
+        "note": "考查基本替代与配合:jardin 阳性单数 → le nôtre,注意长音符 ô。"
+      }
+    ],
+    "b1-demonstratifs-pron": [
+      {
+        "q": "Quel livre veux-tu ? — ___ (celui + de) Marie. (这个 + 所属)",
+        "a": "Celui de Marie.",
+        "note": "celui de + 名词 表所属"
+      },
+      {
+        "q": "___ (ceux + qui) veulent partir peuvent le faire. (那些 + 从句)",
+        "a": "Ceux qui veulent partir peuvent le faire.",
+        "note": "ceux qui + 从句 = 那些…的人"
+      },
+      {
+        "q": "Quelle veste choisis-tu ? — ___ , à droite. (远指,与 veste 配合)",
+        "a": "Celle-là, à droite.",
+        "note": "考查 -là 远指:veste 阴性单数 → celle-là。"
+      },
+      {
+        "q": "Il pleut depuis trois jours ; ___ m'énerve. (中性,指整个情况)",
+        "a": "Il pleut depuis trois jours ; cela m'énerve.",
+        "note": "中性代词指代前面整件事，不作名词性数配合；cela 是参考答案，口语 ça 也正确，ceci 在合适指示语境中也可用。"
+      }
+    ],
+    "b1-dont": [
+      {
+        "q": "Voici le livre ___ je t'ai parlé. (parler de → ?)",
+        "a": "Voici le livre dont je t'ai parlé.",
+        "note": "parler de → 关系代词用 dont"
+      },
+      {
+        "q": "C'est l'outil ___ j'ai besoin. (avoir besoin de → ?)",
+        "a": "C'est l'outil dont j'ai besoin.",
+        "note": "avoir besoin de → dont"
+      },
+      {
+        "q": "Je connais un homme ___ la voiture est rouge. (所属:他的车)",
+        "a": "Je connais un homme dont la voiture est rouge.",
+        "note": "语序:dont + 主语 + 动词。"
+      },
+      {
+        "q": "Elle a écrit dix romans, ___ trois sont très connus. (其中三部)",
+        "a": "Elle a écrit dix romans, dont trois sont très connus.",
+        "note": "考查 dont 表数量:dont + 数词 = 其中。"
+      },
+      {
+        "q": "C'est un résultat ___ nous sommes très fiers. (être fier de)",
+        "a": "C'est un résultat dont nous sommes très fiers.",
+        "note": "考查形容词 + de(fier de)的补语 → dont。"
+      }
+    ],
+    "b1-gerondif": [
+      {
+        "q": "Il chante ___ (travailler). (同时:一边…一边)",
+        "a": "Il chante en travaillant.",
+        "note": "en + 现在分词。"
+      },
+      {
+        "q": "___ (chercher) bien, tu trouveras. (条件:好好找的话)",
+        "a": "En cherchant bien, tu trouveras.",
+        "note": "en + 现在分词表条件:好好找的话"
+      },
+      {
+        "q": "Comment a-t-il perdu du poids ? — ___ (faire) du sport tous les jours. (方式)",
+        "a": "En faisant du sport tous les jours.",
+        "note": "考查副动词表方式:回答 comment,en + faisant。"
+      },
+      {
+        "q": "Tu progresseras ___ (être) plus attentif en classe. (条件;分词不规则)",
+        "a": "Tu progresseras en étant plus attentif en classe.",
+        "note": "考查不规则现在分词:être → étant。"
+      }
+    ],
+    "b1-negations": [
+      {
+        "q": "Je bois seulement de l'eau. → Je ___ bois ___ de l'eau. (ne…que,冠词不变!)",
+        "a": "Je ne bois que de l'eau.",
+        "note": "ne…que 是限制,保留 de l'eau。"
+      },
+      {
+        "q": "Il y a quelqu'un ? — Non, il ___ y a ___. (没有人)",
+        "a": "Non, il n'y a personne.",
+        "note": "『没有人』用 ne…personne"
+      },
+      {
+        "q": "Avant, il fumait, mais maintenant il ___ fume ___. (不再)",
+        "a": "Avant, il fumait, mais maintenant il ne fume plus.",
+        "note": "考查 ne…plus:不再做过去做的事。"
+      },
+      {
+        "q": "Tu vas souvent au théâtre ? — Non, je ___ y vais ___. (从不)",
+        "a": "Non, je n'y vais jamais.",
+        "note": "考查 ne…jamais:从不。"
+      },
+      {
+        "q": "Tu as entendu quelque chose ? — Non, je ___ ai ___ entendu. (什么都没)",
+        "a": "Non, je n'ai rien entendu.",
+        "note": "考查 ne…rien:复合时态中 rien 置于助动词与分词之间。"
+      },
+      {
+        "q": "Il y a des erreurs ? — Non, il n'y a ___ erreur. (没有任何,配合阴性)",
+        "a": "Non, il n'y a aucune erreur.",
+        "note": "考查 ne…aucun(e):与名词性数配合,名词保持单数。"
+      },
+      {
+        "q": "___ ne peut m'arrêter. (什么都不能,作主语)",
+        "a": "Rien ne peut m'arrêter.",
+        "note": "考查 rien 作主语:Rien ne + 动词,正式规范写作保留 ne;非正式口语常省。"
+      }
+    ],
+    "b1-connecteurs-base": [
+      {
+        "q": "Je révise beaucoup ___ j'ai un examen lundi. (原因；用 parce que)",
+        "a": "Je révise beaucoup parce que j'ai un examen lundi.",
+        "note": "表原因用 parce que"
+      },
+      {
+        "q": "Je t'explique tout ___ tu ___ (comprendre). (目的:pour que→虚拟)",
+        "a": "Je t'explique tout pour que tu comprennes.",
+        "note": "pour que + 虚拟式。"
+      },
+      {
+        "q": "___ tu connais déjà la réponse, pourquoi me demandes-tu ? (既然,用 puisque)",
+        "a": "Puisque tu connais déjà la réponse, pourquoi me demandes-tu ?",
+        "note": "考查 puisque:引出双方已知的原因。"
+      },
+      {
+        "q": "___ il faisait beau, nous avons déjeuné dehors. (由于,放句首,用 comme)",
+        "a": "Comme il faisait beau, nous avons déjeuné dehors.",
+        "note": "考查 comme:原因 comme 从句通常前置,本题按句首模式练习。"
+      },
+      {
+        "q": "Prends ton parapluie, ___ il va pleuvoir. (原因,书面,用 car)",
+        "a": "Prends ton parapluie, car il va pleuvoir.",
+        "note": "考查 car:偏书面的解释连词,通常承接前句;句号后也可写 Car。"
+      },
+      {
+        "q": "Elle parle trois langues, ___ elle a vite trouvé un poste. (结果,用 c'est pourquoi)",
+        "a": "Elle parle trois langues, c'est pourquoi elle a vite trouvé un poste.",
+        "note": "考查结果连词 c'est pourquoi:所以/正因如此。"
+      },
+      {
+        "q": "Je me lève tôt ___ (avoir) le temps de courir. (目的,同主语)",
+        "a": "Je me lève tôt pour avoir le temps de courir.",
+        "note": "考查同主语目的:pour + 原形,不用 pour que。"
+      }
+    ]
+  }
+}

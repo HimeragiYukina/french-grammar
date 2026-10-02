@@ -1,0 +1,23 @@
+{
+  "changes": [
+    {
+      "file": "tools/page-template.html",
+      "before": "覆盖 A1–C2 全部核心语法点",
+      "after": "按 A1–C2 组织基础到进阶的语法主题",
+      "reason": "97项为个人手册的教学分组，不能宣称穷尽CEFR全部核心语法；保留分级索引而非官方语法映射。",
+      "sources": [
+        "https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions"
+      ]
+    },
+    {
+      "file": "tools/page-template.html",
+      "before": "Tous les points de grammaire essentiels du niveau A1 au C2",
+      "after": "Des points de grammaire du niveau débutant au niveau avancé, organisés de A1 à C2",
+      "reason": "法文同步避免穷尽全部语法的断言。",
+      "sources": [
+        "https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions"
+      ]
+    }
+  ],
+  "source_basis": "Council of Europe 的级别依据 can-do descriptors，且其描述不针对某一特定语言；本站97点是个人学习分组，不能宣称穷尽所有级别语法。"
+}

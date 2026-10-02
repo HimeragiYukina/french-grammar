@@ -1,0 +1,899 @@
+{
+  "level": "C2",
+  "method": "按12个实际ID分段逐项读原zh/fr/forms/ex/use/tip、全部原练习q/a/note及扩写解释/例句/译文/use/比较/错误/边界；重点疑点实际浏览权威来源。脚本仅记录精确变更和覆盖数，不代替语义审读。",
+  "coverage": [
+    {
+      "id": "c2-passe-anterieur",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-concordance-litteraire",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 4,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-concession-soutenue",
+      "original_examples": 6,
+      "original_practice": 5,
+      "expansion_sections": 5,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-subj-fin",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 5,
+      "expansion_examples": 14,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-accord-extreme",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-inversion-style",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-ellipse",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-conjecture",
+      "original_examples": 5,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-rection",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 5,
+      "expansion_examples": 16,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-cause-niee",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-cohesion",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 7,
+      "expansion_examples": 14,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-exclamation",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    }
+  ],
+  "changes": [
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-passe-anterieur",
+        0,
+        "note"
+      ],
+      "before": "考查时间连词从句:quand + 先过去时,主句简单过去时,替代口语的『复合过去时组合』。",
+      "after": "考查时间连词从句:文学先过去时 + 简单过去时。原句 a eu fini 是过去超复合时（passé surcomposé）,不是普通复合过去时;此处表达先行完成。",
+      "reason": "准确命名a eu fini的超复合时",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26576923/temps-surcompose"
+      ]
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-passe-anterieur",
+        1,
+        "q"
+      ],
+      "before": "改为先过去时 + 简单过去时 : « Dès qu'elle était partie, le silence est retombé. »",
+      "after": "改为先过去时 + 简单过去时 : « Dès qu'elle est partie, le silence est retombé. »",
+      "reason": "源句用自然日常复合过去时，不混用突兀的dès que愈过去背景",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "grammar",
+        0,
+        "ex",
+        0,
+        "use"
+      ],
+      "before": "时间连词从句:quand 引导的从句用先过去时,表示先于主句简单过去时动作的刚刚完成",
+      "after": "时间连词从句:quand 引导的从句用先过去时,表示完成动作先于主句简单过去时;是否紧接发生由语境和连词共同决定。",
+      "reason": "quand不保证所有动作刚刚完成",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "grammar",
+        2,
+        "ex",
+        3,
+        "use"
+      ],
+      "before": "n'était:文学变体 n'eût été 表对过去情形的『若非』",
+      "after": "n'eût été:本句为过去反事实条件『若非那场风暴』;后面的 serions arrivés 表未实现的过去结果。",
+      "reason": "纠正例句标签n’était与实际n’eût été不匹配",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete"
+      ]
+    },
+    {
+      "file": "tools/expansion-c2.json",
+      "path": [
+        "c2-concession-soutenue",
+        "sections",
+        3,
+        "explanation"
+      ],
+      "before": "n'était + 名词相当于 si ce n'était…；n'eût été 相当于 sans… / si… n'avait pas été…，突出过去若无某因素。该结构是书面条件表达，不是让步连词；ne 在该书面结构中单独使用；名词是后置主语，复数须 n’étaient / n’eussent été，不能插入 de。",
+      "after": "n’était + 名词通常对应 si ce n’était…，主句常为条件式现在。n’eût été 对应 si ce n’était / si ce n’avait été / sans…，主句通常为条件式过去，常表过去未实现结果；但该形式不能仅凭名称一律限定为过去，应结合主句和语境。此结构是书面条件表达，不是让步连词；ne 在结构中单独使用；后置名词为主语，复数用 n’étaient / n’eussent été，不插入 de。",
+      "reason": "OQLF列举现在与过去的对应解释，保留通常过去而去除排他限制",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete"
+      ]
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "grammar",
+        2,
+        "zh"
+      ],
+      "before": "<b>quand bien même</b>(+条件式,即便)、<b>n'était / n'eût été</b>(+名词,若非)、<b>encore que</b>(+虚拟,虽然)、<b>tout + 形容词 + que</b>(常+直陈,亦可用虚拟,尽管)、<b>pour autant que</b>(+虚拟,就…而言)。",
+      "after": "<b>quand bien même</b>(+条件式,即便)、<b>n'était / n'eût été</b>(+名词,若非)、<b>encore que</b>(通常+虚拟,虽然)、<b>tout + 形容词 + que</b>(常+直陈,亦可用虚拟,尽管)、<b>pour autant que</b>(常+虚拟,在…范围内;具体语气随意义变化)。",
+      "reason": "原概览与允许其他语气的扩写边界一致",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "grammar",
+        2,
+        "tip"
+      ],
+      "before": "<b>关键:</b>quand bien même + <strong>条件式</strong>;tout… que 常用<strong>直陈式</strong>(强调事实),亦可用虚拟式;encore que + <strong>虚拟式</strong>。",
+      "after": "<b>关键:</b>quand bien même + <strong>条件式</strong>;tout… que 常用<strong>直陈式</strong>(强调事实),亦可用虚拟式;encore que 通常 + <strong>虚拟式</strong>;特定文学语境可见其他语气。",
+      "reason": "不给encore que无条件必用虚拟式禁令",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-subj-fin",
+        4,
+        "q"
+      ],
+      "before": "« Le fait qu'il ___ (être) étranger ne change rien à l'affaire. » (le fait que 句首)",
+      "after": "« Le fait qu’il ___ (être) étranger ne change rien à l’affaire. » (本题练习常见的虚拟式现在)",
+      "reason": "le fait que也有合法直陈，题目指定目标语气",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-subj-fin",
+        4,
+        "note"
+      ],
+      "before": "考查 le fait que 作主语时常接虚拟式。",
+      "after": "本题按要求用 soit；le fait que 作主语时虚拟式常见，但 est 可在突出已知事实的语境成立，不能一律判错。",
+      "reason": "记录合法替代的条件",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/expansion-c2.json",
+      "path": [
+        "c2-inversion-style",
+        "sections",
+        0,
+        "explanation"
+      ],
+      "before": "引语后的 dit-il / demanda-t-elle 是陈述插入语，不是疑问句。代词主语与动词用连字符；动词以元音结尾且后接 il/elle/on 时补 -t-。名词主语也可后置。",
+      "after": "引语后的 dit-il / demanda-t-elle 是陈述插入语，不是疑问句。代词主语与动词用连字符；第三人称单数动词以 a/e 结尾且后接 il/elle/on 时通常补 -t-，末尾已有 t/d 时不再补。名词主语也可后置。",
+      "reason": "元音结尾过宽，限定插入t条件",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "grammar",
+        7,
+        "ex",
+        1,
+        "zh"
+      ],
+      "before": "据媒体,死亡人数或达十人。",
+      "after": "据媒体报道，死亡人数据称达到十人。",
+      "reason": "消息来源保留不只表示数量可能，译据称对应新闻条件式",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-c2.json",
+      "path": [
+        "c2-conjecture",
+        "sections",
+        1,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "据多名目击者称，嫌疑人可能在里昂。",
+      "after": "据多名目击者称，嫌疑人据说在里昂。",
+      "reason": "保留来源与未核实态度，避免仅译概率",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-c2.json",
+      "path": [
+        "c2-rection",
+        "sections",
+        0,
+        "examples",
+        2,
+        "fr"
+      ],
+      "before": "Il tient de sa mère pour la patience.",
+      "after": "Il tient de sa mère : il est tout aussi patient.",
+      "reason": "以更自然完整语境说明tenir de的继承特征意义",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-c2.json",
+      "path": [
+        "c2-rection",
+        "sections",
+        0,
+        "examples",
+        2,
+        "zh"
+      ],
+      "before": "他的耐心像母亲。",
+      "after": "他像母亲一样有耐心。",
+      "reason": "对应修订后的完整法语例句",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-c2.json",
+      "path": [
+        "c2-cause-niee",
+        "sections",
+        1,
+        "examples",
+        1,
+        "use"
+      ],
+      "before": "双层否定：排除“没尝试”这个解释，承认她尝试过。",
+      "after": "外层否定排除“没有尝试”这一原因；在本句通常理解为她确实尝试过。该结构本身首先否定因果解释，不是在所有语境中逻辑证明尝试一定发生。",
+      "reason": "非因果否定不自动断言从句事实的反面",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "grammar",
+        1,
+        "ex",
+        2,
+        "use"
+      ],
+      "before": "虚拟式未完成过去:主句 imparfait,从句同时的状态用 fût,现代法语作 soit",
+      "after": "虚拟式未完成过去:主句 imparfait,从句同时的状态用 fût,现代可作 soit；ne 为可省略的赘词，不表示她没有走远。",
+      "reason": "明确craindre后的ne为赘词，避免反译",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif"
+      ]
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-cohesion",
+        0,
+        "q"
+      ],
+      "before": "« ___ , la décision est prise. » (无论如何)",
+      "after": "« ___ , la décision est prise. » (无论如何)（本题指定使用 quoi qu’il en soit。）",
+      "reason": "同义连接词可能满足中文提示，指定本题结构避免唯一答案错觉",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-cohesion",
+        1,
+        "q"
+      ],
+      "before": "« ___ , il avait raison. » (就此事而言)",
+      "after": "« ___ , il avait raison. » (就此事而言)（本题指定使用 en l’occurrence。）",
+      "reason": "同义连接词可能满足中文提示，指定本题结构避免唯一答案错觉",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-cohesion",
+        2,
+        "q"
+      ],
+      "before": "« Le projet coûte cher ; ___ , il est nécessaire. » (话虽如此)",
+      "after": "« Le projet coûte cher ; ___ , il est nécessaire. » (话虽如此)（本题指定使用 cela étant。）",
+      "reason": "同义连接词可能满足中文提示，指定本题结构避免唯一答案错觉",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-cohesion",
+        3,
+        "q"
+      ],
+      "before": "« Il se dit pauvre ; ___ , il vient d'acheter une villa. » (然而,引入新论据)",
+      "after": "« Il se dit pauvre ; ___ , il vient d'acheter une villa. » (然而,引入新论据)（本题指定使用 or。）",
+      "reason": "同义连接词可能满足中文提示，指定本题结构避免唯一答案错觉",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-cohesion",
+        4,
+        "q"
+      ],
+      "before": "« La route est longue ; elle est, ___ , fort belle. » (再者/不过)",
+      "after": "« La route est longue ; elle est, ___ , fort belle. » (再者/不过)（本题指定使用 au demeurant。）",
+      "reason": "同义连接词可能满足中文提示，指定本题结构避免唯一答案错觉",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-cohesion",
+        5,
+        "q"
+      ],
+      "before": "« Les coûts augmentent ; ___ , les marges diminuent. » (因而,文语)",
+      "after": "« Les coûts augmentent ; ___ , les marges diminuent. » (因而,文语)（本题指定使用 partant。）",
+      "reason": "同义连接词可能满足中文提示，指定本题结构避免唯一答案错觉",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-cohesion",
+        6,
+        "q"
+      ],
+      "before": "« ___ , votre proposition mérite examen. » (在这方面)",
+      "after": "« ___ , votre proposition mérite examen. » (在这方面)（本题指定使用 à cet égard。）",
+      "reason": "同义连接词可能满足中文提示，指定本题结构避免唯一答案错觉",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-cohesion",
+        6,
+        "note"
+      ],
+      "before": "考查 à cet égard 限定论述的方面。",
+      "after": "考查 à cet égard 指回前文某方面；本题是句型填空，独立使用需补足所指方面。",
+      "reason": "练习孤立句需说明指代依赖上下文",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-exclamation",
+        0,
+        "q"
+      ],
+      "before": "« ___ temps perdu ! » (多么多…!表数量)",
+      "after": "« ___ temps perdu ! » (多么多…!表数量)（指定 Que de 结构。）",
+      "reason": "数量感叹可有其他表达，限定练习目标",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-c2.json",
+      "path": [
+        "practice",
+        "c2-exclamation",
+        3,
+        "q"
+      ],
+      "before": "« ___ je regrette ces années ! » (多么,文学感叹)",
+      "after": "« ___ je regrette ces années ! » (多么,文学感叹)（指定 Combien。）",
+      "reason": "Que/Comme也可感叹，不把合法变体判错",
+      "sources": []
+    },
+    {
+      "file": "tools/sources-c2.json",
+      "path": [],
+      "before": [
+        {
+          "title": "OQLF — Emploi de ci-joint, ci-inclus et ci-annexé comme adjectifs et adverbes",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21484/la-grammaire/le-verbe/accord-du-participe-passe/sans-auxiliaire/emploi-de-ci-joint-ci-inclus-et-ci-annexe-comme-adjectifs-et-adverbes",
+          "notes": "核实句首、无限定词名词前不变，后置形容词配合，句内带限定词名词前两可。"
+        },
+        {
+          "title": "OQLF — Tout employé comme adverbe",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22907/la-grammaire/ladverbe/tout-employe-comme-adverbe",
+          "notes": "核实 tout 在阴性辅音及嘘音 h 起始形容词前性数配合。"
+        },
+        {
+          "title": "OQLF — L’asyndète et la parataxe",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24092/la-redaction-et-la-communication/figures-de-style/figures-jouant-sur-la-construction-de-la-phrase/lasyndete-et-la-parataxe",
+          "notes": "核实 asyndète 是逻辑连接成分的省去，不能等同省略动词。"
+        },
+        {
+          "title": "OQLF — L’ellipse",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23213/la-redaction-et-la-communication/figures-de-style/figures-jouant-sur-la-construction-de-la-phrase/lellipse",
+          "notes": "核实可复原成分省略的定义。"
+        },
+        {
+          "title": "OQLF — Le futur simple",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24127/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-simple",
+          "notes": "核实对当前状态的推测用法，不表未来时间。"
+        },
+        {
+          "title": "OQLF — Le futur antérieur",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24129/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-anterieur",
+          "notes": "核实对已往事件的解释性假设。"
+        },
+        {
+          "title": "OQLF — Valeur modale du conditionnel",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24148/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/valeur-modale-du-conditionnel",
+          "notes": "核实条件式的非时间情态价值与消息保留。"
+        },
+        {
+          "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+          "notes": "核实 de sorte que 目的/结果不同用式，le fait que、pour autant que、encore que 的虚拟式常见但非绝对。"
+        },
+        {
+          "title": "OQLF — Subjonctif et subordonnée relative",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/25168/la-grammaire/le-verbe/modes/subjonctif/subjonctif-et-subordonnee-relative",
+          "notes": "核实唯一性和最高级后虚拟式常见，但可按实际信息角度使用直陈式。"
+        },
+        {
+          "title": "OQLF — Principes de la correspondance des temps",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps",
+          "notes": "时态呼应的现代与文学语境参考。"
+        },
+        {
+          "title": "OQLF — Accord du participe passé des verbes exprimant une quantité",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21856/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-des-verbes-exprimant-une-quantite",
+          "notes": "本轮审校已读取正文：数量本身不排除配合，判断是否为直接宾语；courir距离不配合，风险/马拉松等及物宾语配合。"
+        },
+        {
+          "title": "OQLF — Accord et emploi de n’eût été et n’eussent été",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete",
+          "notes": "本轮审校已读取正文：后置名词是主语，须单复数一致；n’était原则上对应现在/未来反事实，n’eût été通常对应过去反事实；不可插入de。"
+        },
+        {
+          "title": "OQLF — Conditionnel passé et plus-que-parfait du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif",
+          "notes": "本轮审校已读取正文：文学假设中愈过去虚拟式可用于条件与结果；条件式过去第二式是历史术语，不普遍用于现代分类。"
+        }
+      ],
+      "after": [
+        {
+          "title": "OQLF — Emploi de ci-joint, ci-inclus et ci-annexé comme adjectifs et adverbes",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21484/la-grammaire/le-verbe/accord-du-participe-passe/sans-auxiliaire/emploi-de-ci-joint-ci-inclus-et-ci-annexe-comme-adjectifs-et-adverbes",
+          "notes": "核实句首、无限定词名词前不变，后置形容词配合，句内带限定词名词前两可。"
+        },
+        {
+          "title": "OQLF — Tout employé comme adverbe",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22907/la-grammaire/ladverbe/tout-employe-comme-adverbe",
+          "notes": "核实 tout 在阴性辅音及嘘音 h 起始形容词前性数配合。"
+        },
+        {
+          "title": "OQLF — L’asyndète et la parataxe",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24092/la-redaction-et-la-communication/figures-de-style/figures-jouant-sur-la-construction-de-la-phrase/lasyndete-et-la-parataxe",
+          "notes": "核实 asyndète 是逻辑连接成分的省去，不能等同省略动词。"
+        },
+        {
+          "title": "OQLF — L’ellipse",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23213/la-redaction-et-la-communication/figures-de-style/figures-jouant-sur-la-construction-de-la-phrase/lellipse",
+          "notes": "核实可复原成分省略的定义。"
+        },
+        {
+          "title": "OQLF — Le futur simple",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24127/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-simple",
+          "notes": "核实对当前状态的推测用法，不表未来时间。"
+        },
+        {
+          "title": "OQLF — Le futur antérieur",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24129/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-anterieur",
+          "notes": "核实对已往事件的解释性假设。"
+        },
+        {
+          "title": "OQLF — Valeur modale du conditionnel",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24148/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/valeur-modale-du-conditionnel",
+          "notes": "核实条件式的非时间情态价值与消息保留。"
+        },
+        {
+          "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+          "notes": "核实 de sorte que 目的/结果不同用式，le fait que、pour autant que、encore que 的虚拟式常见但非绝对。"
+        },
+        {
+          "title": "OQLF — Subjonctif et subordonnée relative",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/25168/la-grammaire/le-verbe/modes/subjonctif/subjonctif-et-subordonnee-relative",
+          "notes": "核实唯一性和最高级后虚拟式常见，但可按实际信息角度使用直陈式。"
+        },
+        {
+          "title": "OQLF — Principes de la correspondance des temps",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps",
+          "notes": "时态呼应的现代与文学语境参考。"
+        },
+        {
+          "title": "OQLF — Accord du participe passé des verbes exprimant une quantité",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21856/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-des-verbes-exprimant-une-quantite",
+          "notes": "本轮审校已读取正文：数量本身不排除配合，判断是否为直接宾语；courir距离不配合，风险/马拉松等及物宾语配合。"
+        },
+        {
+          "title": "OQLF — Accord et emploi de n’eût été et n’eussent été",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete",
+          "notes": "本轮审校已读取正文：后置名词是主语，须单复数一致；n’était原则上对应现在/未来反事实，n’eût été通常对应过去反事实；不可插入de。"
+        },
+        {
+          "title": "OQLF — Conditionnel passé et plus-que-parfait du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif",
+          "notes": "本轮审校已读取正文：文学假设中愈过去虚拟式可用于条件与结果；条件式过去第二式是历史术语，不普遍用于现代分类。"
+        },
+        {
+          "title": "OQLF — Constructions avec un ne explétif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+          "notes": "严格语义复核实际浏览：比较及恐惧结构的赘词ne不否定从句，可省略。"
+        },
+        {
+          "title": "OQLF — Temps surcomposé",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26576923/temps-surcompose",
+          "notes": "严格语义复核实际浏览：a eu + participe 属过去超复合形式。"
+        },
+        {
+          "title": "Académie française — Questions de langue",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "严格语义复核实际浏览：量度补语和前置直接宾语配合；前置分词的功能分析。"
+        }
+      ],
+      "reason": "保留原来源条目，补入本轮实际浏览的规则核验来源",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26576923/temps-surcompose",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21484/la-grammaire/le-verbe/accord-du-participe-passe/sans-auxiliaire/emploi-de-ci-joint-ci-inclus-et-ci-annexe-comme-adjectifs-et-adverbes",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/22907/la-grammaire/ladverbe/tout-employe-comme-adverbe",
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ]
+    },
+    {
+      "file": "tools/expansion-c2.json",
+      "path": [
+        "c2-inversion-style",
+        "sections",
+        0,
+        "explanation"
+      ],
+      "before": "引语后的 dit-il / demanda-t-elle 是陈述插入语，不是疑问句。代词主语与动词用连字符；第三人称单数动词以 a/e 结尾且后接 il/elle/on 时通常补 -t-，末尾已有 t/d 时不再补。名词主语也可后置。",
+      "after": "引语后的 dit-il / demanda-t-elle 是陈述插入语，不是疑问句。代词主语与动词用连字符；第三人称单数动词拼写以 a/e 结尾且后接 il/elle/on 时补 -t-；vaincre/convaincre 的 c 结尾也补（vainc-t-il）。末尾已有 t/d 时不再补。这里看拼写，不能只凭发音是否元音。名词主语也可后置。",
+      "reason": "主任务跨级复核：明确按动词末尾拼写判断连接t，补vaincre/convaincre的-c例外；加拿大语言官方明确a/c/e而不是所有发音元音。",
+      "sources": [
+        "https://nos-langues.canada.ca/fr/cles-de-la-redaction/t-euphonique-t-on-t-en-t-il"
+      ]
+    },
+    {
+      "file": "tools/sources-c2.json",
+      "path": [],
+      "before": [
+        {
+          "title": "OQLF — Emploi de ci-joint, ci-inclus et ci-annexé comme adjectifs et adverbes",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21484/la-grammaire/le-verbe/accord-du-participe-passe/sans-auxiliaire/emploi-de-ci-joint-ci-inclus-et-ci-annexe-comme-adjectifs-et-adverbes",
+          "notes": "核实句首、无限定词名词前不变，后置形容词配合，句内带限定词名词前两可。"
+        },
+        {
+          "title": "OQLF — Tout employé comme adverbe",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22907/la-grammaire/ladverbe/tout-employe-comme-adverbe",
+          "notes": "核实 tout 在阴性辅音及嘘音 h 起始形容词前性数配合。"
+        },
+        {
+          "title": "OQLF — L’asyndète et la parataxe",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24092/la-redaction-et-la-communication/figures-de-style/figures-jouant-sur-la-construction-de-la-phrase/lasyndete-et-la-parataxe",
+          "notes": "核实 asyndète 是逻辑连接成分的省去，不能等同省略动词。"
+        },
+        {
+          "title": "OQLF — L’ellipse",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23213/la-redaction-et-la-communication/figures-de-style/figures-jouant-sur-la-construction-de-la-phrase/lellipse",
+          "notes": "核实可复原成分省略的定义。"
+        },
+        {
+          "title": "OQLF — Le futur simple",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24127/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-simple",
+          "notes": "核实对当前状态的推测用法，不表未来时间。"
+        },
+        {
+          "title": "OQLF — Le futur antérieur",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24129/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-anterieur",
+          "notes": "核实对已往事件的解释性假设。"
+        },
+        {
+          "title": "OQLF — Valeur modale du conditionnel",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24148/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/valeur-modale-du-conditionnel",
+          "notes": "核实条件式的非时间情态价值与消息保留。"
+        },
+        {
+          "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+          "notes": "核实 de sorte que 目的/结果不同用式，le fait que、pour autant que、encore que 的虚拟式常见但非绝对。"
+        },
+        {
+          "title": "OQLF — Subjonctif et subordonnée relative",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/25168/la-grammaire/le-verbe/modes/subjonctif/subjonctif-et-subordonnee-relative",
+          "notes": "核实唯一性和最高级后虚拟式常见，但可按实际信息角度使用直陈式。"
+        },
+        {
+          "title": "OQLF — Principes de la correspondance des temps",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps",
+          "notes": "时态呼应的现代与文学语境参考。"
+        },
+        {
+          "title": "OQLF — Accord du participe passé des verbes exprimant une quantité",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21856/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-des-verbes-exprimant-une-quantite",
+          "notes": "本轮审校已读取正文：数量本身不排除配合，判断是否为直接宾语；courir距离不配合，风险/马拉松等及物宾语配合。"
+        },
+        {
+          "title": "OQLF — Accord et emploi de n’eût été et n’eussent été",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete",
+          "notes": "本轮审校已读取正文：后置名词是主语，须单复数一致；n’était原则上对应现在/未来反事实，n’eût été通常对应过去反事实；不可插入de。"
+        },
+        {
+          "title": "OQLF — Conditionnel passé et plus-que-parfait du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif",
+          "notes": "本轮审校已读取正文：文学假设中愈过去虚拟式可用于条件与结果；条件式过去第二式是历史术语，不普遍用于现代分类。"
+        },
+        {
+          "title": "OQLF — Constructions avec un ne explétif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+          "notes": "严格语义复核实际浏览：比较及恐惧结构的赘词ne不否定从句，可省略。"
+        },
+        {
+          "title": "OQLF — Temps surcomposé",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26576923/temps-surcompose",
+          "notes": "严格语义复核实际浏览：a eu + participe 属过去超复合形式。"
+        },
+        {
+          "title": "Académie française — Questions de langue",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "严格语义复核实际浏览：量度补语和前置直接宾语配合；前置分词的功能分析。"
+        }
+      ],
+      "after": [
+        {
+          "title": "OQLF — Emploi de ci-joint, ci-inclus et ci-annexé comme adjectifs et adverbes",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21484/la-grammaire/le-verbe/accord-du-participe-passe/sans-auxiliaire/emploi-de-ci-joint-ci-inclus-et-ci-annexe-comme-adjectifs-et-adverbes",
+          "notes": "核实句首、无限定词名词前不变，后置形容词配合，句内带限定词名词前两可。"
+        },
+        {
+          "title": "OQLF — Tout employé comme adverbe",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22907/la-grammaire/ladverbe/tout-employe-comme-adverbe",
+          "notes": "核实 tout 在阴性辅音及嘘音 h 起始形容词前性数配合。"
+        },
+        {
+          "title": "OQLF — L’asyndète et la parataxe",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24092/la-redaction-et-la-communication/figures-de-style/figures-jouant-sur-la-construction-de-la-phrase/lasyndete-et-la-parataxe",
+          "notes": "核实 asyndète 是逻辑连接成分的省去，不能等同省略动词。"
+        },
+        {
+          "title": "OQLF — L’ellipse",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23213/la-redaction-et-la-communication/figures-de-style/figures-jouant-sur-la-construction-de-la-phrase/lellipse",
+          "notes": "核实可复原成分省略的定义。"
+        },
+        {
+          "title": "OQLF — Le futur simple",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24127/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-simple",
+          "notes": "核实对当前状态的推测用法，不表未来时间。"
+        },
+        {
+          "title": "OQLF — Le futur antérieur",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24129/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-anterieur",
+          "notes": "核实对已往事件的解释性假设。"
+        },
+        {
+          "title": "OQLF — Valeur modale du conditionnel",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24148/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/valeur-modale-du-conditionnel",
+          "notes": "核实条件式的非时间情态价值与消息保留。"
+        },
+        {
+          "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+          "notes": "核实 de sorte que 目的/结果不同用式，le fait que、pour autant que、encore que 的虚拟式常见但非绝对。"
+        },
+        {
+          "title": "OQLF — Subjonctif et subordonnée relative",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/25168/la-grammaire/le-verbe/modes/subjonctif/subjonctif-et-subordonnee-relative",
+          "notes": "核实唯一性和最高级后虚拟式常见，但可按实际信息角度使用直陈式。"
+        },
+        {
+          "title": "OQLF — Principes de la correspondance des temps",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps",
+          "notes": "时态呼应的现代与文学语境参考。"
+        },
+        {
+          "title": "OQLF — Accord du participe passé des verbes exprimant une quantité",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21856/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-des-verbes-exprimant-une-quantite",
+          "notes": "本轮审校已读取正文：数量本身不排除配合，判断是否为直接宾语；courir距离不配合，风险/马拉松等及物宾语配合。"
+        },
+        {
+          "title": "OQLF — Accord et emploi de n’eût été et n’eussent été",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete",
+          "notes": "本轮审校已读取正文：后置名词是主语，须单复数一致；n’était原则上对应现在/未来反事实，n’eût été通常对应过去反事实；不可插入de。"
+        },
+        {
+          "title": "OQLF — Conditionnel passé et plus-que-parfait du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif",
+          "notes": "本轮审校已读取正文：文学假设中愈过去虚拟式可用于条件与结果；条件式过去第二式是历史术语，不普遍用于现代分类。"
+        },
+        {
+          "title": "OQLF — Constructions avec un ne explétif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+          "notes": "严格语义复核实际浏览：比较及恐惧结构的赘词ne不否定从句，可省略。"
+        },
+        {
+          "title": "OQLF — Temps surcomposé",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26576923/temps-surcompose",
+          "notes": "严格语义复核实际浏览：a eu + participe 属过去超复合形式。"
+        },
+        {
+          "title": "Académie française — Questions de langue",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "严格语义复核实际浏览：量度补语和前置直接宾语配合；前置分词的功能分析。"
+        },
+        {
+          "title": "Portail linguistique du Canada — t euphonique",
+          "url": "https://nos-langues.canada.ca/fr/cles-de-la-redaction/t-euphonique-t-on-t-en-t-il",
+          "notes": "本轮主任务核验：第三人称单数倒装a/c/e拼写结尾加t，已有t/d不重复，含vainc-t-on例。"
+        }
+      ],
+      "reason": "补主任务实读的连接t官方来源。",
+      "sources": [
+        "https://nos-langues.canada.ca/fr/cles-de-la-redaction/t-euphonique-t-on-t-en-t-il"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "文学与地域变体",
+      "note": "tout…que、encore que、pour autant que等语气选择及文体自然度有语境差异；保留常见规范路径及合法边界，不声称每个变体均同样常用。"
+    },
+    {
+      "topic": "原创例句",
+      "note": "全部例句逐项语义审读；外部来源用于规则核验，并非每句都有外部出处。"
+    },
+    {
+      "topic": "n’eût été",
+      "note": "OQLF说明通常主句条件式过去，但列出si ce n’était等对应解释；不能仅凭该形态把所有语境限定为日历过去。"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete",
+      "title": "OQLF — Accord et emploi de n’eût été et n’eussent été",
+      "checked_claim": "后置主语配合、无de、通常过去结果与可对应si ce n’était的时间解释。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+      "title": "OQLF — Constructions avec un ne explétif",
+      "checked_claim": "比较及恐惧结构的赘词ne不否定从句，可省略。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26576923/temps-surcompose",
+      "title": "OQLF — Temps surcomposé",
+      "checked_claim": "a eu + participe 属过去超复合形式。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+      "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+      "checked_claim": "le fait que/pour autant que/encore que的虚拟式常见非绝对；non que/ce n’est pas que与目的结果语气。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21484/la-grammaire/le-verbe/accord-du-participe-passe/sans-auxiliaire/emploi-de-ci-joint-ci-inclus-et-ci-annexe-comme-adjectifs-et-adverbes",
+      "title": "OQLF — Ci-joint, ci-inclus et ci-annexé",
+      "checked_claim": "句首或无限定名词前不变，后置形容词配合，句内限定名词前两可。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps",
+      "title": "OQLF — Principes de la correspondance des temps",
+      "checked_claim": "文学未完成/愈过去虚拟式与现代现在/过去式的相对时间。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22907/la-grammaire/ladverbe/tout-employe-comme-adverbe",
+      "title": "OQLF — Tout employé comme adverbe",
+      "checked_claim": "阴性辅音或嘘音h前副词tout性数配合。"
+    },
+    {
+      "url": "https://www.academie-francaise.fr/questions-de-langue",
+      "title": "Académie française — Questions de langue",
+      "checked_claim": "量度补语和前置直接宾语配合；前置分词的功能分析。"
+    },
+    {
+      "url": "https://nos-langues.canada.ca/fr/cles-de-la-redaction/t-euphonique-t-on-t-en-t-il",
+      "title": "t euphonique",
+      "checked_claim": "连接t按拼写a/c/e及第三人称后置代词条件，含vainc-t-on。"
+    }
+  ]
+}

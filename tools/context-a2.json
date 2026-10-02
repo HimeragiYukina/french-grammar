@@ -1,0 +1,215 @@
+[
+  {
+    "id": "a2-context-rendezvous-manque",
+    "title": "去车站接朋友：背景、突发事件与完整经历",
+    "related": [
+      "a2-pc-avoir",
+      "a2-pc-etre",
+      "a2-imparfait",
+      "a2-pc-vs-imp"
+    ],
+    "sentences": [
+      {
+        "fr": "Samedi dernier, il pleuvait et la gare était pleine de voyageurs ; j’attendais mon amie Léa près de l’entrée principale.",
+        "zh": "上周六，下着雨，车站里满是旅客；我在正门附近等朋友莱娅。",
+        "why": "pleuvait/était/attendais描写同一过去时刻的天气、环境和进行动作，不先呈现终点。",
+        "alternative": "若说J’ai attendu Léa près de l’entrée，则把等候作为一整段经历；可接pendant vingt minutes交代总时长。"
+      },
+      {
+        "fr": "D’habitude, elle arrivait à l’heure, mais ce jour-là son train a eu trente minutes de retard.",
+        "zh": "她平常总准时到，但那天她的火车晚点了三十分钟。",
+        "why": "arrivait概括过去习惯；a eu呈现该次具体晚点，与习惯形成对照。",
+        "alternative": "Elle est arrivée à l’heure只陈述那一次准时到达，不再表达通常习惯；这里会改变与晚点的对照。"
+      },
+      {
+        "fr": "Pendant que je regardais le panneau des arrivées, mon téléphone a sonné : Léa cherchait la sortie de l’autre côté du bâtiment.",
+        "zh": "我正看着到站信息屏时，手机响了：莱娅正在大楼另一侧找出口。",
+        "why": "regardais/cherchait是展开中的过程，a sonné是插入的事件；冒号后解释来电背景。",
+        "alternative": "J’ai regardé le panneau呈现一次查看；不再特别说明电话响时我正处于查看过程中。"
+      },
+      {
+        "fr": "Je lui ai expliqué le chemin, puis nous nous sommes retrouvés devant la boulangerie et nous avons acheté deux cafés.",
+        "zh": "我给她说明了路线，然后我们在面包店前碰面，买了两杯咖啡。",
+        "why": "三个PC动作构成有先后顺序的事件链；sommes retrouvés使用être，混合性别或男性叙述者时写retrouvés。",
+        "alternative": "Nous nous retrouvions devant la boulangerie可表示当时正在汇合或过去经常在那里碰面，需要另有背景；不能照原句当一次碰面的同义替换。"
+      },
+      {
+        "fr": "Nous avons parlé pendant une heure ; quand nous sommes sortis, la pluie était moins forte et les rues étaient presque vides.",
+        "zh": "我们聊了一个小时；出来时，雨小了一些，街道也几乎空了。",
+        "why": "avons parlé把有界的一小时作整体；sommes sortis是离开事件；était/étaient描写离开时环境。sortis 对应男性或混合群体；若 nous 全为女性，应写 sorties（前句 retrouvés 同理为 retrouvées）。",
+        "alternative": "Nous parlions depuis une heure quand…表示某事件发生时聊天已持续一小时，不保证聊天恰好在那里结束。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "填词（背景+插入事件）：Pendant que je ___ (regarder) le panneau, mon téléphone ___ (sonner).",
+        "a": "Pendant que je regardais le panneau, mon téléphone a sonné.",
+        "note": "regardais描写当时过程；a sonné叙述来电事件。"
+      },
+      {
+        "q": "把“我们聊了一个小时”写成完整经历，使用parler与pendant。",
+        "a": "Nous avons parlé pendant une heure.",
+        "note": "时间长短不是决定时态的唯一依据；这里把一小时聊天视为整体。"
+      },
+      {
+        "q": "原文的“她平常总准时到”为何用arrivait，而不是est arrivée？",
+        "a": "arrivait表示过去通常的习惯；est arrivée通常呈现某一次到达。",
+        "note": "若限定一个已结束时期的一系列到达，也可用PC；本段没有采用这种观察角度。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "University of Texas at Austin — Narration: passé composé vs. imparfait",
+        "url": "https://laits.utexas.edu/tex/gr/tap8.html"
+      },
+      {
+        "title": "University of Texas at Austin — Passé composé with être",
+        "url": "https://laits.utexas.edu/tex/gr/tap3.html"
+      }
+    ]
+  },
+  {
+    "id": "a2-context-course-achat",
+    "title": "为语言课买用品：让en、y、le和lui各有所指",
+    "related": [
+      "a2-en",
+      "a2-y",
+      "a2-cod",
+      "a2-coi",
+      "a2-quantite",
+      "a2-politesse"
+    ],
+    "sentences": [
+      {
+        "fr": "Demain, notre cours commence dans une nouvelle salle, alors je vais à la papeterie du quartier pour acheter du matériel.",
+        "zh": "明天，我们的课要在一个新教室里开始，所以我去街区的文具店买用品。",
+        "why": "现在时 commence 表达已有安排；du matériel 引入泛指用品。后文具体介绍 cahiers，后面的 en 回指本子，不是直接代替 matériel。je vais 在此表示眼下为明天的课去采购；也可明确说 aujourd’hui, je vais…，避免把准备购物误解为明天上课时才购物。",
+        "alternative": "acheter le matériel指已确定的那批用品；所指从泛指量变为特定对象，后续通常用le替代。"
+      },
+      {
+        "fr": "J’y vais à pied, car elle est tout près, et je prends aussi la liste que la professeure nous a envoyée.",
+        "zh": "我步行去那里，因为店就在附近，还带上老师发给我们的清单。",
+        "why": "y指前句的papeterie地点；envoyée配合提前的阴性COD liste，nous则是接受者。",
+        "alternative": "Je lui vais不能表达去店里；完整保留Je vais à la papeterie只是重复地点，意义不变但较累赘。"
+      },
+      {
+        "fr": "À l’entrée, je montre cette liste au vendeur et je lui demande où se trouvent les cahiers à grands carreaux.",
+        "zh": "进门后，我给店员看这张清单，问他大方格练习本在哪里。",
+        "why": "lui替代au vendeur，指问话对象；间接问句où se trouvent les cahiers使用名词主语后置。",
+        "alternative": "Je le demande 可指索要它（例如前文清单），le 是 demander 的直接宾语；Je lui demande où… 中 lui 指提问对象，问的内容由从句表达。"
+      },
+      {
+        "fr": "Il m’en propose plusieurs, mais je n’en prends que deux parce que nous travaillons surtout sur ordinateur.",
+        "zh": "他给我推荐了好几本，但我只拿了两本，因为我们主要用电脑学习。",
+        "why": "两处en都指cahiers；plusieurs和deux保留数量；ne…que表示只，而非全部否定。",
+        "alternative": "Je ne les prends pas否定拿那些特定本子；Je n’en prends pas否定拿任何本子，都不同于只拿两本。"
+      },
+      {
+        "fr": "Je choisis enfin un classeur bleu et je le pose sur le comptoir : « Pourriez-vous me donner un sac, s’il vous plaît ? »",
+        "zh": "最后，我选了一个蓝色文件夹，把它放到柜台上：“请问，您能给我一个袋子吗？”",
+        "why": "le指刚选定的classeur，已经是特定阳性单数；pourriez-vous委婉请求对方给袋子。",
+        "alternative": "J’en prends un重新谈从一类物品中拿一个，未强调这个已选文件夹；Pouvez-vous…同样可礼貌，但条件式进一步缓和。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "用代词改写地点：Je vais à la papeterie à pied.",
+        "a": "J’y vais à pied.",
+        "note": "y替代地点à la papeterie，不保留à。"
+      },
+      {
+        "q": "用en回答，并保留数量：Vous prenez combien de cahiers ?（两个）",
+        "a": "J’en prends deux.",
+        "note": "en替代cahiers，数词deux保留。"
+      },
+      {
+        "q": "将Je demande un sac au vendeur改写为“我向他要一个袋子”，只代换店员。",
+        "a": "Je lui demande un sac.",
+        "note": "demander quelque chose à quelqu’un；lui指人物接受者，un sac仍是COD。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "University of Texas at Austin — Pronoun en",
+        "url": "https://laits.utexas.edu/tex/gr/pro7.html"
+      },
+      {
+        "title": "University of Texas at Austin — Pronoun y",
+        "url": "https://laits.utexas.edu/tex/gr/pro6.html"
+      },
+      {
+        "title": "University of Texas at Austin — Conditional",
+        "url": "https://laits.utexas.edu/tex/gr/tac1.html"
+      }
+    ]
+  },
+  {
+    "id": "a2-context-reservation-horaire",
+    "title": "预约行政窗口：起点、时长、多久前与多久后",
+    "related": [
+      "a2-temps-prep",
+      "a2-politesse",
+      "a2-futur-simple",
+      "a2-imparfait"
+    ],
+    "sentences": [
+      {
+        "fr": "J’habite dans ce quartier depuis septembre et je prépare mon dossier depuis deux semaines, mais il manque encore un document.",
+        "zh": "我从九月起一直住在这个街区，已经准备材料两周了，但还缺一份文件。",
+        "why": "depuis分别给出起点与持续时长；habite/prépare用现在时，说明居住和准备到现在仍继续。",
+        "alternative": "J’ai préparé mon dossier pendant deux semaines把两周准备作完整阶段，不同于此处仍在准备的过程。"
+      },
+      {
+        "fr": "J’ai appelé la mairie il y a trois jours ; aujourd’hui, mercredi, je téléphone de nouveau pour demander un rendez-vous.",
+        "zh": "我三天前给市政厅打过电话；今天是周三，我再次打电话预约。",
+        "why": "il y a trois jours定位上次通话在现在之前；aujourd’hui与现在时定位当前动作。 当前是周三，后文周五与dans deux jours因此一致。",
+        "alternative": "Je téléphone depuis trois jours表示三天来持续或反复打电话，不是单独定位三天前的一次电话。"
+      },
+      {
+        "fr": "« Je voudrais venir vendredi matin ; pourriez-vous me dire combien de temps dure le rendez-vous ? »",
+        "zh": "“我想星期五上午来；您能告诉我预约会面需要多长时间吗？”",
+        "why": "voudrais与pourriez-vous是礼貌条件式；combien de temps提问会面的持续长度。",
+        "alternative": "Je viendrai vendredi断言将来安排，不像Je voudrais venir提出可协商的愿望。"
+      },
+      {
+        "fr": "L’employée me répond : « Il durera environ vingt minutes, mais vous devrez attendre pendant quelques minutes à votre arrivée. »",
+        "zh": "工作人员回答：“大约会持续二十分钟，不过您到的时候需要等几分钟。”",
+        "why": "durera/devrez说明预计流程；pendant几分钟是等候的持续时间，并非几分钟后才开始。",
+        "alternative": "Vous attendrez dans quelques minutes表示再过几分钟将开始等待，时间关系不同；pendant只给等候长度。"
+      },
+      {
+        "fr": "Je choisis donc dix heures ; elle confirme : « Votre rendez-vous est dans deux jours ; apportez votre pièce d’identité et arrivez un peu avant. »",
+        "zh": "于是我选了十点；她确认：“您的预约在两天后；请带上身份证件，稍微提前到。”",
+        "why": "dans deux jours从当前通话时点向后定位预约；apportez/arrivez是办理须知的命令式。",
+        "alternative": "Un rendez-vous pendant deux jours会把两天当会面时长，完全改变信息；le vendredi每周五则可能表示重复安排。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "补全：J’habite ici ___ septembre.（一直住到现在）",
+        "a": "J’habite ici depuis septembre.",
+        "note": "depuis后可接起点；现在时说明状态仍持续。"
+      },
+      {
+        "q": "补全：J’ai appelé ___ trois jours ; mon rendez-vous est ___ deux jours.",
+        "a": "J’ai appelé il y a trois jours ; mon rendez-vous est dans deux jours.",
+        "note": "il y a从现在往前，dans从现在往后，均不是会面持续长度。"
+      },
+      {
+        "q": "把Vous pouvez me dire combien de temps dure le rendez-vous ?改成条件式倒装的委婉请求。",
+        "a": "Pourriez-vous me dire combien de temps dure le rendez-vous ?",
+        "note": "pouvoir未来词干pourr-加条件式词尾-iez；间接疑问中名词主语le rendez-vous可以后置。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "University of Texas at Austin — Conditional",
+        "url": "https://laits.utexas.edu/tex/gr/tac1.html"
+      },
+      {
+        "title": "University of Texas at Austin — Depuis, pendant, pour",
+        "url": "https://laits.utexas.edu/tex/gr/prep1.html"
+      }
+    ]
+  }
+]

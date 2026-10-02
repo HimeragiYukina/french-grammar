@@ -7,7 +7,7 @@ const assert=require('assert/strict');
 const context={window:{}};
 vm.runInNewContext(fs.readFileSync('audio/manifest.js','utf8'),context);
 const manifest=context.window.AUDIO_MANIFEST;
-const html=fs.readFileSync('index.html','utf8');
+const html=fs.readFileSync('assets/app.js','utf8');
 const lookup=html.match(/function audioURLFor\(text\)\{[\s\S]*?\n\}/)[0];
 const lookupFor=new Function('MAN','neuralVoice','text',`const useNeural=true;return (${lookup})(text);`);
 const hashName=text=>crypto.createHash('sha1').update(text,'utf8').digest('hex').slice(0,16)+'.mp3';

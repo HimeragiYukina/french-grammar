@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-02",
+  "points": [
+    "a2-pc-avoir",
+    "a2-pc-vs-imp",
+    "a2-en",
+    "a2-y",
+    "a2-temps-prep",
+    "a2-politesse",
+    "b1-si",
+    "b1-connecteurs-base"
+  ],
+  "added_sections": 8,
+  "added_examples": 16,
+  "added_practice": 24,
+  "method": "新增内容逐句核对构成、语义、译文、练习答案及对比；原始数据通过基线哈希保留，A2–B1另做质量复查。",
+  "reviewed_original_points": 33,
+  "reviewed_original_examples": 135,
+  "reviewed_original_practice": 140,
+  "contexts": 6,
+  "context_sentences": 39,
+  "context_practice": 18,
+  "original_field_fixes": 11,
+  "additional_runtime_text_fix": "试听句 prononciation française",
+  "source_checks": [
+    "OQLF",
+    "Académie française",
+    "UT Austin Tex’s French Grammar"
+  ]
+}

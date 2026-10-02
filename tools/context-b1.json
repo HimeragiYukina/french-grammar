@@ -1,0 +1,274 @@
+[
+  {
+    "id": "b1-context-pique-nique",
+    "title": "周末野餐：确定计划、备选方案与委婉建议",
+    "related": [
+      "b1-si",
+      "b1-cond-present",
+      "b1-subj-declencheurs",
+      "b1-negations",
+      "b1-connecteurs-base"
+    ],
+    "sentences": [
+      {
+        "fr": "Samedi, nous organisons un pique-nique avec Léa, mais la météo annonce des averses dans l’après-midi.",
+        "zh": "周六，我们和莱娅组织一次野餐，不过天气预报说下午会有阵雨。",
+        "why": "现在时 organisons 配合 Samedi 表已经安排的将来活动；mais 引入计划面临的阻碍。",
+        "alternative": "Nous aimerions organiser un pique-nique 把已安排活动改成愿望，是否落实尚不明确。"
+      },
+      {
+        "fr": "Si le soleil revient, nous déjeunerons au parc près de la rivière.",
+        "zh": "如果天放晴，我们就在河边公园吃午饭。",
+        "why": "天气变化是可实现条件，si 后现在时，结果用将来时。",
+        "alternative": "Si le soleil revenait, nous déjeunerions… 把方案说得更试探、更有距离，不必断言绝不会放晴。"
+      },
+      {
+        "fr": "Si la pluie continue, nous mangerons chez moi et nous sortirons ensuite.",
+        "zh": "如果雨一直下，我们就到我家吃饭，之后再出去。",
+        "why": "另一种天气条件下给出可执行安排；两个结果动词均用将来时。",
+        "alternative": "Si la pluie avait continué, nous aurions mangé… 改为回顾过去未实现的情况，时间参照变了。"
+      },
+      {
+        "fr": "Tu devrais apporter une veste, car il peut faire frais au bord de l’eau.",
+        "zh": "你最好带件外套，因为水边可能会凉。",
+        "why": "devrais 提建议，car 为建议提供依据；peut 表可能，不表示已经很冷。",
+        "alternative": "Tu dois apporter une veste 更像必要要求；带上衣服的压力明显增加。"
+      },
+      {
+        "fr": "J’aimerais que chacun apporte quelque chose, mais personne n’est obligé de cuisiner.",
+        "zh": "我希望每个人都带点东西，但谁都不必做饭。",
+        "why": "aimerais 表委婉愿望，不同主语的 que 从句用 apporte；personne 作主语仍保留 ne。",
+        "alternative": "Chacun apportera quelque chose 直接宣布安排，不再只是表达愿望。"
+      },
+      {
+        "fr": "Si nous avions une voiture, nous pourrions choisir un endroit plus éloigné.",
+        "zh": "如果我们有车，就能选个更远的地方。",
+        "why": "本场景设定我们没有车，用未完成过去时提出当前反事实，条件式说明可能结果。",
+        "alternative": "Si nous avons une voiture… 把有车作为现实待确认条件，不再设定当前没有车。"
+      },
+      {
+        "fr": "Pourrais-tu vérifier les horaires du bus avant de confirmer notre rendez-vous ?",
+        "zh": "你能在确认见面时间前查一下公交时刻吗？",
+        "why": "Pourrais-tu 是委婉请求；avant de 的查时刻和确认均由对方执行。",
+        "alternative": "Peux-tu vérifier… 也可礼貌，但表达更直接；Pourras-tu… 则更突出对方届时能否做。"
+      },
+      {
+        "fr": "Si le dernier bus part tôt, préviens-moi : nous avancerons l’heure du départ.",
+        "zh": "如果末班公交发车早，就告诉我：我们会提前出发。",
+        "why": "现实条件的主句可以是命令式 préviens；冒号后将来时说明收到信息后的调整。",
+        "alternative": "Tu me préviendras 会更像宣布对方应履行的安排，而非当下请求。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "天放晴是可实现条件，主句用将来时：Si le soleil ___ (revenir), nous ___ (déjeuner) au parc.",
+        "a": "Si le soleil revient, nous déjeunerons au parc.",
+        "note": "si 从句用现在时，主句用将来时；不写 si le soleil reviendra。"
+      },
+      {
+        "q": "设定目前没有车，用当前反事实补全：Si nous ___ (avoir) une voiture, nous ___ (pouvoir) aller plus loin.",
+        "a": "Si nous avions une voiture, nous pourrions aller plus loin.",
+        "note": "未完成过去时 + 条件式现在时；这里是现状反事实，不是过去事件。"
+      },
+      {
+        "q": "把带外套的命令改成较委婉建议：Apporte une veste. → Tu ___ (devoir) apporter une veste.",
+        "a": "Tu devrais apporter une veste.",
+        "note": "条件式 devrais 降低建议强度；并不表示过去本该带。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OQLF — Mode verbal après si",
+        "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si"
+      },
+      {
+        "title": "OQLF — Valeur modale du conditionnel",
+        "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24148/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/valeur-modale-du-conditionnel"
+      },
+      {
+        "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+        "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      }
+    ]
+  },
+  {
+    "id": "b1-context-reunion",
+    "title": "工作汇报：转述要求，交代哪件事先发生",
+    "related": [
+      "b1-discours-indirect",
+      "b1-pqp",
+      "b1-cond-present",
+      "b1-double-pronoms",
+      "b1-dont"
+    ],
+    "sentences": [
+      {
+        "fr": "Lundi matin, ma responsable m’a appelé pour préparer une réunion avec un nouveau client.",
+        "zh": "周一早上，我的女主管打电话给我，为了准备与一位新客户的会议。",
+        "why": "复合过去时引入一次具体电话；pour préparer 说明通话目的。 此处叙述者按男性写 appelé；女性叙述者写 appelée，因为提前 COD m’ 指自己。",
+        "alternative": "Ma responsable m’appelait 把电话改成过去正在进行的背景或惯常行为，需要其他语境。"
+      },
+      {
+        "fr": "Elle m’a expliqué que le client avait envoyé ses questions la veille.",
+        "zh": "她向我解释说，客户前一天已经发来了问题。",
+        "why": "发送先于周一的解释，用愈过去时；la veille 从过去电话日期定位到周日。",
+        "alternative": "Le client envoyait ses questions 表发送与解释同时进行或当时的习惯，不明确此前已完成。"
+      },
+      {
+        "fr": "Elle voulait savoir si j’avais déjà lu le document et ce que je pensais du calendrier.",
+        "zh": "她想知道我是否已经读过文件，以及我对日程有什么看法。",
+        "why": "si 是“是否”，不是条件；avais lu 表阅读先于询问，pensais 表询问当时的意见；ce que 作 pensais 的宾语。",
+        "alternative": "Elle voulait savoir si je lirais le document 询问的是从当时看我之后是否会读文件，不是是否已经读过；这里 lirais 表过去将来，并不自动表示愿意。"
+      },
+      {
+        "fr": "Je lui ai répondu que j’avais vérifié les dates, mais que deux informations manquaient encore.",
+        "zh": "我回答她说，我已经核对过日期，但还缺两项信息。",
+        "why": "核对发生在答复之前，用 avais vérifié；manquaient 表答复时仍存在的状态。",
+        "alternative": "J’ai répondu que je vérifiais les dates 表我当时正在核对，未说明核对已完成。"
+      },
+      {
+        "fr": "Elle m’a demandé de contacter Paul et de ne rien promettre avant sa réponse.",
+        "zh": "她让我联系保罗，并在他答复前不要作任何承诺。",
+        "why": "demander à quelqu’un de + 原形转述要求；ne rien 在不定式 promettre 前。",
+        "alternative": "Elle m’a demandé si je pouvais contacter Paul 转成询问我能否联系他，要求的直接程度降低。"
+      },
+      {
+        "fr": "Paul m’a assuré qu’il nous enverrait les chiffres avant dix-sept heures.",
+        "zh": "保罗向我保证，他会在下午五点前给我们发送数据。",
+        "why": "enverrait 表过去保证之后将发生的动作，不是未经证实的新闻传闻。",
+        "alternative": "Paul m’a assuré qu’il nous envoie les chiffres 把发送呈现为目前仍有效安排，改变报告视角。"
+      },
+      {
+        "fr": "Dès que j’ai reçu son tableau, je l’ai transmis à ma responsable ; je le lui ai envoyé avec un court commentaire.",
+        "zh": "我一收到他的表格，就转给了女主管，并附上简短说明发给她。",
+        "why": "le 指 tableau，lui 指本句明示的 ma responsable；双代词 le 在 lui 前。复合过去时叙述先收到再转发，先后由 Dès que 及语境体现。",
+        "alternative": "Je lui ai transmis le tableau 重说名词 tableau，但若没有明示收件人，lui 仍可能指 Paul 或女主管，需要语境澄清。"
+      },
+      {
+        "fr": "Le lendemain, nous avons présenté une proposition dont le client était satisfait.",
+        "zh": "第二天，我们提交了一份让客户满意的方案。",
+        "why": "le lendemain 指周一之后的周二；être satisfait de 的 de 补语用 dont，était 描述客户的状态。",
+        "alternative": "Une proposition que le client a acceptée 表客户已接受方案；满意不等于正式接受。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "发送问题先于解释：Elle a expliqué que le client ___ (envoyer) ses questions la veille.",
+        "a": "Elle a expliqué que le client avait envoyé ses questions la veille.",
+        "note": "愈过去时标记过去参照点之前的完成。"
+      },
+      {
+        "q": "转述命令：Elle me dit : « Ne promets rien ! » → Elle me demande ___.",
+        "a": "Elle me demande de ne rien promettre.",
+        "note": "de + 否定不定式；不写 de ne promettre rien 作为本题常规答案。"
+      },
+      {
+        "q": "tableau 指表格，à ma responsable 指女主管：J’ai transmis le tableau à ma responsable. → Je ___ ai transmis.",
+        "a": "Je le lui ai transmis.",
+        "note": "le 在 lui 前；transmis 的阳性单数形式与前置 COD tableau 一致。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OQLF — Valeur temporelle du conditionnel",
+        "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24138/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/valeur-temporelle-du-conditionnel"
+      },
+      {
+        "title": "Académie française — Questions de langue : Impératif",
+        "url": "https://www.academie-francaise.fr/questions-de-langue"
+      }
+    ]
+  },
+  {
+    "id": "b1-context-repas",
+    "title": "邻里聚餐：解释改地点，分配通知与采购",
+    "related": [
+      "b1-connecteurs-base",
+      "b1-subj-present",
+      "b1-negations",
+      "b1-double-pronoms",
+      "b1-discours-indirect"
+    ],
+    "sentences": [
+      {
+        "fr": "Comme la salle du quartier est en travaux, nous préparons notre repas collectif dans le jardin de Nadia.",
+        "zh": "因为社区活动室正在施工，我们在纳迪娅的花园里筹备邻里聚餐。",
+        "why": "Comme 原因从句前置，为整段说明背景；原因可以是读者刚知道的新消息。",
+        "alternative": "Puisque la salle… 把施工当作双方已经认可或明显的依据，更接近“既然”。"
+      },
+      {
+        "fr": "Nous changeons de lieu parce que nous ne voulons pas annuler la soirée.",
+        "zh": "我们换个地点，因为不想取消晚上的聚会。",
+        "why": "parce que 直接解释换地方的原因；ne…pas 否定变位动词 voulons。",
+        "alternative": "Nous ne voulons pas annuler la soirée, donc nous changeons de lieu 把原因置前、结果置后，叙述焦点改变。"
+      },
+      {
+        "fr": "Nadia a installé deux grandes tables pour que tout le monde puisse manger ensemble.",
+        "zh": "纳迪娅摆了两张大桌子，好让大家一起吃饭。",
+        "why": "Nadia 是摆放者，与吃饭者不同，目的用 pour que + 虚拟式 puisse；目的不保证后来确实一起吃饭。",
+        "alternative": "Elle a installé deux tables, donc tout le monde peut manger ensemble 陈述实际产生的条件或结果，而不是原本目的。"
+      },
+      {
+        "fr": "Je n’ai invité personne de nouveau ; nous n’avons que vingt places.",
+        "zh": "我没有邀请任何新客人；我们只有二十个座位。",
+        "why": "宾语 personne 放复合时态分词后；ne…que 是数量限制，不是没有座位。",
+        "alternative": "Nous n’avons pas vingt places 否定有二十个位子，但不确定实际数量；与“恰好只有二十个”不同。"
+      },
+      {
+        "fr": "Les invitations étaient prêtes hier, et je les lui ai envoyées ce matin.",
+        "zh": "邀请函昨天准备好了，我今天早上把它们发给了纳迪娅。",
+        "why": "les 指阴性复数 invitations，所以 envoyées 配合；lui 指 Nadia，放 les 后。",
+        "alternative": "Je lui en ai envoyé vingt 表发了二十份，用 en 和数量，而非回指全部已知邀请函。"
+      },
+      {
+        "fr": "Puisque Paul passe au marché, je lui demande d’acheter du pain et quelques tomates.",
+        "zh": "既然保罗会顺路去市场，我就请他买面包和几个番茄。",
+        "why": "puisque 将保罗去市场当作共同依据；demander de 表请求，du pain 为不定量。",
+        "alternative": "Je lui demande s’il achète du pain 改为问他是否买面包，不直接提出采购要求。"
+      },
+      {
+        "fr": "Du pain, il m’en apportera assez pour tous, donc je n’ai plus besoin de faire les courses.",
+        "zh": "面包，他会给我带够大家吃的量，所以我不再需要去采购了。",
+        "why": "前置 Du pain 明确 en 的回指对象，m’ 在 en 前；donc 引结果，ne…plus 表原先需要现在不需要。",
+        "alternative": "Je n’ai pas besoin… 只否定当前需要，不特别突出计划发生了改变。"
+      },
+      {
+        "fr": "J’écris enfin aux voisins pour leur expliquer le changement et leur donner la nouvelle adresse.",
+        "zh": "最后，我给邻居写信，向他们解释这次变更，并给出新地址。",
+        "why": "pour + 原形说明同一施事写信的目的；leur 分别是 expliquer 和 donner 的间接宾语。",
+        "alternative": "J’écris aux voisins pour qu’ils connaissent la nouvelle adresse 改用邻居作从句主语，强调希望他们知道地址。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "表达目的：Nadia installe les tables pour que chacun ___ (pouvoir) manger.",
+        "a": "Nadia installe les tables pour que chacun puisse manger.",
+        "note": "pour que 引目的，从句用虚拟式。"
+      },
+      {
+        "q": "invitations 是阴性复数：Je ___ ___ ai ___ (envoyer) ce matin.（把它们发给Nadia；les/lui）",
+        "a": "Je les lui ai envoyées ce matin.",
+        "note": "les → lui 顺序；avoir 的前置 COD invitations 使过去分词 envoyées 配合。"
+      },
+      {
+        "q": "区分限制与否定：把 Nous avons seulement vingt places 改写为 ne…que。",
+        "a": "Nous n’avons que vingt places.",
+        "note": "表示只有二十个座位，不是没有二十个位子。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+        "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      },
+      {
+        "title": "OQLF — De dans une phrase négative",
+        "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23514/la-grammaire/les-determinants/determinants-indefinis/de-dans-une-phrase-negative"
+      },
+      {
+        "title": "Académie française — Questions de langue : Impératif",
+        "url": "https://www.academie-francaise.fr/questions-de-langue"
+      }
+    ]
+  }
+]

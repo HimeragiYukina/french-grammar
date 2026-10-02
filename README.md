@@ -1,50 +1,49 @@
 # 法语语法手册 A1–C2 · Grammaire française
 
-一份单页、离线可用的法语语法手册，覆盖欧标 **A1–C2** 各级别，中法对照，带例句、易错点、随讲随练（答案可逐题显示）与**高清法语朗读（🔊）**。支持搜索、级别筛选与深色模式。
+个人使用的中法双语语法手册：97 个语法点、例句、易混对比、纠错、练习、语境阅读与法语朗读。
 
-🔗 **在线访问：** https://himeragiyukina.github.io/french-grammar/
+**在线访问：** https://himeragiyukina.github.io/french-grammar/ 。本轮修改仅在本地，线上仍为此前版本。
 
-## 特性
+## 阅读
 
-- 📚 A1–C2 全级别共 **97 个语法点**，中法双语讲解 + 例句 + 易错点
-- 📖 每点新增可展开的详细讲解：形式构成、分用法的中法例句、语境与语体、易混形式比较、常错纠正及例外边界；补充内容同样支持搜索和法语朗读
-- ✍️ 每个语法点配练习，答案可逐题显示 / 隐藏
-- 🔊 **高清神经语音朗读**：预生成 **fr-FR（Denise）/ fr-CA（Sylvie）** 两种口音的 mp3，在 **iOS / 离线 / GitHub Pages** 上都可用；支持「整段朗读」「从此节起连读」与语速调节；无对应音频或选「系统语音」时回退到浏览器朗读
-- 🔍 实时搜索与级别筛选 · 🌗 浅色 / 深色主题 · 📱 响应式
+打开 [总览](index.html)，选择 [A1](a1.html)、[A2](a2.html)、[B1](b1.html)、[B2](b2.html)、[C1](c1.html) 或 [C2](c2.html)。各级页先加载本级，搜索时按需加载六级数据，支持中文、法文及带重音的精确子串搜索。搜索结果标题和相关语法链接跳转到所属级别；旧 `index.html#语法点ID` 自动定位到对应页面。
 
-## 文件结构
+每节保留原讲解、例句和练习。展开「详细讲解」查看分用法解释、例句、对比、纠错及适用边界。A2–B1 本轮优先补强八点，新增24道实用练习。两级的「语境阅读」合计六篇短段落，包含逐句中译、表达选择、替换后的语义差异和18道语境练习。
 
-- `index.html` —— 单文件应用（数据 + 样式 + 逻辑）
-- `audio/` —— 预生成的朗读音频（`fr-FR/`、`fr-CA/`）与清单 `manifest.js`
-- `tools/` —— 重新生成音频的脚本（见 [`tools/README.md`](tools/README.md)）
+🔊 支持单句、整节、连续朗读及语速调节；段落也可整体或逐句播放。优先播放预生成 fr-FR / fr-CA MP3；没有精确对应录音时使用系统法语语音。支持深浅主题、键盘导航和手机目录。
 
 ## 本地运行
 
-直接用浏览器打开 `index.html` 即可：`manifest.js` 以普通 `<script>` 加载、音频走相对路径，`file://` 下也能正常朗读，无需服务器或构建步骤。
-
-每张卡片保留原有概览、例句与练习；点击「详细讲解 · 用法、比较与纠错」展开扩写内容。搜索命中时，详细讲解会自动展开。各级核对资料链接位于详细讲解末尾。
-
-## 维护扩写内容
-
-`tools/expansion-<等级>.json` 是六个等级的扩写源数据，`tools/sources-<等级>.json` 记录核对资料。修改后运行：
+整个仓库可离线直接打开 `index.html` 或任一级别 HTML，不需要安装前端依赖。请保留 `assets/`、`data/` 和 `audio/` 的相对位置。也可在仓库根目录运行：
 
 ```bash
-python tools/build-expansions.py
+python -m http.server 8765 --bind 127.0.0.1
+```
+
+再打开 http://127.0.0.1:8765/ 。该地址仅供本机预览。公开网页仍通过既有 GitHub Pages 的 main 分支根目录部署。
+
+## 维护
+
+- `tools/grammar-<级别>.json`：原有语法讲解和练习。
+- `tools/expansion-<级别>.json`：详细讲解、实用练习和相关点。
+- `tools/context-a2.json` / `context-b1.json`：语境段落、逐句分析和练习；其他级别可用相同格式添加。
+- `tools/sources-<级别>.json`：参考资料。
+- `tools/page-template.html`：共用页面外壳；`assets/styles.css` / `app.js`：共享样式与交互。
+- `data/` 与七个 HTML 页面由生成脚本输出，避免直接修改生成数据。
+
+修改源文件后运行：
+
+```bash
+python tools/build-pages.py
+python tools/check-baseline.py
+python tools/check-strict-review.py
 node tools/check-content.js
 node tools/extract.js index.html tools/strings.json
 node tools/check-audio.js
 ```
 
-生成脚本会核对全部原始语法点的覆盖，并将内容嵌入 `index.html`，网页运行时不请求 JSON 文件，因此仍可离线直接打开。检查脚本执行实际页面脚本，验证章节覆盖、搜索、筛选、练习、朗读按钮和本地依赖。主要原文更正与验证记录见 [扩写说明](EXPANSION-NOTES.md)。
+`build-expansions.py` 保留为同一生成流程的兼容入口。基线检查证明原97点、427原例、436原练习及既有扩写未丢失；明确语言修订见 `tools/split-review-fixes.json`。新内容审查记录见 [拆页与深化记录](SPLIT-AND-DEEPENING.md)，既有完整审校见 [CONTENT-AUDIT.md](CONTENT-AUDIT.md) 和 [EXPANSION-NOTES.md](EXPANSION-NOTES.md)。
 
-对原有说明、例句、练习及全部新增内容的逐点语言审校、具体修订与来源限制，见 [内容审校记录](CONTENT-AUDIT.md)。`tools/audit-summary.json` 汇总全部 97 点的审校覆盖；各级详细记录及精确修订保存在 `tools/audit-*.json`。
+音频生成步骤见 [tools/README.md](tools/README.md)。文本精确匹配决定使用哪个录音；改过的文本不会按章节位置复用旧录音。
 
-音频检查核对全部预录文本的哈希文件名、文件存在性和页面精确文本查找；修改后无对应录音的句子会回退到浏览器语音，不按章节位置复用旧录音。该检查不代替逐条试听。
-
-## 部署
-
-通过 GitHub Pages 从 `main` 分支根目录自动部署。
-
-## 改动内容后：重新生成朗读音频
-
-改动任何法语文本后，需要重新生成对应音频，否则新句子会回退到较差的浏览器语音。一条命令即可，步骤见 [`tools/README.md`](tools/README.md)。
+本轮最终版本已重新做全量严格语义复核，覆盖六级全部原/新增内容及语境。逐项覆盖、修改前后、来源和规范差异见 [STRICT-CONTENT-REVIEW.md](STRICT-CONTENT-REVIEW.md)。
