@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-02",
+  "files": {
+    "tools/context-a2.json": "adae4b3f2756cf905a08e1887acf57db560165aed534208c06e3cb6291ff3e1b",
+    "tools/context-b1.json": "b8ea92d174e6ec7f27025b3057bab10317cd0334e36b7a144cf67ea8b3be283e",
+    "tools/expansion-a1.json": "4dfe520b9d88f1df2cb648241a2178d64bae6bd5f75ac640a067fa8c17cd2e79",
+    "tools/expansion-a2.json": "af1eeeafc20ccd99a108e9273658655371123a6d0b1859e4b86178bfe9d9b31f",
+    "tools/expansion-b1.json": "418925850a4a934fe3e2596d995b88b1620955399c53d664ada7badca28fc84c",
+    "tools/expansion-b2.json": "24df8ab32c84f69e46e47c8e7003c2366380a8d0c624bc085305798551a647f7",
+    "tools/expansion-c1.json": "5dea539a8289cb6b46531dccfa2914411162c517af40b27262e43875a35d6df2",
+    "tools/expansion-c2.json": "cc904bef75084de6c8868d2eb789cb4a3e9822c1ae3b2e7d4ba31a0126384a9b",
+    "tools/grammar-a1.json": "c37dd6506e70bf5d6420ceb37021c931a08cda0faccbbd939c23db374bdf8660",
+    "tools/grammar-a2.json": "f1768fafd71789f525fabf9319a90cf30102b2cd1bf91ebae1d89ea68aff3aa7",
+    "tools/grammar-b1.json": "a17c4a14c952be2b19dfed6b31a89bb71434aa13879f273ee2797743fef99fd3",
+    "tools/grammar-b2.json": "acac968c81885a2aa35244d800c5182abbc2d85830de4f2bf246e76aeb8cd87f",
+    "tools/grammar-c1.json": "a2ccabc7ad3ac0365321128144f2010e79007bef37318b9a40b39d487a43531b",
+    "tools/grammar-c2.json": "153e3a90fd20fe4379b57cbd10be7bfeb8257d896c64bb079807cde8cf2da1a3",
+    "tools/sources-a1.json": "85dc1df0e74e3928a78d226d92a13f1826c1a930070e8235d195f8419e7ef551",
+    "tools/sources-a2.json": "1feed7a49737286224b4884b6d81342260cfbbc06fd4616d35bb49b2c551fd30",
+    "tools/sources-b1.json": "858dbc7261d3f63c3bd48d0d6e50c0cc78732c57eec8d2dcc0dd8c90d3f39ac4",
+    "tools/sources-b2.json": "cf06133baa6ed3df1b1444124c0381d52cfb447fa5567e49d5a781fdb66020bf",
+    "tools/sources-c1.json": "ddb860aa9af0a7cca159f8c662df98a67da84223ad00132fa4004399fbda00a5",
+    "tools/sources-c2.json": "351df34519157ae450f89743533f40138c2b7be05db125fcea646ba1a5eb3eeb"
+  }
+}

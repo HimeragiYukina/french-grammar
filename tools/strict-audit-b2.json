@@ -1,0 +1,767 @@
+{
+  "level": "B2",
+  "method": "逐项阅读16点所有解释、法语摘要、构成表、原例句及译文/use/tip、全部练习q/a/note，以及扩展每节解释、150例及译文/use、比较、错误和边界；按具体语义、指代、变位配合、时态语气及题干限定逐项复核，难点实际浏览OQLF与Académie。计数脚本仅核对覆盖，不替代语义阅读。",
+  "coverage": [
+    {
+      "id": "b2-subj-passe",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-mode-choix",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-concordance",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-participe-present",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-se-faire",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-relatifs-composes",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-mise-relief",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-nominalisation",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-futur-anterieur",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-opposition-concession",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-cause-consequence",
+      "original_examples": 8,
+      "original_practice": 8,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-but-condition",
+      "original_examples": 6,
+      "original_practice": 7,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-accord-pp",
+      "original_examples": 5,
+      "original_practice": 6,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-registres",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-modalisation",
+      "original_examples": 5,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-adj-sens",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 16,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    }
+  ],
+  "changes": [
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        0,
+        "tip"
+      ],
+      "before": "<b>对比:</b>同时/将来用虚拟式现在(que tu viennes),已完成用虚拟式过去(que tu sois venu)。触发词与现在时完全相同。",
+      "after": "<b>对比:</b>同时或尚待发生的动作通常用虚拟式现在(que tu viennes);先于参照点、或要求未来截止前完成的动作可用虚拟式过去(que tu sois venu)。语气触发结构相同，时态取决于相对时间与完成性。",
+      "reason": "修正将来一律现在时的绝对化；过去形式不只表示真实完成。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24236/la-grammaire/le-verbe/modes/subjonctif/generalites-sur-le-subjonctif"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        0,
+        "ex",
+        2,
+        "use"
+      ],
+      "before": "现在/过去对比:同时或将来用虚拟式现在 viennes,已完成(hier)用虚拟式过去 sois venu",
+      "after": "现在/过去对比:等待尚未发生的到来用虚拟式现在 viennes;遗憾昨天未到，用虚拟式过去 sois venu 定位先前事件，否定句并不表示到来实际完成。",
+      "reason": "否定的未发生事件不能称已完成。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24236/la-grammaire/le-verbe/modes/subjonctif/generalites-sur-le-subjonctif"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        1,
+        "ex",
+        0,
+        "use"
+      ],
+      "before": "直陈式(确定):肯定句中 penser que 表达说话人的确信,从句用直陈式",
+      "after": "直陈式(提出判断):肯定 penser que 通常用直陈式，这里提出“他有道理”的个人判断，并不保证客观正确。",
+      "reason": "区分断言与事实确定。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24236/la-grammaire/le-verbe/modes/subjonctif/generalites-sur-le-subjonctif"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        1,
+        "ex",
+        1,
+        "use"
+      ],
+      "before": "虚拟式(主观/怀疑):penser 的否定形式引入怀疑,从句转用虚拟式 ait",
+      "after": "虚拟式(保留判断):此处否定 penser 表不认可或怀疑，用 ait;否定/疑问并非自动排除直陈式，需看断言意图。",
+      "reason": "与现有tip保持非绝对规则。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24236/la-grammaire/le-verbe/modes/subjonctif/generalites-sur-le-subjonctif"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        1,
+        "ex",
+        3,
+        "use"
+      ],
+      "before": "非人称结构的语气选择:il est probable que 表高确定性接直陈式,il est possible que 表不确定接虚拟式",
+      "after": "非人称结构的语气选择:肯定 il est probable que 通常接直陈式，提出较可能的判断;il est possible que 通常接虚拟式，提出可能性。",
+      "reason": "概率不等于高确定性。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24236/la-grammaire/le-verbe/modes/subjonctif/generalites-sur-le-subjonctif"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "practice",
+        "b2-mode-choix",
+        1,
+        "note"
+      ],
+      "before": "ne pas croire que 表怀疑→虚拟式 ait",
+      "after": "本题要求怀疑读法，ne pas croire que 常接虚拟式 ait;并非所有否定 croire 从句都绝对禁用直陈式。",
+      "reason": "防止题注推广为硬规则。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24236/la-grammaire/le-verbe/modes/subjonctif/generalites-sur-le-subjonctif"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "practice",
+        "b2-mode-choix",
+        3,
+        "note"
+      ],
+      "before": "考查非人称结构:il est possible que 接虚拟式,而 il est probable que 接直陈式。",
+      "after": "肯定 il est possible que 通常接虚拟式;肯定 il est probable que 通常接直陈式。否定、疑问和具体立场可能影响选择。",
+      "reason": "限定肯定结构。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24236/la-grammaire/le-verbe/modes/subjonctif/generalites-sur-le-subjonctif"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        2,
+        "zh"
+      ],
+      "before": "以过去说话时刻为参照转述时,从句时态通常<strong>后移</strong>:现在时→未完成过去;复合过去→愈过去;简单将来→条件式现在;先将来→条件式过去。时间词也变(hier→la veille…)。",
+      "after": "以过去说话时刻为参照转述时,从句时态通常<strong>后移</strong>:现在时→未完成过去;复合过去→愈过去;简单将来→条件式现在;先将来→条件式过去。时间词是否改变取决于转述参照点(hier 可改 la veille，仍指同一天时也可保留)。",
+      "reason": "避免机械改指示词。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        2,
+        "tip"
+      ],
+      "before": "<b>易错:</b>这是听力转述与书面引述的核心。时态后移 + 人称/时间/指示词三类一起改。",
+      "after": "<b>易错:</b>过去视角转述通常需要时态后移;人称、时间词和指示词按实际说话者、日期与地点调整，并非三类一律改写。仍成立的信息或共同参照点可能保留原形式。",
+      "reason": "呼应取决于参照点而非机械换表。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        3,
+        "tip"
+      ],
+      "before": "<b>区别三者:</b>en travaillant(副动词,同主语/同时)≠ travaillant(现在分词,替代从句/原因)≠ 形容词性 -ant(un livre intéress<b>ant</b>,要配合)。",
+      "after": "<b>区别三者:</b>en travaillant 是副动词，通常与主句同主语，可表同时、方式、原因或条件;travaillant 是不变的现在分词，可替代从句;形容词性 -ant 如 un livre intéressant 要按所修饰名词配合。",
+      "reason": "副动词不只表示同时。",
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        6,
+        "ex",
+        2,
+        "use"
+      ],
+      "before": "c'est…que(强调非主语成分):强调时间状语 demain,主语以外的成分一律用 que",
+      "after": "c'est…que(强调非主语成分):这里强调时间状语 demain，使用 que;基础分裂句中宾语、介词补语和状语通常也用 que。",
+      "reason": "去掉无条件一律。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        7,
+        "tip"
+      ],
+      "before": "<b>用途:</b>让书面表达更地道、紧凑——同一信息用名词化更显书面 B2 语感。多积累「动词↔名词」配对。",
+      "after": "<b>用途:</b>名词化便于标题、概括和衔接，但不自动使句子更地道;应保留施事、对象、时态、否定和可能性。多积累动词↔名词配对，避免抽象名词堆积。",
+      "reason": "不把名词化当无条件升级。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-b2.json",
+      "path": [
+        "b2-nominalisation",
+        "sections",
+        1,
+        "examples",
+        1,
+        "fr"
+      ],
+      "before": "Le système est efficace ; cela réduit les coûts. → L'efficacité du système permet de réduire les coûts.",
+      "after": "Le système est efficace ; cela réduit les coûts. → L'efficacité du système réduit les coûts.",
+      "reason": "保留实际降低成本，不改为仅允许降低。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-b2.json",
+      "path": [
+        "b2-nominalisation",
+        "sections",
+        1,
+        "examples",
+        1,
+        "zh"
+      ],
+      "before": "系统高效，因此降低成本。→系统的高效有助于降低成本。",
+      "after": "系统高效，因此降低成本。→系统的高效降低了成本。",
+      "reason": "对应保留因果结果。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        9,
+        "ex",
+        0,
+        "use"
+      ],
+      "before": "让步(bien que/quoique+虚拟式):承认富有这一事实但结论相反,bien que 后必须用虚拟式 soit",
+      "after": "让步(bien que/quoique+虚拟式):承认富有事实却推出反预期结果;规范学习表达通常选虚拟式 soit，虚拟式不表示富有不真实。",
+      "reason": "保留主流规范并避免硬性必须。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        9,
+        "tip"
+      ],
+      "before": "<b>易错:</b>bien que / quoique 后<strong>必须虚拟式</strong>;标准学习用法为 malgré + <strong>名词组</strong>;从句优先改用 bien que;même si 后用<strong>直陈式</strong>(不是虚拟)。",
+      "after": "<b>易错:</b>bien que / quoique 学习写作通常选<strong>虚拟式</strong>;直陈式在部分真实事实用法中可见，但规范意见有差异。malgré 优先接<strong>名词组</strong>;même si 的常规条件让步用<strong>直陈式</strong>。",
+      "reason": "权威来源明确存在规范争议。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/expansion-b2.json",
+      "path": [
+        "b2-opposition-concession",
+        "sections",
+        1,
+        "explanation"
+      ],
+      "before": "bien que/quoique + 虚拟式；malgré/en dépit de + 名词；pourtant/néanmoins/toutefois 等不支配从句语气。书面与口语差异是倾向，不是固定同义替换。",
+      "after": "bien que/quoique 学习写作通常接虚拟式；malgré/en dépit de + 名词；pourtant/néanmoins/toutefois 等不支配从句语气。虚拟式也可评价真实事实。书面与口语差异是倾向，不是固定同义替换。",
+      "reason": "避免虚拟式等于非事实。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/expansion-b2.json",
+      "path": [
+        "b2-opposition-concession",
+        "errors"
+      ],
+      "before": "错：bien qu'il est → bien qu'il soit；学习标准语避免 malgré qu'il pleut，改 malgré la pluie / bien qu'il pleuve。错：même s'il pleuvra → même s'il pleut。",
+      "after": "规范学习表达优先：bien qu'il soit，而非 bien qu'il est；后者的事实读法在部分用法中存在，但规范评价有分歧。学习标准语避免 malgré qu'il pleut，改 malgré la pluie / bien qu'il pleuve。错：même s'il pleuvra → même s'il pleut（开放条件读法）。",
+      "reason": "不把有争议变体一概错误。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "practice",
+        "b2-opposition-concession",
+        6,
+        "note"
+      ],
+      "before": "考查对立 en revanche:书面上比 par contre 更受推崇。",
+      "after": "本题 en revanche 表一方面的不足由另一方面优势补偿。par contre 也获规范承认；Académie 在可替换时偏好 en revanche，但二者并非处处同义。",
+      "reason": "明确来源风格倾向及补偿含义。",
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        10,
+        "ex",
+        5,
+        "use"
+      ],
+      "before": "sous prétexte que:引出说话人不采信的借口性原因",
+      "after": "sous prétexte que:把对方理由作为借口呈现，表达距离或质疑;不必断言生病这一事实本身为假。",
+      "reason": "区分质疑正当性与断定虚假。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "practice",
+        "b2-cause-consequence",
+        5,
+        "note"
+      ],
+      "before": "考查 sous prétexte que:说话人暗示该理由不可信。",
+      "after": "sous prétexte que 把理由作为借口呈现，暗示说话人保持距离或认为理由不足，不必断言工作多这一事实为假。",
+      "reason": "消除必然不可信推断。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        10,
+        "tip"
+      ],
+      "before": "<b>语域:</b>口语 parce que / donc → 书面升级为 étant donné que / par conséquent / si bien que,作文里轮换使用显层次。",
+      "after": "<b>语域:</b>étant donné que 常引出已知依据，par conséquent 连接推论结果，si bien que 引出结果从句。根据逻辑关系和句法选择，不能把 parce que / donc 机械替换为“书面升级”。",
+      "reason": "不同连接词语义句法非机械替换。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        11,
+        "zh"
+      ],
+      "before": "<strong>目的</strong>:afin que(+虚拟)/ afin de(+原形)、de peur que、de manière à、en vue de。<strong>条件</strong>:à condition que(+虚拟)、pourvu que、à moins que(+ne)、au cas où(+条件式)、pour peu que。",
+      "after": "<strong>目的</strong>:afin que(+虚拟)/ afin de(+原形)、de peur que、de manière à、en vue de。<strong>条件</strong>:à condition que(+虚拟)、pourvu que、à moins que(+虚拟式，可选赘词 ne)、au cas où(+条件式)、pour peu que。",
+      "reason": "ne可选且需说明语气。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        11,
+        "ex",
+        5,
+        "use"
+      ],
+      "before": "条件·排除(à moins que+ne+虚拟式):表『除非』,带赘词 ne",
+      "after": "条件·排除(à moins que+虚拟式):表“除非”;本句带可选赘词 ne，不表示不下雨。",
+      "reason": "明确ne可省。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes"
+      ]
+    },
+    {
+      "file": "tools/expansion-b2.json",
+      "path": [
+        "b2-but-condition",
+        "sections",
+        1,
+        "explanation"
+      ],
+      "before": "de peur de/de crainte de + 原形；de peur que/de crainte que + 虚拟式。正式语体可加赘词 ne，它不否定，若加 pas 才真正否定。",
+      "after": "de peur de/de crainte de + 原形；de peur que/de crainte que + 虚拟式。正式语体可加赘词 ne，它不否定；若用 ne…pas、ne…jamais 等完整否定结构，才否定从句所述事件。",
+      "reason": "完整否定不只有pas。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que"
+      ]
+    },
+    {
+      "file": "tools/expansion-b2.json",
+      "path": [
+        "b2-accord-pp",
+        "sections",
+        1,
+        "explanation"
+      ],
+      "before": "se laver/rencontrer 等分析 se 的 COD/COI；另有后置 COD 时 se 常为 COI。本质代词式、被动意义代词式通常与主语配合，但仍有特殊词项，如 se plaire 不配合、s'arroger 按 COD。",
+      "after": "se laver/rencontrer 等要分析 se 的 COD/COI；有后置 COD 时 se 常为 COI。本质代词式、被动意义代词式通常与主语配合；本质代词式 s'arroger 是按 COD 配合的特殊词项。se plaire 的 se 属 COI 模式，因此分词不配合，不应把它归为本质代词式。",
+      "reason": "纠正本质代词式与COI模式混列。",
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ]
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        13,
+        "ex",
+        1,
+        "use"
+      ],
+      "before": "语域切换(词汇+人称):口语 on→书面 nous,动词 paumer→perdre→égarer 逐级升格",
+      "after": "此处 on 指 nous，转为 nous 可明确“我们”；paumer 属随便语，perdre 中性，égarer 表遗失或放错位置。泛指 on 也能用于正式文体，词汇替换须保留具体含义。",
+      "reason": "不是on或同义词逐级升级。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        14,
+        "zh"
+      ],
+      "before": "用<strong>缓和、留余地</strong>的措辞表达观点,显得有分寸、像 B2 母语者:il semblerait que, on pourrait avancer que, dans une certaine mesure, il n'est pas exclu que, sans doute(+倒装)。",
+      "after": "用<strong>缓和、留余地</strong>的措辞表达观点,让断言的力度与证据和语境相符:il semblerait que, on pourrait avancer que, dans une certaine mesure, il n'est pas exclu que, sans doute(+倒装)。",
+      "reason": "CEFR不定义B2母语者。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        15,
+        "ex",
+        5,
+        "use"
+      ],
+      "before": "grand 位置变义(指人时):前置=伟大的,后置=高个的",
+      "after": "在 grand écrivain / grand homme 这类搭配中，前置 grand 常表伟大;后置 un homme grand 表身材高。前置并非遇到人都表伟大，如 un grand garçon 也可指高大的男孩。",
+      "reason": "避免前置指人硬规则。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "grammar",
+        15,
+        "tip"
+      ],
+      "before": "<b>用途:</b>B2 阅读理解与精准表达的细节分;遇到这些词留意位置,意思可能完全相反。",
+      "after": "<b>用途:</b>B2 阅读理解与精准表达的细节分;遇到这些词留意位置,意义可能明显不同;还要结合搭配和语境判断。",
+      "reason": "位置变义不必对立。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "practice",
+        "b2-adj-sens",
+        2,
+        "note"
+      ],
+      "before": "考查 propre 前置=自己的;后置才是干净的。",
+      "after": "本题 sa propre entreprise 中前置 propre 强调“自己的”；后置如 une serviette propre 表干净，也有其他固定搭配义。",
+      "reason": "不把后置所有义概括为干净。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "practice",
+        "b2-adj-sens",
+        3,
+        "note"
+      ],
+      "before": "考查 cher 后置=昂贵的;前置是亲爱的。",
+      "after": "本题 une voiture chère 用后置表达昂贵；cher ami 等前置称呼表亲爱。实际词义还受名词搭配、语境与修辞影响。",
+      "reason": "限定具体搭配。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "practice",
+        "b2-adj-sens",
+        4,
+        "note"
+      ],
+      "before": "考查 grand 前置指人=伟大的;后置=高个子。",
+      "after": "本题 un grand homme 表伟人，un homme grand 表高个；前置指人不一概表示伟大，如 un grand garçon 可指高大的男孩。",
+      "reason": "解除前置指人绝对规则。",
+      "sources": []
+    },
+    {
+      "file": "tools/sources-b2.json",
+      "path": [],
+      "before": [
+        {
+          "title": "Académie française — Participe passé et verbes pronominaux",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "已读取 Questions de langue 的 Participe passé (accord)、Pronominaux (Verbes, accord du participe passé) 段；核实 se voir 是否配合须检查不定式施事，fait + infinitif 不变，laissé 的 1990 建议及数量补语。使用总页定位对应段落。"
+        },
+        {
+          "title": "Académie française — Questions de langue：Par contre、Malgré que、Adjectif verbal ou participe présent",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "已读取对应主题；par contre 不属错误，但学院文体建议倾向其他可行副词；现在分词与动词形容词的配合、fatiguant/fatigant 拼写区别。新增例句均为原创，不复制来源正文。"
+        },
+        {
+          "title": "OQLF — Emplois du verbe sembler à la forme impersonnelle",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+          "notes": "独立审校实际读取：il semble que 的虚拟式、直陈式、条件式示例；不要视为固定虚拟式触发词。"
+        },
+        {
+          "title": "OQLF — Formes du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+          "notes": "独立审校实际读取：虚拟式现在的助动词形式、虚拟式过去构成与不规则形式。"
+        },
+        {
+          "title": "Académie française — Au cas où tu seras",
+          "url": "https://www.academie-francaise.fr/au-cas-ou-tu-seras",
+          "notes": "独立审校实际读取：au cas où/dans le cas où 假设用法接条件式。"
+        }
+      ],
+      "after": [
+        {
+          "title": "Académie française — Participe passé et verbes pronominaux",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "已读取 Questions de langue 的 Participe passé (accord)、Pronominaux (Verbes, accord du participe passé) 段；核实 se voir 是否配合须检查不定式施事，fait + infinitif 不变，laissé 的 1990 建议及数量补语。使用总页定位对应段落。"
+        },
+        {
+          "title": "Académie française — Questions de langue：Par contre、Malgré que、Adjectif verbal ou participe présent",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "已读取对应主题；par contre 不属错误，但学院文体建议倾向其他可行副词；现在分词与动词形容词的配合、fatiguant/fatigant 拼写区别。新增例句均为原创，不复制来源正文。"
+        },
+        {
+          "title": "OQLF — Emplois du verbe sembler à la forme impersonnelle",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+          "notes": "独立审校实际读取：il semble que 的虚拟式、直陈式、条件式示例；不要视为固定虚拟式触发词。"
+        },
+        {
+          "title": "OQLF — Formes du subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+          "notes": "独立审校实际读取：虚拟式现在的助动词形式、虚拟式过去构成与不规则形式。"
+        },
+        {
+          "title": "Académie française — Au cas où tu seras",
+          "url": "https://www.academie-francaise.fr/au-cas-ou-tu-seras",
+          "notes": "独立审校实际读取：au cas où/dans le cas où 假设用法接条件式。"
+        },
+        {
+          "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+          "notes": "bien que/quoique的常规虚拟式与直陈式争议；目的条件支配；结果与目的"
+        },
+        {
+          "title": "OQLF — Généralités sur le subjonctif",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24236/la-grammaire/le-verbe/modes/subjonctif/generalites-sur-le-subjonctif",
+          "notes": "相对时间由上下文定位；怀疑、意愿、情感结构"
+        },
+        {
+          "title": "OQLF — Verbe exprimant la crainte suivi de que",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que",
+          "notes": "赘词ne与完整否定的区别"
+        },
+        {
+          "title": "OQLF — Principes de la correspondance des temps",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps",
+          "notes": "现代过去主句可用虚拟式现在或过去，不强制文学时态"
+        }
+      ],
+      "reason": "追加本轮实际浏览核验来源，保留原来源。",
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24236/la-grammaire/le-verbe/modes/subjonctif/generalites-sur-le-subjonctif",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que",
+        "https://www.academie-francaise.fr/au-cas-ou-tu-seras",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps"
+      ]
+    },
+    {
+      "file": "tools/expansion-b2.json",
+      "path": [
+        "b2-opposition-concession",
+        "sections",
+        0,
+        "examples",
+        1,
+        "zh"
+      ],
+      "before": "与她哥哥不同，她开车很谨慎。",
+      "after": "与她的兄弟（哥哥或弟弟）不同，她开车很谨慎。",
+      "reason": "frère未提供年龄次序，不应仅译哥哥。",
+      "sources": []
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "b2-opposition-concession",
+      "note": "bien que/quoique直陈式的规范接受度在参考书间有差异；保留学习写作优先虚拟式，并明确边界。"
+    },
+    {
+      "id": "b2-mode-choix",
+      "note": "否定/疑问意见动词与sembler的语气选择依立场和语境；练习给定读法只提供目标答案，不声称涵盖全部可接受改写。"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.academie-francaise.fr/questions-de-langue",
+      "title": "Académie française — Questions de langue",
+      "checked_claim": "代词式与avoir过去分词配合、1990 laissé原形建议、分词与形容词、par contre规范地位"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+      "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+      "checked_claim": "bien que/quoique的常规虚拟式与直陈式争议；目的条件支配；结果与目的"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24236/la-grammaire/le-verbe/modes/subjonctif/generalites-sur-le-subjonctif",
+      "title": "OQLF — Généralités sur le subjonctif",
+      "checked_claim": "相对时间由上下文定位；怀疑、意愿、情感结构"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que",
+      "title": "OQLF — Verbe exprimant la crainte suivi de que",
+      "checked_claim": "赘词ne与完整否定的区别"
+    },
+    {
+      "url": "https://www.academie-francaise.fr/au-cas-ou-tu-seras",
+      "title": "Académie — Au cas où tu seras",
+      "checked_claim": "au cas où/dans le cas où标准假设用法接条件式"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+      "title": "OQLF — Emplois du verbe sembler à la forme impersonnelle",
+      "checked_claim": "il semble que可见不同语气，依具体立场选择"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps",
+      "title": "OQLF — Principes de la correspondance des temps",
+      "checked_claim": "现代过去主句可用虚拟式现在或过去，不强制文学时态"
+    }
+  ]
+}

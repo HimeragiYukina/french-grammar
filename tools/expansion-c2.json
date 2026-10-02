@@ -139,7 +139,7 @@
       },
       {
         "title": "n'était / n'eût été：省略的反事实条件",
-        "explanation": "n'était + 名词相当于 si ce n'était…；n'eût été 相当于 sans… / si… n'avait pas été…，突出过去若无某因素。该结构是书面条件表达，不是让步连词；ne 在该书面结构中单独使用；名词是后置主语，复数须 n’étaient / n’eussent été，不能插入 de。",
+        "explanation": "n’était + 名词通常对应 si ce n’était…，主句常为条件式现在。n’eût été 对应 si ce n’était / si ce n’avait été / sans…，主句通常为条件式过去，常表过去未实现结果；但该形式不能仅凭名称一律限定为过去，应结合主句和语境。此结构是书面条件表达，不是让步连词；ne 在结构中单独使用；后置名词为主语，复数用 n’étaient / n’eussent été，不插入 de。",
         "examples": [
           {
             "fr": "N'était le bruit, cet appartement serait idéal.",
@@ -386,7 +386,7 @@
     "sections": [
       {
         "title": "直接引语插入语",
-        "explanation": "引语后的 dit-il / demanda-t-elle 是陈述插入语，不是疑问句。代词主语与动词用连字符；动词以元音结尾且后接 il/elle/on 时补 -t-。名词主语也可后置。",
+        "explanation": "引语后的 dit-il / demanda-t-elle 是陈述插入语，不是疑问句。代词主语与动词用连字符；第三人称单数动词拼写以 a/e 结尾且后接 il/elle/on 时补 -t-；vaincre/convaincre 的 c 结尾也补（vainc-t-il）。末尾已有 t/d 时不再补。这里看拼写，不能只凭发音是否元音。名词主语也可后置。",
         "examples": [
           {
             "fr": "« Je vous attends », ajouta-t-elle.",
@@ -526,7 +526,7 @@
         "examples": [
           {
             "fr": "Selon plusieurs témoins, le suspect se trouverait à Lyon.",
-            "zh": "据多名目击者称，嫌疑人可能在里昂。",
+            "zh": "据多名目击者称，嫌疑人据说在里昂。",
             "use": "未经核实的当前位置。"
           },
           {
@@ -584,8 +584,8 @@
             "use": "tenir à + 不定式，强烈意愿。"
           },
           {
-            "fr": "Il tient de sa mère pour la patience.",
-            "zh": "他的耐心像母亲。",
+            "fr": "Il tient de sa mère : il est tout aussi patient.",
+            "zh": "他像母亲一样有耐心。",
             "use": "特点的相似与继承。"
           },
           {
@@ -714,7 +714,7 @@
           {
             "fr": "Ce n'est pas qu'elle n'ait pas essayé, c'est que la tâche était impossible.",
             "zh": "并不是她没尝试，而是任务根本不可能完成。",
-            "use": "双层否定：排除“没尝试”这个解释，承认她尝试过。"
+            "use": "外层否定排除“没有尝试”这一原因；在本句通常理解为她确实尝试过。该结构本身首先否定因果解释，不是在所有语境中逻辑证明尝试一定发生。"
           }
         ]
       },

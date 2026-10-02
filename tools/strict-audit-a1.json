@@ -1,0 +1,644 @@
+{
+  "level": "A1",
+  "method": "逐项读取全部23点原始zh/fr/forms/ex/fr/zh/use/tip、全部练习q/a/note、全部扩写节的解释及法中例句/use、comparison/errors/boundaries；按法语形态、句法、指代、语义、中文译文、语域与题目提示检查，实际浏览所列权威来源核验细则。覆盖计数仅辅助完整性，不代替逐句语义判断。",
+  "coverage": [
+    {
+      "id": "a1-genre",
+      "original_examples": 6,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-indefini",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-pluriel",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-partitif",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-sujets",
+      "original_examples": 5,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-etre",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-avoir",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-cest-ilya",
+      "original_examples": 5,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-present-er",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-present-ir",
+      "original_examples": 4,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-present-irreg",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-adj",
+      "original_examples": 4,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-possessif",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-demonstratif",
+      "original_examples": 5,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-negation",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-question",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-mots-interro",
+      "original_examples": 5,
+      "original_practice": 8,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-prep-lieu",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-prep-base",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-heure-date",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-futur-proche",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-passe-recent",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-vouloir-inf",
+      "original_examples": 5,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    }
+  ],
+  "changes": [
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "grammar",
+        12,
+        "fr"
+      ],
+      "before": "L'adjectif possessif s'accorde avec l'objet possédé, pas avec le possesseur.",
+      "after": "Le déterminant possessif varie en personne avec le possesseur et s'accorde en genre et en nombre avec le nom déterminé, sous réserve des formes mon/ton/son devant certains mots féminins.",
+      "reason": "原fr笼统否认与拥有者的关系；须区别人称系列与名词性数。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/23485/la-grammaire/les-determinants/determinants-possessifs/generalites-sur-les-determinants-possessifs",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24157/la-grammaire/les-determinants/determinants-possessifs/mon-ton-et-son-devant-des-mots-feminins"
+      ]
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "grammar",
+        12,
+        "zh"
+      ],
+      "before": "主有形容词与<strong>被拥有物</strong>的性数一致(不是与拥有者!):mon/ma/mes(我的)、ton/ta/tes、son/sa/ses、notre/nos、votre/vos、leur/leurs。",
+      "after": "先按拥有者的人称和数选择物主系列，再按<strong>被拥有名词</strong>的性数选择形式(不按拥有者性别选择 son/sa):mon/ma/mes(我的)、ton/ta/tes、son/sa/ses、notre/nos、votre/vos、leur/leurs。",
+      "reason": "原中文“不是与拥有者”缺少人称系列选择条件。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/23485/la-grammaire/les-determinants/determinants-possessifs/generalites-sur-les-determinants-possessifs"
+      ]
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "grammar",
+        12,
+        "tip"
+      ],
+      "before": "<b>易错:</b>son/sa 不区分「他的/她的」,只看名词性别。阴性名词若以<strong>元音</strong>开头,用 mon/ton/son(<em>mon école</em>)。",
+      "after": "<b>易错:</b>son/sa 不区分「他的/她的」,只看名词性别。紧接的阴性词以<strong>元音或哑音 h</strong>开头时,通常用 mon/ton/son(<em>mon école</em>)。",
+      "reason": "须看紧接词并包括哑音h；mon ancienne école与ma nouvelle école已有扩写对照。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24157/la-grammaire/les-determinants/determinants-possessifs/mon-ton-et-son-devant-des-mots-feminins"
+      ]
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "grammar",
+        4,
+        "fr"
+      ],
+      "before": "Les pronoms sujets remplacent le sujet. « on » = « nous » à l'oral ; « vous » est aussi la forme de politesse.",
+      "after": "Les pronoms sujets remplacent le sujet. « On » peut désigner des personnes indéterminées ou remplacer « nous » à l'oral ; « vous » peut désigner plusieurs personnes ou une seule personne par politesse.",
+      "reason": "补齐on泛指与vous普通复数，原文只列两种用法易误认为等价。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "grammar",
+        7,
+        "fr"
+      ],
+      "before": "« C'est » présente ou identifie ; « il y a » indique l'existence (invariable).",
+      "after": "« C'est » présente ou identifie ; « il y a » indique l'existence et ne varie pas avec le nombre du nom introduit, mais se conjugue selon le temps.",
+      "reason": "invariable未限定单复数易误认为任何时态不变。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "grammar",
+        7,
+        "ex",
+        3,
+        "use"
+      ],
+      "before": "复数 ce sont:后面是复数名词 mes parents,c'est 要变成 ce sont",
+      "after": "复数 ce sont:本句 mes parents 为复数名词，规范书面语优先用 ce sont；口语 c’est mes parents 很常见，另有 c’est nous/vous 等边界。",
+      "reason": "与扩写已说明口语和nous/vous边界保持一致。",
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ]
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "practice",
+        "a1-cest-ilya",
+        2,
+        "q"
+      ],
+      "before": "___ mes amis de classe. (这是,复数)",
+      "after": "___ mes camarades de classe. (这是,复数,采用规范书面形式)",
+      "reason": "amis de classe表达不够自然，改camarades de classe并明确要求规范书面答案。",
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ]
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "practice",
+        "a1-cest-ilya",
+        2,
+        "a"
+      ],
+      "before": "Ce sont mes amis de classe.",
+      "after": "Ce sont mes camarades de classe.",
+      "reason": "随题目更新名词，ce sont考点不变。",
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ]
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "practice",
+        "a1-cest-ilya",
+        2,
+        "note"
+      ],
+      "before": "考查 ce sont:复数名词前 c'est 变 ce sont",
+      "after": "本题要求规范书面复数介绍，用 ce sont；口语 c’est + 复数名词也常见，不能一概判为语法错误。",
+      "reason": "明确标准答案范围，避免对口语合法变体绝对否定。",
+      "sources": [
+        "https://www.academie-francaise.fr/questions-de-langue"
+      ]
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "grammar",
+        14,
+        "tip"
+      ],
+      "before": "<b>易错:</b>普通全量否定的直接宾语中,不定冠词/部分冠词通常变 de:<em>Je n'ai <b>pas de</b> voiture.</em> 口语中 ne 常被省略(<em>Je sais pas</em>),但书面必须保留。",
+      "after": "<b>易错:</b>普通全量否定的直接宾语中,不定冠词/部分冠词通常变 de:<em>Je n'ai <b>pas de</b> voiture.</em> 口语中 ne 常被省略(<em>Je sais pas</em>),规范正式书面语通常保留 ne;书面呈现口语等场合可省略。",
+      "reason": "避免把所有书面媒介都视为强制ne。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/23905/la-syntaxe/la-negation-et-la-restriction/generalites-sur-la-negation"
+      ]
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "grammar",
+        11,
+        "ex",
+        2,
+        "zh"
+      ],
+      "before": "一个幸福的故事(heureux→heureuse)",
+      "after": "一个结局美好的故事(heureux→heureuse)",
+      "reason": "幸福的故事中文搭配生硬，heureuse可指结局美好。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "grammar",
+        15,
+        "fr"
+      ],
+      "before": "Trois registres pour l'interrogation totale : intonation (familier), est-ce que (standard), inversion (soutenu).",
+      "after": "Trois formes pour l'interrogation totale : intonation (courante à l'oral), est-ce que (standard), inversion (souvent plus soutenue). La politesse dépend aussi des mots et du contexte.",
+      "reason": "语调式不只familier，服务语境Vous avez une minute可中性礼貌，与扩写一致。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "grammar",
+        19,
+        "zh"
+      ],
+      "before": "问时间:<em>Quelle heure est-il ?</em> 答:<em>Il est…</em>。日期:<em>le + 数字 + 月份</em>(1号用 premier)。星期前不加冠词表「这个/那个」,加 le 表「每逢」。",
+      "after": "问时间:<em>Quelle heure est-il ?</em> 答:<em>Il est…</em>。日期:<em>le + 数字 + 月份</em>(1号用 premier)。星期无冠词常指特定一次，加 le 常表「每逢」；le lundi 5 mai 等带具体日期的结构不表示每周。",
+      "reason": "原说明过度二分，具体日期定冠词也合法，扩写已有边界。",
+      "sources": []
+    },
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "grammar",
+        18,
+        "ex",
+        2,
+        "zh"
+      ],
+      "before": "我和姐姐去火车站。",
+      "after": "我和姐姐或妹妹去火车站。",
+      "reason": "ma sœur不指定相对年龄；避免凭空确定姐姐。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-a1.json",
+      "path": [
+        "a1-etre",
+        "sections",
+        0,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "我姐姐是工程师。",
+      "after": "我的姐姐或妹妹是工程师。",
+      "reason": "ma sœur未给出年龄关系。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-a1.json",
+      "path": [
+        "a1-possessif",
+        "sections",
+        1,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "我的女性朋友和她姐姐一起到了。",
+      "after": "我的女性朋友和她的姐姐或妹妹一起到了。",
+      "reason": "sa sœur未给出姐姐或妹妹。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-a1.json",
+      "path": [
+        "a1-prep-lieu",
+        "sections",
+        1,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "我从加拿大回来，我姐姐从意大利回来。",
+      "after": "我从加拿大回来，我的姐姐或妹妹从意大利回来。",
+      "reason": "ma sœur未给出年龄关系。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-a1.json",
+      "path": [
+        "a1-prep-base",
+        "sections",
+        1,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "我和姐姐在朋友家吃晚饭。",
+      "after": "我和姐姐或妹妹在朋友家吃晚饭。",
+      "reason": "ma sœur未给出年龄关系。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-a1.json",
+      "path": [
+        "a1-cest-ilya",
+        "sections",
+        0,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "这是我姐姐，这些是她的孩子。",
+      "after": "这是我的姐姐或妹妹，这些是她的孩子。",
+      "reason": "ma sœur本身不说明年龄关系，有孩子也不足以推出比我年长。",
+      "sources": []
+    },
+    {
+      "file": "tools/expansion-a1.json",
+      "path": [
+        "a1-futur-proche",
+        "comparison"
+      ],
+      "before": "Je vais à la gare（aller 表移动）/ Je vais partir（aller 为未来辅助结构）；Je vais travailler l’année prochaine 也可自然，名称“最近”不意味着必须几分钟内。",
+      "after": "Je vais à la gare（aller 表移动）/ Je vais partir（aller 为未来辅助结构）；Je vais travailler l’année prochaine 也可自然，名称“最近”不意味着必须几分钟内。 Je vais appeler Paul（突出当前打算）/ J’appellerai Paul（直接陈述未来行动，也可为承诺）；两者都可指稍后打电话，不能按分钟/年份强分。",
+      "reason": "增加与简单将来成对例，落实现有边界而非只有去向对比。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24122/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-proche"
+      ]
+    },
+    {
+      "file": "tools/sources-a1.json",
+      "path": [],
+      "before": [
+        {
+          "title": "OQLF — Généralités sur la négation",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23905/la-syntaxe/la-negation-et-la-restriction/generalites-sur-la-negation",
+          "notes": "已读取：ne…pas 的位置、复合时态助动词、口语省略与书面语限制。"
+        },
+        {
+          "title": "Académie française — annoncer, conjugaison",
+          "url": "https://dictionnaire-academie.fr/conjuguer/A9A1834",
+          "notes": "已检索：第一组 -cer 动词 c/ç 交替。"
+        },
+        {
+          "title": "Académie française — rougir, conjugaison",
+          "url": "https://dictionnaire-academie.fr/conjuguer/A9R3066",
+          "notes": "已检索：第二组现在时 -is/-it/-issons/-issez/-issent。"
+        },
+        {
+          "title": "OQLF — Prépositions devant un nom de pays",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23897/la-syntaxe/les-prepositions/preposition-devant-un-nom/les-prepositions-devant-un-nom-de-pays",
+          "notes": "独立审校读取：国家前en/au、元音和哑音h边界。"
+        },
+        {
+          "title": "OQLF — Pluriel des noms en -al",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21821/la-grammaire/le-nom/pluriel-des-noms/pluriel-en-x/pluriel-des-noms-en-8209al",
+          "notes": "独立审校读取：通常-aux及festivals等例外。"
+        },
+        {
+          "title": "OQLF — De dans une phrase négative",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23514/la-grammaire/les-determinants/determinants-indefinis/de-dans-une-phrase-negative",
+          "notes": "独立审校读取：普通否定de、对比否定与être表语保留。"
+        },
+        {
+          "title": "OQLF — Pluriel des noms en -au, -eau et -eu",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22604/la-grammaire/le-nom/pluriel-des-noms/pluriel-en-x/pluriel-des-noms-en-8209au-8209eau-et-8209eu",
+          "notes": "独立审校读取：pneus/bleus/landaus/sarraus等例外。"
+        },
+        {
+          "title": "Académie française — Questions de langue",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "独立审校已读取：À ou chez（机构、企业）及Impératif等相关规范。"
+        }
+      ],
+      "after": [
+        {
+          "title": "OQLF — Généralités sur la négation",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23905/la-syntaxe/la-negation-et-la-restriction/generalites-sur-la-negation",
+          "notes": "已读取：ne…pas 的位置、复合时态助动词、口语省略与书面语限制。"
+        },
+        {
+          "title": "Académie française — annoncer, conjugaison",
+          "url": "https://dictionnaire-academie.fr/conjuguer/A9A1834",
+          "notes": "已检索：第一组 -cer 动词 c/ç 交替。"
+        },
+        {
+          "title": "Académie française — rougir, conjugaison",
+          "url": "https://dictionnaire-academie.fr/conjuguer/A9R3066",
+          "notes": "已检索：第二组现在时 -is/-it/-issons/-issez/-issent。"
+        },
+        {
+          "title": "OQLF — Prépositions devant un nom de pays",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23897/la-syntaxe/les-prepositions/preposition-devant-un-nom/les-prepositions-devant-un-nom-de-pays",
+          "notes": "独立审校读取：国家前en/au、元音和哑音h边界。"
+        },
+        {
+          "title": "OQLF — Pluriel des noms en -al",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21821/la-grammaire/le-nom/pluriel-des-noms/pluriel-en-x/pluriel-des-noms-en-8209al",
+          "notes": "独立审校读取：通常-aux及festivals等例外。"
+        },
+        {
+          "title": "OQLF — De dans une phrase négative",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23514/la-grammaire/les-determinants/determinants-indefinis/de-dans-une-phrase-negative",
+          "notes": "独立审校读取：普通否定de、对比否定与être表语保留。"
+        },
+        {
+          "title": "OQLF — Pluriel des noms en -au, -eau et -eu",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22604/la-grammaire/le-nom/pluriel-des-noms/pluriel-en-x/pluriel-des-noms-en-8209au-8209eau-et-8209eu",
+          "notes": "独立审校读取：pneus/bleus/landaus/sarraus等例外。"
+        },
+        {
+          "title": "Académie française — Questions de langue",
+          "url": "https://www.academie-francaise.fr/questions-de-langue",
+          "notes": "独立审校已读取：À ou chez（机构、企业）及Impératif等相关规范。"
+        },
+        {
+          "title": "OQLF — Le futur proche",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24122/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-proche",
+          "notes": "严格语义复核已实际读取：与当前参照点的联系，区别不只是未来远近。"
+        },
+        {
+          "title": "OQLF — Généralités sur les déterminants possessifs",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23485/la-grammaire/les-determinants/determinants-possessifs/generalites-sur-les-determinants-possessifs",
+          "notes": "严格语义复核已实际读取：按拥有者人称选系列，按所限定名词性数选形式。"
+        },
+        {
+          "title": "OQLF — Mon, ton et son devant des mots féminins",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24157/la-grammaire/les-determinants/determinants-possessifs/mon-ton-et-son-devant-des-mots-feminins",
+          "notes": "严格语义复核已实际读取：紧接词元音/哑音h规则；son ancienne école与ma nouvelle école；存在十一等词汇例外。"
+        }
+      ],
+      "reason": "新增严格复核实际浏览的futur proche、物主限定词和mon/ton/son规则来源；保留原8项。",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24122/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-proche",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/23485/la-grammaire/les-determinants/determinants-possessifs/generalites-sur-les-determinants-possessifs",
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/24157/la-grammaire/les-determinants/determinants-possessifs/mon-ton-et-son-devant-des-mots-feminins"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "sources": [
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23905/la-syntaxe/la-negation-et-la-restriction/generalites-sur-la-negation",
+      "title": "OQLF — Généralités sur la négation",
+      "checked_claim": "ne…pas位置；正式书面与口语省略的区别。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23514/la-grammaire/les-determinants/determinants-indefinis/de-dans-une-phrase-negative",
+      "title": "OQLF — De dans une phrase négative",
+      "checked_claim": "直接宾语不定/部分冠词的普通否定de，与对比否定和être表语区别。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23897/la-syntaxe/les-prepositions/preposition-devant-un-nom/les-prepositions-devant-un-nom-de-pays",
+      "title": "OQLF — Prépositions devant un nom de pays",
+      "checked_claim": "en/au、阳性元音/哑音h、国家性别与地名惯用边界。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24122/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-proche",
+      "title": "OQLF — Le futur proche",
+      "checked_claim": "与当前参照点的联系，区别不只是未来远近。"
+    },
+    {
+      "url": "https://www.academie-francaise.fr/questions-de-langue",
+      "title": "Académie française — Questions de langue",
+      "checked_claim": "c’est/ce sont一般复数与口语、nous/vous例外；À ou chez用于企业和人物。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23485/la-grammaire/les-determinants/determinants-possessifs/generalites-sur-les-determinants-possessifs",
+      "title": "OQLF — Généralités sur les déterminants possessifs",
+      "checked_claim": "按拥有者人称选系列，按所限定名词性数选形式。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24157/la-grammaire/les-determinants/determinants-possessifs/mon-ton-et-son-devant-des-mots-feminins",
+      "title": "OQLF — Mon, ton et son devant des mots féminins",
+      "checked_claim": "紧接词元音/哑音h规则；son ancienne école与ma nouvelle école；存在十一等词汇例外。"
+    }
+  ]
+}

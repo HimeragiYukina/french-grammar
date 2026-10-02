@@ -472,8 +472,8 @@
             "use": "让步从句改 malgré + 名词。"
           },
           {
-            "fr": "Le système est efficace ; cela réduit les coûts. → L'efficacité du système permet de réduire les coûts.",
-            "zh": "系统高效，因此降低成本。→系统的高效有助于降低成本。",
+            "fr": "Le système est efficace ; cela réduit les coûts. → L'efficacité du système réduit les coûts.",
+            "zh": "系统高效，因此降低成本。→系统的高效降低了成本。",
             "use": "性质成为主句主语，重新组织信息。"
           }
         ]
@@ -567,7 +567,7 @@
           },
           {
             "fr": "Contrairement à son frère, elle conduit très prudemment.",
-            "zh": "与她哥哥不同，她开车很谨慎。",
+            "zh": "与她的兄弟（哥哥或弟弟）不同，她开车很谨慎。",
             "use": "contrairement à 后名词组，比较对象清楚。"
           },
           {
@@ -584,7 +584,7 @@
       },
       {
         "title": "承认事实却推出反预期结果",
-        "explanation": "bien que/quoique + 虚拟式；malgré/en dépit de + 名词；pourtant/néanmoins/toutefois 等不支配从句语气。书面与口语差异是倾向，不是固定同义替换。",
+        "explanation": "bien que/quoique 学习写作通常接虚拟式；malgré/en dépit de + 名词；pourtant/néanmoins/toutefois 等不支配从句语气。虚拟式也可评价真实事实。书面与口语差异是倾向，不是固定同义替换。",
         "examples": [
           {
             "fr": "Bien qu'elle connaisse bien le sujet, elle a préparé son intervention.",
@@ -636,7 +636,7 @@
       }
     ],
     "comparison": "Il travaille alors qu'elle se repose（对照）/ Bien qu'il soit fatigué, il travaille（让步）。quoique = bien que；quoi que = 无论什么：Quoi que tu dises, je reste。Même s'il est riche 可陈述已知事实；Même s'il devenait riche 假设尚未发生。",
-    "errors": "错：bien qu'il est → bien qu'il soit；学习标准语避免 malgré qu'il pleut，改 malgré la pluie / bien qu'il pleuve。错：même s'il pleuvra → même s'il pleut。",
+    "errors": "规范学习表达优先：bien qu'il soit，而非 bien qu'il est；后者的事实读法在部分用法中存在，但规范评价有分歧。学习标准语避免 malgré qu'il pleut，改 malgré la pluie / bien qu'il pleuve。错：même s'il pleuvra → même s'il pleut（开放条件读法）。",
     "boundaries": "malgré que 在文学及部分用法中存在，固定 malgré qu'il en ait 有其历史用法；学习者正式写作优先 malgré + 名词或 bien que。par contre 获广泛承认，不必强制全部换 en revanche。"
   },
   "b2-cause-consequence": {
@@ -754,7 +754,7 @@
       },
       {
         "title": "防止不希望发生的事",
-        "explanation": "de peur de/de crainte de + 原形；de peur que/de crainte que + 虚拟式。正式语体可加赘词 ne，它不否定，若加 pas 才真正否定。",
+        "explanation": "de peur de/de crainte de + 原形；de peur que/de crainte que + 虚拟式。正式语体可加赘词 ne，它不否定；若用 ne…pas、ne…jamais 等完整否定结构，才否定从句所述事件。",
         "examples": [
           {
             "fr": "Elle a enregistré une copie de peur de perdre son travail.",
@@ -835,7 +835,7 @@
       },
       {
         "title": "反身互指与本质代词式动词",
-        "explanation": "se laver/rencontrer 等分析 se 的 COD/COI；另有后置 COD 时 se 常为 COI。本质代词式、被动意义代词式通常与主语配合，但仍有特殊词项，如 se plaire 不配合、s'arroger 按 COD。",
+        "explanation": "se laver/rencontrer 等要分析 se 的 COD/COI；有后置 COD 时 se 常为 COI。本质代词式、被动意义代词式通常与主语配合；本质代词式 s'arroger 是按 COD 配合的特殊词项。se plaire 的 se 属 COI 模式，因此分词不配合，不应把它归为本质代词式。",
         "examples": [
           {
             "fr": "Elles se sont envoyé des messages toute la soirée.",

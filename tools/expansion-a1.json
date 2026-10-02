@@ -282,7 +282,7 @@
         "examples": [
           {
             "fr": "Ma sœur est ingénieure.",
-            "zh": "我姐姐是工程师。",
+            "zh": "我的姐姐或妹妹是工程师。",
             "use": "简单职业表语不加冠词。"
           },
           {
@@ -392,7 +392,7 @@
         "examples": [
           {
             "fr": "C’est ma sœur, et ce sont ses enfants.",
-            "zh": "这是我姐姐，这些是她的孩子。",
+            "zh": "这是我的姐姐或妹妹，这些是她的孩子。",
             "use": "依据后面的名词数选择。"
           },
           {
@@ -683,7 +683,7 @@
         "examples": [
           {
             "fr": "Mon amie est arrivée avec sa sœur.",
-            "zh": "我的女性朋友和她姐姐一起到了。",
+            "zh": "我的女性朋友和她的姐姐或妹妹一起到了。",
             "use": "amie 阴性仍用 mon。"
           },
           {
@@ -958,7 +958,7 @@
         "examples": [
           {
             "fr": "Je reviens du Canada et ma sœur revient d’Italie.",
-            "zh": "我从加拿大回来，我姐姐从意大利回来。",
+            "zh": "我从加拿大回来，我的姐姐或妹妹从意大利回来。",
             "use": "阳性辅音 du，阴性元音 d’。"
           },
           {
@@ -1013,7 +1013,7 @@
         "examples": [
           {
             "fr": "Je dîne chez des amis avec ma sœur.",
-            "zh": "我和姐姐在朋友家吃晚饭。",
+            "zh": "我和姐姐或妹妹在朋友家吃晚饭。",
             "use": "chez 地点归属于人，avec 表陪同。"
           },
           {
@@ -1150,7 +1150,7 @@
         ]
       }
     ],
-    "comparison": "Je vais à la gare（aller 表移动）/ Je vais partir（aller 为未来辅助结构）；Je vais travailler l’année prochaine 也可自然，名称“最近”不意味着必须几分钟内。",
+    "comparison": "Je vais à la gare（aller 表移动）/ Je vais partir（aller 为未来辅助结构）；Je vais travailler l’année prochaine 也可自然，名称“最近”不意味着必须几分钟内。 Je vais appeler Paul（突出当前打算）/ J’appellerai Paul（直接陈述未来行动，也可为承诺）；两者都可指稍后打电话，不能按分钟/年份强分。",
     "errors": "*Je vais mange → Je vais manger；普通否定计划通常说 Je ne vais pas sortir。Je vais ne pas sortir 可在刻意否定不定式动作的对比语境中出现，但不宜作为初学者的常规否定表达。",
     "boundaries": "futur proche 常把未来与当前意图、迹象连接，不保证一定发生；futur simple 也可指很近的未来，二者差异不是单纯距离。"
   },

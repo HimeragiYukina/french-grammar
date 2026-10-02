@@ -58,5 +58,30 @@
     "title": "OQLF — Le pronom indéfini rien",
     "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23886/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-rien",
     "notes": "独立复核非正式口语与正式否定。"
+  },
+  {
+    "title": "Tex’s French Grammar — si clauses",
+    "url": "https://www.laits.utexas.edu/tex/gr/tac3.html",
+    "notes": "本轮核读：用于构成、语义选择与例外；例句及场景为原创。"
+  },
+  {
+    "title": "Tex’s French Grammar — infinitive constructions",
+    "url": "https://www.laits.utexas.edu/tex/gr/vinf1.html",
+    "notes": "本轮核读：用于构成、语义选择与例外；例句及场景为原创。"
+  },
+  {
+    "title": "OQLF — phrase à la forme passive",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22950/la-grammaire/la-grammaire-actuelle/la-phrase/phrase-a-la-forme-passive",
+    "notes": "本轮核读：用于构成、语义选择与例外；例句及场景为原创。"
+  },
+  {
+    "title": "Académie française — obéir",
+    "url": "https://www.dictionnaire-academie.fr/article/A9O0009",
+    "notes": "本轮核验特殊被动 être obéi；不能据此把一般间接宾语转换为被动主语。"
+  },
+  {
+    "title": "Dictionnaire de l’Académie française — espérer",
+    "url": "https://www.dictionnaire-academie.fr/article/A9E2630",
+    "notes": "肯定希望可用现在/将来等直陈式，否定可用虚拟式，不规定否定疑问一律虚拟。"
   }
 ]

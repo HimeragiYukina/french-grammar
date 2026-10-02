@@ -1,0 +1,1152 @@
+{
+  "date": "2026-10-02",
+  "method": "新一轮按级别助手逐条语义复核，原作者与本轮审查分工错开；主任务统一复核关键修订。脚本核对覆盖计数/精确修訂/结构，不证明语言语义本身。",
+  "coverage": [
+    {
+      "id": "a1-genre",
+      "original_examples": 6,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-indefini",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-pluriel",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-partitif",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-sujets",
+      "original_examples": 5,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-etre",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-avoir",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-cest-ilya",
+      "original_examples": 5,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-present-er",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-present-ir",
+      "original_examples": 4,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-present-irreg",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-adj",
+      "original_examples": 4,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-possessif",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-demonstratif",
+      "original_examples": 5,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-negation",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-question",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-mots-interro",
+      "original_examples": 5,
+      "original_practice": 8,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-prep-lieu",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-prep-base",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-heure-date",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-futur-proche",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-passe-recent",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a1-vouloir-inf",
+      "original_examples": 5,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-pc-avoir",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-pc-etre",
+      "original_examples": 6,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-imparfait",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-pc-vs-imp",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-futur-simple",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-cod",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-coi",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-en",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-y",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-pronominaux",
+      "original_examples": 5,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-imperatif",
+      "original_examples": 4,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-comparatif",
+      "original_examples": 5,
+      "original_practice": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-superlatif",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-qui-que",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-ou-relatif",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-quantite",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-temps-prep",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 7,
+      "expansion_examples": 14,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-politesse",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-pqp",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-cond-present",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-cond-passe",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-subj-present",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-subj-declencheurs",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-si",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-discours-indirect",
+      "original_examples": 5,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-passif",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-double-pronoms",
+      "original_examples": 4,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-possessifs-pron",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-demonstratifs-pron",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-dont",
+      "original_examples": 4,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-gerondif",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-negations",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 14,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-connecteurs-base",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 4,
+      "expansion_examples": 18,
+      "added_practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-subj-passe",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-mode-choix",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-concordance",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-participe-present",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-se-faire",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-relatifs-composes",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-mise-relief",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 2,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-nominalisation",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-futur-anterieur",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-opposition-concession",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-cause-consequence",
+      "original_examples": 8,
+      "original_practice": 8,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-but-condition",
+      "original_examples": 6,
+      "original_practice": 7,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-accord-pp",
+      "original_examples": 5,
+      "original_practice": 6,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-registres",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 8,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-modalisation",
+      "original_examples": 5,
+      "original_practice": 5,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b2-adj-sens",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 16,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-passe-simple",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-subj-imparfait",
+      "original_examples": 3,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-cond-2e",
+      "original_examples": 5,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 7,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-inversion",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 15,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-dislocation",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-concession-indefinie",
+      "original_examples": 6,
+      "original_practice": 7,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-hypothese-sans-si",
+      "original_examples": 6,
+      "original_practice": 5,
+      "expansion_sections": 4,
+      "expansion_examples": 16,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-ne-expletif",
+      "original_examples": 6,
+      "original_practice": 5,
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-accord-avance",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 14,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-connecteurs-soutenus",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-apres-que",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-impersonnelles",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 3,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c1-adj-verbal",
+      "original_examples": 5,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 16,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-passe-anterieur",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-concordance-litteraire",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 2,
+      "expansion_examples": 4,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-concession-soutenue",
+      "original_examples": 6,
+      "original_practice": 5,
+      "expansion_sections": 5,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-subj-fin",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 5,
+      "expansion_examples": 14,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-accord-extreme",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 4,
+      "expansion_examples": 12,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-inversion-style",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-ellipse",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-conjecture",
+      "original_examples": 5,
+      "original_practice": 4,
+      "expansion_sections": 3,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-rection",
+      "original_examples": 6,
+      "original_practice": 6,
+      "expansion_sections": 5,
+      "expansion_examples": 16,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-cause-niee",
+      "original_examples": 3,
+      "original_practice": 3,
+      "expansion_sections": 3,
+      "expansion_examples": 6,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-cohesion",
+      "original_examples": 7,
+      "original_practice": 7,
+      "expansion_sections": 7,
+      "expansion_examples": 14,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "c2-exclamation",
+      "original_examples": 4,
+      "original_practice": 4,
+      "expansion_sections": 4,
+      "expansion_examples": 10,
+      "added_practice": 0,
+      "status": "semantic-reviewed"
+    }
+  ],
+  "context_coverage": [
+    {
+      "id": "a2-context-rendezvous-manque",
+      "sentences": 5,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-context-course-achat",
+      "sentences": 5,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "a2-context-reservation-horaire",
+      "sentences": 5,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-context-pique-nique",
+      "sentences": 8,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-context-reunion",
+      "sentences": 8,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    },
+    {
+      "id": "b1-context-repas",
+      "sentences": 8,
+      "practice": 3,
+      "status": "semantic-reviewed"
+    }
+  ],
+  "totals": {
+    "original_examples": 427,
+    "original_practice": 436,
+    "expansion_sections": 319,
+    "expansion_examples": 828,
+    "added_practice": 24,
+    "points": 97,
+    "contexts": 6,
+    "context_sentences": 39,
+    "context_practice": 18
+  },
+  "json_change_records": 145,
+  "reference_array_records": 7,
+  "editorial_records": 2,
+  "sources": [
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23905/la-syntaxe/la-negation-et-la-restriction/generalites-sur-la-negation",
+      "title": "OQLF — Généralités sur la négation",
+      "checked_claim": "ne…pas位置；正式书面与口语省略的区别。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23514/la-grammaire/les-determinants/determinants-indefinis/de-dans-une-phrase-negative",
+      "title": "OQLF — De dans une phrase négative",
+      "checked_claim": "直接宾语不定/部分冠词的普通否定de，与对比否定和être表语区别。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23897/la-syntaxe/les-prepositions/preposition-devant-un-nom/les-prepositions-devant-un-nom-de-pays",
+      "title": "OQLF — Prépositions devant un nom de pays",
+      "checked_claim": "en/au、阳性元音/哑音h、国家性别与地名惯用边界。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24122/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-proche",
+      "title": "OQLF — Le futur proche",
+      "checked_claim": "与当前参照点的联系，区别不只是未来远近。"
+    },
+    {
+      "url": "https://www.academie-francaise.fr/questions-de-langue",
+      "title": "Académie française — Questions de langue",
+      "checked_claim": "量度补语和前置直接宾语配合；前置分词的功能分析。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23485/la-grammaire/les-determinants/determinants-possessifs/generalites-sur-les-determinants-possessifs",
+      "title": "OQLF — Généralités sur les déterminants possessifs",
+      "checked_claim": "按拥有者人称选系列，按所限定名词性数选形式。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24157/la-grammaire/les-determinants/determinants-possessifs/mon-ton-et-son-devant-des-mots-feminins",
+      "title": "OQLF — Mon, ton et son devant des mots féminins",
+      "checked_claim": "紧接词元音/哑音h规则；son ancienne école与ma nouvelle école；存在十一等词汇例外。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23513/la-grammaire/les-pronoms/pronoms-personnels/le-pronom-personnel-en",
+      "title": "OQLF — Le pronom personnel en",
+      "checked_claim": "en可指人、数量与来源；肯定及否定命令中的位置。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif",
+      "title": "OQLF — Pronoms personnels employés avec un verbe à l’impératif",
+      "checked_claim": "命令式代词顺序、连字符及不定式代词边界。"
+    },
+    {
+      "url": "https://laits.utexas.edu/tex/gr/tac1.html",
+      "title": "University of Texas — Conditional",
+      "checked_claim": "条件式构成、愿望、建议和礼貌请求，不把陈述句自动当疑问句。"
+    },
+    {
+      "url": "https://laits.utexas.edu/tex/gr/prep1.html",
+      "title": "University of Texas — Depuis, pendant, pour",
+      "checked_claim": "depuis延续参照点；pendant不限过去时；pour部分计划时长。"
+    },
+    {
+      "url": "https://laits.utexas.edu/tex/gr/tap8.html",
+      "title": "University of Texas — Narration: passé composé vs. imparfait",
+      "checked_claim": "完成整体与背景观察视角，不依单一信号词判定。"
+    },
+    {
+      "url": "https://laits.utexas.edu/tex/gr/pro6.html",
+      "title": "University of Texas — Pronoun y",
+      "checked_claim": "y地点及非人à补语；penser à人用重读代词。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24218/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-compose",
+      "title": "OQLF — Généralités sur le passé composé",
+      "checked_claim": "PC可表完成、结果及已界定的重复经历。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22465/la-syntaxe/la-comparaison/accord-de-le-dans-les-comparaisons-avec-le-plus-le-mieux-le-moins",
+      "title": "OQLF — Accord de le dans les comparaisons",
+      "checked_claim": "动词副词最高级le不变；同一实体程度与不同实体比较区分。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si",
+      "title": "OQLF — Mode verbal après si",
+      "checked_claim": "条件si与间接疑问si的语气限制不同，条件句允许多种主句时态。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22904/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-dont",
+      "title": "OQLF — Le pronom relatif dont",
+      "checked_claim": "避免重复同一de/所属关系，嵌套介词补语边界。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+      "title": "OQLF — Subjonctif ou indicatif après les subordonnants composés",
+      "checked_claim": "le fait que/pour autant que/encore que的虚拟式常见非绝对；non que/ce n’est pas que与目的结果语气。"
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9E2630",
+      "title": "Dictionnaire de l’Académie française — espérer",
+      "checked_claim": "肯定希望可用现在/将来等直陈式，否定可用虚拟式，不规定否定疑问一律虚拟。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24236/la-grammaire/le-verbe/modes/subjonctif/generalites-sur-le-subjonctif",
+      "title": "OQLF — Généralités sur le subjonctif",
+      "checked_claim": "相对时间由上下文定位；怀疑、意愿、情感结构"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que",
+      "title": "OQLF — Verbe exprimant la crainte suivi de que",
+      "checked_claim": "赘词ne与完整否定的区别"
+    },
+    {
+      "url": "https://www.academie-francaise.fr/au-cas-ou-tu-seras",
+      "title": "Académie — Au cas où tu seras",
+      "checked_claim": "au cas où/dans le cas où标准假设用法接条件式"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21695/la-syntaxe/le-sujet-dans-la-phrase/emplois-du-verbe-sembler-a-la-forme-impersonnelle",
+      "title": "OQLF — Emplois du verbe sembler à la forme impersonnelle",
+      "checked_claim": "il semble que可见不同语气，依具体立场选择"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21175/la-grammaire/le-verbe/modes/concordance-des-temps/principes-de-la-correspondance-des-temps",
+      "title": "OQLF — Principes de la correspondance des temps",
+      "checked_claim": "文学未完成/愈过去虚拟式与现代现在/过去式的相对时间。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24237/la-grammaire/le-verbe/conjugaison/formes-du-subjonctif",
+      "title": "OQLF：Formes du subjonctif",
+      "checked_claim": "虚拟式构形、haïr/ouïr及croître例外"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21859/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-suivi-dun-infinitif",
+      "title": "OQLF：Accord du participe passé suivi d’un infinitif",
+      "checked_claim": "提前COD须属分词且为不定式隐含主语"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21037/la-grammaire/le-verbe/accord-du-participe-passe/cas-particuliers-daccord-du-participe-passe/accord-du-participe-passe-avec-le-pronom-en",
+      "title": "OQLF：Accord du participe passé avec le pronom en",
+      "checked_claim": "en作COD一般不变、文学配合及en作间接宾语"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif",
+      "title": "OQLF — Constructions avec un ne explétif",
+      "checked_claim": "比较及恐惧结构的赘词ne不否定从句，可省略。"
+    },
+    {
+      "url": "https://www.academie-francaise.fr/apres-que",
+      "title": "Académie française：Après que",
+      "checked_claim": "après que接直陈式及过去先完成时/虚拟式区分"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24141/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-passe-et-plus-que-parfait-du-subjonctif",
+      "title": "OQLF：Conditionnel passé et plus-que-parfait du subjonctif",
+      "checked_claim": "文学过去反事实及第二形式历史名称"
+    },
+    {
+      "url": "https://nos-langues.canada.ca/fr/cles-de-la-redaction/t-euphonique-t-on-t-en-t-il",
+      "title": "t euphonique",
+      "checked_claim": "连接t按拼写a/c/e及第三人称后置代词条件，含vainc-t-on。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24117/la-grammaire/le-verbe/accord-du-verbe-avec-le-sujet/cas-particuliers-daccord-du-verbe/accord-et-emploi-de-neut-ete-et-neussent-ete",
+      "title": "OQLF — Accord et emploi de n’eût été et n’eussent été",
+      "checked_claim": "后置主语配合、无de、通常过去结果与可对应si ce n’était的时间解释。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26576923/temps-surcompose",
+      "title": "OQLF — Temps surcomposé",
+      "checked_claim": "a eu + participe 属过去超复合形式。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21484/la-grammaire/le-verbe/accord-du-participe-passe/sans-auxiliaire/emploi-de-ci-joint-ci-inclus-et-ci-annexe-comme-adjectifs-et-adverbes",
+      "title": "OQLF — Ci-joint, ci-inclus et ci-annexé",
+      "checked_claim": "句首或无限定名词前不变，后置形容词配合，句内限定名词前两可。"
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22907/la-grammaire/ladverbe/tout-employe-comme-adverbe",
+      "title": "OQLF — Tout employé comme adverbe",
+      "checked_claim": "阴性辅音或嘘音h前副词tout性数配合。"
+    }
+  ],
+  "remaining_variations": {
+    "A2": [
+      "开放式写句题的答案为可接受示例，不穷尽词序、词汇或礼貌表达；性别未指定时接受符合指称群体的分词配合。",
+      "PC/imparfait的观察角度依语境决定，课程限定条件与参考答案不宣称排除所有其他可成立语境。"
+    ],
+    "B1": [
+      "未发现剩余阻塞性语义错误；没有宣称所有自然语境都只接受参考答案。",
+      "语气选择、新闻消息保留和礼貌强度有语境依赖；已区分常规教学选择与唯一语法许可。"
+    ],
+    "B2": [
+      {
+        "id": "b2-opposition-concession",
+        "note": "bien que/quoique直陈式的规范接受度在参考书间有差异；保留学习写作优先虚拟式，并明确边界。"
+      },
+      {
+        "id": "b2-mode-choix",
+        "note": "否定/疑问意见动词与sembler的语气选择依立场和语境；练习给定读法只提供目标答案，不声称涵盖全部可接受改写。"
+      }
+    ],
+    "C1": [
+      {
+        "id": "c1-concession-indefinie",
+        "detail": "quoique/bien que直陈式接受度在规范资料间不同，已区分OQLF描述与本题规范虚拟式答案。"
+      },
+      {
+        "id": "c1-accord-avance",
+        "detail": "en作COD的文学配合为有记录变体，题目按一般不配合规则；不宣称所有文学作者均遵循不变。"
+      }
+    ],
+    "C2": [
+      {
+        "topic": "文学与地域变体",
+        "note": "tout…que、encore que、pour autant que等语气选择及文体自然度有语境差异；保留常见规范路径及合法边界，不声称每个变体均同样常用。"
+      },
+      {
+        "topic": "原创例句",
+        "note": "全部例句逐项语义审读；外部来源用于规则核验，并非每句都有外部出处。"
+      },
+      {
+        "topic": "n’eût été",
+        "note": "OQLF说明通常主句条件式过去，但列出si ce n’était等对应解释；不能仅凭该形态把所有语境限定为日历过去。"
+      }
+    ]
+  }
+}

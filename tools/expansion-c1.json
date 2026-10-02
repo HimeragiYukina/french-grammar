@@ -58,7 +58,7 @@
     "sections": [
       {
         "title": "构成：由简单过去时词干识别",
-        "explanation": "以简单过去时第二人称单数去掉 -s，再接 -sse, -sses, -ssions, -ssiez, -ssent；第三人称单数在所得词干的末尾元音上加长音符，再加 -t；第三人称单数带长音符：tu parlas→qu’il parlât，tu finis→qu’il finît，tu eus→qu’il eût。主要用于文学、古典或刻意郑重语体。",
+        "explanation": "以简单过去时第二人称单数去掉 -s，再接 -sse, -sses, -ssions, -ssiez, -ssent；第三人称单数在所得词干的末尾元音上加长音符，再加 -t；第三人称单数带长音符：tu parlas→qu’il parlât，tu finis→qu’il finît，tu eus→qu’il eût。haïr 和 ouïr 的第三人称单数保留分音符而不加长音符：qu’il haït、qu’elle ouït；croître 的各人称均保留 û，以区别 croire。主要用于文学、古典或刻意郑重语体。",
         "examples": [
           {
             "fr": "Il souhaitait que nous fussions présents.",
@@ -94,7 +94,7 @@
         "examples": [
           {
             "fr": "Il regrettait qu’elle fût partie sans lui.",
-            "zh": "他遗憾她此前没等他就走了。",
+            "zh": "他遗憾她此前没有和他一起走。",
             "use": "古典 fût partie；现代 qu’elle soit partie，强调先发生。"
           },
           {
@@ -154,7 +154,7 @@
         "examples": [
           {
             "fr": "À voir son visage, on eût dit qu’il n’avait pas dormi.",
-            "zh": "看他的脸色，仿佛他一夜没睡。",
+            "zh": "看他的脸色，仿佛他没睡觉。",
             "use": "文学 on eût dit，现代 on aurait dit。"
           },
           {
@@ -173,7 +173,7 @@
     "sections": [
       {
         "title": "推测副词与代词倒装",
-        "explanation": "正式书面语句首 peut-être、sans doute 可采用动词—主语代词倒装。动词与代词用连字符；第三人称单数元音衔接补 -t-：viendra-t-il；动词已有 t/d 不补：vient-il, prend-elle。名词主语一般保留在前，另用代词复指。",
+        "explanation": "正式书面语句首 peut-être、sans doute 可采用动词—主语代词倒装。动词与代词用连字符；第三人称单数动词拼写以 a/e 结尾且后接 il/elle/on 时加 -t-：viendra-t-il、parle-t-elle；vaincre/convaincre 的 c 结尾也加：vainc-t-il。动词已有 t/d 不补：vient-il、prend-elle。这里看拼写，不能只凭发音是否元音。名词主语一般保留在前，另用代词复指。",
         "examples": [
           {
             "fr": "Peut-être Léa acceptera-t-elle cette proposition.",

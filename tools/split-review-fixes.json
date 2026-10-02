@@ -1,0 +1,83 @@
+[
+  {
+    "id": "a2-imparfait",
+    "field": "tip",
+    "example_index": null,
+    "old": "<b>易错:</b>唯一不规则词干是 <b>être → ét-</b>(j'étais)。词尾发音:-ais/-ait/-aient 同音。",
+    "new": "<b>易错:</b>通常从 nous 现在时去掉 -ons 取词干；être 特殊为 <b>ét-</b>（j’étais）。falloir、pleuvoir 等无人称动词须单独记 il fallait、il pleuvait，不能硬造 nous 形式。-ais/-ait/-aient 通常同音。"
+  },
+  {
+    "id": "a2-futur-simple",
+    "field": "fr",
+    "example_index": null,
+    "old": "Le futur simple situe un événement dans l'avenir, proche ou lointain ; il peut exprimer une prévision, une promesse ou une instruction. Radical = infinitif + terminaisons (-ai, -as, -a, -ons, -ez, -ont).",
+    "new": "Le futur simple situe un événement dans l’avenir, proche ou lointain ; il peut exprimer une prévision, une promesse ou une instruction. Pour beaucoup de verbes, on ajoute les terminaisons à l’infinitif ; les verbes en -re perdent leur e final. Certains verbes ont un radical particulier (ser-, aur-, ir-…)."
+  },
+  {
+    "id": "a2-cod",
+    "field": "fr",
+    "example_index": null,
+    "old": "Le pronom COD remplace un complément direct (sans préposition) et se place devant le verbe.",
+    "new": "Le pronom COD remplace un complément direct. Il précède généralement le verbe qui le régit : l’auxiliaire aux temps composés, souvent l’infinitif dans une construction à deux verbes. Il suit le verbe à l’impératif affirmatif."
+  },
+  {
+    "id": "b1-cond-passe",
+    "field": "use",
+    "example_index": 1,
+    "old": "责备/委婉批评:à ta place + 条件式过去,暗示对方当时做错了",
+    "new": "假设自己的过去选择：à ta place + 条件式过去可表达与对方不同的选择，具体语气可为中性比较、建议或委婉批评，不自动断定对方做错。"
+  },
+  {
+    "id": "b1-discours-indirect",
+    "field": "use",
+    "example_index": 3,
+    "old": "特殊疑问(保留疑问词):où/quand/pourquoi 等直接保留,从句不再倒装",
+    "new": "特殊疑问保留疑问词；此处人称代词主语由 habites-tu 改为 j’habite，不保留问句的人称代词倒装。名词主语在某些间接疑问中仍可倒装，如 où habite Paul。"
+  },
+  {
+    "id": "b1-passif",
+    "field": "tip",
+    "example_index": null,
+    "old": "<b>易错:</b>只有<strong>及物动词</strong>(带直接宾语)能变被动。感受/状态有时用 <b>de</b> 而非 par(<em>aimé <b>de</b> tous</em>)。",
+    "new": "<b>易错:</b>基础被动转换主要适用于带直接宾语的及物动词，原 COD 成为主语；avoir 等动词不能照公式随意转换。少数特殊结构如 obéir à → être obéi 需另学，不应反推所有 COI 都能变主语。施事可省略；感受/状态有时用 <b>de</b>（aimé <b>de</b> tous）。"
+  },
+  {
+    "id": "b1-passif",
+    "field": "fr",
+    "example_index": null,
+    "old": "Passif = être (au temps voulu) + participe passé accordé avec le sujet + par + agent.",
+    "new": "Passif = être (au temps voulu) + participe passé accordé avec le sujet. L’agent peut être omis ou introduit, généralement par par, parfois par de selon le verbe et le sens."
+  },
+  {
+    "id": "a2-pc-etre",
+    "field": "note",
+    "practice_index": 3,
+    "example_index": null,
+    "old": "考查 monter/sortir 带宾语时改用 avoir(不配合),不带宾语用 être(配合 → sortie)。",
+    "new": "此处 monter/sortir 带直接宾语的及物用法用 avoir；本句 COD 后置，过去分词不配合。对应的不及物用法用 être；不能把“不配合”泛化到所有 avoir 结构。"
+  },
+  {
+    "id": "a2-superlatif",
+    "field": "q",
+    "practice_index": 3,
+    "example_index": null,
+    "old": "C'est elle qui danse ___ de la classe. (bien → 最高级) <span class=hint>提示:副词的不规则最高级</span>",
+    "new": "De tous les élèves de la classe, c’est elle qui danse ___. (最好)"
+  },
+  {
+    "id": "a2-superlatif",
+    "field": "a",
+    "practice_index": 3,
+    "example_index": null,
+    "old": "C'est elle qui danse le mieux de la classe.",
+    "new": "De tous les élèves de la classe, c’est elle qui danse le mieux."
+  },
+  {
+    "id": "a2-y",
+    "field": "note",
+    "practice_index": 2,
+    "example_index": null,
+    "old": "考查 y 替代地点状语:chez toi → y(不限于 à + 地点)。",
+    "new": "问句 chez toi 从回答者视角是 chez moi，y 回指同一住所；代词位置在 vais 前。"
+  }
+]

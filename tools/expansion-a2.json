@@ -32,11 +32,49 @@
             "use": "到现在为止累计的经历，次数有界。"
           }
         ]
+      },
+      {
+        "title": "办事叙述：完成、未完成与否定范围",
+        "explanation": "报告已经完成的步骤，用复合过去时；说明现在仍未完成，可用 ne…pas encore。短副词 déjà、encore 通常在助动词与分词之间。时间很长不妨碍完成体；关键是叙述者是否把阶段看作一个整体。否定完成不等于否定尝试，故可把尝试和结果分成两句。",
+        "examples": [
+          {
+            "fr": "J’ai envoyé le formulaire hier, mais je n’ai pas encore reçu de réponse.",
+            "zh": "我昨天寄出了表格，但还没有收到回复。",
+            "use": "envoyer 是已完成步骤；pas encore 表示截至现在等待仍在继续。"
+          },
+          {
+            "fr": "J’ai essayé de vous appeler trois fois ; personne n’a répondu.",
+            "zh": "我试着给您打了三次电话；没有人接听。",
+            "use": "已发生的是三次尝试；personne 作主语，不能换成 rien 来指人。"
+          }
+        ]
       }
     ],
     "comparison": "Je lisais quand tu as appelé：读书是当时展开的背景；J’ai lu ce roman en deux jours：把读完小说视为完整事件。两种过去时表达观察角度，而非长短。",
     "errors": "× Elle a mangée → ✓ Elle a mangé：avoir分词不因主语阴性配合；✓ Les pommes qu’elle a mangées：提前COD另触发配合。",
-    "boundaries": "不规则分词需逐个核实：ouvrir→ouvert，recevoir→reçu；-ir并非全为第二组。被动语态a été invité含être分词，不应误判为该动词复合过去时用être。"
+    "boundaries": "不规则分词需逐个核实：ouvrir→ouvert，recevoir→reçu；-ir并非全为第二组。被动语态a été invité含être分词，不应误判为该动词复合过去时用être。",
+    "practice": [
+      {
+        "q": "你作为付款人，昨天已经支付，但截至现在还未收到发票。用 je、payer / recevoir、passé composé 和 pas encore 写一句含 mais 的话。",
+        "a": "J’ai payé hier, mais je n’ai pas encore reçu la facture.",
+        "note": "payé、reçu 不因主语改变；否定置于助动词周围。"
+      },
+      {
+        "q": "纠错并说明：Elle a envoyée le dossier.",
+        "a": "Elle a envoyé le dossier.",
+        "note": "avoir 的分词不随主语阴性配合；dossier 是后置 COD。"
+      },
+      {
+        "q": "用 nous 与 déjà，把 réserver une chambre 改为已完成的预订。",
+        "a": "Nous avons déjà réservé une chambre.",
+        "note": "déjà 放在 avons 与 réservé 之间。"
+      }
+    ],
+    "related": [
+      "a2-pc-etre",
+      "a2-pc-vs-imp",
+      "b1-negations"
+    ]
   },
   "a2-pc-etre": {
     "sections": [
@@ -213,11 +251,49 @@
             "use": "hier不排除imparfait；中午的进行状态。"
           }
         ]
+      },
+      {
+        "title": "投诉与讲经历：事件线和背景线分开",
+        "explanation": "先问是在交代当时状态、习惯或正在进行的活动，还是把事件放上叙事时间线。同一个动作可换观察角度；昨天、很久、突然只是线索，不能替代判断。用背景句交代为何发生后续事件，叙事通常更清楚；回顾一个已结束工作阶段时，即使每天重复也可用复合过去时。",
+        "examples": [
+          {
+            "fr": "J’attendais à l’arrêt quand le chauffeur a annoncé que le bus était en panne.",
+            "zh": "司机宣布公交车出了故障时，我正在车站等车。",
+            "use": "attendais 是宣布发生时正在进行的背景；a annoncé 是消息事件；était en panne 描述状态。"
+          },
+          {
+            "fr": "Pendant ce stage, j’ai pris le bus tous les jours ; avant, j’allais au travail à pied.",
+            "zh": "那次实习期间，我每天都坐公交车；在那之前，我步行上班。",
+            "use": "有界实习阶段整体回顾用 j’ai pris；之前的惯常方式用 j’allais。"
+          }
+        ]
       }
     ],
     "comparison": "Je pouvais sortir：当时具备外出的条件，未说明是否出去；J’ai pu sortir：在常见的现实叙述中指那次得以外出。具体语境可影响读法，不把 pouvoir + PC 永远等同于成功实现。Je n’ai pas pu sortir 通常表示那次没能出去。",
     "errors": "不要把soudain/hier/toujours当绝对规则；先确定要描述过程、习惯还是整件事件。",
-    "boundaries": "某些文体有叙事性imparfait等特殊用途；A2先掌握核心对比。PC也可表达状态或长时段，imparfait也可包含明确时间定位。"
+    "boundaries": "某些文体有叙事性imparfait等特殊用途；A2先掌握核心对比。PC也可表达状态或长时段，imparfait也可包含明确时间定位。",
+    "practice": [
+      {
+        "q": "按“接到电话时正在等公交”的视角，填过去时：Je ___ le bus quand mon collègue m’___ . (attendre / appeler)",
+        "a": "J’attendais le bus quand mon collègue m’a appelé.",
+        "note": "若说话者为女性，提前 COD m’ 对应 appelée；男性为 appelé。attendre 正在展开，appeler 是事件。"
+      },
+      {
+        "q": "选择并说明：回顾已结束的两个月实习，强调每天都完成了同一路线。Pendant deux mois, je prenais / j’ai pris ce bus tous les jours.",
+        "a": "Pendant deux mois, j’ai pris ce bus tous les jours.",
+        "note": "这是题目指定的整体回顾；换 prenais 可把它作为当时习惯背景，不是形式本身错误。"
+      },
+      {
+        "q": "把“餐厅很吵；我们离开了”组织为一个原因背景加事件的过去叙述。",
+        "a": "Le restaurant était très bruyant, alors nous sommes partis.",
+        "note": "était 为状态，sommes partis 为事件；全为女性时 parties。"
+      }
+    ],
+    "related": [
+      "a2-imparfait",
+      "a2-pc-avoir",
+      "b1-pqp"
+    ]
   },
   "a2-futur-simple": {
     "sections": [
@@ -337,7 +413,7 @@
         "examples": [
           {
             "fr": "J’ai écrit à ma sœur ; je lui ai envoyé les photos.",
-            "zh": "我给姐姐写了信；我把照片发给她了。",
+            "zh": "我给姐姐或妹妹写了信；我把照片发给她了。",
             "use": "lui指女性单数，置助动词前。"
           },
           {
@@ -433,11 +509,49 @@
             "use": "肯定命令Prends-en；数词仍保留。"
           }
         ]
+      },
+      {
+        "title": "购物短答：数量保留，名词不重复",
+        "explanation": "在对方已经指出商品的语境中，en 可代替数量表达里的名词部分，但 un、deux、un kilo 等具体数量仍保留。否定零数量通常说 ne/n’ + en + 变位动词或助动词 + pas（如 Je n’en ai pas），而不是保留被否定的 un；若要明确否定一个、实为两个，则另有对比表达。en 不是随便删除一切 de 后内容的工具：地点来源可用 en，人的补语还要按动词和语境判断。",
+        "examples": [
+          {
+            "fr": "Vous voulez des pommes ? — Oui, j’en voudrais un kilo.",
+            "zh": "您要苹果吗？——要，我想要一公斤。",
+            "use": "en 代替 de pommes；un kilo 必须保留；voudrais 同时缓和请求。"
+          },
+          {
+            "fr": "Vous avez un justificatif ? — Non, je n’en ai pas, mais je peux en obtenir un demain.",
+            "zh": "您有一份证明材料吗？——没有，但我明天可以取得一份。",
+            "use": "否定存在不保留 un；肯定取得一份则保留 un，en 位于 obtenir 前。"
+          }
+        ]
       }
     ],
     "comparison": "Je bois le café que tu as préparé → Je le bois：特定咖啡；Je bois du café → J’en bois：不定量。de来源用en，à目的地用y。",
     "errors": "× J’ai deux（要替代前述名词）→ ✓ J’en ai deux；× Je n’ai pas en → ✓ Je n’en ai pas。",
-    "boundaries": "en也可指人，尤数量J’en connais plusieurs；涉及特定人谈论关系时de lui/d’elle常更清楚。因此“en只代物”不是绝对规则。"
+    "boundaries": "en也可指人，尤数量J’en connais plusieurs；涉及特定人谈论关系时de lui/d’elle常更清楚。因此“en只代物”不是绝对规则。",
+    "practice": [
+      {
+        "q": "回答 Vous voulez des billets ?，表达“我想要两张”。用 en 和条件式。",
+        "a": "J’en voudrais deux.",
+        "note": "en 代替 billets 的数量名词部分；不能漏掉 deux。"
+      },
+      {
+        "q": "改写：Je vais acheter trois enveloppes. 用 en，保留数量。",
+        "a": "Je vais en acheter trois.",
+        "note": "acheter 支配宾语，因此 en 放在不定式前。"
+      },
+      {
+        "q": "回答 Vous avez une voiture ?，只表达“没有”。",
+        "a": "Non, je n’en ai pas.",
+        "note": "一般表达没有车可说 Je n’en ai pas；保留 une 可以强调数量或作对比，Je n’en ai pas une seule 则强调一辆也没有。"
+      }
+    ],
+    "related": [
+      "a2-quantite",
+      "a2-y",
+      "b1-double-pronoms"
+    ]
   },
   "a2-y": {
     "sections": [
@@ -488,11 +602,49 @@
             "use": "n’y comprendre rien是常见结构，y指所涉事情。"
           }
         ]
+      },
+      {
+        "title": "约地点与答应做事：先确定 y 的指代",
+        "explanation": "y 常把已经提到的地点或 à 引出的事情带回句中。过去时放在助动词前；不定式补语则放在实际支配它的不定式前。与 en 的实用区分：去/在某处常用 y，从某处来常用 en。penser à un rendez-vous 可用 y；penser à une personne 在基础表达中用 à lui/à elle，不改成 lui。",
+        "examples": [
+          {
+            "fr": "Tu es allé au bureau ce matin ? — Oui, j’y suis allé, mais il était fermé.",
+            "zh": "你今天上午去办公室了吗？——去了，但那里关门了。",
+            "use": "y 代替 au bureau；être 配合主语，女性说话者用 allée。"
+          },
+          {
+            "fr": "Il faut répondre à cette offre avant vendredi. — D’accord, je vais y réfléchir ce soir.",
+            "zh": "周五之前需要回复这个提议。——好的，我今晚会考虑这件事。",
+            "use": "réfléchir à cette offre→y réfléchir；不是回复某个人的 lui。"
+          }
+        ]
       }
     ],
     "comparison": "J’y vais：去那里；J’en viens：从那里来。Je pense à Paul → Je pense à lui；Je pense au problème → J’y pense。",
     "errors": "× J’y parle（要说跟Paul谈话）→ ✓ Je lui parle；× Je vais à y → ✓ J’y vais。",
-    "boundaries": "基础标准法语一般避免y指特定人；现实口语和地域用法可能不同。y不等于所有介词补语的替代词，须看地点关系与动词搭配。"
+    "boundaries": "基础标准法语一般避免y指特定人；现实口语和地域用法可能不同。y不等于所有介词补语的替代词，须看地点关系与动词搭配。",
+    "practice": [
+      {
+        "q": "改写 Je vais aller à la clinique demain，避免重复地点。",
+        "a": "Je vais y aller demain.",
+        "note": "y 在 aller 前；地点补语不改为 en。"
+      },
+      {
+        "q": "地点已经明确，区分：我去那里 / 我从那里回来。用 aller / revenir，主语 je。",
+        "a": "J’y vais. / J’en reviens.",
+        "note": "目的地对应 y，de 来源对应 en；不是看地点名词本身。"
+      },
+      {
+        "q": "改写 Je pense à ma sœur，使用重读代词。",
+        "a": "Je pense à elle.",
+        "note": "基础人称替代用 à elle；Je lui pense 不成立。"
+      }
+    ],
+    "related": [
+      "a2-en",
+      "a2-coi",
+      "b1-double-pronoms"
+    ]
   },
   "a2-pronominaux": {
     "sections": [
@@ -633,7 +785,7 @@
           },
           {
             "fr": "Il voyage autant que sa sœur, mais il dépense moins.",
-            "zh": "他旅行和姐姐一样多，但花钱更少。",
+            "zh": "他旅行和姐姐或妹妹一样多，但花钱更少。",
             "use": "直接比较动作，用autant和moins，无de。"
           }
         ]
@@ -976,11 +1128,49 @@
             "use": "具体起点加否定PC，描述未发生休假。"
           }
         ]
+      },
+      {
+        "title": "预约与工作经历：时间轴上的三个问题",
+        "explanation": "先确认问的是起点/持续至参照时刻、离现在多久，还是过程持续了多长。depuis 常连到现在并用现在时；il y a 表示距现在的过去时间；dans 指现在之后；pendant 是时长；en 常是完成耗时。过去某时已持续的背景可用 imparfait + depuis，不能把 depuis 一概绑定现在时。",
+        "examples": [
+          {
+            "fr": "Je travaille ici depuis six mois ; j’ai commencé il y a six mois.",
+            "zh": "我在这里工作六个月了；我是六个月前开始工作的。",
+            "use": "同一事实：depuis 看持续到现在，il y a 定位过去起点。"
+          },
+          {
+            "fr": "Quand j’ai appelé, elle attendait depuis vingt minutes ; le médecin est arrivé dix minutes plus tard.",
+            "zh": "我打电话时，她已经等了二十分钟；医生十分钟后到了。",
+            "use": "depuis 参照的是当时；叙事中的“后来”用 plus tard，而非机械使用相对于现在的 dans。"
+          }
+        ]
       }
     ],
     "comparison": "Il est parti il y a trois jours：三天前走的；Il est absent depuis trois jours：已不在这里三天；Il part pour trois jours：预计离开三天。pendant两小时是持续时间，en两小时是完成耗时。",
     "errors": "要说“我学法语两年了，现在还在学”，基础表达用 J’étudie le français depuis deux ans（现在时），不能仅因中文“了”机械写成 J’ai étudié le français pendant deux ans（通常呈现一个完整阶段）。但 depuis 可用于否定PC或累计已发生事件等结构，不是与PC绝不兼容。",
-    "boundaries": "depuis hier与pendant hier不能互换。这里讲的是时间补语，不要与depuis/dans的其他义项混淆。过去叙事相对过去参照点的“三天前/后”常用trois jours auparavant/plus tard，以免把参照点误固定为说话现在。"
+    "boundaries": "depuis hier与pendant hier不能互换。这里讲的是时间补语，不要与depuis/dans的其他义项混淆。过去叙事相对过去参照点的“三天前/后”常用trois jours auparavant/plus tard，以免把参照点误固定为说话现在。",
+    "practice": [
+      {
+        "q": "现在仍住在蒙特利尔三年了：填介词和现在时。Je ___ à Montréal ___ trois ans. (habiter)",
+        "a": "J’habite à Montréal depuis trois ans.",
+        "note": "仍持续的居住用现在时 + depuis。"
+      },
+      {
+        "q": "现在是9点，预约在10点。用 dans 回答 Le rendez-vous est quand ?",
+        "a": "Le rendez-vous est dans une heure.",
+        "note": "dans 表示现在之后多久；pendant une heure 表预约持续时长。"
+      },
+      {
+        "q": "改写“我昨天花半小时填写完了表格”，用 passé composé 和 en。",
+        "a": "J’ai rempli le formulaire en une demi-heure hier.",
+        "note": "en 衡量完成耗时；pendant 描述活动延续，未必填完。"
+      }
+    ],
+    "related": [
+      "a2-pc-vs-imp",
+      "a2-futur-simple",
+      "b1-pqp"
+    ]
   },
   "a2-politesse": {
     "sections": [
@@ -1031,10 +1221,48 @@
             "use": "提出可选方案，比强命令柔和。"
           }
         ]
+      },
+      {
+        "title": "问可否、提出愿望、直接请求：选不同主语",
+        "explanation": "Je voudrais + 名词/不定式提出自己的需要；Pourriez-vous + 不定式请对方行动；Est-ce que je pourrais + 不定式问自己是否可以。条件式缓和语气，不代表请求一定是假设或不真实。Je veux 在陈述意愿时正常，但面对陌生服务人员往往显得更直接；s’il vous plaît 有帮助，却不能替代清楚的请求内容。",
+        "examples": [
+          {
+            "fr": "Je voudrais déplacer mon rendez-vous. Pourriez-vous me proposer une autre date ?",
+            "zh": "我想改约。您能给我提供另一个日期吗？",
+            "use": "先陈述自己的需要，再请对方提供日期；两句主语不同。"
+          },
+          {
+            "fr": "Est-ce que je pourrais payer en deux fois ? Sinon, je paierai la totalité aujourd’hui.",
+            "zh": "我可以分两次付款吗？如果不行，我今天会付清全款。",
+            "use": "je pourrais 问自己是否获准；paierai 明确承诺未来行动，不能当条件式拼写。"
+          }
+        ]
       }
     ],
     "comparison": "Je veux un café：直接表达想要，可能强硬但非语法错误；Je voudrais un café：服务情境常规委婉请求。Pouvez-vous…也可礼貌，Pourriez-vous…进一步缓和。",
     "errors": "× Je voudrais que partir → ✓ Je voudrais partir（同一主语）；不同主语Je voudrais que vous veniez需要虚拟式，见进阶。",
-    "boundaries": "条件式还有假设、过去将来、未证实消息等用途；不是出现条件式就表示礼貌。voudrais并非将来时voudrai，语用与词尾都不同。"
+    "boundaries": "条件式还有假设、过去将来、未证实消息等用途；不是出现条件式就表示礼貌。voudrais并非将来时voudrai，语用与词尾都不同。",
+    "practice": [
+      {
+        "q": "请工作人员重复地址。用 vous、pouvoir 条件式和 répéter。",
+        "a": "Pourriez-vous répéter l’adresse, s’il vous plaît ?",
+        "note": "这里请求工作人员做动作，应使用 vous。Je pourrais répéter 陈述“我可以重复”，不是向对方提出重复的请求；问“我可以重复吗”可说 Est-ce que je pourrais répéter… ?。Pourriez-vous… ? 之外，Est-ce que vous pourriez… ? 也能表达礼貌请求。"
+      },
+      {
+        "q": "你想预约周二，但不强求。用 Je voudrais 和 prendre rendez-vous。",
+        "a": "Je voudrais prendre rendez-vous pour mardi.",
+        "note": "不定式主语与 je 一致；无需再加 que。"
+      },
+      {
+        "q": "区别“我想要延期”和“您能延后截止日期吗”，各写一句条件式请求。",
+        "a": "Je voudrais un délai supplémentaire. / Pourriez-vous reporter la date limite ?",
+        "note": "第一句自己的需要；第二句请求对方采取行动。"
+      }
+    ],
+    "related": [
+      "b1-cond-present",
+      "a2-futur-simple",
+      "a2-imperatif"
+    ]
   }
 }

@@ -1,0 +1,991 @@
+{
+  "grammar": [
+    {
+      "id": "a2-pc-avoir",
+      "level": "A2",
+      "cat": "过去时:passé composé / imparfait",
+      "catFr": "Le passé",
+      "title": "Le passé composé avec « avoir »",
+      "titleFr": "复合过去时(助动词 avoir)",
+      "zh": "复合过去时表示<strong>已完成的过去动作</strong>。构成:<b>avoir</b>(现在时)+ <strong>过去分词</strong>。过去分词:第一组 -er→<b>-é</b>,第二组 -ir→<b>-i</b>,第三组多不规则(<em>avoir→eu, faire→fait, prendre→pris, voir→vu, être→été</em>)。",
+      "fr": "Le passé composé exprime une action passée achevée : avoir (présent) + participe passé. La plupart des verbes utilisent « avoir ».",
+      "forms": "<table><tr><th>原形</th><th>过去分词</th><th>例</th></tr><tr><td>parler</td><td>parlé</td><td>j'ai parlé</td></tr><tr><td>finir</td><td>fini</td><td>j'ai fini</td></tr><tr><td>prendre</td><td>pris</td><td>j'ai pris</td></tr></table>",
+      "ex": [
+        {
+          "fr": "Hier, j'<b>ai mangé</b> au restaurant.",
+          "zh": "昨天我在餐厅吃了饭。",
+          "use": "第一组动词分词(-er→-é):manger 是第一组动词,分词为 mangé,表示已完成的过去动作"
+        },
+        {
+          "fr": "Elle <b>a fini</b> ses devoirs.",
+          "zh": "她完成了作业。",
+          "use": "第二组动词分词(-ir→-i):finir 是第二组动词,分词为 fini;用 avoir 时分词不与主语配合"
+        },
+        {
+          "fr": "Nous <b>avons vu</b> un très bon film.",
+          "zh": "我们看了一部很棒的电影。",
+          "use": "第三组不规则分词:voir 的分词是不规则的 vu,需单独记忆"
+        },
+        {
+          "fr": "Il <b>a fait</b> ses valises ce matin.",
+          "zh": "他今天早上收拾了行李。",
+          "use": "第三组不规则分词:faire→fait 属不规则分词;此句直接宾语 ses valises 后置,fait 不配合;分词配合不能按主语人称决定"
+        }
+      ],
+      "tip": "<b>易错:</b>用 avoir 时,过去分词<strong>不与主语配合</strong>(*elle a mangée* ✗)。仅当直接宾语提前时才配合(见 B1)。"
+    },
+    {
+      "id": "a2-pc-etre",
+      "level": "A2",
+      "cat": "过去时:passé composé / imparfait",
+      "catFr": "Le passé",
+      "title": "Le passé composé avec « être »",
+      "titleFr": "复合过去时(助动词 être)",
+      "zh": "一些指定的不及物位移/状态变化动词及<strong>所有代词式动词</strong>用 <b>être</b> 作助动词。前一类通常与主语性数配合；代词式动词的分词须另分析直接宾语，不能一律配合。记忆口诀「DR & MRS VANDERTRAMP」或「la maison d'être」:naître, mourir, aller, venir, arriver, partir, entrer, sortir, monter, descendre, rester, tomber, retourner, passer, devenir…",
+      "fr": "Certains verbes intransitifs de mouvement/changement d'état et tous les verbes pronominaux utilisent « être ». Pour les verbes pronominaux, l'accord dépend de la construction.",
+      "ex": [
+        {
+          "fr": "Elle <b>est allée</b> à Paris.",
+          "zh": "她去了巴黎。(allée 配合阴性主语)",
+          "use": "位移动词用 être:aller 属『la maison d'être』动词,分词 allée 配合阴性单数主语"
+        },
+        {
+          "fr": "Ils <b>sont arrivés</b> en retard.",
+          "zh": "他们迟到了。(arrivés 配合阳性复数)",
+          "use": "分词与主语配合:arriver 用 être,分词 arrivés 配合阳性复数主语"
+        },
+        {
+          "fr": "Nous <b>sommes parti(e)s</b> tôt.",
+          "zh": "我们很早就出发了。",
+          "use": "位移动词用 être:partir 表位移;nous 视实际性别写作 partis 或 parties"
+        },
+        {
+          "fr": "Elles <b>se sont levées</b> à sept heures.",
+          "zh": "她们七点起床了。",
+          "use": "代词式动词用 être:所有代词式动词复合时态一律用 être,分词 levées 配合阴性复数主语"
+        },
+        {
+          "fr": "Mon grand-père <b>est né</b> en 1950.",
+          "zh": "我祖父生于1950年。",
+          "use": "状态变化动词用 être:naître(出生)表状态变化,属 être 类动词"
+        },
+        {
+          "fr": "Elle <b>a monté</b> ses valises, puis elle <b>est montée</b> se coucher.",
+          "zh": "她把行李搬了上去,然后上楼睡觉了。",
+          "use": "带宾语改用 avoir:monter 带直接宾语(ses valises)时用 avoir 且不配合;不带宾语时用 être 并配合(montée)"
+        }
+      ],
+      "tip": "<b>易错:</b>非代词式的 être 类动词通常配合主语:elle est venu<b>e</b>、ils sont venu<b>s</b>。代词式另判断:elles se sont parlé。monter/descendre/sortir 等带直接宾语的相关用法改用 avoir。"
+    },
+    {
+      "id": "a2-imparfait",
+      "level": "A2",
+      "cat": "过去时:passé composé / imparfait",
+      "catFr": "Le passé",
+      "title": "L'imparfait",
+      "titleFr": "未完成过去时",
+      "zh": "未完成过去时表示过去的<strong>背景、习惯、状态、正在进行</strong>。构成:取 <b>nous</b> 现在时词干 + 词尾 <b>-ais, -ais, -ait, -ions, -iez, -aient</b>。",
+      "fr": "L'imparfait exprime une description, une habitude ou une action en cours dans le passé. Radical du « nous » présent + terminaisons.",
+      "forms": "<table><tr><th>parler (nous parlons)</th><th></th></tr><tr><td>je parlais</td><td>nous parlions</td></tr><tr><td>tu parlais</td><td>vous parliez</td></tr><tr><td>il parlait</td><td>ils parlaient</td></tr></table>",
+      "ex": [
+        {
+          "fr": "Quand j'<b>étais</b> petit, je <b>jouais</b> au foot.",
+          "zh": "我小时候常踢足球。(习惯+状态)",
+          "use": "过去的习惯+状态:étais 描述过去的状态,jouais 表示反复发生的习惯动作"
+        },
+        {
+          "fr": "Il <b>faisait</b> beau et les oiseaux <b>chantaient</b>.",
+          "zh": "天气晴朗,鸟儿在歌唱。(背景描写)",
+          "use": "背景描写:描绘过去场景的天气与环境,为叙述铺设背景,故用未完成过去时"
+        },
+        {
+          "fr": "Elle <b>lisait</b> tranquillement dans sa chambre.",
+          "zh": "她正在房间里安静地看书。",
+          "use": "过去正在进行:描述过去某一时刻正在持续进行的动作"
+        },
+        {
+          "fr": "À cette époque, nous <b>habitions</b> une petite maison.",
+          "zh": "那时我们住在一座小房子里。",
+          "use": "过去的状态:habiter 描述过去持续的居住状态,而非一次性完成的动作"
+        }
+      ],
+      "tip": "<b>易错:</b>通常从 nous 现在时去掉 -ons 取词干；être 特殊为 <b>ét-</b>（j’étais）。falloir、pleuvoir 等无人称动词须单独记 il fallait、il pleuvait，不能硬造 nous 形式。-ais/-ait/-aient 通常同音。"
+    },
+    {
+      "id": "a2-pc-vs-imp",
+      "level": "A2",
+      "cat": "过去时:passé composé / imparfait",
+      "catFr": "Le passé",
+      "title": "Passé composé vs imparfait",
+      "titleFr": "复合过去时 vs 未完成过去时 ⭐",
+      "zh": "这是法语最高频的难点。<b>passé composé</b>把事件作为<strong>已完成的整体</strong>陈述，常用于推进情节(然后发生了什么)，也能概括一段持续或重复的经历；<b>imparfait</b>常描写<strong>背景、习惯、状态、正在进行</strong>(当时是什么样)，不突出事件终点。常一句并用:背景(imp)中发生事件(PC)。",
+      "fr": "Le passé composé présente un événement comme un tout achevé et peut faire avancer le récit ; l'imparfait décrit une situation ou une action en cours dans le passé.",
+      "ex": [
+        {
+          "fr": "Je <b>dormais</b> quand le téléphone <b>a sonné</b>.",
+          "zh": "电话响时我正在睡觉。(背景 imp + 突发 PC)",
+          "use": "背景+突发并用:dormais(imparfait)是正在进行的背景,a sonné(PC)是打断背景的突发动作"
+        },
+        {
+          "fr": "Hier il <b>a plu</b> toute la journée.",
+          "zh": "昨天下了一整天雨。(限定、完成→PC)",
+          "use": "完成动作用 PC:此句把一整天的下雨作为完整事件来概括;长时段也可用 PC,不必承担推进情节的功能"
+        },
+        {
+          "fr": "Avant, je <b>fumais</b> ; un jour, j'<b>ai arrêté</b>.",
+          "zh": "以前我抽烟;有一天,我戒掉了。",
+          "use": "习惯(imparfait)对比一次性动作(PC):avant 引出过去反复的习惯,un jour 引出改变情节的具体动作"
+        },
+        {
+          "fr": "Comme il <b>était</b> malade, il <b>est resté</b> au lit.",
+          "zh": "因为他病了,所以他卧床休息了。",
+          "use": "状态(imparfait)+完成动作(PC):était 描述当时身体状态,est resté 把卧床这一段作为整体叙述;法语未指定是哪一天"
+        }
+      ],
+      "tip": "<b>判断技巧:</b>整体事件常用 PC;描述「当时的样子/过程/习惯」常用 imparfait。hier、souvent 等只提供语境，不能单凭信号词决定时态。"
+    },
+    {
+      "id": "a2-futur-simple",
+      "level": "A2",
+      "cat": "简单将来时",
+      "catFr": "Le futur simple",
+      "title": "Le futur simple",
+      "titleFr": "简单将来时",
+      "zh": "表示<strong>未来事件</strong>，可用于预测、承诺或指示；时间可近可远，也不保证事件一定发生。构成:多数以<strong>动词原形</strong>为词干(-re 去 e)+ 词尾 <b>-ai, -as, -a, -ons, -ez, -ont</b>(来自 avoir)。",
+      "fr": "Le futur simple situe un événement dans l’avenir, proche ou lointain ; il peut exprimer une prévision, une promesse ou une instruction. Pour beaucoup de verbes, on ajoute les terminaisons à l’infinitif ; les verbes en -re perdent leur e final. Certains verbes ont un radical particulier (ser-, aur-, ir-…).",
+      "forms": "<table><tr><th>不规则词干</th><th></th></tr><tr><td>être → ser-</td><td>je serai</td></tr><tr><td>avoir → aur-</td><td>j'aurai</td></tr><tr><td>aller → ir-</td><td>j'irai</td></tr><tr><td>faire → fer-</td><td>je ferai</td></tr><tr><td>venir → viendr-</td><td>je viendrai</td></tr><tr><td>pouvoir → pourr-</td><td>je pourrai</td></tr></table>",
+      "ex": [
+        {
+          "fr": "Demain, je <b>partirai</b> à huit heures.",
+          "zh": "明天我八点出发。",
+          "use": "规则构成+将来安排:partir 以动词原形为词干 + -ai,说话者陈述计划中的出发时间，时态本身不保证计划一定实现。"
+        },
+        {
+          "fr": "Nous <b>serons</b> heureux de vous revoir.",
+          "zh": "我们将很高兴再见到您。",
+          "use": "不规则词干:être → ser-,词尾 -ons;书面、较正式的将来表达"
+        },
+        {
+          "fr": "Tu <b>prendras</b> le train de neuf heures.",
+          "zh": "你将乘九点的火车。",
+          "use": "-re 动词构成:prendre 去掉词尾 e 得词干 prendr- + -as"
+        },
+        {
+          "fr": "Il <b>fera</b> beau demain, j'en suis sûr.",
+          "zh": "明天天气会好,我确信。",
+          "use": "不规则词干+预测用途:faire → fer-;简单将来时常用于天气等预测"
+        }
+      ],
+      "tip": "<b>对比:</b>futur proche(je vais partir)常强调当前打算/迹象；futur simple(je partirai)把事件投射到未来。两者不能仅按口语/书面或近/远划分。"
+    },
+    {
+      "id": "a2-cod",
+      "level": "A2",
+      "cat": "宾语代词与 en/y",
+      "catFr": "Pronoms compléments",
+      "title": "Les pronoms COD",
+      "titleFr": "直接宾语代词 (COD)",
+      "zh": "直接宾语代词替代<strong>无介词</strong>的宾语:<b>me, te, le/la, nous, vous, les</b>。位置:通常<strong>放在所属动词前</strong>;复合时态放助动词前,双动词结构通常放所属不定式前,肯定命令式后置。",
+      "fr": "Le pronom COD remplace un complément direct. Il précède généralement le verbe qui le régit : l’auxiliaire aux temps composés, souvent l’infinitif dans une construction à deux verbes. Il suit le verbe à l’impératif affirmatif.",
+      "ex": [
+        {
+          "fr": "Tu vois Marie ? — Oui, je <b>la</b> vois.",
+          "zh": "你看见玛丽了吗?——看见了(她)。",
+          "use": "第三人称阴性单数 la:替代无介词宾语 Marie,置于变位动词 vois 之前"
+        },
+        {
+          "fr": "Ces livres, je <b>les</b> ai achetés.",
+          "zh": "这些书,我买了(它们)。",
+          "use": "第三人称复数 les:替代 ces livres;复合时态中代词置于助动词 ai 之前"
+        },
+        {
+          "fr": "Ce gâteau, je <b>l'</b>adore !",
+          "zh": "这个蛋糕,我超爱!",
+          "use": "元音前缩合 l':le/la 在元音开头的动词前缩写为 l'"
+        },
+        {
+          "fr": "Il <b>nous</b> invite à dîner samedi.",
+          "zh": "他邀请我们周六吃晚饭。",
+          "use": "第一/第二人称 COD:me/te/nous/vous 同样直接置于变位动词前"
+        }
+      ],
+      "tip": "<b>易错:</b>le/la 在元音前缩为 l'(<em>je l'aime</em>)。复合时态中 COD 提前 → 过去分词配合(<em>les livres que j'ai achet<b>és</b></em>,见 B1)。"
+    },
+    {
+      "id": "a2-coi",
+      "level": "A2",
+      "cat": "宾语代词与 en/y",
+      "catFr": "Pronoms compléments",
+      "title": "Les pronoms COI",
+      "titleFr": "间接宾语代词 (COI)",
+      "zh": "在 parler à、donner à 等搭配中，间接宾语代词可替代「<b>à</b> + 人」:<b>me, te, lui, nous, vous, leur</b>。常见于 parler à, téléphoner à, donner à, écrire à。",
+      "fr": "Avec des verbes comme parler à et donner à, le pronom COI remplace « à + personne » : me, te, lui, nous, vous, leur.",
+      "ex": [
+        {
+          "fr": "Je téléphone à Paul → Je <b>lui</b> téléphone.",
+          "zh": "我给保罗打电话 → 我给他打电话。",
+          "use": "单数 lui:téléphoner à + 单数的人 → lui,不分男女,置于动词前"
+        },
+        {
+          "fr": "Tu parles à tes parents ? — Oui, je <b>leur</b> parle.",
+          "zh": "你和父母说吗?——我和他们说。",
+          "use": "复数 leur:parler à + 复数的人 → leur(无 -s)"
+        },
+        {
+          "fr": "Elle <b>me</b> donne de bons conseils.",
+          "zh": "她给我很好的建议。",
+          "use": "第一/第二人称 COI:donner à + 人,me/te/nous/vous 同样置于变位动词前"
+        }
+      ],
+      "tip": "<b>易错:</b><b>lui</b> 不分男女(=à lui/à elle);<b>leur</b>(给他们)无 -s,别与主有形容词 leurs 混。"
+    },
+    {
+      "id": "a2-en",
+      "level": "A2",
+      "cat": "宾语代词与 en/y",
+      "catFr": "Pronoms compléments",
+      "title": "Le pronom « en »",
+      "titleFr": "代词 en",
+      "zh": "<b>en</b> 替代「<b>de</b> + 物」、<strong>部分冠词/不定冠词宾语</strong>、<strong>数量</strong>。",
+      "fr": "« en » peut reprendre un complément en « de », un complément à valeur partitive ou quantitative, ainsi qu'un lieu d'origine. Il peut aussi représenter des personnes.",
+      "ex": [
+        {
+          "fr": "Tu veux du café ? — Oui, j'<b>en</b> veux.",
+          "zh": "你要咖啡吗?——要(一些)。",
+          "use": "替代部分冠词宾语:du café(部分冠词)→ en"
+        },
+        {
+          "fr": "Des amis ? J'<b>en</b> ai beaucoup.",
+          "zh": "朋友?我有很多。",
+          "use": "替代数量表达:不定冠词宾语 des amis 用 en 替代,数量副词 beaucoup 保留在句末"
+        },
+        {
+          "fr": "Il revient de Paris → Il <b>en</b> revient.",
+          "zh": "他从巴黎回来 → 他从那儿回来。",
+          "use": "替代 de+地点/物:revenir de Paris → en"
+        },
+        {
+          "fr": "Tu as des sœurs ? — Oui, j'<b>en</b> ai une.",
+          "zh": "你有姐妹吗?——有,我有一个。",
+          "use": "数量+数词保留:宾语用 en 替代,数词 une 须保留,本句放在变位动词后"
+        }
+      ],
+      "tip": "<b>易错:</b>带数量时 en 保留数词:<em>Combien de frères ? — J'<b>en</b> ai deux.</em>(我有两个。)"
+    },
+    {
+      "id": "a2-y",
+      "level": "A2",
+      "cat": "宾语代词与 en/y",
+      "catFr": "Pronoms compléments",
+      "title": "Le pronom « y »",
+      "titleFr": "代词 y",
+      "zh": "<b>y</b> 替代「<b>à</b> + 地点/物」或地点状语。",
+      "fr": "« y » remplace « à + lieu/chose » ou un complément de lieu.",
+      "ex": [
+        {
+          "fr": "Tu vas à Lyon ? — Oui, j'<b>y</b> vais.",
+          "zh": "你去里昂吗?——去(那儿)。",
+          "use": "替代 à+地点:aller à Lyon → y,置于动词前"
+        },
+        {
+          "fr": "Je pense à mon examen → J'<b>y</b> pense.",
+          "zh": "我在想我的考试 → 我在想这事。",
+          "use": "替代 à+物:penser à + 物(考试)→ y"
+        },
+        {
+          "fr": "Tes clés sont <b>dans le tiroir</b> ? — Oui, elles <b>y</b> sont.",
+          "zh": "你的钥匙在抽屉里吗?——对,在那儿。",
+          "use": "替代地点状语:dans le tiroir 等地点状语(不限于 à)也可用 y 替代"
+        }
+      ],
+      "tip": "<b>易错:</b>「à + 人」需看动词搭配:parler à→lui/leur；penser à→à lui/à elle 等重读结构。基础标准用法一般不用 y 指特定人。"
+    },
+    {
+      "id": "a2-pronominaux",
+      "level": "A2",
+      "cat": "代词式动词与命令式",
+      "catFr": "Verbes pronominaux, impératif",
+      "title": "Les verbes pronominaux",
+      "titleFr": "代词式(自反)动词",
+      "zh": "代词式动词带反身代词(<b>me, te, se, nous, vous, se</b>),表示自反(se laver 洗自己)、相互(se parler 互相说)或固定用法(se souvenir)。<strong>复合时态一律用 être</strong>。",
+      "fr": "Les verbes pronominaux portent un pronom réfléchi et se conjuguent avec « être » aux temps composés.",
+      "forms": "<table><tr><th>se lever 起床</th><th></th></tr><tr><td>je me lève</td><td>nous nous levons</td></tr><tr><td>tu te lèves</td><td>vous vous levez</td></tr><tr><td>il se lève</td><td>ils se lèvent</td></tr></table>",
+      "ex": [
+        {
+          "fr": "Je <b>me</b> lève à 7 heures.",
+          "zh": "我七点起床。",
+          "use": "自反用法:se lever 的动作施于自身,反身代词 me 与主语 je 一致"
+        },
+        {
+          "fr": "Elle <b>s'</b>est couchée tard.",
+          "zh": "她很晚才上床睡觉。(复合时态用 être)",
+          "use": "复合时态用 être:代词式动词一律用 être,分词 couchée 配合阴性主语"
+        },
+        {
+          "fr": "Nous <b>nous téléphonons</b> tous les soirs.",
+          "zh": "我们每天晚上互相打电话。",
+          "use": "相互用法:nous nous téléphonons 表示彼此之间进行的动作"
+        },
+        {
+          "fr": "Je <b>me souviens</b> de mes vacances.",
+          "zh": "我记得我的假期。",
+          "use": "固定用法:se souvenir 只能以代词式形式使用,不表自反或相互"
+        },
+        {
+          "fr": "Il <b>ne se</b> rase <b>pas</b> le dimanche.",
+          "zh": "他星期天不刮胡子。",
+          "use": "否定形式:ne 置于反身代词之前,pas 置于变位动词之后"
+        }
+      ],
+      "tip": "<b>易错:</b>反身代词的人称要跟主语一致(je <b>me</b>、tu <b>te</b>)。否定:<em>Je <b>ne me</b> lève <b>pas</b>.</em>"
+    },
+    {
+      "id": "a2-imperatif",
+      "level": "A2",
+      "cat": "代词式动词与命令式",
+      "catFr": "Verbes pronominaux, impératif",
+      "title": "L'impératif",
+      "titleFr": "命令式",
+      "zh": "命令式表示命令、建议、请求,只有<strong>三种人称</strong>(tu, nous, vous),<strong>省略主语</strong>。第一组动词及 aller 的 <b>tu</b> 形式通常无词尾 -s;直接连接代词 y/en 时可加连接 s,如 Vas-y !。",
+      "fr": "L'impératif (ordre, conseil) existe à 3 personnes sans sujet exprimé. Le -s final tombe au « tu » des verbes en -er.",
+      "forms": "<table><tr><th></th><th>parler</th><th>être</th><th>avoir</th></tr><tr><td>(tu)</td><td>parle !</td><td>sois !</td><td>aie !</td></tr><tr><td>(nous)</td><td>parlons !</td><td>soyons !</td><td>ayons !</td></tr><tr><td>(vous)</td><td>parlez !</td><td>soyez !</td><td>ayez !</td></tr></table>",
+      "ex": [
+        {
+          "fr": "<b>Écoute</b> bien ! <b>Ne parlez pas</b> !",
+          "zh": "好好听!别说话!",
+          "use": "肯定与否定命令:Écoute 是 tu 的肯定命令(-er 动词去 -s);Ne parlez pas 是 vous 的否定命令"
+        },
+        {
+          "fr": "<b>Lève-toi</b> !",
+          "zh": "起来!(代词式肯定命令,te→toi 后置)",
+          "use": "代词式肯定命令:反身代词后置加连字符,te → toi"
+        },
+        {
+          "fr": "<b>Allons-y</b>, il est tard !",
+          "zh": "我们走吧,时间不早了!",
+          "use": "nous 命令式:表示建议『我们…吧』,主语省略"
+        },
+        {
+          "fr": "<b>Donne-moi</b> ton adresse, mais <b>ne me donne pas</b> ton mot de passe.",
+          "zh": "把你的地址给我,但别把密码给我。",
+          "use": "代词位置对比:肯定命令 me→moi 后置加连字符;否定命令代词回到动词前"
+        }
+      ],
+      "tip": "<b>易错:</b>肯定命令时代词后置加连字符且 me/te 通常→<b>moi/toi</b>(<em>Donne-<b>moi</b> ça</em>);在 en/y 前则用 m'/t' 缩合(<em>Donne-m’en un</em>);否定命令代词回到动词前(<em>Ne me donne pas ça</em>)。"
+    },
+    {
+      "id": "a2-comparatif",
+      "level": "A2",
+      "cat": "比较级与最高级",
+      "catFr": "Comparatif et superlatif",
+      "title": "Le comparatif",
+      "titleFr": "比较级",
+      "zh": "比较用 <b>plus / moins / aussi</b> + 形容词/副词 + <b>que</b>。比较名词数量用 <b>plus de / moins de / autant de</b>。",
+      "fr": "Comparatif : plus / moins / aussi + adjectif + que. Avec un nom : plus de / moins de / autant de.",
+      "ex": [
+        {
+          "fr": "Paul est <b>plus grand que</b> Marie.",
+          "zh": "保罗比玛丽高。",
+          "use": "优等比较:plus + 形容词 + que,表示『比…更…』"
+        },
+        {
+          "fr": "J'ai <b>autant de</b> livres <b>que</b> toi.",
+          "zh": "我和你有一样多的书。",
+          "use": "名词数量等同:autant de + 名词 + que,比较名词数量"
+        },
+        {
+          "fr": "Le train est <b>aussi rapide que</b> la voiture ici.",
+          "zh": "在这里,火车和汽车一样快。",
+          "use": "等同比较:aussi + 形容词 + que,表示『和…一样…』"
+        },
+        {
+          "fr": "Ce quartier est <b>moins bruyant que</b> le centre-ville.",
+          "zh": "这个街区没有市中心吵。",
+          "use": "劣等比较:moins + 形容词 + que,表示『不如…那么…』"
+        },
+        {
+          "fr": "Elle chante <b>mieux que</b> moi.",
+          "zh": "她唱得比我好。",
+          "use": "不规则比较级:副词 bien 的优等比较是 mieux,不能说 plus bien"
+        }
+      ],
+      "tip": "<b>易错(不规则):</b>bon→<b>meilleur</b>(更好,形容词)、bien→<b>mieux</b>(更好,副词)。别说 *plus bon*。"
+    },
+    {
+      "id": "a2-superlatif",
+      "level": "A2",
+      "cat": "比较级与最高级",
+      "catFr": "Comparatif et superlatif",
+      "title": "Le superlatif",
+      "titleFr": "最高级",
+      "zh": "最高级 <b>le/la/les plus / moins</b> + 形容词,表示「最…」。形容词若后置,定冠词重复。",
+      "fr": "Superlatif : le/la/les plus / moins + adjectif.",
+      "ex": [
+        {
+          "fr": "C'est <b>le plus</b> beau jour de ma vie.",
+          "zh": "这是我一生中最美好的一天。",
+          "use": "优等最高级:le plus + 前置形容词;de ma vie 用 de 表示范围"
+        },
+        {
+          "fr": "la ville <b>la plus</b> intéressante",
+          "zh": "最有趣的城市(后置,冠词重复)",
+          "use": "后置形容词冠词重复:形容词后置时定冠词 la 在名词后再次出现"
+        },
+        {
+          "fr": "C'est <b>la moins</b> chère de toutes les chambres.",
+          "zh": "这是所有房间里最便宜的。",
+          "use": "劣等最高级:le/la moins + 形容词,表示『最不…』"
+        },
+        {
+          "fr": "C'est <b>le meilleur</b> restaurant du quartier.",
+          "zh": "这是街区里最好的餐厅。",
+          "use": "不规则最高级:bon → le meilleur,不能说 le plus bon"
+        }
+      ],
+      "tip": "<b>易错:</b>不规则:le <b>meilleur</b>(最好的,形)/ le <b>mieux</b>(最好地,副)。「在…中」用 <b>de</b>:<em>le plus grand <b>de</b> la classe</em>。"
+    },
+    {
+      "id": "a2-qui-que",
+      "level": "A2",
+      "cat": "关系代词(基础)",
+      "catFr": "Pronoms relatifs simples",
+      "title": "Les pronoms relatifs « qui » / « que »",
+      "titleFr": "关系代词 qui / que",
+      "zh": "关系代词连接两句、避免重复。<b>qui</b> 作从句<strong>主语</strong>;<b>que</b> 作从句<strong>直接宾语</strong>。按从句缺少的成分判断,不要只看关系词后紧邻什么词。",
+      "fr": "« qui » est sujet de la subordonnée ; « que » en est le complément d'objet direct.",
+      "ex": [
+        {
+          "fr": "C'est l'homme <b>qui</b> habite ici.",
+          "zh": "这是住在这儿的男人。(qui=主语)",
+          "use": "qui 作主语:关系词后直接是动词 habite,qui 充当从句主语"
+        },
+        {
+          "fr": "Voici le livre <b>que</b> j'aime.",
+          "zh": "这是我喜欢的书。(que=宾语)",
+          "use": "que 作直接宾语:关系词后是主语 j',que 充当从句的直接宾语"
+        },
+        {
+          "fr": "Le film <b>qu'</b>il regarde est très drôle.",
+          "zh": "他正在看的电影很有趣。",
+          "use": "que 元音前缩合:que + il → qu';qui 则永不缩写"
+        }
+      ],
+      "tip": "<b>判断:</b>先还原从句:先行词作<strong>主语</strong>→qui;作<strong>直接宾语</strong>→que。qui 后也可有 me 等宾语代词,que 后也可有倒装动词。que 在元音或哑音 h 前缩 qu',标准关系词 qui 不省音。"
+    },
+    {
+      "id": "a2-ou-relatif",
+      "level": "A2",
+      "cat": "关系代词(基础)",
+      "catFr": "Pronoms relatifs simples",
+      "title": "Le pronom relatif « où »",
+      "titleFr": "关系代词 où(地点/时间)",
+      "zh": "<b>où</b> 引导<strong>地点或时间</strong>从句。",
+      "fr": "« où » introduit une subordonnée de lieu ou de temps.",
+      "ex": [
+        {
+          "fr": "La ville <b>où</b> je suis né.",
+          "zh": "我出生的城市。",
+          "use": "地点用法:où 引导地点从句,先行词是 la ville"
+        },
+        {
+          "fr": "Le jour <b>où</b> il est parti.",
+          "zh": "他离开的那天。(时间也用 où!)",
+          "use": "时间用法:表时间的『那天』也用 où,不用 quand"
+        },
+        {
+          "fr": "2020, c'est l'année <b>où</b> tout a changé.",
+          "zh": "2020年是一切改变的那一年。",
+          "use": "时间用法:l'année où…,先行词在从句中作时间状语时用 où；若作直接宾语等，则按其句法角色选关系词"
+        }
+      ],
+      "tip": "<b>易错:</b>「那天/那年」在关系从句中充当时间状语时，用 <b>où</b> 而非 *quand*(<em>l'année <b>où</b> j'ai eu mon bac</em>)；若从句把那一天当直接宾语，则用 que(<em>le jour que je préfère</em>)。"
+    },
+    {
+      "id": "a2-quantite",
+      "level": "A2",
+      "cat": "数量与时间表达",
+      "catFr": "Quantité et temps",
+      "title": "Les expressions de quantité",
+      "titleFr": "数量表达",
+      "zh": "常见数量副词/度量词后，泛指名词通常接 <b>de</b>(无冠词):beaucoup de, un peu de, trop de, assez de, un kilo de, une bouteille de…",
+      "fr": "Après beaucoup, peu ou une mesure de quantité, un nom non déterminé est généralement introduit par « de » sans article ; les ensembles définis et certaines expressions font exception.",
+      "ex": [
+        {
+          "fr": "Il y a <b>beaucoup de</b> monde.",
+          "zh": "人很多。",
+          "use": "数量副词+de:beaucoup 后直接接 de,不加冠词"
+        },
+        {
+          "fr": "Je voudrais <b>un kilo de</b> pommes.",
+          "zh": "我想要一公斤苹果。",
+          "use": "度量量词+de:un kilo de + 名词,不加冠词"
+        },
+        {
+          "fr": "Il y a <b>trop de</b> bruit et <b>peu de</b> place.",
+          "zh": "噪音太多,地方太少。",
+          "use": "数量副词+de:trop de(太多)、peu de(很少)同样直接接 de"
+        },
+        {
+          "fr": "Elle boit <b>une tasse de</b> thé et <b>un verre d'</b>eau.",
+          "zh": "她喝一杯茶和一杯水。",
+          "use": "量词+de 及元音缩合:un verre de + eau → un verre d'eau"
+        }
+      ],
+      "tip": "<b>易错:</b>是 beaucoup <b>de</b> livres,不是 *beaucoup des livres*(除非特指)。"
+    },
+    {
+      "id": "a2-temps-prep",
+      "level": "A2",
+      "cat": "数量与时间表达",
+      "catFr": "Quantité et temps",
+      "title": "depuis / pendant / il y a / dans",
+      "titleFr": "时间介词对比 ⭐",
+      "zh": "<b>depuis</b>(自…以来,持续到参照时点；现在参照常配现在时)、<b>pendant</b>(持续多久，可用于过去或未来)、<b>il y a</b>(…之前)、<b>dans</b>(…之后,将来)。",
+      "fr": "depuis relie un point de départ ou une durée à un moment de référence ; pendant exprime une durée ; il y a situe un fait avant le présent, dans situe un fait après le présent.",
+      "ex": [
+        {
+          "fr": "J'apprends le français <b>depuis</b> deux ans.",
+          "zh": "我学法语两年了(还在学,用现在时)。",
+          "use": "depuis(自…以来):动作从过去持续到现在,法语配现在时"
+        },
+        {
+          "fr": "Il est parti <b>il y a</b> une heure ; il revient <b>dans</b> dix minutes.",
+          "zh": "他一小时前走的;十分钟后回来。",
+          "use": "il y a(…之前)与 dans(…之后):il y a 指过去的时间点,dans 指将来的时间点"
+        },
+        {
+          "fr": "Il a habité au Canada <b>pendant</b> cinq ans.",
+          "zh": "他在加拿大住过五年。",
+          "use": "pendant(持续多久):表示一段已经结束的完整时长"
+        }
+      ],
+      "tip": "<b>易错:</b>「做某事至今多久了」通常用 <b>depuis + 现在时</b>；过去参照可用 imparfait，否定也可用 passé composé。il y a 在这里=「以前」,不是「有」。"
+    },
+    {
+      "id": "a2-politesse",
+      "level": "A2",
+      "cat": "数量与时间表达",
+      "catFr": "Quantité et temps",
+      "title": "Le conditionnel de politesse",
+      "titleFr": "礼貌的条件式(入门)",
+      "zh": "条件式可用于<strong>委婉、礼貌</strong>的请求与愿望。最常用:<b>je voudrais</b>(我想要)、<b>j'aimerais</b>(我希望)、<b>pourriez-vous…?</b>(您能否…?)。完整条件式见 B1。",
+      "fr": "Le conditionnel adoucit une demande (politesse) : je voudrais, j'aimerais, pourriez-vous…",
+      "ex": [
+        {
+          "fr": "<b>Je voudrais</b> un café, s'il vous plaît.",
+          "zh": "请给我一杯咖啡。",
+          "use": "je voudrais(委婉的要求):vouloir 的条件式,比 je veux 更礼貌得体"
+        },
+        {
+          "fr": "<b>Pourriez-vous</b> m'aider ?",
+          "zh": "您能帮我吗?",
+          "use": "pourriez-vous(礼貌请求):pouvoir 的条件式倒装,请求对方做事"
+        },
+        {
+          "fr": "<b>J'aimerais</b> visiter le Louvre un jour.",
+          "zh": "我希望有一天能参观卢浮宫。",
+          "use": "j'aimerais(委婉的愿望):aimer 的条件式,表达心愿"
+        }
+      ],
+      "tip": "<b>对比:</b><em>Je veux</em>(我要,直接)在服务请求中可能显得生硬;<em>Je voudrais</em>(我想)更礼貌得体。"
+    }
+  ],
+  "practice": {
+    "a2-pc-avoir": [
+      {
+        "q": "Hier soir, nous ___ (regarder) un film. <span class=hint>提示:复合过去时,助动词 avoir</span>",
+        "a": "Hier soir, nous avons regardé un film.",
+        "note": "第一组 -er → 过去分词 -é;用 avoir 时不与主语配合。"
+      },
+      {
+        "q": "Ce matin, elle ___ (prendre) le bus. <span class=hint>提示:prendre 的过去分词不规则</span>",
+        "a": "Ce matin, elle a pris le bus.",
+        "note": "prendre → pris;avoir 类不配合主语。"
+      },
+      {
+        "q": "La semaine dernière, ils ___ (choisir) un cadeau. <span class=hint>提示:第二组动词的过去分词</span>",
+        "a": "La semaine dernière, ils ont choisi un cadeau.",
+        "note": "考查第二组动词分词:-ir → -i(choisi);助动词 avoir 变位为 ont。"
+      },
+      {
+        "q": "Est-ce que tu ___ (voir) ce film ? <span class=hint>提示:第三组不规则分词</span>",
+        "a": "Est-ce que tu as vu ce film ?",
+        "note": "考查第三组不规则分词:voir → vu,需单独记忆。"
+      }
+    ],
+    "a2-pc-etre": [
+      {
+        "q": "Marie ___ (aller) à Paris la semaine dernière. <span class=hint>提示:être 类,过去分词配合主语</span>",
+        "a": "Marie est allée à Paris la semaine dernière.",
+        "note": "aller 用 être;阴性单数 → allée。"
+      },
+      {
+        "q": "Mes frères ___ (partir) très tôt. <span class=hint>提示:être 类,阳性复数</span>",
+        "a": "Mes frères sont partis très tôt.",
+        "note": "阳性复数 → partis。"
+      },
+      {
+        "q": "Ce matin, elles ___ (se réveiller) tôt. <span class=hint>提示:代词式动词,复合过去时</span>",
+        "a": "Ce matin, elles se sont réveillées tôt.",
+        "note": "考查代词式动词用 être:分词配合阴性复数主语 → réveillées。"
+      },
+      {
+        "q": "Elle ___ (monter) les escaliers, puis elle ___ (sortir). <span class=hint>提示:第一空带直接宾语,第二空不带</span>",
+        "a": "Elle a monté les escaliers, puis elle est sortie.",
+        "note": "此处 monter/sortir 带直接宾语的及物用法用 avoir；本句 COD 后置，过去分词不配合。对应的不及物用法用 être；不能把“不配合”泛化到所有 avoir 结构。"
+      }
+    ],
+    "a2-imparfait": [
+      {
+        "q": "Quand j'___ (être) jeune, j'habitais à la campagne. <span class=hint>提示:未完成过去时,状态</span>",
+        "a": "Quand j'étais jeune, j'habitais à la campagne.",
+        "note": "être 不规则词干 ét-。"
+      },
+      {
+        "q": "Tous les dimanches, nous ___ (manger) chez ma grand-mère. <span class=hint>提示:过去的习惯</span>",
+        "a": "Tous les dimanches, nous mangions chez ma grand-mère.",
+        "note": "manger 的 nous 形式为 mangeons；nous/vous 的 i 前不保留用于读音的 e，所以 mang- + -ions → mangions。"
+      },
+      {
+        "q": "À minuit, la ville ___ (dormir) et il ___ (pleuvoir). <span class=hint>提示:背景描写</span>",
+        "a": "À minuit, la ville dormait et il pleuvait.",
+        "note": "考查背景描写:描绘过去场景的环境状态,用 imparfait(dormait, pleuvait)。"
+      },
+      {
+        "q": "Quand tu as téléphoné, je ___ (prendre) ma douche. <span class=hint>提示:过去正在进行</span>",
+        "a": "Quand tu as téléphoné, je prenais ma douche.",
+        "note": "考查过去正在进行:动作在另一动作发生时正在持续 → imparfait(nous prenons → pren- + -ais)。"
+      }
+    ],
+    "a2-pc-vs-imp": [
+      {
+        "q": "Je ___ (lire) quand on ___ (frapper) à la porte. <span class=hint>提示:背景 + 突发</span>",
+        "a": "Je lisais quand on a frappé à la porte.",
+        "note": "背景→imparfait;突发→passé composé。"
+      },
+      {
+        "q": "Hier, il ___ (faire) froid, alors je ___ (rester) à la maison. <span class=hint>提示:天气描写 + 完成动作</span>",
+        "a": "Hier, il faisait froid, alors je suis resté à la maison.",
+        "note": "此句把寒冷作为背景用 imparfait,留在家里作为整体事件用 passé composé；说话者为女性也可 suis restée。"
+      },
+      {
+        "q": "Quand j'___ (être) enfant, j'___ (aller) souvent à la mer ; une fois, j'___ (voir) un dauphin. <span class=hint>提示:状态/习惯 vs 一次性事件</span>",
+        "a": "Quand j'étais enfant, j'allais souvent à la mer ; une fois, j'ai vu un dauphin.",
+        "note": "此语境童年习惯用 imparfait,某次见到海豚的完整事件用 passé composé；souvent/une fois 本身不是绝对选时态规则。"
+      },
+      {
+        "q": "Soudain, quelqu'un ___ (crier) pendant que nous ___ (dîner). <span class=hint>提示:突发 vs 正在进行</span>",
+        "a": "Soudain, quelqu'un a crié pendant que nous dînions.",
+        "note": "此句突然喊叫作为整体事件用 PC,晚餐过程作背景用 imparfait(dînions)；不能仅凭 soudain 决定时态。"
+      }
+    ],
+    "a2-futur-simple": [
+      {
+        "q": "Demain, nous ___ (être) en vacances. <span class=hint>提示:简单将来时,词干 ser-</span>",
+        "a": "Demain, nous serons en vacances.",
+        "note": "être 将来词干 ser- + 词尾 -ons"
+      },
+      {
+        "q": "L'année prochaine, j'___ (aller) au Japon. <span class=hint>提示:词干 ir-</span>",
+        "a": "L'année prochaine, j'irai au Japon.",
+        "note": "aller 将来词干 ir- + 词尾 -ai"
+      },
+      {
+        "q": "Ce soir, ils ___ (regarder) le match à la télé. <span class=hint>提示:规则动词,原形作词干</span>",
+        "a": "Ce soir, ils regarderont le match à la télé.",
+        "note": "考查规则构成:regarder(原形词干)+ 词尾 -ont。"
+      },
+      {
+        "q": "Tu ___ (attendre) devant la gare. <span class=hint>提示:-re 动词去 e</span>",
+        "a": "Tu attendras devant la gare.",
+        "note": "考查 -re 动词构成:attendre 去 e → attendr- + -as。"
+      }
+    ],
+    "a2-cod": [
+      {
+        "q": "Tu connais cette chanson ? — Oui, je ___ connais. <span class=hint>提示:替代 cette chanson</span>",
+        "a": "Oui, je la connais.",
+        "note": "阴性单数直接宾语 → la,置于动词前。"
+      },
+      {
+        "q": "Vous regardez les enfants ? — Oui, je ___ regarde. <span class=hint>提示:向一位受访者使用尊称 vous；替代 les enfants</span>",
+        "a": "Oui, je les regarde.",
+        "note": "les 替代复数直接宾语,置于动词前"
+      },
+      {
+        "q": "Tu aimes ce chanteur ? — Oui, je ___ aime beaucoup. <span class=hint>提示:元音前缩合</span>",
+        "a": "Oui, je l'aime beaucoup.",
+        "note": "考查元音前缩合:le → l'(aime 以元音开头)。"
+      },
+      {
+        "q": "Vous m'entendez ? — Oui, je ___ entends bien. <span class=hint>提示:回答中替代『您』</span>",
+        "a": "Oui, je vous entends bien.",
+        "note": "考查第一/第二人称 COD:vous 作直接宾语,置于变位动词前。"
+      }
+    ],
+    "a2-coi": [
+      {
+        "q": "Tu écris à ta sœur ? — Oui, je ___ écris. <span class=hint>提示:à + 人</span>",
+        "a": "Oui, je lui écris.",
+        "note": "à + 单数人 → lui,不分男女。"
+      },
+      {
+        "q": "Il parle à ses collègues ? — Oui, il ___ parle. <span class=hint>提示:à + 复数人</span>",
+        "a": "Oui, il leur parle.",
+        "note": "à + 复数人 → leur(无 -s)。"
+      },
+      {
+        "q": "Il vous téléphone souvent ? — Oui, il ___ téléphone tous les jours. <span class=hint>提示:回答中替代『我们』</span>",
+        "a": "Oui, il nous téléphone tous les jours.",
+        "note": "考查第一/第二人称 COI:téléphoner à + 人 → nous,置于动词前。"
+      }
+    ],
+    "a2-en": [
+      {
+        "q": "Tu bois de l'eau ? — Oui, j'___ bois. <span class=hint>提示:替代部分冠词宾语</span>",
+        "a": "Oui, j'en bois.",
+        "note": "en 替代 de + 名词的宾语,放动词前"
+      },
+      {
+        "q": "Combien de voitures as-tu ? — J'___ ai deux. <span class=hint>提示:数量,en 保留数词</span>",
+        "a": "J'en ai deux.",
+        "note": "带数量时数词 deux 保留。"
+      },
+      {
+        "q": "Vous parlez de ce problème ? — Oui, nous ___ parlons. <span class=hint>提示:de + 物</span>",
+        "a": "Oui, nous en parlons.",
+        "note": "考查 en 替代 de + 物:parler de ce problème → en。"
+      },
+      {
+        "q": "Il mange des fruits ? — Oui, il ___ mange beaucoup. <span class=hint>提示:数量副词保留</span>",
+        "a": "Oui, il en mange beaucoup.",
+        "note": "考查 en 替代不定冠词宾语,数量副词 beaucoup 保留。"
+      }
+    ],
+    "a2-y": [
+      {
+        "q": "Tu vas au cinéma ce soir ? — Oui, j'___ vais. <span class=hint>提示:à + 地点</span>",
+        "a": "Oui, j'y vais.",
+        "note": "y 替代 à + 地点:j'y vais"
+      },
+      {
+        "q": "Elle pense à ses vacances → Elle ___ pense. <span class=hint>提示:à + 物</span>",
+        "a": "Elle y pense.",
+        "note": "penser à + 物 → y;penser à + 人用 à lui/à elle 等重读结构,不是 lui 前置。"
+      },
+      {
+        "q": "Tu restes chez toi ce week-end ? — Oui, j'___ reste. <span class=hint>提示:地点状语</span>",
+        "a": "Oui, j'y reste.",
+        "note": "问句 chez toi 从回答者视角是 chez moi，y 回指同一住所；代词位置在 reste 前。"
+      },
+      {
+        "q": "Tu penses à ta mère ? — Oui, je pense ___ . <span class=hint>提示:à + 人,不用 y</span>",
+        "a": "Oui, je pense à elle.",
+        "note": "考查易错点:penser à + 人保留重读代词(à elle),不能用 y。"
+      }
+    ],
+    "a2-pronominaux": [
+      {
+        "q": "Le matin, je ___ (se lever) à six heures. <span class=hint>提示:代词式动词现在时</span>",
+        "a": "Le matin, je me lève à six heures.",
+        "note": "反身代词 me 跟主语一致。"
+      },
+      {
+        "q": "Hier, elle ___ (se coucher) très tard. <span class=hint>提示:复合过去时用 être</span>",
+        "a": "Hier, elle s'est couchée très tard.",
+        "note": "用 être,过去分词配合主语 → couchée。"
+      },
+      {
+        "q": "Marie et moi, nous ___ (s'écrire) souvent. <span class=hint>提示:相互动作</span>",
+        "a": "Marie et moi, nous nous écrivons souvent.",
+        "note": "考查相互用法:nous nous écrivons = 互相写信。"
+      },
+      {
+        "q": "Tu ___ (se souvenir) de ce voyage ? <span class=hint>提示:固定代词式动词</span>",
+        "a": "Tu te souviens de ce voyage ?",
+        "note": "考查固定用法:se souvenir de,反身代词 te 跟主语 tu 一致。"
+      },
+      {
+        "q": "Le week-end, je ___ (ne pas se lever) tôt. <span class=hint>提示:否定的位置</span>",
+        "a": "Le week-end, je ne me lève pas tôt.",
+        "note": "考查否定:ne + 反身代词 + 动词 + pas。"
+      }
+    ],
+    "a2-imperatif": [
+      {
+        "q": "(à un ami) ___ (parler) plus lentement ! <span class=hint>提示:tu 命令式,-er 去 -s</span>",
+        "a": "Parle plus lentement !",
+        "note": "第一组动词 tu 命令式去 -s。"
+      },
+      {
+        "q": "(à un ami) Tu es fatigué ? ___ (se reposer) ! <span class=hint>提示:肯定命令,te → toi</span>",
+        "a": "Repose-toi !",
+        "note": "肯定命令代词后置,te → toi。"
+      },
+      {
+        "q": "(à des élèves) ___ (ne pas ouvrir) vos livres ! <span class=hint>提示:vous 的否定命令</span>",
+        "a": "N'ouvrez pas vos livres !",
+        "note": "考查否定命令:ne + 动词 + pas,vous 形式,主语省略。"
+      },
+      {
+        "q": "(à un ami) ___ (ne pas se coucher) trop tard ! <span class=hint>提示:代词式否定命令,代词在动词前</span>",
+        "a": "Ne te couche pas trop tard !",
+        "note": "考查否定命令代词前置:te 回到动词前,tu 命令式仍去 -s。"
+      },
+      {
+        "q": "___ (être, nous) patients ! <span class=hint>提示:être 的命令式不规则</span>",
+        "a": "Soyons patients !",
+        "note": "考查 nous 命令式及 être 的不规则形式 soyons。"
+      }
+    ],
+    "a2-comparatif": [
+      {
+        "q": "Cette voiture est ___ chère ___ l'autre. (= +) <span class=hint>提示:优等比较</span>",
+        "a": "Cette voiture est plus chère que l'autre.",
+        "note": "优等比较:plus + 形容词 + que"
+      },
+      {
+        "q": "Ton idée est ___ que la mienne. (bon, = +) <span class=hint>提示:bon 的优等比较不规则</span>",
+        "a": "Ton idée est meilleure que la mienne.",
+        "note": "bon → meilleur(e),不能说 plus bon。"
+      },
+      {
+        "q": "Mon frère est ___ âgé ___ moi : nous avons le même âge. (= 一样) <span class=hint>提示:等同比较</span>",
+        "a": "Mon frère est aussi âgé que moi : nous avons le même âge.",
+        "note": "考查等同比较:aussi + 形容词 + que。"
+      },
+      {
+        "q": "Ce café est ___ cher ___ l'autre. (= −) <span class=hint>提示:劣等比较</span>",
+        "a": "Ce café est moins cher que l'autre.",
+        "note": "考查劣等比较:moins + 形容词 + que。"
+      },
+      {
+        "q": "Il a ___ travail ___ moi. (= +, 名词) <span class=hint>提示:名词比较用 de</span>",
+        "a": "Il a plus de travail que moi.",
+        "note": "考查名词数量比较:plus de + 名词 + que。"
+      },
+      {
+        "q": "Elle cuisine ___ que sa sœur. (bien → 比较级) <span class=hint>提示:副词 bien 的不规则比较级</span>",
+        "a": "Elle cuisine mieux que sa sœur.",
+        "note": "考查 bien → mieux(副词),区别于 bon → meilleur(形容词)。"
+      }
+    ],
+    "a2-superlatif": [
+      {
+        "q": "C'est ___ grand monument de la ville. (= 最) <span class=hint>提示:le plus + 形容词</span>",
+        "a": "C'est le plus grand monument de la ville.",
+        "note": "最高级:le plus + 形容词"
+      },
+      {
+        "q": "Paris est ___ belle ville ___ monde. (= 世界上最美) <span class=hint>提示:belle 前置,用 la plus belle ville;『在…中』用 de</span>",
+        "a": "Paris est la plus belle ville du monde.",
+        "note": "du monde = de + le monde。"
+      },
+      {
+        "q": "C'est la solution ___ compliquée : choisissons-la ! (= 最不) <span class=hint>提示:劣等最高级</span>",
+        "a": "C'est la solution la moins compliquée : choisissons-la !",
+        "note": "考查劣等最高级 la moins + 形容词,后置形容词冠词重复。"
+      },
+      {
+        "q": "De tous les élèves de la classe, c’est elle qui danse ___. (最好)",
+        "a": "De tous les élèves de la classe, c’est elle qui danse le mieux.",
+        "note": "考查 bien → le mieux(副词最高级,冠词恒为 le);范围用 de。"
+      }
+    ],
+    "a2-qui-que": [
+      {
+        "q": "C'est une amie ___ travaille avec moi. <span class=hint>提示:从句缺主语</span>",
+        "a": "C'est une amie qui travaille avec moi.",
+        "note": "从句缺主语,先行词 une amie 作 travaille 的主语 → qui。"
+      },
+      {
+        "q": "Voici le gâteau ___ ma mère a préparé. <span class=hint>提示:从句缺直接宾语</span>",
+        "a": "Voici le gâteau que ma mère a préparé.",
+        "note": "从句主语为 ma mère,先行词 gâteau 作 a préparé 的直接宾语 → que。"
+      },
+      {
+        "q": "La chanson ___ elle écoute est belle. <span class=hint>提示:元音前注意缩合</span>",
+        "a": "La chanson qu'elle écoute est belle.",
+        "note": "考查缩合:从句已有主语 elle → 用 que,元音前缩为 qu'。"
+      }
+    ],
+    "a2-ou-relatif": [
+      {
+        "q": "Voici la maison ___ j'ai grandi. <span class=hint>提示:地点</span>",
+        "a": "Voici la maison où j'ai grandi.",
+        "note": "où 引导地点关系从句"
+      },
+      {
+        "q": "Je me souviens du jour ___ nous nous sommes rencontrés. <span class=hint>提示:时间也用它</span>",
+        "a": "Je me souviens du jour où nous nous sommes rencontrés.",
+        "note": "这里「那天」在从句中作时间状语，用 où。rencontrés 对应男性或混合群体；若 nous 全为女性，可写 rencontrées。"
+      },
+      {
+        "q": "Je n'oublierai jamais l'année ___ j'ai eu mon bac. <span class=hint>提示:时间,不用 quand</span>",
+        "a": "Je n'oublierai jamais l'année où j'ai eu mon bac.",
+        "note": "考查时间用法:l'année où…,不能用 quand。"
+      }
+    ],
+    "a2-quantite": [
+      {
+        "q": "Dans cette ville, il y a ___ touristes. (beaucoup) <span class=hint>提示:数量副词 + de</span>",
+        "a": "Dans cette ville, il y a beaucoup de touristes.",
+        "note": "beaucoup de(无冠词),不是 beaucoup des。"
+      },
+      {
+        "q": "Je voudrais ___ eau, s'il vous plaît. (une bouteille) <span class=hint>提示:量词 + de</span>",
+        "a": "Je voudrais une bouteille d'eau, s'il vous plaît.",
+        "note": "元音前缩 d'。"
+      },
+      {
+        "q": "J'ai ___ travail cette semaine. (trop) <span class=hint>提示:数量副词 + de,无冠词</span>",
+        "a": "J'ai trop de travail cette semaine.",
+        "note": "考查数量副词 trop de:直接接名词,不加冠词。"
+      },
+      {
+        "q": "Tu as ___ argent pour le bus ? (assez) <span class=hint>提示:元音前缩合</span>",
+        "a": "Tu as assez d'argent pour le bus ?",
+        "note": "考查 assez de + 元音开头名词 → assez d'argent。"
+      }
+    ],
+    "a2-temps-prep": [
+      {
+        "q": "J'habite à Lyon ___ trois ans. (自三年前至今) <span class=hint>提示:持续到现在 + 现在时</span>",
+        "a": "J'habite à Lyon depuis trois ans.",
+        "note": "depuis + 现在时(中文「了」,法语现在时)。"
+      },
+      {
+        "q": "Le film commence ___ dix minutes. (十分钟后) <span class=hint>提示:将来「…之后」</span>",
+        "a": "Le film commence dans dix minutes.",
+        "note": "dans + 时间 = 将来『…之后』"
+      },
+      {
+        "q": "Nous avons voyagé ___ trois semaines l'été dernier. (整整三周) <span class=hint>提示:已结束的时长</span>",
+        "a": "Nous avons voyagé pendant trois semaines l'été dernier.",
+        "note": "考查 pendant:表示已完成动作的持续时长,配过去时。"
+      },
+      {
+        "q": "Elle a déménagé ___ deux ans. (两年前) <span class=hint>提示:『…之前』</span>",
+        "a": "Elle a déménagé il y a deux ans.",
+        "note": "考查 il y a + 时间 = …之前,配过去时,此处不是『有』。"
+      }
+    ],
+    "a2-politesse": [
+      {
+        "q": "Au café : ___ un thé, s'il vous plaît. (vouloir, je,礼貌) <span class=hint>提示:条件式</span>",
+        "a": "Je voudrais un thé, s'il vous plaît.",
+        "note": "je voudrais 比 je veux 更礼貌。"
+      },
+      {
+        "q": "___ m'aider, s'il vous plaît ? (pouvoir, vous,礼貌请求) <span class=hint>提示:条件式倒装</span>",
+        "a": "Pourriez-vous m'aider, s'il vous plaît ?",
+        "note": "pouvoir 条件式倒装 pourriez-vous,礼貌请求"
+      },
+      {
+        "q": "___ (aimer, je) réserver une table pour deux, s'il vous plaît. <span class=hint>提示:条件式,委婉愿望</span>",
+        "a": "J'aimerais réserver une table pour deux, s'il vous plaît.",
+        "note": "考查 j'aimerais 表委婉的愿望/请求。"
+      }
+    ]
+  }
+}

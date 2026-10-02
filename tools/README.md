@@ -18,7 +18,7 @@
 # 依赖:Node、Python 3、edge-tts(需要联网)
 py -m pip install --user edge-tts
 
-# 1) 从 index.html 抽取全部可朗读的法语句子
+# 1) 从共享级别数据抽取全部页面可朗读的法语句子（兼容原命令）
 node tools/extract.js index.html tools/strings.json
 
 # 2) 生成 mp3 + 写出 audio/manifest.js(增量:已存在的文件会跳过)

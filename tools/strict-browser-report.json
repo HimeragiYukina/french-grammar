@@ -1,0 +1,137 @@
+{
+  "overview": {
+    "links": 6,
+    "bundles": 0
+  },
+  "levels": {
+    "a1": {
+      "cards": 23,
+      "contexts": 0,
+      "bundles": [
+        "A1"
+      ],
+      "toggle": true
+    },
+    "a2": {
+      "cards": 18,
+      "contexts": 3,
+      "bundles": [
+        "A2"
+      ],
+      "toggle": true
+    },
+    "b1": {
+      "cards": 15,
+      "contexts": 3,
+      "bundles": [
+        "B1"
+      ],
+      "toggle": true
+    },
+    "b2": {
+      "cards": 16,
+      "contexts": 0,
+      "bundles": [
+        "B2"
+      ],
+      "toggle": true
+    },
+    "c1": {
+      "cards": 13,
+      "contexts": 0,
+      "bundles": [
+        "C1"
+      ],
+      "toggle": true
+    },
+    "c2": {
+      "cards": 12,
+      "contexts": 0,
+      "bundles": [
+        "C2"
+      ],
+      "toggle": true
+    }
+  },
+  "legacy": {
+    "path": "/b1.html",
+    "hash": "#b1-si",
+    "target": true
+  },
+  "deepLink": {
+    "hash": "#a2-y",
+    "top": 210.125
+  },
+  "search": {
+    "cards": 2,
+    "bundles": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "q": "À peine"
+  },
+  "searchJump": {
+    "path": "/c1.html",
+    "hash": "#c1-inversion",
+    "target": true
+  },
+  "back": {
+    "path": "/index.html",
+    "q": "À peine",
+    "cards": 2
+  },
+  "forward": {
+    "path": "/c1.html",
+    "hash": "#c1-inversion"
+  },
+  "chineseSearch": {
+    "cards": 17,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ]
+  },
+  "exercise": {
+    "show": true,
+    "hide": true,
+    "note": true
+  },
+  "contextExercise": true,
+  "desktop": {
+    "width": 1440,
+    "document": 1425
+  },
+  "mobile": {
+    "width": 390,
+    "document": 390
+  },
+  "menu": {
+    "open": true,
+    "expanded": "true"
+  },
+  "escape": true,
+  "audio": {
+    "ready": 4,
+    "time": 0.232367,
+    "paused": false,
+    "error": null
+  },
+  "stop": true,
+  "passageSpeech": {
+    "speaking": true,
+    "mediaFallback": true
+  },
+  "offline": {
+    "cards": 15,
+    "target": true
+  },
+  "errors": []
+}
