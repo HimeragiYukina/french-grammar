@@ -1553,6 +1553,32 @@ window.GRAMMAR_DATA.B2={
               "use": "faire allusion à，抽象先行内容用 quoi。"
             }
           ]
+        },
+        {
+          "title": "指代清晰不是词尾自动完成：编辑部的页与附件",
+          "explanation": "独立编辑部情境：先还原动词或完整介词短语，再选择关系结构。名词的性数决定lequel系列的形式，但同形候选仍需上下文或重复名词。人物前的介词＋qui与lequel系列都可自然使用；简单de支配常用dont，完整介词短语不能只截走末尾de。规则核对：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/23508/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-lequel-et-les-formes-contractees-duquel-et-auquel\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF复合关系代词</a>、<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/22904/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-dont\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF dont</a>。",
+          "examples": [
+            {
+              "fr": "Voici la page à laquelle je me réfère.",
+              "zh": "这是我所指的那一页。",
+              "use": "se référer à；page阴单，所以à laquelle分写。"
+            },
+            {
+              "fr": "Le dossier au sujet duquel nous avons discuté contient deux versions.",
+              "zh": "我们讨论过的那份档案里有两个版本。",
+              "use": "保留au sujet de完整短语，dossier阳单对应duquel。"
+            },
+            {
+              "fr": "Les légendes dont nous avons besoin manquent encore.",
+              "zh": "我们所需的图片说明还缺着。",
+              "use": "avoir besoin de决定dont，不因légendes阴复改成auxquelles。"
+            },
+            {
+              "fr": "La bibliothécaire avec qui nous vérifions les noms connaît ce fonds.",
+              "zh": "与我们一起核查名字的图书管理员了解这个馆藏。",
+              "use": "人可用avec qui；也接受avec laquelle，不能把自然替代判错。"
+            }
+          ]
         }
       ],
       "comparison": "le dossier que j'étudie（étudier 直接宾语）/ auquel je m'intéresse（s'intéresser à）/ dont je parle（parler de）/ au sujet duquel je vous écris（au sujet de 整体）。代词选择取决于从句中的功能，不取决于中文是否有‘的’。",
@@ -1569,6 +1595,16 @@ window.GRAMMAR_DATA.B2={
           "q": "写一句研究说明：三位女决赛选手中，评委将选出一人。用 parmi + 复合关系代词；再用avec qui说明你和一位女同事共同核查。",
           "a": "Voici trois finalistes, parmi lesquelles le jury choisira la gagnante. La collègue avec qui je vérifie les résultats participe à la réunion.",
           "note": "题干明确全为女性，parmi lesquelles；parmi后不选qui。avec qui指人自然，也接受avec laquelle。开放后句内容可变，但介词与先行词关系须清楚。"
+        },
+        {
+          "q": "编辑需要用于目录的照片。纠正les photos auxquelles j’ai besoin pour le catalogue，写完整法语句。",
+          "a": "Voici les photos dont j’ai besoin pour le catalogue.",
+          "note": "avoir besoin de；不能仅根据photos阴复选择auxquelles。也接受Ce sont les photos dont j’ai besoin pour le catalogue。"
+        },
+        {
+          "q": "原指令la note jointe à la page, à laquelle je me réfère有两个阴单候选。作者已确认自己指的是page。重写保页、附注及明确指代，可拆句或重置关系从句。",
+          "a": "Je me réfère à la page. La note est jointe à cette page.",
+          "note": "也接受Je me réfère à la page à laquelle la note est jointe。重点是明确page；只把laquelle换成另一个同形关系词不保证解决问题。"
         }
       ]
     },

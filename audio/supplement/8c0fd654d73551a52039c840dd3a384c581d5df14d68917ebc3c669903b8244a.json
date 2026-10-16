@@ -1,0 +1,30 @@
+{
+  "text": "Je crains que la conférencière ne parte avant la fin du débat",
+  "text_sha256": "8c0fd654d73551a52039c840dd3a384c581d5df14d68917ebc3c669903b8244a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.320453514739229,
+      "source_seconds": 3.320453514739229,
+      "source_file_sha256": "a70051e1f8dc40b3a7ac7a8a862509e9f6a93b9d23e1d81518d849abb9f809a7",
+      "file_sha256": "7f45d2d29323acaa7bc9b4d886da6b024e50bff0271268e698c6ff6862257dbc",
+      "bytes": 27420,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

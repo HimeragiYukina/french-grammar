@@ -2239,6 +2239,27 @@ window.GRAMMAR_DATA.A1={
               "use": "多个本子，leurs；自然表达分配关系。"
             }
           ]
+        },
+        {
+          "title": "同一位女生的书、卡片和地址：不按拥有者性别选形",
+          "explanation": "独立课堂情境中，Maya是一名女生。她的物品与资料名词有不同性别；物主词先跟后面的名词相配。元音前son可放在阴性adresse前，名词并不因此改变性别。物主词形式本身不能用来推断人物性别。",
+          "examples": [
+            {
+              "fr": "Maya a un livre. Elle pose son livre sur la table.",
+              "zh": "玛雅有一本书。她把自己的书放在桌上。",
+              "use": "livre阳性，因此用son；拥有者已明确为女生。"
+            },
+            {
+              "fr": "Voici sa carte.",
+              "zh": "这是她的卡片。",
+              "use": "carte阴性，辅音开头，用sa。"
+            },
+            {
+              "fr": "Maya vérifie son adresse.",
+              "zh": "玛雅核对她的地址。",
+              "use": "adresse阴性、元音开头，使用son；名词性别不变。"
+            }
+          ]
         }
       ],
       "comparison": "sa voiture 可是他的或她的车；la voiture de Léa 明确拥有者。leur voiture（一辆或各自一辆，语境决定）/ leurs voitures（多辆）。",
@@ -2255,6 +2276,16 @@ window.GRAMMAR_DATA.A1={
           "q": "改正并解释：Ma ancienne école est près de mon nouvelle maison。",
           "a": "Mon ancienne école est près de ma nouvelle maison.",
           "note": "看紧接词的音：ancienne元音前阴性改mon；nouvelle辅音前用ma。学校/房子本身仍阴性。"
+        },
+        {
+          "q": "Maya是女生；livre为阳性，carte与adresse为阴性。写完整法句，说这是她的书、卡片和地址，保三个正确物主词。",
+          "a": "Voici son livre, sa carte et son adresse.",
+          "note": "son随livre，sa随carte，adresse前因元音用son。不能把三个都改sa；也接受C’est son livre. C’est sa carte. C’est son adresse。"
+        },
+        {
+          "q": "同伴说son adresse表示adresse为阳性，或者Maya因此是男孩。写一句自然法语解释，保adresse阴性与元音前形式。",
+          "a": "Le mot adresse est féminin, mais on emploie son devant une voyelle ; cette forme ne signifie pas que Maya est un garçon.",
+          "note": "允许用中文解释规则，但需说清名词仍阴性、元音前选son，且不能由此外推人物性别。不能把son简单译成只属于男性的“他的”。"
         }
       ]
     },

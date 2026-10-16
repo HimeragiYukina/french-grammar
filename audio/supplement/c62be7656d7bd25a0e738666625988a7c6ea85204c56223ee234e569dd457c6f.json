@@ -1,0 +1,30 @@
+{
+  "text": "Le mot adresse est féminin, mais on emploie son devant une voyelle ; cette forme ne signifie pas que Maya est un garçon.",
+  "text_sha256": "c62be7656d7bd25a0e738666625988a7c6ea85204c56223ee234e569dd457c6f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.408707482993197,
+      "source_seconds": 6.408707482993197,
+      "source_file_sha256": "b468273aa58ce38baa7ed5bb3e8843416774c4b20cd2add86334c7438fe54316",
+      "file_sha256": "7da36701fdfb3ae7c263e85a33224e2e723872d0482b0a07f08584f03e126ac6",
+      "bytes": 52079,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

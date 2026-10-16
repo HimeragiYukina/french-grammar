@@ -1,0 +1,30 @@
+{
+  "text": "Il a peur que les participants n’aient pas encore quitté la salle au moment de la fermeture. Supprimer pas inverserait le contenu de la crainte.",
+  "text_sha256": "319c7fd046301753702aa4040c71cd89f26e4c1aff42decaafe3922967d51823",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.349115646258503,
+      "source_seconds": 7.349115646258503,
+      "source_file_sha256": "316779b0a6d9f7525f24d11e9ef3a8bb78c19d102eb8adfb9f2633cf79c0a24f",
+      "file_sha256": "d46bd056571e796846dc3ea24286de2392f2be39b975b568897613e027084d54",
+      "bytes": 59603,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

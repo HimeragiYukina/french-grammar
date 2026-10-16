@@ -1,0 +1,30 @@
+{
+  "text": "Le gardien craint que les participants n’aient pas quitté la salle au moment de la fermeture.",
+  "text_sha256": "7182954a419acc8b0453001266b36488423eb8bed4a66835bc0dab76673acb07",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.121541950113379,
+      "source_seconds": 4.121541950113379,
+      "source_file_sha256": "0928b54fe6a72cb5db556b19e2991f8c968dd1b89209f2c731ef883a602fa269",
+      "file_sha256": "f8ef57459eab7890c09379b57a76f2b2f0407078c5954eee468bf12adf4c9e72",
+      "bytes": 33689,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

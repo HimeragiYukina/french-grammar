@@ -1,0 +1,30 @@
+{
+  "text": "Voici sa carte.",
+  "text_sha256": "7de851ab1128f6b9931b8101c19b83438c90727f8c264377645475ac0f58fc5e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4280272108843537,
+      "source_seconds": 1.4280272108843537,
+      "source_file_sha256": "ee987d0f47833c58d4a2ca38e9f4c384c380146348c5d43827a1cf915d68050b",
+      "file_sha256": "53a75afe7a681aaa64d8188b2372e95c431ebcd3fd27443799a41c01a899af54",
+      "bytes": 12164,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

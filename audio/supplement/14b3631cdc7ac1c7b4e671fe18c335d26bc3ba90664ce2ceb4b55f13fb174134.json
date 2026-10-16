@@ -1,0 +1,30 @@
+{
+  "text": "Ce sont les photos dont j’ai besoin pour le catalogue",
+  "text_sha256": "14b3631cdc7ac1c7b4e671fe18c335d26bc3ba90664ce2ceb4b55f13fb174134",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5658049886621317,
+      "source_seconds": 2.5658049886621317,
+      "source_file_sha256": "77c23f001840c52e6bd2ea2f4de746a1281f51e5a56576e957eb6f14a444449a",
+      "file_sha256": "35be98fa626b702f8eb6641092dd4a954aebac72e356445585c382739767f0f3",
+      "bytes": 21359,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

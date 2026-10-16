@@ -1,0 +1,30 @@
+{
+  "text": "Les légendes dont nous avons besoin manquent encore.",
+  "text_sha256": "75f192b355f625983c514c3f816e7731b76c6f5e558680406760b2e3f3a0761a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.006984126984127,
+      "source_seconds": 3.006984126984127,
+      "source_file_sha256": "14e4d319118143df57f626daa5270bf18cba6fae088b3cf4f00a201c32378b8e",
+      "file_sha256": "bb1ff7210587a3b911cba745358166d94ebe34170d6fa33633eef8be65886c1a",
+      "bytes": 24912,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

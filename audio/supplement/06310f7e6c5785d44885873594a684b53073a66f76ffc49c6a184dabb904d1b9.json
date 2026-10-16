@@ -1,0 +1,30 @@
+{
+  "text": "La bibliothécaire avec qui nous vérifions les noms connaît ce fonds.",
+  "text_sha256": "06310f7e6c5785d44885873594a684b53073a66f76ffc49c6a184dabb904d1b9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.564263038548753,
+      "source_seconds": 3.564263038548753,
+      "source_file_sha256": "5c3d5b3b40c734fb5599b5bbed42602aa62d0f0d2ba4a689af835bd1e0715d10",
+      "file_sha256": "b52500c1b2cddef2691de7afb7014d43afd34b8f86afb61c92f7652043a07ce2",
+      "bytes": 29301,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

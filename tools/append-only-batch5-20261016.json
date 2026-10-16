@@ -1,0 +1,210 @@
+{
+  "batch": "5",
+  "counts": {
+    "sections": 3,
+    "practice": 6
+  },
+  "files": [
+    {
+      "file": "tools/supplement-a1.json",
+      "before_sha256": "e63829323d6b511f9145d2bd65d24fe196ad189794a9f7cd8d6de322af14a491",
+      "after_sha256": "981af91abb66c3b7f839719881cc75a27bb2c7864ce65d764d6dd1f1f13a1d7d",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "a1-possessif",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "同一位女生的书、卡片和地址：不按拥有者性别选形",
+              "explanation": "独立课堂情境中，Maya是一名女生。她的物品与资料名词有不同性别；物主词先跟后面的名词相配。元音前son可放在阴性adresse前，名词并不因此改变性别。物主词形式本身不能用来推断人物性别。",
+              "examples": [
+                {
+                  "fr": "Maya a un livre. Elle pose son livre sur la table.",
+                  "zh": "玛雅有一本书。她把自己的书放在桌上。",
+                  "use": "livre阳性，因此用son；拥有者已明确为女生。"
+                },
+                {
+                  "fr": "Voici sa carte.",
+                  "zh": "这是她的卡片。",
+                  "use": "carte阴性，辅音开头，用sa。"
+                },
+                {
+                  "fr": "Maya vérifie son adresse.",
+                  "zh": "玛雅核对她的地址。",
+                  "use": "adresse阴性、元音开头，使用son；名词性别不变。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "a1-possessif",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "766966de3b50c4de9ee8057c8a947413339dc8a6868923f23d424420f3880d59",
+          "added": [
+            {
+              "q": "Maya是女生；livre为阳性，carte与adresse为阴性。写完整法句，说这是她的书、卡片和地址，保三个正确物主词。",
+              "a": "Voici son livre, sa carte et son adresse.",
+              "note": "son随livre，sa随carte，adresse前因元音用son。不能把三个都改sa；也接受C’est son livre. C’est sa carte. C’est son adresse。"
+            },
+            {
+              "q": "同伴说son adresse表示adresse为阳性，或者Maya因此是男孩。写一句自然法语解释，保adresse阴性与元音前形式。",
+              "a": "Le mot adresse est féminin, mais on emploie son devant une voyelle ; cette forme ne signifie pas que Maya est un garçon.",
+              "note": "允许用中文解释规则，但需说清名词仍阴性、元音前选son，且不能由此外推人物性别。不能把son简单译成只属于男性的“他的”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-b2.json",
+      "before_sha256": "25d2ee2fec92c1beed54f6f72f67b2d4e037bdd7d31f06ff91550303a1ba3465",
+      "after_sha256": "aec17e7adec202927c9ec30f91d42aaabfe33bf003ebf38c04541031ce1d4c2c",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "b2-relatifs-composes",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "指代清晰不是词尾自动完成：编辑部的页与附件",
+              "explanation": "独立编辑部情境：先还原动词或完整介词短语，再选择关系结构。名词的性数决定lequel系列的形式，但同形候选仍需上下文或重复名词。人物前的介词＋qui与lequel系列都可自然使用；简单de支配常用dont，完整介词短语不能只截走末尾de。规则核对：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/23508/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-lequel-et-les-formes-contractees-duquel-et-auquel\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF复合关系代词</a>、<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/22904/la-grammaire/les-pronoms/pronoms-relatifs/le-pronom-relatif-dont\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF dont</a>。",
+              "examples": [
+                {
+                  "fr": "Voici la page à laquelle je me réfère.",
+                  "zh": "这是我所指的那一页。",
+                  "use": "se référer à；page阴单，所以à laquelle分写。"
+                },
+                {
+                  "fr": "Le dossier au sujet duquel nous avons discuté contient deux versions.",
+                  "zh": "我们讨论过的那份档案里有两个版本。",
+                  "use": "保留au sujet de完整短语，dossier阳单对应duquel。"
+                },
+                {
+                  "fr": "Les légendes dont nous avons besoin manquent encore.",
+                  "zh": "我们所需的图片说明还缺着。",
+                  "use": "avoir besoin de决定dont，不因légendes阴复改成auxquelles。"
+                },
+                {
+                  "fr": "La bibliothécaire avec qui nous vérifions les noms connaît ce fonds.",
+                  "zh": "与我们一起核查名字的图书管理员了解这个馆藏。",
+                  "use": "人可用avec qui；也接受avec laquelle，不能把自然替代判错。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "b2-relatifs-composes",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "10f2c7c223bf80bced6dba89911332b32f48f64ee786fe2e8e94841ad2a17906",
+          "added": [
+            {
+              "q": "编辑需要用于目录的照片。纠正les photos auxquelles j’ai besoin pour le catalogue，写完整法语句。",
+              "a": "Voici les photos dont j’ai besoin pour le catalogue.",
+              "note": "avoir besoin de；不能仅根据photos阴复选择auxquelles。也接受Ce sont les photos dont j’ai besoin pour le catalogue。"
+            },
+            {
+              "q": "原指令la note jointe à la page, à laquelle je me réfère有两个阴单候选。作者已确认自己指的是page。重写保页、附注及明确指代，可拆句或重置关系从句。",
+              "a": "Je me réfère à la page. La note est jointe à cette page.",
+              "note": "也接受Je me réfère à la page à laquelle la note est jointe。重点是明确page；只把laquelle换成另一个同形关系词不保证解决问题。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-c1.json",
+      "before_sha256": "16e0265c4112755e1c252473127c039bb4cf57a6f05a5e40d73a1bfbad40290c",
+      "after_sha256": "8bd2b41c6122545d2ad71d4e9a9db60d7bb9b5b6d6bcd967588bb5f723b750ab",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "c1-ne-expletif",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "讲座组织者与闭馆人员担心的不是同一命题",
+              "explanation": "独立讲座情境中，一方怕主讲人太早离开，另一方怕参与者到闭馆时仍未离场。肯定担忧句中的赘词ne不否定被担忧事件；ne…pas则真正否定从句命题。比较和avant que中可见赘词，但不能因此把任何ne都当成可删。规则核对：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF赘词ne</a>、<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF担忧从句</a>。",
+              "examples": [
+                {
+                  "fr": "Je crains que la conférencière ne parte avant la fin du débat.",
+                  "zh": "我担心主讲人在讨论结束前离开。",
+                  "use": "担心离开，ne可省；不是保证她不会离开。"
+                },
+                {
+                  "fr": "Le gardien craint que les participants n’aient pas quitté la salle au moment de la fermeture.",
+                  "zh": "闭馆人员担心到关门时参与者还没有离场。",
+                  "use": "pas保留未完成离场这一否定内容；担心也不证明届时事实。"
+                },
+                {
+                  "fr": "Rangez les dossiers avant que la réunion ne commence.",
+                  "zh": "请在会议开始前收好档案。",
+                  "use": "从句ne可省，时间要求不等于已收好或会议已开始。"
+                },
+                {
+                  "fr": "Le compte rendu est plus long que nous ne le pensions.",
+                  "zh": "纪要比我们原先想的长。",
+                  "use": "比较中的ne可省，不译成我们没有想过。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "c1-ne-expletif",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "4abe6b176d1d936d5f56bc8112579df9e058608b55fca16ff47ffbd4656c1896",
+          "added": [
+            {
+              "q": "组织者怕主讲人提前离开。将Je crains que la conférencière ne parte avant la fin du débat改成更直接的口头说法，去可选赘词而保相同担忧，不加入不会离开的保证。",
+              "a": "J’ai peur que la conférencière parte avant la fin du débat.",
+              "note": "也接受Je crains que la conférencière parte avant la fin du débat。主句仍表担忧，不能改成Elle ne partira pas。"
+            },
+            {
+              "q": "闭馆人员说Le gardien craint que les participants n’aient pas quitté la salle au moment de la fermeture. 同伴认为删pas只是简化文体。写一句自然法语改述或说明，并解释为何不能同义删除pas。",
+              "a": "Il a peur que les participants n’aient pas encore quitté la salle au moment de la fermeture. Supprimer pas inverserait le contenu de la crainte.",
+              "note": "可以用中文说明真正否定必须保留，也可以自然改写担忧内容。不把担忧写成参与者已经没走的事实；不要把所有ne都归入赘词。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "protected_files_sha256": {
+    "append-only-batch2-20261016.json": "5cdfc333160fe3826204a2ac44dcab6619a332dbc471d4765aa94c8c212b71af",
+    "append-only-batch3-20261016.json": "353700af00f121d76d3ee500068eea510dea365d64f40aaab89988a4f61a40ab",
+    "append-only-batch4-20261016.json": "428c5477577664409b3eb90f77df940103e13ae537f505c576d0b1264655165e",
+    "append_batch2_evidence.py": "1488492e962c80202bc0c0114f4c48023f86b9ebff65fdce2693417b77b91555",
+    "append_batch3_evidence.py": "1ced42994671b8002aaed195d88c84f632c782f1d309531bd018504f454d95ff",
+    "append_batch4_evidence.py": "48b881d966231cd661fe2e063850aa3328e5c0a237906e2a7eb387c01a990043",
+    "content-baseline.json": "a17a54048c334231f27a84457574491fa726696791eadf6945abd666a4e4b225",
+    "strict-review-baseline.json": "25fbee3f19541f18d60be04ad4ace10f4b75c1cd5426d3863110cda368985ea8"
+  },
+  "method": "Exact full-file hashes, unchanged old prefixes and explicit suffixes; restore only in memory before prior batch3/batch2/original checks."
+}

@@ -1616,6 +1616,32 @@ window.GRAMMAR_DATA.C1={
               "use": "ne seul 为真正否定，等于 ne peux pas。"
             }
           ]
+        },
+        {
+          "title": "讲座组织者与闭馆人员担心的不是同一命题",
+          "explanation": "独立讲座情境中，一方怕主讲人太早离开，另一方怕参与者到闭馆时仍未离场。肯定担忧句中的赘词ne不否定被担忧事件；ne…pas则真正否定从句命题。比较和avant que中可见赘词，但不能因此把任何ne都当成可删。规则核对：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/22467/la-syntaxe/la-negation-et-la-restriction/constructions-avec-un-ne-expletif\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF赘词ne</a>、<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/24432/la-syntaxe/la-negation-et-la-restriction/verbe-exprimant-la-crainte-suivi-de-que\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF担忧从句</a>。",
+          "examples": [
+            {
+              "fr": "Je crains que la conférencière ne parte avant la fin du débat.",
+              "zh": "我担心主讲人在讨论结束前离开。",
+              "use": "担心离开，ne可省；不是保证她不会离开。"
+            },
+            {
+              "fr": "Le gardien craint que les participants n’aient pas quitté la salle au moment de la fermeture.",
+              "zh": "闭馆人员担心到关门时参与者还没有离场。",
+              "use": "pas保留未完成离场这一否定内容；担心也不证明届时事实。"
+            },
+            {
+              "fr": "Rangez les dossiers avant que la réunion ne commence.",
+              "zh": "请在会议开始前收好档案。",
+              "use": "从句ne可省，时间要求不等于已收好或会议已开始。"
+            },
+            {
+              "fr": "Le compte rendu est plus long que nous ne le pensions.",
+              "zh": "纪要比我们原先想的长。",
+              "use": "比较中的ne可省，不译成我们没有想过。"
+            }
+          ]
         }
       ],
       "comparison": "Je crains qu’il ne vienne（怕他来）与 Je crains qu’il ne vienne pas（怕他不来）。Je ne crains pas qu’il vienne（不怕他来）通常不再添加赘词 ne。",
@@ -1636,6 +1662,16 @@ window.GRAMMAR_DATA.C1={
           "q": "把正式句 Il est moins disponible que je ne le pensais 改成不带赘词ne的同义句，并说明pensais语气。",
           "a": "Il est moins disponible que je le pensais. Pensais est à l’indicatif imparfait.",
           "note": "不等比较中ne可省；不是虚拟式触发标记。译为他没我原先想的那么有空。"
+        },
+        {
+          "q": "组织者怕主讲人提前离开。将Je crains que la conférencière ne parte avant la fin du débat改成更直接的口头说法，去可选赘词而保相同担忧，不加入不会离开的保证。",
+          "a": "J’ai peur que la conférencière parte avant la fin du débat.",
+          "note": "也接受Je crains que la conférencière parte avant la fin du débat。主句仍表担忧，不能改成Elle ne partira pas。"
+        },
+        {
+          "q": "闭馆人员说Le gardien craint que les participants n’aient pas quitté la salle au moment de la fermeture. 同伴认为删pas只是简化文体。写一句自然法语改述或说明，并解释为何不能同义删除pas。",
+          "a": "Il a peur que les participants n’aient pas encore quitté la salle au moment de la fermeture. Supprimer pas inverserait le contenu de la crainte.",
+          "note": "可以用中文说明真正否定必须保留，也可以自然改写担忧内容。不把担忧写成参与者已经没走的事实；不要把所有ne都归入赘词。"
         }
       ]
     },

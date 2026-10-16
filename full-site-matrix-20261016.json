@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3638,
-  "covered": 3638,
+  "denominator": 3663,
+  "covered": 3663,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -147,10 +147,10 @@
       "kind": "grammar-point",
       "id": "a1-possessif",
       "level": "A1",
-      "exactTextUnits": 28,
-      "localFilesPresent": 28,
+      "exactTextUnits": 34,
+      "localFilesPresent": 34,
       "missingLocalFiles": 0,
-      "requiredUnits": 26,
+      "requiredUnits": 32,
       "errorInputUnits": 2
     },
     {
@@ -686,11 +686,11 @@
       "kind": "grammar-point",
       "id": "b2-relatifs-composes",
       "level": "B2",
-      "exactTextUnits": 42,
-      "localFilesPresent": 42,
+      "exactTextUnits": 52,
+      "localFilesPresent": 52,
       "missingLocalFiles": 0,
-      "requiredUnits": 42,
-      "errorInputUnits": 0
+      "requiredUnits": 51,
+      "errorInputUnits": 1
     },
     {
       "repo": "grammar",
@@ -884,11 +884,11 @@
       "kind": "grammar-point",
       "id": "c1-ne-expletif",
       "level": "C1",
-      "exactTextUnits": 43,
-      "localFilesPresent": 43,
+      "exactTextUnits": 52,
+      "localFilesPresent": 52,
       "missingLocalFiles": 0,
-      "requiredUnits": 42,
-      "errorInputUnits": 1
+      "requiredUnits": 50,
+      "errorInputUnits": 2
     },
     {
       "repo": "grammar",

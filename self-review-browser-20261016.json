@@ -26,7 +26,7 @@
       "level": "b1",
       "blocks": 2,
       "dimensions": 8,
-      "models": 9,
+      "models": 12,
       "noInputs": true,
       "transfer": true,
       "overflow": false
