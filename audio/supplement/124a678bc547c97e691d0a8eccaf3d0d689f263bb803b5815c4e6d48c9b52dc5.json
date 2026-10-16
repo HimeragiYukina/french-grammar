@@ -1,0 +1,30 @@
+{
+  "text": "nous avons renoncé à visiter le musée.",
+  "text_sha256": "124a678bc547c97e691d0a8eccaf3d0d689f263bb803b5815c4e6d48c9b52dc5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.10140589569161,
+      "source_seconds": 2.10140589569161,
+      "source_file_sha256": "4cb43f4dce899f1ef4c05635e4381866e72d2a1bf01e065c4bcd815a14176ffe",
+      "file_sha256": "cbc111e8bc1b896a127d30daeaec64178e0456564aeb25becc672ab0801202bc",
+      "bytes": 17598,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

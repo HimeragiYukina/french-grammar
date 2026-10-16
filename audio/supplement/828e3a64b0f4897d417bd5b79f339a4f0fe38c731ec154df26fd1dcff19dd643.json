@@ -1,0 +1,30 @@
+{
+  "text": "Regarde ces nuages !",
+  "text_sha256": "828e3a64b0f4897d417bd5b79f339a4f0fe38c731ec154df26fd1dcff19dd643",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5441269841269842,
+      "source_seconds": 1.5441269841269842,
+      "source_file_sha256": "b4fe35339c8b690a7bbad7143706673a07e85d30c86158fc009997664730cf61",
+      "file_sha256": "e77213357b851b31ba0f550f25c30026a31249721be9c3fd3d719f8c1371d717",
+      "bytes": 13209,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

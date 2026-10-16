@@ -1,0 +1,30 @@
+{
+  "text": "quitte à déplaire",
+  "text_sha256": "5c487585e573a811f4da2cc133dc728161ef7210d72255fba0273d0b373c801e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1493877551020408,
+      "source_seconds": 1.1493877551020408,
+      "source_file_sha256": "a006ed75367d2922d7a116d78c8137998a6c7c0442d1d5a61046042b289f5372",
+      "file_sha256": "f9c236f8b9e9d85dffecb15049d2b764e4b005da89c7c2d1b9b51c384e186074",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

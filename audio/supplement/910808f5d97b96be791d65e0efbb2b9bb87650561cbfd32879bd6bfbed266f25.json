@@ -1,0 +1,30 @@
+{
+  "text": "un appartement ancien",
+  "text_sha256": "910808f5d97b96be791d65e0efbb2b9bb87650561cbfd32879bd6bfbed266f25",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.509297052154195,
+      "source_seconds": 1.509297052154195,
+      "source_file_sha256": "bec7f10c4198df449956df2ed7e944a4169f63ec4623729c98bbcf432c665de0",
+      "file_sha256": "d06684d90ec5ebcf1f430c045dbcf686d4e2018ccf3f2386567640296864e056",
+      "bytes": 12791,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

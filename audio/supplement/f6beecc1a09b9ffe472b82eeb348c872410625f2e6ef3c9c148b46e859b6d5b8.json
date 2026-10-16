@@ -1,0 +1,30 @@
+{
+  "text": "La ville où j’habite est calme. La ville que je visite est grande.",
+  "text_sha256": "f6beecc1a09b9ffe472b82eeb348c872410625f2e6ef3c9c148b46e859b6d5b8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.564263038548753,
+      "source_seconds": 3.564263038548753,
+      "source_file_sha256": "76282f970b296b34a71eaa9519655fdb23f6790f3662eef8c489f7e863201bf2",
+      "file_sha256": "e2eafde4e81c395b8ca8a84657126bf794251983147865a13282d9eb26d3d8a6",
+      "bytes": 29301,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

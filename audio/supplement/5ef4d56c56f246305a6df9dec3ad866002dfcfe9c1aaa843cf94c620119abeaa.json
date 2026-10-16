@@ -1,0 +1,30 @@
+{
+  "text": "Si tu as fini, viens",
+  "text_sha256": "5ef4d56c56f246305a6df9dec3ad866002dfcfe9c1aaa843cf94c620119abeaa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.555736961451247,
+      "source_seconds": 1.555736961451247,
+      "source_file_sha256": "b3312c676c68cc30f3d2bb3c32dbaa8b9beca0ec32d5b346cb9c916c026af039",
+      "file_sha256": "f18105e29fa8dbd8f4e220a1d4cc3d13cb7cecc1b66a6f5f06b961a47cece012",
+      "bytes": 13209,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

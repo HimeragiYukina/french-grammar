@@ -1,0 +1,30 @@
+{
+  "text": "N'était son aide, nous échouerions",
+  "text_sha256": "88eb89d8c3a75353fb7ad535fd01b8f687476d5eb5b319c00d455d857966446e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.159455782312925,
+      "source_seconds": 2.159455782312925,
+      "source_file_sha256": "1c47cca377302b9bf0c578c1c83cd8872f602279a97231022761ad6591b7a278",
+      "file_sha256": "41a4c5f87e56368c46747d3ee28fe417ed5326fe9279050df6ad52c8a4650bb5",
+      "bytes": 18016,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

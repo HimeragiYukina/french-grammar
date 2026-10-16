@@ -10,3 +10,6 @@ desktop.ini
 
 # TTS 生成的中间产物
 tools/strings.json
+
+# Local lossless synthesis cache; generated MP3 delivery files are tracked.
+audio/supplement/*.wav

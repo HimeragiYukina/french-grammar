@@ -1,0 +1,30 @@
+{
+  "text": "Il fut surpris et il eut peur.",
+  "text_sha256": "0dad6dd0da9fd622c37a679088fe7d39dbcf788d861ac0bea6244f9f3486478c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2175056689342405,
+      "source_seconds": 2.2175056689342405,
+      "source_file_sha256": "fdc863114101d347f733766f0f91d5e25c62c5b34d0e38cc328114806b7425d9",
+      "file_sha256": "fa125632a2301141b5e231da7f1792694e9888e747037a46145a6866ddbdc0ef",
+      "bytes": 18434,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "(à des élèves) ___ (ne pas ouvrir) vos livres !",
+  "text_sha256": "4110e12853d28e1357db9f583b2cd98e3d0a30102f451188bf4325a0abe899de",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.159455782312925,
+      "source_seconds": 2.159455782312925,
+      "source_file_sha256": "9ace50d2738d3254456136df52f79340ee010b0781ddcce4fa592fcafb3c2543",
+      "file_sha256": "a40bf7cbf2e630566dca6c583a4634fbceea2fec0d8aed2e9fdbf816f715d743",
+      "bytes": 18016,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

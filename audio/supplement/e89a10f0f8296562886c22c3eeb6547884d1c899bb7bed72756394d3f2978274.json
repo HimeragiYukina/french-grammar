@@ -1,0 +1,30 @@
+{
+  "text": "J’aime le chocolat. Aujourd’hui, je mange du chocolat.",
+  "text_sha256": "e89a10f0f8296562886c22c3eeb6547884d1c899bb7bed72756394d3f2978274",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.274013605442177,
+      "source_seconds": 3.274013605442177,
+      "source_file_sha256": "4e61c9834e83d77dbe2cc63f25fcb430c164071ecca274995dffaeabffa5e028",
+      "file_sha256": "df92bc6a04b2ca8179e6b5451fd5753dc795efed183c7a4727b0839ce294f4f4",
+      "bytes": 27002,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

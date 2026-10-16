@@ -1,0 +1,30 @@
+{
+  "text": "Elle me donne de bons conseils.",
+  "text_sha256": "5d2a8b9cf85eb338d6db09cd704e8b94047803dce3b7f521e6de43ff543764db",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6834467120181407,
+      "source_seconds": 1.6834467120181407,
+      "source_file_sha256": "f1487c8d85400bdf172df1c24c6faf321a7a3ac8c113721fd8e21c4bfde65d78",
+      "file_sha256": "6c7117baa2aa6bb76754fee71a81b1e421bea0b78e41c6f4add959f7c20f80f6",
+      "bytes": 14254,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

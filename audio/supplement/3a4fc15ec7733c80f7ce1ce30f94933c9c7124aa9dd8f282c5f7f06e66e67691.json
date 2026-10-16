@@ -1,0 +1,30 @@
+{
+  "text": "bien qu'il pleuve",
+  "text_sha256": "3a4fc15ec7733c80f7ce1ce30f94933c9c7124aa9dd8f282c5f7f06e66e67691",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3119274376417234,
+      "source_seconds": 1.3119274376417234,
+      "source_file_sha256": "32aef28cee83a6173d96dca4b1f6956e77c86c55ef1e4cfbfa94362b8c5b42f6",
+      "file_sha256": "baf8763998a417fa1fafefae4165bcb581c36afea3cb573e4b2601272a20e135",
+      "bytes": 11328,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

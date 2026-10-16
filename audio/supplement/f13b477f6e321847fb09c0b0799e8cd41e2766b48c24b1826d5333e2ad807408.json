@@ -1,0 +1,30 @@
+{
+  "text": "Elle a dû partir",
+  "text_sha256": "f13b477f6e321847fb09c0b0799e8cd41e2766b48c24b1826d5333e2ad807408",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.18421768707483,
+      "source_seconds": 1.18421768707483,
+      "source_file_sha256": "215d3b3b07845de78835398cd5a8a5d167d103acdf1da203ff8e06e42b30ceba",
+      "file_sha256": "7004706f07c216834137034723334f9f2f97b522919a5bda702729d95a2bcee0",
+      "bytes": 10284,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

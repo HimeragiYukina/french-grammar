@@ -40,7 +40,10 @@ let searchGeneration=0;
 
 function escAttr(s){return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function stripTags(s){return String(s).replace(/<[^>]+>/g,'');}
-function tts(fr){const t=stripTags(fr);return t?`<button class="tts" data-tts="${escAttr(t)}" title="朗读法语 / Écouter">🔊</button>`:"";}
+// Exact whole-rule formulas retain their text and example controls, but are not sentence recordings.
+const RULE_AUDIO_FORMULAS=new Set(["Ville → généralement à ; pays féminin ou masculin commençant par une voyelle/un h muet → généralement en ; pays masculin commençant par une consonne/un h aspiré → au ; pays pluriel → aux.", "« aller » au présent + infinitif : action future proche ou programmée.", "Verbe + infinitif", "Comparatif : plus / moins / aussi + adjectif + que. Avec un nom : plus de / moins de / autant de.", "Superlatif : le/la/les plus / moins + adjectif.", "Ordre des pronoms compléments : me te se nous vous / le la les / lui leur / y / en.", "Pronoms démonstratifs : celui, celle, ceux, celles (+ -ci/-là, de…, qui/que…). Neutres : ce, ceci, cela, ça.", "« se faire / se voir » + infinitif", "Mettre en valeur un élément : c'est … qui/que ; ce qui/ce que…, c'est…", "Concession indéfinie + subjonctif : quoi que, qui que, où que, quel que (+ accord), si/aussi… que.", "« après que » + indicatif", "Concordance soutenue : principale au passé → subjonctif imparfait (simultanéité ou postériorité) ou plus-que-parfait (antériorité).", "Nuances : non que (+subj.), de sorte que (but→subj. / conséquence→ind.), le seul qui… (souvent +subj., indicatif possible selon le sens)."]);
+function ruleTTS(fr){return RULE_AUDIO_FORMULAS.has(stripTags(fr))?'':tts(fr);}
+function tts(fr){const t=stripTags(fr);return t&&!/[\u4e00-\u9fff]/.test(t)?`<button class="tts" data-tts="${escAttr(t)}" title="朗读法语 / Écouter">🔊</button>`:"";}
 // titleFr is "français · 中文" for some entries but Chinese-only for others; g.title always holds the French
 function fullTitle(g){return /[一-鿿]/.test(g.titleFr.split(" · ")[0]) ? `${g.title} · ${g.titleFr}` : g.titleFr;}
 function exerciseHTML(items,label='练习 · Exercices'){
@@ -49,7 +52,7 @@ function exerciseHTML(items,label='练习 · Exercices'){
 }
 function relatedHTML(ids){return (ids||[]).length?`<p class="related">相关语法：${ids.map(id=>{const g=GRAMMAR.find(g=>g.id===id);return `<a href="${pointURL(id)}">${g?fullTitle(g):(window.GRAMMAR_TITLES[id]||id)}</a>`;}).join(' · ')}</p>`:'';}
 function contextHTML(c){
-  return `<article class="context-card" id="${c.id}"><h3>${c.title}</h3>${relatedHTML(c.related)}<div class="fr passage">${tts(c.sentences.map(s=>s.fr).join(' '))} ${c.sentences.map(s=>s.fr).join(' ')}</div><details><summary>逐句理解 · 为什么这样说</summary>${c.sentences.map(s=>`<section class="usage-section"><div class="fr">${tts(s.fr)} ${s.fr}</div><div class="zh">${s.zh}</div><p><strong>为什么这样说：</strong>${s.why}</p><p><strong>换一种表达：</strong>${s.alternative}</p></section>`).join('')}</details>${exerciseHTML(c.practice,'语境练习 · Mise en pratique')}<details class="source-notes"><summary>参考资料</summary><ul>${(c.sources||[]).map(s=>`<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener noreferrer">${s.title}</a></li>`).join('')}</ul></details></article>`;
+  return `<article class="context-card" id="${c.id}"><h3>${c.title}</h3><p><a href="audio-library.html?content=${escAttr(c.id)}">本语境全部配套法语音频</a></p>${relatedHTML(c.related)}<div class="fr passage">${tts(c.sentences.map(s=>s.fr).join(' '))} ${c.sentences.map(s=>s.fr).join(' ')}</div><details><summary>逐句理解 · 为什么这样说</summary>${c.sentences.map(s=>`<section class="usage-section"><div class="fr">${tts(s.fr)} ${s.fr}</div><div class="zh">${s.zh}</div><p><strong>为什么这样说：</strong>${s.why}</p><p><strong>换一种表达：</strong>${s.alternative}</p></section>`).join('')}</details>${exerciseHTML(c.practice,'语境练习 · Mise en pratique')}<details class="source-notes"><summary>参考资料</summary><ul>${(c.sources||[]).map(s=>`<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener noreferrer">${s.title}</a></li>`).join('')}</ul></details></article>`;
 }
 function expansionHTML(g){
   const x = EXPANSIONS[g.id];
@@ -70,10 +73,10 @@ function cardHTML(g){
     practice = `<div class="practice"><div class="label">练习 · Exercices</div><ol class="qs">${items}</ol></div>`;
   }
   return `<article class="card" id="${g.id}" data-level="${g.level}">
-    <h3><span class="ttl"><a class="point-link" href="${pointURL(g.id)}">${fullTitle(g)}</a></span> ${tts(g.title)} <span class="badge ${g.level}">${g.level}</span> <button class="say-all" title="仅朗读本节(标题+讲解+例句) / Lire cette fiche">▶ 整段朗读</button> <button class="say-from" title="从本节起连续朗读全部,可在顶栏暂停/停止 / Lire en continu à partir d'ici">⏩ 从此连读</button></h3>
-    <div class="expl">
+    <h3><span class="ttl"><a class="point-link" href="${pointURL(g.id)}">${fullTitle(g)}</a></span> ${ruleTTS(g.title)} <span class="badge ${g.level}">${g.level}</span> <button class="say-all" title="仅朗读本节(标题+讲解+例句) / Lire cette fiche">▶ 整段朗读</button> <button class="say-from" title="从本节起连续朗读全部,可在顶栏暂停/停止 / Lire en continu à partir d'ici">⏩ 从此连读</button></h3>
+    <p><a href="audio-library.html?content=${escAttr(g.id)}">本节全部配套法语音频</a></p><div class="expl">
       <div class="zh">${g.zh}</div>
-      <div class="fr">${tts(g.fr)} ${g.fr}</div>
+      <div class="fr">${ruleTTS(g.fr)} ${g.fr}</div>
     </div>
     ${forms}
     <div class="label">例句 · Exemples</div>
@@ -278,12 +281,14 @@ function playItems(items,btn){
     if(url&&audioEl){
       curAudio=audioEl;
       audioEl.onended=()=>{if(gen===speakGen){curAudio=null;next();}};
-      audioEl.onerror=()=>{if(gen!==speakGen)return;curAudio=null;speakOne(it.t,()=>{if(gen===speakGen)next();});};
+      let failed=false;
+      const fallback=()=>{if(failed||gen!==speakGen)return;failed=true;audioEl.onended=null;audioEl.onerror=null;curAudio=null;speakOne(it.t,()=>{if(gen===speakGen)next();});};
+      audioEl.onerror=fallback;
       try{audioEl.pause();}catch(e){}
       audioEl.src=url;
       try{audioEl.playbackRate=rate||1;}catch(e){}
       const pr=audioEl.play();
-      if(pr&&pr.catch)pr.catch(()=>{if(gen!==speakGen)return;curAudio=null;speakOne(it.t,()=>{if(gen===speakGen)next();});});
+      if(pr&&pr.catch)pr.catch(fallback);
     }else{
       curAudio=null;
       speakOne(it.t,()=>{if(gen===speakGen)next();});

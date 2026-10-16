@@ -1,0 +1,30 @@
+{
+  "text": "Interrogation et négation",
+  "text_sha256": "573f42ca8696549375da17ab89558fbed2c9b17fbe4fa850eda655e3c1c0edfa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9504761904761905,
+      "source_seconds": 1.9504761904761905,
+      "source_file_sha256": "fcb9c6bcf425b6d9ff4a1f3f1d9024a02f2ecca4089fe88161e7566beadcc71c",
+      "file_sha256": "d18449fb52640d6efbfa0e57a494e3d82e3f6442983a82a8d27ebb6a9dc1d905",
+      "bytes": 16344,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

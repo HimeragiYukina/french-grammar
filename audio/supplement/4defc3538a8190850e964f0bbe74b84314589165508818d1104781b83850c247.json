@@ -1,0 +1,30 @@
+{
+  "text": "Il apprend en lisant",
+  "text_sha256": "4defc3538a8190850e964f0bbe74b84314589165508818d1104781b83850c247",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0797278911564625,
+      "source_seconds": 1.0797278911564625,
+      "source_file_sha256": "b04ed9cbc8f2e7543ec0dda4e65665050495dc7677b9bf00889a13714eb0382d",
+      "file_sha256": "921132b1793893ed32e38b90a23fe4bd4c53b8950581b97d01c2fc0fcb2ff5e7",
+      "bytes": 9448,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

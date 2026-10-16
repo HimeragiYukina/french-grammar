@@ -1,0 +1,30 @@
+{
+  "text": "Je n’ai pas de vélo. Ce n’est pas une librairie.",
+  "text_sha256": "32acb8678e70a727cfca836551ca107c62c11de394ae33fb17b9ab7c3d75039f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6586848072562357,
+      "source_seconds": 2.6586848072562357,
+      "source_file_sha256": "9171fecae3296ecf436eae2aa94e02891f4f90232bf5b20cb1238d1ccc6dbf92",
+      "file_sha256": "1e4c1131d89f18ba00d993e17b8babd9e87b8a8cb251f3f2a0f432ef3b67bbfb",
+      "bytes": 21986,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

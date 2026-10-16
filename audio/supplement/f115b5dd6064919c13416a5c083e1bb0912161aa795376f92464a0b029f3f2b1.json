@@ -1,0 +1,30 @@
+{
+  "text": "aimé de tous",
+  "text_sha256": "f115b5dd6064919c13416a5c083e1bb0912161aa795376f92464a0b029f3f2b1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0100680272108844,
+      "source_seconds": 1.0100680272108844,
+      "source_file_sha256": "77a9dd76368c3fdd066f77cabaeb47b099626363c6ac81a7cef6e5962577444d",
+      "file_sha256": "ebebb6926953c26c1dca753f825f4c85ee9da875933698f99c2a68fb6e5c80c1",
+      "bytes": 8821,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

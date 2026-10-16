@@ -1,0 +1,30 @@
+{
+  "text": "D’après la presse, une nouvelle ligne ouvrirait en juin.",
+  "text_sha256": "58d831a6a749720f757acde9bcd1a3e4ab4e9fb3221c93c89fc9c6cf0754c890",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.320453514739229,
+      "source_seconds": 3.320453514739229,
+      "source_file_sha256": "149324b08cfec4f757532d5da482d534069e82e7ccba59c55d2a1bcd468fe43c",
+      "file_sha256": "c75a07db7278d04c626c7d0dba47cc20e4f26d2f8cdaa61771296370501ad600",
+      "bytes": 27420,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

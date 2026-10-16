@@ -1,0 +1,30 @@
+{
+  "text": "Je lui manque, mais elle ne me manque pas.",
+  "text_sha256": "74580f60455b87cb9139b6342541226d7ceffe9faa5aeffdd1e5f1a561267727",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.147845804988662,
+      "source_seconds": 2.147845804988662,
+      "source_file_sha256": "7ceb23c7a2893df94afa0c6df3d6ed374affc80104635a5355b4882223118f0b",
+      "file_sha256": "694d67c680045b69411a4bc99be0e03b8c96e92b88859352f2cc63b3bb879fbc",
+      "bytes": 18016,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

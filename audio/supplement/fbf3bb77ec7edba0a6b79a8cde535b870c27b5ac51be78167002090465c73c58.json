@@ -1,0 +1,30 @@
+{
+  "text": "Articulateurs : opposition, concession",
+  "text_sha256": "fbf3bb77ec7edba0a6b79a8cde535b870c27b5ac51be78167002090465c73c58",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.681904761904762,
+      "source_seconds": 2.681904761904762,
+      "source_file_sha256": "c09cb13578e0b955d4c0fb2b839f67e2dfd365548dd8e8ee7fc978a06bb2fdab",
+      "file_sha256": "5e8d86aca5a740e91b620ec5a6e4c1fb2762fef9532f6965ace38b6349bd5386",
+      "bytes": 22195,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

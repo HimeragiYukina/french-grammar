@@ -1,0 +1,30 @@
+{
+  "text": "Elle est restée, non qu'on le lui ait demandé, mais par solidarité.",
+  "text_sha256": "d974f8df8d2742f8195eeae2b524bbd25d20a026529f4e8c60a5da7b087cd35b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.81968253968254,
+      "source_seconds": 3.81968253968254,
+      "source_file_sha256": "2ca6062414fb0f04bbf236dc996cdc22962f07f313532012d4a1b7963180a531",
+      "file_sha256": "a31a4c9d761c2182ea2795255911b42bd48b2f358a37c397980a1254ddb0bfa6",
+      "bytes": 31390,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

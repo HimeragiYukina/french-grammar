@@ -1,0 +1,30 @@
+{
+  "text": "Quand tu as appelé, nous regardions un film.",
+  "text_sha256": "8f1b47bd8b8df72c6a7f865566cbfc7fc1cd6a314f1cc405d6c1a5b1a71d9881",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.507755102040816,
+      "source_seconds": 2.507755102040816,
+      "source_file_sha256": "65ad2f24b070b84c1023404b3d3e35d1f9841f07fdb1a97732deee1d6b06da0a",
+      "file_sha256": "8ce18ca9e5e5f687f76133be04d9f26ee44317a2981a4f155c54ad83009ff166",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

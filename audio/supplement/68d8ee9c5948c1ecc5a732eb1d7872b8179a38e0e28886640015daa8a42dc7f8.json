@@ -1,0 +1,30 @@
+{
+  "text": "Samedi, je vais chez ma grand-mère.",
+  "text_sha256": "68d8ee9c5948c1ecc5a732eb1d7872b8179a38e0e28886640015daa8a42dc7f8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.159455782312925,
+      "source_seconds": 2.159455782312925,
+      "source_file_sha256": "3574b3f76986d63455372285896ec9adbfc9add40483de797010ec186fccd6f6",
+      "file_sha256": "4ef270dd085bbdab7006162a827b8aa89f5eb27bba8f2bce676d001a703779d3",
+      "bytes": 18016,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

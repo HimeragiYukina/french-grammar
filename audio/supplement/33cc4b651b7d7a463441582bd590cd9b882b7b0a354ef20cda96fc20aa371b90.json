@@ -1,0 +1,30 @@
+{
+  "text": "Je ne crois pas qu’il ait raison.",
+  "text_sha256": "33cc4b651b7d7a463441582bd590cd9b882b7b0a354ef20cda96fc20aa371b90",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2887074829931973,
+      "source_seconds": 1.2887074829931973,
+      "source_file_sha256": "bb149e5c64d2a13f2f5b7fd72fc7528c75d719c3a38c63e5bc95296f2c345908",
+      "file_sha256": "655ec737031ddb553ecbcc7d7f26db37a14b590433e15b2427bd066f2ab04b76",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "C’est ici qu’on mange le moins cher",
+  "text_sha256": "b8327d0b6d8b1d454d560456f5cecfbce00d3690bdc11f13ce41b9dfce571dae",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9040362811791383,
+      "source_seconds": 1.9040362811791383,
+      "source_file_sha256": "a3fef31dcc1df0879600309c6219d960715504010e3adcf82277c93a5f65776e",
+      "file_sha256": "5c43b6f0d0bbfe71bb6c86f47605ca7db170913b6bfc3249d39a9169c3e4df48",
+      "bytes": 15926,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

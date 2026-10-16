@@ -1,0 +1,30 @@
+{
+  "text": "Après que Léa a vérifié le contrat, Marc l’a signé.",
+  "text_sha256": "bae6f67e7331f45671af6d30fcb626e1c55f2cbd12a4e2088ef5a46f3027d39e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2043537414965986,
+      "source_seconds": 3.2043537414965986,
+      "source_file_sha256": "fc0a62a6858c1e90a0100d2adab7813aae30ed414e1ff3b102a18f1320d6f97f",
+      "file_sha256": "d5720fc14c65b1e020615fd403325cb41dc87db752fd1991f6e0b8f8a43fb4d2",
+      "bytes": 26375,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

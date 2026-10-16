@@ -1,0 +1,30 @@
+{
+  "text": "Le refus de signer le contrat a retardé le projet.",
+  "text_sha256": "9512d000c07fe06e2fb760766320cc16f8cea6a83fd9093f7bfa9c19388d37c3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8560544217687074,
+      "source_seconds": 2.8560544217687074,
+      "source_file_sha256": "081a9637c47c68bea377870d0e498291f863fa07617d3d1312afc0b2c4724fa4",
+      "file_sha256": "c13c35376a967b2aaf1450ec7fe9f58f4fcf8e5f661ea1b691df91a639003554",
+      "bytes": 23658,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

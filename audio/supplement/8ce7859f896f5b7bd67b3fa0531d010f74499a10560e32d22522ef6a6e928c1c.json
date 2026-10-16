@@ -1,0 +1,30 @@
+{
+  "text": "Il est faible en maths ; ___ , il excelle en langues. (",
+  "text_sha256": "8ce7859f896f5b7bd67b3fa0531d010f74499a10560e32d22522ef6a6e928c1c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4961451247165534,
+      "source_seconds": 2.4961451247165534,
+      "source_file_sha256": "17e949005557dc4411986bdb2caccae84a8efb6f1d1ff1a245e9a3878db1cb51",
+      "file_sha256": "dfee9ae11b73a39aa22e34b73356618376397cb9c9c6d1b56ee33eff687f6bdc",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Je ne bois pas de lait. Ce n’est pas du lait dans ce verre.",
+  "text_sha256": "270265270d02b88cb43d011398a5f01faa28e661360a2416517a2e1a1f53ff4f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7631746031746034,
+      "source_seconds": 2.7631746031746034,
+      "source_file_sha256": "174e620e92461f31b9193b2595a4db12fc9930e6addea447a51a61400f555ae9",
+      "file_sha256": "2626d377cfdebc893830c47a2f76c3768a4e0f6f157f46a2c41be1ef85be8c64",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

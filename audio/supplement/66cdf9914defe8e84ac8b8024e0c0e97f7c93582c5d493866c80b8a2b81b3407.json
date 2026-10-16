@@ -1,0 +1,30 @@
+{
+  "text": "Le projet est intéressant ; encore faut-il trouver les fonds.",
+  "text_sha256": "66cdf9914defe8e84ac8b8024e0c0e97f7c93582c5d493866c80b8a2b81b3407",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1811337868480725,
+      "source_seconds": 3.1811337868480725,
+      "source_file_sha256": "a8ab1be5a5c0d54b0c12204e752ffcfd52ffe8a4868995f80d94ca3c509c7bf8",
+      "file_sha256": "04d50b32f5dff413c343abc9fac89f61cdf9c680202c7fcd251ae867a090c0f0",
+      "bytes": 26166,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

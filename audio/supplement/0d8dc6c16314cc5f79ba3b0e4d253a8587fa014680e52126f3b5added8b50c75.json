@@ -1,0 +1,30 @@
+{
+  "text": "Qui qu’il soit, il doit présenter une pièce d’identité.",
+  "text_sha256": "0d8dc6c16314cc5f79ba3b0e4d253a8587fa014680e52126f3b5added8b50c75",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1463038548752835,
+      "source_seconds": 3.1463038548752835,
+      "source_file_sha256": "9a89baed14728b6854335a6590725a25c6859fbddd8304e0b49a576f260eae74",
+      "file_sha256": "a9c512b539be08c728eebcd11eb3fbd7d4198846d410c9af1dfcb8c8c8ff9392",
+      "bytes": 25957,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Les paroles qu'elles se sont dites étaient blessantes.",
+  "text_sha256": "3a7cd89df6bbdda0ae4b84a8afbdb2899bbcf582dbeaf2bc0798b8f5933f03ff",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.48453514739229,
+      "source_seconds": 2.48453514739229,
+      "source_file_sha256": "f3d16129aeb7d03be4b409b70f0194fecf8004a78277b5a38fb50016156b43f0",
+      "file_sha256": "b62c44e3638612d2b57e9fbd2ef0fdb88b564ccf8948cf1d29d1f56222ad712e",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

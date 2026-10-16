@@ -1,0 +1,30 @@
+{
+  "text": "la ville d’où je viens",
+  "text_sha256": "942c7a5b915420c7df5bd40e63c41910407e608e79c6579842446fa576a5ec73",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3119274376417234,
+      "source_seconds": 1.3119274376417234,
+      "source_file_sha256": "adf60eb4b398c583da0cd4f9e8736d4d29ef04759b9ba2c81d542b973e50b328",
+      "file_sha256": "069080b6e19eeeb8a23c2f9b1e31dac3b4b51ee556489cff844b7c65ad788267",
+      "bytes": 11328,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

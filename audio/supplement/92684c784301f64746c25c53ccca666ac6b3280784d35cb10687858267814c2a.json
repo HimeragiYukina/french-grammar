@@ -1,0 +1,30 @@
+{
+  "text": "C’est moi qui ai décidé",
+  "text_sha256": "92684c784301f64746c25c53ccca666ac6b3280784d35cb10687858267814c2a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5441269841269842,
+      "source_seconds": 1.5441269841269842,
+      "source_file_sha256": "caeceecc2fb14ddac2c2b72e4d969eaab21b1e8c1288e5e84b78d5758607ecaf",
+      "file_sha256": "010eb237f33cb89da7126943691382d5ddd8b577bd323e74d60e020e9799c90d",
+      "bytes": 13209,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

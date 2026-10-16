@@ -1,0 +1,30 @@
+{
+  "text": "Si je serais riche…",
+  "text_sha256": "63828227e5f297945353e33a9c00803fda1a72da6e39f08f7c18dde354f1f921",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3003174603174603,
+      "source_seconds": 1.3003174603174603,
+      "source_file_sha256": "b76bf95967ca7897569890f8a76d7424c7500ee5981d9ec12c6fe017d05f5c26",
+      "file_sha256": "b95981c9fb4ac4daa272feee434089cdb7c18d3810a9df5f7a2470c2a70e7ad5",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

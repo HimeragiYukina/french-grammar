@@ -1,0 +1,30 @@
+{
+  "text": "familier: Tu pars quand ? / courant: Quand est-ce que tu pars ? / soutenu: Quand partez-vous ?",
+  "text_sha256": "47c62a0dddf925c1429847972873ed28eb1e85b3020c818754bc9a319252a4bd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.468299319727891,
+      "source_seconds": 5.468299319727891,
+      "source_file_sha256": "1448cd65d7107cb45c26826ead2570a5de271502f2ab08bfeb106d013902b84b",
+      "file_sha256": "a8588ffd6bdf2600e9f2363bfc26cd80f05faca141c18316bedf30868ef437c3",
+      "bytes": 44556,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

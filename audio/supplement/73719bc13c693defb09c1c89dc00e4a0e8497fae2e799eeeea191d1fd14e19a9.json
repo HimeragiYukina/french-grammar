@@ -1,0 +1,30 @@
+{
+  "text": "trop fatigué pour conduire",
+  "text_sha256": "73719bc13c693defb09c1c89dc00e4a0e8497fae2e799eeeea191d1fd14e19a9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7182766439909296,
+      "source_seconds": 1.7182766439909296,
+      "source_file_sha256": "7f72aec168c360a8f080460713e6ac1bf4f803bbf90f110f8cb1549c8e142ced",
+      "file_sha256": "4053859b6671853ed554ccbe2fcab1a01eb1ebfaed1d79640f16bfd7132a49ab",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

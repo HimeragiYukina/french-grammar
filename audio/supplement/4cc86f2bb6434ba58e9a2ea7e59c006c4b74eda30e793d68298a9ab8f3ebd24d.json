@@ -1,0 +1,30 @@
+{
+  "text": "Je viendrai, à moins qu'il ne pleuve.",
+  "text_sha256": "4cc86f2bb6434ba58e9a2ea7e59c006c4b74eda30e793d68298a9ab8f3ebd24d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.089795918367347,
+      "source_seconds": 2.089795918367347,
+      "source_file_sha256": "d6f4db7ffc22383dcfe35eff5bfbcec0824df61ce0510bfdb3c391b9d792e41f",
+      "file_sha256": "3d3c7f3283b8a69b6b87f9b732e9f31b4accd5e019f4c0cfe1b3d4d465d59936",
+      "bytes": 17389,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elle parle trois langues, c'est pourquoi elle a vite trouvé un poste.",
+  "text_sha256": "0ea3cc6733eaeac4fadce3528fd21f51ca0b92b08f3ba6506fc10128dcc46f5d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.8080725623582765,
+      "source_seconds": 3.8080725623582765,
+      "source_file_sha256": "08343df41907137d287c283c447d016da5624f205360e01170fed4d20b87de90",
+      "file_sha256": "28a5d04728e91efbb7e3b3974d136647287c0af0367ba6b1cd650dec6f213bc5",
+      "bytes": 31181,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

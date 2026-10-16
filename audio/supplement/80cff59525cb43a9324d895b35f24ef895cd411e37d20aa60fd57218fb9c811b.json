@@ -1,0 +1,30 @@
+{
+  "text": "Je lui demande où…",
+  "text_sha256": "80cff59525cb43a9324d895b35f24ef895cd411e37d20aa60fd57218fb9c811b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0332879818594105,
+      "source_seconds": 1.0332879818594105,
+      "source_file_sha256": "b2ec9b79f7c33535517f3aa78136863e87467c6e5210e7afedafad8ba829e535",
+      "file_sha256": "3f8db3961ca190efff14e59fd132b2042ef39ebc8a14b1a3d1d7ce74bb97db48",
+      "bytes": 9030,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

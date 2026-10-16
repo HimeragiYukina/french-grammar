@@ -1,0 +1,30 @@
+{
+  "text": "Les pièces ci-jointes complètent le dossier.",
+  "text_sha256": "c5c8b23bfa81cb01ebf5a8aa7349635efd26948f066c9313b17139e1f8bf3bf0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.391655328798186,
+      "source_seconds": 2.391655328798186,
+      "source_file_sha256": "df139bf89693a3b8af801dc0078165287c482ab6df7e28eef2c73e51db6284ca",
+      "file_sha256": "25f8f8990885e64bc0502f586328082cf1f79a262e0e91664bd2b693502bf4b2",
+      "bytes": 19897,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

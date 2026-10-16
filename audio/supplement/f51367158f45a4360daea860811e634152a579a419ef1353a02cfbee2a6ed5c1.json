@@ -1,0 +1,30 @@
+{
+  "text": "Il fallait qu’elle vînt avant midi. Moderne : Il fallait qu’elle vienne avant midi.",
+  "text_sha256": "f51367158f45a4360daea860811e634152a579a419ef1353a02cfbee2a6ed5c1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.959002267573696,
+      "source_seconds": 3.959002267573696,
+      "source_file_sha256": "981a6f622f5e7469aaaf9d7efc28d4f8979774a59dac5bc151172a1a8fbaf199",
+      "file_sha256": "3aeb55f5cad7eb450fe9b3c1699c2fbea6e42072cc4243bb58c14804089d70ac",
+      "bytes": 32435,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Je vais en acheter trois.",
+  "text_sha256": "7a57cfb38b3ffccf8394265ade597bf8fa54d4dd7de4073f28abc641a9b1521d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.474467120181406,
+      "source_seconds": 1.474467120181406,
+      "source_file_sha256": "8810f2f853f770cd3956d41743e0540cbe76ea14714b283ac182889a9c629951",
+      "file_sha256": "25ab4407878758a1cd9314f9a4dab2c3ed08d2d7392e564be9221d6c13ce1a3b",
+      "bytes": 12582,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

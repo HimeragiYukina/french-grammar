@@ -1,0 +1,30 @@
+{
+  "text": "Les enfants se sont souvenus de cette histoire.",
+  "text_sha256": "a33c577d611fdb97f555f160a811a2f3a92c0a259dc23c2b216da705bc970a19",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.449705215419501,
+      "source_seconds": 2.449705215419501,
+      "source_file_sha256": "dd1a96694d33e65693c97f955d26e8852098454c49b6b1a820103906e428d3ef",
+      "file_sha256": "7915207887e87b2d7c9ea8d5be09e31cfd93802da61d5e4eefca4d53d86b81b7",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

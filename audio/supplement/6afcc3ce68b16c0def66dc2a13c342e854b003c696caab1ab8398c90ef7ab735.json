@@ -1,0 +1,30 @@
+{
+  "text": "Dans la première phrase, elle craint sa venue ; ne peut être explétif. Dans la seconde, elle craint son absence : ne…pas est une négation. Elle téléphone parce qu’elle a peur qu’il ne vienne pas.",
+  "text_sha256": "6afcc3ce68b16c0def66dc2a13c342e854b003c696caab1ab8398c90ef7ab735",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 10.65795918367347,
+      "source_seconds": 10.65795918367347,
+      "source_file_sha256": "fb633639a34eab340b1f7566f476231e5df14a487ed18105c8edd2a17b621224",
+      "file_sha256": "6d7111dd13a7b31e6ef8b0459ed40eb9fd7fef1a3b884f165d033c7e9c55450c",
+      "bytes": 85934,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -6,6 +6,13 @@ g=[];p={};x={};source={}
 for l in ('a1','a2','b1','b2','c1','c2'):
  for kind in ('grammar','expansion'):
   name=f'tools/{kind}-{l}.json';source[name]=json.loads((r/name).read_text(encoding='utf-8'))
+# Reverse this batch before replaying historical review ledgers.
+for ch in reversed(json.loads((r/'tools/full-site-review-20261016.json').read_text(encoding='utf-8'))['changes']):
+ if ch['file'] not in source:continue
+ obj=source[ch['file']]
+ for key in ch['path'][:-1]:obj=obj[key]
+ assert obj[ch['path'][-1]]==ch['after'],(ch['file'],ch['path'])
+ obj[ch['path'][-1]]=copy.deepcopy(ch['before'])
 # Restore this review's edits in memory before comparing the original historical baseline.
 for audit in sorted((r/'tools').glob('strict-audit-*.json')):
  data=json.loads(audit.read_text(encoding='utf-8-sig'))

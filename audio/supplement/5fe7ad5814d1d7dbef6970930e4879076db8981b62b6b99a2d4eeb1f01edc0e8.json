@@ -1,0 +1,30 @@
+{
+  "text": "Nous sommes à la gare.",
+  "text_sha256": "5fe7ad5814d1d7dbef6970930e4879076db8981b62b6b99a2d4eeb1f01edc0e8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.18421768707483,
+      "source_seconds": 1.18421768707483,
+      "source_file_sha256": "dde5f95597fd1d8be2f3fea7c53b5c1429704ada5490cef04751d50df358ff10",
+      "file_sha256": "970ece22853315a8dc3c477ae0c67acf44ebc91825650245ecdb724e2c0b881b",
+      "bytes": 10284,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

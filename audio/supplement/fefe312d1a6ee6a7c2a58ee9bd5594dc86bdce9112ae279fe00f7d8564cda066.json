@@ -1,0 +1,30 @@
+{
+  "text": "Peut-être qu'il faudra revoir le calendrier.",
+  "text_sha256": "fefe312d1a6ee6a7c2a58ee9bd5594dc86bdce9112ae279fe00f7d8564cda066",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2755555555555556,
+      "source_seconds": 2.2755555555555556,
+      "source_file_sha256": "c18ff2a49353d328ff25555adb49c9bc0b23bbead591ae7c0c028178511a64fe",
+      "file_sha256": "0220a4d1d06caa3bb8edd7bcf5209936f72adc32cb08e8c844089664b4d48513",
+      "bytes": 19061,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

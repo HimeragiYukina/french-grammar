@@ -1,0 +1,30 @@
+{
+  "text": "Elle téléphone de peur qu’il ne vienne. / Elle téléphone de peur qu’il ne vienne pas.",
+  "text_sha256": "0cae676966f8cae8136dc0a3541d150c9cdef86391074519add3acf3b7b409e3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.063492063492063,
+      "source_seconds": 4.063492063492063,
+      "source_file_sha256": "f2ca0dc386962c1359f3c3a1be97918b8021d330c40c91e974ae664c4c5d7db1",
+      "file_sha256": "9ff93cb08107c2e933fab704d96119b5ede0bc6c044287931f311f6d6e48b551",
+      "bytes": 33271,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

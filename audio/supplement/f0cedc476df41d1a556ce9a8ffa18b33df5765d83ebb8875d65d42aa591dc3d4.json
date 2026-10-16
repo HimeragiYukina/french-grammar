@@ -1,0 +1,30 @@
+{
+  "text": "Appelez avant de venir, au cas où la réunion aurait été annulée.",
+  "text_sha256": "f0cedc476df41d1a556ce9a8ffa18b33df5765d83ebb8875d65d42aa591dc3d4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.599092970521542,
+      "source_seconds": 3.599092970521542,
+      "source_file_sha256": "73741ea6bc04fa54a2852bcc1c4b726bb2df30b06723961e79d1d2774e66cd25",
+      "file_sha256": "6615c0d6547fa02fb182b112bbd4a42ea28a91705e60ae2cd6d7730606282e5a",
+      "bytes": 29510,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

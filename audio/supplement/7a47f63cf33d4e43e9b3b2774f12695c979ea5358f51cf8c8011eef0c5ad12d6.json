@@ -1,0 +1,30 @@
+{
+  "text": "On aurait dit un rêve.",
+  "text_sha256": "7a47f63cf33d4e43e9b3b2774f12695c979ea5358f51cf8c8011eef0c5ad12d6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3815873015873017,
+      "source_seconds": 1.3815873015873017,
+      "source_file_sha256": "d0cfb4a44dcbee4d76f5e0e8ee8deb38a518dd822ed45659c19bd9a08a470d1b",
+      "file_sha256": "91e8bce3f5b88f68be0568f4c8f00a711590d020a341cf85155c6ff66d2ad524",
+      "bytes": 11746,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

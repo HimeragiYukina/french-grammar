@@ -1,0 +1,30 @@
+{
+  "text": "Je crains qu’elle ne vienne pas.",
+  "text_sha256": "3ebf7dcb4c84eaaa18e65ca9bd68d28b55b6556c80a6f6c0171b59fb918dab3d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5209070294784581,
+      "source_seconds": 1.5209070294784581,
+      "source_file_sha256": "cc892e346774fbbc36a2ffa7c5fe481c1a45f0c32ac67ef63c3672de2ef6ba7f",
+      "file_sha256": "c1f05aad6eb664983961afbb3b77fec979a151190105958c2e109d3d48116dd5",
+      "bytes": 13000,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

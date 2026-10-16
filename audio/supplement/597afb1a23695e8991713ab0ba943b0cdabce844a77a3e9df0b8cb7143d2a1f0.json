@@ -1,0 +1,30 @@
+{
+  "text": "La collègue avec qui je partage le bureau arrive demain.",
+  "text_sha256": "597afb1a23695e8991713ab0ba943b0cdabce844a77a3e9df0b8cb7143d2a1f0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.728344671201814,
+      "source_seconds": 2.728344671201814,
+      "source_file_sha256": "1946cdde74face8fe33bc94b3ee7a32c2068e2a8e59cca3f7b67f2d878d94baa",
+      "file_sha256": "8b825d5474dde51a1e0adfa8e31dd340c005a93a279dad560765fd824cddd478",
+      "bytes": 22613,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

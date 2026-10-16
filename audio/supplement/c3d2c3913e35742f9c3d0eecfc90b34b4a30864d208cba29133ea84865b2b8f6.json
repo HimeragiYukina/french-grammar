@@ -1,0 +1,30 @@
+{
+  "text": "Cette soupe est meilleure que celle d’hier.",
+  "text_sha256": "c3d2c3913e35742f9c3d0eecfc90b34b4a30864d208cba29133ea84865b2b8f6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9272562358276644,
+      "source_seconds": 1.9272562358276644,
+      "source_file_sha256": "5108003a43b897328b952ef6aa9512649921905dbffc7c3ede3618d5e8a7f618",
+      "file_sha256": "864eaf9b2de19dff967f74186e3dc81dac386583c5a573362c369e7b9f9a0cd2",
+      "bytes": 16135,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

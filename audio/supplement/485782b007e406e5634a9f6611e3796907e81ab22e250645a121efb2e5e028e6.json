@@ -1,0 +1,30 @@
+{
+  "text": "Les efforts que ce travail m'a coûtés.",
+  "text_sha256": "485782b007e406e5634a9f6611e3796907e81ab22e250645a121efb2e5e028e6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.159455782312925,
+      "source_seconds": 2.159455782312925,
+      "source_file_sha256": "340bf0579ecaa7efb21f0ebce674d721201af9c851436e413ee2b40a1b0c146e",
+      "file_sha256": "84a04ceccb5da058b55f2a1afc142c7424803e0031c096c808e136105cac7aaa",
+      "bytes": 18016,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elle s'est vu notifier son licenciement",
+  "text_sha256": "3597858e6e69d540ae2c22113005de6f12b1907807142a783978b0226010cd05",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.124625850340136,
+      "source_seconds": 2.124625850340136,
+      "source_file_sha256": "9227b89c5998493605112829d9042af92060f5eea8afcad7420db09e915784cc",
+      "file_sha256": "deeb2a9b1b951d77d9e68737aaea61e97e13caf8abd2a2ca5db00fb9c4ad7a86",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Puisque tu es là, aide-moi !",
+  "text_sha256": "df4fde496401f97544a8d09570755548bf25b0c5eecae4ca9153d3860972bc07",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8808163265306121,
+      "source_seconds": 1.8808163265306121,
+      "source_file_sha256": "2bd6669ad59c580e24198fa8a54b5bb1c0828c08f198fc5f55b6e7960539690c",
+      "file_sha256": "ccd6933bf5293a3e81b39857edd6adc2b0ac7e3fa8ae8d9ca327e4e1faa3d379",
+      "bytes": 15717,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

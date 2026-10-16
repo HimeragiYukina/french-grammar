@@ -1,0 +1,30 @@
+{
+  "text": "ces qui veulent venir",
+  "text_sha256": "fb233e25163a9cc537735bf602726b8f55c048f48d98b72c71536a541d306354",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3119274376417234,
+      "source_seconds": 1.3119274376417234,
+      "source_file_sha256": "654cef41ae6272d8572bcfa159c9547896d535556a665739953b08334323d2c2",
+      "file_sha256": "265ddcb281b9407f8e95575ba86e47f3c787b155c5cca66aa264789c46eb06eb",
+      "bytes": 11328,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

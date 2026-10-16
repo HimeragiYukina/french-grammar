@@ -1,0 +1,30 @@
+{
+  "text": "Voici le bureau où elle travaille.",
+  "text_sha256": "4c577a6a93e92079bc65dea2dc5de14b9beb12dc0ca43a0bf56897818c8523ed",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2523356009070294,
+      "source_seconds": 2.2523356009070294,
+      "source_file_sha256": "22869f38864092dde40d7cc9d4acdd2a3b9255265cd2174428a531569728aaa1",
+      "file_sha256": "a2e8c07083832014737d54b7ea75d3d8bf8e0ee587ee618b5b4c26d31a8ff317",
+      "bytes": 18852,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Étant donné que les magasins sont fermés le dimanche, faisons les courses aujourd'hui.",
+  "text_sha256": "0e725bd520a18abc30bdf5fa2a9a34fe90649a65a2493da41a2cbdab9f90d5a4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.133151927437642,
+      "source_seconds": 4.133151927437642,
+      "source_file_sha256": "4338182196ebe835000004db574f5a97b3e818645393a50480b40f9bd175be03",
+      "file_sha256": "883f480dd254d8e12bb4955c0472196315b45fdf6cdb13f0f3300546fc56266a",
+      "bytes": 33898,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

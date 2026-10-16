@@ -1,0 +1,30 @@
+{
+  "text": "Toute compétente qu'elle soit, elle ne peut travailler seule.",
+  "text_sha256": "3d3259cc93e6e6b070402acf5e24acff6985991ded4ad57059f9f7e697565a09",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9837641723356008,
+      "source_seconds": 2.9837641723356008,
+      "source_file_sha256": "55888a792119ccbe4c912bac5288bad0e9ea79d88fbc97a5150cd569a81f1273",
+      "file_sha256": "b8b6e543e1545fef3a1ae85d59426a1666509b7893d6e02d53ef7dda7d7037b1",
+      "bytes": 24703,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Il serait à Lyon si le train circulait",
+  "text_sha256": "1674d813f1bc9b0a5f84603cc9074ae17336966dca261fb34e4405df7937ad34",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1942857142857144,
+      "source_seconds": 2.1942857142857144,
+      "source_file_sha256": "9d4d3fa0b15a6c2dae2f68c62f709c1a5713205e58e72a06e0aa908e7ebd19ff",
+      "file_sha256": "aaa8d4adff88bcca831a60dbbb2cfd1f928a15e09ca150c3f22255ec3511dc94",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

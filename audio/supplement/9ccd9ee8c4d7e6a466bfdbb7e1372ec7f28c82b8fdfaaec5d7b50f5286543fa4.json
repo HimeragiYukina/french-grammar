@@ -1,0 +1,30 @@
+{
+  "text": "Les lettres qu’elle avait écrites étaient déjà dans l’enveloppe quand je suis arrivé.",
+  "text_sha256": "9ccd9ee8c4d7e6a466bfdbb7e1372ec7f28c82b8fdfaaec5d7b50f5286543fa4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5874829931972787,
+      "source_seconds": 3.5874829931972787,
+      "source_file_sha256": "f661624c88bee65b7951256ef0b1f560ad71a3fe8193d38175e237a1d619d4ff",
+      "file_sha256": "a2e7fb9240f68307f575958d9154918b60c85ed17136ce465536adcce2307690",
+      "bytes": 29510,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

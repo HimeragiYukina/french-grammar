@@ -1,0 +1,30 @@
+{
+  "text": "L’eau bout à 100 °C à la pression atmosphérique normale.",
+  "text_sha256": "3ab277c2438772f70904dc7740a271a5c1f53e0f35db8d023bc09821409d84e9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.680362811791383,
+      "source_seconds": 3.680362811791383,
+      "source_file_sha256": "7aff00b19b2005f031c2f2839d55bda04f1e8d813dca8778fde3ba8d89380a44",
+      "file_sha256": "5b461b1e63dffdc95468f6289fb4c31d3066a0ce332131e29f6301d171166e1e",
+      "bytes": 30137,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

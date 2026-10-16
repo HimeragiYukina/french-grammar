@@ -1,0 +1,30 @@
+{
+  "text": "Les enfants grandissent vite.",
+  "text_sha256": "d53732328862203033054a3fd96daef5a721ca7e5f4c58b3227701ddfcbe9b41",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6718367346938776,
+      "source_seconds": 1.6718367346938776,
+      "source_file_sha256": "fe432c2e81a910fbf535e5594629728f74102fffb2f86757ca470ba6d9f59d1b",
+      "file_sha256": "4c7d4a49f9226aa85c44f0219af925e795c77776a233da97a81e15bfdbf1657b",
+      "bytes": 14045,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

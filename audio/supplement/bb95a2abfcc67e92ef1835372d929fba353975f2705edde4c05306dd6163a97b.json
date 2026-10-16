@@ -1,0 +1,30 @@
+{
+  "text": "Complétez avec il n'empêche que : Le projet coûte cher ; ___ il demeure indispensable.",
+  "text_sha256": "bb95a2abfcc67e92ef1835372d929fba353975f2705edde4c05306dd6163a97b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.6788208616780045,
+      "source_seconds": 4.6788208616780045,
+      "source_file_sha256": "7f486181ae7d4b3fd872471178952a12d2505486aca9ade041ebcef5165dba09",
+      "file_sha256": "9d1c837066a8d97ea5e9f80c72f4f0492834e340e07b2d19369eb2f0fda16fa0",
+      "bytes": 38287,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Nadia installe les tables pour que chacun ___ (pouvoir) manger.",
+  "text_sha256": "62ae7bb4746e98cc295baeb25ee806a58a8e085815b3dddc25ef9c8f37f4bc31",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5526530612244898,
+      "source_seconds": 3.5526530612244898,
+      "source_file_sha256": "e97f95b99ddb7a19fc83d757ed91cc9677a206d483b5002b89a816081137ef45",
+      "file_sha256": "c1c2fb2b12c47bccd9ae8c228063b69d7076a6ad9ad896515c6f44f363fdf479",
+      "bytes": 29092,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

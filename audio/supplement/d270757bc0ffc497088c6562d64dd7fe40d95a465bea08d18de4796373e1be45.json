@@ -1,0 +1,30 @@
+{
+  "text": "Il finit son dîner à huit heures.",
+  "text_sha256": "d270757bc0ffc497088c6562d64dd7fe40d95a465bea08d18de4796373e1be45",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9156462585034013,
+      "source_seconds": 1.9156462585034013,
+      "source_file_sha256": "265548db4931fe5ea545c62b7bccfc064673f63d89951c593ac125a2a20d12d2",
+      "file_sha256": "7f2fd976d1cac3268835e039ec01152fc6433e9d468391e1410b3ce91729b86e",
+      "bytes": 16135,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

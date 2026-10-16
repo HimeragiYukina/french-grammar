@@ -1,0 +1,30 @@
+{
+  "text": "Ce chapitre traite de l’exil",
+  "text_sha256": "37e76458190ca6474cb57542a9113b29e08b5a87c39c87e03d3976412fd54af9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1942857142857144,
+      "source_seconds": 2.1942857142857144,
+      "source_file_sha256": "de3c814d101ac8ef492f3fbdc1683cdb610afd401007c33039f3efbe429aecd6",
+      "file_sha256": "78cf6d6db337e6cb271aa1584c764a4614c230e99efb06ea0fd3d619f344ae4a",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

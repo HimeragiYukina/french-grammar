@@ -1,0 +1,30 @@
+{
+  "text": "aurait fallu",
+  "text_sha256": "8c1abb6a33581dd2a7e5783d5d6858271f0143b0a1637b61ec053a5d37de8280",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0332879818594105,
+      "source_seconds": 1.0332879818594105,
+      "source_file_sha256": "0831d41f0c14730ba52b115c8012c7b9a6982e21314e491a00bb2bd67caed5d8",
+      "file_sha256": "b8522aa4f8491bc5774343e9ded6913a71983cd8d6f0cefea01a7809ba360e08",
+      "bytes": 9030,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

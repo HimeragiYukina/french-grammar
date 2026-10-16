@@ -1,0 +1,461 @@
+{
+  "scope": "grammar runtime speech controls only; no private tutorial source content",
+  "decisions": [
+    {
+      "index": 0,
+      "leaf_id": "f111cb24fa85ad6cc893",
+      "id": "a1-pluriel",
+      "path": "/a1-pluriel/fr",
+      "text": "On forme généralement le pluriel en ajoutant -s. Cas particuliers : -eau→-eaux, -al→-aux, etc.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 1,
+      "leaf_id": "7b760ecf0c4c62782208",
+      "id": "a1-possessif",
+      "path": "/a1-possessif/fr",
+      "text": "Le déterminant possessif varie en personne avec le possesseur et s'accorde en genre et en nombre avec le nom déterminé, sous réserve des formes mon/ton/son devant certains mots féminins.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 2,
+      "leaf_id": "0b1bf622dd63f65dd8c3",
+      "id": "a1-negation",
+      "path": "/a1-negation/fr",
+      "text": "La négation de base encadre le verbe : ne + verbe + pas.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 3,
+      "leaf_id": "9342cd00987ab6ed8f1a",
+      "id": "a1-question",
+      "path": "/a1-question/ex/0/fr",
+      "text": "Tu viens ? / Est-ce que tu viens ? / Viens-tu ?",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 4,
+      "leaf_id": "64979b4c8a9577011f1d",
+      "id": "a1-prep-lieu",
+      "path": "/a1-prep-lieu/fr",
+      "text": "Ville → généralement à ; pays féminin ou masculin commençant par une voyelle/un h muet → généralement en ; pays masculin commençant par une consonne/un h aspiré → au ; pays pluriel → aux.",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 5,
+      "leaf_id": "3272b220a9c53fb4103d",
+      "id": "a1-futur-proche",
+      "path": "/a1-futur-proche/fr",
+      "text": "« aller » au présent + infinitif : action future proche ou programmée.",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 6,
+      "leaf_id": "7b13cb1c3128c8379114",
+      "id": "a1-vouloir-inf",
+      "path": "/a1-vouloir-inf/title",
+      "text": "Verbe + infinitif",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 7,
+      "leaf_id": "7f3c4bd11cd52565c1a1",
+      "id": "a2-pc-avoir",
+      "path": "/a2-pc-avoir/fr",
+      "text": "Le passé composé exprime une action passée achevée : avoir (présent) + participe passé. La plupart des verbes utilisent « avoir ».",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 8,
+      "leaf_id": "cd1942866a57756f9124",
+      "id": "a2-imparfait",
+      "path": "/a2-imparfait/fr",
+      "text": "L'imparfait exprime une description, une habitude ou une action en cours dans le passé. Radical du « nous » présent + terminaisons.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 9,
+      "leaf_id": "6fa5a35f2acdc982e8d2",
+      "id": "a2-coi",
+      "path": "/a2-coi/fr",
+      "text": "Avec des verbes comme parler à et donner à, le pronom COI remplace « à + personne » : me, te, lui, nous, vous, leur.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 10,
+      "leaf_id": "b3866057a87e57f0c836",
+      "id": "a2-coi",
+      "path": "/a2-coi/ex/0/fr",
+      "text": "Je téléphone à Paul → Je lui téléphone.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 11,
+      "leaf_id": "ffc00a80ce45e7cd03af",
+      "id": "a2-en",
+      "path": "/a2-en/ex/2/fr",
+      "text": "Il revient de Paris → Il en revient.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 12,
+      "leaf_id": "1e71691c9cd2f72e49a0",
+      "id": "a2-y",
+      "path": "/a2-y/fr",
+      "text": "« y » remplace « à + lieu/chose » ou un complément de lieu.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 13,
+      "leaf_id": "adb0e43fa601b50392ee",
+      "id": "a2-y",
+      "path": "/a2-y/ex/1/fr",
+      "text": "Je pense à mon examen → J'y pense.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 14,
+      "leaf_id": "663fde28d4cfd884731e",
+      "id": "a2-comparatif",
+      "path": "/a2-comparatif/fr",
+      "text": "Comparatif : plus / moins / aussi + adjectif + que. Avec un nom : plus de / moins de / autant de.",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 15,
+      "leaf_id": "d50d64aaa8557313e467",
+      "id": "a2-superlatif",
+      "path": "/a2-superlatif/fr",
+      "text": "Superlatif : le/la/les plus / moins + adjectif.",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 16,
+      "leaf_id": "29969c8fcf839265c90f",
+      "id": "a2-temps-prep",
+      "path": "/a2-temps-prep/title",
+      "text": "depuis / pendant / il y a / dans",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 17,
+      "leaf_id": "ddfb0440457e4a0e2418",
+      "id": "b1-pqp",
+      "path": "/b1-pqp/fr",
+      "text": "Le plus-que-parfait exprime une action antérieure à une autre action passée : auxiliaire à l'imparfait + participe passé.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 18,
+      "leaf_id": "8465033f834eb536cff5",
+      "id": "b1-cond-present",
+      "path": "/b1-cond-present/fr",
+      "text": "Conditionnel = radical du futur + terminaisons de l'imparfait. Emplois : politesse, souhait, hypothèse, information non confirmée.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 19,
+      "leaf_id": "4438a960eeb1a89848b9",
+      "id": "b1-cond-passe",
+      "path": "/b1-cond-passe/fr",
+      "text": "Conditionnel passé = auxiliaire au conditionnel présent + participe passé. Exprime le regret, le reproche, l'irréel du passé.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 20,
+      "leaf_id": "065a76b39ffed619c976",
+      "id": "b1-subj-present",
+      "path": "/b1-subj-present/fr",
+      "text": "Le subjonctif est souvent imposé par une construction. Pour de nombreux verbes, les personnes du singulier et ils/elles utilisent le radical de ils au présent ; nous/vous utilisent celui de nous. Avoir et être sont irréguliers.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 21,
+      "leaf_id": "b5464052d947e789e3e3",
+      "id": "b1-discours-indirect",
+      "path": "/b1-discours-indirect/fr",
+      "text": "Rapporter les paroles : que (déclaration), si (question oui/non), ce que/ce qui (question sur une chose), préposition + quoi, de + infinitif (ordre).",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 22,
+      "leaf_id": "5b5849e65b41d229d47e",
+      "id": "b1-double-pronoms",
+      "path": "/b1-double-pronoms/fr",
+      "text": "Ordre des pronoms compléments : me te se nous vous / le la les / lui leur / y / en.",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 23,
+      "leaf_id": "d7fc24310f3d98dc4a53",
+      "id": "b1-double-pronoms",
+      "path": "/b1-double-pronoms/ex/0/fr",
+      "text": "Il me donne le livre → Il me le donne.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 24,
+      "leaf_id": "22b13cf1d57e4ab478a0",
+      "id": "b1-double-pronoms",
+      "path": "/b1-double-pronoms/ex/1/fr",
+      "text": "Tu donnes les clés à Paul ? → Tu les lui donnes ?",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 25,
+      "leaf_id": "54689277d503d0787981",
+      "id": "b1-double-pronoms",
+      "path": "/b1-double-pronoms/ex/2/fr",
+      "text": "Il me donne du café → Il m'en donne.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 26,
+      "leaf_id": "541eba8b0493d2c88cbc",
+      "id": "b1-possessifs-pron",
+      "path": "/b1-possessifs-pron/fr",
+      "text": "Le pronom possessif remplace « adjectif possessif + nom » : le mien, le tien, le sien, le nôtre, le vôtre, le leur.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 27,
+      "leaf_id": "11fcbf889f085081460f",
+      "id": "b1-demonstratifs-pron",
+      "path": "/b1-demonstratifs-pron/fr",
+      "text": "Pronoms démonstratifs : celui, celle, ceux, celles (+ -ci/-là, de…, qui/que…). Neutres : ce, ceci, cela, ça.",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 28,
+      "leaf_id": "0433ae86e7d2a50a9682",
+      "id": "b1-dont",
+      "path": "/b1-dont/fr",
+      "text": "« dont » remplace un complément introduit par « de » (verbe + de, possession, quantité).",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 29,
+      "leaf_id": "c8d2d9c2e38441f5d2fa",
+      "id": "b1-gerondif",
+      "path": "/b1-gerondif/fr",
+      "text": "Gérondif = « en » + participe présent. Exprime la simultanéité, la manière ou la condition. Même sujet que le verbe principal.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 30,
+      "leaf_id": "e8a55ae1c0a8ec6f5f18",
+      "id": "b2-subj-passe",
+      "path": "/b2-subj-passe/fr",
+      "text": "Le subjonctif passé présente une action accomplie, antérieure à un repère passé, présent ou futur : avoir/être au subjonctif présent + participe passé.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 31,
+      "leaf_id": "7c06fdb5f4c5ba9ffca1",
+      "id": "b2-se-faire",
+      "path": "/b2-se-faire/title",
+      "text": "« se faire / se voir » + infinitif",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 32,
+      "leaf_id": "8657ad5bf84619e8debf",
+      "id": "b2-se-faire",
+      "path": "/b2-se-faire/fr",
+      "text": "« se faire / se voir + infinitif » : tournure passive mettant l'accent sur le sujet qui subit l'action.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 33,
+      "leaf_id": "54b99793c6d11f408be3",
+      "id": "b2-relatifs-composes",
+      "path": "/b2-relatifs-composes/fr",
+      "text": "Préposition + lequel/auquel/de laquelle… (choses surtout ; personnes : qui). « Dont » est généralement préféré pour un complément en « de » ; après une locution comme « à côté de », on conserve la préposition avec « duquel/de laquelle… ».",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 34,
+      "leaf_id": "e43dc1f8cc02bcfcd4ec",
+      "id": "b2-mise-relief",
+      "path": "/b2-mise-relief/fr",
+      "text": "Mettre en valeur un élément : c'est … qui/que ; ce qui/ce que…, c'est…",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 35,
+      "leaf_id": "72ff83560c7a31015e12",
+      "id": "b2-nominalisation",
+      "path": "/b2-nominalisation/ex/0/fr",
+      "text": "Les prix augmentent. → L'augmentation des prix.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 36,
+      "leaf_id": "f8774ad5053b633fb49f",
+      "id": "b2-nominalisation",
+      "path": "/b2-nominalisation/ex/2/fr",
+      "text": "La région se développe. → Le développement de la région.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 37,
+      "leaf_id": "3e0656bc50416a1220ab",
+      "id": "b2-futur-anterieur",
+      "path": "/b2-futur-anterieur/fr",
+      "text": "Le futur antérieur exprime une action achevée avant une autre action future : avoir/être au futur + participe passé.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 38,
+      "leaf_id": "23622b5a692e34dd988b",
+      "id": "b2-registres",
+      "path": "/b2-registres/ex/0/fr",
+      "text": "familier: Je suis crevé. / courant: Je suis très fatigué. / sens plus intense: Je suis épuisé.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 39,
+      "leaf_id": "bca2379f5cc0029db385",
+      "id": "b2-registres",
+      "path": "/b2-registres/ex/1/fr",
+      "text": "familier: On a paumé nos clés. / courant: Nous avons perdu nos clés. / soutenu: Nous avons égaré nos clés.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 40,
+      "leaf_id": "1236d1159099ed1f3ffe",
+      "id": "b2-registres",
+      "path": "/b2-registres/ex/2/fr",
+      "text": "familier: Tu pars quand ? / courant: Quand est-ce que tu pars ? / soutenu: Quand partez-vous ?",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 41,
+      "leaf_id": "8d292524ae475ef7eafa",
+      "id": "c1-concession-indefinie",
+      "path": "/c1-concession-indefinie/fr",
+      "text": "Concession indéfinie + subjonctif : quoi que, qui que, où que, quel que (+ accord), si/aussi… que.",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 42,
+      "leaf_id": "3140383c0d34e2f66a6b",
+      "id": "c1-hypothese-sans-si",
+      "path": "/c1-hypothese-sans-si/fr",
+      "text": "Exprimer l'hypothèse autrement qu'avec « si » : au cas où, à condition de/que, gérondif, avec/sans, pour peu que…",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 43,
+      "leaf_id": "212ff6898996e29bf70d",
+      "id": "c1-apres-que",
+      "path": "/c1-apres-que/title",
+      "text": "« après que » + indicatif",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 44,
+      "leaf_id": "5764ee1cc851af5188b6",
+      "id": "c1-adj-verbal",
+      "path": "/c1-adj-verbal/fr",
+      "text": "L'adjectif verbal s'accorde ; le participe présent est invariable. Orthographe souvent différente (-gu-/-qu-/-a-).",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 45,
+      "leaf_id": "0e24297e0749ad6663db",
+      "id": "c2-passe-anterieur",
+      "path": "/c2-passe-anterieur/fr",
+      "text": "Le passé antérieur marque une action accomplie antérieure à un événement au passé simple : auxiliaire au passé simple + participe passé.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 46,
+      "leaf_id": "acd34a31949ef8638b6d",
+      "id": "c2-concordance-litteraire",
+      "path": "/c2-concordance-litteraire/fr",
+      "text": "Concordance soutenue : principale au passé → subjonctif imparfait (simultanéité ou postériorité) ou plus-que-parfait (antériorité).",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 47,
+      "leaf_id": "f0862537953294300ed7",
+      "id": "c2-subj-fin",
+      "path": "/c2-subj-fin/fr",
+      "text": "Nuances : non que (+subj.), de sorte que (but→subj. / conséquence→ind.), le seul qui… (souvent +subj., indicatif possible selon le sens).",
+      "classification": "inline_formula_bundle",
+      "reason": "Compressed grammatical formula or placeholder pattern; retain visual teaching and individually readable examples, suppress whole-bundle TTS."
+    },
+    {
+      "index": 48,
+      "leaf_id": "e45b7306a2322304984a",
+      "id": "c2-accord-extreme",
+      "path": "/c2-accord-extreme/fr",
+      "text": "se succéder/plaire/nuire (se = COI → invariable) ; coûté/pesé/valu (complément de quantité non direct → invariable) ; ci-joint : invariable en tête de phrase ou avant un nom sans déterminant ; accord facultatif avant un nom déterminé dans la phrase.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    },
+    {
+      "index": 49,
+      "leaf_id": "cd41bd71cbc950335426",
+      "id": "c2-rection",
+      "path": "/c2-rection/fr",
+      "text": "La préposition change le sens : tenir à/de, jouer à/de, manquer à/de, en vouloir à, il s'agit de.",
+      "classification": "runtime_rule_bundle",
+      "reason": "Complete French explanation, readable contrast, or meaningful lexical list rendered as one current speech target."
+    }
+  ],
+  "counts": {
+    "total": 50,
+    "approved": 37,
+    "excluded_formula": 13
+  },
+  "excluded_controls_pending_removal": false
+}

@@ -1,0 +1,30 @@
+{
+  "text": "la voiture de Léa",
+  "text_sha256": "67c55f9bbe0244836b6e720fcfb8239a5022ef140228920569a326d63486503b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2654875283446712,
+      "source_seconds": 1.2654875283446712,
+      "source_file_sha256": "d8c2b14ca28225e901bb0f17087c8d26beb0dacc668bebf5f95cd3f51adb1985",
+      "file_sha256": "95761f793c9524a81fab422aec1711c831d17fa58623c14cc22704f1809fe93f",
+      "bytes": 10910,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

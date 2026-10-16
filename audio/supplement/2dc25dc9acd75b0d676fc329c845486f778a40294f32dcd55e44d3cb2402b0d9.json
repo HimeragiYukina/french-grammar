@@ -1,0 +1,30 @@
+{
+  "text": "Il est important que vous veniez à l’heure.",
+  "text_sha256": "2dc25dc9acd75b0d676fc329c845486f778a40294f32dcd55e44d3cb2402b0d9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.124625850340136,
+      "source_seconds": 2.124625850340136,
+      "source_file_sha256": "9142a070fa57743e494f87c634bb067cfaff53748cfb806971a2a451c51e6d03",
+      "file_sha256": "2660f8a2b84e9ecc325b44101a6203ec482815c076455073f26a937f5ee46aa8",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

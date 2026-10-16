@@ -1,0 +1,30 @@
+{
+  "text": "Elle est prête, et je le suis aussi.",
+  "text_sha256": "198fe4ed0396a9582d2f08284741174124fc514b460d72fad576383e9c89be18",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2291156462585033,
+      "source_seconds": 2.2291156462585033,
+      "source_file_sha256": "c5a183ed220e7a40682afcd13a41d1b109be40762ba265e9e9fd634f332a7b39",
+      "file_sha256": "bbf90a5a42d75538d8795943c0f595a8f6e8f94a390bfcfd9fb0461468eba0f4",
+      "bytes": 18643,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

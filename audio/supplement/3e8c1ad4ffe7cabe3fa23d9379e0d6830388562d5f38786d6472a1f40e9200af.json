@@ -1,0 +1,30 @@
+{
+  "text": "« Je vous attends », ajouta-t-elle.",
+  "text_sha256": "3e8c1ad4ffe7cabe3fa23d9379e0d6830388562d5f38786d6472a1f40e9200af",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8924263038548752,
+      "source_seconds": 1.8924263038548752,
+      "source_file_sha256": "b9213e82572b14deb4f7142b01810b7a2b50bf6172f05312aedfbc42ef59d7f0",
+      "file_sha256": "32bfc886f76dbdc260e2be8aa1024730de03976e9bb176877df0c26ae8e835c9",
+      "bytes": 15926,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

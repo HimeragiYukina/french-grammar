@@ -1,0 +1,30 @@
+{
+  "text": "Il parle bas de peur que les enfants ne se réveillent.",
+  "text_sha256": "3fea4b0a1969e62706a7dcbd9aef9508ad41260feff63f6ad464b9c79e31b121",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7631746031746034,
+      "source_seconds": 2.7631746031746034,
+      "source_file_sha256": "e196449830bad34ab02328f473b24d666fabb79c1059e1aee3f7c95298bb3327",
+      "file_sha256": "31080eea8066c5c6f44f5bfb3c80132911047dbe71bd63477497f0a31a1df9f4",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

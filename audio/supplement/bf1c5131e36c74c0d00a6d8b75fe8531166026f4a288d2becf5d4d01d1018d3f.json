@@ -1,0 +1,30 @@
+{
+  "text": "Je n’ai pas vérifié l’adresse avant de partir, et je suis allée au mauvais bâtiment.",
+  "text_sha256": "bf1c5131e36c74c0d00a6d8b75fe8531166026f4a288d2becf5d4d01d1018d3f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.028662131519274,
+      "source_seconds": 4.028662131519274,
+      "source_file_sha256": "0e1b8442f860959681c36fefc0fe0a92f3bc7dd5c11e45622fa91c0fe3c387cb",
+      "file_sha256": "c59bdc32e24d7e5699f3ca704d7610ec2f944d0e321354f83b6688113e1e648a",
+      "bytes": 33062,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

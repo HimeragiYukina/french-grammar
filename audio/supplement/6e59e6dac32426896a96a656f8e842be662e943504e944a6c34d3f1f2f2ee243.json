@@ -1,0 +1,30 @@
+{
+  "text": "Elles se sont lavées",
+  "text_sha256": "6e59e6dac32426896a96a656f8e842be662e943504e944a6c34d3f1f2f2ee243",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0332879818594105,
+      "source_seconds": 1.0332879818594105,
+      "source_file_sha256": "ea24fc7a8262f084d44ac9b99ba5b991e3fafb51ac75d7e4236c0d10d1800ad7",
+      "file_sha256": "cd3bce1cd4480cc6c4123c43179b19589ebbc2bfc28d151a9536996558886ca9",
+      "bytes": 9030,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

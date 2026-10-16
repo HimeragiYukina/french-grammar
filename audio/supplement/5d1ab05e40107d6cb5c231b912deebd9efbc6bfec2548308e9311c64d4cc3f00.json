@@ -1,0 +1,30 @@
+{
+  "text": "Négligeant les avertissements, ils prirent la route.",
+  "text_sha256": "5d1ab05e40107d6cb5c231b912deebd9efbc6bfec2548308e9311c64d4cc3f00",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.006984126984127,
+      "source_seconds": 3.006984126984127,
+      "source_file_sha256": "de98f626a0f559198e1c990383adb4a26602b174bc627f805fe5d8540feb4655",
+      "file_sha256": "be381b3c9c66025a1efd01031250b59052831fe5ec795a82945a5a314b299ae2",
+      "bytes": 24912,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

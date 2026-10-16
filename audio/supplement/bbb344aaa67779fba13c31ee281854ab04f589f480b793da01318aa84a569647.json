@@ -1,0 +1,30 @@
+{
+  "text": "Sachant la vérité, elle a préféré se taire.",
+  "text_sha256": "bbb344aaa67779fba13c31ee281854ab04f589f480b793da01318aa84a569647",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8676643990929707,
+      "source_seconds": 2.8676643990929707,
+      "source_file_sha256": "bf9a3e62c7b84a68225e8353dfbe553ce2c56eebdc6150c8f679261b23150d13",
+      "file_sha256": "33c3e9bb32db3e5b052657d09002c7e08bf66050ec66b93700163879e2fc49e3",
+      "bytes": 23658,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

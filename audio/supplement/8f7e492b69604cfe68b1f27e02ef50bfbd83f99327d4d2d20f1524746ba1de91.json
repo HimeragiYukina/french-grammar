@@ -1,0 +1,30 @@
+{
+  "text": "Quand tu arriveras, je préparerai le café.",
+  "text_sha256": "8f7e492b69604cfe68b1f27e02ef50bfbd83f99327d4d2d20f1524746ba1de91",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.3568253968253967,
+      "source_seconds": 2.3568253968253967,
+      "source_file_sha256": "5e06b23e5529734cf2cae2c70b3c16ac554795779d7b16fe8e80a73e834fb339",
+      "file_sha256": "aaabcc3a8c83cf40102cafc152dee98ea926bf298ca67c60d637f186b57b5157",
+      "bytes": 19688,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

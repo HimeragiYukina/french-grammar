@@ -1,0 +1,30 @@
+{
+  "text": "Je vous laisse mon numéro pour que vous puissiez me joindre ; je garde le vôtre pour vous rappeler.",
+  "text_sha256": "3ea5db2ef3054c38e6478c80c8a6a27e7e2a39de048cda48fd9c731d5f3e272c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.9806802721088435,
+      "source_seconds": 4.9806802721088435,
+      "source_file_sha256": "b2759b32c0741febddf064f415e1e0aef80100d852fe01663709641a07fac1a0",
+      "file_sha256": "82eb6dac0cf4d86c78d4bc9ac536e4dcb83e0efa91df3c730314d15e47fa2ebc",
+      "bytes": 40586,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

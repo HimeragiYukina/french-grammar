@@ -1,0 +1,30 @@
+{
+  "text": "J’espère que tu réussiras demain. Je souhaite que tu réussisses demain.",
+  "text_sha256": "f066bdcbb15e785b4a5d46a0492039120773937b21873911ea8033a57990d29c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.842902494331066,
+      "source_seconds": 3.842902494331066,
+      "source_file_sha256": "c9591ac5ab4e9e6544904ae7204ca329953915eb4fbe5f68481ec731b641305a",
+      "file_sha256": "cd1bf850afa7caa8fdbdf42d63416ba427fcf446290b92ded9323d7f5ea61b26",
+      "bytes": 31599,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

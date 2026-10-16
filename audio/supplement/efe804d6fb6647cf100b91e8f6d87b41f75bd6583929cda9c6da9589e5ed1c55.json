@@ -1,0 +1,30 @@
+{
+  "text": "Je coupe le pain avec un couteau.",
+  "text_sha256": "efe804d6fb6647cf100b91e8f6d87b41f75bd6583929cda9c6da9589e5ed1c55",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8575963718820863,
+      "source_seconds": 1.8575963718820863,
+      "source_file_sha256": "4830fd9efc2f2dc332d3ee19bb9c599800e5f3fa1bf669c3092b0a1ac51400dc",
+      "file_sha256": "94c3e87cb5b61ed6ed2db32cde4d511dd36d9a95f674e3dfa888bce130d67e5e",
+      "bytes": 15717,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

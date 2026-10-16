@@ -1,0 +1,30 @@
+{
+  "text": "Il a pris un taxi ___ (rater) son avion. (",
+  "text_sha256": "7aa89ee9b7d17383c9ef344fda9ba29026c6735591f3a5851c1de350397b6874",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1130158730158732,
+      "source_seconds": 2.1130158730158732,
+      "source_file_sha256": "4b14daf11267a798ee4d5bb9a9e3566c7e63eece64648d7d4f1dc06c4cf57a14",
+      "file_sha256": "269037a18e9f62daa039ecf5d663869cf364b7f6d4528fda9393e6c8c30096ec",
+      "bytes": 17598,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

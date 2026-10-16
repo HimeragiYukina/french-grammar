@@ -1,0 +1,30 @@
+{
+  "text": "ils aiment ses enfants",
+  "text_sha256": "4d0fa5b60e645df1d20f197bf98938b0ac7f7aba03283cb66f438113a213c4f4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2770975056689342,
+      "source_seconds": 1.2770975056689342,
+      "source_file_sha256": "c08de19bff7e786a7e8e1fe89813cf1d20063e47ac1e3f5d80862df3aa2370b2",
+      "file_sha256": "0fe8075c7a8bd7fe32fd77033d36e773d495379c0304193b7e18725de6602ee7",
+      "bytes": 10910,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

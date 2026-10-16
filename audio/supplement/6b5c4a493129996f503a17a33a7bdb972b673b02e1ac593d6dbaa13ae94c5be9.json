@@ -1,0 +1,30 @@
+{
+  "text": "Ce sur quoi nous sommes d'accord, c'est la date.",
+  "text_sha256": "6b5c4a493129996f503a17a33a7bdb972b673b02e1ac593d6dbaa13ae94c5be9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.380045351473923,
+      "source_seconds": 2.380045351473923,
+      "source_file_sha256": "edec08a453235b4a95a3da17b1522baf55ad096add1662fd7ee3b85891736bda",
+      "file_sha256": "81194ab824e3af0b8a5b51d376a62b5595315085d0986a85d0939a827d0e4a84",
+      "bytes": 19897,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

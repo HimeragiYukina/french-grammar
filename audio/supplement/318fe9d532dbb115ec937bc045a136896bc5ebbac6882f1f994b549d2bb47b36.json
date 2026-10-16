@@ -1,0 +1,30 @@
+{
+  "text": "Force est de constater que les mesures n’ont pas suffi.",
+  "text_sha256": "318fe9d532dbb115ec937bc045a136896bc5ebbac6882f1f994b549d2bb47b36",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.75156462585034,
+      "source_seconds": 2.75156462585034,
+      "source_file_sha256": "b9caf5565603f1f6d4c62c2f8b58793b73483cc3ff02018a79e7eafd3741ee92",
+      "file_sha256": "78de357a630da2bdf6347998d308a9211ea00b230e2f590150ceb425d804aa51",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

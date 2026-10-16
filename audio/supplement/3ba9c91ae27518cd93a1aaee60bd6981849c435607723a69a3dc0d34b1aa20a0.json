@@ -1,0 +1,30 @@
+{
+  "text": "Ce chapitre s'agit de l'exil. Je lui tiens beaucoup parce qu'il m'a aidée.",
+  "text_sha256": "3ba9c91ae27518cd93a1aaee60bd6981849c435607723a69a3dc0d34b1aa20a0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.063492063492063,
+      "source_seconds": 4.063492063492063,
+      "source_file_sha256": "f4e0454a4ef1c918c7198c87e1ca0b8f095eea5be8d6f2d3a9e5009e695a2c52",
+      "file_sha256": "11e58ff4c08f723ba5a45586a7ebeac30f75998a1763c6ae8ed0cb651bb98f26",
+      "bytes": 33271,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

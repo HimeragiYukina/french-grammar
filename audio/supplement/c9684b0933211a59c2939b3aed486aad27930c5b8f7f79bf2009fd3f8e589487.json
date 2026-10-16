@@ -1,0 +1,30 @@
+{
+  "text": "Il s’avère qu’il est venu",
+  "text_sha256": "c9684b0933211a59c2939b3aed486aad27930c5b8f7f79bf2009fd3f8e589487",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4396371882086167,
+      "source_seconds": 1.4396371882086167,
+      "source_file_sha256": "0933032ad558589a136e11f4e1b58f41fec306db8f76b6467aa3f43f9122f377",
+      "file_sha256": "ca32033e8a95d84d97698d4c9a2d85a1e07a930f62fb61ec640edbf8a5bdb7b7",
+      "bytes": 12373,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

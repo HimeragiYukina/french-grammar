@@ -1,0 +1,30 @@
+{
+  "text": "Nous aimerions organiser un pique-nique",
+  "text_sha256": "2951db58b5eb7f2bf9bd6d8ff316c5c3643fb83fe380ea9cec59fbcafe4cfed8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.147845804988662,
+      "source_seconds": 2.147845804988662,
+      "source_file_sha256": "75873f7cb7bbbe34e28f55e8acd5c1c49a7b03c1b5cbe785ca38dfa858b32463",
+      "file_sha256": "a984b25d02271e7c379c45bb6c4b835c3195a2f04ffd26fd814d57b40ba58aaf",
+      "bytes": 18016,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

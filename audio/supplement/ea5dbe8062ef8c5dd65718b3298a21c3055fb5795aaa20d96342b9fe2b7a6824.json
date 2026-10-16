@@ -1,0 +1,30 @@
+{
+  "text": "À voir son visage, on eût dit qu’il n’avait pas dormi.",
+  "text_sha256": "ea5dbe8062ef8c5dd65718b3298a21c3055fb5795aaa20d96342b9fe2b7a6824",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.948934240362812,
+      "source_seconds": 2.948934240362812,
+      "source_file_sha256": "4c3bfb8a5b2663249e5fafd008266037f5384a952657ab0bdb09c63607f7bda3",
+      "file_sha256": "81edf092a374eb2319681699aa105fd94f693985549a0036995656741c635018",
+      "bytes": 24285,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

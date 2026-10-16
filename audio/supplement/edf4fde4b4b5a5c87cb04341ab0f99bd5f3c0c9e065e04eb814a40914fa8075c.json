@@ -1,0 +1,30 @@
+{
+  "text": "Je l'aide pour qu'il réussisse",
+  "text_sha256": "edf4fde4b4b5a5c87cb04341ab0f99bd5f3c0c9e065e04eb814a40914fa8075c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.787936507936508,
+      "source_seconds": 1.787936507936508,
+      "source_file_sha256": "d319b618dbc4f47defb4d2af203e5b391b2210080f855b1811f47ef52172b339",
+      "file_sha256": "ad8c0fa314cc06f90d4df0fec25fc994f731632367c65db18dbc80356a630545",
+      "bytes": 15090,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

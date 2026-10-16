@@ -1,0 +1,30 @@
+{
+  "text": "Quand bien même il pleuvrait, je sortirais",
+  "text_sha256": "cb3953525d2ab2b18f404d2769ccc7a5b41bdee9508b8b3a6974564de137093c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4729251700680273,
+      "source_seconds": 2.4729251700680273,
+      "source_file_sha256": "d341e865d03e481201dd4d06b6694535106ad20fa353031d8c6b95ef16678e2f",
+      "file_sha256": "66fe6d138b22e534f8f68aa67e1922fc6ee79dfc823d9b149714bef88be4f473",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Avec des verbes comme parler à et donner à, le pronom COI remplace « à + personne » : me, te, lui, nous, vous, leur.",
+  "text_sha256": "6d6cdf4a046e4b8a758d10d7aecf4f0f7e25321b3fa34ae16bfcfc7e9d2fbb77",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.047256235827664,
+      "source_seconds": 7.047256235827664,
+      "source_file_sha256": "5053b6fd905c3086c0e56804142cca3e5963a007842a4ae4565d37eac789131a",
+      "file_sha256": "ef6909f067cec44a6b7c9237cbf87e29a261671fe3486a6a199c0931d4c7c291",
+      "bytes": 57095,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

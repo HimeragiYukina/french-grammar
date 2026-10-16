@@ -1,0 +1,30 @@
+{
+  "text": "Complétez avec force est de constater que : ___ rien n'a changé.",
+  "text_sha256": "e546090497aa0e508c178cb6b9b66b57c859dfba8e4cb360cd8ce61e6375b174",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4713832199546486,
+      "source_seconds": 3.4713832199546486,
+      "source_file_sha256": "8ee841c7d0e0c3ba13653cc8a7e63057bdb9df26780bef62a42f29e9b279f093",
+      "file_sha256": "10f9562c9ccc81dd55cd8d4e78ab8db8b7fe8cb1e1d0c29ecbf949109f71b8e8",
+      "bytes": 28465,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

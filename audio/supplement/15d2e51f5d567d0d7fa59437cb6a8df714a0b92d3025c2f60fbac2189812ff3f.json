@@ -1,0 +1,30 @@
+{
+  "text": "*En arrivant, la porte était fermée",
+  "text_sha256": "15d2e51f5d567d0d7fa59437cb6a8df714a0b92d3025c2f60fbac2189812ff3f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.693514739229025,
+      "source_seconds": 2.693514739229025,
+      "source_file_sha256": "6266496f3f2ca620e0b3215355454094ec0b2931417293f7646a56e7348a5712",
+      "file_sha256": "96d96f7622e254e1b47dbf1c214529469e82127a9fdfdca2b45f614219e93085",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Le traité mit fin au conflit et ouvrit une période de paix.",
+  "text_sha256": "7f31979631a5ec9ca066379e45ec3d3ba530fce21637a3e3cf0c3cca5aee56c8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.378503401360544,
+      "source_seconds": 3.378503401360544,
+      "source_file_sha256": "bb773c91445f7bb9d6a4dda6348adb729e3cb6d4364359e280c9fe0179a84891",
+      "file_sha256": "66872447b381c9c58f69d0837585756f64b7d3519a3aa27f12b066d17b010855",
+      "bytes": 27838,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

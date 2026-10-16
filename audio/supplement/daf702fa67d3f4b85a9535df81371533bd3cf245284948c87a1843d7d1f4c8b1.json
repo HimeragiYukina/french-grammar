@@ -1,0 +1,30 @@
+{
+  "text": "C'est demain que nous partons.",
+  "text_sha256": "daf702fa67d3f4b85a9535df81371533bd3cf245284948c87a1843d7d1f4c8b1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.509297052154195,
+      "source_seconds": 1.509297052154195,
+      "source_file_sha256": "fe7eb044e87fd6b05b4b75177d7d651a4f6aaa213c2e11e77670cb45f3e15306",
+      "file_sha256": "9d2493b1677ec3802078b9fd405ef14d97f94068e5703776b8bb9308937d7a0e",
+      "bytes": 12791,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

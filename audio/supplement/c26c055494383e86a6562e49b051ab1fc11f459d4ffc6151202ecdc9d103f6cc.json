@@ -1,0 +1,30 @@
+{
+  "text": "Les chats aiment dormir au soleil.",
+  "text_sha256": "c26c055494383e86a6562e49b051ab1fc11f459d4ffc6151202ecdc9d103f6cc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9388662131519274,
+      "source_seconds": 1.9388662131519274,
+      "source_file_sha256": "f944aa89a8bb29f90e2a996d784e06246e54c944742fdbb380f1883f4a9d1e4c",
+      "file_sha256": "714d64dfe7aa0445f77e595966621c5a949550421fff974f5edde843b7ebf919",
+      "bytes": 16344,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

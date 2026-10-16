@@ -1,0 +1,30 @@
+{
+  "text": "Le film qu'il regarde est très drôle.",
+  "text_sha256": "fb1126c4b5955688fe2db02135c968da42b9dd4d21827b73c97bdf5038e1f9d2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2987755102040817,
+      "source_seconds": 2.2987755102040817,
+      "source_file_sha256": "e3304ff4ede15cea621617b3b4b38d5bf3421aeb3251c3561bc2de979b51f390",
+      "file_sha256": "f1fd905ab4df386e0acf8461afc26822c8da6e94637b3981e02157111d812366",
+      "bytes": 19061,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

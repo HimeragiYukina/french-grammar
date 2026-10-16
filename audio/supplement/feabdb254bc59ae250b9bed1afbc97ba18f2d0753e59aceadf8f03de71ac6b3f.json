@@ -1,0 +1,30 @@
+{
+  "text": "Tu parles bien français !",
+  "text_sha256": "feabdb254bc59ae250b9bed1afbc97ba18f2d0753e59aceadf8f03de71ac6b3f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3003174603174603,
+      "source_seconds": 1.3003174603174603,
+      "source_file_sha256": "29530f01cf9e635f7dd93e7b38be029df365b7303963741b6ecff3013c2e28e3",
+      "file_sha256": "3ed71411194397417541a95fa33b666e6cb6d02474525a8f6d4404c5507864cd",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

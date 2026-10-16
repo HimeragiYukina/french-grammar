@@ -1,0 +1,30 @@
+{
+  "text": "Je parle lentement pour que vous ___ . (comprendre)",
+  "text_sha256": "9e1f94bf198c3ea4bf53649dad9f1e87096cec39777032c89eefd1dffa7ef189",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.809614512471655,
+      "source_seconds": 2.809614512471655,
+      "source_file_sha256": "eafa895c9b07aada80786f5179064924cb475783dc2f02749b15036ce971ac1f",
+      "file_sha256": "f14d0e3f9e448a496f88e0a5d1f024e75df89860b0f3e77d8c2f83fc2bc7379b",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

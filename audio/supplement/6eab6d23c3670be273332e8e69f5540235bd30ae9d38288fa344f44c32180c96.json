@@ -1,0 +1,30 @@
+{
+  "text": "Je veux que vous ___ (être) à l'heure demain. (",
+  "text_sha256": "6eab6d23c3670be273332e8e69f5540235bd30ae9d38288fa344f44c32180c96",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7763265306122449,
+      "source_seconds": 1.7763265306122449,
+      "source_file_sha256": "e0b6a13739cf9352693781f684adf8338fe8903b429365092eb65e3c33a1c842",
+      "file_sha256": "9df52b3b42d20897a3f385271e4db366ad424f53838aac0f6ce88322dab77fc2",
+      "bytes": 14881,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

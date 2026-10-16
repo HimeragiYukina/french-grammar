@@ -1,0 +1,30 @@
+{
+  "text": "penser à une personne",
+  "text_sha256": "42d874ff399d3c022a36c5ca2510cf9c618f1cbab90549876ccbb81b5f626deb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2654875283446712,
+      "source_seconds": 1.2654875283446712,
+      "source_file_sha256": "ab6cbf8c708898bdf09c5a916bd9b6ecaf03201f43509e6ff639bee80e06c247",
+      "file_sha256": "c1ca19268e81dc895fd3d006ea711982ae616d2abf0f41f6fc10c3eb8da91c2c",
+      "bytes": 10910,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

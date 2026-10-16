@@ -1,0 +1,30 @@
+{
+  "text": "Les dix kilomètres qu'elle a couru l'ont épuisée.",
+  "text_sha256": "6c3fa0f88f987406bea2c3a8e603e3e88ed2aab30e215d62e23a96aac48123d2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.403265306122449,
+      "source_seconds": 2.403265306122449,
+      "source_file_sha256": "ebc98bfae6cd16b37f2f894daee76b7a4805802d60f85f719efead505fdc6198",
+      "file_sha256": "57dd1542ce47af95b7b6f7c4b6549d11d78167a437edc8d1f6e6f483e80848e7",
+      "bytes": 19897,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

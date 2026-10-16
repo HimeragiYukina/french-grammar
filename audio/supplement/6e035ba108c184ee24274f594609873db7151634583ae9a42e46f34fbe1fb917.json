@@ -1,0 +1,30 @@
+{
+  "text": "Je lis autant que toi",
+  "text_sha256": "6e035ba108c184ee24274f594609873db7151634583ae9a42e46f34fbe1fb917",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5209070294784581,
+      "source_seconds": 1.5209070294784581,
+      "source_file_sha256": "46b1087cedfec8667f00237f784940e904adf6fbdc73723c6cdeecb5267dbb6f",
+      "file_sha256": "07db528a6d0da73ba410c4513e013c84e418137b8d6eaf3ce20eb4fd5accd06f",
+      "bytes": 13000,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Ce sont mes parents.",
+  "text_sha256": "3bf0505936ea7e936b9c191520872eabca552dfec0cc0abf90f6a4c1f968a2d6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1029478458049886,
+      "source_seconds": 1.1029478458049886,
+      "source_file_sha256": "971523c6a4d736e872e9b72abeb3ee4d96d68ac351cd9a06f41037de7e12254d",
+      "file_sha256": "938105df705a64445da1cdaf5b64b703ec0a7408bcb7861250023b9a5fbd82ec",
+      "bytes": 9657,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

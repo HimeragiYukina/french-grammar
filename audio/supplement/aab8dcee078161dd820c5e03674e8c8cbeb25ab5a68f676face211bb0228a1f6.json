@@ -1,0 +1,30 @@
+{
+  "text": "Mettez au passé simple : Victor Hugo est né en 1802 et est mort en 1885. → Victor Hugo ___ en 1802 et ___ en 1885.",
+  "text_sha256": "aab8dcee078161dd820c5e03674e8c8cbeb25ab5a68f676face211bb0228a1f6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 10.65795918367347,
+      "source_seconds": 10.65795918367347,
+      "source_file_sha256": "c904830b9f7ee186ac4e8197b0adf6fb4feb5123d3e756c46604386ceae83b28",
+      "file_sha256": "b1339816cef482e0ddb61a68fdca4f43d93ef5c324b2633fa9e0b9dabc5deb35",
+      "bytes": 85934,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

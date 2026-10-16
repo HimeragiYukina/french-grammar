@@ -1,0 +1,30 @@
+{
+  "text": "Je viens à condition que tu sois là",
+  "text_sha256": "5f7f6d0eff9c37ec4b058614e32808b0e384e06bb6131f22c3558e6b001e65f8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0317460317460316,
+      "source_seconds": 2.0317460317460316,
+      "source_file_sha256": "de5fc1cf1cf6614163eb3a307ffd4e02812e467cfd9e969e8e5aa0157dbb7c01",
+      "file_sha256": "056ae58b8432289b1b9adf02939010f63eb3106a884d42df34e29c4464521999",
+      "bytes": 16971,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

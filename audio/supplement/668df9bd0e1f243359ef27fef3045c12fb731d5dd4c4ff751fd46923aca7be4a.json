@@ -1,0 +1,30 @@
+{
+  "text": "Ils ont des enfants ? — Non, ils n'ont pas ___ enfants. (",
+  "text_sha256": "668df9bd0e1f243359ef27fef3045c12fb731d5dd4c4ff751fd46923aca7be4a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.914104308390023,
+      "source_seconds": 2.914104308390023,
+      "source_file_sha256": "987146c14df270226b5a7d53178ebe19bdd295ba438f758031cf2bbbcdd97ca9",
+      "file_sha256": "0a4c05f735bb730f5c3b2e0b9bc580577818e31691348b1b98d86931759b1873",
+      "bytes": 24076,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

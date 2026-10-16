@@ -1,0 +1,30 @@
+{
+  "text": "Le futur simple situe un événement dans l’avenir, proche ou lointain ; il peut exprimer une prévision, une promesse ou une instruction. Pour beaucoup de verbes, on ajoute les terminaisons à l’infinitif ; les verbes en -re perdent leur e final. Certains verbes ont un radical particulier (ser-, aur-, ir-…).",
+  "text_sha256": "18672d46d77cf8e028ce50055974c1637f15202a32707bdff797126539564a8b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 16.962176870748298,
+      "source_seconds": 16.962176870748298,
+      "source_file_sha256": "93a0e4a10fd60bcffe508e2012cf285b8cf61bb5fab99a0575661a08d8a53119",
+      "file_sha256": "2a23b36a2125b79ed77aebb6f93ccb0578e38b17c036b1c0c282bc611906f592",
+      "bytes": 136507,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

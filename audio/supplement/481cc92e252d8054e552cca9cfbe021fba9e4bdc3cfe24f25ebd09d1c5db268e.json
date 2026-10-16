@@ -1,0 +1,30 @@
+{
+  "text": "Connaissant bien la ville, elle nous a guidés.",
+  "text_sha256": "481cc92e252d8054e552cca9cfbe021fba9e4bdc3cfe24f25ebd09d1c5db268e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.507755102040816,
+      "source_seconds": 2.507755102040816,
+      "source_file_sha256": "b0e02f5529f5f993d35ac3c6fe4026ec043a59cdf517718578676c9ea1066025",
+      "file_sha256": "0d30e4699261e0e79140b792650645f50601bdc965873eed2e59c49287dbe811",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

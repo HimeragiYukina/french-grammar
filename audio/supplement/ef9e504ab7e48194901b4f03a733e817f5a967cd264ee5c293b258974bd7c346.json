@@ -1,0 +1,30 @@
+{
+  "text": "Ajoutez le ne explétif : Je sortirai, à moins qu'il ___ pleuve.",
+  "text_sha256": "ef9e504ab7e48194901b4f03a733e817f5a967cd264ee5c293b258974bd7c346",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.81968253968254,
+      "source_seconds": 3.81968253968254,
+      "source_file_sha256": "07e54c879aa38c4c0e145fb5b9b6c156e7515e9b5dc3330286f9639a4d8033fb",
+      "file_sha256": "9c1c5b5fbfb6123daabd9df05e6e41b7beb9b34461362e20f2c8a5c69576a8f2",
+      "bytes": 31390,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

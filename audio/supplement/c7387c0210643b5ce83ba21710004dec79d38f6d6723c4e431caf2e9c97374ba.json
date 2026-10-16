@@ -1,0 +1,30 @@
+{
+  "text": "Donne-moi-le",
+  "text_sha256": "c7387c0210643b5ce83ba21710004dec79d38f6d6723c4e431caf2e9c97374ba",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9868480725623583,
+      "source_seconds": 0.9868480725623583,
+      "source_file_sha256": "ce5614bf3ed23fc2f68f4db949388c98a88054ce1034b2fcfd29aea0fb76811e",
+      "file_sha256": "dc51aeee8ca46a2b27c2eea9be59ba0ac6fddfcf0bb759b6274ad777cb8179f1",
+      "bytes": 8612,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

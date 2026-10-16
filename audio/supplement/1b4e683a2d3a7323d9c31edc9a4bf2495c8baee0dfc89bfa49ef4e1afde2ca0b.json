@@ -1,0 +1,30 @@
+{
+  "text": "Si tu arrives tôt, nous dînerons ensemble.",
+  "text_sha256": "1b4e683a2d3a7323d9c31edc9a4bf2495c8baee0dfc89bfa49ef4e1afde2ca0b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7980045351473923,
+      "source_seconds": 2.7980045351473923,
+      "source_file_sha256": "236bcf090fbe8ad0d6526355b1b90ca16b1136d98aa2e3763f540b6809456f60",
+      "file_sha256": "6fd5632028ae783a37f1ae230e583d54c722a6b120b40b2f6839643968ce38be",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

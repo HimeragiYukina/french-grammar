@@ -1,0 +1,30 @@
+{
+  "text": "Je reviens du Canada et ma sœur revient d’Italie.",
+  "text_sha256": "fb40e538e262e7c61a83170db5af403f00246514e217ca9fd1f47933b2392d52",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.670294784580499,
+      "source_seconds": 2.670294784580499,
+      "source_file_sha256": "68f595f6848428e02d9e0d682c5d7b07e773d20e036d9bd9ffdd67974fed2e7d",
+      "file_sha256": "e31c18453441aa6f195696b92007aebe6b198b3128c34bae2b5cf3ab5c805f66",
+      "bytes": 22195,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

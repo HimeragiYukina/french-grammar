@@ -1,0 +1,30 @@
+{
+  "text": "Quelle robe préfères-tu ? — Celle-ci ou celle-là ?",
+  "text_sha256": "9e6b0261b349d5bc2ad98345f5cc621d4f826bcf270018d715c1327108e8d074",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.449705215419501,
+      "source_seconds": 2.449705215419501,
+      "source_file_sha256": "80023809ed3fe0a3b7d24553cd3d8d397a9012f19bb91a123345d47eaaa0883a",
+      "file_sha256": "893db88112ecceaa8cbd2c1ac6015a1f17633e6513bbd4b33b33f26e0fadc9dd",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

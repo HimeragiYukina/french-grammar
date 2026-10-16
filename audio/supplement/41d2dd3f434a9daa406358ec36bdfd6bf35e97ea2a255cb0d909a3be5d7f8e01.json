@@ -1,0 +1,30 @@
+{
+  "text": "Je vous envoie le plan afin que vous puissiez préparer la visite.",
+  "text_sha256": "41d2dd3f434a9daa406358ec36bdfd6bf35e97ea2a255cb0d909a3be5d7f8e01",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.0650340136054424,
+      "source_seconds": 3.0650340136054424,
+      "source_file_sha256": "5ebd93752b5b50715ccc4c002c882748caef482563b60b5e34775a3683db9c07",
+      "file_sha256": "b2d76fe7f745b0bf14a448542908722da6e6355541305ec7f87de2376b69d179",
+      "bytes": 25330,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

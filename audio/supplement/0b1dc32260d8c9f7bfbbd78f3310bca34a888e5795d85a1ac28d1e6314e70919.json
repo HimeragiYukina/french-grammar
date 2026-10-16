@@ -1,0 +1,30 @@
+{
+  "text": "« Elles se sont ___ (parler) puis se sont ___ (plaire). » (se = à qn)",
+  "text_sha256": "0b1dc32260d8c9f7bfbbd78f3310bca34a888e5795d85a1ac28d1e6314e70919",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9837641723356008,
+      "source_seconds": 2.9837641723356008,
+      "source_file_sha256": "6bd74b49b3cac7fbc161309885592c46f053d220af5de75a7b256796b89b3226",
+      "file_sha256": "684b56f1a02fc8c989365e237b030008bbad1fc68061ccc5f84c8343ad02031a",
+      "bytes": 24703,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

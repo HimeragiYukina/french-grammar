@@ -1,0 +1,30 @@
+{
+  "text": "J'espère qu'il viendra à la fête demain.",
+  "text_sha256": "25c765bb588389a0c88b6adf010017dbb6ff8cf75688c4976e6d5f0276946c97",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0549659863945577,
+      "source_seconds": 2.0549659863945577,
+      "source_file_sha256": "cb8de4f22da2ef0a2d81694332a015f0f8868bce9cb947698bc64566ac7a05b1",
+      "file_sha256": "b23908487fe342a82b6a30413c0c86229791c0323d01373f76a58f2ece7b6552",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

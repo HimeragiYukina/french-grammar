@@ -1,0 +1,30 @@
+{
+  "text": "le jury",
+  "text_sha256": "4089a4a854cb83e6f4a0241ea9dfa397d6118307cab769501556f2eac9b4b9ae",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8359183673469388,
+      "source_seconds": 0.8359183673469388,
+      "source_file_sha256": "63a41ee7b6e147ca925f629c974dac7f18f52ea2c324b82c0e939d036404bbd8",
+      "file_sha256": "44122449c81fbefa7daf362dcb8a1ad5712c981b98abb955a4a54e5e2b5f26f7",
+      "bytes": 7358,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

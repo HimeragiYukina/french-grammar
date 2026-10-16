@@ -1,0 +1,30 @@
+{
+  "text": "Que ne suis-je resté chez moi !",
+  "text_sha256": "2f13925d1a705d6c8af6214e192532772feb7a0011ef0bff6a65197313e23f98",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6253968253968254,
+      "source_seconds": 1.6253968253968254,
+      "source_file_sha256": "5aa7c344070d76063ca8a7653cfae6664e5c8d5abb10736a45e16328016ea8a9",
+      "file_sha256": "2103a2d9747416751f540501894fd1b43897ef69b1d9c3cde75411fb464efb97",
+      "bytes": 13836,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

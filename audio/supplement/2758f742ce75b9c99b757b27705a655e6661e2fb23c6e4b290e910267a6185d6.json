@@ -1,0 +1,30 @@
+{
+  "text": "Paul vient-il avec nous ?",
+  "text_sha256": "2758f742ce75b9c99b757b27705a655e6661e2fb23c6e4b290e910267a6185d6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3003174603174603,
+      "source_seconds": 1.3003174603174603,
+      "source_file_sha256": "027e80cc0da5eb12ddfe09d640e40135f8276eb14eb30d8a87b46fec369bbc48",
+      "file_sha256": "ffec64a0ce046176a6c38ffbbf8ede71a83b446f080ef6bfbbf07b00b28ad450",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

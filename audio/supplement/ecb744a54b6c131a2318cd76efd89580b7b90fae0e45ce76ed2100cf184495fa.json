@@ -1,0 +1,30 @@
+{
+  "text": "Combien de frères ?",
+  "text_sha256": "ecb744a54b6c131a2318cd76efd89580b7b90fae0e45ce76ed2100cf184495fa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2190476190476192,
+      "source_seconds": 1.2190476190476192,
+      "source_file_sha256": "8c9a692bf82ace75792eb3a49e705da4af43e321742cc6bc1b004d81b029be44",
+      "file_sha256": "fcc173bae6fe647cd6b3fde786a35efb5548c21c7e68a0cd74c9f53ffc58efef",
+      "bytes": 10493,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

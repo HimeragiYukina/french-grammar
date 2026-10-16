@@ -1,0 +1,30 @@
+{
+  "text": "Merci de ne pas fumer ici.",
+  "text_sha256": "5e4998e6bd843fa30b085b572e2bda9e302378e85f9dd7f84149c852d3a1ae5f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5905668934240362,
+      "source_seconds": 1.5905668934240362,
+      "source_file_sha256": "05d7b4ad60f5e39f1d482cc0c180108394f4ef67dc645101a867a3f08ba607a8",
+      "file_sha256": "f7f7831ff4dfafb1d8a7888b4404544097edbfbf2d3f7f28fed0a17d1331887b",
+      "bytes": 13418,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

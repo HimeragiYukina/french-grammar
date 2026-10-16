@@ -1,0 +1,30 @@
+{
+  "text": "C'est le livre ___ Marie. (…",
+  "text_sha256": "67efc52ee9a101a64f58059730d68b71cc175de5006168b485ef14e5f9829484",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3119274376417234,
+      "source_seconds": 1.3119274376417234,
+      "source_file_sha256": "412da7fbcc7031eeae3ebddc84410cf06e342bdca915e92a421759f32a271c2a",
+      "file_sha256": "3a0b9497d0f0dc38c83d565139c5cc7f35c91ca800e907f7cc37566773fc570e",
+      "bytes": 11328,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

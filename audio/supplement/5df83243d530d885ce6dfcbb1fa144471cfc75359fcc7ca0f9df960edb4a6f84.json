@@ -1,0 +1,30 @@
+{
+  "text": "Comment vas-tu à l'école ?",
+  "text_sha256": "5df83243d530d885ce6dfcbb1fa144471cfc75359fcc7ca0f9df960edb4a6f84",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3583673469387756,
+      "source_seconds": 1.3583673469387756,
+      "source_file_sha256": "1b3950677f0cc6e0adb30c0ff841a8943c265219d6c844de2e17304387eca95c",
+      "file_sha256": "3a8e4a0885f4646545ee27672502e7bf847bb4ec7ab106cb7a8598b83c7b1157",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

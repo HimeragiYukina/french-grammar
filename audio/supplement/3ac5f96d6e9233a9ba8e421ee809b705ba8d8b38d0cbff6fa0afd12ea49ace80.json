@@ -1,0 +1,30 @@
+{
+  "text": "elle a manqué son train.",
+  "text_sha256": "3ac5f96d6e9233a9ba8e421ee809b705ba8d8b38d0cbff6fa0afd12ea49ace80",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3235374149659864,
+      "source_seconds": 1.3235374149659864,
+      "source_file_sha256": "fc800d3b99ce7c4bababc18eb946cf8425f77830b1f31d73bf2d6d0df8013fa4",
+      "file_sha256": "baaf9eb7aeb850e4894d96b92a99d0434573e6c6627b498bc2af8e1ad09937ad",
+      "bytes": 11328,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

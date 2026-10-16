@@ -1,0 +1,30 @@
+{
+  "text": "Je lui en ai envoyé vingt",
+  "text_sha256": "622218c9c3c005fe8919088ad3276fb1e88cb46c722187a502698a121762d578",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.509297052154195,
+      "source_seconds": 1.509297052154195,
+      "source_file_sha256": "9690e97f21697a55977e46483d1f390addaa51229a9f6859cb8eb20b34536205",
+      "file_sha256": "8668d0e8fc105db56fe835cdbd9e6ef0205b41f10acfc53f66d5f5f293d2a636",
+      "bytes": 12791,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

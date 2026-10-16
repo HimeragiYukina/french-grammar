@@ -1,0 +1,30 @@
+{
+  "text": "Toute compétente qu'elle soit, elle ne peut pas travailler seule. On peut aussi écrire Toute compétente qu'elle est. Le subjonctif est possible ; l'indicatif présente plus directement la compétence comme admise.",
+  "text_sha256": "8b0306af9b4e4fa4b2b13aa7cd4e607a948e4f364ddb62bad1ac2d39b68f2ec6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 11.865396825396825,
+      "source_seconds": 11.865396825396825,
+      "source_file_sha256": "d680c0e24283483e7d789e8a528af7001f574af4a87a465ace296818c03cc6ec",
+      "file_sha256": "5a43fa474fcf54e80fd6f61f42ee41d1e0ab696c6a876f2005402c919f5a9b97",
+      "bytes": 95756,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

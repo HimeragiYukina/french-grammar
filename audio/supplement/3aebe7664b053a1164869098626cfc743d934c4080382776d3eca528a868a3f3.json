@@ -1,0 +1,30 @@
+{
+  "text": "Non parce qu'il est malade, mais parce qu'il est fatigué",
+  "text_sha256": "3aebe7664b053a1164869098626cfc743d934c4080382776d3eca528a868a3f3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9605442176870747,
+      "source_seconds": 2.9605442176870747,
+      "source_file_sha256": "b69bc62de69fdcc441bf930a9007efdaefeb83f0de26914e90903d564d7c3710",
+      "file_sha256": "23e9cdc720bd4bd28d4cc278f6ee596f2faebf5a12ee410ae5dfb9b87fd2acbf",
+      "bytes": 24494,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

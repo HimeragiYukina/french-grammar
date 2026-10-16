@@ -1,0 +1,30 @@
+{
+  "text": "Hier, il ___ (faire) froid, alors je ___ (rester) à la maison.",
+  "text_sha256": "a1098433230d442df37b231c8dfaf28907331e4acf83dd28dc8f694975fc2536",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.111473922902494,
+      "source_seconds": 3.111473922902494,
+      "source_file_sha256": "4d07245ce937d8dffd8b7b0095f3d5eda9cb0bd27f81c1c1e266a3071346a510",
+      "file_sha256": "8ad9bcf6085eca32466d4c260ab0c5a68ebc957b5fbb18576462f2d173f03693",
+      "bytes": 25748,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

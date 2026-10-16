@@ -1,0 +1,30 @@
+{
+  "text": "L’amie de Paul arrive.",
+  "text_sha256": "f9549d7361f785163f5eb5c6de3d7f860db0b64dd5c467f516c5333602649e99",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4512471655328798,
+      "source_seconds": 1.4512471655328798,
+      "source_file_sha256": "92a2002b5c4bded8e4e0de5c6b0d396c3515728d40c5697128d87f7cc913ce89",
+      "file_sha256": "525ec0c114f4e2860e742d9fb0fb8e05b046f020188fa1b628ed62d7253c26d1",
+      "bytes": 12373,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

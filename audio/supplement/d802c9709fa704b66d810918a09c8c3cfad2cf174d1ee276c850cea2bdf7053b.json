@@ -1,0 +1,30 @@
+{
+  "text": "Il ne va pas travailler ce week-end.",
+  "text_sha256": "d802c9709fa704b66d810918a09c8c3cfad2cf174d1ee276c850cea2bdf7053b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9969160997732427,
+      "source_seconds": 1.9969160997732427,
+      "source_file_sha256": "0c27958eb0f558c33e286c566de1c3ffe4cc615b3797fede5f3afcdb99e39fc2",
+      "file_sha256": "658fc29af59fa593323d0564fa991f0072669a4d6a9a4867db5fd4bc7d846b83",
+      "bytes": 16762,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

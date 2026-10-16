@@ -1,0 +1,30 @@
+{
+  "text": "Articulateurs : cause, conséquence",
+  "text_sha256": "cf94163b15da29f0f93b3c78dfba1a169390fa3a71d55a28457dcd75ac9d0bd3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.948934240362812,
+      "source_seconds": 2.948934240362812,
+      "source_file_sha256": "f8c38de3d79fceb8e83b0f72792ee7d4c00493d162c7c5d090766b39918fe835",
+      "file_sha256": "1e196e6fa09ef76e71fc533920930b3f8f9c1fba77922ee606cdc4c547f1df14",
+      "bytes": 24285,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

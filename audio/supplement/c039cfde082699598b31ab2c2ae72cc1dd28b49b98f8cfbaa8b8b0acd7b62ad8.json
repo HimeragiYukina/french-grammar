@@ -1,0 +1,30 @@
+{
+  "text": "N'ouvrez pas vos livres !",
+  "text_sha256": "c039cfde082699598b31ab2c2ae72cc1dd28b49b98f8cfbaa8b8b0acd7b62ad8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3931972789115645,
+      "source_seconds": 1.3931972789115645,
+      "source_file_sha256": "0c5f7e106c7d2e32c23a931ee1dd59ce534325f928602c1901b1ab1227177d5a",
+      "file_sha256": "ab4a75c02b19e806c3de05206b0bb692b295c384eb7058331beeb2c35a1cde77",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

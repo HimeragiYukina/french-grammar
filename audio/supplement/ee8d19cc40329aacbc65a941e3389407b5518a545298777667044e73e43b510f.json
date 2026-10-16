@@ -1,0 +1,30 @@
+{
+  "text": "Les chanteuses que nous avons ___ chanter ont salué. / Les chansons que nous avons ___ chanter étaient anciennes.",
+  "text_sha256": "ee8d19cc40329aacbc65a941e3389407b5518a545298777667044e73e43b510f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.50312925170068,
+      "source_seconds": 5.50312925170068,
+      "source_file_sha256": "cd9f7123fe92bc624400178cbd92b4fcafe47cfe323fe16077ac921c7246b884",
+      "file_sha256": "3e9b4aae94bfe0692e8377e21f843e3b42994ccf885d850c47fefc86bf5d27ff",
+      "bytes": 44765,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

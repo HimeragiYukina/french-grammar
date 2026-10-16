@@ -1,0 +1,30 @@
+{
+  "text": "Je lui demande de ne pas venir",
+  "text_sha256": "b0be7e4e99d9fb6072e01f7d19bb015c8ff2b530ffed9524271df2fa8f3e4de2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.043356009070295,
+      "source_seconds": 2.043356009070295,
+      "source_file_sha256": "d111610bed4e6babfbfa9144ba83025646a0a4bc4c71c53296a3406e70d9c8bf",
+      "file_sha256": "072ab920cab624991ae14d30bd79f893f791002fcd7e4a404ec368faaa280e7f",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

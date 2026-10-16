@@ -1,0 +1,30 @@
+{
+  "text": "aller se lever",
+  "text_sha256": "033105a6d7d3bd2e4af2aea46097891adcfbf9757d975236a8fe0e4ef406a0e6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0100680272108844,
+      "source_seconds": 1.0100680272108844,
+      "source_file_sha256": "9dd3a4f74dda7d2b2fb8fa1e0891c49703d3ded6f79884308bf3aa392afb61e1",
+      "file_sha256": "5cb31d62b52d95c60468e598420610923f5db4b4c912df979cb1c2bb63c2007b",
+      "bytes": 8821,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

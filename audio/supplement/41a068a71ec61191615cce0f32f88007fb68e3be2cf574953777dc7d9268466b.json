@@ -1,0 +1,30 @@
+{
+  "text": "Il lit en marchant ; c'est une lecture passionnante.",
+  "text_sha256": "41a068a71ec61191615cce0f32f88007fb68e3be2cf574953777dc7d9268466b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.076643990929705,
+      "source_seconds": 3.076643990929705,
+      "source_file_sha256": "482c2a87eadfbaa55fda9a85b0d6a950569ad7ba2745e7aba9174e84ffec5e72",
+      "file_sha256": "4da9a56e4171fe2c766d01e85500b78da12252587aafed57ce6268fc13729be1",
+      "bytes": 25330,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

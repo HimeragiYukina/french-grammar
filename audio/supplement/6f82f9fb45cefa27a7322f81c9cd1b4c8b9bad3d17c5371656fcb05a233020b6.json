@@ -1,0 +1,30 @@
+{
+  "text": "œuvrer",
+  "text_sha256": "6f82f9fb45cefa27a7322f81c9cd1b4c8b9bad3d17c5371656fcb05a233020b6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.603718820861678,
+      "source_seconds": 0.603718820861678,
+      "source_file_sha256": "a7b5aae7a466a21c9efb149c15489a8395ff8d99c83506bc1dad2318fe6bbf7a",
+      "file_sha256": "5614b080c09ddcf48a9c13c56fcd99fd2054307249205dd5b3e22196756e78ee",
+      "bytes": 5686,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

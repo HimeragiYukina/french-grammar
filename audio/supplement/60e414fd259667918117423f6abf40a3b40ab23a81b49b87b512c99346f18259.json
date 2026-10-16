@@ -1,0 +1,30 @@
+{
+  "text": "Le cours commence à huit heures",
+  "text_sha256": "60e414fd259667918117423f6abf40a3b40ab23a81b49b87b512c99346f18259",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8343764172335602,
+      "source_seconds": 1.8343764172335602,
+      "source_file_sha256": "f06a8eabb6fbb0001d791077c6a0299b3d0c6cedec37e644844976a4ce9e0969",
+      "file_sha256": "1bed7de570629e29f7da4fb2b480037012cdd3025663fc5fdc360a342c35a69c",
+      "bytes": 15508,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

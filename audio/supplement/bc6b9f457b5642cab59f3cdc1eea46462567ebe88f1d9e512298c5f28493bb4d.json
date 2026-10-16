@@ -1,0 +1,30 @@
+{
+  "text": "Même s'il devenait riche",
+  "text_sha256": "bc6b9f457b5642cab59f3cdc1eea46462567ebe88f1d9e512298c5f28493bb4d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6486167800453515,
+      "source_seconds": 1.6486167800453515,
+      "source_file_sha256": "7a46aae35cf70543cba6a5e11442c6dbad62a1af3863ad98e956fa66b2c7bcb3",
+      "file_sha256": "e47b077acd33f9044fab6532b22a8cf44b950bb5cf0a406d892e7bc4e6ab7f00",
+      "bytes": 14045,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

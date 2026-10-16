@@ -1,0 +1,30 @@
+{
+  "text": "Je vais à la gare avec ma sœur.",
+  "text_sha256": "dd815af7eff34924d40821222f597e12c60a0fa9da7a4cb51a5c8bd147f2305d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7182766439909296,
+      "source_seconds": 1.7182766439909296,
+      "source_file_sha256": "2b27f3b9f59f595b1e1ecdaa28d4dee28e5d42e2f2736c20157d7c2811d4964a",
+      "file_sha256": "0a526b6da524c5b811ee84ee7b6c2834c6bdff168d1c6a48b38ff4639d25b5c4",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

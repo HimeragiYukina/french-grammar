@@ -1,0 +1,30 @@
+{
+  "text": "Bien que la salle soit fermée",
+  "text_sha256": "0edd0f82f90202703d0dbc0ee813a49d82bdb19e5c860405770a6c2f22e32e91",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7182766439909296,
+      "source_seconds": 1.7182766439909296,
+      "source_file_sha256": "798e7a26dd888f1e9145af604e51527a028a3d3089ad9d5aaa01197ed6f84693",
+      "file_sha256": "d162fd99466b912ee0349b7d2faa70875ea2b823d11be30066c89ea21d09645d",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

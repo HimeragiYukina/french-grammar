@@ -1,0 +1,30 @@
+{
+  "text": "Je viendrai demain",
+  "text_sha256": "ad1d0ab867afacae74b4fbedbdb422e256dff302ccdcc96116523390e183a12f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.207437641723356,
+      "source_seconds": 1.207437641723356,
+      "source_file_sha256": "103566ce41c80061ced038b58a8485825cd8e653bbebdb680f5046c3a83aa73c",
+      "file_sha256": "6b2af5f8171cd9a1a6196f9bb967ebcf1f6be18ea2bdb747987df74b3b7b9d40",
+      "bytes": 10493,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

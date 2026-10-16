@@ -1,0 +1,30 @@
+{
+  "text": "Vous trouverez ci-jointe la facture",
+  "text_sha256": "233e17a8ee96067a526ea8d74c64fcf319697a3dbd75aa4dec48190d9504a890",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.078185941043084,
+      "source_seconds": 2.078185941043084,
+      "source_file_sha256": "54a189f6475e60568230ea5274a16bba81612f93c9b2434af617b3ad6b65bb93",
+      "file_sha256": "7a77b152a6c4b9f276172a47118584ca5d9bf612e680740219b79480d20fa18d",
+      "bytes": 17389,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elles sont arrivées hier soir.",
+  "text_sha256": "c6d7e27d44d3a02fec3b0c318cd4a243abdaef675229cca7046db78cb12cae1f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7182766439909296,
+      "source_seconds": 1.7182766439909296,
+      "source_file_sha256": "f3596a1cf539657370bf0d7eaf591ea6e2baf697017c0f3ba643de98c37f9e07",
+      "file_sha256": "0c8ef1b0c585013ae37b1d9e5269dcc1a2bf53666503f3e4f3ece39288e9200e",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

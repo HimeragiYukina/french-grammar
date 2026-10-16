@@ -1,0 +1,30 @@
+{
+  "text": "Dès qu'elles seront rentrées, je leur téléphonerai.",
+  "text_sha256": "484c9cc7a46ef3dea2c0072adb53f16f7d0f6a2a41ee8345d682fb7374b8f5bc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7399546485260773,
+      "source_seconds": 2.7399546485260773,
+      "source_file_sha256": "65c8f66abdc886cd6691e04184078400710276265b02c1f33a957679d4ce44c4",
+      "file_sha256": "fba7e29eed4265587165fdf357abb4e8127ad373666f60f16b4709605c377a84",
+      "bytes": 22613,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

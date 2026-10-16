@@ -1,0 +1,30 @@
+{
+  "text": "Il parle plus fort de sorte que tous l'entendent",
+  "text_sha256": "aee6fcfecb19a6cf931aecbfc32f407e671fcbde29e5423af2b7746a75dce502",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7631746031746034,
+      "source_seconds": 2.7631746031746034,
+      "source_file_sha256": "d828bdd8e8567ca50e6e0a2037c6214cb195cc647203fbc169fbefdb69b5bfb8",
+      "file_sha256": "2d0ce09cb9aa6a9824c272953e21c606c9446667edcefebdb2daa90a1aba265e",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

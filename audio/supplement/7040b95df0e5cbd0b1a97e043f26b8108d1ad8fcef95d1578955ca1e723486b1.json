@@ -1,0 +1,30 @@
+{
+  "text": "Il est dommage qu’il pleuve aujourd’hui.",
+  "text_sha256": "7040b95df0e5cbd0b1a97e043f26b8108d1ad8fcef95d1578955ca1e723486b1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1942857142857144,
+      "source_seconds": 2.1942857142857144,
+      "source_file_sha256": "156a2ef3de84516284d50d5c8802ab2edd1e34f562736e27692113c5f31942d8",
+      "file_sha256": "0ddee8af96084d9ce31a58c25b2892b883bb8ba4522faf1e000d2090fff46e3a",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

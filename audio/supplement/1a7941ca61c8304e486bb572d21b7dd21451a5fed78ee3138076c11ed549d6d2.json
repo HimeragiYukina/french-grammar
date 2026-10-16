@@ -1,0 +1,30 @@
+{
+  "text": "Je crains qu’elle ne parte. / Je crains qu’elle ne parte pas.",
+  "text_sha256": "1a7941ca61c8304e486bb572d21b7dd21451a5fed78ee3138076c11ed549d6d2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.215963718820862,
+      "source_seconds": 3.215963718820862,
+      "source_file_sha256": "924de8b773574bec990c5d6438f96f22af8ab4e5f8589cd778eb5087f1ae4cc0",
+      "file_sha256": "d6635cd224b54e8394bbe4931678e35f160a5bbc567ca49f61c499bd543c68a2",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

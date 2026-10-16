@@ -1,0 +1,30 @@
+{
+  "text": "c'est vs il est:C'est un médecin(c'est+",
+  "text_sha256": "fd441b7f16433cc9049bef046d96e59c30b05952e972c3631c68696d759828c1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2407256235827666,
+      "source_seconds": 2.2407256235827666,
+      "source_file_sha256": "bf8649e8606df7c77746c4f5c04a89e77f29e2201c8be6325009d3ed659df534",
+      "file_sha256": "60aded4bcab96e3a067197b66f9a72cf88137c67402e6a2545b26b7f0af3c13b",
+      "bytes": 18643,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Le coût a doublé, d'où notre décision de reporter le projet.",
+  "text_sha256": "ee0fed64b68f95a82288198717639f4ac3497114d0bafec1ff44554eed767468",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5062131519274375,
+      "source_seconds": 3.5062131519274375,
+      "source_file_sha256": "7444228e0c0476f63faa1e4dcbdd5925418c457d2c0020bfbb0d0e0956ec38df",
+      "file_sha256": "44526a7d6ed9e5f5beda506b6907d5d54669890c01ec673579556df992d4e5fb",
+      "bytes": 28883,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

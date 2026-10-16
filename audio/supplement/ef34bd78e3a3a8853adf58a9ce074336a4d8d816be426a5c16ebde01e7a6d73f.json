@@ -1,0 +1,30 @@
+{
+  "text": ") : ___ vous ___ (être), montrez votre badge.",
+  "text_sha256": "ef34bd78e3a3a8853adf58a9ce074336a4d8d816be426a5c16ebde01e7a6d73f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7066666666666668,
+      "source_seconds": 1.7066666666666668,
+      "source_file_sha256": "ce946a8e402e84c5efef9c8cbd9a67d1e43196e0b73f7d9b0c202f3cbaddde76",
+      "file_sha256": "bdf24a0d98a13c7558da78c406d5f4278edb7ef9a9d09e1b557235308b303170",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

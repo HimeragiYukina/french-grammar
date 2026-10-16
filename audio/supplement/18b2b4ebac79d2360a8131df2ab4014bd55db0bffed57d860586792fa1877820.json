@@ -1,0 +1,30 @@
+{
+  "text": "Le tableau aurait été vendu à un collectionneur privé.",
+  "text_sha256": "18b2b4ebac79d2360a8131df2ab4014bd55db0bffed57d860586792fa1877820",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8676643990929707,
+      "source_seconds": 2.8676643990929707,
+      "source_file_sha256": "21eb0c5ab7e2b6830a211db3738ed75f2ed30f1ba2d31cce254987d7bd4b69e2",
+      "file_sha256": "e6ec8abe553b35ba61cf2b0a9159cb004078e091800339a11c39d4018b84af29",
+      "bytes": 23658,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

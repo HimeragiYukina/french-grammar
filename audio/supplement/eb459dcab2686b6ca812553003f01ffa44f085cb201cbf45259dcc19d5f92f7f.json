@@ -1,0 +1,30 @@
+{
+  "text": "La voisine qui me prête ses outils est très aimable.",
+  "text_sha256": "eb459dcab2686b6ca812553003f01ffa44f085cb201cbf45259dcc19d5f92f7f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1695238095238096,
+      "source_seconds": 3.1695238095238096,
+      "source_file_sha256": "3f566dfcd6e71abd2549c502e0acba1d37ca2346ef9aa1c5e6368f383178d8ed",
+      "file_sha256": "9525990fb36854c9c192bf07154b7da2460f1e384c4ec4f88014f551e74fa57c",
+      "bytes": 26166,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

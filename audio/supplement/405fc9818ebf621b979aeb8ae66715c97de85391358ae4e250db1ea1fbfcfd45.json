@@ -1,0 +1,30 @@
+{
+  "text": "dans l’urgence",
+  "text_sha256": "405fc9818ebf621b979aeb8ae66715c97de85391358ae4e250db1ea1fbfcfd45",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.253877551020408,
+      "source_seconds": 1.253877551020408,
+      "source_file_sha256": "3e97ab97130fcede5e55e0086b0bf300f90b971349333471a495d9eaef3a3c6f",
+      "file_sha256": "b5e77ad12c8feaba32ed5f24f0fe0b1731e0ebd71c22b68a90e28fa001703669",
+      "bytes": 10701,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "À peine était-elle arrivée qu’on lui demanda de repartir.",
+  "text_sha256": "4ce457775a274589f9675ba79e8ab965b2b628e2150691d0174dcf463df24879",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2043537414965986,
+      "source_seconds": 3.2043537414965986,
+      "source_file_sha256": "3d1996c4de9458db9f32a43d6d9a0e40a8395d19dbf8c60ab4114d3d11c90622",
+      "file_sha256": "52cea68d41b841dc0a7b7546ede471f8faf05cf04121d3f9c798f36c922052a0",
+      "bytes": 26375,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

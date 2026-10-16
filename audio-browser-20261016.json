@@ -1,0 +1,2792 @@
+{
+  "pageErrors": [],
+  "timestamp": "2026-10-16T07:35:43.109Z",
+  "browser": "Installed Microsoft Edge, headless, fresh isolated profile; no visible desktop or IAB",
+  "listened": false,
+  "notVerified": [
+    "Auditory intelligibility/pronunciation/prosody",
+    "Real availability of Google français: preference logic tested with a mock list only",
+    "Actual microphone: regression uses synthetic input only"
+  ],
+  "results": [
+    {
+      "name": "a1-genre actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-genre every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-indefini actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-indefini every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-pluriel actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-pluriel every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-partitif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-partitif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-sujets actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-sujets every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-etre actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-etre every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-avoir actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-avoir every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-cest-ilya actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-cest-ilya every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-present-er actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-present-er every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-present-ir actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-present-ir every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-present-irreg actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-present-irreg every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-adj actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-adj every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-possessif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-possessif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-demonstratif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-demonstratif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-negation actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-negation every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-question actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-question every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-mots-interro actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-mots-interro every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-prep-lieu actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-prep-lieu every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-prep-base actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-prep-base every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-heure-date actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-heure-date every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-futur-proche actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-futur-proche every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-passe-recent actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-passe-recent every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-vouloir-inf actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-vouloir-inf every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-avoir actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-avoir every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-etre actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-etre every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-imparfait actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-imparfait every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-vs-imp actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-vs-imp every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-futur-simple actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-futur-simple every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-cod actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-cod every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-coi actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-coi every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-en actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-en every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-y actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-y every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-pronominaux actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-pronominaux every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-imperatif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-imperatif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-comparatif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-comparatif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-superlatif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-superlatif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-qui-que actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-qui-que every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-ou-relatif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-ou-relatif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-quantite actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-quantite every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-temps-prep actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-temps-prep every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-politesse actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-politesse every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-pqp actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-pqp every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-cond-present actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-cond-present every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-cond-passe actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-cond-passe every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-subj-present actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-subj-present every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-subj-declencheurs actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-subj-declencheurs every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-si actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-si every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-passif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-passif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-double-pronoms actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-double-pronoms every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-possessifs-pron actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-possessifs-pron every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-demonstratifs-pron actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-demonstratifs-pron every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-dont actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-dont every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-gerondif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-gerondif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-negations actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-negations every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-connecteurs-base actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-connecteurs-base every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-subj-passe actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-subj-passe every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-mode-choix actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-mode-choix every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-concordance actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-concordance every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-participe-present actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-participe-present every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-se-faire actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-se-faire every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-relatifs-composes actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-relatifs-composes every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-mise-relief actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-mise-relief every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-nominalisation actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-nominalisation every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-futur-anterieur actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-futur-anterieur every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-opposition-concession actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-opposition-concession every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-cause-consequence actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-cause-consequence every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-but-condition actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-but-condition every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-accord-pp actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-accord-pp every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-registres actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-registres every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-modalisation actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-modalisation every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-adj-sens actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-adj-sens every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-passe-simple actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-passe-simple every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-subj-imparfait actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-subj-imparfait every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-cond-2e actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-cond-2e every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-inversion actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-inversion every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-dislocation actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-dislocation every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-concession-indefinie actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-concession-indefinie every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-hypothese-sans-si actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-hypothese-sans-si every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-ne-expletif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-ne-expletif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-accord-avance actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-accord-avance every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-connecteurs-soutenus actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-connecteurs-soutenus every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-apres-que actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-apres-que every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-impersonnelles actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-impersonnelles every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-adj-verbal actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-adj-verbal every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-passe-anterieur actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-passe-anterieur every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-concordance-litteraire actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-concordance-litteraire every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-concession-soutenue actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-concession-soutenue every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-subj-fin actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-subj-fin every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-accord-extreme actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-accord-extreme every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-inversion-style actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-inversion-style every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-ellipse actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-ellipse every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-conjecture actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-conjecture every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-rection actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-rection every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-cause-niee actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-cause-niee every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-cohesion actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-cohesion every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "grammar direct-file offline playback",
+      "pass": true
+    },
+    {
+      "name": "Google français preference survives reload without selecting synthetic supplement",
+      "pass": true
+    },
+    {
+      "name": "local delivery report loads, plays and fits mobile: http://127.0.0.1:8765/audio-20261016.html",
+      "pass": true
+    }
+  ],
+  "scope": "Grammar-only real browser playback, every point target mapping, offline file playback, original-voice metadata and preference logic. No auditory listening.",
+  "preservedClipMetadata": [
+    {
+      "path": "audio/fr-FR/ac743b9c0d6bcfb5.mp3",
+      "seconds": 2.232
+    },
+    {
+      "path": "audio/fr-FR/f54a11a717866845.mp3",
+      "seconds": 10.896
+    },
+    {
+      "path": "audio/fr-FR/3d90581afeab4b8f.mp3",
+      "seconds": 1.992
+    },
+    {
+      "path": "audio/fr-FR/2a8eb3ca5333d00b.mp3",
+      "seconds": 2.04
+    },
+    {
+      "path": "audio/fr-FR/c3c808f10ba6233c.mp3",
+      "seconds": 2.448
+    },
+    {
+      "path": "audio/fr-FR/f96e38b16553a0eb.mp3",
+      "seconds": 2.712
+    },
+    {
+      "path": "audio/fr-FR/e14dc998dfdee77e.mp3",
+      "seconds": 2.76
+    },
+    {
+      "path": "audio/fr-FR/e90ef5029ace5165.mp3",
+      "seconds": 2.568
+    },
+    {
+      "path": "audio/fr-FR/be41d5b4c3b069f5.mp3",
+      "seconds": 2.232
+    },
+    {
+      "path": "audio/fr-FR/9d0aac5a19f4bd03.mp3",
+      "seconds": 7.128
+    },
+    {
+      "path": "audio/fr-FR/173c591d0d732ead.mp3",
+      "seconds": 2.4
+    },
+    {
+      "path": "audio/fr-FR/57bab60366623d57.mp3",
+      "seconds": 2.736
+    },
+    {
+      "path": "audio/fr-FR/f88b938b99d34b66.mp3",
+      "seconds": 2.088
+    },
+    {
+      "path": "audio/fr-FR/0edfda8710586ad2.mp3",
+      "seconds": 2.088
+    },
+    {
+      "path": "audio/fr-FR/79c0a0349be79918.mp3",
+      "seconds": 2.856
+    },
+    {
+      "path": "audio/fr-FR/a8ff85fff4bd128e.mp3",
+      "seconds": 2.616
+    },
+    {
+      "path": "audio/fr-FR/2117eb537b000245.mp3",
+      "seconds": 2.208
+    },
+    {
+      "path": "audio/fr-FR/d158ca0964b62a2c.mp3",
+      "seconds": 7.368
+    },
+    {
+      "path": "audio/fr-FR/6dca16c047fa4ed1.mp3",
+      "seconds": 2.568
+    },
+    {
+      "path": "audio/fr-FR/6144e018cf228452.mp3",
+      "seconds": 2.016
+    },
+    {
+      "path": "audio/fr-FR/9a10bca9b0002e75.mp3",
+      "seconds": 2.016
+    },
+    {
+      "path": "audio/fr-FR/f12f636bb4a7a6f6.mp3",
+      "seconds": 2.04
+    },
+    {
+      "path": "audio/fr-FR/fd8b320a158edc81.mp3",
+      "seconds": 1.968
+    },
+    {
+      "path": "audio/fr-FR/fd5f98e7671fd57b.mp3",
+      "seconds": 2.184
+    },
+    {
+      "path": "audio/fr-FR/ed3b59dd4184c418.mp3",
+      "seconds": 5.952
+    },
+    {
+      "path": "audio/fr-FR/5ef17053bf4e51b2.mp3",
+      "seconds": 2.064
+    },
+    {
+      "path": "audio/fr-FR/1bdb1b506b985798.mp3",
+      "seconds": 1.992
+    },
+    {
+      "path": "audio/fr-FR/79af7e9e8e7374cf.mp3",
+      "seconds": 2.952
+    },
+    {
+      "path": "audio/fr-FR/618f9b2c8bcd6ef2.mp3",
+      "seconds": 1.992
+    },
+    {
+      "path": "audio/fr-FR/bfa6034310b841ec.mp3",
+      "seconds": 2.328
+    },
+    {
+      "path": "audio/fr-FR/8afd7bb9b46f369c.mp3",
+      "seconds": 5.736
+    },
+    {
+      "path": "audio/fr-FR/6f175981708057f7.mp3",
+      "seconds": 1.752
+    },
+    {
+      "path": "audio/fr-FR/87ca7a9b8b726822.mp3",
+      "seconds": 1.896
+    },
+    {
+      "path": "audio/fr-FR/dbfb580eb9130f6c.mp3",
+      "seconds": 2.616
+    },
+    {
+      "path": "audio/fr-FR/9d081a81366b33bb.mp3",
+      "seconds": 2.544
+    },
+    {
+      "path": "audio/fr-FR/bbef9ba27cb89316.mp3",
+      "seconds": 2.088
+    },
+    {
+      "path": "audio/fr-FR/3ff32859e434e557.mp3",
+      "seconds": 2.088
+    },
+    {
+      "path": "audio/fr-FR/d2260bd927bd000d.mp3",
+      "seconds": 3.192
+    },
+    {
+      "path": "audio/fr-FR/48e84e9cfb3e0139.mp3",
+      "seconds": 2.952
+    },
+    {
+      "path": "audio/fr-FR/694e9b793b14853e.mp3",
+      "seconds": 9
+    },
+    {
+      "path": "audio/fr-FR/c3f24bfafc538d8c.mp3",
+      "seconds": 2.256
+    },
+    {
+      "path": "audio/fr-FR/45e4e8077bd0d1df.mp3",
+      "seconds": 2.256
+    },
+    {
+      "path": "audio/fr-FR/4831405f06365f93.mp3",
+      "seconds": 2.976
+    },
+    {
+      "path": "audio/fr-FR/e53cb01f03204687.mp3",
+      "seconds": 5.928
+    },
+    {
+      "path": "audio/fr-FR/bc2b6cc4c3f9168d.mp3",
+      "seconds": 2.328
+    },
+    {
+      "path": "audio/fr-FR/417eea79078a0e25.mp3",
+      "seconds": 2.376
+    },
+    {
+      "path": "audio/fr-FR/17c7169f79247bb3.mp3",
+      "seconds": 2.496
+    },
+    {
+      "path": "audio/fr-FR/39c07a84205f6e7b.mp3",
+      "seconds": 4.512
+    },
+    {
+      "path": "audio/fr-FR/f8da0c5a86c07c0f.mp3",
+      "seconds": 3.264
+    },
+    {
+      "path": "audio/fr-FR/b96bfd7f0b996fda.mp3",
+      "seconds": 2.016
+    },
+    {
+      "path": "audio/fr-FR/6a6e1bc861fb79b1.mp3",
+      "seconds": 2.928
+    },
+    {
+      "path": "audio/fr-FR/b58055649549604a.mp3",
+      "seconds": 2.256
+    },
+    {
+      "path": "audio/fr-FR/788415c7117fcb76.mp3",
+      "seconds": 2.832
+    },
+    {
+      "path": "audio/fr-FR/74b72722d8167d8d.mp3",
+      "seconds": 8.928
+    },
+    {
+      "path": "audio/fr-FR/521f9c0a7f876895.mp3",
+      "seconds": 2.424
+    },
+    {
+      "path": "audio/fr-FR/71221c59f097e3e9.mp3",
+      "seconds": 2.352
+    },
+    {
+      "path": "audio/fr-FR/d5737362def8c398.mp3",
+      "seconds": 2.424
+    },
+    {
+      "path": "audio/fr-FR/3f1f21f1d1627e78.mp3",
+      "seconds": 2.352
+    },
+    {
+      "path": "audio/fr-FR/9c11a6c021de6434.mp3",
+      "seconds": 2.52
+    },
+    {
+      "path": "audio/fr-FR/d6bb8cb2187a29a3.mp3",
+      "seconds": 2.232
+    },
+    {
+      "path": "audio/fr-FR/d8e1a75705b0a4ba.mp3",
+      "seconds": 1.704
+    },
+    {
+      "path": "audio/fr-FR/84351eb1791511fa.mp3",
+      "seconds": 2.232
+    },
+    {
+      "path": "audio/fr-FR/44432e9071adf968.mp3",
+      "seconds": 2.328
+    },
+    {
+      "path": "audio/fr-FR/8a54a5fb8390eb1a.mp3",
+      "seconds": 2.664
+    },
+    {
+      "path": "audio/fr-FR/4ee07e17495e1381.mp3",
+      "seconds": 6.312
+    },
+    {
+      "path": "audio/fr-FR/55092cf0765a604f.mp3",
+      "seconds": 4.296
+    },
+    {
+      "path": "audio/fr-FR/5fdd3812ea68de38.mp3",
+      "seconds": 2.112
+    },
+    {
+      "path": "audio/fr-FR/ec8fd1d67e5afeb1.mp3",
+      "seconds": 2.688
+    },
+    {
+      "path": "audio/fr-FR/62d58b93d9d6f37d.mp3",
+      "seconds": 2.184
+    },
+    {
+      "path": "audio/fr-FR/4fbfded117a18ebf.mp3",
+      "seconds": 2.184
+    },
+    {
+      "path": "audio/fr-FR/dadb60c5c1024ffa.mp3",
+      "seconds": 2.376
+    },
+    {
+      "path": "audio/fr-FR/8d31e8c05276f941.mp3",
+      "seconds": 2.136
+    },
+    {
+      "path": "audio/fr-FR/0d8f20437c5fdda3.mp3",
+      "seconds": 1.92
+    },
+    {
+      "path": "audio/fr-FR/f9926232f46caa78.mp3",
+      "seconds": 2.256
+    },
+    {
+      "path": "audio/fr-FR/d6cf3619d3f0d02b.mp3",
+      "seconds": 3.864
+    },
+    {
+      "path": "audio/fr-FR/7817918db21ba6d7.mp3",
+      "seconds": 3.408
+    },
+    {
+      "path": "audio/fr-FR/89f6afe4fb5ff288.mp3",
+      "seconds": 1.8
+    },
+    {
+      "path": "audio/fr-FR/c6db603b147c21f7.mp3",
+      "seconds": 1.68
+    },
+    {
+      "path": "audio/fr-FR/c8ce4888e2f7e78e.mp3",
+      "seconds": 3.336
+    },
+    {
+      "path": "audio/fr-FR/0d6ebcff2fe7a85d.mp3",
+      "seconds": 2.736
+    },
+    {
+      "path": "audio/fr-FR/7ded6955655a3d75.mp3",
+      "seconds": 2.832
+    },
+    {
+      "path": "audio/fr-FR/6cd778ec21046e49.mp3",
+      "seconds": 2.904
+    },
+    {
+      "path": "audio/fr-FR/b0f83cece8f4e0a5.mp3",
+      "seconds": 2.4
+    },
+    {
+      "path": "audio/fr-FR/083e8c6663491634.mp3",
+      "seconds": 3.576
+    },
+    {
+      "path": "audio/fr-FR/244fcb73967045cc.mp3",
+      "seconds": 2.208
+    },
+    {
+      "path": "audio/fr-FR/5b116a19a92222c4.mp3",
+      "seconds": 1.944
+    },
+    {
+      "path": "audio/fr-FR/da34de3f261b74a9.mp3",
+      "seconds": 8.376
+    },
+    {
+      "path": "audio/fr-FR/438ce6bf7922f672.mp3",
+      "seconds": 2.16
+    },
+    {
+      "path": "audio/fr-FR/4954aa1c0232e7f4.mp3",
+      "seconds": 2.136
+    },
+    {
+      "path": "audio/fr-FR/e082dbafd7e3746f.mp3",
+      "seconds": 2.976
+    },
+    {
+      "path": "audio/fr-FR/026c8823f885632d.mp3",
+      "seconds": 2.064
+    },
+    {
+      "path": "audio/fr-FR/5c861b85ad660071.mp3",
+      "seconds": 2.592
+    },
+    {
+      "path": "audio/fr-FR/0c1ec80131761027.mp3",
+      "seconds": 2.304
+    },
+    {
+      "path": "audio/fr-FR/f79c26b1045fda8b.mp3",
+      "seconds": 1.92
+    },
+    {
+      "path": "audio/fr-FR/6bea155d6c3888a0.mp3",
+      "seconds": 5.112
+    },
+    {
+      "path": "audio/fr-FR/01d1e90f1395a16b.mp3",
+      "seconds": 1.992
+    },
+    {
+      "path": "audio/fr-FR/a1b946d14b126f5c.mp3",
+      "seconds": 2.136
+    },
+    {
+      "path": "audio/fr-FR/61bf8ce6aba4ad6f.mp3",
+      "seconds": 6.048
+    },
+    {
+      "path": "audio/fr-FR/effdf365f9db5b83.mp3",
+      "seconds": 2.52
+    },
+    {
+      "path": "audio/fr-FR/5ac9f482ff3f0865.mp3",
+      "seconds": 1.992
+    },
+    {
+      "path": "audio/fr-FR/57ff9cea975f5517.mp3",
+      "seconds": 1.992
+    },
+    {
+      "path": "audio/fr-FR/e864367dbf8df98e.mp3",
+      "seconds": 3.216
+    },
+    {
+      "path": "audio/fr-FR/181e35a9967729fb.mp3",
+      "seconds": 3
+    },
+    {
+      "path": "audio/fr-FR/4859c3365ee252b1.mp3",
+      "seconds": 2.256
+    },
+    {
+      "path": "audio/fr-FR/0d6997c375ba3551.mp3",
+      "seconds": 3.624
+    },
+    {
+      "path": "audio/fr-FR/737c565d573793ab.mp3",
+      "seconds": 2.856
+    },
+    {
+      "path": "audio/fr-FR/56aa590fe76bbc2b.mp3",
+      "seconds": 3
+    },
+    {
+      "path": "audio/fr-FR/e500618aadf3c96d.mp3",
+      "seconds": 2.064
+    },
+    {
+      "path": "audio/fr-FR/6910ab15e15826bc.mp3",
+      "seconds": 2.376
+    },
+    {
+      "path": "audio/fr-FR/f14ef69b6a3123d7.mp3",
+      "seconds": 2.928
+    },
+    {
+      "path": "audio/fr-FR/f1d6a95425a04350.mp3",
+      "seconds": 3.168
+    },
+    {
+      "path": "audio/fr-FR/252c0d61a3aa7054.mp3",
+      "seconds": 2.472
+    },
+    {
+      "path": "audio/fr-FR/f7f62ed2eff52b5a.mp3",
+      "seconds": 1.728
+    },
+    {
+      "path": "audio/fr-FR/3e27326385f82914.mp3",
+      "seconds": 3.192
+    },
+    {
+      "path": "audio/fr-FR/4b524489ee243b6b.mp3",
+      "seconds": 2.688
+    },
+    {
+      "path": "audio/fr-FR/f3ae4d8cdb1e9630.mp3",
+      "seconds": 3.408
+    },
+    {
+      "path": "audio/fr-FR/221cabcf8b41aad1.mp3",
+      "seconds": 3.624
+    },
+    {
+      "path": "audio/fr-FR/915695eb2c08f635.mp3",
+      "seconds": 2.76
+    },
+    {
+      "path": "audio/fr-FR/3da1274f17a2595c.mp3",
+      "seconds": 2.928
+    },
+    {
+      "path": "audio/fr-FR/9d11273f4e48dac7.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/a76f973d23c73667.mp3",
+      "seconds": 3.048
+    },
+    {
+      "path": "audio/fr-FR/0602ec1c344d3d5d.mp3",
+      "seconds": 4.344
+    },
+    {
+      "path": "audio/fr-FR/7f2da034193c0830.mp3",
+      "seconds": 2.016
+    },
+    {
+      "path": "audio/fr-FR/923fd8d8f1cb2b83.mp3",
+      "seconds": 3
+    },
+    {
+      "path": "audio/fr-FR/bd94cf1019150acc.mp3",
+      "seconds": 2.616
+    },
+    {
+      "path": "audio/fr-FR/c3c739c0994f2f0b.mp3",
+      "seconds": 2.952
+    },
+    {
+      "path": "audio/fr-FR/858acc055cf424ca.mp3",
+      "seconds": 3.216
+    },
+    {
+      "path": "audio/fr-FR/c2a7a4dad0f0726d.mp3",
+      "seconds": 2.184
+    },
+    {
+      "path": "audio/fr-FR/9fe4cb3a45f59fd1.mp3",
+      "seconds": 3.84
+    },
+    {
+      "path": "audio/fr-FR/c19d3cc1a4f7d233.mp3",
+      "seconds": 2.856
+    },
+    {
+      "path": "audio/fr-FR/19ef45e4b70f4c03.mp3",
+      "seconds": 2.184
+    },
+    {
+      "path": "audio/fr-FR/40ba483642a354f0.mp3",
+      "seconds": 2.4
+    },
+    {
+      "path": "audio/fr-FR/8cf98625267ffa1d.mp3",
+      "seconds": 2.184
+    },
+    {
+      "path": "audio/fr-FR/bcb4ca50e070c1af.mp3",
+      "seconds": 4.32
+    },
+    {
+      "path": "audio/fr-FR/2507ea4560383717.mp3",
+      "seconds": 2.28
+    },
+    {
+      "path": "audio/fr-FR/dd7a34878d18d671.mp3",
+      "seconds": 2.328
+    },
+    {
+      "path": "audio/fr-FR/64f12e3f5d9dfecb.mp3",
+      "seconds": 2.112
+    },
+    {
+      "path": "audio/fr-FR/bbd6440b09249407.mp3",
+      "seconds": 3.912
+    },
+    {
+      "path": "audio/fr-FR/90074009bde7ca7b.mp3",
+      "seconds": 3.432
+    },
+    {
+      "path": "audio/fr-FR/03548b5b1c8762eb.mp3",
+      "seconds": 1.656
+    },
+    {
+      "path": "audio/fr-FR/29b2a3ac507b226c.mp3",
+      "seconds": 2.088
+    },
+    {
+      "path": "audio/fr-FR/794349f6bec6302c.mp3",
+      "seconds": 2.184
+    },
+    {
+      "path": "audio/fr-FR/a7bc32ea3568c88d.mp3",
+      "seconds": 3.744
+    },
+    {
+      "path": "audio/fr-FR/1a6f969b50f83018.mp3",
+      "seconds": 1.992
+    },
+    {
+      "path": "audio/fr-FR/2427514b9bffce34.mp3",
+      "seconds": 1.68
+    },
+    {
+      "path": "audio/fr-FR/8d5778338145d7ae.mp3",
+      "seconds": 2.232
+    },
+    {
+      "path": "audio/fr-FR/a41b196a96073f2a.mp3",
+      "seconds": 6
+    },
+    {
+      "path": "audio/fr-FR/61c89558dd526b30.mp3",
+      "seconds": 2.304
+    },
+    {
+      "path": "audio/fr-FR/a9ac1a8e864e3cab.mp3",
+      "seconds": 2.112
+    },
+    {
+      "path": "audio/fr-FR/1fa9d2e1fe555399.mp3",
+      "seconds": 3.12
+    },
+    {
+      "path": "audio/fr-FR/d4d2e5a54331af05.mp3",
+      "seconds": 2.976
+    },
+    {
+      "path": "audio/fr-FR/2e3e3c2eb3a1bba7.mp3",
+      "seconds": 1.896
+    },
+    {
+      "path": "audio/fr-FR/91c18ea59a7df911.mp3",
+      "seconds": 10.104
+    },
+    {
+      "path": "audio/fr-FR/e8e984e324e0c401.mp3",
+      "seconds": 3.36
+    },
+    {
+      "path": "audio/fr-FR/586a4ac497db4854.mp3",
+      "seconds": 1.704
+    },
+    {
+      "path": "audio/fr-FR/3a67d5b36639e45f.mp3",
+      "seconds": 1.968
+    },
+    {
+      "path": "audio/fr-FR/7b2d04c76e00d0c3.mp3",
+      "seconds": 1.824
+    },
+    {
+      "path": "audio/fr-FR/3e1c68d4de5c88ff.mp3",
+      "seconds": 2.04
+    },
+    {
+      "path": "audio/fr-FR/79efeb12d0efefad.mp3",
+      "seconds": 2.28
+    },
+    {
+      "path": "audio/fr-FR/85017943116ea221.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/9d9dedeeea7789eb.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/01de8ad2e5833a45.mp3",
+      "seconds": 2.616
+    },
+    {
+      "path": "audio/fr-FR/3950bb1cb4806000.mp3",
+      "seconds": 2.016
+    },
+    {
+      "path": "audio/fr-FR/f6224316472738f0.mp3",
+      "seconds": 2.544
+    },
+    {
+      "path": "audio/fr-FR/52fff4abf7d050a3.mp3",
+      "seconds": 2.568
+    },
+    {
+      "path": "audio/fr-FR/d1ac31670eb22fe3.mp3",
+      "seconds": 2.784
+    },
+    {
+      "path": "audio/fr-FR/0516190f77111b0f.mp3",
+      "seconds": 2.688
+    },
+    {
+      "path": "audio/fr-FR/ea5a2fa4b87e1ada.mp3",
+      "seconds": 3.216
+    },
+    {
+      "path": "audio/fr-FR/ff8029a01225b4c7.mp3",
+      "seconds": 5.352
+    },
+    {
+      "path": "audio/fr-FR/ce230d6e0cdc4402.mp3",
+      "seconds": 2.376
+    },
+    {
+      "path": "audio/fr-FR/16a09ddc236f274e.mp3",
+      "seconds": 2.424
+    },
+    {
+      "path": "audio/fr-FR/92eaa6d14d25de6d.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/e2e746a9b2dcee91.mp3",
+      "seconds": 3.072
+    },
+    {
+      "path": "audio/fr-FR/3c6970bd3bae1538.mp3",
+      "seconds": 2.568
+    },
+    {
+      "path": "audio/fr-FR/42fc88358bb93593.mp3",
+      "seconds": 3.432
+    },
+    {
+      "path": "audio/fr-FR/fe3afea79d25cf9d.mp3",
+      "seconds": 2.136
+    },
+    {
+      "path": "audio/fr-FR/f356f6578394bf6f.mp3",
+      "seconds": 2.328
+    },
+    {
+      "path": "audio/fr-FR/80dde6d7baf7ff38.mp3",
+      "seconds": 2.856
+    },
+    {
+      "path": "audio/fr-FR/e51739f3fe878d22.mp3",
+      "seconds": 3.48
+    },
+    {
+      "path": "audio/fr-FR/d35e3ca82c2926de.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/b70663c5f861aab3.mp3",
+      "seconds": 2.208
+    },
+    {
+      "path": "audio/fr-FR/af2ef20619155858.mp3",
+      "seconds": 2.568
+    },
+    {
+      "path": "audio/fr-FR/851edb6b29332586.mp3",
+      "seconds": 3.504
+    },
+    {
+      "path": "audio/fr-FR/f5716dc8b1da5481.mp3",
+      "seconds": 3.24
+    },
+    {
+      "path": "audio/fr-FR/bb7c50ad3fadd566.mp3",
+      "seconds": 2.664
+    },
+    {
+      "path": "audio/fr-FR/33cb05234d0c93b6.mp3",
+      "seconds": 3.744
+    },
+    {
+      "path": "audio/fr-FR/146f3f706f6d7ba5.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/be91e3375df905e1.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/11814dbbf6c3a2b9.mp3",
+      "seconds": 2.712
+    },
+    {
+      "path": "audio/fr-FR/6067419cbd2967a1.mp3",
+      "seconds": 6.216
+    },
+    {
+      "path": "audio/fr-FR/6cddfacb69295b6b.mp3",
+      "seconds": 3.024
+    },
+    {
+      "path": "audio/fr-FR/083a192a16c5308d.mp3",
+      "seconds": 1.992
+    },
+    {
+      "path": "audio/fr-FR/9e6da801820a9fa6.mp3",
+      "seconds": 2.832
+    },
+    {
+      "path": "audio/fr-FR/7f30ee8601d6310e.mp3",
+      "seconds": 2.832
+    },
+    {
+      "path": "audio/fr-FR/76e9634cef48c980.mp3",
+      "seconds": 2.088
+    },
+    {
+      "path": "audio/fr-FR/e6d0c2b7a96f2e4a.mp3",
+      "seconds": 3.744
+    },
+    {
+      "path": "audio/fr-FR/c02f6565c4388749.mp3",
+      "seconds": 2.592
+    },
+    {
+      "path": "audio/fr-FR/5f23722c25018637.mp3",
+      "seconds": 4.128
+    },
+    {
+      "path": "audio/fr-FR/150bacb88523b82a.mp3",
+      "seconds": 3.216
+    },
+    {
+      "path": "audio/fr-FR/2bb857e1dbf52ce1.mp3",
+      "seconds": 2.304
+    },
+    {
+      "path": "audio/fr-FR/7762f0974d5f252a.mp3",
+      "seconds": 2.688
+    },
+    {
+      "path": "audio/fr-FR/65bd2927680b3452.mp3",
+      "seconds": 3.24
+    },
+    {
+      "path": "audio/fr-FR/5eeb818b1fdacf31.mp3",
+      "seconds": 3.36
+    },
+    {
+      "path": "audio/fr-FR/8e5e49a254007ad3.mp3",
+      "seconds": 3.768
+    },
+    {
+      "path": "audio/fr-FR/d9fbf7f47932953e.mp3",
+      "seconds": 2.376
+    },
+    {
+      "path": "audio/fr-FR/3539e591a49e443f.mp3",
+      "seconds": 2.352
+    },
+    {
+      "path": "audio/fr-FR/ee605df1f9b8a3f4.mp3",
+      "seconds": 3.288
+    },
+    {
+      "path": "audio/fr-FR/5f41fcfa4fd2f675.mp3",
+      "seconds": 3.408
+    },
+    {
+      "path": "audio/fr-FR/df50a8db135228e8.mp3",
+      "seconds": 3.264
+    },
+    {
+      "path": "audio/fr-FR/09ddb8c272cc1da5.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/0b7462461ed4bc77.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/fcf0c861035d7431.mp3",
+      "seconds": 3.024
+    },
+    {
+      "path": "audio/fr-FR/bd8b8ac80d69a34b.mp3",
+      "seconds": 2.76
+    },
+    {
+      "path": "audio/fr-FR/d813ee3b5e0912ba.mp3",
+      "seconds": 2.856
+    },
+    {
+      "path": "audio/fr-FR/f18b7670da11073b.mp3",
+      "seconds": 8.136
+    },
+    {
+      "path": "audio/fr-FR/c4fd61098e3cc74b.mp3",
+      "seconds": 3.192
+    },
+    {
+      "path": "audio/fr-FR/f83671770e88a62b.mp3",
+      "seconds": 3
+    },
+    {
+      "path": "audio/fr-FR/a7df61374e1cdb03.mp3",
+      "seconds": 3.192
+    },
+    {
+      "path": "audio/fr-FR/ea49be1f7d8fc360.mp3",
+      "seconds": 3.024
+    },
+    {
+      "path": "audio/fr-FR/83a56c397fbe82ef.mp3",
+      "seconds": 2.664
+    },
+    {
+      "path": "audio/fr-FR/d047110801fcbe13.mp3",
+      "seconds": 2.736
+    },
+    {
+      "path": "audio/fr-FR/1afa56e5543fd6c6.mp3",
+      "seconds": 3.024
+    },
+    {
+      "path": "audio/fr-FR/dc13e3e7711593be.mp3",
+      "seconds": 3.408
+    },
+    {
+      "path": "audio/fr-FR/d5062d012733ecb1.mp3",
+      "seconds": 3.264
+    },
+    {
+      "path": "audio/fr-FR/c1bca20411ab8bb2.mp3",
+      "seconds": 3.576
+    },
+    {
+      "path": "audio/fr-FR/91da796d528c7303.mp3",
+      "seconds": 3
+    },
+    {
+      "path": "audio/fr-FR/43e0c6bd28e7d1a4.mp3",
+      "seconds": 3.936
+    },
+    {
+      "path": "audio/fr-FR/d2a4fb00b129c929.mp3",
+      "seconds": 4.512
+    },
+    {
+      "path": "audio/fr-FR/0416c2830515bb2f.mp3",
+      "seconds": 3.648
+    },
+    {
+      "path": "audio/fr-FR/5e8d2494ce330f5f.mp3",
+      "seconds": 2.184
+    },
+    {
+      "path": "audio/fr-FR/a6eae97887f481eb.mp3",
+      "seconds": 2.424
+    },
+    {
+      "path": "audio/fr-FR/dbdd0ff2c84dfd55.mp3",
+      "seconds": 2.304
+    },
+    {
+      "path": "audio/fr-FR/b92c86f03c54d488.mp3",
+      "seconds": 2.04
+    },
+    {
+      "path": "audio/fr-FR/a67c2f3c7195d6c6.mp3",
+      "seconds": 3.12
+    },
+    {
+      "path": "audio/fr-FR/c8b632590b2b9243.mp3",
+      "seconds": 2.904
+    },
+    {
+      "path": "audio/fr-FR/6905b1275c4b3e94.mp3",
+      "seconds": 3.024
+    },
+    {
+      "path": "audio/fr-FR/8689d3c50965fb1b.mp3",
+      "seconds": 2.208
+    },
+    {
+      "path": "audio/fr-FR/4c15b7a14896980e.mp3",
+      "seconds": 1.8
+    },
+    {
+      "path": "audio/fr-FR/7fa46c404c7b896c.mp3",
+      "seconds": 1.944
+    },
+    {
+      "path": "audio/fr-FR/7fb2f75dfd1bba75.mp3",
+      "seconds": 1.728
+    },
+    {
+      "path": "audio/fr-FR/658ddb6536445046.mp3",
+      "seconds": 2.256
+    },
+    {
+      "path": "audio/fr-FR/82024a22a8d6dec1.mp3",
+      "seconds": 4.176
+    },
+    {
+      "path": "audio/fr-FR/f93c29f108cfbd48.mp3",
+      "seconds": 2.376
+    },
+    {
+      "path": "audio/fr-FR/4c1e74ca01940629.mp3",
+      "seconds": 2.304
+    },
+    {
+      "path": "audio/fr-FR/7de9b324cad420d4.mp3",
+      "seconds": 2.784
+    },
+    {
+      "path": "audio/fr-FR/db48c92cf17f25ed.mp3",
+      "seconds": 2.472
+    },
+    {
+      "path": "audio/fr-FR/de02eedb41af9220.mp3",
+      "seconds": 3.504
+    },
+    {
+      "path": "audio/fr-FR/7347ebf38a1ff61a.mp3",
+      "seconds": 2.424
+    },
+    {
+      "path": "audio/fr-FR/71fd4f3e173d0df4.mp3",
+      "seconds": 1.968
+    },
+    {
+      "path": "audio/fr-FR/663adabd859de620.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/4a14732735b47281.mp3",
+      "seconds": 2.688
+    },
+    {
+      "path": "audio/fr-FR/c9e33c514060869d.mp3",
+      "seconds": 2.472
+    },
+    {
+      "path": "audio/fr-FR/cf9c4c3f7bcccb6a.mp3",
+      "seconds": 2.544
+    },
+    {
+      "path": "audio/fr-FR/80c8646f343a1f79.mp3",
+      "seconds": 2.832
+    },
+    {
+      "path": "audio/fr-FR/74919da7358cf1a3.mp3",
+      "seconds": 2.352
+    },
+    {
+      "path": "audio/fr-FR/b526b5b845b52377.mp3",
+      "seconds": 3.168
+    },
+    {
+      "path": "audio/fr-FR/06b4f907b65affcf.mp3",
+      "seconds": 1.848
+    },
+    {
+      "path": "audio/fr-FR/0b63d63694531345.mp3",
+      "seconds": 2.184
+    },
+    {
+      "path": "audio/fr-FR/80ee2618901b88b5.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/7bf0a1eaec434cd0.mp3",
+      "seconds": 2.328
+    },
+    {
+      "path": "audio/fr-FR/a3f9266efb0fd7c7.mp3",
+      "seconds": 8.952
+    },
+    {
+      "path": "audio/fr-FR/32c26402e70bf89f.mp3",
+      "seconds": 2.112
+    },
+    {
+      "path": "audio/fr-FR/2b265b8bea479412.mp3",
+      "seconds": 1.992
+    },
+    {
+      "path": "audio/fr-FR/938b52bead883462.mp3",
+      "seconds": 2.472
+    },
+    {
+      "path": "audio/fr-FR/e82e7a36f476ffcd.mp3",
+      "seconds": 2.904
+    },
+    {
+      "path": "audio/fr-FR/8f49fbca5ff19664.mp3",
+      "seconds": 12.048
+    },
+    {
+      "path": "audio/fr-FR/0cc7462db4dec9cb.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/a8039cbfe239ba59.mp3",
+      "seconds": 2.976
+    },
+    {
+      "path": "audio/fr-FR/186c3235c046054b.mp3",
+      "seconds": 3.576
+    },
+    {
+      "path": "audio/fr-FR/85da14f4bee070e2.mp3",
+      "seconds": 3.12
+    },
+    {
+      "path": "audio/fr-FR/67bd65b604001180.mp3",
+      "seconds": 2.352
+    },
+    {
+      "path": "audio/fr-FR/6813938d708d03e7.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/2e581e24093714fa.mp3",
+      "seconds": 3.096
+    },
+    {
+      "path": "audio/fr-FR/d143e57918ddfb4f.mp3",
+      "seconds": 4.176
+    },
+    {
+      "path": "audio/fr-FR/f84ea582db772694.mp3",
+      "seconds": 3.552
+    },
+    {
+      "path": "audio/fr-FR/87d480bab50afcd4.mp3",
+      "seconds": 3.576
+    },
+    {
+      "path": "audio/fr-FR/9ae268a83528979b.mp3",
+      "seconds": 2.28
+    },
+    {
+      "path": "audio/fr-FR/707699ea6895f96f.mp3",
+      "seconds": 2.448
+    },
+    {
+      "path": "audio/fr-FR/8f27048a7db85e10.mp3",
+      "seconds": 2.424
+    },
+    {
+      "path": "audio/fr-FR/59df0ccae327d09b.mp3",
+      "seconds": 2.4
+    },
+    {
+      "path": "audio/fr-FR/d30759c29a6d8137.mp3",
+      "seconds": 2.4
+    },
+    {
+      "path": "audio/fr-FR/5e35ef6e3faf6cd2.mp3",
+      "seconds": 2.256
+    },
+    {
+      "path": "audio/fr-FR/a5a9ca5f2c14a27f.mp3",
+      "seconds": 4.584
+    },
+    {
+      "path": "audio/fr-FR/f04596d4c4fdc2e0.mp3",
+      "seconds": 3.984
+    },
+    {
+      "path": "audio/fr-FR/9edfc79158a074e4.mp3",
+      "seconds": 2.736
+    },
+    {
+      "path": "audio/fr-FR/4b81c30fb83fe8bf.mp3",
+      "seconds": 3.384
+    },
+    {
+      "path": "audio/fr-FR/7d9b07ec005982ea.mp3",
+      "seconds": 4.008
+    },
+    {
+      "path": "audio/fr-FR/4f2037d763a3d99b.mp3",
+      "seconds": 10.104
+    },
+    {
+      "path": "audio/fr-FR/067169cfeb336d77.mp3",
+      "seconds": 4.416
+    },
+    {
+      "path": "audio/fr-FR/67261f2ce61127f1.mp3",
+      "seconds": 3.72
+    },
+    {
+      "path": "audio/fr-FR/2196597fae5e93e5.mp3",
+      "seconds": 2.928
+    },
+    {
+      "path": "audio/fr-FR/2f0d1e7cf5b3db98.mp3",
+      "seconds": 3.696
+    },
+    {
+      "path": "audio/fr-FR/fd4d4b7ff9e1c2f6.mp3",
+      "seconds": 2.736
+    },
+    {
+      "path": "audio/fr-FR/c3c014a1c8c75c95.mp3",
+      "seconds": 2.52
+    },
+    {
+      "path": "audio/fr-FR/ebe9a500be5e879f.mp3",
+      "seconds": 2.496
+    },
+    {
+      "path": "audio/fr-FR/8198b3aa705ff8a8.mp3",
+      "seconds": 3.216
+    },
+    {
+      "path": "audio/fr-FR/0019809c9983190d.mp3",
+      "seconds": 2.712
+    },
+    {
+      "path": "audio/fr-FR/a3a746b70da1f908.mp3",
+      "seconds": 4.128
+    },
+    {
+      "path": "audio/fr-FR/75684460c14c5bf4.mp3",
+      "seconds": 2.784
+    },
+    {
+      "path": "audio/fr-FR/71ff62c9bbf3c4b4.mp3",
+      "seconds": 4.44
+    },
+    {
+      "path": "audio/fr-FR/bbc5d053c5b6c6ea.mp3",
+      "seconds": 2.592
+    },
+    {
+      "path": "audio/fr-FR/9e7b3942cf27feb2.mp3",
+      "seconds": 2.904
+    },
+    {
+      "path": "audio/fr-FR/63d3a8dd08c4a290.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/e0ea735a0ceedb3f.mp3",
+      "seconds": 3.12
+    },
+    {
+      "path": "audio/fr-FR/15e8ac620cdd2906.mp3",
+      "seconds": 2.016
+    },
+    {
+      "path": "audio/fr-FR/8308207846e5cbe9.mp3",
+      "seconds": 2.232
+    },
+    {
+      "path": "audio/fr-FR/283ef1cf4c3d99af.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/fb046a7cc41e0abc.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/950abbc0c88786d2.mp3",
+      "seconds": 3.024
+    },
+    {
+      "path": "audio/fr-FR/7d4812bfd5586a55.mp3",
+      "seconds": 2.256
+    },
+    {
+      "path": "audio/fr-FR/56dc09488528671a.mp3",
+      "seconds": 9.12
+    },
+    {
+      "path": "audio/fr-FR/ed16aecfd6d032f0.mp3",
+      "seconds": 4.584
+    },
+    {
+      "path": "audio/fr-FR/eeda076f062c3946.mp3",
+      "seconds": 2.424
+    },
+    {
+      "path": "audio/fr-FR/0cfda138866d53f8.mp3",
+      "seconds": 2.424
+    },
+    {
+      "path": "audio/fr-FR/3b5ed235c8e65af0.mp3",
+      "seconds": 2.28
+    },
+    {
+      "path": "audio/fr-FR/be3f783be3e43ef2.mp3",
+      "seconds": 2.976
+    },
+    {
+      "path": "audio/fr-FR/937b41e28de259c8.mp3",
+      "seconds": 3.264
+    },
+    {
+      "path": "audio/fr-FR/9657b44c79c3fdf3.mp3",
+      "seconds": 3.288
+    },
+    {
+      "path": "audio/fr-FR/57770dec297f7038.mp3",
+      "seconds": 3.12
+    },
+    {
+      "path": "audio/fr-FR/3efd1b0eff549e5f.mp3",
+      "seconds": 2.424
+    },
+    {
+      "path": "audio/fr-FR/83604330575ee8a1.mp3",
+      "seconds": 13.08
+    },
+    {
+      "path": "audio/fr-FR/dc4288b68c1f7810.mp3",
+      "seconds": 3.048
+    },
+    {
+      "path": "audio/fr-FR/199d2db303944f6f.mp3",
+      "seconds": 3.072
+    },
+    {
+      "path": "audio/fr-FR/263033513b7a5a92.mp3",
+      "seconds": 3.072
+    },
+    {
+      "path": "audio/fr-FR/b04778b9622a3eaa.mp3",
+      "seconds": 4.2
+    },
+    {
+      "path": "audio/fr-FR/644a717f05ac6d42.mp3",
+      "seconds": 3.216
+    },
+    {
+      "path": "audio/fr-FR/414f798805a194c6.mp3",
+      "seconds": 3.072
+    },
+    {
+      "path": "audio/fr-FR/25034ce999eff29b.mp3",
+      "seconds": 2.952
+    },
+    {
+      "path": "audio/fr-FR/a3d25f2463cd24e0.mp3",
+      "seconds": 10.056
+    },
+    {
+      "path": "audio/fr-FR/2246f0b01e1ae98b.mp3",
+      "seconds": 3.024
+    },
+    {
+      "path": "audio/fr-FR/f55c2dbcd74c6dc1.mp3",
+      "seconds": 3.408
+    },
+    {
+      "path": "audio/fr-FR/ef24e8003e40c1eb.mp3",
+      "seconds": 3.552
+    },
+    {
+      "path": "audio/fr-FR/2ee1512644ca6ee5.mp3",
+      "seconds": 3.384
+    },
+    {
+      "path": "audio/fr-FR/23068d24b277a9ff.mp3",
+      "seconds": 3.12
+    },
+    {
+      "path": "audio/fr-FR/961fcf42d7dc6c13.mp3",
+      "seconds": 12.024
+    },
+    {
+      "path": "audio/fr-FR/735dd3c88b2c8aa8.mp3",
+      "seconds": 2.736
+    },
+    {
+      "path": "audio/fr-FR/d6683d00b0595f9b.mp3",
+      "seconds": 3.36
+    },
+    {
+      "path": "audio/fr-FR/c5294832ea7dfee7.mp3",
+      "seconds": 3.456
+    },
+    {
+      "path": "audio/fr-FR/5e2025b587743f5c.mp3",
+      "seconds": 3.192
+    },
+    {
+      "path": "audio/fr-FR/b83d1cbe145b2ddb.mp3",
+      "seconds": 3.336
+    },
+    {
+      "path": "audio/fr-FR/f240b3545e4530c8.mp3",
+      "seconds": 3.504
+    },
+    {
+      "path": "audio/fr-FR/7cde0372ef2d628d.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/e1745a804c51770f.mp3",
+      "seconds": 3.624
+    },
+    {
+      "path": "audio/fr-FR/d0d5b6a55953259f.mp3",
+      "seconds": 1.968
+    },
+    {
+      "path": "audio/fr-FR/38e1bd4199564d85.mp3",
+      "seconds": 3.264
+    },
+    {
+      "path": "audio/fr-FR/e3c6ef23c8c46dd6.mp3",
+      "seconds": 1.968
+    },
+    {
+      "path": "audio/fr-FR/676e39c1e2a030eb.mp3",
+      "seconds": 2.688
+    },
+    {
+      "path": "audio/fr-FR/f7e533285b125af3.mp3",
+      "seconds": 2.352
+    },
+    {
+      "path": "audio/fr-FR/0ddc39d5f36844d9.mp3",
+      "seconds": 8.4
+    },
+    {
+      "path": "audio/fr-FR/735bc0fa3b74fc40.mp3",
+      "seconds": 2.112
+    },
+    {
+      "path": "audio/fr-FR/625c77c3575dba47.mp3",
+      "seconds": 6.696
+    },
+    {
+      "path": "audio/fr-FR/54dee06305049f6e.mp3",
+      "seconds": 3.192
+    },
+    {
+      "path": "audio/fr-FR/34b07912e86ef95d.mp3",
+      "seconds": 3.096
+    },
+    {
+      "path": "audio/fr-FR/9bb26e48fff1ba0a.mp3",
+      "seconds": 2.496
+    },
+    {
+      "path": "audio/fr-FR/fc2605b59e3d7a38.mp3",
+      "seconds": 2.688
+    },
+    {
+      "path": "audio/fr-FR/100c307f7a0c498b.mp3",
+      "seconds": 8.016
+    },
+    {
+      "path": "audio/fr-FR/5ff864dbd22f6a06.mp3",
+      "seconds": 2.928
+    },
+    {
+      "path": "audio/fr-FR/6066a21bb6743e69.mp3",
+      "seconds": 2.592
+    },
+    {
+      "path": "audio/fr-FR/ae4b22d1183ef91b.mp3",
+      "seconds": 1.944
+    },
+    {
+      "path": "audio/fr-FR/85f5e7d81b303b17.mp3",
+      "seconds": 2.976
+    },
+    {
+      "path": "audio/fr-FR/a507bf4bd4580342.mp3",
+      "seconds": 4.752
+    },
+    {
+      "path": "audio/fr-FR/d49cc28166c66ef8.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/6897471c20d73489.mp3",
+      "seconds": 8.04
+    },
+    {
+      "path": "audio/fr-FR/e86bca094d9f1080.mp3",
+      "seconds": 2.592
+    },
+    {
+      "path": "audio/fr-FR/81c160708b65013f.mp3",
+      "seconds": 2.328
+    },
+    {
+      "path": "audio/fr-FR/63d4f8c871ad7962.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/57e8e39f6fcad0d6.mp3",
+      "seconds": 2.4
+    },
+    {
+      "path": "audio/fr-FR/fb08244e0061c181.mp3",
+      "seconds": 2.832
+    },
+    {
+      "path": "audio/fr-FR/99739676ec2df2df.mp3",
+      "seconds": 5.568
+    },
+    {
+      "path": "audio/fr-FR/32b5f471a1b67020.mp3",
+      "seconds": 2.232
+    },
+    {
+      "path": "audio/fr-FR/0ff34cb6bddda4eb.mp3",
+      "seconds": 1.968
+    },
+    {
+      "path": "audio/fr-FR/a66b1ff7fecb7389.mp3",
+      "seconds": 2.304
+    },
+    {
+      "path": "audio/fr-FR/64796cb49bc865cd.mp3",
+      "seconds": 2.4
+    },
+    {
+      "path": "audio/fr-FR/9a2ff4796631adc1.mp3",
+      "seconds": 2.496
+    },
+    {
+      "path": "audio/fr-FR/2c7cfe4d741a8237.mp3",
+      "seconds": 2.88
+    },
+    {
+      "path": "audio/fr-FR/5fd3680184039ff9.mp3",
+      "seconds": 6.144
+    },
+    {
+      "path": "audio/fr-FR/6a1fa34e1e0299ee.mp3",
+      "seconds": 2.448
+    },
+    {
+      "path": "audio/fr-FR/6840664ff1d796f3.mp3",
+      "seconds": 3.384
+    },
+    {
+      "path": "audio/fr-FR/45813a297b39584b.mp3",
+      "seconds": 3
+    },
+    {
+      "path": "audio/fr-FR/f219b93b938c79dd.mp3",
+      "seconds": 3.072
+    },
+    {
+      "path": "audio/fr-FR/23542836b0408b31.mp3",
+      "seconds": 5.4
+    },
+    {
+      "path": "audio/fr-FR/b9a65848e8e00108.mp3",
+      "seconds": 3.216
+    },
+    {
+      "path": "audio/fr-FR/043f432546ab89ab.mp3",
+      "seconds": 2.832
+    },
+    {
+      "path": "audio/fr-FR/f110d7a70b18ded8.mp3",
+      "seconds": 2.664
+    },
+    {
+      "path": "audio/fr-FR/a53e6da018611297.mp3",
+      "seconds": 2.688
+    },
+    {
+      "path": "audio/fr-FR/b632ce9d589ba899.mp3",
+      "seconds": 2.496
+    },
+    {
+      "path": "audio/fr-FR/8509ab812aa95275.mp3",
+      "seconds": 3.048
+    },
+    {
+      "path": "audio/fr-FR/8565ffb969da4e4d.mp3",
+      "seconds": 3.432
+    },
+    {
+      "path": "audio/fr-FR/d94da6e2325e6c1f.mp3",
+      "seconds": 3.288
+    },
+    {
+      "path": "audio/fr-FR/95a65879b1ef7595.mp3",
+      "seconds": 2.616
+    },
+    {
+      "path": "audio/fr-FR/8509ccda1dc088ac.mp3",
+      "seconds": 3.408
+    },
+    {
+      "path": "audio/fr-FR/bd16db88029c8c14.mp3",
+      "seconds": 3.12
+    },
+    {
+      "path": "audio/fr-FR/98dd2845a39abb53.mp3",
+      "seconds": 3.144
+    },
+    {
+      "path": "audio/fr-FR/2f87f09dafe0b941.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/62f5563ff5b9976d.mp3",
+      "seconds": 6.288
+    },
+    {
+      "path": "audio/fr-FR/d0b7cded50db700f.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/85cd4e8aa26118d7.mp3",
+      "seconds": 2.256
+    },
+    {
+      "path": "audio/fr-FR/0f58ba251c35bfa8.mp3",
+      "seconds": 2.544
+    },
+    {
+      "path": "audio/fr-FR/53ad7673a4e30410.mp3",
+      "seconds": 3.696
+    },
+    {
+      "path": "audio/fr-FR/2a2036d38764a43b.mp3",
+      "seconds": 2.736
+    },
+    {
+      "path": "audio/fr-FR/1d84d57348401525.mp3",
+      "seconds": 2.928
+    },
+    {
+      "path": "audio/fr-FR/e9a5c29226161a79.mp3",
+      "seconds": 3.264
+    },
+    {
+      "path": "audio/fr-FR/e890315742bcd14c.mp3",
+      "seconds": 2.496
+    },
+    {
+      "path": "audio/fr-FR/9ba7a6d5a1d4473d.mp3",
+      "seconds": 6.936
+    },
+    {
+      "path": "audio/fr-FR/edd034db3951d96f.mp3",
+      "seconds": 3.264
+    },
+    {
+      "path": "audio/fr-FR/8802ccd396952030.mp3",
+      "seconds": 3.48
+    },
+    {
+      "path": "audio/fr-FR/1e5c38e3093083a0.mp3",
+      "seconds": 4.176
+    },
+    {
+      "path": "audio/fr-FR/bd824b338bd37e02.mp3",
+      "seconds": 2.928
+    },
+    {
+      "path": "audio/fr-FR/cd245f4b5a311c21.mp3",
+      "seconds": 2.352
+    },
+    {
+      "path": "audio/fr-FR/c779de599223d56d.mp3",
+      "seconds": 2.784
+    },
+    {
+      "path": "audio/fr-FR/366ee545ddc439ad.mp3",
+      "seconds": 8.016
+    },
+    {
+      "path": "audio/fr-FR/13274c974a6ae57f.mp3",
+      "seconds": 2.424
+    },
+    {
+      "path": "audio/fr-FR/e4f016e8c7090e5f.mp3",
+      "seconds": 3.12
+    },
+    {
+      "path": "audio/fr-FR/901ff16947c3c3af.mp3",
+      "seconds": 3.336
+    },
+    {
+      "path": "audio/fr-FR/e2d0a170aef9e0d3.mp3",
+      "seconds": 2.28
+    },
+    {
+      "path": "audio/fr-FR/6646688186d002df.mp3",
+      "seconds": 3.6
+    },
+    {
+      "path": "audio/fr-FR/9a22dd73ca3d2408.mp3",
+      "seconds": 2.256
+    },
+    {
+      "path": "audio/fr-FR/2a6e2e84482cd0ab.mp3",
+      "seconds": 3.48
+    },
+    {
+      "path": "audio/fr-FR/2358414c7c0ebcee.mp3",
+      "seconds": 2.64
+    },
+    {
+      "path": "audio/fr-FR/4798c9495495c550.mp3",
+      "seconds": 3.432
+    },
+    {
+      "path": "audio/fr-FR/4f442265b54548d0.mp3",
+      "seconds": 3.384
+    },
+    {
+      "path": "audio/fr-FR/e6ad1b4f6b9e62f2.mp3",
+      "seconds": 3.48
+    },
+    {
+      "path": "audio/fr-FR/f3f82c2abd133a73.mp3",
+      "seconds": 2.064
+    },
+    {
+      "path": "audio/fr-FR/c5259c6f767d72ae.mp3",
+      "seconds": 2.856
+    },
+    {
+      "path": "audio/fr-FR/77f6a95022055c66.mp3",
+      "seconds": 2.328
+    },
+    {
+      "path": "audio/fr-FR/aa60321dbced09fc.mp3",
+      "seconds": 3.216
+    },
+    {
+      "path": "audio/fr-FR/b7e80ae2cf8eda70.mp3",
+      "seconds": 3.096
+    },
+    {
+      "path": "audio/fr-FR/fdc8e5c01d27288b.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/1639bdf299e9e309.mp3",
+      "seconds": 3.192
+    },
+    {
+      "path": "audio/fr-FR/15e9bc3657934728.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/2410b417fd474f28.mp3",
+      "seconds": 2.832
+    },
+    {
+      "path": "audio/fr-FR/e1e968dc80dfe542.mp3",
+      "seconds": 3.384
+    },
+    {
+      "path": "audio/fr-FR/f656099aa38cd9e8.mp3",
+      "seconds": 2.592
+    },
+    {
+      "path": "audio/fr-FR/ce852bed2c6acbdd.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/a97cbe6546cea555.mp3",
+      "seconds": 2.736
+    },
+    {
+      "path": "audio/fr-FR/61a87170e6be1a62.mp3",
+      "seconds": 3.552
+    },
+    {
+      "path": "audio/fr-FR/7d3c821bd5a7502a.mp3",
+      "seconds": 7.632
+    },
+    {
+      "path": "audio/fr-FR/6992e5cd2f18e80b.mp3",
+      "seconds": 3
+    },
+    {
+      "path": "audio/fr-FR/5e28d6002d8335d4.mp3",
+      "seconds": 2.424
+    },
+    {
+      "path": "audio/fr-FR/8ba2b1de3a4596ce.mp3",
+      "seconds": 2.208
+    },
+    {
+      "path": "audio/fr-FR/332ec1ec70165213.mp3",
+      "seconds": 2.808
+    },
+    {
+      "path": "audio/fr-FR/9570b1c0f2857f38.mp3",
+      "seconds": 2.328
+    },
+    {
+      "path": "audio/fr-FR/9eacc4b3a365077f.mp3",
+      "seconds": 5.832
+    },
+    {
+      "path": "audio/fr-FR/0a2adfa705869188.mp3",
+      "seconds": 3.288
+    },
+    {
+      "path": "audio/fr-FR/bc8d708bb0c48ec5.mp3",
+      "seconds": 2.16
+    },
+    {
+      "path": "audio/fr-FR/34cfadf80a834f02.mp3",
+      "seconds": 2.232
+    },
+    {
+      "path": "audio/fr-FR/b252e20f4c65bd18.mp3",
+      "seconds": 3.408
+    },
+    {
+      "path": "audio/fr-FR/3ffb4596e3f12951.mp3",
+      "seconds": 6.792
+    },
+    {
+      "path": "audio/fr-FR/85ddd5c6129cf323.mp3",
+      "seconds": 2.616
+    },
+    {
+      "path": "audio/fr-FR/00a0d198efb78010.mp3",
+      "seconds": 3.792
+    },
+    {
+      "path": "audio/fr-FR/7cf26ba0b8bfa889.mp3",
+      "seconds": 2.568
+    },
+    {
+      "path": "audio/fr-FR/8f1b39594f61e470.mp3",
+      "seconds": 2.4
+    },
+    {
+      "path": "audio/fr-FR/6d1ad9d822a9c999.mp3",
+      "seconds": 4.08
+    },
+    {
+      "path": "audio/fr-FR/baf4f565b34bffec.mp3",
+      "seconds": 2.712
+    },
+    {
+      "path": "audio/fr-FR/b368c11f9f593696.mp3",
+      "seconds": 1.752
+    },
+    {
+      "path": "audio/fr-FR/f1b97fb1da388955.mp3",
+      "seconds": 2.928
+    },
+    {
+      "path": "audio/fr-FR/b2a8a8b568baf5b7.mp3",
+      "seconds": 2.136
+    },
+    {
+      "path": "audio/fr-FR/33ab8b6494de9164.mp3",
+      "seconds": 2.568
+    },
+    {
+      "path": "audio/fr-FR/6d077bff122f6602.mp3",
+      "seconds": 8.04
+    },
+    {
+      "path": "audio/fr-FR/2abd2355b8910393.mp3",
+      "seconds": 4.488
+    },
+    {
+      "path": "audio/fr-FR/ab95166428212479.mp3",
+      "seconds": 3.552
+    },
+    {
+      "path": "audio/fr-FR/0bd4483b7bd0b257.mp3",
+      "seconds": 2.952
+    },
+    {
+      "path": "audio/fr-FR/0064fa4db416d9ef.mp3",
+      "seconds": 8.424
+    },
+    {
+      "path": "audio/fr-FR/250a71bf67b63106.mp3",
+      "seconds": 3.384
+    },
+    {
+      "path": "audio/fr-FR/7e4cfbb453faf02e.mp3",
+      "seconds": 2.952
+    },
+    {
+      "path": "audio/fr-FR/690f0e897a72ec22.mp3",
+      "seconds": 4.224
+    },
+    {
+      "path": "audio/fr-FR/349e57ceb8fe000d.mp3",
+      "seconds": 2.784
+    },
+    {
+      "path": "audio/fr-FR/a1862aa3378eb13b.mp3",
+      "seconds": 7.8
+    },
+    {
+      "path": "audio/fr-FR/bf1a53955bb514c3.mp3",
+      "seconds": 1.968
+    },
+    {
+      "path": "audio/fr-FR/e5f77e25657edf9d.mp3",
+      "seconds": 2.112
+    },
+    {
+      "path": "audio/fr-FR/e529a94bf80da6a6.mp3",
+      "seconds": 2.712
+    },
+    {
+      "path": "audio/fr-FR/bae3d2b81a09f5f2.mp3",
+      "seconds": 6.72
+    },
+    {
+      "path": "audio/fr-FR/82a6008e5571375a.mp3",
+      "seconds": 4.536
+    },
+    {
+      "path": "audio/fr-FR/3be3e1fb8f4975b2.mp3",
+      "seconds": 4.92
+    },
+    {
+      "path": "audio/fr-FR/30a774f95d64d4d4.mp3",
+      "seconds": 10.008
+    },
+    {
+      "path": "audio/fr-FR/b5cd3279867eca91.mp3",
+      "seconds": 9.216
+    },
+    {
+      "path": "audio/fr-FR/a9635cc81163527b.mp3",
+      "seconds": 3.168
+    },
+    {
+      "path": "audio/fr-FR/a95821b30ab721dd.mp3",
+      "seconds": 2.592
+    },
+    {
+      "path": "audio/fr-FR/523ea758be9457dc.mp3",
+      "seconds": 4.656
+    },
+    {
+      "path": "audio/fr-FR/bf0e4f5c8d23ca26.mp3",
+      "seconds": 2.88
+    },
+    {
+      "path": "audio/fr-FR/86e1d23abe33a267.mp3",
+      "seconds": 2.688
+    },
+    {
+      "path": "audio/fr-FR/b1eeb781ebbafc6e.mp3",
+      "seconds": 7.32
+    },
+    {
+      "path": "audio/fr-FR/ccc761b03e33cd6c.mp3",
+      "seconds": 10.152
+    },
+    {
+      "path": "audio/fr-FR/8053c30a61de21e0.mp3",
+      "seconds": 9.816
+    },
+    {
+      "path": "audio/fr-FR/3bce8f44362c6184.mp3",
+      "seconds": 2.736
+    },
+    {
+      "path": "audio/fr-FR/7e9014b50e0d4191.mp3",
+      "seconds": 4.128
+    },
+    {
+      "path": "audio/fr-FR/be3844c5b4484598.mp3",
+      "seconds": 8.688
+    },
+    {
+      "path": "audio/fr-FR/7fda80601331c000.mp3",
+      "seconds": 6.456
+    },
+    {
+      "path": "audio/fr-FR/363b5cb4375610db.mp3",
+      "seconds": 11.088
+    },
+    {
+      "path": "audio/fr-FR/5f0c626fa65be585.mp3",
+      "seconds": 6.288
+    },
+    {
+      "path": "audio/fr-FR/d067c6938be93016.mp3",
+      "seconds": 4.176
+    },
+    {
+      "path": "audio/fr-FR/196330d1b5bf6fbf.mp3",
+      "seconds": 7.368
+    },
+    {
+      "path": "audio/fr-FR/fe394d3157cfe4f4.mp3",
+      "seconds": 8.088
+    },
+    {
+      "path": "audio/fr-FR/67a7b8189dbda0c6.mp3",
+      "seconds": 8.328
+    },
+    {
+      "path": "audio/fr-FR/302e13dae110bf8b.mp3",
+      "seconds": 7.848
+    }
+  ],
+  "acceptedAudioFileAndTextSnapshotSha256": "a086af44ac2bedbfaf1d1ea26a00da6b3716fb7ed46beb3730db587be6660258",
+  "httpLinkVerification": {
+    "count": 3518,
+    "passed": true,
+    "method": "HEAD request for each exact-text unit through the local installed-Edge request context",
+    "performedBy": "tools/test-audio-20261016.js integrated local harness",
+    "auditoryListening": false
+  }
+}

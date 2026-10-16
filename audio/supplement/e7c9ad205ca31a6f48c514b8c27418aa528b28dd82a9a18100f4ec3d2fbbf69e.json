@@ -1,0 +1,30 @@
+{
+  "text": "clé/téléphone",
+  "text_sha256": "e7c9ad205ca31a6f48c514b8c27418aa528b28dd82a9a18100f4ec3d2fbbf69e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0681179138321995,
+      "source_seconds": 1.0681179138321995,
+      "source_file_sha256": "698e2354fbcd2b27827d71b5f1132513e774d7861f785ef51fc5fb474c453c02",
+      "file_sha256": "f5d72c3164ed0e25e756cda8e56c6877f00496411030ceca0c2d34a3d16fa1b9",
+      "bytes": 9239,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

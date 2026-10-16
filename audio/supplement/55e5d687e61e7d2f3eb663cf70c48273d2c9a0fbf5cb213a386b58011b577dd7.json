@@ -1,0 +1,30 @@
+{
+  "text": "Ajoutez le ne explétif : Je crains qu'il ___ soit trop tard.",
+  "text_sha256": "55e5d687e61e7d2f3eb663cf70c48273d2c9a0fbf5cb213a386b58011b577dd7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.239183673469388,
+      "source_seconds": 3.239183673469388,
+      "source_file_sha256": "a70c61b652567d53088b6c2d97314611327c512750719418b264ed9905c2afdb",
+      "file_sha256": "62e623148555cbba27dfd4edf47ac77212f9ad263ce90d5e01aa249ee360cefc",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Je suis triste que tu ___ (partir) si tôt demain. (",
+  "text_sha256": "88769da14f335150f34d31a1a7490d41ccf0fe7447deb596e3836a78aa1021fb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.414875283446712,
+      "source_seconds": 2.414875283446712,
+      "source_file_sha256": "f0bc2587058185e97aae78b3b490c285fde2543e4e54e7c20888b16b2b6d8be1",
+      "file_sha256": "d852b77ec736bd38f4cebd18df528b7be77ec13354d2828db651f6638d5201d3",
+      "bytes": 20106,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

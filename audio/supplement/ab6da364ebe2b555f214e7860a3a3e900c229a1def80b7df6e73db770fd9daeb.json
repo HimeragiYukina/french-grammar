@@ -1,0 +1,30 @@
+{
+  "text": "Nous avons visité un village dont le centre est piéton.",
+  "text_sha256": "ab6da364ebe2b555f214e7860a3a3e900c229a1def80b7df6e73db770fd9daeb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1346938775510202,
+      "source_seconds": 3.1346938775510202,
+      "source_file_sha256": "6f2ec619e90181718546e2114fab8254a662a74618513e0f273621873eb79a9e",
+      "file_sha256": "cdb5555745a056e49f09a282f8b593e1372d825f5e0a8c0407935e414ad223c7",
+      "bytes": 25748,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

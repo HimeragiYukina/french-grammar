@@ -1,0 +1,30 @@
+{
+  "text": "Victor Hugo est un grand écrivain. / C'est un homme grand.",
+  "text_sha256": "0b92cf2a4b32fb346fe84a98356207bf1e239af37571e03a1bea3ab708dd6ea9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.564263038548753,
+      "source_seconds": 3.564263038548753,
+      "source_file_sha256": "e8226f0304b147daabb1d94a72a56bf90a385c1d5c46cb0d5779de73b3ebddc2",
+      "file_sha256": "ede5e876b073b29f45ca834ebbf74d3595f06a36adf595c40ae7b2114f58b931",
+      "bytes": 29301,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elle l’a sans aucun doute oublié",
+  "text_sha256": "f64b74aa8ce89dd4650eed3f522a5da2c4a424ae56dc51075c454191d734ad13",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.089795918367347,
+      "source_seconds": 2.089795918367347,
+      "source_file_sha256": "8e5510a4773596dce7360fa487e79e4d8a6de0025e119f776858d1c8c5b7bf62",
+      "file_sha256": "7107673980b645045b2bbe0d263b1f67089237c8f9f08fc96e72cefd17063412",
+      "bytes": 17389,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Il a déplacé la lampe, de sorte que nous avons pu mieux lire. Il déplace la lampe pour que nous puissions mieux lire.",
+  "text_sha256": "1226a371855e3a6da8cfe404ffab2bb297fc7526629799681a75bb039a96134a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.2693877551020405,
+      "source_seconds": 6.2693877551020405,
+      "source_file_sha256": "1310084745a0cf4b8a984c91ba3d5dd436aa0e30d827b039a560520a411586fc",
+      "file_sha256": "221811e5701fdf632427ebee4dab34e06d845cc50948dcc63600cfcac90411fa",
+      "bytes": 50826,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

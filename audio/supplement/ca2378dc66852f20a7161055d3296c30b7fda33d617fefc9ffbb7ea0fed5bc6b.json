@@ -1,0 +1,30 @@
+{
+  "text": "Je révise beaucoup ___ j'ai un examen lundi. (",
+  "text_sha256": "ca2378dc66852f20a7161055d3296c30b7fda33d617fefc9ffbb7ea0fed5bc6b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2175056689342405,
+      "source_seconds": 2.2175056689342405,
+      "source_file_sha256": "e1e9e82de7ab75d3cf906ad54664f99ff5ce6aa32a3ca2d7338d47f166b8060c",
+      "file_sha256": "17180960a23df6f29c2c9c8f6da14ca283b1e31d3f78b45d178a5f4bfcaba95e",
+      "bytes": 18434,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

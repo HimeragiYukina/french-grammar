@@ -1,0 +1,30 @@
+{
+  "text": "Il ne s'agit pas de gagner, mais de comprendre.",
+  "text_sha256": "30a3b5146bd82ccd11e6ef3cdc6a64db6899ff0c8fb1dd420684f27d1738e1a8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6006349206349206,
+      "source_seconds": 2.6006349206349206,
+      "source_file_sha256": "c1e54ee267aa4d957b7ac6870a687b1320a3b0b6cb9270ed085e0ea75db5bcde",
+      "file_sha256": "496c0052e6113d3b666d71e8d0a076250a58f3d8cb357db93fa4f7fb55906f1f",
+      "bytes": 21568,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

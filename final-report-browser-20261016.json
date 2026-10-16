@@ -1,0 +1,19 @@
+{
+  "rows": [
+    {
+      "site": "grammar",
+      "width": 390,
+      "reportLoads": true,
+      "noOverflow": true,
+      "noPendingSlots": true
+    },
+    {
+      "site": "grammar",
+      "width": 1440,
+      "reportLoads": true,
+      "noOverflow": true,
+      "noPendingSlots": true
+    }
+  ],
+  "auditoryListening": false
+}

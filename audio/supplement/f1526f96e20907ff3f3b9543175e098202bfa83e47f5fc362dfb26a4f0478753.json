@@ -1,0 +1,30 @@
+{
+  "text": "Nous étudiions dans la même classe.",
+  "text_sha256": "f1526f96e20907ff3f3b9543175e098202bfa83e47f5fc362dfb26a4f0478753",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8808163265306121,
+      "source_seconds": 1.8808163265306121,
+      "source_file_sha256": "3d52351f1cdc97f6a3452d39e01d569314536fa716760275ae83b1fedaa15c9e",
+      "file_sha256": "c75b93316e1abf84e41c26dc51f5375db77fd1ab8c71dfd950627438d34dc1f3",
+      "bytes": 15717,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Je viens de Paris",
+  "text_sha256": "0e1312ac18e0e9f8360932b27030aa7d7cc25d11f04eaa16306ea25fb40ee8e6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.253877551020408,
+      "source_seconds": 1.253877551020408,
+      "source_file_sha256": "f68b328886a838b7e027675aa5115e3e11b8ffe636872c6ae426ade2ed57be01",
+      "file_sha256": "0a1548000d4f9b8298b3d2ec3d6afd491b790c238abf8a799ec7bc1bfd54adb7",
+      "bytes": 10701,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

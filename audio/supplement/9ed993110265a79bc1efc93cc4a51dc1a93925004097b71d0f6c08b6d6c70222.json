@@ -1,0 +1,30 @@
+{
+  "text": "Cette rue est moins animée que la place.",
+  "text_sha256": "9ed993110265a79bc1efc93cc4a51dc1a93925004097b71d0f6c08b6d6c70222",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1942857142857144,
+      "source_seconds": 2.1942857142857144,
+      "source_file_sha256": "1141c445a8bcb6da04d34f9d518e05316b8f19f9fb4878283e1f6303b74f0f59",
+      "file_sha256": "3631a5df904cb7a16bb3d3a0adb8a496c028c629fda994ea80a90451a63ec9ef",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

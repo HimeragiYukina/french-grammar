@@ -1,0 +1,30 @@
+{
+  "text": "Il parle de sorte que tous l'entendent",
+  "text_sha256": "cde6c94d38f6430afc5c84ecce6a7d0c89a27085c456e2739e083d0b14c0a488",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.461315192743764,
+      "source_seconds": 2.461315192743764,
+      "source_file_sha256": "94ef1e9e4b511635d40bf0030600dd5d602bb5b98c9c7723827f63ba27c1ec87",
+      "file_sha256": "9a824254ecb467203bb65a014cabf68a2139aa4478878db3c2ccd9f9a79bed4d",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

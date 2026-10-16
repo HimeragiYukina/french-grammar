@@ -1,0 +1,30 @@
+{
+  "text": "Ils ont restauré un bâtiment ancien.",
+  "text_sha256": "0d0d9981d450b2b12b6f3bd207ce7ec842c95f00dedc8923cff0a3d6570624e5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1942857142857144,
+      "source_seconds": 2.1942857142857144,
+      "source_file_sha256": "3ed05e8eb76195c4ada391bb117ac2ca170e7f6bee1078fe29e96694d9e48c8a",
+      "file_sha256": "70a565403ad960e3224b5c800b998dc7720c2c65468d22feee0932d315bc4530",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "À peine eut-elle posé sa valise que le téléphone sonna.",
+  "text_sha256": "3ff22f8d2845e915895a5abf9f6ad4c9d51c3e22f3d5e646c2ad77621dd10c87",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.517823129251701,
+      "source_seconds": 3.517823129251701,
+      "source_file_sha256": "e7120edb5f1b21f367f48d2ed4668cf25b7c6944931bb5063bac3469af207090",
+      "file_sha256": "109f650dc508dfc76425976889d523bc8d9451db24f7f49398910ea0d97ab4e8",
+      "bytes": 28883,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

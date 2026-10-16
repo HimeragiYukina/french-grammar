@@ -1,0 +1,30 @@
+{
+  "text": "Il a quitté le pays",
+  "text_sha256": "1c35e1ead6b55cb1ff4cb1294732e94daaa19f5d0971f16e4ceeba6347af129d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.253877551020408,
+      "source_seconds": 1.253877551020408,
+      "source_file_sha256": "b533411d66ed3ac83b24f5ffc7b604f81fd118f370a055ce36a012e21b418e7a",
+      "file_sha256": "44d734014a5f55389332ea46912758d27a1d8d3aa1eb17550fc4cf6cd609f635",
+      "bytes": 10701,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

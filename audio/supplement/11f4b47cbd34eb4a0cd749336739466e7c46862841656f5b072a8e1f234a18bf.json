@@ -1,0 +1,30 @@
+{
+  "text": "la sienne",
+  "text_sha256": "11f4b47cbd34eb4a0cd749336739466e7c46862841656f5b072a8e1f234a18bf",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8823582766439909,
+      "source_seconds": 0.8823582766439909,
+      "source_file_sha256": "1fb7cce8130920f38fdde16b5f1f4d9125d9ae19db94ff2b90b4077af8f483c1",
+      "file_sha256": "f74129ef841379282b0504121d876f7420d248fa738c38b146b0940cc7f63c82",
+      "bytes": 7776,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

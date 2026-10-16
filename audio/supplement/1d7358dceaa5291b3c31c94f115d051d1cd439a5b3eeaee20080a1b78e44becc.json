@@ -1,0 +1,30 @@
+{
+  "text": "Ils se sont fait expulser du stade.",
+  "text_sha256": "1d7358dceaa5291b3c31c94f115d051d1cd439a5b3eeaee20080a1b78e44becc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.124625850340136,
+      "source_seconds": 2.124625850340136,
+      "source_file_sha256": "3e00e7f80a7dd690ae577ccf4b26f75bbe09aeeb4792e7f64bd38787f48ebb2d",
+      "file_sha256": "343ea49415297860bbb0fb2432a71d5fb8b4501bc1e8f4a06eb12b2d3d2790b3",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

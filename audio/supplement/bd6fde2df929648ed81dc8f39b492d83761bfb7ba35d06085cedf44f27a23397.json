@@ -1,0 +1,30 @@
+{
+  "text": "On mangera dehors, à moins qu'il ne fasse trop froid.",
+  "text_sha256": "bd6fde2df929648ed81dc8f39b492d83761bfb7ba35d06085cedf44f27a23397",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6354648526077096,
+      "source_seconds": 2.6354648526077096,
+      "source_file_sha256": "20ba62b2392ec2950d388309f6b884d6adf53cad2b9efa9ae171f11ac41b0fb7",
+      "file_sha256": "e4a14eedd35d15cff118840ac167ffde655d764cd44ec4e70744deb3bed497d0",
+      "bytes": 21777,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

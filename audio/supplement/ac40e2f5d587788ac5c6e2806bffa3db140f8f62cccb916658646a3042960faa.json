@@ -1,0 +1,30 @@
+{
+  "text": "Il est important que chacun ___ (pouvoir) s'exprimer. (",
+  "text_sha256": "ac40e2f5d587788ac5c6e2806bffa3db140f8f62cccb916658646a3042960faa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7631746031746034,
+      "source_seconds": 2.7631746031746034,
+      "source_file_sha256": "48a5e4e26745396668eccfc04fafc84a04bca08f6e13cbfa1c0b2666221f6842",
+      "file_sha256": "645e0fdd8dce6858bc4eeeef6729a52c05f740b29d5540268e0b7a4dd0f82ff9",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

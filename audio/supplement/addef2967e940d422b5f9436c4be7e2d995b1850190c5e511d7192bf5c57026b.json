@@ -1,0 +1,30 @@
+{
+  "text": "Pour peu qu'il fasse beau, la fête aura lieu dehors.",
+  "text_sha256": "addef2967e940d422b5f9436c4be7e2d995b1850190c5e511d7192bf5c57026b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6122448979591835,
+      "source_seconds": 2.6122448979591835,
+      "source_file_sha256": "ab55a431a1fb15a29d921b82192144a0a8cb9930cb6ae05683c2a8c01ff976b9",
+      "file_sha256": "c51d340abb4165afdece53531878103f1ec3dbb8850a26d2c1e328175ebadafe",
+      "bytes": 21568,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elles seraient parties",
+  "text_sha256": "afead4aed2653d3549b46a98d33a1a5f6f838c647283dacb13e47b05238fabeb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0565079365079366,
+      "source_seconds": 1.0565079365079366,
+      "source_file_sha256": "df30c63953d3d2e5d42c14e1c7f8568ad8444aa7ecfd309741efa148473c971a",
+      "file_sha256": "e093ca8ea5c535472ec79e921eac3667a98d896c403577713db817d8b9faa0df",
+      "bytes": 9239,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

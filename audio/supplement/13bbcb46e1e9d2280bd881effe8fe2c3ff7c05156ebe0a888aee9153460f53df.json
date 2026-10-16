@@ -1,0 +1,30 @@
+{
+  "text": "Combien cette décision lui a coûté !",
+  "text_sha256": "13bbcb46e1e9d2280bd881effe8fe2c3ff7c05156ebe0a888aee9153460f53df",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8343764172335602,
+      "source_seconds": 1.8343764172335602,
+      "source_file_sha256": "4a1f412d7ff764bcf6f30eab869536b0ed37f3ce1d0d9767c8d34f63d2d8325a",
+      "file_sha256": "348ed123c7f995b0300924199eca229300a1bea9db967ace467da29a7c226075",
+      "bytes": 15508,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

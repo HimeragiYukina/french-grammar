@@ -1,0 +1,30 @@
+{
+  "text": "Ne te lève pas !",
+  "text_sha256": "35aa3f4517e3020cb364de8ca834264cd6929fb02ce9f1c51bcd13e649ab7a7a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9287981859410431,
+      "source_seconds": 0.9287981859410431,
+      "source_file_sha256": "48714957c1deb0886d94c3f345633f60342ba78614a3e6ae26e119cc9fe1cb8f",
+      "file_sha256": "3cad7bb239abfa01a36934f6ccf34598440fd80c7bbd9a4e68d2a33697b9f090",
+      "bytes": 8194,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

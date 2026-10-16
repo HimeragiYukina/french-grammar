@@ -1,0 +1,30 @@
+{
+  "text": "Je mangeais pendant que vous commenciez le cours.",
+  "text_sha256": "70be89d9eaf8e9b35647ea6dee79ebe6c709b38caf4a0cd264a24d89e0e12e1e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.3336054421768706,
+      "source_seconds": 2.3336054421768706,
+      "source_file_sha256": "ecfcae761ab82999c216a47a4fee430d68e3a9469d977754dca877985eac9988",
+      "file_sha256": "0dd86ea836303ad4f02261b57d8cc1764fb2bd1311f980b35f79c5899eccdb3f",
+      "bytes": 19479,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

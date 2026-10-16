@@ -1,0 +1,30 @@
+{
+  "text": "Mettez au passé simple : Il est entré, a salué et s'est assis. → Il ___ .",
+  "text_sha256": "20021bb013613a6e12ab1f99ba60f450b4ab4ee5c445573a8cf6c74a86528e3d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.620770975056689,
+      "source_seconds": 4.620770975056689,
+      "source_file_sha256": "fc50aadbb5a1f689ff004f438dd998306d69572b6081bc0749627c994f5cee7a",
+      "file_sha256": "007799f483013610954e890f59e2cb94b6e98c9ec192941408b3f3b6d6b31451",
+      "bytes": 37660,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

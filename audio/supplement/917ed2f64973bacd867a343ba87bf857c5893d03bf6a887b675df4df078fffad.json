@@ -1,0 +1,30 @@
+{
+  "text": "Bien qu’elle soit débutante, elle comprend très bien.",
+  "text_sha256": "917ed2f64973bacd867a343ba87bf857c5893d03bf6a887b675df4df078fffad",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.728344671201814,
+      "source_seconds": 2.728344671201814,
+      "source_file_sha256": "6c8e0086f89d2458983466591c76e035759a1d0cdfbaef8e8ea7933d599bc5e2",
+      "file_sha256": "62be3aa1eb7bef4a746bad8380e11d853a035f867fab03d11d7a9e52981577ec",
+      "bytes": 22613,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

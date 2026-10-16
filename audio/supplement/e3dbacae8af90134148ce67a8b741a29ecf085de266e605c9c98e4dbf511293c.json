@@ -1,0 +1,30 @@
+{
+  "text": "Nous tenons beaucoup à eux.",
+  "text_sha256": "e3dbacae8af90134148ce67a8b741a29ecf085de266e605c9c98e4dbf511293c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.486077097505669,
+      "source_seconds": 1.486077097505669,
+      "source_file_sha256": "a4cc813aca786e37fe9b65b824b02d90e3bb45adf259b46d49bc41b693c6a70f",
+      "file_sha256": "bafdee2752a9936022e4f19c30f4509b2b6c7a952c848a62b78d187764b11379",
+      "bytes": 12582,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

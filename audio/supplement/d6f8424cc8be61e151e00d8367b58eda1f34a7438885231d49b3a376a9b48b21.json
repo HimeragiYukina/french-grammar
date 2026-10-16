@@ -1,0 +1,30 @@
+{
+  "text": "Au cas où vous auriez oublié, la réunion commence à neuf heures.",
+  "text_sha256": "d6f8424cc8be61e151e00d8367b58eda1f34a7438885231d49b3a376a9b48b21",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4713832199546486,
+      "source_seconds": 3.4713832199546486,
+      "source_file_sha256": "4a977d9d601772a777724ac5f1f8c0b90e73b8df679b141d81bc583315b26a70",
+      "file_sha256": "ce31e797f2b6ffd737139981000775ee6c15ef30ba1bc56a828c5298ac9dea1b",
+      "bytes": 28465,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

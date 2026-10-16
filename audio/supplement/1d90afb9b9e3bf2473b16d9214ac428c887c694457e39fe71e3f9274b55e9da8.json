@@ -1,0 +1,30 @@
+{
+  "text": "Selon un témoin, elle aurait présenté le rapport",
+  "text_sha256": "1d90afb9b9e3bf2473b16d9214ac428c887c694457e39fe71e3f9274b55e9da8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8908843537414968,
+      "source_seconds": 2.8908843537414968,
+      "source_file_sha256": "ae555d8ed807615f9f2e4d02464444e9d7bc0762ba34f30ab4306a10ab716339",
+      "file_sha256": "17800f3aeed58daf43cb7d61c6b0ea2d0d9c3109d060f18da6eae896f9b7c610",
+      "bytes": 23867,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

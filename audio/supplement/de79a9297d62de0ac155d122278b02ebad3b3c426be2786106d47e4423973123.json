@@ -1,0 +1,30 @@
+{
+  "text": "Elle devait présenter le rapport",
+  "text_sha256": "de79a9297d62de0ac155d122278b02ebad3b3c426be2786106d47e4423973123",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7066666666666668,
+      "source_seconds": 1.7066666666666668,
+      "source_file_sha256": "cfd84d6c914f1598578d2c42174f81dbc1f90777afdd92124a7a48007ec324ae",
+      "file_sha256": "83ead420cfb5aa17359ca098cf79df72ad2902a39c3cabdd99afd3c74188e335",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

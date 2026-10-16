@@ -1,0 +1,30 @@
+{
+  "text": "la plus belle ville;",
+  "text_sha256": "77d77d14718fc77d71034154d986b8a03cc1d67c7444d7ba4badc5ff1a9d28d4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4048072562358276,
+      "source_seconds": 1.4048072562358276,
+      "source_file_sha256": "564bc9680ff5dd10530f2c6cbfcb73b34197e72d71059a1533b3b5e64630a06d",
+      "file_sha256": "1cf096fb0f8c587cd55b1944e008fc99ff32ba8f798efb04fd6b619d05d37f68",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

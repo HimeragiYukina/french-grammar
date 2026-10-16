@@ -1,0 +1,30 @@
+{
+  "text": "Quand bien même il refuserait, nous poursuivrions le projet.",
+  "text_sha256": "abd386022ea1c8ffbfef271e425198f20fc4f3e529a021b2559fbd5c4342bc93",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.215963718820862,
+      "source_seconds": 3.215963718820862,
+      "source_file_sha256": "ebdb24ef2fe4aee3dc35041a818052ceec1f95b936a5084097326f15008389a1",
+      "file_sha256": "a14242425e5c5330b2ef59fa8c141681c6e5c272a4038b1bcd9e0ec2455306ea",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

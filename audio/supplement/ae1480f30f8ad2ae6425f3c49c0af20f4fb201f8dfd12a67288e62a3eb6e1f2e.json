@@ -1,0 +1,30 @@
+{
+  "text": "Il s'entraîne chaque jour de manière à progresser plus vite.",
+  "text_sha256": "ae1480f30f8ad2ae6425f3c49c0af20f4fb201f8dfd12a67288e62a3eb6e1f2e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.436553287981859,
+      "source_seconds": 3.436553287981859,
+      "source_file_sha256": "64eee589448984a66b4fe5ef969b64118a7eed1c142db50ef161e823471be48c",
+      "file_sha256": "b7c1e4b894648b0669cf7d4ae87a40411cc27db8c2ec5b521ca4a3cb940f38d7",
+      "bytes": 28256,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

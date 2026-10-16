@@ -1,0 +1,30 @@
+{
+  "text": "Je laisse un message au cas où tu serais absent",
+  "text_sha256": "5106e2fa0ead16690c98707d346b1f5b71f414f344528a5f248397900bcbe2ef",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4961451247165534,
+      "source_seconds": 2.4961451247165534,
+      "source_file_sha256": "a387c459cac47fcb7c21ee965f0c486ad188835b5f47532366d0e96e01c35590",
+      "file_sha256": "1e76f8cb74e9cca1f3130f78d90c4d7c5e43e302cfc3047133f55d7c02da195c",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

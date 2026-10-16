@@ -1,0 +1,30 @@
+{
+  "text": "son devant certains mots féminins.",
+  "text_sha256": "1fba7cfb476313ec77320ab0844c8f0054ea817ed0c7cc019ada2e4c736929f6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.822766439909297,
+      "source_seconds": 1.822766439909297,
+      "source_file_sha256": "a5bbfc1504a60d692d4fd6765984278545ed8729bde8cca7cabfafabb565665f",
+      "file_sha256": "62721d79ad2f385b49f95c3826cfd3319146dd8a663aa75382f30eb41ae66c45",
+      "bytes": 15299,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

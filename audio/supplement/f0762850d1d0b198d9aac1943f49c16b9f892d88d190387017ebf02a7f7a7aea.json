@@ -1,0 +1,30 @@
+{
+  "text": "Quand il a eu fini son discours, il est sorti.",
+  "text_sha256": "f0762850d1d0b198d9aac1943f49c16b9f892d88d190387017ebf02a7f7a7aea",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.345215419501134,
+      "source_seconds": 2.345215419501134,
+      "source_file_sha256": "f6acd854e1a60315637ce7f1b0f4b781f55ee970d991447da74b80b00e5afa57",
+      "file_sha256": "97f9d190daed79d20dd17ca7a0bc962f06b27988cfd3eb00864d157c8e516a39",
+      "bytes": 19479,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Le pont sera réparé l’année prochaine.",
+  "text_sha256": "060a7589ff876aa8a751f8dac3745fb9c9e603c8715d5360c98f2b0efd6a63f9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2058956916099772,
+      "source_seconds": 2.2058956916099772,
+      "source_file_sha256": "d6259e51ba2065b43a001a694c4a9add4299c41d7aab0e4c88feeeefeffcae84",
+      "file_sha256": "6fa3382c1c46e6909833fa506979940a93dfe096ce8920a7fa63c7c80bd31805",
+      "bytes": 18434,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

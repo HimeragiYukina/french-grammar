@@ -1,0 +1,30 @@
+{
+  "text": "La route était coupée, si bien que nous avons fait demi-tour.",
+  "text_sha256": "93b3b4401a3b3c51d706b06a777f07a565d319ab10626a4cc4d2fe496cc25bd0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1811337868480725,
+      "source_seconds": 3.1811337868480725,
+      "source_file_sha256": "661687760e198ba96ee15b3fa4389a1e8f44edf19cd1a203c629f1d969370596",
+      "file_sha256": "34fa2631004b92aa9716d750e004812eca6144aaca92fff45d9b23da3e003e28",
+      "bytes": 26166,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "J’attendrai jusqu’à ce que tu reviennes.",
+  "text_sha256": "e323a1e0c0f2ef7572fd67dd3ed2eb8790cd351688e857b7ee943c933b963bf8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.147845804988662,
+      "source_seconds": 2.147845804988662,
+      "source_file_sha256": "c8ee25fa2efa297849eb0690c98e7e22669b43c37c750476892e210256abb826",
+      "file_sha256": "1f21d3a048f924f334c994b35b4b7b59b063353ed66e772aa06a6a68d6e48650",
+      "bytes": 18016,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

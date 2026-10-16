@@ -1,0 +1,30 @@
+{
+  "text": "Je connais un homme ___ la voiture est rouge. (",
+  "text_sha256": "8b432260135145455594e93bc3bbebc543824a9915dcbdb09bc369ff4a29f35a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.124625850340136,
+      "source_seconds": 2.124625850340136,
+      "source_file_sha256": "08770d8fba1a26d8131dd1a3547942b6d9eeaec10e19b30f3daa03f178f2e96c",
+      "file_sha256": "ac534f28b9411255962dd5c113df1aedd0f7c08733a109e9c8cfc75597a537db",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

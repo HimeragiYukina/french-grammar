@@ -1,0 +1,30 @@
+{
+  "text": "Tu te souviens de ce voyage ?",
+  "text_sha256": "e5fc319438879dd97ab453fe369bc2265316e2f6f33af3f12b9e3345aaa94127",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5441269841269842,
+      "source_seconds": 1.5441269841269842,
+      "source_file_sha256": "51bd15c8f6d96d77a8afea60faa00a15e43cae0efc5813c532a7d17b29bb9b50",
+      "file_sha256": "296e048ee3a5bee76f129355ee643d4648f1b490a4ce28cf7e9bdb932b1548dd",
+      "bytes": 13209,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

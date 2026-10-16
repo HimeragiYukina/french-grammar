@@ -1,0 +1,30 @@
+{
+  "text": "L'adjectif verbal s'accorde ; le participe présent est invariable. Orthographe souvent différente (-gu-",
+  "text_sha256": "02ce6dcf3ae79ed0864ebf79ef14aab249d936f96efc7f5c99c88b80f6e52139",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.6525170068027215,
+      "source_seconds": 6.6525170068027215,
+      "source_file_sha256": "97dc03bb36377e6c8d0736ea93c57a60b337f88f4d974612c85e8e52d23ce0ee",
+      "file_sha256": "df1b012c29beb57cff738514c9e07dc72a2c779214b874d09184f219232de104",
+      "bytes": 53960,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

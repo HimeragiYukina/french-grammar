@@ -1,0 +1,30 @@
+{
+  "text": "Pourriez-vous parler un peu plus lentement ?",
+  "text_sha256": "b993c0dde2051afd821a2debaae647ca121fcb8828f0c2b9608a47fdba239b21",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0549659863945577,
+      "source_seconds": 2.0549659863945577,
+      "source_file_sha256": "6ebaffddb3578a5952bee370c1bb62ceffbe18e6b5cc4172e7df70925155c8a6",
+      "file_sha256": "0ba9a40be38121bcce5fbe32d44c63ad71b3bc75d26530ea89b99ad99a614e53",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

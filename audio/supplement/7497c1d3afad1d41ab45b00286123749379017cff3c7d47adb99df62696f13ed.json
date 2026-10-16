@@ -1,0 +1,30 @@
+{
+  "text": "Trois constructions principales pour l’hypothèse. Pas de conditionnel après si exprimant une condition ; le conditionnel est possible après si introduisant une interrogation indirecte.",
+  "text_sha256": "7497c1d3afad1d41ab45b00286123749379017cff3c7d47adb99df62696f13ed",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.891700680272109,
+      "source_seconds": 9.891700680272109,
+      "source_file_sha256": "2a38f996e01703755d99f182cffac24e9f1a1ec2e719470f350922abebf8fc9d",
+      "file_sha256": "6829f6a5801d6eacc59163a54b38d41dfa6280c151c8effb90bf7ff96c34075a",
+      "bytes": 79874,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

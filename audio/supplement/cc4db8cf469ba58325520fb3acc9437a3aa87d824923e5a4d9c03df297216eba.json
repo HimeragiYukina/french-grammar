@@ -1,0 +1,30 @@
+{
+  "text": "Je regrette d'avoir oublié",
+  "text_sha256": "cc4db8cf469ba58325520fb3acc9437a3aa87d824923e5a4d9c03df297216eba",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7182766439909296,
+      "source_seconds": 1.7182766439909296,
+      "source_file_sha256": "53405d137afa8eb48c7c08dcf3f4c865c1829c6a7ff5631ef20b3521af75e738",
+      "file_sha256": "d095aab535f08a4fc54731cf856e5cd3914896f7d9f544e2b176b118237a124e",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

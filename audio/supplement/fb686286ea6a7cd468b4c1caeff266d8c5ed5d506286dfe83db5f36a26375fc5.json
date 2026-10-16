@@ -1,0 +1,30 @@
+{
+  "text": "Selon un témoin, le conducteur aurait une trentaine d’années.",
+  "text_sha256": "fb686286ea6a7cd468b4c1caeff266d8c5ed5d506286dfe83db5f36a26375fc5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7035827664399092,
+      "source_seconds": 3.7035827664399092,
+      "source_file_sha256": "80cb6f5ae39b3bb2f22b5fc80bc81805b68964c76b009105f3a3022c63b147eb",
+      "file_sha256": "ee70f1d6b0646dd7077dce5f2b597b799d9d63b0cd56a767d28e150eda69a837",
+      "bytes": 30346,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

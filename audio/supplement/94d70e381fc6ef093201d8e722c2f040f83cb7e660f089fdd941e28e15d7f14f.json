@@ -1,0 +1,30 @@
+{
+  "text": "cela étant",
+  "text_sha256": "94d70e381fc6ef093201d8e722c2f040f83cb7e660f089fdd941e28e15d7f14f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9984580498866213,
+      "source_seconds": 0.9984580498866213,
+      "source_file_sha256": "2898ce5e170ec163107caeab84b478423c3a012d6db779946b53bc3c8d10354b",
+      "file_sha256": "023ce4668d3bea402cb888350c8772a6f93a25aaa564b83bb6bde0ec7f00ccd4",
+      "bytes": 8821,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

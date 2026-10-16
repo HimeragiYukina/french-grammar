@@ -1,0 +1,30 @@
+{
+  "text": "Elle m'a demandé : « Où habites-tu ? » → Elle m'a demandé où j'habitais.",
+  "text_sha256": "109b85ecdf1917d36b382ff680f1d5498ac15187029d99c68a43c64c18f73dd7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.9706122448979593,
+      "source_seconds": 3.9706122448979593,
+      "source_file_sha256": "c0151e09e7846098834aa14b1f1ace7547ea70adbaebf93198970c8b942910a5",
+      "file_sha256": "29ce016ed0dbff64d10e871dc1fceeee558e9dd3d010b0e0cdc168b5d488f7e8",
+      "bytes": 32435,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

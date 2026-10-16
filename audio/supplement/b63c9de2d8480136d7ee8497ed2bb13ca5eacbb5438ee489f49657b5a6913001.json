@@ -1,0 +1,30 @@
+{
+  "text": "Il retourna dans la ville où vivait sa grand-mère.",
+  "text_sha256": "b63c9de2d8480136d7ee8497ed2bb13ca5eacbb5438ee489f49657b5a6913001",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.414875283446712,
+      "source_seconds": 2.414875283446712,
+      "source_file_sha256": "8ba55f4d01e97d0b839cca70a6caf38b175b2177cfe34341b1ba592f3eb2d2d5",
+      "file_sha256": "e25513e4bf9de0e4d65a344f9da7b27417bd2eb2c80f4e78450d9151a7d70dfd",
+      "bytes": 20106,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

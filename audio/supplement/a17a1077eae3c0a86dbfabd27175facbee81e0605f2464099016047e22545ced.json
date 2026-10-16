@@ -1,0 +1,30 @@
+{
+  "text": "En réservant aujourd’hui, vous bénéficierez d’une réduction.",
+  "text_sha256": "a17a1077eae3c0a86dbfabd27175facbee81e0605f2464099016047e22545ced",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.297233560090703,
+      "source_seconds": 3.297233560090703,
+      "source_file_sha256": "1576c24339525a99a973cfcf004d221e9e5fe98182239e10524c81866358cda8",
+      "file_sha256": "0d81881a370f7e9aea66c142cf85e7e1810b0d8bb0698c1a93a75ce499102e99",
+      "bytes": 27211,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

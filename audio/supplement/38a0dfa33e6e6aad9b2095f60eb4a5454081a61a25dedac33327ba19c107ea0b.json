@@ -1,0 +1,30 @@
+{
+  "text": "Le train est aussi rapide que la voiture ici.",
+  "text_sha256": "38a0dfa33e6e6aad9b2095f60eb4a5454081a61a25dedac33327ba19c107ea0b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.3336054421768706,
+      "source_seconds": 2.3336054421768706,
+      "source_file_sha256": "63f7a9382e4717068d55636a59537aafbd8310e34a2d535902de4ddc5d740fc8",
+      "file_sha256": "7fef65413f8bcf399db3f049ded45d273fb294b18368d9190d025fd4bf758cbc",
+      "bytes": 19479,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

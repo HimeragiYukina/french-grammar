@@ -1,0 +1,30 @@
+{
+  "text": "J’ai essayé de vous appeler trois fois ; personne n’a répondu.",
+  "text_sha256": "cb3ebcbb5ccdab47c7491bba8bc748d9af59e3f159c8835f585f686820b23075",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5874829931972787,
+      "source_seconds": 3.5874829931972787,
+      "source_file_sha256": "e77ffa627c055bcb41568a313b567eb7c601e21540e927334b8ec00e4b939ba6",
+      "file_sha256": "d3ef7f122bf266aed27e3e446ae10f9a4169df403f6d3f2d024b1ea71ec48fa5",
+      "bytes": 29510,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

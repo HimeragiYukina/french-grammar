@@ -1,0 +1,30 @@
+{
+  "text": "Je viendrai, à condition que tu me préviennes à l'avance.",
+  "text_sha256": "3316cf79cd70a4dee9e9ee94bd38257d17d56d7b92c1e1372b983d1c68f61a91",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.0998639455782313,
+      "source_seconds": 3.0998639455782313,
+      "source_file_sha256": "af6cc9ecd10f60427cd467036fb3fe1937a72aa5e06dbaba45c68d5697183f52",
+      "file_sha256": "e8f7524f6d901a9c8e4bedfc72b647ec96b016bc16388c52f3be48d47f4ea239",
+      "bytes": 25539,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

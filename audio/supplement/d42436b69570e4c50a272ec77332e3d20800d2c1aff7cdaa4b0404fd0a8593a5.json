@@ -1,0 +1,30 @@
+{
+  "text": "Je ___ à l'école et tu ___ tes devoirs. (aller / faire)",
+  "text_sha256": "d42436b69570e4c50a272ec77332e3d20800d2c1aff7cdaa4b0404fd0a8593a5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.48453514739229,
+      "source_seconds": 2.48453514739229,
+      "source_file_sha256": "3125caf698fd62c7dc4afcdce1d6c99b7640f0ac1c2c715d4d99810fd5f19dba",
+      "file_sha256": "8ce11de3e09820d212879d598806cafffb99c61d9530abb5e5866f1d35107a50",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

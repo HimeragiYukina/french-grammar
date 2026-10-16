@@ -1,0 +1,30 @@
+{
+  "text": "Quand vous aurez lu le contrat, nous en discuterons.",
+  "text_sha256": "5ea34ace4ab4ba39aeac106004b2174a7e74ecd644fdca30991f065a21ccf54e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.461315192743764,
+      "source_seconds": 2.461315192743764,
+      "source_file_sha256": "e268d8ab4055ca326da9fa96213e3afed42b0775c61dff4d8061d9597733955f",
+      "file_sha256": "38b1e65e0603c49604879e9c8f98dcf54430c2ad67045b79ff4fb3c6b9e68b57",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Ils se sont rencontrés à Lyon.",
+  "text_sha256": "be286a6193a71f0ea50cc4218775c0a58fb02bebd35ed5e0af8170a48bef0dd9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8575963718820863,
+      "source_seconds": 1.8575963718820863,
+      "source_file_sha256": "0e69af97381f9c1573b837444c6e58676bdd84c22943273caa2841980332e2f6",
+      "file_sha256": "cecad23bf38a80fc465453500e93d13b742472e530c5dc74aa27f9b3baf7afa5",
+      "bytes": 15717,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

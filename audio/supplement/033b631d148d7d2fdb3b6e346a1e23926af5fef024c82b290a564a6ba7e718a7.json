@@ -1,0 +1,30 @@
+{
+  "text": "Je ne vais pas sortir ce soir.",
+  "text_sha256": "033b631d148d7d2fdb3b6e346a1e23926af5fef024c82b290a564a6ba7e718a7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7298866213151927,
+      "source_seconds": 1.7298866213151927,
+      "source_file_sha256": "8effaebba97da316d6d6dd8ebc3bfd790b123b9314d7980dd493f3e9e71b2d06",
+      "file_sha256": "6f8f0f9901eabaf7acb6fde17f8e671baac28e3c5b46d14d00ae61fe825d41c4",
+      "bytes": 14672,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

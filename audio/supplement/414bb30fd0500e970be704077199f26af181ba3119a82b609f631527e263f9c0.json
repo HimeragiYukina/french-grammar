@@ -1,0 +1,30 @@
+{
+  "text": "Il va de soi que tous les usagers sont satisfaits",
+  "text_sha256": "414bb30fd0500e970be704077199f26af181ba3119a82b609f631527e263f9c0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5658049886621317,
+      "source_seconds": 2.5658049886621317,
+      "source_file_sha256": "c93facdae9025c9d65d1f0a4241a4b006d9343fd5c5e47201dd3ae6f599d7661",
+      "file_sha256": "bbd919e14994048495211cba9e59202badec0f3247a54f1de59de67bddfbe3e0",
+      "bytes": 21359,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

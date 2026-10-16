@@ -1,0 +1,30 @@
+{
+  "text": "Je tiens à lui",
+  "text_sha256": "c0d63e5dcbe3fdacfc080aeb8823d77f765b05a4d692a87612d3936e3e2f7e8f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0216780045351475,
+      "source_seconds": 1.0216780045351475,
+      "source_file_sha256": "28633e3b3a4c058c3414c35f5d8734601cf92a5003ef439fa9ff404277785bec",
+      "file_sha256": "937a752bb44c4ea244ceb46a9bee9242e06396346aea3fc77193eb568d828b88",
+      "bytes": 9030,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

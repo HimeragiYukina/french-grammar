@@ -1,0 +1,30 @@
+{
+  "text": "Elle a appris le français en écoutant la radio.",
+  "text_sha256": "78b5448563ce4fc1d77f4e8f971f59782e96ffc7362f3e4cb5837e7ac59cfb5a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.147845804988662,
+      "source_seconds": 2.147845804988662,
+      "source_file_sha256": "37152c24e3af7315e4500690295d3a469ebd1bdf149baf0defbc8f984281897c",
+      "file_sha256": "ab73998a45a1eed9755272e0324c24c0215522acee21047b407e49964c62d5b4",
+      "bytes": 18016,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

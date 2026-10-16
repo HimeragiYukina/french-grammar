@@ -1,0 +1,30 @@
+{
+  "text": "Le rendez-vous est quand ?",
+  "text_sha256": "15269590933c12bd870a90524cca75d7024a6ca4bc4e743a1995fad4c4b94807",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3351473922902495,
+      "source_seconds": 1.3351473922902495,
+      "source_file_sha256": "7c1192c01d8ad858b2c29d851344c1bd85a1e4098686aba830af8d8a070a423a",
+      "file_sha256": "9d319940ebd7c1ff28e87f4c2c7dc395394c3bc041f125c60ec18fd61e597217",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

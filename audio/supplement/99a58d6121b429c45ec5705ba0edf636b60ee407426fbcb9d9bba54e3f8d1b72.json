@@ -1,0 +1,30 @@
+{
+  "text": "Il y a une voiture",
+  "text_sha256": "99a58d6121b429c45ec5705ba0edf636b60ee407426fbcb9d9bba54e3f8d1b72",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3699773242630386,
+      "source_seconds": 1.3699773242630386,
+      "source_file_sha256": "2609f6a945f4ef0e339607ceb81c108efedf52e9c1e2a32359ba40730e27c7d4",
+      "file_sha256": "58514c791d229ed69374491b93b24749db125f7458b39aa7a604e618571877cc",
+      "bytes": 11746,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elle a mangé",
+  "text_sha256": "d202d8779b69ab6c1125f11df1490f8aec50db87c4a152bbde0cf01d1b571a20",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.905578231292517,
+      "source_seconds": 0.905578231292517,
+      "source_file_sha256": "c1ade4ada2fb55e2a981682e19106f05d0b232f533edc99efc2d4f5d054a7c5c",
+      "file_sha256": "7e0d3a971f9c83435d029345509bf4f58fccc1a3a36c8fc82f57e48118680d4c",
+      "bytes": 7985,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

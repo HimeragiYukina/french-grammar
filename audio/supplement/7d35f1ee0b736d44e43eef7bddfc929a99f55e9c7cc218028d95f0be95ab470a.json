@@ -1,0 +1,30 @@
+{
+  "text": "J’aimerais que chacun apporte quelque chose, mais personne n’est obligé de cuisiner.",
+  "text_sha256": "7d35f1ee0b736d44e43eef7bddfc929a99f55e9c7cc218028d95f0be95ab470a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.458231292517007,
+      "source_seconds": 4.458231292517007,
+      "source_file_sha256": "16b40c9425fad7ec0799e805afb5a0476985965aeaf469bfdba39d563f27a113",
+      "file_sha256": "cae7bc88342df9540496afe80909378eebd06200f474610fd61211aef86a1b0a",
+      "bytes": 36406,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

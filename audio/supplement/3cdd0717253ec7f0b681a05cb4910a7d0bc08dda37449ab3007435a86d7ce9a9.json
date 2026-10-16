@@ -1,0 +1,30 @@
+{
+  "text": "Il souhaitait que sa fille poursuivît ses études.",
+  "text_sha256": "3cdd0717253ec7f0b681a05cb4910a7d0bc08dda37449ab3007435a86d7ce9a9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8328344671201813,
+      "source_seconds": 2.8328344671201813,
+      "source_file_sha256": "4230e873bbf3cea0c9519be07f373135a09e1f49f4a1016a6ccf2ec71c4b1a12",
+      "file_sha256": "05cf8c21d91e543085793f006d0ff5dfea64c30359a349e4554e2bad8723c636",
+      "bytes": 23449,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

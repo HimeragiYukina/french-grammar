@@ -1,0 +1,30 @@
+{
+  "text": "avec un peu de chance",
+  "text_sha256": "ce7e367889e88cd00945be4001e9b1fe95825357367ed36a2d6e02e00173799e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3931972789115645,
+      "source_seconds": 1.3931972789115645,
+      "source_file_sha256": "5e35d493d755976cfa71aa6a3d1169e8d741336c6ad6ba79103e28d0d04691bb",
+      "file_sha256": "f131ba196cdf310a25004b597abd275ca9379b19ee1a0ef3fffbea81be06bceb",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

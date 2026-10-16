@@ -1,0 +1,30 @@
+{
+  "text": "Le bibliothécaire veut savoir ___ nous avons besoin.",
+  "text_sha256": "fa6ac67c9e28e2dc1eb3f44dac38946f5b436cdf1aee90e6befbd0e8296c07dc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.01859410430839,
+      "source_seconds": 3.01859410430839,
+      "source_file_sha256": "739f4fb5b6b7ba2a777f56fcd2196068f413a6c90c5defdf4d0cad5ba7829fc4",
+      "file_sha256": "c5c85c6d3fe7df0e0a8ce8579b73b2e3774ca31a1ec7af24f994c74d7b613ef1",
+      "bytes": 24912,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

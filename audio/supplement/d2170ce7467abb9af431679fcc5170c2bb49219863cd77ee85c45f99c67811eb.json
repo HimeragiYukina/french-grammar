@@ -1,0 +1,30 @@
+{
+  "text": "Penses-tu qu’il viendra ?",
+  "text_sha256": "d2170ce7467abb9af431679fcc5170c2bb49219863cd77ee85c45f99c67811eb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3467573696145125,
+      "source_seconds": 1.3467573696145125,
+      "source_file_sha256": "b9499efb998507b46797bbbad9c618b344f8e0afd4c8a8d42c2fa835d1149c59",
+      "file_sha256": "25d6be0b8c7a2cda61a678159a93b055dd7d500da2c09ce1daa81b15b4af72e3",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

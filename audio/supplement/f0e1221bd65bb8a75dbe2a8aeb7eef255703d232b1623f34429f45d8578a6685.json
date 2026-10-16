@@ -1,0 +1,30 @@
+{
+  "text": "elles se sont parlé",
+  "text_sha256": "f0e1221bd65bb8a75dbe2a8aeb7eef255703d232b1623f34429f45d8578a6685",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1609977324263039,
+      "source_seconds": 1.1609977324263039,
+      "source_file_sha256": "2ab0552cf5373c9f9fa8270a2f0d89e63a8a0c614f4a65aec025a9e25dab3630",
+      "file_sha256": "5a7cd4f5cf803e221d547f3896ec57ed46cfafcd4ae9ff1aad0309bb385fc614",
+      "bytes": 10075,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

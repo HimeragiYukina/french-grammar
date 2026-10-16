@@ -1,0 +1,30 @@
+{
+  "text": "Après avoir relu le contrat, elle l’a signé.",
+  "text_sha256": "60d51c69a718dd295accde4861e8f1bb268a09602d72961f7585ecf298a9f933",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6006349206349206,
+      "source_seconds": 2.6006349206349206,
+      "source_file_sha256": "fb5741fbc9ef9314ce8503bba11291d2320bd526fdcdbf7d42c1fd1d3ba2da2c",
+      "file_sha256": "dc2080b17770fa891aefabbe00d91fbf46f6cb57102ecbbab7e4bee538d9aa3c",
+      "bytes": 21568,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

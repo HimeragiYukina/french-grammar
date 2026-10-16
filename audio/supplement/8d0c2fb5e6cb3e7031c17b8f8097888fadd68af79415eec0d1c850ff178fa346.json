@@ -1,0 +1,30 @@
+{
+  "text": "Quoi qu’il arrive, garde ce numéro.",
+  "text_sha256": "8d0c2fb5e6cb3e7031c17b8f8097888fadd68af79415eec0d1c850ff178fa346",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.426485260770975,
+      "source_seconds": 2.426485260770975,
+      "source_file_sha256": "33e7d33603f0b3976b4f89e63a3b94095278891ad1925c16acaa247113ef3980",
+      "file_sha256": "23cf76335ca4d71df9d334b651fd2cf8fc3786826fe03e32fe387d34f938e281",
+      "bytes": 20106,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

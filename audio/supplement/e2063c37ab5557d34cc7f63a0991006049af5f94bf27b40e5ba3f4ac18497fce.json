@@ -1,0 +1,30 @@
+{
+  "text": "Vous avez un justificatif ? — Non, je n’en ai pas, mais je peux en obtenir un demain.",
+  "text_sha256": "e2063c37ab5557d34cc7f63a0991006049af5f94bf27b40e5ba3f4ac18497fce",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.864580498866213,
+      "source_seconds": 4.864580498866213,
+      "source_file_sha256": "01fffb27e264e6cee96f274f852b4dacd85275dad54c0eac0bcaea5b7ec0a86e",
+      "file_sha256": "e7e95ed63952be95f3cbccda20cfa4c487830ab8a26971baabbe274c2737039d",
+      "bytes": 39750,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

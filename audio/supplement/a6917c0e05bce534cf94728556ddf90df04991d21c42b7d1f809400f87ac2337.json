@@ -1,0 +1,30 @@
+{
+  "text": "Pendant que je ___ (regarder) le panneau, mon téléphone ___ (sonner).",
+  "text_sha256": "a6917c0e05bce534cf94728556ddf90df04991d21c42b7d1f809400f87ac2337",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8560544217687074,
+      "source_seconds": 2.8560544217687074,
+      "source_file_sha256": "4acc6ec48b17c26e95e74a49b0211d19c8887ca137fb98f7a5a975812b856f2d",
+      "file_sha256": "7374bd6bb26aa8564a8bd29ce72555e91f98624ac8ed38f8a567d8192baf9d90",
+      "bytes": 23658,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

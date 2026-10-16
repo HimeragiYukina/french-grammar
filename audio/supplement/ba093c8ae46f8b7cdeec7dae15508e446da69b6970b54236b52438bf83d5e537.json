@@ -1,0 +1,30 @@
+{
+  "text": "Elle peut conduire, mais elle ne veut pas conduire ce soir.",
+  "text_sha256": "ba093c8ae46f8b7cdeec7dae15508e446da69b6970b54236b52438bf83d5e537",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.914104308390023,
+      "source_seconds": 2.914104308390023,
+      "source_file_sha256": "2db59545adb07b398c8f28feef33fc733addf55e32ab7232bb4f3203934bcaf4",
+      "file_sha256": "e5a9c61890227cf0cb514400fb7c4ba76711e3ca11b3537eaa51eac94a2417e9",
+      "bytes": 24076,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

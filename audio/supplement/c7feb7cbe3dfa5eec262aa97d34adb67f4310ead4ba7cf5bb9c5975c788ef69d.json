@@ -1,0 +1,30 @@
+{
+  "text": "Je les vais imprimer",
+  "text_sha256": "c7feb7cbe3dfa5eec262aa97d34adb67f4310ead4ba7cf5bb9c5975c788ef69d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3815873015873017,
+      "source_seconds": 1.3815873015873017,
+      "source_file_sha256": "5ebdf4fcfbe085dcc06cc11b89ce49cf4d8cc609028c3df70497e979006a00c1",
+      "file_sha256": "14f750c2408a48c282e6042a03cfa21a40a187e7080bad57ffae8c21dd295619",
+      "bytes": 11746,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

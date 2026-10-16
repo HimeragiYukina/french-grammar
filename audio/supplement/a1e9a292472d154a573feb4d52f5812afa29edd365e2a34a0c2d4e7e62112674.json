@@ -1,0 +1,30 @@
+{
+  "text": "Nous allons déménager l’année prochaine.",
+  "text_sha256": "a1e9a292472d154a573feb4d52f5812afa29edd365e2a34a0c2d4e7e62112674",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1710657596371883,
+      "source_seconds": 2.1710657596371883,
+      "source_file_sha256": "cfe2fe0b1e5c7cda5e9eaac5eb3f6617bb1adb7a9f76787ae1e6a5af37484e79",
+      "file_sha256": "d8010a8123e0b52f936ebb0bab263df9b9f2752abca223e26747c1637ead2d36",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

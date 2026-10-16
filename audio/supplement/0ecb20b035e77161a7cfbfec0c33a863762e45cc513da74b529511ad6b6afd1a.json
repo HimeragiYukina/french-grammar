@@ -1,0 +1,30 @@
+{
+  "text": "Il y a une pharmacie près de la gare.",
+  "text_sha256": "0ecb20b035e77161a7cfbfec0c33a863762e45cc513da74b529511ad6b6afd1a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.136235827664399,
+      "source_seconds": 2.136235827664399,
+      "source_file_sha256": "07111915242da189779f9367abf827ca25c630717058f0c6dcb856abbf03ff5d",
+      "file_sha256": "ba55d71ae4966884f7ad41a016a3f8e0baff3432ac0c1b3304e01edfd9df2696",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Ce n'est pas que je refuse de vous aider, c'est que je ne sais pas comment faire.",
+  "text_sha256": "d3f3f0c3f5ed5691e071bbb97535202a6a43cf95d6b16d64287a0a1b8c1d9d4c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5062131519274375,
+      "source_seconds": 3.5062131519274375,
+      "source_file_sha256": "6a6f0d923b0e2cfb4f7f6021f752deaaa27e4264b81a55ffb95615d8e4f29c30",
+      "file_sha256": "117e3f4e14a3988ddfe7e01d6020e4a4029bef08800edd497ff316e72d4e79f9",
+      "bytes": 28883,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

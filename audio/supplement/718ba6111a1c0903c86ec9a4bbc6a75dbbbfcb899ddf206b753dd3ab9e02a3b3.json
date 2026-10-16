@@ -1,0 +1,30 @@
+{
+  "text": "il pleuvait, donc je suis resté",
+  "text_sha256": "718ba6111a1c0903c86ec9a4bbc6a75dbbbfcb899ddf206b753dd3ab9e02a3b3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2291156462585033,
+      "source_seconds": 2.2291156462585033,
+      "source_file_sha256": "dae3882d6ba4c3263f7897f9d3266dc1f51171f5c6fd9fda3a833434c8e8e956",
+      "file_sha256": "65becdbbe501aabda78f75c52963b06f96a212c1d79512fef0be819e8fef7cf4",
+      "bytes": 18643,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

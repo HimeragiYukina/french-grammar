@@ -1,0 +1,30 @@
+{
+  "text": "À cause de la panne, nous avons perdu deux heures.",
+  "text_sha256": "3350cf9e19f2cd9cf94160a0e5f8fde8b5025c8d4aefb8b45fc88b564670e36d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7399546485260773,
+      "source_seconds": 2.7399546485260773,
+      "source_file_sha256": "fada8b722b4d8c1aa1f660c5632b93a1b65275469ff008740d89e632898ce264",
+      "file_sha256": "9f363a1d784da008aa9533e635485db26f57876dbd5f5d4455d0caba785a8d6d",
+      "bytes": 22613,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

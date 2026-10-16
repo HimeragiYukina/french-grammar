@@ -1,0 +1,30 @@
+{
+  "text": "C’est Léa qui…",
+  "text_sha256": "13b97f9c81d5d2ff7792d3328b97bb83d7ff8596fbcdaebeb8479555be68d1e5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0681179138321995,
+      "source_seconds": 1.0681179138321995,
+      "source_file_sha256": "8667dee7f39603a8d1143219f7637b713b2d517d7190acf17bc7e7fbe1d1cb7e",
+      "file_sha256": "35a776410149eb988b2a22abda8f55197ed6b8fa604582f233e02d6cab5fed2a",
+      "bytes": 9239,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

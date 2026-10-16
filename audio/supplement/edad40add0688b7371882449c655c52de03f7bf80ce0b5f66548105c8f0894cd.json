@@ -1,0 +1,30 @@
+{
+  "text": "Écoutez bien ceci : le rendez-vous est annulé.",
+  "text_sha256": "edad40add0688b7371882449c655c52de03f7bf80ce0b5f66548105c8f0894cd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.728344671201814,
+      "source_seconds": 2.728344671201814,
+      "source_file_sha256": "c48e82a32ac123b4d5be4df2546e64a237175bca8a3942ba3092d21d2ec552b2",
+      "file_sha256": "62c67d86cc5a7dad52357f2a1f6b939d4f63ec10f646ecb70f90e81d9c7d892e",
+      "bytes": 22613,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

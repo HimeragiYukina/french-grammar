@@ -1,0 +1,30 @@
+{
+  "text": "Les personnes attendant dehors seront reçues à midi.",
+  "text_sha256": "69229e5bc0f6457f24392bee5e0e0700f5e6cacba4ff14cef4ca888b212df405",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5309750566893423,
+      "source_seconds": 2.5309750566893423,
+      "source_file_sha256": "37abff0beafe10490399ad55d2e76d14f1002aff022b3eef7c1de43f6e6e9898",
+      "file_sha256": "efb89fc1dda4082db5936fa6fd0f9c0de65b8c749eca7a50a6ddf2088b0863ce",
+      "bytes": 20941,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

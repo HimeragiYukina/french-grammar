@@ -1,0 +1,30 @@
+{
+  "text": "malgré qu'il pleut",
+  "text_sha256": "1e0c0bfbd26b4eed3ed6ea03b62fea0851fac33aedba3adeb00878f05d1373f2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3119274376417234,
+      "source_seconds": 1.3119274376417234,
+      "source_file_sha256": "bfa25e85e932ddebb9f2eae19c0b8783814c455479c8f24b487a942b8569fddd",
+      "file_sha256": "5187f282ad6d4b1d963e9bb055822675647c9df49deddbb1eaddc4ee2b614f48",
+      "bytes": 11328,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

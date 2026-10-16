@@ -1,0 +1,30 @@
+{
+  "text": "J’ai travaillé ici pendant dix ans, puis j’ai déménagé.",
+  "text_sha256": "72326e1c9b18737149870caf657bfd64a69042ca47b8d308fad44e64496bce66",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1811337868480725,
+      "source_seconds": 3.1811337868480725,
+      "source_file_sha256": "2c51c4767fd7e321c97d96fad8c7d34366efa30fdb8aac06aa22eb0c7f436e0b",
+      "file_sha256": "2a4d881db16d7003d6fff0d3529c278f0581f7a37fea07bccb7aab0c7495b386",
+      "bytes": 26166,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

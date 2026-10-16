@@ -1,0 +1,30 @@
+{
+  "text": "Pronoms compléments",
+  "text_sha256": "f9e7e84ca9ab2be14f7135a424e093f2483055ef5eccc734026462028a9a1b25",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.195827664399093,
+      "source_seconds": 1.195827664399093,
+      "source_file_sha256": "af003fb7a2d8ab6152753b44fbf74ac4ae96ece76da7d81572ce247ace25ef0e",
+      "file_sha256": "e8b03967025352c6e4f0ec8ee6b5678189d22f5c151928f98a654ca2ba4a3ccf",
+      "bytes": 10284,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

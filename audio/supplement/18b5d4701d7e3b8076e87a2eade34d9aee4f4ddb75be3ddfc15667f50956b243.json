@@ -1,0 +1,30 @@
+{
+  "text": "le jour que je préfère",
+  "text_sha256": "18b5d4701d7e3b8076e87a2eade34d9aee4f4ddb75be3ddfc15667f50956b243",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.486077097505669,
+      "source_seconds": 1.486077097505669,
+      "source_file_sha256": "2a26d2dcd81cd8245c59dbc514323b76a748a393565c713e4911bc086efbe0e3",
+      "file_sha256": "ab2d5c951ed49fbb706f9483348bd212aa5cb121d3b645b020aae6cf8b0c8dfb",
+      "bytes": 12582,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

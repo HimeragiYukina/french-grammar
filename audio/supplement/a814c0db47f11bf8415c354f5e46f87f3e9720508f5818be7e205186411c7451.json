@@ -1,0 +1,30 @@
+{
+  "text": "Il parle aussi allemand",
+  "text_sha256": "a814c0db47f11bf8415c354f5e46f87f3e9720508f5818be7e205186411c7451",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.497687074829932,
+      "source_seconds": 1.497687074829932,
+      "source_file_sha256": "eca035c62ac71bc69380d6465b47a6fe2d9331217995677c2a9010011f6b5be1",
+      "file_sha256": "6ebaf7542b10d0f0e259a1ed602519acfe7e1a00b443e323dafa2545888da92e",
+      "bytes": 12791,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

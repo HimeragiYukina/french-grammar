@@ -1,0 +1,30 @@
+{
+  "text": "Il a annulé le rendez-vous ___ il avait trop de travail. (",
+  "text_sha256": "ff6b8ede108c1cde0a21387ecded8c6485213b104b09f19b3aecdd321ad6f036",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.705124716553288,
+      "source_seconds": 2.705124716553288,
+      "source_file_sha256": "7bae444839b92cb609a55320df8e72b2fbc04d1e8429bc906a1a16042d35bb3f",
+      "file_sha256": "39b54bd35c4bd3624747a894811d639725dbb1c671244eb28f9e16d94a47fce9",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

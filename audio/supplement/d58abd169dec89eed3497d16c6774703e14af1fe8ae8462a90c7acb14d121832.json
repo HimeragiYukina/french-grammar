@@ -1,0 +1,30 @@
+{
+  "text": "Ce matin, elles ___ (se réveiller) tôt.",
+  "text_sha256": "d58abd169dec89eed3497d16c6774703e14af1fe8ae8462a90c7acb14d121832",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0085260770975055,
+      "source_seconds": 2.0085260770975055,
+      "source_file_sha256": "70454c33ff7f0539dc6c15bfcf34bc1c875ed96d727eebaf9c772c6eb900ceb6",
+      "file_sha256": "c24a035c09e53bbd81fb510adc5c913887365ae2103f593347ae3fba6f9c5b6b",
+      "bytes": 16762,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

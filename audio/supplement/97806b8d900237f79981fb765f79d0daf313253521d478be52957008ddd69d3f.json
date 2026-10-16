@@ -1,0 +1,30 @@
+{
+  "text": "Sans soutien, il eût échoué. / Elle regrettait qu’il eût échoué.",
+  "text_sha256": "97806b8d900237f79981fb765f79d0daf313253521d478be52957008ddd69d3f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5294331065759637,
+      "source_seconds": 3.5294331065759637,
+      "source_file_sha256": "a35983ffaee40dcfae0b0ce39f441b07922f29fa22c17c42bc67aa2c0897fb5e",
+      "file_sha256": "0bc549f1ccc12790f64d84e0ed2fee6b96c6e9814fdea436c4c97aa90c6d9fc4",
+      "bytes": 29092,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

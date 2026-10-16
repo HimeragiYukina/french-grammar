@@ -1,0 +1,30 @@
+{
+  "text": "Sur la colline, un château se dressait.",
+  "text_sha256": "4d9c924659c205d8eb3c34265344cc5e8c95a3080149a2d63c6291c60be951aa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5541950113378684,
+      "source_seconds": 2.5541950113378684,
+      "source_file_sha256": "5c48aa7de3d7e7dbbe584b3a5449d4e915b058fe4f8d1a54b94e8164d201b280",
+      "file_sha256": "9abfdb07af918082187650314762b05927305707ea8ea6c97f1a4f85f408c049",
+      "bytes": 21150,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

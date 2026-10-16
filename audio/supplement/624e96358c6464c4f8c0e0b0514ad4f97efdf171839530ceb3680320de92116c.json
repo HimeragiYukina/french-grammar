@@ -1,0 +1,30 @@
+{
+  "text": "Il joue au football mais ne joue pas au tennis.",
+  "text_sha256": "624e96358c6464c4f8c0e0b0514ad4f97efdf171839530ceb3680320de92116c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.705124716553288,
+      "source_seconds": 2.705124716553288,
+      "source_file_sha256": "280eb99c7b808bdf00c2fe4bb933a2aa2d69593b77c7e7acd02c0f4b41c46ee0",
+      "file_sha256": "abb3a70b4564065d816829f71aa4967570d569faf194724a64af6c6337b32a89",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

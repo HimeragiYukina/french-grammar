@@ -1,0 +1,30 @@
+{
+  "text": "dans",
+  "text_sha256": "0b135e8de8f42b4baddb5e580400b8c2dc56f9204758314c2be7019aa9d8d98a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.5804988662131519,
+      "source_seconds": 0.5804988662131519,
+      "source_file_sha256": "109339bde712d39f9c20d4b0795e39c7897fc8af72373d0d1a49d5ded3dc3ae3",
+      "file_sha256": "b65e44722398376452ac0d0304948b6b245f84cfe47c93b8f81b193fa0b750b1",
+      "bytes": 5477,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

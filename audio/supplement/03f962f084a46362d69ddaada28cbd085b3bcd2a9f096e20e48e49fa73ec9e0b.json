@@ -1,0 +1,30 @@
+{
+  "text": "Ces tâches ___ les équipes demandent un contrôle. / Ces tâches sont très ___.",
+  "text_sha256": "03f962f084a46362d69ddaada28cbd085b3bcd2a9f096e20e48e49fa73ec9e0b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4481632653061225,
+      "source_seconds": 3.4481632653061225,
+      "source_file_sha256": "ed307831df2026a524ba30d2e729603bc9aa51b7fe2542bc718487e8fc666f40",
+      "file_sha256": "1029c44bb5aceac6bbd9dc4fa176714e60b2f496558e9eb81653b501850f2c06",
+      "bytes": 28256,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

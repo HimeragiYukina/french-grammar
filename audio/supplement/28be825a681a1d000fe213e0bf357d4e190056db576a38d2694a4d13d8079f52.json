@@ -1,0 +1,30 @@
+{
+  "text": "cet homme",
+  "text_sha256": "28be825a681a1d000fe213e0bf357d4e190056db576a38d2694a4d13d8079f52",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8126984126984127,
+      "source_seconds": 0.8126984126984127,
+      "source_file_sha256": "d54af15381ad5cccfa9c52cc804f532943eabbf9fc623267a2508c9230324449",
+      "file_sha256": "b341f81a2a129240637cee0d83adf9ded7762e8192e89ca36aea36390922c9a6",
+      "bytes": 7358,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

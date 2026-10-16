@@ -1,0 +1,30 @@
+{
+  "text": "Temps littéraires",
+  "text_sha256": "f9b3ec3187e7486a1de6c03714473b268c08d056695b6c8b9da7db0d48c4b693",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.18421768707483,
+      "source_seconds": 1.18421768707483,
+      "source_file_sha256": "716b06d1dae6f0331bfe06641f201075b2db90337c4643af6d2a8f04f6f03d57",
+      "file_sha256": "6149455c5a077bcafa909d530e938885ae4742a059ffa09c202a9948baf83a0f",
+      "bytes": 10284,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

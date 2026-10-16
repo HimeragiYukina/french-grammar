@@ -1,0 +1,30 @@
+{
+  "text": "Fermeture du pont : circulation interrompue.",
+  "text_sha256": "1bd7c617313bbb7d1798cb56aab883807593ce244e162820935e008f60ce3119",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6238548752834467,
+      "source_seconds": 2.6238548752834467,
+      "source_file_sha256": "3e7f995eb861e8ffdc2089c58f2f36c7c248f0fc04b5464e674c9ef097729862",
+      "file_sha256": "470072d879484af555b32cbcb3eb58cc0cf95aa01fee9a0d31e76bea79825299",
+      "bytes": 21777,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

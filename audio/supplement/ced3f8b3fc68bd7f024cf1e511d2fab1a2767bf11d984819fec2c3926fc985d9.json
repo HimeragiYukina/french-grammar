@@ -1,0 +1,30 @@
+{
+  "text": "parler du livre",
+  "text_sha256": "ced3f8b3fc68bd7f024cf1e511d2fab1a2767bf11d984819fec2c3926fc985d9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.207437641723356,
+      "source_seconds": 1.207437641723356,
+      "source_file_sha256": "cc918cf906aab9efdeb3a8e16a31063d77e942e8d7740ab7c0781b5e445c11b0",
+      "file_sha256": "fb3b7ca72a13e5282f8fe7acaf0934ad8aa47bf05e1a2d1930522370468b375b",
+      "bytes": 10493,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

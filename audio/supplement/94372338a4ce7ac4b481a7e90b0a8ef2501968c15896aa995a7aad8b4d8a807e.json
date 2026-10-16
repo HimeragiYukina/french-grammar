@@ -1,0 +1,30 @@
+{
+  "text": "Que fais-tu ce soir ?",
+  "text_sha256": "94372338a4ce7ac4b481a7e90b0a8ef2501968c15896aa995a7aad8b4d8a807e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3467573696145125,
+      "source_seconds": 1.3467573696145125,
+      "source_file_sha256": "577caee2664fe1452015f6b88b4b8dbbc41c2909ae4a0ecf3b21eeefbadcfc22",
+      "file_sha256": "fb0f64dae25e6024bcd60763cdcbbc2874dc3f36f55974a30c76f532e966b7d5",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Mes sœurs sont revenues hier soir.",
+  "text_sha256": "c68e62f018f5e4388d11c027d0c588417d95f5da7190a58bd16ff2d9475a1aa4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9388662131519274,
+      "source_seconds": 1.9388662131519274,
+      "source_file_sha256": "1b84e59aee95af7700274cf1b01f17102fa9f0829e0b353c3a5827bfb96bcf43",
+      "file_sha256": "0dcf214548e3dedacaa80827765c1e86d71ad9b17ce4bc3b846e387a15eb2239",
+      "bytes": 16344,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

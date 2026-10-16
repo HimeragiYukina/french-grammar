@@ -1,0 +1,30 @@
+{
+  "text": "Les chansons que j’ai entendu chanter",
+  "text_sha256": "33c14868031b8b0962419f65310efe769517b5d183de275d07756b29048bda28",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9853061224489796,
+      "source_seconds": 1.9853061224489796,
+      "source_file_sha256": "868c5f6fc9a60784e0e9391906f6e7383beb5340e441edc76b756e7d8c9e8a03",
+      "file_sha256": "7241668856428926edf62e20d71232877609bb19ecbdf061a5e6d9d3ad8c0fcc",
+      "bytes": 16553,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

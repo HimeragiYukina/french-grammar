@@ -1,0 +1,30 @@
+{
+  "text": "Ce qui me plaît, c'est son honnêteté.",
+  "text_sha256": "65b23ed7164aecce12cc12f07b5f6585f9d95710efa822d677c150dec26aa5e8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8459863945578232,
+      "source_seconds": 1.8459863945578232,
+      "source_file_sha256": "a16ad363a1009034c5569296e7279305b4db0c1fd82e083d77e67effec54c9a6",
+      "file_sha256": "9d328b7da461da92acaa54e9399f1556acccf8f9a9394779f60cdd859d1180eb",
+      "bytes": 15508,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

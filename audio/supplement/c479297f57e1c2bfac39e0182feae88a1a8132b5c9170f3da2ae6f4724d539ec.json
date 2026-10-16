@@ -1,0 +1,30 @@
+{
+  "text": "Ce qui m’inquiète, c’est le prix",
+  "text_sha256": "c479297f57e1c2bfac39e0182feae88a1a8132b5c9170f3da2ae6f4724d539ec",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7647165532879818,
+      "source_seconds": 1.7647165532879818,
+      "source_file_sha256": "f5ef39171b650dc237e5c7f8e829cdbafcd775cac31eb5e37d376471d0dd95fa",
+      "file_sha256": "370cc7dd95db732bfb8f516af96d29214630ee15904172b9a372be68ea3ebeef",
+      "bytes": 14881,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

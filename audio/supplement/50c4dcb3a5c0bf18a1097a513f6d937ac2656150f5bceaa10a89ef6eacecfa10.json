@@ -1,0 +1,30 @@
+{
+  "text": "Si le directeur acceptait, nous lancerions le projet lundi.",
+  "text_sha256": "50c4dcb3a5c0bf18a1097a513f6d937ac2656150f5bceaa10a89ef6eacecfa10",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.250793650793651,
+      "source_seconds": 3.250793650793651,
+      "source_file_sha256": "95f2426218707e10359f2d5c8cd8a1bcc3a0825fe97cfa76abf95a24dd4b687d",
+      "file_sha256": "84017065ef6f512e1659482c49b667bdba0322bddb145f80277c2b853738b9dd",
+      "bytes": 26793,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

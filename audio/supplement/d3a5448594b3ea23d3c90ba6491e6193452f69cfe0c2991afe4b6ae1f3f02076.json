@@ -1,0 +1,30 @@
+{
+  "text": "Il faut que tu ailles chez le médecin.",
+  "text_sha256": "d3a5448594b3ea23d3c90ba6491e6193452f69cfe0c2991afe4b6ae1f3f02076",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8924263038548752,
+      "source_seconds": 1.8924263038548752,
+      "source_file_sha256": "5bd1998715a5baa6fce362d23ce1556e780186c691fa0c0b5f37040cea88a2ab",
+      "file_sha256": "b7de171c933388f5d219befdf3a03f13fc3bd604c2d85c062169520348f1995a",
+      "bytes": 15926,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

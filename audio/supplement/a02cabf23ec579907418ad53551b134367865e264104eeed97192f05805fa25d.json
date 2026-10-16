@@ -1,0 +1,30 @@
+{
+  "text": "Je pense à ma sœur",
+  "text_sha256": "a02cabf23ec579907418ad53551b134367865e264104eeed97192f05805fa25d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3931972789115645,
+      "source_seconds": 1.3931972789115645,
+      "source_file_sha256": "e170dfec15ccb12ba7729435f1df53ed88cb12ba4352ec4de1656974af88eb85",
+      "file_sha256": "d7b36bb365482ed7513b80b3b2746cecfc2a0d62955574b30f923bfee2eb1dce",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

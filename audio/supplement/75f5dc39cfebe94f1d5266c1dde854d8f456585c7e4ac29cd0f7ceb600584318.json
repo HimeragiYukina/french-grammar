@@ -1,0 +1,30 @@
+{
+  "text": "ces billets",
+  "text_sha256": "75f5dc39cfebe94f1d5266c1dde854d8f456585c7e4ac29cd0f7ceb600584318",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8591383219954648,
+      "source_seconds": 0.8591383219954648,
+      "source_file_sha256": "5795876d5a42e60c3f978e1088d83747671c109ec7d4994d2eb3c8726d98ad83",
+      "file_sha256": "428034faafdefcc6b55b93c751c49a86b40f24c5c0d8452129e4268f714d502c",
+      "bytes": 7567,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

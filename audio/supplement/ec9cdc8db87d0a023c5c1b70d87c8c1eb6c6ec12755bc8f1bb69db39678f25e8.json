@@ -1,0 +1,30 @@
+{
+  "text": ") : ___ tu ___ (aller), je te suivrai.",
+  "text_sha256": "ec9cdc8db87d0a023c5c1b70d87c8c1eb6c6ec12755bc8f1bb69db39678f25e8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6370068027210884,
+      "source_seconds": 1.6370068027210884,
+      "source_file_sha256": "7d01a069f4bdbb0f05ad7c0868d0e29e5862e2a991ae73e3652656ffffdaa2f4",
+      "file_sha256": "9af1666dbd9f0c1c3eca6521b28e4d78e03484f35cf451b547bd276c312644c0",
+      "bytes": 13836,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Marie vérifie les dates ; Paul vérifie les montants",
+  "text_sha256": "9a8ba138e09cd307bbf38ead26ee2504cea2264d5267a18ad47be55d70e7c2ec",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8212244897959184,
+      "source_seconds": 2.8212244897959184,
+      "source_file_sha256": "b04a8bb061346b4da920a2ce7796f1968d29c4ca47e59db43c60f76157b03a34",
+      "file_sha256": "292d97cec0033a193513037dabfa4f3b412502734ba0de6569bab5f1d0ee3b16",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

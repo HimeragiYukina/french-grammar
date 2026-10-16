@@ -1,0 +1,30 @@
+{
+  "text": "Il y a deux modèles : celui-ci est léger, celui-là est plus solide.",
+  "text_sha256": "a68ee11207148367f063eda3578dc8584783e86725d7bb27ed09be7381b5f2b5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.435011337868481,
+      "source_seconds": 4.435011337868481,
+      "source_file_sha256": "f26b37bc54c663117e988a0ca119b2081d21207cc52f9865cffb353ea601b211",
+      "file_sha256": "1281432529b2d7c246852eeeabf3364ae24db8341c6780910970ecab7616b04b",
+      "bytes": 36197,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

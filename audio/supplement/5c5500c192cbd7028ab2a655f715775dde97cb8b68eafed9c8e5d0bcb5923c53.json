@@ -1,0 +1,30 @@
+{
+  "text": "je parlerai",
+  "text_sha256": "5c5500c192cbd7028ab2a655f715775dde97cb8b68eafed9c8e5d0bcb5923c53",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0448979591836736,
+      "source_seconds": 1.0448979591836736,
+      "source_file_sha256": "65e825f164dd2359adb61f41e0d3de931c5af56458435c2486d9a99a9cdffc05",
+      "file_sha256": "da98c956cc5bd2a87e64920d0dd938ee704ea305c84400ec14eb3c97087fcad5",
+      "bytes": 9030,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

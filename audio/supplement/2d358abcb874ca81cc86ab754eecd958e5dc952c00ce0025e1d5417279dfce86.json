@@ -1,0 +1,30 @@
+{
+  "text": "Tu peux entrer : la porte est ouverte.",
+  "text_sha256": "2d358abcb874ca81cc86ab754eecd958e5dc952c00ce0025e1d5417279dfce86",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.3568253968253967,
+      "source_seconds": 2.3568253968253967,
+      "source_file_sha256": "f1ee9118259350cd7f8fc8d3e21d0e5ffcd2244e20249705d4891081b303e889",
+      "file_sha256": "744a3c69245a3b86c3b0b23627044032caef93124fb15229bb62d0520d889927",
+      "bytes": 19688,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

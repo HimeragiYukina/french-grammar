@@ -1,0 +1,30 @@
+{
+  "text": "Nous n'avons pas de chat.",
+  "text_sha256": "c78e2c02136387318b8959a009781286f270b758907a7b44758fec744ab44f3b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3583673469387756,
+      "source_seconds": 1.3583673469387756,
+      "source_file_sha256": "3b94383908bb7aa7810261417e764a3f383212c2f1f67db217681e1743802fc0",
+      "file_sha256": "482d2d0e352ec54df7ff132c62e0a9f83e0aacf94a824786bd5879e983d26e0f",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

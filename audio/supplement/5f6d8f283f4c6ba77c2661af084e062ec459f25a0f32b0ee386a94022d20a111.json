@@ -1,0 +1,30 @@
+{
+  "text": "À moins qu'il ne vienne pas, tout se passera bien.",
+  "text_sha256": "5f6d8f283f4c6ba77c2661af084e062ec459f25a0f32b0ee386a94022d20a111",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4380952380952383,
+      "source_seconds": 2.4380952380952383,
+      "source_file_sha256": "720b0cf6ecb70adbd078e95e46b0aded2d6bd423c7321f42702f18e9797f31e0",
+      "file_sha256": "1715f76986bc15f5fbe10b48b0896f4d2f9aa0437d46b3892908e31f40d32671",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

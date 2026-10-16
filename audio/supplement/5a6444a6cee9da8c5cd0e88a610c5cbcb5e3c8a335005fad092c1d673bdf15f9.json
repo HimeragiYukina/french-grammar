@@ -1,0 +1,30 @@
+{
+  "text": "Voici la maison où habitaient mes grands-parents.",
+  "text_sha256": "5a6444a6cee9da8c5cd0e88a610c5cbcb5e3c8a335005fad092c1d673bdf15f9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.507755102040816,
+      "source_seconds": 2.507755102040816,
+      "source_file_sha256": "b56bf541da01bc52b5681dd70e9627761ceb021343bebc9acf4a18e3be34c476",
+      "file_sha256": "85cedc12c57c65a1704341d6048895245b601ba4c753c598d6b3b36614fb39c4",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

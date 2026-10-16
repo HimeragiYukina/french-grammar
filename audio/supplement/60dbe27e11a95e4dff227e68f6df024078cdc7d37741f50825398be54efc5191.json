@@ -1,0 +1,30 @@
+{
+  "text": "jouer une sonate",
+  "text_sha256": "60dbe27e11a95e4dff227e68f6df024078cdc7d37741f50825398be54efc5191",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.18421768707483,
+      "source_seconds": 1.18421768707483,
+      "source_file_sha256": "0362f924d36252b69f1d3d3e008200471de138e60804f97a320399f47b88883b",
+      "file_sha256": "b5fd1a74cfc8a7477c5d1e76cec5f24fefeb5097a43bc95371f04302b3550fa5",
+      "bytes": 10284,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

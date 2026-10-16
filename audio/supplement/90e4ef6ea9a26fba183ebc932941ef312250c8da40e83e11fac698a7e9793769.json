@@ -1,0 +1,30 @@
+{
+  "text": "J'habite à Paris.",
+  "text_sha256": "90e4ef6ea9a26fba183ebc932941ef312250c8da40e83e11fac698a7e9793769",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0913378684807256,
+      "source_seconds": 1.0913378684807256,
+      "source_file_sha256": "b7d154d30be9e3d2d69614c1fbc2ea1a7fd8afd08eb8218addde9f2e55648cd2",
+      "file_sha256": "1cea5674d0deaf5a39409baab5e1d15be28ad4e1f00805929ad0bf61a9a2e38b",
+      "bytes": 9448,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Je vais à Lyon",
+  "text_sha256": "d8ef36c30b2495617a47d075e8fecb501c9e7541177ed0eaf6b663b8f0aca2e1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.195827664399093,
+      "source_seconds": 1.195827664399093,
+      "source_file_sha256": "7d548b2979837345dadf197fcff263f5b626f4c18bb4fd16f2490b6160bbffa1",
+      "file_sha256": "1a2df4585f35b2e20d43d4a9b4cf9a1c1a32e34b3f6f5e244432ebe458282707",
+      "bytes": 10284,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

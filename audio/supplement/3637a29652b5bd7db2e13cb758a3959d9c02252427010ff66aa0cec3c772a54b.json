@@ -1,0 +1,30 @@
+{
+  "text": "Il est dix heures moins le quart, donc neuf heures quarante-cinq.",
+  "text_sha256": "3637a29652b5bd7db2e13cb758a3959d9c02252427010ff66aa0cec3c772a54b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7384126984126986,
+      "source_seconds": 3.7384126984126986,
+      "source_file_sha256": "d3a1e6c84384984b9f24fe31269d4c0da24c5e6cd45396eada46d9e821d9d67b",
+      "file_sha256": "73e0d9a59a5eabd8d7476eb7c75506fb9426ba7e05a1129cc64f8278eba0d4e2",
+      "bytes": 30764,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

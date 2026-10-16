@@ -1,0 +1,30 @@
+{
+  "text": "Paul m’a assuré qu’il nous envoie les chiffres",
+  "text_sha256": "f755118ea72c6d6fff01b477b2452f196befd6eb11f9884528f284fd07726297",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5309750566893423,
+      "source_seconds": 2.5309750566893423,
+      "source_file_sha256": "1ba61379e72095803d0c3574f5dc41676e7e48f95b4b5a8f1a7c4b04e222c469",
+      "file_sha256": "117fe773b413f302aa44a450a882463c2e6f787811ab1c2044f064caded7076f",
+      "bytes": 20941,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

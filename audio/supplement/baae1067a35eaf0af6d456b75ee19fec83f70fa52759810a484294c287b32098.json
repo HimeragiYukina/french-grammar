@@ -1,0 +1,30 @@
+{
+  "text": "ils vinrent",
+  "text_sha256": "baae1067a35eaf0af6d456b75ee19fec83f70fa52759810a484294c287b32098",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0100680272108844,
+      "source_seconds": 1.0100680272108844,
+      "source_file_sha256": "bdfd57afd9799a82f6602a8a1861e3f0ae838101f9ed32cc829de5e70e2c057a",
+      "file_sha256": "2cba8008bd6d2edfc29211c7adb63f4bfed6c76cf5c37cf4f98fe5e7cd05a4bd",
+      "bytes": 8821,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

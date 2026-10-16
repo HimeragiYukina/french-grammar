@@ -1,0 +1,30 @@
+{
+  "text": "Pourvu qu'il fasse beau samedi !",
+  "text_sha256": "fe2ffd16fcc20673cf819fe3c39a72097c45e90dba3a78aa3bf065132f625337",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.043356009070295,
+      "source_seconds": 2.043356009070295,
+      "source_file_sha256": "83964ac01aebd806ba9527251d8a1d3ae7df750cda5037714d56239d454fc3d6",
+      "file_sha256": "1ca2f4b6ae95193a292a9865fdc113e240f72cff390001dd0a88b40ad551c460",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

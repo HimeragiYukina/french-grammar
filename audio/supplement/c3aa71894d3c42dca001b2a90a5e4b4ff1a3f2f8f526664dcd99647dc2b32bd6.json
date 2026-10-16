@@ -1,0 +1,30 @@
+{
+  "text": "Ils viennent ___ Japon et nous venons ___ États-Unis. (",
+  "text_sha256": "c3aa71894d3c42dca001b2a90a5e4b4ff1a3f2f8f526664dcd99647dc2b32bd6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1710657596371883,
+      "source_seconds": 2.1710657596371883,
+      "source_file_sha256": "af526c5e94e2e77fd2fb4ed177ce1c3073e58b3ac56c6d4af5b7d9b1f65ff6d9",
+      "file_sha256": "ddfb5df0cc5f57554520145b4ce42ba33de92927e5016387d6bf2876ea9fd227",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

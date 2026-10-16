@@ -1,0 +1,30 @@
+{
+  "text": "Ouverture d'une nouvelle bibliothèque lundi prochain.",
+  "text_sha256": "436556a4a3114796382766059ec697dc554769a2a578e9e00b3b6c3564de1811",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7980045351473923,
+      "source_seconds": 2.7980045351473923,
+      "source_file_sha256": "aace8a4a581b2faf8d401742ec3961e5e0301b1b57d4d4b3c8be161da6a5e852",
+      "file_sha256": "965734a2128e39798f1ec80c152f352ea576ed8caf074e66ec518bccc98e9011",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

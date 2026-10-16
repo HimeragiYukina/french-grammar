@@ -1,0 +1,30 @@
+{
+  "text": "De tous les élèves de la classe, c’est elle qui danse le mieux.",
+  "text_sha256": "457d360ebc7865ba3a090e23c2e96fa9c28355d4aa0b647d4d780dae2621ba5b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.076643990929705,
+      "source_seconds": 3.076643990929705,
+      "source_file_sha256": "6facd28f1b3e81e9f99f79587fe3805dbff21d10916d26c455c8dde5e52ab226",
+      "file_sha256": "1f3e036753120da1a147f04a4e22170a690e79ebb900d078df4fa8f5a9b845e8",
+      "bytes": 25330,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

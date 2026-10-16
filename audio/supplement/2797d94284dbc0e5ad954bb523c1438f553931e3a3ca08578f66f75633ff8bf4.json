@@ -1,0 +1,30 @@
+{
+  "text": "fût partie",
+  "text_sha256": "2797d94284dbc0e5ad954bb523c1438f553931e3a3ca08578f66f75633ff8bf4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.905578231292517,
+      "source_seconds": 0.905578231292517,
+      "source_file_sha256": "5d4cf3692c4cb4444dd59c539c71d7e9a6f4a06349da9fe99901edf927c9d634",
+      "file_sha256": "77af0f2bb9ecf09fda33a9b706a068e76cfef052443e9d9d1a161abdd3cdb0b7",
+      "bytes": 7985,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

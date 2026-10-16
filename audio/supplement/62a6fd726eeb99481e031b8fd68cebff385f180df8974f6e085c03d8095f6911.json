@@ -1,0 +1,30 @@
+{
+  "text": "Je venais voir si mon dossier était prêt.",
+  "text_sha256": "62a6fd726eeb99481e031b8fd68cebff385f180df8974f6e085c03d8095f6911",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5193650793650795,
+      "source_seconds": 2.5193650793650795,
+      "source_file_sha256": "f03188a9738af5a190caa64dd79a7b9470d6255e9e12042416495734e0870e47",
+      "file_sha256": "8ceb0d643ff76a4435a692165ac443725cd7e5fa0bed46c3df0d94069f6848b6",
+      "bytes": 20941,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

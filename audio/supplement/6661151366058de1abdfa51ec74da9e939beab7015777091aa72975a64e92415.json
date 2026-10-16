@@ -1,0 +1,30 @@
+{
+  "text": "Le livre dont je parle",
+  "text_sha256": "6661151366058de1abdfa51ec74da9e939beab7015777091aa72975a64e92415",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6021768707482993,
+      "source_seconds": 1.6021768707482993,
+      "source_file_sha256": "c60c923127e1e2da3d0cfc85e432814e2a9fdd149bc530407de1c6ebd61b3664",
+      "file_sha256": "034f19eb980926b561fb8fca7eba375f27ae99a84ad4a12ed5fbedf4f00b2b3b",
+      "bytes": 13627,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

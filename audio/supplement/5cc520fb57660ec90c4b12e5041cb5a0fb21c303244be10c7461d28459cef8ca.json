@@ -1,0 +1,30 @@
+{
+  "text": "il fut décidé",
+  "text_sha256": "5cc520fb57660ec90c4b12e5041cb5a0fb21c303244be10c7461d28459cef8ca",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2654875283446712,
+      "source_seconds": 1.2654875283446712,
+      "source_file_sha256": "87c0653196a7174f446605ab80e5b48d76cfa3f804d704a4ac3ca2d802c1084f",
+      "file_sha256": "3a21d087ff3d0a7c4e3a25fb9b6f2134efb2fc425126e6f97b5c5192c30588cc",
+      "bytes": 10910,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

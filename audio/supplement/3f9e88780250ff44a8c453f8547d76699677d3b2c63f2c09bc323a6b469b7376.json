@@ -1,0 +1,30 @@
+{
+  "text": "Tu peux emprunter ce livre à condition de le rendre vendredi.",
+  "text_sha256": "3f9e88780250ff44a8c453f8547d76699677d3b2c63f2c09bc323a6b469b7376",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9605442176870747,
+      "source_seconds": 2.9605442176870747,
+      "source_file_sha256": "76f3e6504d6562f9a6a06cfe35df632225cd65b174b0e16721e5f87698881c96",
+      "file_sha256": "dbb2af58f4fb36b4ce1d1665ff79f4a75431ebf1dceb8d6cb98cc0bb15577f97",
+      "bytes": 24494,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

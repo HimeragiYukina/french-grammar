@@ -1,0 +1,30 @@
+{
+  "text": "Il faut répondre à cette offre avant vendredi. — D’accord, je vais y réfléchir ce soir.",
+  "text_sha256": "5b0fe0ec503227c7e7fa600edd90131d0d23a744d32074458c5238f6a36519e3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.539501133786848,
+      "source_seconds": 4.539501133786848,
+      "source_file_sha256": "d30f2280ba4e3fc7295148d3828d07bd39c02bdc29cb7a4e5289b335f693ab16",
+      "file_sha256": "988ad505667e39fda8b4d301c046e25944c784db46bdd3321a4852192813de8d",
+      "bytes": 37033,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

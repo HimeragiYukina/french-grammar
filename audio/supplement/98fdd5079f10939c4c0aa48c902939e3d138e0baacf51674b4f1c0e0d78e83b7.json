@@ -1,0 +1,30 @@
+{
+  "text": "Il a oublié",
+  "text_sha256": "98fdd5079f10939c4c0aa48c902939e3d138e0baacf51674b4f1c0e0d78e83b7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0797278911564625,
+      "source_seconds": 1.0797278911564625,
+      "source_file_sha256": "e16d358d955a2a446fd0791182bc11e2b8d6529611bb9ecfc4b2321b1181b143",
+      "file_sha256": "59e00e3226ed3ea00b80d34dfbfb2b3ae1b34ef8cea61c355b92dc2e8df86470",
+      "bytes": 9448,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Si nous ___ (avoir) une voiture, nous ___ (pouvoir) aller plus loin.",
+  "text_sha256": "5fd39469415dec14eb0fe89e52c6792da914adad61b8933cb2e74af38f10a1b9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9024943310657596,
+      "source_seconds": 2.9024943310657596,
+      "source_file_sha256": "93ebec8456df194f29d60edc4732f9c06c4142bfc3f2d0ecab83b61f9d9e799d",
+      "file_sha256": "bddfc120073b946f241b07ceb6cd13b59917cc4a7961b2510863b0012cea27ab",
+      "bytes": 24076,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

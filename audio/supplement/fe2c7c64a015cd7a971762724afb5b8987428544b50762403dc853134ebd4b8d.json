@@ -1,0 +1,30 @@
+{
+  "text": "La chambre A a plus de fenêtres que la chambre B. Elle est aussi grande que la chambre B.",
+  "text_sha256": "fe2c7c64a015cd7a971762724afb5b8987428544b50762403dc853134ebd4b8d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.539501133786848,
+      "source_seconds": 4.539501133786848,
+      "source_file_sha256": "c812cdbc1c406a0f28f8111fbd4f5547f5a491380e94ca0e1b0ac35b62ca0ef8",
+      "file_sha256": "ee52aefc4813ecbbc5fc673e0da028beec1b5c5439ea853a869e45de84af0289",
+      "bytes": 37033,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

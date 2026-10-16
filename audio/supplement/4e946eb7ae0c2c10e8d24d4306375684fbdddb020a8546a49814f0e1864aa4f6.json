@@ -1,0 +1,30 @@
+{
+  "text": "Bien qu’il ait plu",
+  "text_sha256": "4e946eb7ae0c2c10e8d24d4306375684fbdddb020a8546a49814f0e1864aa4f6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2770975056689342,
+      "source_seconds": 1.2770975056689342,
+      "source_file_sha256": "175e49273717676d9692d7af127f66bc4e336e8017b4d9ebd30929ca23c57da9",
+      "file_sha256": "e77e17692f6dd68428fc036fc92913cacd7a21d5c2a922ce939f05e371d31444",
+      "bytes": 10910,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

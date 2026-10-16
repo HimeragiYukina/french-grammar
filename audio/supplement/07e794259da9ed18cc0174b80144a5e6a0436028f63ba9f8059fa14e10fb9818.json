@@ -1,0 +1,30 @@
+{
+  "text": "Tu devrais apporter une veste, car il peut faire frais au bord de l’eau.",
+  "text_sha256": "07e794259da9ed18cc0174b80144a5e6a0436028f63ba9f8059fa14e10fb9818",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5062131519274375,
+      "source_seconds": 3.5062131519274375,
+      "source_file_sha256": "7a039e93d78b9fb6e2fe9615e78bc19cd6c1b8af8b210e8d091f25a786a96c12",
+      "file_sha256": "a390b00b9cd599b2b279a2d3a884b3090932f237d8817b1c20d9bc6ad5be1144",
+      "bytes": 28883,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

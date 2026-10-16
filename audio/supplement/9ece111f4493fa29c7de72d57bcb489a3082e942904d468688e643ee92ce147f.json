@@ -1,0 +1,30 @@
+{
+  "text": "Les pommes qu’elle a mangées",
+  "text_sha256": "9ece111f4493fa29c7de72d57bcb489a3082e942904d468688e643ee92ce147f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6137868480725623,
+      "source_seconds": 1.6137868480725623,
+      "source_file_sha256": "309ff97802734168cf38babc419f32fcde24424cd40bc2c1fac302413d7abad6",
+      "file_sha256": "6af06a5f79ef1dd9c82fafd1b04021badffc920422b02dae4cc8996fe2d8862e",
+      "bytes": 13627,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

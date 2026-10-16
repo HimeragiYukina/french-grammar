@@ -1,0 +1,30 @@
+{
+  "text": "Les salariés ont protesté. → La protestation des salariés a entraîné une négociation.",
+  "text_sha256": "f1204139c52374e1e3705350ea0deabfc9e8eb948bba13398a50501dc9a32019",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.2128798185941045,
+      "source_seconds": 5.2128798185941045,
+      "source_file_sha256": "3feb62f23d74d0d11803e50268837c0ad02c1841d983a617e44e47f99fb990a4",
+      "file_sha256": "7ce8607dfc2d9b64230343111584113d86411b9fd006bbf204ea21a13b020455",
+      "bytes": 42466,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

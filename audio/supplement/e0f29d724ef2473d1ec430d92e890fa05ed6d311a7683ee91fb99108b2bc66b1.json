@@ -1,0 +1,30 @@
+{
+  "text": "Ce dont nous avons besoin, c’est de temps.",
+  "text_sha256": "e0f29d724ef2473d1ec430d92e890fa05ed6d311a7683ee91fb99108b2bc66b1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0085260770975055,
+      "source_seconds": 2.0085260770975055,
+      "source_file_sha256": "02a03709504283c5b569ad52a5a05a0636ca8902b5c0b9f7e35f4deb9c0080be",
+      "file_sha256": "c00b01a3c119c994af2db0dc9c4d4f0200223c709203caa70eb1548a45a99607",
+      "bytes": 16762,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

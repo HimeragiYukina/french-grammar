@@ -1,0 +1,30 @@
+{
+  "text": "je n’ai qu’une voiture",
+  "text_sha256": "bb920b7ecc11723f3a61d2dc3a850e0faf0529936963077e1cf193b470b1b151",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3583673469387756,
+      "source_seconds": 1.3583673469387756,
+      "source_file_sha256": "669e74b31a3ac0e3acac46c3220b8dae0c74fc5866e2d0b8b2cc5ea333d0e2f5",
+      "file_sha256": "c4cc04aac741a338d03f66cf7660d274b23852738f63802cc13f98ec2db69663",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

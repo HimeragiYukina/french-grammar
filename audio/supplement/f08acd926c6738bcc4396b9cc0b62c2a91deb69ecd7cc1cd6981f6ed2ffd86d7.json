@@ -1,0 +1,30 @@
+{
+  "text": "Il convient que chaque candidat reçoive la même information.",
+  "text_sha256": "f08acd926c6738bcc4396b9cc0b62c2a91deb69ecd7cc1cd6981f6ed2ffd86d7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5874829931972787,
+      "source_seconds": 3.5874829931972787,
+      "source_file_sha256": "f64fed7e061752a71a681369f287fcf4d2ad1c96a1953efe8348dc709488fd25",
+      "file_sha256": "af14985c08cf7abb7e16c2827e585024c13630bfaef4446a9acf4b430b92fad0",
+      "bytes": 29510,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

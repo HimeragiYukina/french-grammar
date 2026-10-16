@@ -1,0 +1,30 @@
+{
+  "text": "Je souhaite qu’elle vienne avec nous.",
+  "text_sha256": "79422ad875bdd8b9813f8e4503c8a009f87bc1e8e389c7ca7ec709410b78136d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6137868480725623,
+      "source_seconds": 1.6137868480725623,
+      "source_file_sha256": "1bb674c24f52e8ad78d86c4c6c07e1c3a34b843a20da4409852779d7b2a30465",
+      "file_sha256": "354217754ef1402fa5cb8dafed4d7f942d942b585db2dfeeee208dfd14a12862",
+      "bytes": 13627,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

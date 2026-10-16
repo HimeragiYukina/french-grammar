@@ -1,0 +1,30 @@
+{
+  "text": "Complétez avec il convient de : ___ rester prudent.",
+  "text_sha256": "b7fae9f3faa5d90b805b1132fb38dca437669fd6f6878bf2640383d2e4ed86d9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6238548752834467,
+      "source_seconds": 2.6238548752834467,
+      "source_file_sha256": "62b79ad1a51c66555787b12194140135f2cb786afce57c690861a6a3e5cf4e8f",
+      "file_sha256": "b7f2a0833a2376d3a50749a3c65f40b5ceec648f1ce790f6a02be2555d0c1ef8",
+      "bytes": 21777,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

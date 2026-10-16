@@ -1,0 +1,30 @@
+{
+  "text": "Combien je regrette ces années passées !",
+  "text_sha256": "c125f375326dea34da46d2c8a82a60a57d6197404bad0cee765fcde1817ea7d9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7647165532879818,
+      "source_seconds": 1.7647165532879818,
+      "source_file_sha256": "961895721ef33de92d5899767508915f5bd22fb348d1dae887e4e5268a582595",
+      "file_sha256": "8337b2d23974960b153dfb9dfe8571324dc22aab80f56d7b0f6f07ec1f92ce28",
+      "bytes": 14881,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

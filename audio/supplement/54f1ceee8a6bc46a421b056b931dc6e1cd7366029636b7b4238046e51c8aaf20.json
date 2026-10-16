@@ -1,0 +1,30 @@
+{
+  "text": "pour réussir tu",
+  "text_sha256": "54f1ceee8a6bc46a421b056b931dc6e1cd7366029636b7b4238046e51c8aaf20",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1145578231292517,
+      "source_seconds": 1.1145578231292517,
+      "source_file_sha256": "dc1420a0eb390c9011f975626a08d7b1e70e37d6697a17b3913da3a769e1e303",
+      "file_sha256": "226049e1939be9be890673ec8a56541a6618c66b1491e7bda1dcaf7ebd7bbae4",
+      "bytes": 9657,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

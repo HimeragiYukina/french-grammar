@@ -1,0 +1,30 @@
+{
+  "text": "Sans son appel, je serais restée au bureau",
+  "text_sha256": "50facb698fbfd372b2405471465156f11d3d68ceee260626b39e1d3f38f1908c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.507755102040816,
+      "source_seconds": 2.507755102040816,
+      "source_file_sha256": "7533b19fc5df16c92a0fed821602348efa7d7eb3e5b77dca98241796843364da",
+      "file_sha256": "239548aef6339019b89c50950fe208a09cce873421ee3ee843ca2d99157a5ad1",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

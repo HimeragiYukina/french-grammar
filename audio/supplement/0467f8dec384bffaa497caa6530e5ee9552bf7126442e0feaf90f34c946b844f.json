@@ -1,0 +1,30 @@
+{
+  "text": "non qu'il est timide",
+  "text_sha256": "0467f8dec384bffaa497caa6530e5ee9552bf7126442e0feaf90f34c946b844f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.230657596371882,
+      "source_seconds": 1.230657596371882,
+      "source_file_sha256": "c1a8417c9e41a77ed44629ac86fa46cbe72e3931b8a887ba8d2c08972da8be68",
+      "file_sha256": "15628bdbc5c8a38a6e47fc00455d6477b0364f58f1f9df985d4c37ccbdab8acc",
+      "bytes": 10701,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

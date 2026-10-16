@@ -1,0 +1,30 @@
+{
+  "text": "Devant le théâtre attendait une longue file. L'ordre initial reste correct ; la postposition sert ici à présenter le cadre avant le groupe qui l'occupe.",
+  "text_sha256": "8cd87c52013d074dfc68bf1608375810ee36a9e75025e3a116d70ab9b02f2c08",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 8.765532879818593,
+      "source_seconds": 8.765532879818593,
+      "source_file_sha256": "7c0c9d559f3299dcbaaef0bb8350782db66dfd05ed7890de84c17f4a91cdcab7",
+      "file_sha256": "656c49adaf99b537b820363aad125b9d845721908ac499c779956832c38e53eb",
+      "bytes": 70888,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

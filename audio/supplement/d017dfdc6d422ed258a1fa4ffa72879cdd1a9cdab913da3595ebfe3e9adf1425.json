@@ -1,0 +1,30 @@
+{
+  "text": "Peut-être viendra-t-il",
+  "text_sha256": "d017dfdc6d422ed258a1fa4ffa72879cdd1a9cdab913da3595ebfe3e9adf1425",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4628571428571429,
+      "source_seconds": 1.4628571428571429,
+      "source_file_sha256": "945b4639b385caf697fb66ec73f9ede20ded84cf2f6470876b5d4537ecbaa5fe",
+      "file_sha256": "6ef5750cc845f7f81317f08ca8f2431b589eec39997716887736b71754d9b979",
+      "bytes": 12373,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

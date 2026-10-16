@@ -1,0 +1,30 @@
+{
+  "text": "Tu as ___ chance ! (",
+  "text_sha256": "066fcbbbc9ad512ea710b7eb6db1c4270a4df09c23d6e44bbdf3750d463b1ea1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0448979591836736,
+      "source_seconds": 1.0448979591836736,
+      "source_file_sha256": "73953fea01b5ade1250863ed27a318f84f54adf2f77d7d27b946f1453366ab56",
+      "file_sha256": "b057fadd7d82087b09d82905b604d3c9834712b7ec9295aa89dcd05037a623a6",
+      "bytes": 9030,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

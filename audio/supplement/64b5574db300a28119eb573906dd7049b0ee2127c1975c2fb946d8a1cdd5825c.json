@@ -1,0 +1,30 @@
+{
+  "text": "Lundi matin, ma responsable m’a appelé pour préparer une réunion avec un nouveau client. Elle m’a expliqué que le client avait envoyé ses questions la veille. Elle voulait savoir si j’avais déjà lu le document et ce que je pensais du calendrier. Je lui ai répondu que j’avais vérifié les dates, mais que deux informations manquaient encore. Elle m’a demandé de contacter Paul et de ne rien promettre avant sa réponse. Paul m’a assuré qu’il nous enverrait les chiffres avant dix-sept heures. Dès que j’ai reçu son tableau, je l’ai transmis à ma responsable ; je le lui ai envoyé avec un court commentaire. Le lendemain, nous avons présenté une proposition dont le client était satisfait.",
+  "text_sha256": "64b5574db300a28119eb573906dd7049b0ee2127c1975c2fb946d8a1cdd5825c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 34.53968253968254,
+      "source_seconds": 34.53968253968254,
+      "source_file_sha256": "9020fb46d01f6858899e714c69008dda858e0e38c38acb328b0f0336f0ea8b22",
+      "file_sha256": "ec5463e0b5e04ae3713413ad62cfb931b270f4337acb7c61fd367f37c55ca4ef",
+      "bytes": 277150,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

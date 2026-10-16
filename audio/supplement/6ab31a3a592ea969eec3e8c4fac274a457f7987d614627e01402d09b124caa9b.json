@@ -1,0 +1,30 @@
+{
+  "text": "Ce roman s'agit de…",
+  "text_sha256": "6ab31a3a592ea969eec3e8c4fac274a457f7987d614627e01402d09b124caa9b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3235374149659864,
+      "source_seconds": 1.3235374149659864,
+      "source_file_sha256": "316b952595577c46fff68b13464059c947f1736b7c8c6f7a660921d19bbd820a",
+      "file_sha256": "8ebce82fbac4aabf6524a98bd5058120e22d18797310f5ee69d222e145938410",
+      "bytes": 11328,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

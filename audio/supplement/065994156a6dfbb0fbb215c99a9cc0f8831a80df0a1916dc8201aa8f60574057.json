@@ -1,0 +1,30 @@
+{
+  "text": "Le salon est clair et les chambres sont claires.",
+  "text_sha256": "065994156a6dfbb0fbb215c99a9cc0f8831a80df0a1916dc8201aa8f60574057",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7980045351473923,
+      "source_seconds": 2.7980045351473923,
+      "source_file_sha256": "05d3edeb422faaa8eeecb9dd78fb435ec292a6958b3a452c3df8c8c0dd1779e1",
+      "file_sha256": "e06d2158523b921ac44ec8df294de7834d5ab4313c82afddf511127b36a36438",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

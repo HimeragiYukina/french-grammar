@@ -1,0 +1,30 @@
+{
+  "text": "La collègue à côté de qui je suis assis travaille ici.",
+  "text_sha256": "0f14b13ade42a239b4c12b756c3666a02155cbfb52489ab63d996c5e5e0b840d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.030204081632653,
+      "source_seconds": 3.030204081632653,
+      "source_file_sha256": "8a6fed3572b770bef4fb406e6d2f61ee731b208d9835e1d062a34700a9d2b0ef",
+      "file_sha256": "589b508556405ac8a9548292a55ccab2bd380863903c211467feb961c4af6ffb",
+      "bytes": 24912,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

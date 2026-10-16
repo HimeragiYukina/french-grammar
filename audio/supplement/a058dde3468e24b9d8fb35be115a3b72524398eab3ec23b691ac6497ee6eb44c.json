@@ -1,0 +1,30 @@
+{
+  "text": "Quand j'___ (être) jeune, j'habitais à la campagne.",
+  "text_sha256": "a058dde3468e24b9d8fb35be115a3b72524398eab3ec23b691ac6497ee6eb44c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.809614512471655,
+      "source_seconds": 2.809614512471655,
+      "source_file_sha256": "4c74fb2c8e8c003c4b242d74df7c126754398a5e3fd7f44d670436ca0d7816e6",
+      "file_sha256": "19bcd577551003a32024332fe1ac11fcb5c02c5efa5ff0655bdc709644eaba8c",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

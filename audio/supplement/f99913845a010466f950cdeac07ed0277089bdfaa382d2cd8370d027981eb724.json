@@ -1,0 +1,30 @@
+{
+  "text": "Elle se lave",
+  "text_sha256": "f99913845a010466f950cdeac07ed0277089bdfaa382d2cd8370d027981eb724",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9868480725623583,
+      "source_seconds": 0.9868480725623583,
+      "source_file_sha256": "e4faca5475dc1dfd0912511e6c2200b1edadc20fa3330a76fb4fe087668f551a",
+      "file_sha256": "c3cd66a3769938f0b7de61aff85224b4e02eb32653a5ce88699ca4f102e66a17",
+      "bytes": 8612,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "C'est Paul, il est mon voisin.",
+  "text_sha256": "26f1ec0a32dac333603634ddb2856ecb67de36d0f9dedd75a576fbe187f8aeb5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7531065759637188,
+      "source_seconds": 1.7531065759637188,
+      "source_file_sha256": "0452e34783a7c60219d82860ab42f23c328100ad6fbc43414954a16c6610e9ce",
+      "file_sha256": "dcd46d065b968993506b8514a9a8f7b476f2d328ffe754d7adc015762ead7579",
+      "bytes": 14881,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Je parle doucement et vous parlez trop vite.",
+  "text_sha256": "1b1e917875bdd39f1fe413351db3ef15d037e0740c2d652c69565da681125375",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.75156462585034,
+      "source_seconds": 2.75156462585034,
+      "source_file_sha256": "d3cff2cdf87441f92e0cb08ef7eeda160e6b2b0024cebf56f5463c2ffd3675fa",
+      "file_sha256": "bf9f5a5dd177374d75d1dac7c356f14a576c57f0e0f78d75c72d78e5209f409a",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

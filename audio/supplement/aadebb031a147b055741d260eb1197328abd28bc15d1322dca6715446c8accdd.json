@@ -1,0 +1,30 @@
+{
+  "text": "Mes amis me manquent depuis mon départ, mais je ne leur manque pas. Mes amis est sujet de la première proposition ; je est sujet de la seconde. Me et leur désignent ceux qui éprouvent le manque.",
+  "text_sha256": "aadebb031a147b055741d260eb1197328abd28bc15d1322dca6715446c8accdd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 10.681179138321996,
+      "source_seconds": 10.681179138321996,
+      "source_file_sha256": "308dce1d7997fd1ec0022a35691577128923385cb712aee6cc577e543ee15994",
+      "file_sha256": "ebb747433cef1cfce7bc53323ab1f95991544bdf95cbca909fc957b2c80b48a6",
+      "bytes": 86143,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

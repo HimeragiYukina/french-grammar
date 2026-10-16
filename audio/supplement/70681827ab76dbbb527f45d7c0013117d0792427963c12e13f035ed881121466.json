@@ -1,0 +1,30 @@
+{
+  "text": "Les deux équipes ont des horaires différents.",
+  "text_sha256": "70681827ab76dbbb527f45d7c0013117d0792427963c12e13f035ed881121466",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.136235827664399,
+      "source_seconds": 2.136235827664399,
+      "source_file_sha256": "16c5175a68c9187fb25f1b0c836ccc6bd5d76905e3fbe48e14a51ac02b9f2f21",
+      "file_sha256": "fdbecefe2c1f660b1f4fb319a09ec18befbcf4f4a9edec7317da62f93553753e",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

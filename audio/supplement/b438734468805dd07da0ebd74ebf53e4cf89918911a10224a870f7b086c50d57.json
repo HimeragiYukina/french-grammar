@@ -1,0 +1,30 @@
+{
+  "text": "Dans une certaine mesure, tu as raison.",
+  "text_sha256": "b438734468805dd07da0ebd74ebf53e4cf89918911a10224a870f7b086c50d57",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2523356009070294,
+      "source_seconds": 2.2523356009070294,
+      "source_file_sha256": "caea21b026ff1d7a225b45883312850b5161bf0b51a3d230f00c375682e22aca",
+      "file_sha256": "9ca5e91c8b9860faaaae2626a0e5c24b6645605eeb1140e7427bdaf45ccece7f",
+      "bytes": 18852,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

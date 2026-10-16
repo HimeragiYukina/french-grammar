@@ -1,0 +1,30 @@
+{
+  "text": "je préfère la campagne.",
+  "text_sha256": "7aa80fcab6945670d772e2e76c9d1be4bafcae110955424d235d1de9aab355dc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5325170068027212,
+      "source_seconds": 1.5325170068027212,
+      "source_file_sha256": "c20c28fcf07cbe5183997644898a63bdda89aa1f079dd8d6cbe3d73297be56de",
+      "file_sha256": "45e939e36227b5a939a8cbc6934b8cdf2da80c0b2f3d38af30060b118bd1d700",
+      "bytes": 13000,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

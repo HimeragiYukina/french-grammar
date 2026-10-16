@@ -1,0 +1,30 @@
+{
+  "text": "Le déterminant possessif varie en personne avec le possesseur et s'accorde en genre et en nombre avec le nom déterminé, sous réserve des formes mon/ton/son devant certains mots féminins.",
+  "text_sha256": "69a39cbc8339d2e4b7c92001ef168bebd2820ea0600473b52c1a6da0390fdd3d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.833650793650794,
+      "source_seconds": 9.833650793650794,
+      "source_file_sha256": "841ad571aeeb36826e62e45e58f67d382eef3a60604e4c6b15e527ee739c74f4",
+      "file_sha256": "ab10423e14ee95d55e1b7b2a34b640455fc456741759be66de71b58fe1d0ebb9",
+      "bytes": 79456,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

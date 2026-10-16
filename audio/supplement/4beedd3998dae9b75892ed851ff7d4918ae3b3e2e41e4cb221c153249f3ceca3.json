@@ -1,0 +1,30 @@
+{
+  "text": "Tu choisis le plat et je choisis le dessert.",
+  "text_sha256": "4beedd3998dae9b75892ed851ff7d4918ae3b3e2e41e4cb221c153249f3ceca3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2175056689342405,
+      "source_seconds": 2.2175056689342405,
+      "source_file_sha256": "cf3ea6c9888168b51f6c99050ca4ff8dc5caece8991553da7f509758179372ef",
+      "file_sha256": "2c65f6e225cb97c3293f9a1c45cd36a79d894a3a0e5806a4b71f98b501bb9ecc",
+      "bytes": 18434,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

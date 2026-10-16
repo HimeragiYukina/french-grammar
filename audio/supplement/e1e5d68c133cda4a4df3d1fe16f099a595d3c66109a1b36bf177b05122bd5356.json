@@ -1,0 +1,30 @@
+{
+  "text": "elle est venue",
+  "text_sha256": "e1e5d68c133cda4a4df3d1fe16f099a595d3c66109a1b36bf177b05122bd5356",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9868480725623583,
+      "source_seconds": 0.9868480725623583,
+      "source_file_sha256": "1bd19a5c40994da58d95fff4279cb504f612cc6c1c2bf70d1dd08f051d234c75",
+      "file_sha256": "073b438063324aab9c11287d4f85411b6445f00f2c7e5dacc44403413c7dd5a0",
+      "bytes": 8612,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

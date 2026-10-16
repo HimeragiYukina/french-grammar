@@ -1,0 +1,30 @@
+{
+  "text": "Il lut la lettre et sortit",
+  "text_sha256": "2d731976c40a7462975cfcc775278d41c46fd74513f2b15a66abe67f817cc8c5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3931972789115645,
+      "source_seconds": 1.3931972789115645,
+      "source_file_sha256": "24324efaa76cc0918b36c0f9f45429848dcd1e1b61204994cdf999a983e6686a",
+      "file_sha256": "02d7e91c99d8d1e719153b3e86fb87518c28fa2928e2df9739910cf75653f02a",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

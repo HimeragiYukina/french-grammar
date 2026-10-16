@@ -1,0 +1,30 @@
+{
+  "text": "Marie a appelé",
+  "text_sha256": "cd50bd4f0f4eb5341a19d1d9cb2a0df98dc9c1036f9838162add9c6cc59449e0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0797278911564625,
+      "source_seconds": 1.0797278911564625,
+      "source_file_sha256": "e5b32d0475abe649846c4a7a31354b42c6d5eb221b7b850874865c2476281ef7",
+      "file_sha256": "51767d7698551da88a211f2787c4d69a52c65eef3e71eb9bb12cfb454c378b98",
+      "bytes": 9448,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -15,6 +15,10 @@ def set_value(data,path,value):
  return data
 def main():
  baseline=read('tools/strict-review-baseline.json')['files'];current={name:read(name) for name in baseline}
+ for ch in reversed(read('tools/full-site-review-20261016.json')['changes']):
+  if ch['file'] not in current:continue
+  assert get(current[ch['file']],ch['path'])==ch['after'],(ch['file'],ch['path'])
+  current[ch['file']]=set_value(current[ch['file']],ch['path'],ch['before'])
  reports=[read('tools/strict-audit-'+l+'.json') for l in LEVELS]
  rows=[];contexts=[];changes=[]
  for l,a in zip(LEVELS,reports):

@@ -1,0 +1,30 @@
+{
+  "text": "Cette solution est très coûteuse, mais elle reste nécessaire.",
+  "text_sha256": "b8fbca6e5239ab300629f08d2ea62672be8590b5f22ff0ebe1612f4282402691",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1811337868480725,
+      "source_seconds": 3.1811337868480725,
+      "source_file_sha256": "68b476f5e5c81f607f0dc0821012c57ad5d4229ef1fc6b9c572b0926c7ed07f4",
+      "file_sha256": "493f535e356cf33e28c251c9c8e602792bcb8efe0843d38915b97fdf91d4a844",
+      "bytes": 26166,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

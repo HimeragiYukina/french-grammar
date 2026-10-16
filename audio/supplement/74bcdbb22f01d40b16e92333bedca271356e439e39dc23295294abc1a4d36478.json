@@ -1,0 +1,30 @@
+{
+  "text": "Ces chaussures se vendent bien.",
+  "text_sha256": "74bcdbb22f01d40b16e92333bedca271356e439e39dc23295294abc1a4d36478",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.555736961451247,
+      "source_seconds": 1.555736961451247,
+      "source_file_sha256": "2daf8f5ed34839bb230d3407fa540667f3700794752c09c792b9de7702eb9cef",
+      "file_sha256": "5eee1c9fb181491287e51db59de72b652a1c2fdad499e89c73b43591adf93c55",
+      "bytes": 13209,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

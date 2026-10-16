@@ -1,0 +1,30 @@
+{
+  "text": "Elle devait intervenir lundi, mais la réunion a été annulée.",
+  "text_sha256": "decab0a475c2ce66d2768c2c537bcfcf819a2bbcbbd0425006e8bdd2d10692bf",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4713832199546486,
+      "source_seconds": 3.4713832199546486,
+      "source_file_sha256": "ca8d5329697d19a13daf04f328ceea549e8bf999cd498c4aac6059e2290490fa",
+      "file_sha256": "72a2fb4d8e26fa3ec4a29eef41ac452ce565c1c8c1575faeccc59e8bbdb498e2",
+      "bytes": 28465,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

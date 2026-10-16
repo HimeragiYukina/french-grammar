@@ -1,0 +1,30 @@
+{
+  "text": "S'il pleut, prends un parapluie",
+  "text_sha256": "59eda42a1272f5ab68e6749aa48fce70d8e7596835cfa4047da4638da650c331",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7531065759637188,
+      "source_seconds": 1.7531065759637188,
+      "source_file_sha256": "81b227fb4a46cf78f5adcc830043fb08f62aacc9859b51201f7ec8bd6371089e",
+      "file_sha256": "e8e5f22e002ed498fa0433a7c52024fa4bf6b4e61df2b43f1e9e7c3d006c5cb4",
+      "bytes": 14881,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

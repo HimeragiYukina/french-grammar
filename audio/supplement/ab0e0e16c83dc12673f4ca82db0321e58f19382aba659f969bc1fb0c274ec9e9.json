@@ -1,0 +1,30 @@
+{
+  "text": "Je ___ nager, mais je ne ___ pas plonger. (pouvoir / vouloir)",
+  "text_sha256": "ab0e0e16c83dc12673f4ca82db0321e58f19382aba659f969bc1fb0c274ec9e9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2043537414965986,
+      "source_seconds": 3.2043537414965986,
+      "source_file_sha256": "1c80ad721335b78149d7ea70c41a77bdac4698a23d3de67edbf4443d60322a69",
+      "file_sha256": "bc348c36e3c6ba6f601aefb6885be3b4bcade304b8e037592d935b7e2ad380c0",
+      "bytes": 26375,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

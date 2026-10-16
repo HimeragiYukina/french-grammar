@@ -1,0 +1,30 @@
+{
+  "text": "Non. Dirigea présente les vingt années comme une période achevée ; dirigeait conviendrait à une présentation de l’intérieur ou à un arrière-plan.",
+  "text_sha256": "d7853936013c85ac6fcfbde3de532f387f4b6075b75de09049bf7d63ebd419a4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.685804988662132,
+      "source_seconds": 7.685804988662132,
+      "source_file_sha256": "770cdd57cf3284071d2daecde64a4704073bcc9030f640bb173443c1df41dc9d",
+      "file_sha256": "12b3bda1801536d1d1991ebac6b6543f13cd434ea27763e38f7897115c5026d2",
+      "bytes": 62319,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

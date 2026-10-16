@@ -1,0 +1,30 @@
+{
+  "text": "Le chat est sous la chaise, entre le lit et la table.",
+  "text_sha256": "a309fbc65f0d5b038845d57edaa4dae6dcde820767bdec822513d8f8d75f9aaf",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4481632653061225,
+      "source_seconds": 3.4481632653061225,
+      "source_file_sha256": "c6fe66d159b5aa045d97e17b2b52bef83ee6a7748caa9523507c0c6852df143a",
+      "file_sha256": "a356d841cffa1358a6c0c0e6419323cde4c49af4414b17f4bddaa9687055e6ab",
+      "bytes": 28256,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

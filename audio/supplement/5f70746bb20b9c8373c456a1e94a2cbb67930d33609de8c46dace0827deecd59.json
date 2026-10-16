@@ -1,0 +1,30 @@
+{
+  "text": "La semaine dernière, ils ___ (choisir) un cadeau.",
+  "text_sha256": "5f70746bb20b9c8373c456a1e94a2cbb67930d33609de8c46dace0827deecd59",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7399546485260773,
+      "source_seconds": 2.7399546485260773,
+      "source_file_sha256": "a40cae4a42cb578c2201d94f0e12ab45e176e97fddfa99f7e8abd2d7e813a04f",
+      "file_sha256": "541bcd9fe11e4a9671efba9fe5d9ac9c50547afba25dbffeaf862090b1a70251",
+      "bytes": 22613,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

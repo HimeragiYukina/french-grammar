@@ -1,0 +1,30 @@
+{
+  "text": "Ce pauvre chat a passé la nuit dehors.",
+  "text_sha256": "f3f581ac5b7ac859ac2f0753c4894578005e607dfa55e072ee88559027976720",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2755555555555556,
+      "source_seconds": 2.2755555555555556,
+      "source_file_sha256": "b3d0ca6585733b09c7572df51613af541f7b31b34624b8eb9e2e013f996b79ce",
+      "file_sha256": "b31b9b4020cb145ca4cf6681f2a78cd4c8695dcc289f75e75a9c981eaf4f8d7a",
+      "bytes": 19061,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

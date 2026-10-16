@@ -1,0 +1,30 @@
+{
+  "text": "Il semble sincère ; du moins le crois-je.",
+  "text_sha256": "a70c18debed39b32d3bb6e98aac05bb5e7e05521ecc4bac7d3d32543339d3bea",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9837641723356008,
+      "source_seconds": 2.9837641723356008,
+      "source_file_sha256": "1be767c6296f5056a48df18f286f60b57f4aeb444d8f4a9ebe7f4ab601668e1a",
+      "file_sha256": "40657436409fe44bda11b75f871d272093db9add69a853999993988342e0b411",
+      "bytes": 24703,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

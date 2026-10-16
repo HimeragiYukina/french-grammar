@@ -1,0 +1,30 @@
+{
+  "text": "Elle téléphone pour s’assurer qu’il viendra",
+  "text_sha256": "e5ecb0cc7776da9783a8fa5c4f61db84eeb212b65995a08586cf6cd0c705c44b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1710657596371883,
+      "source_seconds": 2.1710657596371883,
+      "source_file_sha256": "2bd78f5377eacad46c78e84e249cda8bf809b7f945cbb44b2a890766b4062fc3",
+      "file_sha256": "338d234b2723652a32490f06db0a5e13783badf3762f4ec113f2f213c0aa9880",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

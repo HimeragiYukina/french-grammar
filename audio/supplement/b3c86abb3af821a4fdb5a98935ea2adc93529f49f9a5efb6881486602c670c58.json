@@ -1,0 +1,30 @@
+{
+  "text": "Comme le train était complet, elle a pris le bus.",
+  "text_sha256": "b3c86abb3af821a4fdb5a98935ea2adc93529f49f9a5efb6881486602c670c58",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.449705215419501,
+      "source_seconds": 2.449705215419501,
+      "source_file_sha256": "2479714517b6f464d40c5b45a1ce63266cd211241ac055097721262910559cae",
+      "file_sha256": "3f399cd75ce42051c23240eb391e11768d775582733f8cb752d7e8d1a6492226",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

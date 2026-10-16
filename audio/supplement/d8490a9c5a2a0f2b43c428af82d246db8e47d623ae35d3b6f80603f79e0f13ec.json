@@ -1,0 +1,30 @@
+{
+  "text": "Le professeur a expliqué que la Terre tourne autour du Soleil.",
+  "text_sha256": "d8490a9c5a2a0f2b43c428af82d246db8e47d623ae35d3b6f80603f79e0f13ec",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5294331065759637,
+      "source_seconds": 3.5294331065759637,
+      "source_file_sha256": "4fde88fe8a399c7319f9aa391d6c7e8ea8c84bac82778bd4b285535e0a02a131",
+      "file_sha256": "eaeb38d0399f9e189220a0a136d0ecf1f145ffad7780fae102d2ed0b149aeb87",
+      "bytes": 29092,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

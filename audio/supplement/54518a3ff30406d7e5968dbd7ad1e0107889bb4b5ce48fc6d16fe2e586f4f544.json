@@ -1,0 +1,30 @@
+{
+  "text": "J'aime ___ café, mais je bois ___ thé ce matin. (",
+  "text_sha256": "54518a3ff30406d7e5968dbd7ad1e0107889bb4b5ce48fc6d16fe2e586f4f544",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5309750566893423,
+      "source_seconds": 2.5309750566893423,
+      "source_file_sha256": "be28e0682e1789893700053b5f3aeb2c57856b0ba0438e5bbbd8dfe9895bb8aa",
+      "file_sha256": "460bef32f54180abd4b0459edcc244ddc473e35f6dc38c025264bc2751563467",
+      "bytes": 20941,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

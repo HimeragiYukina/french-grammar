@@ -1,0 +1,30 @@
+{
+  "text": "Je crains qu’il ne soit blessé",
+  "text_sha256": "940783f039cabb1e8f3d16aea756b67afe2d65bda89a272e5baedd945cabb214",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7298866213151927,
+      "source_seconds": 1.7298866213151927,
+      "source_file_sha256": "f0b47267f4121840773be5bd7c56748cce20c8f217bbd98855338b757e6a2f26",
+      "file_sha256": "d4651c12da3abf04b0adcfb30bbd2ef76d561d0ad8f09b3e246a2d1aa8d8a79e",
+      "bytes": 14672,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

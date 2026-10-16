@@ -1,0 +1,30 @@
+{
+  "text": "Quand je suis arrivé à la gare, le train ___ déjà ___ (partir). (",
+  "text_sha256": "5b42b5664b33b9fb0993bd9b416613c97e6c8b934cff71322fe494b257f3b58b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.378503401360544,
+      "source_seconds": 3.378503401360544,
+      "source_file_sha256": "3529d3f4438fdf0ea26bdcc1dbff2440e5ddb0f4d06101ac63b470cc4f2d7dad",
+      "file_sha256": "2b035c71c6e62f47c55e3980cb91bca9234463600d1e82745519300dee151c07",
+      "bytes": 27838,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

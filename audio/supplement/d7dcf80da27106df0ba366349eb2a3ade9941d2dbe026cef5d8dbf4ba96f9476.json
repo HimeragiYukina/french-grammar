@@ -1,0 +1,30 @@
+{
+  "text": "Le refus de l’entreprise de signer le contrat",
+  "text_sha256": "d7dcf80da27106df0ba366349eb2a3ade9941d2dbe026cef5d8dbf4ba96f9476",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.449705215419501,
+      "source_seconds": 2.449705215419501,
+      "source_file_sha256": "acc1a841e0c2b7a561ec55931cc7ca97219f97be8c76a7b125c90614af7536eb",
+      "file_sha256": "fa00ea4f36d7a793a4dc5e889b0089d8c398c6a5827a9dae72b663dd63f1a926",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

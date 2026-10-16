@@ -1,0 +1,30 @@
+{
+  "text": "Il cuisine mieux",
+  "text_sha256": "3727f7890fcfdf1ea45175b65b254343da839191b0b406558b9436753fa39b21",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3467573696145125,
+      "source_seconds": 1.3467573696145125,
+      "source_file_sha256": "5c4430c411bae185ea1cbc6ddf2a253e79add1b773eeb9db2569923e9db204ff",
+      "file_sha256": "a7bbc0cb064fcdcbe6168141fac98a86a045a16c0b02eb14b5eb3eefc11fd68a",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Démission surprise du ministre : stupeur au Parlement.",
+  "text_sha256": "2054ff31fc939c8cca111e9b21461586bd87e416078a6a873ef34668b2ec83ec",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4017233560090703,
+      "source_seconds": 3.4017233560090703,
+      "source_file_sha256": "fa1b25ccd08edf6cb06b219299966aac5cdb80a78963ffd95bc270f7038859c9",
+      "file_sha256": "cc20510df105e96258c668e0feadcd07c5553cce92492b3831e468949eb9f2f4",
+      "bytes": 28047,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Il hésite, il recule, il renonce.",
+  "text_sha256": "2fe17ed0b3dfd78b5a02b2b1dedfc09bd9a79d30942fff11410e673bdf46f9d2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.681904761904762,
+      "source_seconds": 2.681904761904762,
+      "source_file_sha256": "248a04d82661831eb934ee3ac9fdb48f5b5beaeb9b32ad2843ee58dc21547f95",
+      "file_sha256": "03b78aa96820997f8654403cf722692086efcf80bb11353008c5e03f1201c65c",
+      "bytes": 22195,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Après qu’il eut fermé la porte, il s’assit.",
+  "text_sha256": "4b768a487d5cc5392afaf9d4f9bc418fe88b445609f8e58f461f824af3c84575",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6122448979591835,
+      "source_seconds": 2.6122448979591835,
+      "source_file_sha256": "634cdce696af1d6fef76f2822a9ed6d955ea9864a41e0ae4e8247bf968a6b991",
+      "file_sha256": "568729faa0f43b5c10f10e4b3dd627d6d9ee0f96d890d1a6a0443b247fe89d20",
+      "bytes": 21568,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

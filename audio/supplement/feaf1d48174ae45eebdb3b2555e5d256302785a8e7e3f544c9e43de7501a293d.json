@@ -1,0 +1,30 @@
+{
+  "text": "Est-ce que je pourrais payer en deux fois ? Sinon, je paierai la totalité aujourd’hui.",
+  "text_sha256": "feaf1d48174ae45eebdb3b2555e5d256302785a8e7e3f544c9e43de7501a293d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.191201814058957,
+      "source_seconds": 4.191201814058957,
+      "source_file_sha256": "52877385ada83b6027a91a3d40e37c98fdfd90f982f632d474787d3541340336",
+      "file_sha256": "80c354f045d888ba6cc3121ec8c805c8a1ab6a197ff055247320dacca976d099",
+      "bytes": 34316,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

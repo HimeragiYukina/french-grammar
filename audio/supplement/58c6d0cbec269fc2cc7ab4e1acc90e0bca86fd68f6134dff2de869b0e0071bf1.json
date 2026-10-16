@@ -1,0 +1,30 @@
+{
+  "text": "Elle cuisine mieux que sa sœur.",
+  "text_sha256": "58c6d0cbec269fc2cc7ab4e1acc90e0bca86fd68f6134dff2de869b0e0071bf1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.799546485260771,
+      "source_seconds": 1.799546485260771,
+      "source_file_sha256": "bf17728772ca17732c40b4886d123a0ebb3edbca71c7f1f4d7365c10a6e0c815",
+      "file_sha256": "097da57de31451ada417f557355abfb6c30772615598915679bd6fc6891bd4ef",
+      "bytes": 15090,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elle ouvre la fenêtre et choisit une chaise.",
+  "text_sha256": "fd179a9eaf4ba787caabb6701a35a31569b779dbdad19cbf69e5f2e7e2b9947b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4729251700680273,
+      "source_seconds": 2.4729251700680273,
+      "source_file_sha256": "11ddd805dbdd12654b5d02b1450fe6ae77724555f905d36174a8c98b7f19b266",
+      "file_sha256": "6505a6a5737761e1cfd3636c9212423e17d20a2c183b5107add38547cbf3270f",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

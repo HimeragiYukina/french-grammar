@@ -1,0 +1,30 @@
+{
+  "text": "Demain, notre cours commence dans une nouvelle salle, alors je vais à la papeterie du quartier pour acheter du matériel.",
+  "text_sha256": "07752869a4a63fbe468724e137a9d0ff4b6b2e7e1897bd559531e6f6d7ba0278",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.072018140589569,
+      "source_seconds": 6.072018140589569,
+      "source_file_sha256": "418748c934154e5f218fb294ae2e75f832ed1b44d7f8ade2b9b57ed457a1e2a7",
+      "file_sha256": "7cc890ddf0a6039e245140fd34df4fdd47a06efea20add399cf2d09f86412912",
+      "bytes": 49363,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

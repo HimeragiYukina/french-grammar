@@ -1,0 +1,30 @@
+{
+  "text": "« Je reviendrai bientôt », répondit-elle.",
+  "text_sha256": "a25b111ae656fd5b436e5b10ee48f98748ba9b32e0e1e15db494420a4e5e2c9a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.449705215419501,
+      "source_seconds": 2.449705215419501,
+      "source_file_sha256": "7f223ebf2696d71c3389fa7e26e7659565fe376d76bc40a998c74fb05393b66f",
+      "file_sha256": "4f9e5a9eed05378a23167df0ca83b2bb40934fd8fddb0956fd4ff961f6715c12",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

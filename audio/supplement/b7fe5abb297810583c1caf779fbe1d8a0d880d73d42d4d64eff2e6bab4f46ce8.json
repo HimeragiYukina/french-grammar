@@ -1,0 +1,30 @@
+{
+  "text": "Parle plus fort de manière à être entendu de tous.",
+  "text_sha256": "b7fe5abb297810583c1caf779fbe1d8a0d880d73d42d4d64eff2e6bab4f46ce8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7747845804988662,
+      "source_seconds": 2.7747845804988662,
+      "source_file_sha256": "34c836d3d767a172fb47512ac0016a8f6ff00ffa88c8ca66a408d8cb158c2edb",
+      "file_sha256": "87d7fc84e53f8435ece3408e5f0c773241da35186a9b9c0bbd54df1fa729892c",
+      "bytes": 23031,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elle parlait si doucement que personne ne l'entendait.",
+  "text_sha256": "1d17ecb19989df0225fd47e792531641c2c9185f684807ba19bbc5c55f252412",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4729251700680273,
+      "source_seconds": 2.4729251700680273,
+      "source_file_sha256": "39f3d08ce9a7786762b1f4d53bcf1b1890e56e725bed2498a20b3e7f1adbd927",
+      "file_sha256": "28ce3a0158695cbb715a9d7ca3730069863479e3ff258ec9dd48dc5e1f0afe73",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

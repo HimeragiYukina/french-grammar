@@ -1,0 +1,30 @@
+{
+  "text": "Il faut que j'aille à la banque avant midi.",
+  "text_sha256": "e9aa9c767d32cb474848af1c1c42137f0a0380bbb31eeea5c8a11613a6b7a7db",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0549659863945577,
+      "source_seconds": 2.0549659863945577,
+      "source_file_sha256": "192009971799a5ca7ce2a56b0f083d722abb442db2d11a601b133d5dd46f8e8e",
+      "file_sha256": "440cad89ecec7259ec111f90177321c34d1a2e1978082d30b118e5ddc6282531",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

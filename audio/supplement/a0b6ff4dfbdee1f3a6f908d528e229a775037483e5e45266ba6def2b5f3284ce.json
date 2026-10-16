@@ -1,0 +1,30 @@
+{
+  "text": "Puisque Paul passe au marché, je lui demande d’acheter du pain et quelques tomates.",
+  "text_sha256": "a0b6ff4dfbdee1f3a6f908d528e229a775037483e5e45266ba6def2b5f3284ce",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.156371882086168,
+      "source_seconds": 4.156371882086168,
+      "source_file_sha256": "7fe107dcc93e648df503e9dd1bbd365ab6ac9dc85a8d597e5d4ac7729ab116d3",
+      "file_sha256": "7471206245ef62f4deacfdd3962606578eff658eef6ae0661d597c2783406cd0",
+      "bytes": 34107,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

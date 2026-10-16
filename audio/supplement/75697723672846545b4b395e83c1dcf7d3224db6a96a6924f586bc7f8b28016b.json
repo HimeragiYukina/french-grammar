@@ -1,0 +1,30 @@
+{
+  "text": "Le vent soufflait quand la fenêtre s’ouvrit brusquement.",
+  "text_sha256": "75697723672846545b4b395e83c1dcf7d3224db6a96a6924f586bc7f8b28016b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.809614512471655,
+      "source_seconds": 2.809614512471655,
+      "source_file_sha256": "930e5c663624f0586a703f1efa1172a4d869f520ccac1bc37ddd7bcb1b7fca82",
+      "file_sha256": "72453c64d6317c705ff7ea68265119792c06d83bae9c8d9d0af4dee862968252",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

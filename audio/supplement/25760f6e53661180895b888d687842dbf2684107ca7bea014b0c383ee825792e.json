@@ -1,0 +1,30 @@
+{
+  "text": "Après être arrivée, elle a appelé",
+  "text_sha256": "25760f6e53661180895b888d687842dbf2684107ca7bea014b0c383ee825792e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1130158730158732,
+      "source_seconds": 2.1130158730158732,
+      "source_file_sha256": "3686ab3a86ba4a1fc5f2212ada3618be6d2f0f70ecc63647234e302cdeb15db3",
+      "file_sha256": "cd005ad60b03383dc49350531bfd695b401031cd7f12bcdd388cbb5a8b30a3ad",
+      "bytes": 17598,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

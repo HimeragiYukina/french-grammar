@@ -1,0 +1,30 @@
+{
+  "text": "Ce soir, ils regarderont le match à la télé.",
+  "text_sha256": "e0bb4dd443f6fb14d939acf89b438f773b5649ad066205cc01f31a004d26c3da",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.728344671201814,
+      "source_seconds": 2.728344671201814,
+      "source_file_sha256": "f0c86044fb0e2cc749a9123479a8e16f75a2a8379202bb6a3264080494888f21",
+      "file_sha256": "6c3e07a0603d6f734aad53a692b8ff28a6474335b825e99a998ee201f5084981",
+      "bytes": 22613,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

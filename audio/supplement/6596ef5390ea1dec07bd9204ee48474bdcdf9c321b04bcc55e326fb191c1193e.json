@@ -1,0 +1,30 @@
+{
+  "text": "Paul, rit",
+  "text_sha256": "6596ef5390ea1dec07bd9204ee48474bdcdf9c321b04bcc55e326fb191c1193e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2190476190476192,
+      "source_seconds": 1.2190476190476192,
+      "source_file_sha256": "85717ac50ac477c62048e725f668a253f52c66eaae0878e67ab6f3b90f979348",
+      "file_sha256": "d3e9abcb687fbc50229cdd58138a6ccf6ebe9dd5f7632b3c31eb3944f3959427",
+      "bytes": 10493,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

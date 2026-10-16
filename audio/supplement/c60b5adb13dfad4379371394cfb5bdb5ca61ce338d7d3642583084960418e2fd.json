@@ -1,0 +1,30 @@
+{
+  "text": "Elle a enregistré une copie de peur de perdre son travail.",
+  "text_sha256": "c60b5adb13dfad4379371394cfb5bdb5ca61ce338d7d3642583084960418e2fd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.053424036281179,
+      "source_seconds": 3.053424036281179,
+      "source_file_sha256": "188a96c4fa341cef5c9b4c522144a30dfa9cc328b1e010aab635a84d55f323db",
+      "file_sha256": "e98972034b8adf74aa35c5db1a79bed977158acaa2668836462ba22d0d87c190",
+      "bytes": 25121,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

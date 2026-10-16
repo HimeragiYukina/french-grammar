@@ -1,0 +1,30 @@
+{
+  "text": "Compte tenu des travaux, prévoyez une heure de plus.",
+  "text_sha256": "667510bd8c636556cfc09b172e4e1b82bd79a11abde36b6e435831df6ea5ae93",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9837641723356008,
+      "source_seconds": 2.9837641723356008,
+      "source_file_sha256": "4a163019388ba01ec686bcdb7dce22090c4ac28e42d004e1297aaf42ac4eefd6",
+      "file_sha256": "18e40bc5c26b7305fc3b844545f6a211ae662734d217e8c987a78ee24183968d",
+      "bytes": 24703,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

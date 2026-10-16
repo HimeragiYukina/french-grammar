@@ -1,0 +1,30 @@
+{
+  "text": "Je voudrais deux billets pour demain, s’il vous plaît.",
+  "text_sha256": "4c58db4f6337aa9a3214e2c357ea3e3f1a3ba28d84ac9f373094fbd4a0ee4df8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8212244897959184,
+      "source_seconds": 2.8212244897959184,
+      "source_file_sha256": "3b86f0fbbc6e6c730a6c785a9e038685e4e396db59b0f6c480ef8a1de387ee10",
+      "file_sha256": "5be89774e867ac34ea11a9d61aca77a1520ef39b60a9963c5673299ffbc9474c",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

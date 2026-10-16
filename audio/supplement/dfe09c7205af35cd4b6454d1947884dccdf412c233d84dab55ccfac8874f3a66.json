@@ -1,0 +1,30 @@
+{
+  "text": "Accords extrêmes",
+  "text_sha256": "dfe09c7205af35cd4b6454d1947884dccdf412c233d84dab55ccfac8874f3a66",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2887074829931973,
+      "source_seconds": 1.2887074829931973,
+      "source_file_sha256": "b0b0b5aa0e36deb2950b27c4909ee8766c7d8b06ce1f6f765df5d0aaf9f64fd6",
+      "file_sha256": "8afe05693d6d9cf6ea98acede495d9d10c9fb6e2d97fae0e1187d68f0db0a307",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

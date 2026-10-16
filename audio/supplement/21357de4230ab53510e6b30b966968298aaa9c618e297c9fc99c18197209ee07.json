@@ -1,0 +1,30 @@
+{
+  "text": "Donne-m’en deux. Ne m’en donne pas tout le reste.",
+  "text_sha256": "21357de4230ab53510e6b30b966968298aaa9c618e297c9fc99c18197209ee07",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6122448979591835,
+      "source_seconds": 2.6122448979591835,
+      "source_file_sha256": "46a198a096776e1963074aa688eb180f01879b10ded82f5700d8d1ae35b90ed8",
+      "file_sha256": "c7e762075c69ae56a018cc231c6a3177deacd0302134e38c221c3394776e34f9",
+      "bytes": 21568,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "la seule femme présente",
+  "text_sha256": "b11920e46d0f4f3e556912d6c72fa91d8277aa1b9395554ceec5b9c35842f58d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7182766439909296,
+      "source_seconds": 1.7182766439909296,
+      "source_file_sha256": "c3c224c0ca8a283af5e834a4a3669148f2907d8e2d7af84b1907ff167d3f4e05",
+      "file_sha256": "d4fbcf15464e79a4f99ccb0b1aeba4cbb2c125d04d84319ef5ab17b03affc84b",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

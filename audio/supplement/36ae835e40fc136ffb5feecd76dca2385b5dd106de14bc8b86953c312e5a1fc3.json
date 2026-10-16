@@ -1,0 +1,30 @@
+{
+  "text": "Nous allons au marché, puis nous faisons la cuisine.",
+  "text_sha256": "36ae835e40fc136ffb5feecd76dca2385b5dd106de14bc8b86953c312e5a1fc3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2275736961451247,
+      "source_seconds": 3.2275736961451247,
+      "source_file_sha256": "fc5f1d24ac876984eabe4eff00694a8bc5bd3a9231b49a86915384ad6af80b7f",
+      "file_sha256": "a25a940f4df4ac3e047ff15989e041e5e50364515507e5e9a3fac03f6a98a622",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

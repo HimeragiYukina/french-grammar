@@ -1,0 +1,30 @@
+{
+  "text": "Je fais du sport pour rester en forme.",
+  "text_sha256": "097d5f71af45ad31cf1004c0527ea852252da76816e07ec4c69403b3eafed3fd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2291156462585033,
+      "source_seconds": 2.2291156462585033,
+      "source_file_sha256": "36c6f37921f37deb778f59f864bc98aca0b485c813763ee0346bc9ddc134e717",
+      "file_sha256": "347423fd4d339bef1a14d8f77f51bc1afacecc8ccf7ba4919c0f2b03da443dc4",
+      "bytes": 18643,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

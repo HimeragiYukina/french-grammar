@@ -1,0 +1,30 @@
+{
+  "text": "La soupe refroidit pendant que nous parlons.",
+  "text_sha256": "286819a4e1e24959b82df506359b8f5a36d99490a4726bcc3ff9180714c7781f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2175056689342405,
+      "source_seconds": 2.2175056689342405,
+      "source_file_sha256": "5c0812d7c006cd23843c2393db461460797119d6a735aace61c05c80348d83ba",
+      "file_sha256": "7b15b4a83b83e72ba6e8735beccc8e7a18eb03b07819ab0214b356e51c315c71",
+      "bytes": 18434,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

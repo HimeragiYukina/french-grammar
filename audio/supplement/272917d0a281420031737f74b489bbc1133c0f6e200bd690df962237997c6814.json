@@ -1,0 +1,30 @@
+{
+  "text": "Nous avons envoyé le document pour que chacun prépare la réunion.",
+  "text_sha256": "272917d0a281420031737f74b489bbc1133c0f6e200bd690df962237997c6814",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1927437641723357,
+      "source_seconds": 3.1927437641723357,
+      "source_file_sha256": "c7963950462874b56ca1c003a8a5aa14bacf38bdd62d5ec86924536845635bd7",
+      "file_sha256": "706f238ede84d8b86f4ee0ca98acbe0fbe932c60c1333940b262bc19ce506e3e",
+      "bytes": 26375,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

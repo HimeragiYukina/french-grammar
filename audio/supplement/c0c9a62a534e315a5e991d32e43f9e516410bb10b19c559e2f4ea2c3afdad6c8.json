@@ -1,0 +1,30 @@
+{
+  "text": "un truc à réparer",
+  "text_sha256": "c0c9a62a534e315a5e991d32e43f9e516410bb10b19c559e2f4ea2c3afdad6c8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.253877551020408,
+      "source_seconds": 1.253877551020408,
+      "source_file_sha256": "c1d6f98aafa66b7e0c966115af7c8a0ded3dbb023aaf51209938ddb5f4a73cfe",
+      "file_sha256": "a212c6d459c79f3ea81f4c57340cf1b9eff7163c4003084e6b7b46a0b08b3390",
+      "bytes": 10701,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

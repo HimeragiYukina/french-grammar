@@ -1,0 +1,30 @@
+{
+  "text": "trois chevals et deux festivals",
+  "text_sha256": "25a4706525cf8742552bb8b0bc2f25640c0910b8e7033c0a762ca3dbf3e01444",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.043356009070295,
+      "source_seconds": 2.043356009070295,
+      "source_file_sha256": "dd7e93e1615b1d45449ef5048587e12bce20ebd0637ebebef4f0d18484197979",
+      "file_sha256": "0eace2c0e1580e9ff37e207b6ebf0f04b9d9246fb327e7052d011090423cb2ac",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

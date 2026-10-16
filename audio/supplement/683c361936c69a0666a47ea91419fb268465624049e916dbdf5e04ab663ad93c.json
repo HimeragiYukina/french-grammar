@@ -1,0 +1,30 @@
+{
+  "text": "j’ai pris",
+  "text_sha256": "683c361936c69a0666a47ea91419fb268465624049e916dbdf5e04ab663ad93c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.6965986394557823,
+      "source_seconds": 0.6965986394557823,
+      "source_file_sha256": "662e08f70ec7b92ed90290951d17990c8e83c6c34f59dba32630ad45a854c3c1",
+      "file_sha256": "2b793c1779216eb5416087140e8ce61ef428209a41bf7aaff9e387e1b5794fd7",
+      "bytes": 6313,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

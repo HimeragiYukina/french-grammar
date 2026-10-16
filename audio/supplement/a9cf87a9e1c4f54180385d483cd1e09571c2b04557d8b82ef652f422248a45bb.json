@@ -1,0 +1,30 @@
+{
+  "text": "Je te le donne",
+  "text_sha256": "a9cf87a9e1c4f54180385d483cd1e09571c2b04557d8b82ef652f422248a45bb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1145578231292517,
+      "source_seconds": 1.1145578231292517,
+      "source_file_sha256": "030e9d0add31fc4f5a81e4679848c641e51fdb3ebde1b7eafc703eb8c9debc6a",
+      "file_sha256": "10ae104a4fea8af656fe79aa0821d225cb2c8c2fa3f2f31f361e2eea03069f40",
+      "bytes": 9657,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

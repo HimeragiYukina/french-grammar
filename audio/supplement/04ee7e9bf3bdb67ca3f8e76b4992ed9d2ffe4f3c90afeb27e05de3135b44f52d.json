@@ -1,0 +1,30 @@
+{
+  "text": "se parler",
+  "text_sha256": "04ee7e9bf3bdb67ca3f8e76b4992ed9d2ffe4f3c90afeb27e05de3135b44f52d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.893968253968254,
+      "source_seconds": 0.893968253968254,
+      "source_file_sha256": "35fd7b940f06b054e66540a901762115bbd733b8090061ddfb1952f9bd6fbe8b",
+      "file_sha256": "99462ee93f29ab14d57323ddacfc84af450b98b8026363044f23bb378be1f0f4",
+      "bytes": 7985,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

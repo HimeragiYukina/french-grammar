@@ -1,0 +1,30 @@
+{
+  "text": "Nous avons choisi un hôtel moins cher.",
+  "text_sha256": "f3da57feaf60facc3f90ee13b0e9dee8df69f350ed04496a02ca2ecf0028b8e1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9969160997732427,
+      "source_seconds": 1.9969160997732427,
+      "source_file_sha256": "29d46be34dc5c8c727a5bdc3faac072aceeb7cac7eabbd945ce450b90eccd8aa",
+      "file_sha256": "c6ea030259abd372688f5a19cfd381effd27e6734ccda79c4f507087ec28f7c5",
+      "bytes": 16762,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Mardi, Léa a constaté que le dossier qu’elle avait envoyé lundi avait disparu.",
+  "text_sha256": "532d4a81689ce5aecf8dbb4d88e44433823be218a152f11974beeddcdac46832",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.2260317460317465,
+      "source_seconds": 4.2260317460317465,
+      "source_file_sha256": "e6abf2cb4671c58d6d5e40702f2f349706c33aa20fc829c0349e44121d06482b",
+      "file_sha256": "67da924e978c991f0ea5c2fdf14bc523102e748608b23872b84cb5812ce6f031",
+      "bytes": 34525,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

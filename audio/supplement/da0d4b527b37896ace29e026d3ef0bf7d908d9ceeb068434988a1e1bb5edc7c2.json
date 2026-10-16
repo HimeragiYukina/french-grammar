@@ -1,0 +1,30 @@
+{
+  "text": "Il venait de partir quand…",
+  "text_sha256": "da0d4b527b37896ace29e026d3ef0bf7d908d9ceeb068434988a1e1bb5edc7c2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.486077097505669,
+      "source_seconds": 1.486077097505669,
+      "source_file_sha256": "657138f1a9249188c8941ed30452225ec4c7c180260117c462ff7bdad06389ef",
+      "file_sha256": "8f93a6269881fe6093524ed4fb3d98c304d5fba9854cb35dcd2aac9e3c6670de",
+      "bytes": 12582,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

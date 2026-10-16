@@ -1,0 +1,30 @@
+{
+  "text": "Tu peux sortir ___ tu ___ (rentrer) avant minuit. (",
+  "text_sha256": "86495153aceb706e6edece534b4a0db6f0030334e8f6904be548177d27fd4e2d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0317460317460316,
+      "source_seconds": 2.0317460317460316,
+      "source_file_sha256": "4468db9fe6e497c20ea28f9ecea48cd3090e236cdbcbbe41a5ef11130414b292",
+      "file_sha256": "0df50f1f068a22dea79561edf04dd445a0d81a79b550d1194d7093e4b2c2e0e1",
+      "bytes": 16971,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

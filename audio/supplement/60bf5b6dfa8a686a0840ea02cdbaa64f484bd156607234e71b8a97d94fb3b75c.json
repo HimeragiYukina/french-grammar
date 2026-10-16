@@ -1,0 +1,30 @@
+{
+  "text": "Hier, Paul m’a dit qu’il viendrait vendredi.",
+  "text_sha256": "60bf5b6dfa8a686a0840ea02cdbaa64f484bd156607234e71b8a97d94fb3b75c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6006349206349206,
+      "source_seconds": 2.6006349206349206,
+      "source_file_sha256": "5446d4e69fd9429ed38e1354e95d5d8aee1d6ad58a6f739c6bd33613ff244dd9",
+      "file_sha256": "180a2b45634e9b690344ce29e9c777b2a5170dbb7db3ebf0c3e6b4fa9daa2480",
+      "bytes": 21568,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

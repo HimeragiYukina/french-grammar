@@ -1,0 +1,30 @@
+{
+  "text": "Samedi dernier, il pleuvait et la gare était pleine de voyageurs ; j’attendais mon amie Léa près de l’entrée principale.",
+  "text_sha256": "aaecd96f1e54898cce0d7e482a1fc84c047f66dad323066d70e4dc8f6581b6ba",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.106848072562358,
+      "source_seconds": 6.106848072562358,
+      "source_file_sha256": "2b34bc0266906e97421b6484bb0202a46c0a9f0aa146f136c6ce87acae56c094",
+      "file_sha256": "2ebf6171bd3f0ca4b80b1e3c3c0668eb5964e8f21da4c3f9fc930388e33a1f3a",
+      "bytes": 49572,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

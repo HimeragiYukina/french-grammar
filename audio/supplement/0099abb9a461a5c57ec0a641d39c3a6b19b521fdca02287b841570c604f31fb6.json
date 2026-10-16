@@ -1,0 +1,30 @@
+{
+  "text": "On est contentes",
+  "text_sha256": "0099abb9a461a5c57ec0a641d39c3a6b19b521fdca02287b841570c604f31fb6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0216780045351475,
+      "source_seconds": 1.0216780045351475,
+      "source_file_sha256": "1ce72765bc195b08dec43ba9cbac1c96b65d43cc1633cd12a778249fb386de9b",
+      "file_sha256": "b5594b12a73f070ac3c6cad523508af302a81e7d6e3543e2c529141a9f65783b",
+      "bytes": 9030,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

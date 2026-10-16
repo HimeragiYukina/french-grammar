@@ -1,0 +1,30 @@
+{
+  "text": "Pendant la dernière semaine du stage, nous avons préparé un bilan.",
+  "text_sha256": "0ad7fd2ee7a0041ab850552ce137600db42e6d9e640c7eea30bfb17dd996b787",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.436553287981859,
+      "source_seconds": 3.436553287981859,
+      "source_file_sha256": "f1ce6597aa7ece4da6dded4b8c816bed84f8668d349b2c191946512bcc1a8b4c",
+      "file_sha256": "3ff3ed849e04a6a0558bf39263ce568864f1cab263bf992de4756a21bcfbceae",
+      "bytes": 28256,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

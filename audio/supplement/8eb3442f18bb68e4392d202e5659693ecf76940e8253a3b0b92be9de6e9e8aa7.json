@@ -1,0 +1,30 @@
+{
+  "text": "(à un ami) Tu es fatigué ? ___ (se reposer) !",
+  "text_sha256": "8eb3442f18bb68e4392d202e5659693ecf76940e8253a3b0b92be9de6e9e8aa7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.461315192743764,
+      "source_seconds": 2.461315192743764,
+      "source_file_sha256": "12f20069ac1dbe1274a4bad290a65f2419bad7240cc859433267651ebdf52245",
+      "file_sha256": "8b85ee0d5c7f2e509df6626b77f2d34f8fa6cb88d3332e505507211ff405995b",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "de, manquer à/de, en vouloir à, il s'agit de.",
+  "text_sha256": "306691760ed98769a0f828ed2fd01fa4f5201a44b8f04cb7d981c15aaa148c9b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8212244897959184,
+      "source_seconds": 2.8212244897959184,
+      "source_file_sha256": "291ac480a6839b761a9c72b686d972b4271b22a9864f83c8f716f529780b46a0",
+      "file_sha256": "82b38d2b629ecb339d7e811f0434fec38756accec416dc15875c0ffd73c88e4e",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

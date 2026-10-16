@@ -1,0 +1,30 @@
+{
+  "text": "soit venue",
+  "text_sha256": "1ae1f5bdd5a7a0810b60970a6bfe6415661dfe9854a174599228b2a9c07c1dc5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8707482993197279,
+      "source_seconds": 0.8707482993197279,
+      "source_file_sha256": "f04afdb9f69d5430f1a1468b3289582680ad18fba63c775cf8291e3244a8e38e",
+      "file_sha256": "db745eaa3b3f23bed79cc230df9a2d7fbd956a53f0c287be82ac656dc76a1f06",
+      "bytes": 7776,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

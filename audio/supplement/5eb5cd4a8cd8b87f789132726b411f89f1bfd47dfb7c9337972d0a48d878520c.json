@@ -1,0 +1,30 @@
+{
+  "text": "Je suis fatigué et tu es content.",
+  "text_sha256": "5eb5cd4a8cd8b87f789132726b411f89f1bfd47dfb7c9337972d0a48d878520c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9040362811791383,
+      "source_seconds": 1.9040362811791383,
+      "source_file_sha256": "b58087dd33f07be4fc976cc9e80d1476dc41aa4521670b1ad08d7471c30cc284",
+      "file_sha256": "f8c0a428044fdc5c63eb13959c391781757ff77a0d30f1dbe543708e00736419",
+      "bytes": 15926,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Étant donné que le délai est court, nous devons choisir rapidement.",
+  "text_sha256": "4e12438e2685b84ec7bd4486e4f95d2c00dd9707843d5c9f6e3f0c88fd00b8ba",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5294331065759637,
+      "source_seconds": 3.5294331065759637,
+      "source_file_sha256": "89b54d6ca56e2041bf2c6d2e957ae43cb83885cf429e481dacf44506b484894e",
+      "file_sha256": "c1c2d2c28b09d2c2026b486f1e4fe36b23ebe64b370b0637fde61d986da2f438",
+      "bytes": 29092,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

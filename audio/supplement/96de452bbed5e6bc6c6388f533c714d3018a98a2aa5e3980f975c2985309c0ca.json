@@ -1,0 +1,30 @@
+{
+  "text": "Il souhaitait qu'elle vînt le lendemain. Il doutait qu'elle fût venue la veille. Aujourd'hui : Il souhaitait qu'elle vienne le lendemain ; il doutait qu'elle soit venue la veille.",
+  "text_sha256": "96de452bbed5e6bc6c6388f533c714d3018a98a2aa5e3980f975c2985309c0ca",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.90639455782313,
+      "source_seconds": 7.90639455782313,
+      "source_file_sha256": "96531951bbbbf5fa3a9bfcc006c2079732230fa4908d3339ac32daa2d1bedae0",
+      "file_sha256": "d9d8277981634da094a4006f3d2f0a798f4c30a3fa82c6bae7927206ecc56ce6",
+      "bytes": 63991,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

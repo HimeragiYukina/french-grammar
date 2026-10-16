@@ -1,0 +1,30 @@
+{
+  "text": "Nous pique-niquerons dimanche, à moins qu'il ne pleuve.",
+  "text_sha256": "f4e2a850fbdcf925540e6457337e61b40fe23567ee8df1c11550afef4bbeaa98",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.705124716553288,
+      "source_seconds": 2.705124716553288,
+      "source_file_sha256": "e2dfabcd961a0b0f2ca38fffee21ee75b97b732d319d3782d7235a02bc2c7fe1",
+      "file_sha256": "e9d21fead0eeeae114dfe3107c168d0da0bd68391554d57c0794173794435a78",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

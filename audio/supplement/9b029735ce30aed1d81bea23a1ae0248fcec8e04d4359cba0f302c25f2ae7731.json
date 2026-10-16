@@ -1,0 +1,30 @@
+{
+  "text": "Mon frère est aussi âgé que moi : nous avons le même âge.",
+  "text_sha256": "9b029735ce30aed1d81bea23a1ae0248fcec8e04d4359cba0f302c25f2ae7731",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.564263038548753,
+      "source_seconds": 3.564263038548753,
+      "source_file_sha256": "a4380fca2b427ed2ed68dfdc32d4465be2e95ca027354ec17b336a4a9b5f6c1b",
+      "file_sha256": "27c554ce8a6c5a6d90a33f538fcb6bbcce02fa13863cb74d5577cf4af1813fb2",
+      "bytes": 29301,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

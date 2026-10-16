@@ -1,0 +1,30 @@
+{
+  "text": "Ce petit hôtel est calme.",
+  "text_sha256": "f8dedda5f29c50b7dd1947842fb5b9a9215df269fe3e92adfa43075fd22493bb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5325170068027212,
+      "source_seconds": 1.5325170068027212,
+      "source_file_sha256": "a2ff35f9d6aeffcab4a181ddaaf7ffe16f31536c026f594b7a77eadd10e984be",
+      "file_sha256": "393697212b33c26140190cadda4d4f9d425609c531b2c3158bdc81a15e69f073",
+      "bytes": 13000,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

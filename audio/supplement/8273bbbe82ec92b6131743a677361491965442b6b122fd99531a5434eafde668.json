@@ -1,0 +1,30 @@
+{
+  "text": "Nous allons chez le médecin ; nous y allons à pied.",
+  "text_sha256": "8273bbbe82ec92b6131743a677361491965442b6b122fd99531a5434eafde668",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.972154195011338,
+      "source_seconds": 2.972154195011338,
+      "source_file_sha256": "7769b516d7a6a3b37a03e8876d7db1cf7bf0238055565bc5dc56da03f1da0a24",
+      "file_sha256": "e320d77c698d864fb908cd4d6633dfe28676e227a15136f2d3c59014a66a17ce",
+      "bytes": 24494,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

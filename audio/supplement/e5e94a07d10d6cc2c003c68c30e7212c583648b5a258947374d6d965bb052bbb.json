@@ -1,0 +1,30 @@
+{
+  "text": "Grâce à la générosité de nos donateurs, le projet a vu le jour.",
+  "text_sha256": "e5e94a07d10d6cc2c003c68c30e7212c583648b5a258947374d6d965bb052bbb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.028662131519274,
+      "source_seconds": 4.028662131519274,
+      "source_file_sha256": "3391671d86baf10b11343554a52821bbb9683c74ed9caa87be8dec21b9029a93",
+      "file_sha256": "dabcad00ef7b9e8dc544042d1608f909e900da790ac52ed3ee6292f7ff4a6d63",
+      "bytes": 33062,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

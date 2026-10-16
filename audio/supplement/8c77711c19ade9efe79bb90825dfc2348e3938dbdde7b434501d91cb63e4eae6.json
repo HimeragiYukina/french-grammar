@@ -1,0 +1,30 @@
+{
+  "text": "Elle m’a expliqué que le client avait envoyé ses questions la veille.",
+  "text_sha256": "8c77711c19ade9efe79bb90825dfc2348e3938dbdde7b434501d91cb63e4eae6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1346938775510202,
+      "source_seconds": 3.1346938775510202,
+      "source_file_sha256": "2a8b4c19e0824d1c81e23b1480ce11b0c936ed56935600bee54f1e344be0c327",
+      "file_sha256": "2873c48dd0a292e2d855e26ad7e965d8d44f344b18fda1790ae58764ffde3aea",
+      "bytes": 25748,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

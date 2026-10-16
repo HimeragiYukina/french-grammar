@@ -1,0 +1,30 @@
+{
+  "text": "Il manquait des signatures ; aussi le dossier fut-il renvoyé.",
+  "text_sha256": "3e0c0603fd2a6ff36d6cdd0263548b4d992cbec8cce146abd303b580c89cbe2f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.517823129251701,
+      "source_seconds": 3.517823129251701,
+      "source_file_sha256": "e451b63fa353d3e7020d2302fbe37ad4ac869da157c5e13afb425f6e0ecf110a",
+      "file_sha256": "f2481192a582edebb01504304e32a58aea492c089f8bcd8213db5d138fd38e9a",
+      "bytes": 28883,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

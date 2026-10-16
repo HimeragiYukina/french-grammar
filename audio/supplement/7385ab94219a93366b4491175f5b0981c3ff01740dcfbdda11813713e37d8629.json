@@ -1,0 +1,30 @@
+{
+  "text": "Je lui vais",
+  "text_sha256": "7385ab94219a93366b4491175f5b0981c3ff01740dcfbdda11813713e37d8629",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9287981859410431,
+      "source_seconds": 0.9287981859410431,
+      "source_file_sha256": "fbb100ea712993e7e96caa067c8dd5c4b0930862c19cb61793c6a932ddfada53",
+      "file_sha256": "df6d2eaec1b04247544c0954e5145c08286e9d32523d6968bc27993b05c7686b",
+      "bytes": 8194,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elle se tait, non pas qu'elle ait peur, mais parce qu'elle réfléchit.",
+  "text_sha256": "76d7eb20f493918e49b4dc2abb2e2e87c40faa4368872500e934ae2fe8fa174f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.006984126984127,
+      "source_seconds": 3.006984126984127,
+      "source_file_sha256": "61062c6d72f0b5501710c25c1fae055f5818d92c2647850aaa9ed061b2bd40a9",
+      "file_sha256": "b61bd45ed960bf831ec2cba41817c111ffc9ccc7cb3c5163ca8a966c7ce1de55",
+      "bytes": 24912,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

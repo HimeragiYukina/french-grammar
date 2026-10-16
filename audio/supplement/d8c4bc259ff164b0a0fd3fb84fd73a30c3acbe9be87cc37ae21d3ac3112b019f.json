@@ -1,0 +1,30 @@
+{
+  "text": "le vélo de Paul",
+  "text_sha256": "d8c4bc259ff164b0a0fd3fb84fd73a30c3acbe9be87cc37ae21d3ac3112b019f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3583673469387756,
+      "source_seconds": 1.3583673469387756,
+      "source_file_sha256": "fd8bd7b44e8e363eef80badb2b72fca35a1b3f2e04f6d4f4bf2ae96e1b879c7c",
+      "file_sha256": "a1a6938b8064982bc1ec7f82f618de3a34f6bce9421ad028505b417c8b92f87b",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

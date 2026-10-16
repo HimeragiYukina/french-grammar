@@ -1,0 +1,30 @@
+{
+  "text": "Peut-être Léa viendra-t-elle ; elle parle aussi italien.",
+  "text_sha256": "fb29e7f4e1e80114e41e64a6e8d6a1d47b9c0b32e51a246933066dada40140fb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.786394557823129,
+      "source_seconds": 2.786394557823129,
+      "source_file_sha256": "92895f7fd0c81b4e20a4b43c872c62c0e4d1243ea850136ede3a7a6cf369e530",
+      "file_sha256": "16e137c26b152b62ecd1aa098eb5aa0e435d626c01afe43e2b5efe42d55771d9",
+      "bytes": 23031,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

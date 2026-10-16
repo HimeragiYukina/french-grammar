@@ -1,0 +1,30 @@
+{
+  "text": "Il aime son ancienne école.",
+  "text_sha256": "786f158f4ac330b9023ef43d80d997f1642ec5829fff38fb4a351ab86c51d74c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5441269841269842,
+      "source_seconds": 1.5441269841269842,
+      "source_file_sha256": "df206e0cafdc4fb5b12302a10321b27d3be7594c03dc5b57a4fbef29328540ed",
+      "file_sha256": "adb5bbc33cff7a79aef1018877548bf58abd6c88585dc2b2f4aebf8fbcc79f4e",
+      "bytes": 13209,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

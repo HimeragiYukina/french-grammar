@@ -1,0 +1,30 @@
+{
+  "text": "Tu bois de l'eau ? — Oui, j'___ bois.",
+  "text_sha256": "013b678537e3c4c910ed6ede00748e352aff4ab0b07d8707b824ce9d6933cf3d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.10140589569161,
+      "source_seconds": 2.10140589569161,
+      "source_file_sha256": "43cde6313df1ff3887a4245ef6a2f3030decfb433309c8de81ef55f9f4c1db30",
+      "file_sha256": "8eb1507e4f9de7be741551a0d68e2188648c6b13b30bb9852a47c14a44135aa9",
+      "bytes": 17598,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

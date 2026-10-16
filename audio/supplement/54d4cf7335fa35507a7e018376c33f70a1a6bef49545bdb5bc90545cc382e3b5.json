@@ -1,0 +1,30 @@
+{
+  "text": "une tasse de thé",
+  "text_sha256": "54d4cf7335fa35507a7e018376c33f70a1a6bef49545bdb5bc90545cc382e3b5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1261678004535147,
+      "source_seconds": 1.1261678004535147,
+      "source_file_sha256": "cec74803b7858c952d221b51690e5780a576baf080f98a8f1195daac8d8aa604",
+      "file_sha256": "66d1e815d8289245748f908ff338b6e136347c8ee7d0da31ce2cbe9bccfa8b08",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

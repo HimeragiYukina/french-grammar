@@ -1,0 +1,30 @@
+{
+  "text": "Les lettres qu’elles se sont envoyées ont été conservées. Elles se sont téléphoné hier.",
+  "text_sha256": "5ed212e7fdf08c16cc811f2586fe407ff81aa521c8b3db86ee20f11f91f7c9d1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.214421768707483,
+      "source_seconds": 4.214421768707483,
+      "source_file_sha256": "ea146eb933b957f74b3f599676df7b2c1d5da4dfc218901171f6fbf8cc3ec662",
+      "file_sha256": "6a2593839bf3f0890c2d823239d77e02d170497311e0ced912edb2d7880535b5",
+      "bytes": 34525,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

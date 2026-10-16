@@ -1,0 +1,30 @@
+{
+  "text": "La préposition change le sens : tenir à",
+  "text_sha256": "466ac6ebc08bbdead6467a5a5f0865d0eaa3eba3cd6abdc604f04144904a265c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.111473922902494,
+      "source_seconds": 3.111473922902494,
+      "source_file_sha256": "24cfbc90a29328ab637b75d30b3a8201f0a720be454edd4ddb9e1c84ec15a466",
+      "file_sha256": "46db792097b1ca51be48aae03bbf484617225a263fc217bfa32f2d930e0bae1f",
+      "bytes": 25748,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

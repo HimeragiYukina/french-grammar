@@ -1,0 +1,30 @@
+{
+  "text": "Il doit être parti",
+  "text_sha256": "cfed74934cae6d170b5d7c430dac7fb4ab9315bfe050a49b740e832e0bb4da0e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3235374149659864,
+      "source_seconds": 1.3235374149659864,
+      "source_file_sha256": "8a700c0e7a6a57da7ec8b94b29cb2d70c639a499e2845a50c4110e9a594ede5f",
+      "file_sha256": "3106110b63c1b25a246c33a6cf1de447eab7556434679414d4e831ab95180d3c",
+      "bytes": 11328,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

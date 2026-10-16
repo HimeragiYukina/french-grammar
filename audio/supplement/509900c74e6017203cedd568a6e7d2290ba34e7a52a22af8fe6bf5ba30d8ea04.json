@@ -1,0 +1,30 @@
+{
+  "text": "Il est une heure ; le rendez-vous est à deux heures.",
+  "text_sha256": "509900c74e6017203cedd568a6e7d2290ba34e7a52a22af8fe6bf5ba30d8ea04",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.75156462585034,
+      "source_seconds": 2.75156462585034,
+      "source_file_sha256": "2d95cedcd812b000a0eac4f424aee8ab5ff1beb726febe126dc4a260dfcb980d",
+      "file_sha256": "7859341230390b1295bdb20fa7bec5669770f90d8a1ac2be7b43269b837fb54b",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

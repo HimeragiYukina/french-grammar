@@ -1,0 +1,30 @@
+{
+  "text": "Je ___ ___ ai ___ (envoyer) ce matin.",
+  "text_sha256": "beb2d4cd8563d0617cff0ed7ac2a68b681c9758656274f484498180bcf8e9a50",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6370068027210884,
+      "source_seconds": 1.6370068027210884,
+      "source_file_sha256": "22e83006f8cf2f575337e66b01330daabd2cdd32bc6ee2db31c1630d11394005",
+      "file_sha256": "ea6b2db660996dfa5703ccb9018f4326488186f74ea59398562d013b9df6a437",
+      "bytes": 13836,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

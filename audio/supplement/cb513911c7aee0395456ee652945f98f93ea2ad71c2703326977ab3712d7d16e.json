@@ -1,0 +1,30 @@
+{
+  "text": "Gérondif et négations",
+  "text_sha256": "cb513911c7aee0395456ee652945f98f93ea2ad71c2703326977ab3712d7d16e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6021768707482993,
+      "source_seconds": 1.6021768707482993,
+      "source_file_sha256": "f9db30ee885134ae3609f9290b26e1fa6d477de7e2b71d0fe6a2f1c8277ef8e9",
+      "file_sha256": "48535cf7d77fd5ac7adb033d7f7988500fca83379bc3fa911db183857b826f7c",
+      "bytes": 13627,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

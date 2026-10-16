@@ -1,0 +1,30 @@
+{
+  "text": "se faire couper les cheveux",
+  "text_sha256": "5a98397cd8a9a3d562f85570e55bb5450dcf8b349bd32a919879e1a6700e2263",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6486167800453515,
+      "source_seconds": 1.6486167800453515,
+      "source_file_sha256": "c08efa76ac9a7441a654be69812cba9b12197e2e9c70e3db16459695577a1143",
+      "file_sha256": "9da2a9b4106f1551bde27a6e5c290169f230556d651de51a8c347b4278935518",
+      "bytes": 14045,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Laisses-en échapper un peu",
+  "text_sha256": "abe68d2e3f2161e9e4d4249b875fb6f013b4a1666fc403c92b734f7faa5a609e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.486077097505669,
+      "source_seconds": 1.486077097505669,
+      "source_file_sha256": "081005d71cd3f61f8dc47a89619d26e2bc40a47577d2ecfe01b20ebe5fc4d206",
+      "file_sha256": "643ccf5ecfb7a5be57e83a98fb5bd1aec96d60f606de803fc4f3e986c9e5caa7",
+      "bytes": 12582,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

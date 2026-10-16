@@ -1,0 +1,30 @@
+{
+  "text": "Je suis surpris qu'elle ait accepté cette offre.",
+  "text_sha256": "9ed7c9619d97d7360d6c281583ca048516f4be931fe96eb40e22a3566142ca21",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.3103854875283445,
+      "source_seconds": 2.3103854875283445,
+      "source_file_sha256": "fc4c8049592604419733ed66a6f51f9db364d9ef758e8f0c5e8ddb704eafca1f",
+      "file_sha256": "331058570d6184ab1f9868d5632c5b5606474a27a1973e086eb1beb0bfef057e",
+      "bytes": 19270,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

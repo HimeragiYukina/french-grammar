@@ -1,0 +1,30 @@
+{
+  "text": "Complétez avec or : Tous le savaient. ___ , personne n'agit.",
+  "text_sha256": "3fa8fca50d20c65ea046bf556108ace6d873d59400521497523765103f421db7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.239183673469388,
+      "source_seconds": 3.239183673469388,
+      "source_file_sha256": "6f1548038cc61f99c3dc0cc26d0dcc55075bd75005904b6bfb891b395a821932",
+      "file_sha256": "921232a3fd79e2a5077de72ab1f1c4d5e007a78dfa3b1c45d8062e02da8d5320",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

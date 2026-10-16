@@ -1,0 +1,30 @@
+{
+  "text": "Je ne lui ai pas répondu.",
+  "text_sha256": "d046bb2c96a2d965d21780c6b731d6ed563b1d34066b140d6e14c7c23597f13d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6486167800453515,
+      "source_seconds": 1.6486167800453515,
+      "source_file_sha256": "b61828923e375c0b3059442c677fc21f5157ab26a687f4230a9ed00ea56d21d5",
+      "file_sha256": "15aadeb4b8c054dbb575ae723154732cb57bd61771f595ff3dfabb8a78a217c0",
+      "bytes": 14045,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

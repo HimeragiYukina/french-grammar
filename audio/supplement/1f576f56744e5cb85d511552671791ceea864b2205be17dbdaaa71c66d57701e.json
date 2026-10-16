@@ -1,0 +1,30 @@
+{
+  "text": "Pourrais-tu vérifier les horaires du bus avant de confirmer notre rendez-vous ?",
+  "text_sha256": "1f576f56744e5cb85d511552671791ceea864b2205be17dbdaaa71c66d57701e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.657142857142857,
+      "source_seconds": 3.657142857142857,
+      "source_file_sha256": "d60c43de4824813f1ca8461610371fac8f06feb5d65e23597444bf3205ef0772",
+      "file_sha256": "aa61d6e117aa360a9cea587a3f9b33c7097436cf5c39ae141fa52dce71894d00",
+      "bytes": 29928,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

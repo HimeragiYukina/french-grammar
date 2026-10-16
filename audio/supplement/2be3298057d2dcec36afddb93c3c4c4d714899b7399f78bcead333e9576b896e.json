@@ -1,0 +1,30 @@
+{
+  "text": "Elle raconte une histoire heureuse.",
+  "text_sha256": "2be3298057d2dcec36afddb93c3c4c4d714899b7399f78bcead333e9576b896e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7531065759637188,
+      "source_seconds": 1.7531065759637188,
+      "source_file_sha256": "6c83da54d84028e458874e7840d681af62ed280dfa68db548db3e22832c8cec1",
+      "file_sha256": "af56ea75a42efd30c321f4d187550bc9b28af669094562fb5185527932727894",
+      "bytes": 14881,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

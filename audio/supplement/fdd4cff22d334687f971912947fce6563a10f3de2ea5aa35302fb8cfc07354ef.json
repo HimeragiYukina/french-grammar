@@ -1,0 +1,30 @@
+{
+  "text": "Préposition + lequel/auquel/de laquelle… (choses surtout ; personnes : qui). « Dont » est généralement préféré pour un complément en « de » ; après une locution comme « à côté de », on conserve la préposition avec « duquel/de laquelle… ».",
+  "text_sha256": "fdd4cff22d334687f971912947fce6563a10f3de2ea5aa35302fb8cfc07354ef",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 11.679637188208616,
+      "source_seconds": 11.679637188208616,
+      "source_file_sha256": "7a39e7435c63b086b776059f571d2feb33e68f181f2d79da1b08f9a5ef6b6cd6",
+      "file_sha256": "7a288bd20c4cebdc9c3c44097e70f64c6ba0378b83c993e87ea3f6046eee0b76",
+      "bytes": 94293,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

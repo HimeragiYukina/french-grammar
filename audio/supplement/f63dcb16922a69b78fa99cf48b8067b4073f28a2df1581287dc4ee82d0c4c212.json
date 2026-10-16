@@ -1,0 +1,30 @@
+{
+  "text": "Nous choisissons nos exercices.",
+  "text_sha256": "f63dcb16922a69b78fa99cf48b8067b4073f28a2df1581287dc4ee82d0c4c212",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8924263038548752,
+      "source_seconds": 1.8924263038548752,
+      "source_file_sha256": "482fd6c48890eef39f1bc2e6ea97ac83ae9608b897917ec87c21600c6dbee7d9",
+      "file_sha256": "fa4719b22c12da3254b4349006ea438eb358e544295de4fc9e987c6052d954f5",
+      "bytes": 15926,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

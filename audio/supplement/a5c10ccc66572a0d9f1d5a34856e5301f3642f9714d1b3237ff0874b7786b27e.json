@@ -1,0 +1,30 @@
+{
+  "text": "Lorsque les invités furent partis, elle ferma les volets.",
+  "text_sha256": "a5c10ccc66572a0d9f1d5a34856e5301f3642f9714d1b3237ff0874b7786b27e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.972154195011338,
+      "source_seconds": 2.972154195011338,
+      "source_file_sha256": "f573833d57c985e0e4efe670a28ab91e7ba8b3daacdffa923148255a4bff017d",
+      "file_sha256": "721f95d9f1f9f61bbb5114812b7d8a76cd6a9a4ffe67ff234511c97afa57137e",
+      "bytes": 24494,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

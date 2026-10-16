@@ -1,0 +1,30 @@
+{
+  "text": "manquer le train",
+  "text_sha256": "676f4e4e964f09eb6652500b407a41345574ffdf0d255003abbddbf54ed9e40f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0565079365079366,
+      "source_seconds": 1.0565079365079366,
+      "source_file_sha256": "3e6b7bda4d807bac2fd049444bc4d83aad68c5586fb962b05bc8302056666d0b",
+      "file_sha256": "c6043aeedf85b6ce0e48e0f7c60fcd55b4578a77b157be46daf801a0426df1f9",
+      "bytes": 9239,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

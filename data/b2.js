@@ -629,7 +629,7 @@ window.GRAMMAR_DATA.B2={
       {
         "q": "À ta place, je ___ (refuser) cette proposition. (假设→条件式)",
         "a": "À ta place, je refuserais cette proposition.",
-        "note": "考查条件式:假设『换作是你』的情景,用条件式现在委婉表达建议。"
+        "note": "考查条件式：À ta place 表示“如果我是你／处在你的位置”，用条件式现在 refuserais 委婉表达建议。"
       },
       {
         "q": "Il est possible que nous ___ (devoir) reporter la réunion. (il est possible que→虚拟)",
@@ -1085,7 +1085,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "Je suis content que tu viennes demain（高兴你明天要来）/ que tu sois venu hier（高兴你昨天来了）。Il faut que tu finisses（要求去完成）/ que tu aies fini à midi（要求中午时已完成）。同主语常用 Je regrette d'avoir oublié，而不是重复主语的 que 从句。",
       "errors": "错：Je suis content que tu as réussi → que tu aies réussi；错：qu'elles soient arrivé → soient arrivées。不要把所有 passé 一律译为‘过去某天’，须检查截止点。",
-      "boundaries": "现代法语即使主句在过去，也常用虚拟式现在/过去：J'étais heureux qu'elle soit venue。文学性的虚拟式愈过去另见高级章节。过去分词配合仍须区分 avoir、être 与代词式动词。"
+      "boundaries": "现代法语即使主句在过去，也常用虚拟式现在/过去：J'étais heureux qu'elle soit venue。文学性的虚拟式愈过去另见高级章节。过去分词配合仍须区分 avoir、être 与代词式动词。",
+      "related": [],
+      "practice": [
+        {
+          "q": "周四上午布置任务，要求周五18点之前完成：Il faut que vous ___ le dossier vendredi à dix-huit heures au plus tard. 用 terminer 的虚拟式过去，并说明为何不是“昨天”。",
+          "a": "Il faut que vous ayez terminé le dossier vendredi à dix-huit heures au plus tard.",
+          "note": "ayez 为 avoir 虚拟式现在，terminé 不变（后置COD）。过去式标相对未来截止点已完成；此时任务仍在未来。ayez fini 语义可接受，但本题指定 terminer。"
+        },
+        {
+          "q": "已知两位女同事昨日到达，给她们写两句：你很高兴她们到达，却遗憾她们未提前通知你。用 vous、arriver、prévenir 和两处虚拟式过去。",
+          "a": "Je suis heureuse que vous soyez arrivées hier. Je regrette que vous ne m’ayez pas prévenue plus tôt.",
+          "note": "示范说话者为女性，arrivées 与女性复数vous配合；prévenue 与前置直接宾语m’（女说话者）配合。男说话者用heureux/prévenu也正确。必须保留到达已发生与未事先通知两事实，不能把ne译成赘词。"
+        }
+      ]
     },
     "b2-mode-choix": {
       "sections": [
@@ -1279,7 +1292,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "Il a dit qu'il était malade（当时病了，现在是否仍病未说明）/ qu'il est malade（把病情呈现为目前仍有效）。hier → la veille 仅在时间参照改变时；同一天即时转述可保留 aujourd'hui。",
       "errors": "错：Il m'a demandé où est-ce que j'habite → où j'habitais / où j'habite；错：Elle a dit que je viendrais（原话 je 指她）→ qu'elle viendrait。",
-      "boundaries": "过去视点转述通常后移，而不是逢过去主句就机械后移。原话中的未完成过去常保持未完成过去；现代虚拟式的时态呼应不按直陈式表格机械变化。"
+      "boundaries": "过去视点转述通常后移，而不是逢过去主句就机械后移。原话中的未完成过去常保持未完成过去；现代虚拟式的时态呼应不按直陈式表格机械变化。",
+      "related": [],
+      "practice": [
+        {
+          "q": "周一 Paul 对我说 « Je te rappellerai demain. » 周三我在另一地点转述这句话；按过去视点、人称及时间参照改写，不添加他是否真的回电。",
+          "a": "Lundi, Paul m’a dit qu’il me rappellerait le lendemain.",
+          "note": "rappellerait为过去的未来，不说明承诺履行与否；le lendemain 指周二。也接受mardi（指示清楚），本题跨日转述不能把demain保留为周四。"
+        },
+        {
+          "q": "周三回顾周一教师解释的普遍规律 « L’eau bout à 100 °C à la pression atmosphérique normale. » 用 Le professeur a expliqué que… 转述，并说明为何可不后移。",
+          "a": "Le professeur a expliqué que l’eau bout à 100 °C à la pression atmosphérique normale.",
+          "note": "一般规律可保留现在时；未完成过去bouillait若忠实定位当时讲解也可接受，不能机械判错。保留正常大气压条件，不能写成任何压力都100度沸腾。"
+        }
+      ]
     },
     "b2-participe-present": {
       "sections": [
@@ -1350,7 +1376,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "Il apprend en écoutant（他通过听来学习，方法/同时）/ Les élèves écoutant l'enregistrement（正在听录音的学生，修饰名词）。une histoire intéressante（有趣的故事）/ une histoire intéressant les chercheurs（引起研究者兴趣的故事）。",
       "errors": "错：Les personnes parlantes français → parlant français；悬垂：Ayant raté le train, le voyage a été annulé → Ayant raté le train, nous avons annulé le voyage。",
-      "boundaries": "独立结构可明确不同主语，不意味着任何无主语分词都可随意指向别的人。现在分词常比关系从句书面，日常口语可保留完整从句。"
+      "boundaries": "独立结构可明确不同主语，不意味着任何无主语分词都可随意指向别的人。现在分词常比关系从句书面，日常口语可保留完整从句。",
+      "related": [],
+      "practice": [
+        {
+          "q": "改正悬垂结构，明确是“我们错过火车”：Ayant raté le train, le rendez-vous a été reporté. 保留复合分词开头，并保留我们推迟约见的动作。",
+          "a": "Ayant raté le train, nous avons reporté le rendez-vous.",
+          "note": "无另列主语的ayant raté逻辑主语须与nous对应；原句会让rendez-vous仿佛错过火车。也可完整从句Comme nous avions raté…，但本题要求保留复合分词。"
+        },
+        {
+          "q": "为工作安排写两句并选正确拼写：Ces tâches ___ les équipes demandent un contrôle. / Ces tâches sont très ___. 用 fatiguer 的现在分词和动词形容词，并说明为何一处有u。",
+          "a": "Ces tâches fatiguant les équipes demandent un contrôle. Ces tâches sont très fatigantes.",
+          "note": "fatiguant 带直接宾语les équipes，为动词性分词，不配合且保留u；fatigantes受très修饰、描述性质，与tâches阴复配合。任务可改写，须保留动词性/性质区别，不能写fatiguantes作为形容词。"
+        }
+      ]
     },
     "b2-se-faire": {
       "sections": [
@@ -1409,7 +1448,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "Elle a été licenciée（中性被动）/ Elle s'est fait licencier（突出她的遭遇，可暗示招致后果，依语境）/ Elle s'est vu notifier son licenciement（书面：她收到解雇通知）。se faire couper les cheveux 不能简单改成‘她的头发主动剪自己’。",
       "errors": "错：Elles se sont faites aider → se sont fait aider；错：Elles se sont vues refuser l'entrée → se sont vu refuser l'entrée。vu 是否配合须按宾语与不定式关系判断，不可一律判为不变。",
-      "boundaries": "se faire 常见于口语，se voir 通常较正式，不能把两者都概括为‘比被动更口语’。配合不仅依主语性数，也依句法功能；有歧义时用标准 être 被动或 on 主动句澄清。"
+      "boundaries": "se faire 常见于口语，se voir 通常较正式，不能把两者都概括为‘比被动更口语’。配合不仅依主语性数，也依句法功能；有歧义时用标准 être 被动或 on 主动句澄清。",
+      "related": [],
+      "practice": [
+        {
+          "q": "两位女候选人获邀复试，不是她们主动提出邀请。用 se voir + proposer 改写：On a proposé un second entretien aux candidates. 注意vu的配合。",
+          "a": "Les candidates se sont vu proposer un second entretien.",
+          "note": "se 对应proposer à，为间接宾语，vu不配合；不因主语女性复数就写vues。改être被动通常需改变结构，本题指定se voir。"
+        },
+        {
+          "q": "用两句对照自愿安排与非自愿遭遇：一位女士请人修自行车；另一位女士自行车被偷。分别用se faire réparer / se faire voler，说明这不能一律译成“被迫”。",
+          "a": "Léa s’est fait réparer son vélo. Nora s’est fait voler son vélo.",
+          "note": "fait 后接不定式一律不配合；第一句可为主动安排服务，第二句为遭遇。姓名与时态可变，须保持两个意义，不把faire本身当自愿性判定器。"
+        }
+      ]
     },
     "b2-relatifs-composes": {
       "sections": [
@@ -1474,7 +1526,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "le dossier que j'étudie（étudier 直接宾语）/ auquel je m'intéresse（s'intéresser à）/ dont je parle（parler de）/ au sujet duquel je vous écris（au sujet de 整体）。代词选择取决于从句中的功能，不取决于中文是否有‘的’。",
       "errors": "错：La question que je pense → à laquelle je pense；错：la ville dans lequel → dans laquelle；错：le pont à côté dont → à côté duquel。dont 已包含 de，不加重复 en 或 de。",
-      "boundaries": "不能把“普通 de 优先 dont”理解成“duquel 只有复合介词后才合法”。教学主路径是普通 de 优先 dont，复合介词保留 de；文学、正式文体和避免歧义时存在其他合法选择。"
+      "boundaries": "不能把“普通 de 优先 dont”理解成“duquel 只有复合介词后才合法”。教学主路径是普通 de 优先 dont，复合介词保留 de；文学、正式文体和避免歧义时存在其他合法选择。",
+      "related": [],
+      "practice": [
+        {
+          "q": "合并，保留全部介词：Voici les deux méthodes. Nous avons recours à ces méthodes. / Voici la salle. Nous travaillons à côté de cette salle.",
+          "a": "Voici les deux méthodes auxquelles nous avons recours. Voici la salle à côté de laquelle nous travaillons.",
+          "note": "avoir recours à → auxquelles（阴复）；à côté de整体保留 → de laquelle（阴单）。不用dont替换整个à côté de；也不根据中文“的”一律选que。"
+        },
+        {
+          "q": "写一句研究说明：三位女决赛选手中，评委将选出一人。用 parmi + 复合关系代词；再用avec qui说明你和一位女同事共同核查。",
+          "a": "Voici trois finalistes, parmi lesquelles le jury choisira la gagnante. La collègue avec qui je vérifie les résultats participe à la réunion.",
+          "note": "题干明确全为女性，parmi lesquelles；parmi后不选qui。avec qui指人自然，也接受avec laquelle。开放后句内容可变，但介词与先行词关系须清楚。"
+        }
+      ]
     },
     "b2-mise-relief": {
       "sections": [
@@ -1533,7 +1598,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "Marie a appelé（普通报告）/ C'est Marie qui a appelé（回答‘是谁’，可排除其他人）。Ce qui me plaît（使我喜欢的东西，主语）/ Ce que j'aime（我喜欢的东西，宾语）。",
       "errors": "错：C'est toi qui a raison → qui as raison；错：C'est Paul que est venu → qui est venu；错：C'est Léa que je parle → C'est à Léa que je parle。",
-      "boundaries": "口语 c'est eux 很常见，正式写作偏 ce sont eux。强调句通常带有对照或焦点，堆用会显得刻意；c'était/c'est 将焦点放在过去/现在叙述时刻，不能只由从句时态决定。"
+      "boundaries": "口语 c'est eux 很常见，正式写作偏 ce sont eux。强调句通常带有对照或焦点，堆用会显得刻意；c'était/c'est 将焦点放在过去/现在叙述时刻，不能只由从句时态决定。",
+      "related": [],
+      "practice": [
+        {
+          "q": "有人误以为Paul发了消息；你澄清“是我发的，不是Paul”。用c’est…qui并正确配合avoir。",
+          "a": "C’est moi qui ai envoyé le message, pas Paul.",
+          "note": "qui的先行词moi为第一人称，故ai，不能写a。也可Ce n’est pas Paul…但本题要求焦点为moi，保留否认误归属。"
+        },
+        {
+          "q": "会议中先强调需要的是时间，不是新工具，再强调你把报告交给的是Léa。分别用 Ce dont…c’est… 和 C’est à…que…。",
+          "a": "Ce dont nous avons besoin, c’est du temps, pas un nouvel outil. C’est à Léa que j’ai remis le rapport.",
+          "note": "avoir besoin de决定ce dont；这里焦点用名词组du temps（部分冠词）和un nouvel outil。另一结构C’est de temps que nous avons besoin保留介词de并用que，不能混成C’est de temps dont nous avons besoin。remettre à Léa在强调部分保留à，后用que。允许合理人称及同义动词，但应保留需要的对象与报告接收者两项。"
+        }
+      ]
     },
     "b2-nominalisation": {
       "sections": [
@@ -1588,7 +1666,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "L'entreprise recrute（实际招聘，有时态）/ Le recrutement de l'entreprise（可指企业招聘，也可能语义不够清楚）/ Le recrutement de techniciens par l'entreprise（对象和施事明确）。名词化不是凡事更高级，完整动词句往往更清楚。",
       "errors": "错：la développation → le développement；错：la gravité problème → la gravité du problème。不要把‘il pourrait partir’直接改成‘son départ’而丢掉可能性，可用 la possibilité de son départ。",
-      "boundaries": "很多词族不规则：partir/départ、mourir/mort、naître/naissance；同词族名词也可能词义分化。过多抽象名词会使行文沉重，正式写作同样需要清楚的施事和动词。"
+      "boundaries": "很多词族不规则：partir/départ、mourir/mort、naître/naissance；同词族名词也可能词义分化。过多抽象名词会使行文沉重，正式写作同样需要清楚的施事和动词。",
+      "related": [],
+      "practice": [
+        {
+          "q": "把两句压缩为名词结构而不抹掉可能性和施事：La mairie pourrait fermer le pont. Les habitants contestent cette possibilité. 用éventuelle/possible及par。",
+          "a": "Les habitants contestent l’éventuelle fermeture du pont par la mairie.",
+          "note": "也接受la fermeture possible…；只写la fermeture du pont把“可能”丢掉，且par la mairie明确关闭者，不把居民写成施事。"
+        },
+        {
+          "q": "“企业拒绝签署合同，项目因此推迟。”写一个名词化标题，再写一句完整说明，保留拒绝而不是已签、保留企业主体。",
+          "a": "Refus de signature du contrat par l’entreprise. L’entreprise a refusé de signer le contrat, ce qui a retardé le projet.",
+          "note": "标题也可Le refus de l’entreprise de signer le contrat；signature seule会丢否定。完整句给已发生时间和因果，但因果为本题已知信息；不能把这一句型推广为名词化自动证明原因。"
+        }
+      ]
     },
     "b2-futur-anterieur": {
       "sections": [
@@ -1643,7 +1734,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "Quand il arrivera, nous partirons（把到达作为时间事件）/ Quand il sera arrivé, nous partirons（突出到达已经完成）。Il a oublié（断言忘了）/ Il aura oublié（推测大概忘了）/ Il aurait oublié（据说忘了或假设结果，依语境）。",
       "errors": "错：Quand j'aie fini, je partirai → Quand j'aurai fini…；错：Elles seront arrivé → arrivées。未来时间从句可用将来，不照搬英语禁止将来的规则。",
-      "boundaries": "时间从句不总是必须先将来，是否强调完成决定选择；après que 接直陈式，avant que 接虚拟式，不能仅因都涉及未来而用同一语气。"
+      "boundaries": "时间从句不总是必须先将来，是否强调完成决定选择；après que 接直陈式，avant que 接虚拟式，不能仅因都涉及未来而用同一语气。",
+      "related": [],
+      "practice": [
+        {
+          "q": "周一安排周五交接：必须先核查完材料，再移交。用quand + futur antérieur和主句简单将来，主语nous。",
+          "a": "Quand nous aurons vérifié les documents, nous les transmettrons.",
+          "note": "aurons vérifié强调将来交接前完成核查；vérifié的COD在后不配合。简单将来Quand nous vérifierons可另表时间事件，本题指定强调先完成。"
+        },
+        {
+          "q": "她现在不接电话，你推测她把手机忘家中，尚无别人证言。用futur antérieur写推测，再写一句说明这不是已核实的过去事实。",
+          "a": "Elle aura oublié son téléphone chez elle. C’est une hypothèse, pas un fait vérifié.",
+          "note": "先将来此处推测此前原因，不指未来才忘。也接受Elle aura peut-être…；不能据此说她一定忘了。若用Elle aurait oublié须解释消息来源或其他假设读法，本题指定futur antérieur。"
+        }
+      ]
     },
     "b2-opposition-concession": {
       "sections": [
@@ -1867,7 +1971,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "Il parle de sorte que tous l'entendent（实际结果，直陈）/ Il parle plus fort de sorte que tous l'entendent（可理解为目的，虚拟式形式与直陈同形，换 puissent l'entendre 更清楚）。Il est si fatigué qu'il s'endort（导致结果）/ trop fatigué pour conduire（程度超限，不能开车）。",
       "errors": "错：si de travail → tant de travail；错：en raison le mauvais temps → en raison du mauvais temps。不要以‘grâce à 永远好、à cause de 永远坏’判断反讽句；也不要把所有连接词都堆在一句里。",
-      "boundaries": "de manière/sorte/façon que 可因实际结果与预期目的改变语气；连词不独自决定。faute de 后可带限定词表示特定对象，零冠词是常见搭配而非绝对禁用冠词。"
+      "boundaries": "de manière/sorte/façon que 可因实际结果与预期目的改变语气；连词不独自决定。faute de 后可带限定词表示特定对象，零冠词是常见搭配而非绝对禁用冠词。",
+      "related": [],
+      "practice": [
+        {
+          "q": "两句分别表达事实结果与预期目的，按要求选语式：Il a déplacé la lampe, de sorte que nous ___ mieux lire.（结果确已发生，pouvoir） / Il déplace la lampe pour que nous ___ mieux lire.（目的）",
+          "a": "Il a déplacé la lampe, de sorte que nous avons pu mieux lire. Il déplace la lampe pour que nous puissions mieux lire.",
+          "note": "第一句结果用直陈式复合过去avons pu，第二句目的虚拟式puissions，移动灯本身不保证目的实现。不是看到que都同一语式。"
+        },
+        {
+          "q": "供应商以没有库存为由取消订单；你没有证据认定库存说法为假。用sous prétexte que报道它，再补一句保留真实性判断。",
+          "a": "Le fournisseur a annulé la commande sous prétexte qu’il n’avait plus de stock. Nous n’avons pas encore vérifié cette explication.",
+          "note": "sous prétexte que把理由呈现为借口/表示距离，不逻辑蕴含“库存一定充足”。也接受faute de stock等若仅报告原因，但本题指定呈现距离；不得编造已查证其撒谎。"
+        }
+      ]
     },
     "b2-but-condition": {
       "sections": [
@@ -1958,7 +2075,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "S'il pleut, prends un parapluie（开放条件，直陈现在）/ Au cas où il pleuvrait, prends un parapluie（预防性设想，条件式）。Je l'aide pour qu'il réussisse（帮助的目的）/ à condition qu'il travaille（帮助成立的条件）。",
       "errors": "错：au cas où il pleuve → pleuvrait；错：afin que tu peux → puisses。‘au cas où 是唯一接条件式的条件连词’过度绝对，dans le cas où 也可使用条件式。",
-      "boundaries": "同主语倾向原形以避免重复，但这不是所有 afin que 从句的绝对禁令。afin que 不保证目的实现；赘词 ne 常可省略，尤其口语，不应在翻译中反转意义。"
+      "boundaries": "同主语倾向原形以避免重复，但这不是所有 afin que 从句的绝对禁令。afin que 不保证目的实现；赘词 ne 常可省略，尤其口语，不应在翻译中反转意义。",
+      "related": [],
+      "practice": [
+        {
+          "q": "担心材料在发送前就已损坏，让对方保留副本。用Au cas où + conditionnel passé写一句，不使用si。",
+          "a": "Au cas où le fichier aurait été endommagé avant l’envoi, gardez une copie.",
+          "note": "aurait été endommagé为条件式过去被动，设想先前损坏；不是虚拟式ait été。vous/tu可变，gardez/garde须一致。"
+        },
+        {
+          "q": "比较并译清：Elle téléphone de peur qu’il ne vienne. / Elle téléphone de peur qu’il ne vienne pas. 然后为“怕他不来”写一条明确原意的法句。",
+          "a": "Dans la première phrase, elle craint sa venue ; ne peut être explétif. Dans la seconde, elle craint son absence : ne…pas est une négation. Elle téléphone parce qu’elle a peur qu’il ne vienne pas.",
+          "note": "仅ne可为赘词，不反转venir；ne…pas真否定，恐惧对象为不来。接受Elle téléphone pour s’assurer qu’il viendra等语义清楚表达，但不能把两句都译成怕来。"
+        }
+      ]
     },
     "b2-accord-pp": {
       "sections": [
@@ -2049,7 +2179,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "Elles se sont lavées（洗自己）/ Elles se sont lavé les mains（洗手）/ Les mains qu'elles se sont lavées（前置 COD mains）。Elles se sont parlé（parler à，COI）/ Elles se sont rencontrées（rencontrer，COD）。",
       "errors": "错：Elles se sont téléphonées → téléphoné；正确：Les difficultés qu'il a fait disparaître，不能把 fait 改为 faites；错：Les chansons que j’ai entendues chanter → Les chansons que j’ai entendu chanter（歌曲是被唱的对象）。",
-      "boundaries": "être → 主语配合的速记不能无条件覆盖所有代词式动词。正式写作保留传统 avoir 配合规则；改革讨论不等于这些规则已全部取消。遇到特殊词义，先辨直接宾语与量度补语。"
+      "boundaries": "être → 主语配合的速记不能无条件覆盖所有代词式动词。正式写作保留传统 avoir 配合规则；改革讨论不等于这些规则已全部取消。遇到特殊词义，先辨直接宾语与量度补语。",
+      "related": [],
+      "practice": [
+        {
+          "q": "演出报告：Les chanteuses que nous avons ___ chanter ont salué. / Les chansons que nous avons ___ chanter étaient anciennes. 用entendre过去分词并解释施事。",
+          "a": "Les chanteuses que nous avons entendues chanter ont salué. Les chansons que nous avons entendu chanter étaient anciennes.",
+          "note": "女歌手自己唱，前置COD也为原形施事→entendues；歌曲被唱→entendu不配合。不能只看先行词阴复就两处都加es。"
+        },
+        {
+          "q": "两位女士互寄信且互相通电话。用elles写两句，第一句把信提前为关系先行词：Les lettres qu’elles…；第二句使用se téléphoner。",
+          "a": "Les lettres qu’elles se sont envoyées ont été conservées. Elles se sont téléphoné hier.",
+          "note": "envoyées配前置CODlettres，se为COI；téléphoner à的se是COI，téléphoné不配合。后半可换时间，但不得写téléphonées。"
+        }
+      ]
     },
     "b2-registres": {
       "sections": [
@@ -2114,7 +2257,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "un truc à réparer（一个待修的东西）可能需 préciser un appareil à réparer，而不宜一律改 un élément。perdu/égaré 有语义与搭配差异；书面 cela 更常见，但 ça 并非凡出现就错误。",
       "errors": "不要把 épuisé 标为单纯 soutenu、把 œuvrer 当 travailler 的任意替代。正式邮件避免无语境的 File-moi un truc；可写 Pourriez-vous m'envoyer le document concerné ?",
-      "boundaries": "语域随地区、年龄、关系与媒介变化；familier 不等于粗俗。作文采用清楚的 courant 往往比堆砌生僻 soutenu 更合适。"
+      "boundaries": "语域随地区、年龄、关系与媒介变化；familier 不等于粗俗。作文采用清楚的 courant 往往比堆砌生僻 soutenu 更合适。",
+      "related": [],
+      "practice": [
+        {
+          "q": "将“On a bricolé le planning et oublié de consulter les équipes”改成正式事故说明。必须保留我们团队的主体及忘记征询这一原因，不能改成客观无法征询。",
+          "a": "Notre équipe a élaboré le calendrier de manière improvisée et a oublié de consulter les équipes concernées.",
+          "note": "bricolé可在正式表述中改为élaboré de manière improvisée，保留粗略拼凑的评价；不能无证添加dans l’urgence。a oublié保留遗漏咨询，不接受La consultation n’a pas pu avoir lieu作为完全同义替换。也接受nous代notre équipe，以及其他保留原事实和责任的表达。"
+        },
+        {
+          "q": "你对熟悉同事仍使用tu，但要把“Tu pars quand ?”改成较正式倒装，再礼貌请求他发具体文件。不要靠改成vous来完成全部任务。",
+          "a": "Quand pars-tu ? Pourrais-tu m’envoyer le document concerné avant ton départ ?",
+          "note": "tu保持人际关系；倒装pars-tu和条件式pourrais-tu调整表达方式。文件和时限可合理变化，不能用un truc替代具体对象，或称所有tu都不礼貌。"
+        }
+      ]
     },
     "b2-modalisation": {
       "sections": [
@@ -2199,7 +2355,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "Il est certain que…（确信）/ Il est probable que…（很可能，通常直陈式）/ Il est possible que…（可能，虚拟式）。Il semblerait que 不等于确定事实；sans doute 不等于 sans aucun doute。",
       "errors": "错：Il n'est pas exclu qu'il vient → qu'il vienne；避免把 sans doute 永远译为‘毫无疑问’。sans doute 放句首时，正式文体常采用倒装；不能误说所有位置都必须倒装。",
-      "boundaries": "过多保留词会使论点不清，应说明不确定来自数据、来源还是范围。情态化可以增强断言，如 assurément、sans aucun doute；并不限于‘说得含糊’。"
+      "boundaries": "过多保留词会使论点不清，应说明不确定来自数据、来源还是范围。情态化可以增强断言，如 assurément、sans aucun doute；并不限于‘说得含糊’。",
+      "related": [],
+      "practice": [
+        {
+          "q": "只有一份未经独立核查的报告称价格上升。用Selon ce rapport和条件式转述，再明确未独立核查，不能写成确定事实。",
+          "a": "Selon ce rapport, les prix auraient augmenté. Cette hausse n’a pas encore été vérifiée de manière indépendante.",
+          "note": "条件式过去报告已发生说法的核实距离，不判断为假。第二句用hausse回指被报告变化；也可évolution annoncée使归属更显，不额外补百分比。"
+        },
+        {
+          "q": "对照“Sans doute a-t-elle oublié le rendez-vous”与“Elle l’a sans aucun doute oublié”。用两句中文说明力度，再用句中sans doute改写第一句，保持大概义。",
+          "a": "Elle a sans doute oublié le rendez-vous.",
+          "note": "第一句通常是“大概忘了”，第二句强调“毫无疑问忘了”。Elle a sans doute oublié le rendez-vous. 句中sans doute无需倒装；句首书面a-t-elle与力度并非同一维度。不能把sans doute机械译为绝对确定，仍须语境判断。"
+        }
+      ]
     },
     "b2-adj-sens": {
       "sections": [
@@ -2304,7 +2473,20 @@ window.GRAMMAR_DATA.B2={
       ],
       "comparison": "mon ancien appartement（以前住的）/ un appartement ancien（老式/年代久远的）；ma propre chambre（我自己的房间）/ une chambre propre（干净的房间）；la seule femme présente（在场唯一女性）/ une femme seule（独自的女性）。",
       "errors": "不要把 un grand appartement 译成‘伟大的公寓’，这里是面积大。不要把 une personne seule 必然译成‘孤独的人’，也可能只是一个人。想表达上周用 la semaine dernière，不用无参照的 la dernière semaine。",
-      "boundaries": "位置与名词词义、限定词、补语及固定搭配共同决定含义。un ancien combattant 是退伍/参战老兵的固定称呼；un vieil ami 通常指老朋友，不必年龄高。无把握时用补语或明确词语消歧。"
+      "boundaries": "位置与名词词义、限定词、补语及固定搭配共同决定含义。un ancien combattant 是退伍/参战老兵的固定称呼；un vieil ami 通常指老朋友，不必年龄高。无把握时用补语或明确词语消歧。",
+      "related": [],
+      "practice": [
+        {
+          "q": "说明你在实习“最后一周”见了“以前的老师”，不要误说上周或年纪很大的老师。用dernière和ancien写一句。",
+          "a": "Pendant la dernière semaine du stage, j’ai rencontré mon ancien professeur.",
+          "note": "la dernière semaine du stage以实习序列为参照，非la semaine dernière相对现在的上周；mon ancien professeur表旧师生关系，不表年龄。阴性老师ancienne professeure也接受。"
+        },
+        {
+          "q": "把两个旅行情况写清：唯一一名回应的人喜欢独自旅行。用seul的前置与配合，不额外说她孤独。",
+          "a": "La seule personne qui a répondu préfère voyager seule.",
+          "note": "la seule personne前置表示唯一，voyager seule描述没有同行者，阴性因personne；不蕴含情感孤独。也接受Une seule personne a répondu ; elle préfère voyager seule。"
+        }
+      ]
     }
   },
   "contexts": [],

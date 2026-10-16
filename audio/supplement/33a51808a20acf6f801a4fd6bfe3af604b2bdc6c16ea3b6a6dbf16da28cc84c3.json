@@ -1,0 +1,30 @@
+{
+  "text": "Demain, notre cours commence dans une nouvelle salle, alors je vais à la papeterie du quartier pour acheter du matériel. J’y vais à pied, car elle est tout près, et je prends aussi la liste que la professeure nous a envoyée. À l’entrée, je montre cette liste au vendeur et je lui demande où se trouvent les cahiers à grands carreaux. Il m’en propose plusieurs, mais je n’en prends que deux parce que nous travaillons surtout sur ordinateur. Je choisis enfin un classeur bleu et je le pose sur le comptoir : « Pourriez-vous me donner un sac, s’il vous plaît ? »",
+  "text_sha256": "33a51808a20acf6f801a4fd6bfe3af604b2bdc6c16ea3b6a6dbf16da28cc84c3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 27.09768707482993,
+      "source_seconds": 27.09768707482993,
+      "source_file_sha256": "a047a1f521ac49f9c28cd3cb704eaf848ae477fcca2528b6f19395d1ad7df122",
+      "file_sha256": "12c449744a2c77a91c1072144af0009708085553e169628b93aa6b09c4c7063a",
+      "bytes": 217591,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

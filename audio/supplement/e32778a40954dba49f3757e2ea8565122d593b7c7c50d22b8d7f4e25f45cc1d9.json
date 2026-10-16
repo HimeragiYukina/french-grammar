@@ -1,0 +1,30 @@
+{
+  "text": "Le subjonctif est souvent imposé par une construction. Pour de nombreux verbes, les personnes du singulier et ils",
+  "text_sha256": "e32778a40954dba49f3757e2ea8565122d593b7c7c50d22b8d7f4e25f45cc1d9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.000816326530612,
+      "source_seconds": 7.000816326530612,
+      "source_file_sha256": "0e7e089b9d9fc620b54c55243b2e172f968c58016452c6b34de2dd85cee8af24",
+      "file_sha256": "8295fa0dabb4ab4a21e6d9af51849820635f0cf297b836fb80c21f6f417d2286",
+      "bytes": 56677,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

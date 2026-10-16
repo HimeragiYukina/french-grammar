@@ -1,0 +1,30 @@
+{
+  "text": "car",
+  "text_sha256": "2b2961a431b23c9007efe270c1d7eb79c19d4192d7cd2d924176eb0b19e7d2a1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.46439909297052157,
+      "source_seconds": 0.46439909297052157,
+      "source_file_sha256": "027ddf96509d5262b47f09a92483b9881e4f4fe9a5094dac5af43c9c143c5b43",
+      "file_sha256": "d6ffef3bfb4c84828e7a3fb658a6a2a71edb2558998553092c947be7f68a3763",
+      "bytes": 4432,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

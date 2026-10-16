@@ -1,0 +1,30 @@
+{
+  "text": "je lui pense",
+  "text_sha256": "99132c8d34b325c417aea977fbc3b66a79eb1d33e010b0e4bcc87a403a789b07",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1029478458049886,
+      "source_seconds": 1.1029478458049886,
+      "source_file_sha256": "9769c41750cc9a3887965d37d9e152733ac2165ab696b54bbae6749c08d2eb3e",
+      "file_sha256": "f3fa9ddba371f0b2d465ec48d5adfb9db1c42666ecf05220e8b3a07a7d09ae0e",
+      "bytes": 9657,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

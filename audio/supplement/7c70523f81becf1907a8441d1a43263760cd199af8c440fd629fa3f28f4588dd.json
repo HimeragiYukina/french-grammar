@@ -1,0 +1,30 @@
+{
+  "text": "J’ai payé hier, mais je n’ai pas encore reçu la facture.",
+  "text_sha256": "7c70523f81becf1907a8441d1a43263760cd199af8c440fd629fa3f28f4588dd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4946031746031747,
+      "source_seconds": 3.4946031746031747,
+      "source_file_sha256": "a0a5a38b310b746f2a63ebdc2f097e939c4bca04d3716b0322285ab38759c893",
+      "file_sha256": "391fbdd92fa61277c954ca00b5d9b29b22c85df89dcf39f7552ef7981d7f1386",
+      "bytes": 28674,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

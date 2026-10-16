@@ -1,0 +1,30 @@
+{
+  "text": "Ne connaissant pas le quartier, elle a demandé son chemin.",
+  "text_sha256": "112d1569a8469928c86a03ecf3801873fd02c0c837f30e6c3b55ed882c9c5e3f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.006984126984127,
+      "source_seconds": 3.006984126984127,
+      "source_file_sha256": "998a43e17a90aeebccf80e76a94342bac24a5c794a03d2736063c7400ed33f28",
+      "file_sha256": "3bfeace7d57e1fe4de8b1789e291e97617b0f6549fe7fffe2913c50265a58aa7",
+      "bytes": 24912,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "se faire mal",
+  "text_sha256": "8f65e802861abc9f23e7d531e780b22529fe4e1e4ba4240e2b8731a255d944c2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9287981859410431,
+      "source_seconds": 0.9287981859410431,
+      "source_file_sha256": "f872d89d90bd12d7af36ae1a4a046e39b5d902bddac11d2dede0ce8e4db3f733",
+      "file_sha256": "f55a736fac3753e7c1c4b90ae03064bc1d2169ae1425c35ddcf659cb4a78a830",
+      "bytes": 8194,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

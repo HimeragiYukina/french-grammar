@@ -1,0 +1,30 @@
+{
+  "text": "Peut-être Léa acceptera-t-elle cette proposition.",
+  "text_sha256": "403b3d9b2f8cb65f61cf374e65d63ef93c68ac5a9dceee4becaaf7f29b375610",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.589024943310658,
+      "source_seconds": 2.589024943310658,
+      "source_file_sha256": "3c6ac5c58a176ed4dc53b88dc6c304046e01a0bc9a7926b1f7ad225851c95958",
+      "file_sha256": "2a5c4393a792fd167409b4bd11fe7388e52812e24a88fcb71d9d11786cf0d507",
+      "bytes": 21568,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

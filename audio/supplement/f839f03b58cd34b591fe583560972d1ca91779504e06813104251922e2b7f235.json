@@ -1,0 +1,30 @@
+{
+  "text": "Tu as des sœurs ? — Oui, j'en ai une.",
+  "text_sha256": "f839f03b58cd34b591fe583560972d1ca91779504e06813104251922e2b7f235",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6354648526077096,
+      "source_seconds": 2.6354648526077096,
+      "source_file_sha256": "d04a3f0aa6d79edadedd4ed8a8c1978ace38d176ccba03000c9bee8bd32463e9",
+      "file_sha256": "c64f3d063c8c1fbcea978a62ccbf6a152aae9e1824a9772f43e94d25844b2eb6",
+      "bytes": 21777,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

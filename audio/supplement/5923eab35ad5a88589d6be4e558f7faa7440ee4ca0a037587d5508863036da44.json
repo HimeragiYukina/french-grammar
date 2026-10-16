@@ -1,0 +1,30 @@
+{
+  "text": "je vais partir",
+  "text_sha256": "5923eab35ad5a88589d6be4e558f7faa7440ee4ca0a037587d5508863036da44",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.207437641723356,
+      "source_seconds": 1.207437641723356,
+      "source_file_sha256": "5bd738838ae064c1553a52a2abbc40645446191260208e95308f5e6542da31e9",
+      "file_sha256": "48157e9a6f5e78aac9d259a8c21ee4cd447dac8519dfce28df8b9bba74c685ff",
+      "bytes": 10493,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

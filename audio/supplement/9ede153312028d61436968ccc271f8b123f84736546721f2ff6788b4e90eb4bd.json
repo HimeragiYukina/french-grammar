@@ -1,0 +1,30 @@
+{
+  "text": "Style et inversion",
+  "text_sha256": "9ede153312028d61436968ccc271f8b123f84736546721f2ff6788b4e90eb4bd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3699773242630386,
+      "source_seconds": 1.3699773242630386,
+      "source_file_sha256": "548d10168892f7bb73ef77ef5d2f8c91143674de8178d0f3839e947c104889a0",
+      "file_sha256": "7e8efb722c42e52a7362ee154f0e853a4a68a5b6166660fda812e9361322160f",
+      "bytes": 11746,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

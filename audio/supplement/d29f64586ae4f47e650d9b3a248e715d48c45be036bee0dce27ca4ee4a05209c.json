@@ -1,0 +1,30 @@
+{
+  "text": "Le couloir était vide ; soudain, Léa a ouvert la porte et a reconnu son frère.",
+  "text_sha256": "d29f64586ae4f47e650d9b3a248e715d48c45be036bee0dce27ca4ee4a05209c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.446621315192743,
+      "source_seconds": 4.446621315192743,
+      "source_file_sha256": "9ae19d2d3f0b251798a4ec79ef111314005c959946942fc474a959ece2da846d",
+      "file_sha256": "d588c17e0c464ca05d306a4f04d078602798cd71af85a47446341f0d805e1d64",
+      "bytes": 36406,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

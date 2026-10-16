@@ -1,0 +1,30 @@
+{
+  "text": "Sans ce guide, elles fussent restées bloquées.",
+  "text_sha256": "44d65ced991cd40b0c400b8741556908dab3f6fa60c8fa7805f7eeda963ccb77",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.414875283446712,
+      "source_seconds": 2.414875283446712,
+      "source_file_sha256": "020b7283df9ac64b3c2f3b367f4091855c6a60829b1c78daab606f00d411cb58",
+      "file_sha256": "aae48507798978f8bf4d33b696b8b7428bc796c8960cb32cb19d76824c764f39",
+      "bytes": 20106,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

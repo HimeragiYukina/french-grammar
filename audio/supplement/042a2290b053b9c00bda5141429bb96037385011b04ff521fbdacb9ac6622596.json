@@ -1,0 +1,30 @@
+{
+  "text": "Elle a interviewé dix candidats, parmi lesquels trois étrangers.",
+  "text_sha256": "042a2290b053b9c00bda5141429bb96037385011b04ff521fbdacb9ac6622596",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7732426303854876,
+      "source_seconds": 3.7732426303854876,
+      "source_file_sha256": "545e95ec0cd983ef66a1dbe9e1a80141598ed776d43b2690eb86055c0061771a",
+      "file_sha256": "a4b1d1285de0df0d6adbfd079e4b69387ae7262d33da3a0c6745e1b09f0e4cef",
+      "bytes": 30973,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

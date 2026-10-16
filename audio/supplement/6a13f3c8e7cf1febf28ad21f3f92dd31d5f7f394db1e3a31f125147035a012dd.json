@@ -1,0 +1,30 @@
+{
+  "text": "des propos provocants / En provoquant ses adversaires, il perdit le débat.",
+  "text_sha256": "6a13f3c8e7cf1febf28ad21f3f92dd31d5f7f394db1e3a31f125147035a012dd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.866122448979592,
+      "source_seconds": 3.866122448979592,
+      "source_file_sha256": "a7ab80d2f26e07120934bf3439e680fdd22449c49d5a5ded0285922ce504cbfa",
+      "file_sha256": "1405dd63009b1e2554216b28ec0d8a052b3fa0449ee41f77570a2dbfd636e9ae",
+      "bytes": 31599,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

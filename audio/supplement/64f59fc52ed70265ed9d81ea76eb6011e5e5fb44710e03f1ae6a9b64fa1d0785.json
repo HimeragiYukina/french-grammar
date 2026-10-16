@@ -1,0 +1,30 @@
+{
+  "text": "Qu’il entre !",
+  "text_sha256": "64f59fc52ed70265ed9d81ea76eb6011e5e5fb44710e03f1ae6a9b64fa1d0785",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9868480725623583,
+      "source_seconds": 0.9868480725623583,
+      "source_file_sha256": "8aff1fc4d56746de8f719ca27caf26d238bf57a598faaab9e1f99b350811c81b",
+      "file_sha256": "2c2c9f3c9c1b6393c3f50b6160a964e02dfe17af2e7d71df715e1d476ff73bf1",
+      "bytes": 8612,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

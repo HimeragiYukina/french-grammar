@@ -1,0 +1,30 @@
+{
+  "text": "Je lui ai expliqué le chemin, puis nous nous sommes retrouvés devant la boulangerie et nous avons acheté deux cafés.",
+  "text_sha256": "a88ce89dab3f03d01463b2ca5c5c09b621f50f1eab140b11dca6065a110bc5ab",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.048798185941043,
+      "source_seconds": 6.048798185941043,
+      "source_file_sha256": "c1956602cac53570bcc9411f394e13472cff80dc83a26521c5f9278ae1c8d512",
+      "file_sha256": "90dc96c59e4e2f4912247159d2aaaf47a42dbb259da9fc63786eda9938f31fe6",
+      "bytes": 49154,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

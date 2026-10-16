@@ -1,0 +1,30 @@
+{
+  "text": "Elles avaient acheté des billets",
+  "text_sha256": "1e26812ecda166ff26f2c9c05bbd4dd786498a4b0eaf584ae6f7f4cd155c9be0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3699773242630386,
+      "source_seconds": 1.3699773242630386,
+      "source_file_sha256": "4918b8eafa76f419c9e1b74397cba2fa3dab0e975a7ba65b14bf9143fa75fa90",
+      "file_sha256": "6d6aa301b5615424de0e5e27fb1894d997923969b8e40eff5d68a6eda0a5f0ee",
+      "bytes": 11746,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

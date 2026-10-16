@@ -1,0 +1,30 @@
+{
+  "text": "il y a des restaurants",
+  "text_sha256": "73aeb3f7bf6f3d69981fbb13680fe43f59df2986eb1b0f82fddccd9a1cf1a434",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.195827664399093,
+      "source_seconds": 1.195827664399093,
+      "source_file_sha256": "dc9b16cf672365d85dfb8a4562cca6b6d7347f049a17f1ee3ff1494786eaccc9",
+      "file_sha256": "22511196cc8037f18544e2968daef040443a8874527c2c618011570ab23124b7",
+      "bytes": 10284,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

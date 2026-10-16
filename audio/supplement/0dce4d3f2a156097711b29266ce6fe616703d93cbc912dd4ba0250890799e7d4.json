@@ -1,0 +1,30 @@
+{
+  "text": "Dès qu'il eut lu la lettre, il changea de visage.",
+  "text_sha256": "0dce4d3f2a156097711b29266ce6fe616703d93cbc912dd4ba0250890799e7d4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9373242630385485,
+      "source_seconds": 2.9373242630385485,
+      "source_file_sha256": "f8ff7fde048f056925deeeee046830d96f0ed52102d0d7a48662b392aa998a62",
+      "file_sha256": "0a32c091ddc957aad73d15a6eb82189ac77735bad77201271e4b2563e98d85c8",
+      "bytes": 24285,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

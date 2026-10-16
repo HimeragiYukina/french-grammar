@@ -1,0 +1,30 @@
+{
+  "text": "Un médecin doit écouter ses patients.",
+  "text_sha256": "47344359014b46a9e9417c13a3c516279765098424281d17547867490a8edc4b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1942857142857144,
+      "source_seconds": 2.1942857142857144,
+      "source_file_sha256": "ffbf58d417603303945d8f211852cde141e0fdfd7db974706df59c80d08d42ff",
+      "file_sha256": "84b74f9164d0e3c65f2448e2061c9958872ce61c8f2bbaa60ab9274e9519cae2",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

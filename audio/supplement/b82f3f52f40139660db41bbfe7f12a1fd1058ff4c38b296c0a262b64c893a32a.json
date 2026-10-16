@@ -1,0 +1,30 @@
+{
+  "text": "sens plus intense: Je suis épuisé.",
+  "text_sha256": "b82f3f52f40139660db41bbfe7f12a1fd1058ff4c38b296c0a262b64c893a32a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8212244897959184,
+      "source_seconds": 2.8212244897959184,
+      "source_file_sha256": "d6067231ca214f90db5b19931b250aca515fb28f235b8f09380e0bbba5a96963",
+      "file_sha256": "a6b946f0acbbd20916c8d9dcea98e59af9fc5acf5188d20a23e035a89265d90a",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

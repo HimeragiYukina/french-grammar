@@ -1,0 +1,30 @@
+{
+  "text": "elle sera partie",
+  "text_sha256": "f7cba5eb3a18fdda1edba2d66e9be86de6cc699ccf9894e7e3161ba6a71067d9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1261678004535147,
+      "source_seconds": 1.1261678004535147,
+      "source_file_sha256": "1772f3c5b39700a174b1b0227550ddf6b2cf3504c405b94adb7073d058ee19a0",
+      "file_sha256": "ee279e6795762eea00b6fd3face0252ff9f21bb374cbf114e18df491ed5da1e5",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

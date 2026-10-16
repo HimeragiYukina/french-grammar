@@ -1,0 +1,30 @@
+{
+  "text": "Si vous êtes disponible mardi, nous fixerons le rendez-vous ce jour-là.",
+  "text_sha256": "2c94976ffba3a7d72e183a8904c72cd4b57bf5bb59dba07c5e3c1c910934844c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.8080725623582765,
+      "source_seconds": 3.8080725623582765,
+      "source_file_sha256": "fd4ab9a3b3f73baeefc1194cf0e0f06b82029c31b33b4e9fdf5188dfc820bf6c",
+      "file_sha256": "c0309d2cad08f190618b9d09a5a6377f9c9add1f60c81c44f54d19217672fa50",
+      "bytes": 31181,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

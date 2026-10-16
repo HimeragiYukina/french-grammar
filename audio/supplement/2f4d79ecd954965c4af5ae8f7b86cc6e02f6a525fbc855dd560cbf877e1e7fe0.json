@@ -1,0 +1,30 @@
+{
+  "text": "Les dernières étapes étaient fatigantes.",
+  "text_sha256": "2f4d79ecd954965c4af5ae8f7b86cc6e02f6a525fbc855dd560cbf877e1e7fe0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.124625850340136,
+      "source_seconds": 2.124625850340136,
+      "source_file_sha256": "6ac833d3c39e1f49bfc0951cdba25b0ad7136610b0167606941d5ec43b8da3ee",
+      "file_sha256": "bcce089f5023f0db9f56b9da3ae819c8f446f9991376544d92a1515af030c94b",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

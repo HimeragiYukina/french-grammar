@@ -1,0 +1,30 @@
+{
+  "text": "Au loin s'étendait la mer",
+  "text_sha256": "4e8338a55d46404880dd9c28668cfdcc5e8897087c13cfb3fad66ca33154aa9b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.497687074829932,
+      "source_seconds": 1.497687074829932,
+      "source_file_sha256": "25bc7b6db3abae56ea1490601c00c7805fe8f53bf7936999e1062e819801002b",
+      "file_sha256": "0818fc9ce650472d4e8afff8816b0a015976ac842d8a225861887b3c038dfcc2",
+      "bytes": 12791,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

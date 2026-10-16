@@ -796,7 +796,7 @@ window.GRAMMAR_DATA.A1={
       {
         "q": "___ ami de Paul arrive à ___ heure. (定冠词,元音前)",
         "a": "L'ami de Paul arrive à l'heure.",
-        "note": "元音开头名词前缩合为 l'"
+        "note": "元音开头名词前le/la省音为l’；这是省音，不是à+le=au一类缩合。"
       },
       {
         "q": "Regarde ___ chien de Marie ! (定冠词,特指)",
@@ -1378,7 +1378,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "J’achète un livre（引入一本书）→ Le livre est intéressant（接着谈这本书）；J’aime le chocolat（喜欢巧克力这类食物）≠ Je mange du chocolat（吃不定量巧克力）。",
       "errors": "不是所有 h 都允许省音：l’hôtel，但 le héros；à le marché → au marché，de les élèves → des élèves。",
-      "boundaries": "唯一性通常相对于语境：le directeur 指双方知道的那位负责人，不意味着世界上只有一名负责人。定冠词也能泛指整类。"
+      "boundaries": "唯一性通常相对于语境：le directeur 指双方知道的那位负责人，不意味着世界上只有一名负责人。定冠词也能泛指整类。",
+      "related": [],
+      "practice": [
+        {
+          "q": "你第一次走进教室，眼前只有一扇窗。请同学关窗，写一句自然请求；是否必须先提过窗？",
+          "a": "Ferme la fenêtre, s’il te plaît.",
+          "note": "双方能从现场识别窗户即可用la，首次出现也可用定冠词。Ouvre与任务“关窗”相反；礼貌vous命令Fermez也接受。"
+        },
+        {
+          "q": "写两句区分“我喜欢巧克力这一类”和“今天吃一些巧克力”。",
+          "a": "J’aime le chocolat. Aujourd’hui, je mange du chocolat.",
+          "note": "喜好整类用le，不定量食用用du；不能只按中文有无“一些”机械选冠词。第二句可以改为 Aujourd’hui, je prends du chocolat，但须实际表达食用，单说je veux du chocolat仅是愿望，未完成题目“吃”的任务。"
+        }
+      ]
     },
     "a1-indefini": {
       "sections": [
@@ -1433,7 +1446,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Il y a un chien devant la porte（出现一只狗）→ Le chien attend son maître（那只狗在等主人）；un café 可指一杯咖啡，而 du café 指不定量咖啡。",
       "errors": "Je n’ai pas une voiture → Je n’ai pas de voiture（普通全量否定）；但 Ce n’est pas une voiture 保留 une。des beaux jardins 在规范书面语通常写 de beaux jardins。",
-      "boundaries": "un/une 也可突出数字“一”，此时可保留在对比否定里：Je n’ai pas un frère, j’en ai deux。职业名词作简单身份表语常零冠词：Elle est médecin。"
+      "boundaries": "un/une 也可突出数字“一”，此时可保留在对比否定里：Je n’ai pas un frère, j’en ai deux。职业名词作简单身份表语常零冠词：Elle est médecin。",
+      "related": [],
+      "practice": [
+        {
+          "q": "向同学引入一本不特定的书，再说这本书很有用。写两句。",
+          "a": "J’ai un livre. Le livre est utile.",
+          "note": "首次不特定引入un，随后可识别回指le；C’est un livre…也接受。第二句不是另一本书。"
+        },
+        {
+          "q": "你没有自行车，但朋友问的店铺并非书店。分别否定“拥有”及“类别”。",
+          "a": "Je n’ai pas de vélo. Ce n’est pas une librairie.",
+          "note": "普通拥有量否定un变de；être后类别判断保留une。名词性别和信息功能都必须匹配，不要求与范例逐字一致。"
+        }
+      ]
     },
     "a1-pluriel": {
       "sections": [
@@ -1488,7 +1514,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "un journal → des journaux，但 un festival → des festivals；un bijou → des bijoux，但 un trou → des trous。不能只凭相似词尾类推。",
       "errors": "*des chevals → des chevaux；*des pneux → des pneus；复数冠词、名词、形容词都须配合：des maisons blanches。",
-      "boundaries": "-al 通常变 -aux，但 bal/carnaval/festival/récital 等加 -s；-eu 的 pneu/bleu 等加 -s；-au 的 landau/sarrau 加 -s。复合词复数另有规则，见高阶章节。"
+      "boundaries": "-al 通常变 -aux，但 bal/carnaval/festival/récital 等加 -s；-eu 的 pneu/bleu 等加 -s；-au 的 landau/sarrau 加 -s。复合词复数另有规则，见高阶章节。",
+      "related": [],
+      "practice": [
+        {
+          "q": "词形练习：把un château和un bus都改成数量为两个的复数短语，使用deux。",
+          "a": "deux châteaux ; deux bus",
+          "note": "château加x；bus已以s结尾不再添加。数字已限定数量，不写des deux bus。"
+        },
+        {
+          "q": "改写购物便条中的错误并说明哪一项不能按-al规则改：trois chevals et deux festivals。",
+          "a": "trois chevaux et deux festivals",
+          "note": "cheval复数chevaux；festival为常见例外festivals。不能为整齐而写festivaux。这里只作词形练习，不是真实购物要求。"
+        }
+      ]
     },
     "a1-partitif": {
       "sections": [
@@ -1534,8 +1573,8 @@ window.GRAMMAR_DATA.A1={
               "use": "计量单位 + de，不再加部分冠词。"
             },
             {
-              "fr": "Je ne bois pas de lait, mais ce n’est pas du lait dans ce verre.",
-              "zh": "我不喝牛奶，但这个杯子里装的不是牛奶。",
+              "fr": "Je ne bois pas de lait. Ce n’est pas du lait dans ce verre.",
+              "zh": "我不喝牛奶。这个杯子里装的不是牛奶。",
               "use": "前半全量否定改 de，后半 être 表语保留 du。"
             }
           ]
@@ -1567,7 +1606,7 @@ window.GRAMMAR_DATA.A1={
             {
               "fr": "Un café sans sucre, s’il vous plaît.",
               "zh": "请来一杯不加糖的咖啡。",
-              "use": "sans sucre 描述不加糖，不否定茶的存在。"
+              "use": "sans sucre描述不加糖，不否定咖啡的存在。"
             }
           ]
         }
@@ -1594,6 +1633,16 @@ window.GRAMMAR_DATA.A1={
           "q": "店主纠正“这里是咖啡馆”的说法，哪句准确？ 选项：Ce n’est pas de café, c’est une boulangerie. / Ce n’est pas un café, c’est une boulangerie. / Il n’y a pas du café, c’est une boulangerie.",
           "a": "Ce n’est pas un café, c’est une boulangerie.",
           "note": "être 后否定类别保留 un；pas de 通常用于不存在或不定数量，不能机械替换这里的类别判断。"
+        },
+        {
+          "q": "你喜欢面包这一类，早餐正在吃一些面包，现在想要一杯不加糖的咖啡。写三个短句。",
+          "a": "J’aime le pain. Au petit-déjeuner, je mange du pain. Un café sans sucre, s’il vous plaît.",
+          "note": "le表达整类，du表达不定量，sans sucre表达添加物要求。第三句不意味着咖啡不存在。"
+        },
+        {
+          "q": "解释两句为何不矛盾：Je ne bois pas de lait. Ce n’est pas du lait dans ce verre.",
+          "a": "Je ne bois pas de lait. Ce n’est pas du lait dans ce verre.",
+          "note": "第一句表示我不喝奶；第二句说这个杯里不是奶。 第一句普通数量否定du→de；第二句être表语识别物质，保留du。只答“见pas就改de”不成立。"
         }
       ]
     },
@@ -1650,7 +1699,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "On travaille ici 可表示“我们在这里工作”或“人们在这里工作”；Nous travaillons ici 明确包括说话者。Vous êtes prêt（对一位男性）/ Vous êtes prêts（对多位男性或混合群体）。",
       "errors": "*On allons → On va；je aime → j’aime。tu/vous 取决于交往关系，不能仅按对方年龄机械决定。",
-      "boundaries": "on 的动词用第三人称单数，但明确代表多人时形容词、être 的过去分词可按所指对象配合：On est contentes（全女性的我们）。"
+      "boundaries": "on 的动词用第三人称单数，但明确代表多人时形容词、être 的过去分词可按所指对象配合：On est contentes（全女性的我们）。",
+      "related": [],
+      "practice": [
+        {
+          "q": "写一句礼貌问一位女士是否有票，再写一句问一群孩子是否有票。",
+          "a": "Madame, vous avez votre billet ? Les enfants, vous avez vos billets ?",
+          "note": "两个vous都用avez；礼貌单数通常votre billet，复数依物品用vos billets。多票或共用票可变，但需说明语境。"
+        },
+        {
+          "q": "把Nous travaillons ici改为口语on形式，再说明on的动词数。",
+          "a": "On travaille ici.",
+          "note": "on可代nous但动词用第三人称单数travaille，不是travaillons。这里已明确包括说话者；无语境时on也可泛指人。"
+        }
+      ]
     },
     "a1-etre": {
       "sections": [
@@ -1705,7 +1767,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Elle est médecin（说明职业）/ C’est une médecin très attentive（介绍某位医生并评价）；Il est chaud（它很热）/ Il a chaud（他觉得热）。",
       "errors": "*Elle est française médecin → Elle est médecin et elle est française；*Je suis vingt ans → J’ai vingt ans。职业被品质形容词修饰时不宜套用零冠词规则。",
-      "boundaries": "职业单独作表语常无冠词，但带评价、限定等时可有冠词；国籍形容词小写（français），作为人名词通常大写（un Français）。"
+      "boundaries": "职业单独作表语常无冠词，但带评价、限定等时可有冠词；国籍形容词小写（français），作为人名词通常大写（un Français）。",
+      "related": [],
+      "practice": [
+        {
+          "q": "角色卡：Léa是一名意大利女医生，现在很累。写两句介绍，不加评价她的能力。",
+          "a": "Léa est médecin. Elle est italienne et fatiguée.",
+          "note": "简单职业médecin一般零冠词；国籍与状态阴性配合。C’est une médecin…属于不同结构，语法正确但需保留角色信息。"
+        },
+        {
+          "q": "一位女士被称vous。选择正确配合并解释：Vous êtes fatigué / fatiguée / fatiguées, madame ?",
+          "a": "Vous êtes fatiguée, madame ?",
+          "note": "礼貌vous指一位女性，êtes为vous变位，形容词按实际女性单数fatiguée，不因vous的形式而用复数。"
+        }
+      ]
     },
     "a1-avoir": {
       "sections": [
@@ -1760,7 +1835,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "J’ai froid（我觉得冷）/ Je suis froid（我态度冷淡，或某物本身冷）；J’ai une voiture（我拥有车）/ Il y a une voiture（有一辆车存在）。",
       "errors": "*Je suis faim → J’ai faim；*Elle a dix années → Elle a dix ans（报年龄的常用形式）。",
-      "boundaries": "avoir mal à 与身体部位通常用定冠词：avoir mal à la tête；avoir peur de + 名词或原形。疾病与状态搭配需逐词学习，不能把所有中文“有”都译成 avoir。"
+      "boundaries": "avoir mal à 与身体部位通常用定冠词：avoir mal à la tête；avoir peur de + 名词或原形。疾病与状态搭配需逐词学习，不能把所有中文“有”都译成 avoir。",
+      "related": [],
+      "practice": [
+        {
+          "q": "角色卡：男孩一岁，姐姐四岁；男孩渴了。写出年龄与感受。",
+          "a": "Le garçon a un an. Sa sœur a quatre ans. Il a soif.",
+          "note": "年龄avoir；一岁an，其余这里ans；感受avoir soif不用être且不加冠词。人物姓名可自拟而不改变年龄。"
+        },
+        {
+          "q": "区分“我有一辆车”和“门前有一辆车”，各写一句。",
+          "a": "J’ai une voiture. Il y a une voiture devant la porte.",
+          "note": "第一句拥有者作主语，用avoir；第二句存在结构il y a不随voiture变性数。不能据门前存在推断车属于我。"
+        }
+      ]
     },
     "a1-cest-ilya": {
       "sections": [
@@ -1815,7 +1903,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Il y a un café au coin（街角有一家咖啡馆，提出存在）/ C’est le café de Paul（那是保罗的咖啡馆，指认）；C’est difficile（这件事难）/ Il est difficile（已知阳性对象很难）。",
       "errors": "*Il y ont des enfants → Il y a des enfants；“il y a 永远不变”应限于现在时的单复数：过去是 il y avait/il y a eu，将来 il y aura。",
-      "boundaries": "规范书面语复数名词前多用 ce sont；口语常见 c’est mes parents。c’est nous/c’est vous 仍通常用 c’est。"
+      "boundaries": "规范书面语复数名词前多用 ce sont；口语常见 c’est mes parents。c’est nous/c’est vous 仍通常用 c’est。",
+      "related": [],
+      "practice": [
+        {
+          "q": "先告诉朋友街角有一家餐馆，再指出那是保罗的餐馆。",
+          "a": "Il y a un restaurant au coin. C’est le restaurant de Paul.",
+          "note": "il y a引入存在，c’est指认已提对象。若改为多家餐馆，存在结构仍写il y a des restaurants，不能因名词复数写il y ont。"
+        },
+        {
+          "q": "规范书面介绍“这些是我的父母”，再说“是我们”用哪种形式。",
+          "a": "Ce sont mes parents. C’est nous.",
+          "note": "普通复数名词介绍用ce sont；c’est nous为通常形式。口语c’est mes parents常见，不能笼统说所有口语复数c’est皆错。"
+        }
+      ]
     },
     "a1-present-er": {
       "sections": [
@@ -1870,7 +1971,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Je travaille maintenant（此刻）/ Je travaille le lundi（习惯）；Je mange（可能正在吃）/ Je suis en train de manger（明确强调过程）。",
       "errors": "aller 虽以 -er 结尾却是第三组；*nous mangons → nous mangeons，*nous commencons → nous commençons。",
-      "boundaries": "-e/-es/-ent 在常见第一组现在时词尾不发音，但词干本身会发音；-ons/-ez 发音。部分词干有拼写或重音变化：j’achète/nous achetons。"
+      "boundaries": "-e/-es/-ent 在常见第一组现在时词尾不发音，但词干本身会发音；-ons/-ez 发音。部分词干有拼写或重音变化：j’achète/nous achetons。",
+      "related": [],
+      "practice": [
+        {
+          "q": "写“我们在这里吃饭，中午开始”；使用manger和commencer现在时。",
+          "a": "Nous mangeons ici et nous commençons à midi.",
+          "note": "nous mangeons保留e以维持/ʒ/；commençons用ç维持/s/；并非所有-er可无调整套词干。"
+        },
+        {
+          "q": "朋友以为你说Demain, je travaille是说此刻。用中文解释，并再写一个明确未来安排的现在时句。",
+          "a": "Demain, nous visitons le musée.",
+          "note": "这里demain让现在时指明天的安排。Demain, nous visitons le musée. 现在时不仅描述此刻；明确时间和安排可指未来。Je vais travailler demain也自然，但不是本题要求的现在时主干。"
+        }
+      ]
     },
     "a1-present-ir": {
       "sections": [
@@ -1925,7 +2039,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Nous finissons（第二组）/ Nous partons（第三组）；Je réussis le test（当前或习惯）/ J’ai réussi le test（已经完成，见 A2）。",
       "errors": "*nous finons → nous finissons；ouvrir 以 -ir 结尾但属第三组，j’ouvre/nous ouvrons。",
-      "boundaries": "第二组识别可看现在分词 -issant：finir → finissant。仅见 infinitif -ir 不足以分组；haïr 的变音符与读音另须记忆。"
+      "boundaries": "第二组识别可看现在分词 -issant：finir → finissant。仅见 infinitif -ir 不足以分组；haïr 的变音符与读音另须记忆。",
+      "related": [],
+      "practice": [
+        {
+          "q": "下班计划：我们六点完成工作，然后离开。用finir和partir。",
+          "a": "Nous finissons le travail à six heures, puis nous partons.",
+          "note": "finir第二组复数有-iss-；partir第三组是partons，不是partissons。可以省le travail，但不能省两动作关系。"
+        },
+        {
+          "q": "描述眼前的两个连续动作：她打开窗户，然后选一把椅子。用ouvrir和choisir的现在时写一句。",
+          "a": "Elle ouvre la fenêtre, puis elle choisit une chaise.",
+          "note": "ouvrir虽-ir词尾但属第三组ouvre；choisir第二组choisit。不要写ouvrit来充当现在时，那是另一时态。"
+        }
+      ]
     },
     "a1-present-irreg": {
       "sections": [
@@ -1980,7 +2107,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Je vais à Lyon（去某地）/ Je viens de Lyon（来自某地）；Je peux partir（能够或获准）/ Je dois partir（有义务或必要）。",
       "errors": "*vous faisez → vous faites；*ils prenent → ils prennent；venir 的双 n 是 ils viennent，不是所有复数：nous venons/vous venez。",
-      "boundaries": "aller 属第三组；faire 的 nous faisons 发音须单独听记。不规则不意味着毫无模式，prendre/comprendre/apprendre 可按词族联记。"
+      "boundaries": "aller 属第三组；faire 的 nous faisons 发音须单独听记。不规则不意味着毫无模式，prendre/comprendre/apprendre 可按词族联记。",
+      "related": [],
+      "practice": [
+        {
+          "q": "你们准备采购再做饭。改正Nous vont au marché, puis nous faisez la cuisine。",
+          "a": "Nous allons au marché, puis nous faisons la cuisine.",
+          "note": "aller的nous为allons，faire的nous为faisons；faites是vous，不能因活动相同统一词尾。"
+        },
+        {
+          "q": "角色卡：她今天身体状况允许开车，但今晚不想开；你们必须坐公交。用pouvoir、vouloir和devoir写两句，区分可行能力、意愿与必要。",
+          "a": "Elle peut conduire, mais elle ne veut pas conduire ce soir. Nous devons prendre le bus.",
+          "note": "peut、veut、devons分别配主语，后面conduire/prendre原形。能做不等于想做；本题把pouvoir设为能力而非自动推断许可。"
+        }
+      ]
     },
     "a1-adj": {
       "sections": [
@@ -2035,7 +2175,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "un ancien professeur（从前的老师）/ un professeur ancien 较不自然，表示资历时常说 un professeur expérimenté；un grand homme（伟人）/ un homme grand（高个子）。",
       "errors": "*une maison blanc → une maison blanche；*un beau homme → un bel homme。位置不能仅依据词长判断。",
-      "boundaries": "颜色复合词通常不配合：des yeux bleu clair；橙色、栗色等名词转用颜色通常不配合：des robes orange/marron。rose 等有例外。"
+      "boundaries": "颜色复合词通常不配合：des yeux bleu clair；橙色、栗色等名词转用颜色通常不配合：des robes orange/marron。rose 等有例外。",
+      "related": [],
+      "practice": [
+        {
+          "q": "写“她穿一条白裙和一双新鞋”，注意robe和chaussures的配合。",
+          "a": "Elle porte une robe blanche et des chaussures neuves.",
+          "note": "blanche阴性单数；neuves阴性复数。描述颜色一般后置；把neuves换nouvelles可接受，但意义略从未用过转为新的。"
+        },
+        {
+          "q": "解释un grand homme与un homme grand的区别，再把un beau appartement改正。",
+          "a": "Un grand homme. Un homme grand. Un bel appartement.",
+          "note": "un grand homme通常是一位伟人；un homme grand是高个子男人。un bel appartement。 grand的位置改变常见意义；beau在紧接阳性元音起首词前用bel，名词仍阳性。"
+        }
+      ]
     },
     "a1-possessif": {
       "sections": [
@@ -2090,7 +2243,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "sa voiture 可是他的或她的车；la voiture de Léa 明确拥有者。leur voiture（一辆或各自一辆，语境决定）/ leurs voitures（多辆）。",
       "errors": "*ma amie → mon amie；*ils aiment ses enfants 若指他们自己的孩子，应为 ils aiment leurs enfants。",
-      "boundaries": "元音规则看紧接的词：mon ancienne école，但 ma nouvelle école。身体部位在明确所属时常用定冠词：Je me lave les mains。"
+      "boundaries": "元音规则看紧接的词：mon ancienne école，但 ma nouvelle école。身体部位在明确所属时常用定冠词：Je me lave les mains。",
+      "related": [],
+      "practice": [
+        {
+          "q": "Paul找他的钥匙，Léa找她的手机。用son/sa写一句，并解释不看什么性别。",
+          "a": "Paul cherche sa clé et Léa cherche son téléphone.",
+          "note": "sa配阴性clé，son配阳性téléphone；不按拥有者男性/女性挑选son/sa。"
+        },
+        {
+          "q": "改正并解释：Ma ancienne école est près de mon nouvelle maison。",
+          "a": "Mon ancienne école est près de ma nouvelle maison.",
+          "note": "看紧接词的音：ancienne元音前阴性改mon；nouvelle辅音前用ma。学校/房子本身仍阴性。"
+        }
+      ]
     },
     "a1-demonstratif": {
       "sections": [
@@ -2145,7 +2311,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "ce livre（这/那本书）/ mon livre（我的书）；cet ami（这位男性朋友）/ cette amie（这位女性朋友），读音可能相同，拼写区分。",
       "errors": "*cet école → cette école；cet 只替代阳性 ce，阴性始终 cette。*ces amis-ci-là 不能把两个后缀堆在同一个对照对象上。",
-      "boundaries": "-ci/-là 能表示近远，也可对比两个选择；没有后缀时 ce 不自动等于空间上的“近”。ces 与 ses 同音，书写不可混淆。"
+      "boundaries": "-ci/-là 能表示近远，也可对比两个选择；没有后缀时 ce 不自动等于空间上的“近”。ces 与 ses 同音，书写不可混淆。",
+      "related": [],
+      "practice": [
+        {
+          "q": "你指酒店说“这家小旅馆”，指学校说“这所学校”。填ce/cet/cette并解释。",
+          "a": "ce petit hôtel ; cette école",
+          "note": "ce后紧接petit辅音，不是直接看hôtel而用cet；école阴性始终cette，不能因元音改cet。"
+        },
+        {
+          "q": "两本书放在一起，明确说更喜欢这本而不是那本。用两个-ci/-là短语写一句。",
+          "a": "Je préfère ce livre-ci à ce livre-là.",
+          "note": "后缀用连字符，各限定一个对象；préférer A à B。两物不必都在不同实际距离，也可作选项对比。"
+        }
+      ]
     },
     "a1-negation": {
       "sections": [
@@ -2200,7 +2379,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Je n’aime pas le café（不喜欢咖啡这一类）/ Je ne bois pas de café（不喝咖啡，量为零）；Ce n’est pas du café（那不是咖啡）保留 du。",
       "errors": "不定/部分冠词并非否定后一律变 de，être 表语与对比常保留；*Je ne vais sortir pas → Je ne vais pas sortir。",
-      "boundaries": "正式书面语保留 ne；口语省略常见但不是所有语境都适合。ne…que 表“只”，不能按完整否定解释；见后续章节。"
+      "boundaries": "正式书面语保留 ne；口语省略常见但不是所有语境都适合。ne…que 表“只”，不能按完整否定解释；见后续章节。",
+      "related": [],
+      "practice": [
+        {
+          "q": "你明天不能来；另用Merci de…礼貌要求对方不要在这里吸烟。分别否定变位动词和不定式。",
+          "a": "Je ne peux pas venir demain. Merci de ne pas fumer ici.",
+          "note": "前句ne…pas围peux；后句ne pas连在原形前。不能写Je ne peux venir pas。"
+        },
+        {
+          "q": "一位朋友以为pas后总删冠词。用“不喜欢咖啡”和“没有咖啡”两句纠正。",
+          "a": "Je n’aime pas le café. Il n’y a pas de café.",
+          "note": "前句否定喜好整类保留le；后句普通存在/数量否定改de。不要求所有pas后冠词都相同。"
+        }
+      ]
     },
     "a1-question": {
       "sections": [
@@ -2255,7 +2447,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Tu viens ? / Est-ce que tu viens ? / Viens-tu ? 同问一事，语体不同；Vous avez faim ? 口语礼貌自然，不因为语调式就一定粗鲁。",
       "errors": "*Est-ce que viens-tu ? → Est-ce que tu viens ?；*Vient-t-il ? → Vient-il ?（已有 t）；*Parle t-elle → Parle-t-elle。",
-      "boundaries": "-t-主要在第三人称单数动词以 a/e 结尾且后接 il/elle/on 时插入，不能概括所有元音结尾；va-t-il、parle-t-elle，但 est-il。je 倒装受词形、语体限制，初学优先 est-ce que。"
+      "boundaries": "-t-主要在第三人称单数动词以 a/e 结尾且后接 il/elle/on 时插入，不能概括所有元音结尾；va-t-il、parle-t-elle，但 est-il。je 倒装受词形、语体限制，初学优先 est-ce que。",
+      "related": [],
+      "practice": [
+        {
+          "q": "服务员向同事询问那位女士是否已经订桌：分别写est-ce que形式和倒装形式，不叠加两者。",
+          "a": "Est-ce qu’elle a réservé une table ? A-t-elle réservé une table ?",
+          "note": "第一句陈述语序；第二句倒装助动词a，a和elle间插-t-。不写Est-ce que a-t-elle…。"
+        },
+        {
+          "q": "以Paul为主语，正式问他是否和我们一起去，再写一种自然口语形式。",
+          "a": "Paul vient-il avec nous ? Paul vient avec nous ?",
+          "note": "正式复杂倒装保留名词并用il复指；口语保留词序配问号和语调。礼貌由整体措辞决定，不是所有语调问句都粗鲁。"
+        }
+      ]
     },
     "a1-mots-interro": {
       "sections": [
@@ -2310,7 +2515,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Qui vient ?（谁来，qui 为主语）/ Qui invites-tu ?（你邀请谁，qui 为宾语）；Que veux-tu ?（规范前置）/ Tu veux quoi ?（口语后置）。",
       "errors": "*Combien livres → Combien de livres；*Quel heure → Quelle heure；介词后用 quoi：À quoi penses-tu ?，不用 *à que。",
-      "boundaries": "où 不能与 ou（或者）混淆；pourquoi 通常用 parce que 回答原因，pour + 原形答目的。间接疑问的语序另见高阶章节。"
+      "boundaries": "où 不能与 ou（或者）混淆；pourquoi 通常用 parce que 回答原因，pour + 原形答目的。间接疑问的语序另见高阶章节。",
+      "related": [],
+      "practice": [
+        {
+          "q": "分别问“谁在这里工作？”和“是什么发出这个声音？”",
+          "a": "Qui travaille ici ? Qu’est-ce qui fait ce bruit ?",
+          "note": "问人作主语用qui；问事物作主语用qu’est-ce qui。不能叠加一个未知il，也不能用宾语型qu’est-ce que替代后者。"
+        },
+        {
+          "q": "你要知道对方待几天及说哪些语言。写两个问题。",
+          "a": "Combien de jours restez-vous ? Quelles langues parlez-vous ?",
+          "note": "combien de后jours复数；quelles配langues阴性复数。est-ce que或自然口语语序也可，但保留de和配合。"
+        }
+      ]
     },
     "a1-prep-lieu": {
       "sections": [
@@ -2365,7 +2583,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Je vais en France（去向）/ Je viens de France（来源）；en Iran 与 au Japon 均为阳性国家，起始音造成介词差异。",
       "errors": "*au Iran → en Iran；*de le Canada → du Canada。Mexique/Cambodge 等虽以 -e 结尾仍为阳性。",
-      "boundaries": "城市一般 à，但带定冠词地名要结合：au Havre、au Caire。国家、岛屿、省区有惯用形式，如 à Cuba、à Madagascar，不能把所有地名套国家表。"
+      "boundaries": "城市一般 à，但带定冠词地名要结合：au Havre、au Caire。国家、岛屿、省区有惯用形式，如 à Cuba、à Madagascar，不能把所有地名套国家表。",
+      "related": [],
+      "practice": [
+        {
+          "q": "角色卡：她在意大利罗马学习，之后去伊朗和日本。写两句所在地/去向。",
+          "a": "Elle étudie à Rome, en Italie. Ensuite, elle va en Iran puis au Japon.",
+          "note": "城市à，阴性国en；Iran虽阳性但元音起首通常en，Japon阳性辅音au，不能所有阳性都au。"
+        },
+        {
+          "q": "你从加拿大回来，姐妹从意大利回来。写一句，再补“他在墨西哥工作”。",
+          "a": "Je reviens du Canada et ma sœur revient d’Italie. Il travaille au Mexique.",
+          "note": "du为阳性辅音国来源；Italie前d’；Mexique以-e结尾仍阳性，是不能按词尾一概推断的例外。"
+        }
+      ]
     },
     "a1-prep-base": {
       "sections": [
@@ -2420,7 +2651,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Je suis à l’école（在学校这个机构或地点）/ Je suis dans l’école（在校舍内部）；Je vais chez le médecin（去医生那里）/ Je vais à l’hôpital（去医院）。",
       "errors": "chez 并非“只能接人”：chez Renault 等公司名称也成立；不说 *chez la gare，而说 à la gare。*le vélo à Paul 在规范所属表达改 le vélo de Paul。",
-      "boundaries": "介词与动词搭配也受支配：penser à/parler de。pour 常表目的或受益者，不能把中文所有“为了/对/给”逐字对应为 pour。"
+      "boundaries": "介词与动词搭配也受支配：penser à/parler de。pour 常表目的或受益者，不能把中文所有“为了/对/给”逐字对应为 pour。",
+      "related": [],
+      "practice": [
+        {
+          "q": "朋友在桌面找钥匙，但钥匙在抽屉里。写一句纠正，再说明包在椅子下。",
+          "a": "Les clés sont dans le tiroir, pas sur la table. Le sac est sous la chaise.",
+          "note": "dans内部，sur表面，sous下方；位置不能按同一个中文“在”统一介词。"
+        },
+        {
+          "q": "写你与姐妹在朋友家吃饭，再说明你去医院；何处用chez？",
+          "a": "Je dîne chez des amis avec ma sœur. Je vais à l’hôpital.",
+          "note": "chez接朋友及其处所，avec陪同；医院普通地点à而非chez。chez Renault等企业习惯用法说明chez并非绝对只接人。"
+        }
+      ]
     },
     "a1-heure-date": {
       "sections": [
@@ -2475,7 +2719,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Il est huit heures（现在八点）/ Le cours commence à huit heures（课在八点开始）；lundi（某个周一）/ le lundi（通常每周一，具体日期限定时也可指某周一）。",
       "errors": "*Il est une heures → Il est une heure；*huit heures et demi → huit heures et demie；但 midi et demi/minuit et demi。",
-      "boundaries": "星期不加冠词并非必定将来，时态决定：Lundi, j’ai travaillé（过去周一）。le lundi 5 mai 是具体日期，不表示每周。数字报时适合正式日程。"
+      "boundaries": "星期不加冠词并非必定将来，时态决定：Lundi, j’ai travaillé（过去周一）。le lundi 5 mai 是具体日期，不表示每周。数字报时适合正式日程。",
+      "related": [],
+      "practice": [
+        {
+          "q": "课程9:15开始，要求提前10分钟到。写开始时刻和到达时刻。",
+          "a": "Le cours commence à neuf heures et quart. J’arrive à neuf heures cinq.",
+          "note": "9:15减10分钟是9:05；à标活动时刻。不能把报时Il est直接套为课程主语Le cours est neuf heures。"
+        },
+        {
+          "q": "分别写每周一在家工作、上周一在办公室；说“中午十二点半”时demi是否加e？",
+          "a": "Le lundi, je travaille chez moi. Lundi dernier, j’étais au bureau. midi et demi。",
+          "note": "le lundi常表习惯；lundi dernier明确过去的一次。midi阳性demi无e，heures et demie有e。本题允许先理解j’étais语块。"
+        }
+      ]
     },
     "a1-futur-proche": {
       "sections": [
@@ -2530,7 +2787,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Je vais à la gare（aller 表移动）/ Je vais partir（aller 为未来辅助结构）；Je vais travailler l’année prochaine 也可自然，名称“最近”不意味着必须几分钟内。 Je vais appeler Paul（突出当前打算）/ J’appellerai Paul（直接陈述未来行动，也可为承诺）；两者都可指稍后打电话，不能按分钟/年份强分。",
       "errors": "*Je vais mange → Je vais manger；普通否定计划通常说 Je ne vais pas sortir。Je vais ne pas sortir 可在刻意否定不定式动作的对比语境中出现，但不宜作为初学者的常规否定表达。",
-      "boundaries": "futur proche 常把未来与当前意图、迹象连接，不保证一定发生；futur simple 也可指很近的未来，二者差异不是单纯距离。"
+      "boundaries": "futur proche 常把未来与当前意图、迹象连接，不保证一定发生；futur simple 也可指很近的未来，二者差异不是单纯距离。",
+      "related": [],
+      "practice": [
+        {
+          "q": "看见杯子快掉了，警告朋友；再说你不打算买这辆车。",
+          "a": "Attention, le verre va tomber ! Je ne vais pas acheter cette voiture.",
+          "note": "va+tomber预测眼前变化；否定计划围vais，acheter保持原形。不能把“不打算买”误成“已没买”。"
+        },
+        {
+          "q": "有人说“明年太远，不能用aller+原形”。用明年搬家反驳，并解释。",
+          "a": "Nous allons déménager l’année prochaine.",
+          "note": "近期将来可表达当前已形成的较远计划；名称不意味着固定分钟或日期上限，也不保证计划一定发生。"
+        }
+      ]
     },
     "a1-passe-recent": {
       "sections": [
@@ -2585,7 +2855,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Je viens de Paris（从巴黎来，de + 名词）/ Je viens de partir（刚出发，de + 原形）；J’ai terminé（完成了，不说明离现在多近）/ Je viens de terminer（强调刚完成）。",
       "errors": "*Je viens finir → Je viens de finir（若要表达“刚完成”）；*Elle vient de arrivée → Elle vient d’arriver。",
-      "boundaries": "“刚”没有固定分钟上限，由语境决定。过去参照点用 venir 的未完成过去时：Il venait de partir quand…，详见 A2/B1。"
+      "boundaries": "“刚”没有固定分钟上限，由语境决定。过去参照点用 venir 的未完成过去时：Il venait de partir quand…，详见 A2/B1。",
+      "related": [],
+      "practice": [
+        {
+          "q": "公交刚走，所以要等下一班。写两句或一个并列句，不能省de。",
+          "a": "Le bus vient de partir. Il faut attendre le suivant.",
+          "note": "venir de+原形表达刚完成；vient de不是来自某地，因为partir是动作原形。需把已发生与下一步必要区分。"
+        },
+        {
+          "q": "把“我从巴黎来”和“我刚出发”写成法语，说明de后结构差别。",
+          "a": "Je viens de Paris. Je viens de partir.",
+          "note": "Paris为地名名词表来源；partir为不定式，venir de是最近过去。不能只看viens de就都译“刚”。"
+        }
+      ]
     },
     "a1-vouloir-inf": {
       "sections": [
@@ -2640,7 +2923,20 @@ window.GRAMMAR_DATA.A1={
       ],
       "comparison": "Je peux nager（能够、获准等由语境判断）/ Je sais nager（掌握游泳技能）；Je veux partir（想离开）/ Je voudrais partir（较委婉）。",
       "errors": "“两个动词连用第二个永远原形”过度概括：J’ai mangé 用过去分词；Je veux que tu viennes 用从句变位。此规则只适用当前列出的原形补语结构。",
-      "boundaries": "有些动词要求 à/de：commencer à travailler、essayer de comprendre；不能推广为所有动词直接 + 原形。原形主语通常与主要动词主语相同。"
+      "boundaries": "有些动词要求 à/de：commencer à travailler、essayer de comprendre；不能推广为所有动词直接 + 原形。原形主语通常与主要动词主语相同。",
+      "related": [],
+      "practice": [
+        {
+          "q": "正式餐厅预订：请用较委婉语气说想订两人桌，并请对方重复。",
+          "a": "Je voudrais réserver une table pour deux personnes. Vous pouvez répéter, s’il vous plaît ?",
+          "note": "voudrais为礼貌条件式语块，réserver原形；pouvoir问句可表达请求，不仅是在测能力。其他同等礼貌表达可接受。"
+        },
+        {
+          "q": "改错并解释为何不能说“第二个动词永远原形”：Elle veut apprend à conduire. J’ai manger。",
+          "a": "Elle veut apprendre à conduire. J’ai mangé.",
+          "note": "vouloir的原形补语为apprendre，后续apprendre à conduire自有à；复合过去时ai后过去分词mangé，不套两个动词第二个永远原形。"
+        }
+      ]
     }
   },
   "contexts": [],

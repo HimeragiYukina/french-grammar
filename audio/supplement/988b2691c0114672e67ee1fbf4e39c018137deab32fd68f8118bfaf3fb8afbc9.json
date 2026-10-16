@@ -1,0 +1,30 @@
+{
+  "text": "C’est un grand homme, mais ce n’est pas un homme grand.",
+  "text_sha256": "988b2691c0114672e67ee1fbf4e39c018137deab32fd68f8118bfaf3fb8afbc9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.948934240362812,
+      "source_seconds": 2.948934240362812,
+      "source_file_sha256": "89136f2ca91225d3b3af51c49652de795b1f89d8c3ec1f1c0fca86d37701226e",
+      "file_sha256": "85a0523a7071b116b6c8276f4f85cf2ed10c733358619647f10dab2fba261f10",
+      "bytes": 24285,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

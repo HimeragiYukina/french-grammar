@@ -1,0 +1,30 @@
+{
+  "text": "Les risques qu'elle a courus étaient considérables.",
+  "text_sha256": "56b1652b75ec54cd1ba95fe531e2db16c49660969caf2c257a2cf8697a1a84ab",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5541950113378684,
+      "source_seconds": 2.5541950113378684,
+      "source_file_sha256": "a5621a7e5e477f6308c58a265f2034db92b0b94bce1002eba93fb90ad9646e96",
+      "file_sha256": "0516eed25acb083c2a12173ce9cdf94f7bac91e604c38232dd5a36edcb1b86c9",
+      "bytes": 21150,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

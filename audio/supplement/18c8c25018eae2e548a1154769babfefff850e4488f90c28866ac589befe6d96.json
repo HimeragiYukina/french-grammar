@@ -1,0 +1,30 @@
+{
+  "text": "Ces photos sont belles.",
+  "text_sha256": "18c8c25018eae2e548a1154769babfefff850e4488f90c28866ac589befe6d96",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4512471655328798,
+      "source_seconds": 1.4512471655328798,
+      "source_file_sha256": "d15c7c05e2851d4aed9a5ddf4a5ecdbff95c260c537bcc3f1286d24dc2c97dbc",
+      "file_sha256": "03c5a058702f0be80b9d549ba87a124a0cc610d49a45dea46e21cce0ff56030f",
+      "bytes": 12373,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

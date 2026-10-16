@@ -1,0 +1,30 @@
+{
+  "text": "Ils ont loué une voiture chère.",
+  "text_sha256": "cc86380512885ca5167b8e8fc6d6aab30d4d576cef766980bf8b4418d9ca16db",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.799546485260771,
+      "source_seconds": 1.799546485260771,
+      "source_file_sha256": "574a2a7b1c286f9a10ddcb142ce7e11d71ac76bb3275acfab685b91b738f3680",
+      "file_sha256": "b23960dab43c58aeb5c6414b698b2116f3436c7298f86e6bb80754db0d961237",
+      "bytes": 15090,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

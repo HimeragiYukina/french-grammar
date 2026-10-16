@@ -1,0 +1,30 @@
+{
+  "text": "Elle a installé deux tables, donc tout le monde peut manger ensemble",
+  "text_sha256": "7dce046c4c70bbec7f49d870a6b8e068cc58fafcd1f0053501f4c753d46837a8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7268027210884354,
+      "source_seconds": 3.7268027210884354,
+      "source_file_sha256": "e054e4ea188e34f55d14edf09a5dce3305d01406e3b982a187d1ed6b58cae379",
+      "file_sha256": "e58a69f4de967908c65e963bdbf09e65074051b59cc9ec1fe1fd68c466faa8ff",
+      "bytes": 30555,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

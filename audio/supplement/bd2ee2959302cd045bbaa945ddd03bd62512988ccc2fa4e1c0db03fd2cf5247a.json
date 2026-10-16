@@ -1,0 +1,30 @@
+{
+  "text": "Il a ___ insisté ___ j'ai fini par accepter. (",
+  "text_sha256": "bd2ee2959302cd045bbaa945ddd03bd62512988ccc2fa4e1c0db03fd2cf5247a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0549659863945577,
+      "source_seconds": 2.0549659863945577,
+      "source_file_sha256": "ac5f7ad221003c65affff347a86cf9d556ba8709707ac6ee316c2112bf40ff82",
+      "file_sha256": "b187e51be7ae1f19ddeeaec5c176a1d7acce9f3765aed15784af3650bcdbacc9",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

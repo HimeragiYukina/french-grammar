@@ -1,0 +1,30 @@
+{
+  "text": "Le projet coûte cher ; il n'empêche qu'il demeure indispensable.",
+  "text_sha256": "310ec43561c9597c1baede87f9d47b6bb1556c523e542c72ffe9cd6d1e90a96a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5294331065759637,
+      "source_seconds": 3.5294331065759637,
+      "source_file_sha256": "76356c714866f6a0be3ed6beea9de8c6a854d535995c48f11ad5376f89640a56",
+      "file_sha256": "967b5735682fc7e6b6a1fe43e717e9afe4cc1120d7c4b446661eb612578a56d3",
+      "bytes": 29092,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Il y a quelqu'un ? — Non, il ___ y a ___. (",
+  "text_sha256": "5f58b3a93e516c891087b4fe77866cef32968c37139b49c847b6ea2c92b87a7a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.391655328798186,
+      "source_seconds": 2.391655328798186,
+      "source_file_sha256": "4d9acd95c1bde03932f43f68d5e9ecf03ce672321c5f9dd027e08dffc80cf883",
+      "file_sha256": "2543e16e5751cc5da6ecd3e1387f19cd15327b22168058b4e70f18180de4c2f9",
+      "bytes": 19897,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

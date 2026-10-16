@@ -1,0 +1,30 @@
+{
+  "text": "Les semaines précédentes le départ furent difficiles.",
+  "text_sha256": "f727912024c45434f13b501f094d0a073fb0a2f5720b614ee3e364e3d597b34b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7399546485260773,
+      "source_seconds": 2.7399546485260773,
+      "source_file_sha256": "2c260b1f66a2577d6496d30faad6e4c356397fd7a44eb1a7b5efb0b932509d7f",
+      "file_sha256": "6d5099c7867595b09d14259218bd786a83320a88b119d46b5eaf209d747d0930",
+      "bytes": 22613,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

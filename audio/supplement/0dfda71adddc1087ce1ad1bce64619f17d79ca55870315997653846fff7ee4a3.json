@@ -1,0 +1,30 @@
+{
+  "text": "Ayant raté le train, nous avons reporté le rendez-vous.",
+  "text_sha256": "0dfda71adddc1087ce1ad1bce64619f17d79ca55870315997653846fff7ee4a3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8792743764172335,
+      "source_seconds": 2.8792743764172335,
+      "source_file_sha256": "23346b75a7e42567ac2bcdaf91fdc78023003ad4e4c6c4f20f0a504c6d090a31",
+      "file_sha256": "6753b6ad9a8019c0aa6d80be2b4d82982359559d0f1c5dcd6971d839fbc65d4e",
+      "bytes": 23867,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Sans doute avez-vous raison.",
+  "text_sha256": "525e9fe57bb5f8b972435155330320a743a8f8ee46d781df6c73692a991e9754",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2887074829931973,
+      "source_seconds": 1.2887074829931973,
+      "source_file_sha256": "9cde9fca374004a97239e3eccb6be67fabf33506a0aae6052f567e8e9932ec5f",
+      "file_sha256": "8d920ac5ea473b27752398b965a2408ff4d3ba3c4bc8a541c9d3cbbe57a2d048",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

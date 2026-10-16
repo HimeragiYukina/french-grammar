@@ -1,0 +1,30 @@
+{
+  "text": "Concession et hypothèse",
+  "text_sha256": "702be6ecd41dde66db1405668379ff8b5893eb1e80ce848a36f0574e2bf89952",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9969160997732427,
+      "source_seconds": 1.9969160997732427,
+      "source_file_sha256": "f3f25e8e89000a12da8efd4aeb051ce1ab673975b952fbd5a983c62f441bcc66",
+      "file_sha256": "b90e43007a1f681ec4a697a1952f17e34ea893ee31f7cf3dde3cde64b2e488d9",
+      "bytes": 16762,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

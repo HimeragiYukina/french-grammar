@@ -1,0 +1,30 @@
+{
+  "text": "Je lui ai écrit hier. Je lui enverrai une photo aujourd’hui.",
+  "text_sha256": "9d7c42e5e2a852af5369bd869f67d1fbe9c49a3c5db578dcccf9dac6e6db3481",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4946031746031747,
+      "source_seconds": 3.4946031746031747,
+      "source_file_sha256": "ba6f37ff38c15a8790fcc5fa000534554e5aa794f026548b41933e12b0e4b2a3",
+      "file_sha256": "31a091bde3e4457a82e90c4508d0089aa8e28a0f5ad0bd09791894f6c9fab6d1",
+      "bytes": 28674,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

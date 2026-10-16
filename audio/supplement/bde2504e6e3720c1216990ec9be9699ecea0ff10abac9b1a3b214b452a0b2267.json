@@ -1,0 +1,30 @@
+{
+  "text": "!) : Après qu'il ___ (partir, passé composé), j'ai rangé.",
+  "text_sha256": "bde2504e6e3720c1216990ec9be9699ecea0ff10abac9b1a3b214b452a0b2267",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1579138321995464,
+      "source_seconds": 3.1579138321995464,
+      "source_file_sha256": "ad1ad72881f5c8097f6a168f9e1f53d3c220183d895a98ffded0178607df728e",
+      "file_sha256": "87135945acce44543bb4caf2391161df331291a4b30ce9420762e643ab0cf9cc",
+      "bytes": 25957,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

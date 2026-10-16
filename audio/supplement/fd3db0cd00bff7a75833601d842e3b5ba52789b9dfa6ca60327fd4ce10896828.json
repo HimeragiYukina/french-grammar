@@ -1,0 +1,30 @@
+{
+  "text": "Je parlai au directeur, puis je sortis.",
+  "text_sha256": "fd3db0cd00bff7a75833601d842e3b5ba52789b9dfa6ca60327fd4ce10896828",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.076643990929705,
+      "source_seconds": 3.076643990929705,
+      "source_file_sha256": "e2562c8128eedb64ff96af65ef3d2360b56f42565e9e788c82186510a0d537f1",
+      "file_sha256": "e5b72b5119b6a63b2f65e16b0dca1df96610e58f892aa6b79b5bc7910c66878b",
+      "bytes": 25330,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Tu progresseras en étant plus attentif en classe.",
+  "text_sha256": "df7f918ab79fc63dcaff6fe3a420886a533b0b108c39cdaf030363ae3ede12d9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7747845804988662,
+      "source_seconds": 2.7747845804988662,
+      "source_file_sha256": "960ea3c82faeb941acfae59dabf766ea097a25a867a3d4c0b08d91b476c5b40d",
+      "file_sha256": "d1081fade831fe2c65defdb9a4b0c17d10b88d09c483f9a46a8d176cfcfe594c",
+      "bytes": 23031,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

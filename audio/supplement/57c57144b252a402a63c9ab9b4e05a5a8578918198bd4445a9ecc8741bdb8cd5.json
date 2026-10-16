@@ -1,0 +1,30 @@
+{
+  "text": "Je vais travailler l’année prochaine",
+  "text_sha256": "57c57144b252a402a63c9ab9b4e05a5a8578918198bd4445a9ecc8741bdb8cd5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9504761904761905,
+      "source_seconds": 1.9504761904761905,
+      "source_file_sha256": "a2f4f17918adf488ca2bb1a231a9f25ab61ca7ad569a07e5c9a09a5bdaf04070",
+      "file_sha256": "d517191e47fae731f37e31f7d050e443320ad0fced074371082c01b70b9cbba8",
+      "bytes": 16344,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

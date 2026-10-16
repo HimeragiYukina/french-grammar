@@ -1,0 +1,30 @@
+{
+  "text": "« Les rois qui se sont ___ (succéder). » (se = à qn)",
+  "text_sha256": "b1f504cc5bc2d546eefe7473953f3b9aad4670e85bde2386d5d5ce0320230550",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.670294784580499,
+      "source_seconds": 2.670294784580499,
+      "source_file_sha256": "dac3afc546733d74ff61d8002660691f943b2670fccc51118fc3d4cab6d70008",
+      "file_sha256": "083e4436e6923404d1267bc051a8d575e228b7685258aa4577a647077cbab02d",
+      "bytes": 22195,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "scope": "Grammar repository only; exact reversible semantic corrections against the last committed source. Supplement practice is independently reviewed and counted separately.",
+  "changes": [
+    {
+      "file": "tools/grammar-a1.json",
+      "path": [
+        "practice",
+        "a1-genre",
+        2,
+        "note"
+      ],
+      "before": "元音开头名词前缩合为 l'",
+      "after": "元音开头名词前le/la省音为l’；这是省音，不是à+le=au一类缩合。",
+      "reason": "Full-site semantic review: correct teaching meaning, task alignment or explanation; original baseline retained."
+    },
+    {
+      "file": "tools/expansion-a1.json",
+      "path": [
+        "a1-partitif",
+        "sections",
+        2,
+        "examples",
+        1,
+        "fr"
+      ],
+      "before": "Je ne bois pas de lait, mais ce n’est pas du lait dans ce verre.",
+      "after": "Je ne bois pas de lait. Ce n’est pas du lait dans ce verre.",
+      "reason": "Full-site semantic review: correct teaching meaning, task alignment or explanation; original baseline retained."
+    },
+    {
+      "file": "tools/expansion-a1.json",
+      "path": [
+        "a1-partitif",
+        "sections",
+        2,
+        "examples",
+        1,
+        "zh"
+      ],
+      "before": "我不喝牛奶，但这个杯子里装的不是牛奶。",
+      "after": "我不喝牛奶。这个杯子里装的不是牛奶。",
+      "reason": "Full-site semantic review: correct teaching meaning, task alignment or explanation; original baseline retained."
+    },
+    {
+      "file": "tools/grammar-a2.json",
+      "path": [
+        "grammar",
+        1,
+        "ex",
+        5,
+        "use"
+      ],
+      "before": "带宾语改用 avoir:monter 带直接宾语(ses valises)时用 avoir 且不配合;不带宾语时用 être 并配合(montée)",
+      "after": "带直接宾语的相关用法改用 avoir：此句 ses valises 后置，所以 monté 不配合；前置 COD 则另判配合。不带直接宾语的位移用 être，此句与 elle 配合为 montée。",
+      "reason": "Full-site semantic review: correct teaching meaning, task alignment or explanation; original baseline retained."
+    },
+    {
+      "file": "tools/expansion-a2.json",
+      "path": [
+        "a2-pc-etre",
+        "sections",
+        1,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "她下到一楼去了。",
+      "after": "她下到地面层去了。",
+      "reason": "Full-site semantic review: correct teaching meaning, task alignment or explanation; original baseline retained."
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "path": [
+        "practice",
+        "b2-mode-choix",
+        2,
+        "note"
+      ],
+      "before": "考查条件式:假设『换作是你』的情景,用条件式现在委婉表达建议。",
+      "after": "考查条件式：À ta place 表示“如果我是你／处在你的位置”，用条件式现在 refuserais 委婉表达建议。",
+      "reason": "Full-site semantic review: correct teaching meaning, task alignment or explanation; original baseline retained."
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "path": [
+        "grammar",
+        9,
+        "ex",
+        2,
+        "zh"
+      ],
+      "before": "人人都知道。然而无人行动。",
+      "after": "人人当时都知道。然而现在无人行动。",
+      "reason": "Full-site semantic review: correct teaching meaning, task alignment or explanation; original baseline retained."
+    },
+    {
+      "file": "tools/expansion-c2.json",
+      "path": [
+        "c2-cohesion",
+        "sections",
+        4,
+        "examples",
+        0,
+        "fr"
+      ],
+      "before": "En général, il faut réserver ; en l'occurrence, il reste des places.",
+      "after": "En général, la salle est complète ; en l'occurrence, il reste des places.",
+      "reason": "Full-site semantic review: correct teaching meaning, task alignment or explanation; original baseline retained."
+    },
+    {
+      "file": "tools/expansion-c2.json",
+      "path": [
+        "c2-cohesion",
+        "sections",
+        4,
+        "examples",
+        0,
+        "zh"
+      ],
+      "before": "通常需要预订；但当前这个情况还有空位。",
+      "after": "通常场地满座；不过这一次还有空位。",
+      "reason": "Full-site semantic review: correct teaching meaning, task alignment or explanation; original baseline retained."
+    }
+  ]
+}

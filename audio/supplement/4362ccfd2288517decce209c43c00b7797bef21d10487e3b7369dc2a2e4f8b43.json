@@ -1,0 +1,30 @@
+{
+  "text": "Ce voyage nous aura au moins appris à mieux nous organiser.",
+  "text_sha256": "4362ccfd2288517decce209c43c00b7797bef21d10487e3b7369dc2a2e4f8b43",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.517823129251701,
+      "source_seconds": 3.517823129251701,
+      "source_file_sha256": "c37d11aa6c1f5f742261edfb03863d7cd6e085620968266a523b3c5fd4acf1c4",
+      "file_sha256": "a320c6299e5a2fdb050779f98eb696f8e86ca17921ac846731dd7fc14d40b28a",
+      "bytes": 28883,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

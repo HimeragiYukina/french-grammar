@@ -1,0 +1,30 @@
+{
+  "text": "Marie et moi, nous nous écrivons souvent.",
+  "text_sha256": "189ff102937785eedfdd5121af7cbbfa244a2e44c529082640ba27445ae3b477",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.426485260770975,
+      "source_seconds": 2.426485260770975,
+      "source_file_sha256": "9ef2846f13448c3c561ed6163999fef4adc53704857c148f3f2f62fa4d6c0559",
+      "file_sha256": "8502b5a4c584ea8dbdb33e614652587603e63fe45193040dea052214876100e7",
+      "bytes": 20106,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

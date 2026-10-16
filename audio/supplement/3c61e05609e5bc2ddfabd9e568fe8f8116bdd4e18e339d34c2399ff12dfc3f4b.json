@@ -1,0 +1,30 @@
+{
+  "text": "Elle a écrit dix romans, dont trois sont très connus.",
+  "text_sha256": "3c61e05609e5bc2ddfabd9e568fe8f8116bdd4e18e339d34c2399ff12dfc3f4b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9257142857142857,
+      "source_seconds": 2.9257142857142857,
+      "source_file_sha256": "369d62b0365fcbba43a135ced636333afee02884f96795f6cd1e5e9591ca85d3",
+      "file_sha256": "a60147855341e172c767fab8cc4ff31e686f2aebb69c554599c2d326888c6b57",
+      "bytes": 24076,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

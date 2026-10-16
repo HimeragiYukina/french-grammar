@@ -1,0 +1,30 @@
+{
+  "text": "En admettant que le budget soit doublé, le délai restera trop court.",
+  "text_sha256": "ef16a86bd5adcabbbc7b09b3d91f9dcf375f3f7f81777d80bdc2bdedff555112",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7384126984126986,
+      "source_seconds": 3.7384126984126986,
+      "source_file_sha256": "af6e611752ed80299b162ace0df6bb8634ef018d2f8cdab39d5cb9d8b33921c7",
+      "file_sha256": "30e38fb975c6498f0f54aae21734e1f6626834dd75ece2a5456707feee67e1fa",
+      "bytes": 30764,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

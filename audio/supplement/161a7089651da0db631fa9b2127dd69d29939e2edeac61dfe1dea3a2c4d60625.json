@@ -1,0 +1,30 @@
+{
+  "text": "Elle vient d’ouvrir la boutique.",
+  "text_sha256": "161a7089651da0db631fa9b2127dd69d29939e2edeac61dfe1dea3a2c4d60625",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6950566893424037,
+      "source_seconds": 1.6950566893424037,
+      "source_file_sha256": "21982f1900e698d171f3ecbc5327c0f3396104695a23107420f08b16a0bd4917",
+      "file_sha256": "88be60a241784206d33a053a522edb26c19ca05ce36d71a6a0fec5910a345e14",
+      "bytes": 14254,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

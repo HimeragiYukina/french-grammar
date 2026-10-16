@@ -1,0 +1,30 @@
+{
+  "text": "la pluie",
+  "text_sha256": "e5f526445efee13ad9f243696391f0439ea4d561518d9e9ad52c4b57bd81b566",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8010884353741496,
+      "source_seconds": 0.8010884353741496,
+      "source_file_sha256": "5f59f4bae15e71d018d164983af48dcb3925dd7c500ff618a74f5a03e43ff904",
+      "file_sha256": "f4b2c4deebaea8997dee44cdfcc047ee03eeffbc00a75a7547cd44fd74f95e3e",
+      "bytes": 7149,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

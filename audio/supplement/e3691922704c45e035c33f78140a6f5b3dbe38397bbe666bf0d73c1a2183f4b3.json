@@ -1,0 +1,30 @@
+{
+  "text": "Pourquoi pars-tu ? — Parce que je suis fatigué.",
+  "text_sha256": "e3691922704c45e035c33f78140a6f5b3dbe38397bbe666bf0d73c1a2183f4b3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4380952380952383,
+      "source_seconds": 2.4380952380952383,
+      "source_file_sha256": "72fb3619e21697f50d15fb716a62b61943e51693f422c3530fd494a501b15daf",
+      "file_sha256": "d453044d265fc119db2ac7f42d5a27e7a6b2e76e8d08e2bc2c0778357f1b60e0",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

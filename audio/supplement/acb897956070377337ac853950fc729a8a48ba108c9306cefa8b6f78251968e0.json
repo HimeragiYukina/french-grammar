@@ -1,0 +1,30 @@
+{
+  "text": "Trois formes pour l'interrogation totale : intonation (courante à l'oral), est-ce que (standard), inversion (souvent plus soutenue). La politesse dépend aussi des mots et du contexte.",
+  "text_sha256": "acb897956070377337ac853950fc729a8a48ba108c9306cefa8b6f78251968e0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.949750566893425,
+      "source_seconds": 9.949750566893425,
+      "source_file_sha256": "a5241bcdc1909080e2bd3250463b7226283b43bc26b3ca6ee638ecba4134f61a",
+      "file_sha256": "d873819ff927c0bd59cdf56c5d8606827228fbda6d0dea106f23c292d38a0f70",
+      "bytes": 80292,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

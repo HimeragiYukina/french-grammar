@@ -1,0 +1,30 @@
+{
+  "text": "Le lundi, je travaille chez moi. Lundi dernier, j’étais au bureau. midi et demi。",
+  "text_sha256": "403f77413d2f52e5635e8c50695b3d2bdedcf7238fb59b1355cc227ad20c675b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.189659863945578,
+      "source_seconds": 5.189659863945578,
+      "source_file_sha256": "bc3b9da2ef592a7ce1830de0696d28e0875686d6b218ff84676a49d02df30c05",
+      "file_sha256": "10f6b1c273e37a1b6fadea4a8c75b3caf668c6d6d0c7505a91e64ad688c9fe32",
+      "bytes": 42257,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "J’ai lu tout le dossier. Ensuite, j’ai répondu au client.",
+  "text_sha256": "450a86dc560985b48d0fb09bf5e3a7f48e5b35e547305fa034e42db48e99f3be",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.517823129251701,
+      "source_seconds": 3.517823129251701,
+      "source_file_sha256": "e9b72cc5920e3a64ece0e82ac3a99dc458d9caf962a0deac0791e646824d7165",
+      "file_sha256": "92dda11efa5890fe52acf5267c5be3611736712936dc0e7f713f0e9a2c5f325b",
+      "bytes": 28883,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

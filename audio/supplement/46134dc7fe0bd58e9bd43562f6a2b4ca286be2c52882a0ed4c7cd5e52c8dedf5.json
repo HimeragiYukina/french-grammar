@@ -1,0 +1,30 @@
+{
+  "text": "La route étant fermée, nous avons pris un autre chemin.",
+  "text_sha256": "46134dc7fe0bd58e9bd43562f6a2b4ca286be2c52882a0ed4c7cd5e52c8dedf5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2856235827664397,
+      "source_seconds": 3.2856235827664397,
+      "source_file_sha256": "0059140210c38aee85c40b95aa9f30015d3b7202d31d12d6252903240a058a6e",
+      "file_sha256": "fcf00b3544918414db6edeedf11ed40c2b897c28a7ea2cbbbf00097353904bd7",
+      "bytes": 27002,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "La fille qui aime Paul",
+  "text_sha256": "d56ba6c39c1a0b2f95595bfb7b3b24e2b26e18af697ab08a423fc6148214efd2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6021768707482993,
+      "source_seconds": 1.6021768707482993,
+      "source_file_sha256": "98888659b9004fb0c2243a55208098f1d2e3e39d967bfe0af7313d6fc3726c83",
+      "file_sha256": "e2984067dab787185a4e994a2231650af4f8725f97400306f688e285729b5ed8",
+      "bytes": 13627,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

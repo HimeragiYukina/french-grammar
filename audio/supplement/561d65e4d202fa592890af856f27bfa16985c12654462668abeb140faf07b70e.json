@@ -1,0 +1,30 @@
+{
+  "text": "Madame, vous avez votre billet ? Les enfants, vous avez vos billets ?",
+  "text_sha256": "561d65e4d202fa592890af856f27bfa16985c12654462668abeb140faf07b70e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.35374149659864,
+      "source_seconds": 4.35374149659864,
+      "source_file_sha256": "a9df5b235f9ee19c4bce93a84af4da0cf1d1c665cb7cfabf471d01d833d98914",
+      "file_sha256": "0f416487cc9671e50317d88b62ce5f854c8d6fa53bf9d97b481d5bfe17d57b00",
+      "bytes": 35570,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Le repas terminé, les invités sont passés au salon.",
+  "text_sha256": "913d2758fcbe73456d1e70dd396f31ab05a65ef1047d5e9a92d6c97a4aa67db7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.320453514739229,
+      "source_seconds": 3.320453514739229,
+      "source_file_sha256": "7639e683c1d51a2d1b945f1d92cd752e2cca298e9e2466437926bb7c280b008a",
+      "file_sha256": "f9e6dc963e88043ceb46051b814247909b3aab5253aa40684413abd5b06e3f21",
+      "bytes": 27420,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

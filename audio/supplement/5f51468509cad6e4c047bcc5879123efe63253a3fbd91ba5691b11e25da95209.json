@@ -1,0 +1,30 @@
+{
+  "text": "Je ne veux pas de sucre",
+  "text_sha256": "5f51468509cad6e4c047bcc5879123efe63253a3fbd91ba5691b11e25da95209",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4048072562358276,
+      "source_seconds": 1.4048072562358276,
+      "source_file_sha256": "41710d503aaf914dee7fb63955334dc3104ad6e7f3919855546f723bea8dd965",
+      "file_sha256": "1cd9d72a8ce87202bcf01672295726991eedda1352808a3e0a7c02c83e1bc52a",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

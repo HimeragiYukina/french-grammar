@@ -1,0 +1,30 @@
+{
+  "text": "« C'est » présente ou identifie ; « il y a » indique l'existence et ne varie pas avec le nombre du nom introduit, mais se conjugue selon le temps.",
+  "text_sha256": "b6145137669864f3db144fc84776b885d2b179e4962ff3e2cae32ca4c81dce49",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.186575963718821,
+      "source_seconds": 7.186575963718821,
+      "source_file_sha256": "0d86eadb3c538f1b6caf9383f64d972cc40a394ac23093971078d0c4922cc2e3",
+      "file_sha256": "2b9427047f1ba0dedf9a05233084fe9c8b9f6b104a990458f7f90fc97682a142",
+      "bytes": 58349,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

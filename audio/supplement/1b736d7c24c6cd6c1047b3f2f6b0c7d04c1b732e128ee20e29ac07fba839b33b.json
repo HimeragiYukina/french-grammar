@@ -1,0 +1,30 @@
+{
+  "text": "J’aurais aimé rencontrer ta grand-mère.",
+  "text_sha256": "1b736d7c24c6cd6c1047b3f2f6b0c7d04c1b732e128ee20e29ac07fba839b33b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.066575963718821,
+      "source_seconds": 2.066575963718821,
+      "source_file_sha256": "bc55ea6913be0b0a0bf376251193e0d013580524a87e60f45ccbecead0e16d7c",
+      "file_sha256": "fb12e72ba7b4e54bf5be8c16e414abec58896ff38465fff9f222a5b7e9d209a0",
+      "bytes": 17389,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "C'est à Lyon que j'ai rencontré Léa.",
+  "text_sha256": "4775687954f9b4e433b4f02217244d3ae3e30e04882082e52c89a058dd6c6d46",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8808163265306121,
+      "source_seconds": 1.8808163265306121,
+      "source_file_sha256": "3e7d411bd04e2eb75d87cf0c8f05ead8775dd18736dba314af8ffb871be5f75e",
+      "file_sha256": "54abaf065cb3c993bb7d1a8f847ba6b1fa88771255cf4fcc6381ca461dd3ac31",
+      "bytes": 15717,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

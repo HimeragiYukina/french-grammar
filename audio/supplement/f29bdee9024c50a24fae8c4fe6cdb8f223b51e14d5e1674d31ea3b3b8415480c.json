@@ -1,0 +1,30 @@
+{
+  "text": "J’ai autant de livres que toi",
+  "text_sha256": "f29bdee9024c50a24fae8c4fe6cdb8f223b51e14d5e1674d31ea3b3b8415480c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.799546485260771,
+      "source_seconds": 1.799546485260771,
+      "source_file_sha256": "9c6ef31e393c5835de43da169140cb66d7d65e52a00c689730d7b7032b1aa710",
+      "file_sha256": "7416e48ca56cb00d7bf5eea44f5fffc972a05b27fec5f023111873f5b9c96764",
+      "bytes": 15090,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

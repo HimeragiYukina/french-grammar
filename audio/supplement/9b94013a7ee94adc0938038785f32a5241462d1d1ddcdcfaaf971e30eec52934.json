@@ -1,0 +1,30 @@
+{
+  "text": "chez le médecin",
+  "text_sha256": "9b94013a7ee94adc0938038785f32a5241462d1d1ddcdcfaaf971e30eec52934",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9287981859410431,
+      "source_seconds": 0.9287981859410431,
+      "source_file_sha256": "e7a737049f3cffd067ef40384e445fe868d3985b8291417941f67b9afc929840",
+      "file_sha256": "2c2fdd403bd8d73c373c947e7290fb48c853e4f173b1ddce4c477f8d56500503",
+      "bytes": 8194,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "results": [
+    {
+      "repo": "grammar",
+      "units": 3518,
+      "httpPlayback": true,
+      "mobileOverflow": false,
+      "filter": true,
+      "pagination": true,
+      "rate": true,
+      "allContentLinksExist": true,
+      "fileOfflinePlayback": true
+    }
+  ],
+  "errors": [],
+  "auditoryListening": false,
+  "acceptedAudioFileAndTextSnapshotSha256": "a086af44ac2bedbfaf1d1ea26a00da6b3716fb7ed46beb3730db587be6660258"
+}

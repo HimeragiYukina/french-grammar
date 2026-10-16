@@ -1,0 +1,30 @@
+{
+  "text": "Je n’ai pas de stylo, mais ce n’est pas un problème.",
+  "text_sha256": "ebf24d59eacd7bd810fb5648abf80f0691fcef41bc042af707ee99b465aed022",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.670294784580499,
+      "source_seconds": 2.670294784580499,
+      "source_file_sha256": "b6c7ba2d34b4d1b6e3ac5ac314cf7f3be79ed925402da297868e643568056c5d",
+      "file_sha256": "6cc27a4ee0064b36f9dc3f24402ea2ec149175644c93be712aa4bece9ad83390",
+      "bytes": 22195,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

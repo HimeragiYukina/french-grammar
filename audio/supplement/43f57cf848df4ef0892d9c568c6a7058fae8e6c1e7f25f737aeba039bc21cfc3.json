@@ -1,0 +1,30 @@
+{
+  "text": "Je suis heureuse que vous soyez arrivées à temps.",
+  "text_sha256": "43f57cf848df4ef0892d9c568c6a7058fae8e6c1e7f25f737aeba039bc21cfc3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2755555555555556,
+      "source_seconds": 2.2755555555555556,
+      "source_file_sha256": "00568215a701b1164baae5362037269ed41a1d7f3b103dd705213cdcfd908b41",
+      "file_sha256": "ec304a18d610f7a9722ef9c621c0e0a900ceb211064c6c58adba8b5c2664863f",
+      "bytes": 19061,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

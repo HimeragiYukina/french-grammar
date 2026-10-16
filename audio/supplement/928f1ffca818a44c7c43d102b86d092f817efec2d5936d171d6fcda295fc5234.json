@@ -1,0 +1,30 @@
+{
+  "text": "Pendant deux mois, je prenais / j’ai pris ce bus tous les jours.",
+  "text_sha256": "928f1ffca818a44c7c43d102b86d092f817efec2d5936d171d6fcda295fc5234",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.0650340136054424,
+      "source_seconds": 3.0650340136054424,
+      "source_file_sha256": "3165e3a2722caf0ffec5c575d6090f2688430e03bf9581bad6ec0754d721b9d7",
+      "file_sha256": "3b0ed8e7bce47501732324e7a25b283514c4d87028809812247c5311ae00c3f7",
+      "bytes": 25330,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

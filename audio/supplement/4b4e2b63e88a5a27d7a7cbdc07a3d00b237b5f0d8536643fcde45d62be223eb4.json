@@ -1,0 +1,30 @@
+{
+  "text": "Si le bureau ___ fermé demain, je ___ en ligne. (être / faire la demande",
+  "text_sha256": "4b4e2b63e88a5a27d7a7cbdc07a3d00b237b5f0d8536643fcde45d62be223eb4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.063492063492063,
+      "source_seconds": 4.063492063492063,
+      "source_file_sha256": "4199a69cdd8afbc69c93093be628b97d3d85666217ab362e3465a0d8c20ea700",
+      "file_sha256": "0b52cec884b01e233b34a7a404e3782f78892e5646dd22f80ac34eddd7f0b2c8",
+      "bytes": 33271,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

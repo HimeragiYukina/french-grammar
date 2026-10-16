@@ -1,0 +1,30 @@
+{
+  "text": "Vous oubliez le fait qu'il était absent ce jour-là. Paul est le premier candidat qui est arrivé ce matin. L'indicatif peut présenter des faits identifiés ; ces expressions ne déclenchent pas mécaniquement le subjonctif.",
+  "text_sha256": "97c5b5ef5ca6d9f26ab3dc856ef0ed9bdf6f9e348888594c259a8933a205ada5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 11.877006802721088,
+      "source_seconds": 11.877006802721088,
+      "source_file_sha256": "f8ec389999099828503de609d8f14b22fa20878fac54feaae5c0241e935472cd",
+      "file_sha256": "9edcf8be9a234f9dc2608b640190a50cd315ff20ebd49b766c821da06e3366f9",
+      "bytes": 95756,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Il a dit qu'il était malade",
+  "text_sha256": "1f0412ad7293bb21f4db59ed9fb4a80004335cc69f01ec8b966a5eea070f00dd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5789569160997732,
+      "source_seconds": 1.5789569160997732,
+      "source_file_sha256": "fa6a028cedfe9f5feec52594b5122f20115441663a5ad671b5b293da108ed0b5",
+      "file_sha256": "885ebb0633385876566044bcd82fee348c13c071c6f9c8138cd775c36f79bfa4",
+      "bytes": 13418,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

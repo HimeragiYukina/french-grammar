@@ -1,0 +1,30 @@
+{
+  "text": "des salariés",
+  "text_sha256": "77ea967b7113e507896267e8bfd415e89084b3aaa7b51e0732b9843f73075640",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0216780045351475,
+      "source_seconds": 1.0216780045351475,
+      "source_file_sha256": "99162b2e2041f0fce16554690504bbc8e7ff15112678d03f802bc5a0cae4927f",
+      "file_sha256": "c3d92d9fda8ed5dace858e07ac82601990af088f5618b434306a9659e7e21299",
+      "bytes": 9030,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

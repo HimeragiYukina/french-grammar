@@ -1,0 +1,30 @@
+{
+  "text": "La réunion est organisée par les étudiants.",
+  "text_sha256": "b7d8708ac7002fcc73102d9888293d1ee6dc9153839f09d81d5750483a875b33",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.345215419501134,
+      "source_seconds": 2.345215419501134,
+      "source_file_sha256": "c6c7e4baacf8de1b959d6a9aca26d408563d0cedfc5c2f368f34101e34263dbd",
+      "file_sha256": "9f636d198b4a58a812bea276400f6378ce8c469f4c70b5b537ef8b148b726c96",
+      "bytes": 19479,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Cette actrice est connue de tous.",
+  "text_sha256": "04e336b7db93f3ea9721773b1383e9f65fd5a238b7ff6cee9bb83214cb6b6bd6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2291156462585033,
+      "source_seconds": 2.2291156462585033,
+      "source_file_sha256": "e80bd31c5255033e834bf7037af6f586c3cfbd3bf44b59792054ffd00683758f",
+      "file_sha256": "949446a1f91d5186d50c839a22d2346c6b2865bb1fccc8f829473acecfbe82be",
+      "bytes": 18643,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

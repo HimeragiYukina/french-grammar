@@ -6,5 +6,25 @@
   "piper_version": "1.8.0",
   "providers": [
     "CPUExecutionProvider"
-  ]
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5789569160997732,
+      "source_seconds": 1.5789569160997732,
+      "source_file_sha256": "9f53b5d5fecb214bb099ebf832c5c64ae74ff2eea53b58e5fb0ec4d1a5c9b2cd",
+      "file_sha256": "27cb530301e8f2452c03b6fec5bdacf35534b5910545f598064d4a8d6298ad9e",
+      "bytes": 13418,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
 }

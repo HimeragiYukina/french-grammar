@@ -1,0 +1,30 @@
+{
+  "text": "Je bosse dans un restaurant. → Je travaille dans un restaurant.",
+  "text_sha256": "2f8ba60f686f581355ece9a483e2289e09815d3958edc1c44080e13ebf756bff",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.3436734693877552,
+      "source_seconds": 3.3436734693877552,
+      "source_file_sha256": "12b91c582d0d942fcd2d50f155721d93650ffd1e4621c5c525ab00bc50962658",
+      "file_sha256": "699f351ece99caf391029080aead9232bbfeb468e33fc28dc801d4a877e843ab",
+      "bytes": 27420,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

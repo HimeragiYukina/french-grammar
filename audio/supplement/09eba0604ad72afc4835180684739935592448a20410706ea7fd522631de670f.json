@@ -1,0 +1,30 @@
+{
+  "text": "Notre équipe a élaboré le calendrier de manière improvisée et a oublié de consulter les équipes concernées.",
+  "text_sha256": "09eba0604ad72afc4835180684739935592448a20410706ea7fd522631de670f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.421859410430839,
+      "source_seconds": 5.421859410430839,
+      "source_file_sha256": "f77713a1e764fddfc07a83760539ff6d25a5cd444dcfe09a9b8af56a1887766f",
+      "file_sha256": "30da850bbd783155e28b64e6be2d9b37c51d6b29e82388febab24e3bccf10ea7",
+      "bytes": 44138,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Force est de constater que la participation a augmenté.",
+  "text_sha256": "97621aba816e4fde71884e41e0fcb0e7686fbb18043c36e68b4b7c5083f16ede",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9373242630385485,
+      "source_seconds": 2.9373242630385485,
+      "source_file_sha256": "2e75d60c5de53935ecf53f08f11184eedd5bcada7099b7f744c362105a692a22",
+      "file_sha256": "102987de68df7fb6d84c2e677fc6adf4527d973eda05a990dfb7668b27bcc3ba",
+      "bytes": 24285,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

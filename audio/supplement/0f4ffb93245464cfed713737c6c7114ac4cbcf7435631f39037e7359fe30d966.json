@@ -1,0 +1,30 @@
+{
+  "text": "où se trouvent les cahiers",
+  "text_sha256": "0f4ffb93245464cfed713737c6c7114ac4cbcf7435631f39037e7359fe30d966",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.509297052154195,
+      "source_seconds": 1.509297052154195,
+      "source_file_sha256": "e56d2183ee87b51eb9ccc825ada99f5bb152223d4a8df3ddac82f09d71015596",
+      "file_sha256": "30ef5a2e39e42b78013d1800351cb8be77106d32e042804f506f02e1176e6a26",
+      "bytes": 12791,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

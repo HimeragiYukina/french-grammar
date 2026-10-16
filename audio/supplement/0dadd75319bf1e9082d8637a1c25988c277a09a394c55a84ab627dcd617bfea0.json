@@ -1,0 +1,30 @@
+{
+  "text": "Elle travaille aussi soigneusement que toi.",
+  "text_sha256": "0dadd75319bf1e9082d8637a1c25988c277a09a394c55a84ab627dcd617bfea0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.020136054421769,
+      "source_seconds": 2.020136054421769,
+      "source_file_sha256": "76e7c720d31db9a6890d0300a6d88bfc8171157e849b5ee8f258a2db29d7a963",
+      "file_sha256": "990d8b3fc42c073b122f931aa134a3e661fc6227ef9572ae1dd1c4583d35d668",
+      "bytes": 16971,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

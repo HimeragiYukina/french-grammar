@@ -1,0 +1,30 @@
+{
+  "text": "Nous aimons marcher, mais nous préférons prendre le bus quand il pleut.",
+  "text_sha256": "8db5502f68b132cd948d1ae5fe88bbaa66ccdbbaee4293de43ae6c9b525451e3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.3668934240362813,
+      "source_seconds": 3.3668934240362813,
+      "source_file_sha256": "df5c22da136607812abdc6bf8cdf714601da48d4a6192e1ad5bc8240b608590e",
+      "file_sha256": "9fa63b121623fa76f5ddf43f5030d051d642475262363b7d15dbfe82f3bbcd76",
+      "bytes": 27629,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

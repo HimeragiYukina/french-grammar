@@ -1,0 +1,30 @@
+{
+  "text": "par la mairie",
+  "text_sha256": "50175b1f1bd7850179ce0997ecd3807f7f781f0daa45b8e3ed3685eff2ce267d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9287981859410431,
+      "source_seconds": 0.9287981859410431,
+      "source_file_sha256": "4d5c3aac4185bd6550800432c38087245bf9355710842837d2036da2bb61cd34",
+      "file_sha256": "1ab6d5806b0da3c95d470385a8db8d60cf9de51065a8448c76172235d5368a99",
+      "bytes": 8194,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

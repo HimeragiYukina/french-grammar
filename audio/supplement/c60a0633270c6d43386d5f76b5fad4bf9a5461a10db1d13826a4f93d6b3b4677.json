@@ -1,0 +1,30 @@
+{
+  "text": "Elle eut bientôt rassemblé ses affaires.",
+  "text_sha256": "c60a0633270c6d43386d5f76b5fad4bf9a5461a10db1d13826a4f93d6b3b4677",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0549659863945577,
+      "source_seconds": 2.0549659863945577,
+      "source_file_sha256": "31124807dc822f4206a0de760d4ea5564949bce90c9404394d5825127c789ee9",
+      "file_sha256": "0d0edb1c7e99ffd7bd51425e4c9948abf716460adc381fb676e679928d1a6aa1",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

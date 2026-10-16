@@ -1,0 +1,30 @@
+{
+  "text": "Le concert aura lieu à condition que le bâtiment soit accessible.",
+  "text_sha256": "2a9e1526996b3bc0a29fefd9ad06a476a67f899d63de5eba4121b3b3934cc864",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7964625850340137,
+      "source_seconds": 3.7964625850340137,
+      "source_file_sha256": "e33015a57ab86616b0f856567ac099c06b5f80772459c2bfe0bda7aee2d53f30",
+      "file_sha256": "005d260788e88942f7d014697350b3fe6c3167c137438a8a25f608a37e873379",
+      "bytes": 31181,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

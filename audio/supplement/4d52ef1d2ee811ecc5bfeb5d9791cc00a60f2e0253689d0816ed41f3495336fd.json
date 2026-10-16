@@ -1,0 +1,30 @@
+{
+  "text": "J’ai soif et les enfants ont sommeil.",
+  "text_sha256": "4d52ef1d2ee811ecc5bfeb5d9791cc00a60f2e0253689d0816ed41f3495336fd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.426485260770975,
+      "source_seconds": 2.426485260770975,
+      "source_file_sha256": "a74fc5a2130f51e873b0c00bfdb6cdf49fb9228a1da8c790b6c777abe39059a5",
+      "file_sha256": "bf96c58a6bc936df1134923651eb6dc7e2b477c18fdc8715962ae5d136099d17",
+      "bytes": 20106,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Je te prête ma voiture à condition que tu sois prudent.",
+  "text_sha256": "bf1394a11f6b9b08693b755d78651f83584d2becb0845c1facd1fddd8eb80721",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7631746031746034,
+      "source_seconds": 2.7631746031746034,
+      "source_file_sha256": "67d658d9b296a073070b735726f8c606f4aab7d0aaa0e4d4e7a979469351707b",
+      "file_sha256": "889c844f06d05e2505674bbea427bcfdd09fbe0539a7e93203ac9372ef072b45",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

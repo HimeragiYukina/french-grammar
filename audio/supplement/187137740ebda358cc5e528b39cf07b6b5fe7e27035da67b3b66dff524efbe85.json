@@ -1,0 +1,30 @@
+{
+  "text": "Les difficultés qu'il a fait disparaître",
+  "text_sha256": "187137740ebda358cc5e528b39cf07b6b5fe7e27035da67b3b66dff524efbe85",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.147845804988662,
+      "source_seconds": 2.147845804988662,
+      "source_file_sha256": "235ec6a052f736e88725d47d9a60b51621bb18090f302065e7396f15e4828527",
+      "file_sha256": "6e7675efd6f19e87eb45304c9f19396d0f570899714beee804b5e088c27d03ac",
+      "bytes": 18016,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "complete_classification",
+  "scope": {
+    "grammarPoints": 97,
+    "contexts": 6
+  },
+  "string_leaves": 8118,
+  "classification_counts": {
+    "technical": 365,
+    "excluded_chinese": 2318,
+    "eligible": 1185,
+    "already_catalog": 2161,
+    "inline_fragment": 2089
+  },
+  "remaining_manual": 0,
+  "exact_source_proof_errors": [],
+  "approved_occurrences": 3882,
+  "unique_exact_units": 3518,
+  "source_snapshots": [
+    {
+      "repo": "grammar",
+      "source": "runtime-grammar-scope-a1.json",
+      "sha256": "3d56e805369e38bebe5d878f45e9286bc45c96979d7894f734ecef2532868f75",
+      "previous_sha256": "09eb09ad2ddb19dadd0e0a6a01da95e2d0506ca226e84038489a0b6a01fd52b9",
+      "unchanged": false
+    }
+  ],
+  "limits": [
+    "Every classified source leaf has a decision; this does not certify human auditory listening or external language proficiency.",
+    "Pure IPA and grammatical placeholders do not count as sentence audio; letter names are separately classified.",
+    "Teaching text edits require rebuilding affected source-span classifications.",
+    "Playback, offline behavior and local file validation are recorded separately in the acceptance reports."
+  ],
+  "auditoryListening": false,
+  "runtime_control_audit": {
+    "rendered_outside_catalog": 50,
+    "approved_bundles": 37,
+    "formula_bundles_excluded": 13,
+    "new_unmapped_units": 11,
+    "previously_legacy_mapped_units": 26,
+    "decisions": "tools/audio-runtime-controls-20261016.json",
+    "excluded_controls_pending_removal": false
+  },
+  "portable_evidence": {
+    "tools/audio-classified-leaves-20261016.jsonl": {
+      "records": 8118,
+      "bytes": 4939954,
+      "sha256": "bb864abaed93d536af6f9ed96c46c450d2c3ec90c260145af9b18969b45198c6"
+    },
+    "tools/audio-exclusions-20261016.jsonl": {
+      "records": 513,
+      "bytes": 194545,
+      "sha256": "2f9143137c73d4717dad3ccd788e3ec0f33fe8c35847e23ed6a66f4ece172f37"
+    },
+    "tools/audio-runtime-controls-20261016.json": {
+      "records": 50,
+      "bytes": 23117,
+      "sha256": "ebdb9fb0eb26456f87a96d6a512b48ed80baf776a2255b59f7e5320df053154d"
+    }
+  },
+  "source_hash_validation": "Approved spans retain current source SHA and exact original-source offsets. Final planner independently reconstructs each target from current source (HTML stripped only) and validates hashes; classification closure does not certify generated pronunciation."
+}

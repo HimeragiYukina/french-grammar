@@ -1,0 +1,30 @@
+{
+  "text": "Je l’ai reçue hier.",
+  "text_sha256": "fafba58f0fdabb51646e4e78b19670ee531b4eef2b08615e118e40032cdb5713",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3467573696145125,
+      "source_seconds": 1.3467573696145125,
+      "source_file_sha256": "5915395ca07c585c757c5395ffc817af1fe84c183b1baecedce92ccb8e927bbd",
+      "file_sha256": "f95c19be6b7709c8b363f8d6d6ad49e6ec924ea193681867f2210d9ed8dcdb3a",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

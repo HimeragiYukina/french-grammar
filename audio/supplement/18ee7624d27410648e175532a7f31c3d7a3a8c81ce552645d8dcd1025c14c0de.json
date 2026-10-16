@@ -1,0 +1,30 @@
+{
+  "text": "jouer du piano",
+  "text_sha256": "18ee7624d27410648e175532a7f31c3d7a3a8c81ce552645d8dcd1025c14c0de",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.195827664399093,
+      "source_seconds": 1.195827664399093,
+      "source_file_sha256": "7616faa0b948f144e5591a9c2ad90279af04f6ddba826fd2b5bd00acefdd4cbc",
+      "file_sha256": "f32bdacddb1905856dbc369fb365bc7b4a54c8ef8c1499fc039bf555875a1301",
+      "bytes": 10284,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

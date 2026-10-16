@@ -1,0 +1,30 @@
+{
+  "text": "L'année prochaine, j'___ (aller) au Japon.",
+  "text_sha256": "a09475a80c992d6c77e010182b98664d8644ae194b69a053896162d7d138a2df",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2871655328798184,
+      "source_seconds": 2.2871655328798184,
+      "source_file_sha256": "11c1bed0e4ea81a0b08b9b8627792d6c995cc0cf19b7e63ed146be59901ee37a",
+      "file_sha256": "375a20ac2b1588d4b3800fcbb9e66a5011edfed133714e622bc4357e82dceeed",
+      "bytes": 19061,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

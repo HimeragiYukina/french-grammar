@@ -1,0 +1,30 @@
+{
+  "text": "C’est moi qui ai envoyé le message, pas Paul.",
+  "text_sha256": "b3f25ddd8a4b197082e674a2d234529fb45de60a146ad134ad4e758caf9f3742",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.0650340136054424,
+      "source_seconds": 3.0650340136054424,
+      "source_file_sha256": "c3d003b4cc23da95d9ba1430053b57c8ac90e633cf603d238e445653e2cb1c04",
+      "file_sha256": "cb1b1004f71edd57898b7c83f0265a51bac5cfffeb737dd5c24b0a98da212c17",
+      "bytes": 25330,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

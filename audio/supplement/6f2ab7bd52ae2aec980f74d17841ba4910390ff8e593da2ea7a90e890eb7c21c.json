@@ -1,0 +1,30 @@
+{
+  "text": "Que de souvenirs dans cette vieille boîte !",
+  "text_sha256": "6f2ab7bd52ae2aec980f74d17841ba4910390ff8e593da2ea7a90e890eb7c21c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7763265306122449,
+      "source_seconds": 1.7763265306122449,
+      "source_file_sha256": "bc062adf8b3e049169fd4477965a80347c2120d43c257997550b9391456f2934",
+      "file_sha256": "9f27e71134a41fd6c9e761e34862a8aa2534a5bcb3f7e6c2c91b18267c8f3d91",
+      "bytes": 14881,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

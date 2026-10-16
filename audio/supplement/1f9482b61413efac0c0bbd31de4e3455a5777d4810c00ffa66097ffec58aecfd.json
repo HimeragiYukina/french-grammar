@@ -1,0 +1,30 @@
+{
+  "text": "Nous mangeons ici et nous commençons à midi.",
+  "text_sha256": "1f9482b61413efac0c0bbd31de4e3455a5777d4810c00ffa66097ffec58aecfd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.647074829931973,
+      "source_seconds": 2.647074829931973,
+      "source_file_sha256": "1985206cf5cd420a93883d92269afd44af5f9f2fd6d99e84b277f11f93794862",
+      "file_sha256": "68b5c56e89a7aede2b91d205b58a4e51fee165e712e18f1496f4f30127748af7",
+      "bytes": 21986,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

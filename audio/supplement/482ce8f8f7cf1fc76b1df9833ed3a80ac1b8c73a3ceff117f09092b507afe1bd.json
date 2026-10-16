@@ -1,0 +1,30 @@
+{
+  "text": "Aucune solution ne convient.",
+  "text_sha256": "482ce8f8f7cf1fc76b1df9833ed3a80ac1b8c73a3ceff117f09092b507afe1bd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6602267573696146,
+      "source_seconds": 1.6602267573696146,
+      "source_file_sha256": "f8e9515b6688dc3853fbf8fc817fe035ff18fa8a162b420425c19a419bbc231f",
+      "file_sha256": "cd3c84a4f4bd89110bc72a1c2f59a932615af32da91ebe6a07c16cf13de365b2",
+      "bytes": 14045,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

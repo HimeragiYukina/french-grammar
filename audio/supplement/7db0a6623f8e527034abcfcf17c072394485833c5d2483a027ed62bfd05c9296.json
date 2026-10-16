@@ -1,0 +1,30 @@
+{
+  "text": "La maison près de laquelle nous habitons est à vendre",
+  "text_sha256": "7db0a6623f8e527034abcfcf17c072394485833c5d2483a027ed62bfd05c9296",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6586848072562357,
+      "source_seconds": 2.6586848072562357,
+      "source_file_sha256": "c57aa62843e9b1868830aa526662847adfac8b29bb91b7c47f5a49082a1d9ce7",
+      "file_sha256": "a3d0e1d51bdef1ceeb3faef64b539e555d3f1e2b4596510c5c15e6a41ab83697",
+      "bytes": 21986,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

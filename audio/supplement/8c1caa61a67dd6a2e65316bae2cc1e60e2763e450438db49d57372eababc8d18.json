@@ -1,0 +1,30 @@
+{
+  "text": "Je me lève tôt pour avoir le temps de courir.",
+  "text_sha256": "8c1caa61a67dd6a2e65316bae2cc1e60e2763e450438db49d57372eababc8d18",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.136235827664399,
+      "source_seconds": 2.136235827664399,
+      "source_file_sha256": "306b3a4c71e35e7a2d100be2f19f6b0aa4c2df2653efdaa0c18979eaea7529bc",
+      "file_sha256": "fc5576bca7bb83de1537b2d82f9146346df2c9f71ab87d6830ceadb4f9b9d6cb",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

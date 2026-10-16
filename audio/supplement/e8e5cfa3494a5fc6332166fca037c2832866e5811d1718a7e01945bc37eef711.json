@@ -1,0 +1,30 @@
+{
+  "text": "Ce quartier est moins bruyant que le centre-ville.",
+  "text_sha256": "e8e5cfa3494a5fc6332166fca037c2832866e5811d1718a7e01945bc37eef711",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.716734693877551,
+      "source_seconds": 2.716734693877551,
+      "source_file_sha256": "872a3f43bae3a7eca1753cb5c9270f3d8fdecc46107437c4757fab253e43493e",
+      "file_sha256": "44ad243f86a6d1dacb5c2a86bad2541b0c9c8c6656a738204d3557952c3241dc",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

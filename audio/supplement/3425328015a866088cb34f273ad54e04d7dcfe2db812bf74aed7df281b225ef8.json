@@ -1,0 +1,30 @@
+{
+  "text": "Il regrettait qu'elle parte",
+  "text_sha256": "3425328015a866088cb34f273ad54e04d7dcfe2db812bf74aed7df281b225ef8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6253968253968254,
+      "source_seconds": 1.6253968253968254,
+      "source_file_sha256": "4f0e139b45928e4c4e0f727c91398a65c4871bf9b1607290f660dc5da68fe6ae",
+      "file_sha256": "f31c7b909829d0dbfa09f6fb6ef8a81558f8622d36a3783729ec5d160ea3eac2",
+      "bytes": 13836,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

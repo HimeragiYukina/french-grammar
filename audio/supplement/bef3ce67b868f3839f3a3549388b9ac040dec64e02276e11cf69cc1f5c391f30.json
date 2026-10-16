@@ -1,0 +1,30 @@
+{
+  "text": "J’aime le pain. Au petit-déjeuner, je mange du pain. Un café sans sucre, s’il vous plaît.",
+  "text_sha256": "bef3ce67b868f3839f3a3549388b9ac040dec64e02276e11cf69cc1f5c391f30",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.491519274376417,
+      "source_seconds": 5.491519274376417,
+      "source_file_sha256": "a962d74531d50716c6a07a9a4bc0507a99c471a19fbf75f57f1c3659eef5ba5b",
+      "file_sha256": "6eda77aea2b2a7ca0e946701ce20809bc9a773fd9fad35614967b3327a0853a3",
+      "bytes": 44765,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

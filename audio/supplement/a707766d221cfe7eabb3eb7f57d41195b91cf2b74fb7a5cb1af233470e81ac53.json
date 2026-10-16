@@ -1,0 +1,30 @@
+{
+  "text": "Tu penses à ta mère ? — Oui, je pense ___ .",
+  "text_sha256": "a707766d221cfe7eabb3eb7f57d41195b91cf2b74fb7a5cb1af233470e81ac53",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.380045351473923,
+      "source_seconds": 2.380045351473923,
+      "source_file_sha256": "afe9c5ea2aa6d1b9e42c192353258491deb6594f8cb1e29e46a575a9af459a9d",
+      "file_sha256": "551522e0196b2f2ef802896d3877cd4cd80808a46b342467e85609443b47caab",
+      "bytes": 19897,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

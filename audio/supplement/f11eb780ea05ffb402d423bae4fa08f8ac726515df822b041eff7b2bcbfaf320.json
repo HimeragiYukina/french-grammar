@@ -1,0 +1,30 @@
+{
+  "text": "Les candidates se sont vu proposer un second entretien.",
+  "text_sha256": "f11eb780ea05ffb402d423bae4fa08f8ac726515df822b041eff7b2bcbfaf320",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8676643990929707,
+      "source_seconds": 2.8676643990929707,
+      "source_file_sha256": "b8e3e3176571166a43c4a450a0338ac66e30dc4f8a6a042a4a41890339eff87d",
+      "file_sha256": "f2401857756ffd291f93fe46515ac85b042a786192c4599b4da069fb32cf013a",
+      "bytes": 23658,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

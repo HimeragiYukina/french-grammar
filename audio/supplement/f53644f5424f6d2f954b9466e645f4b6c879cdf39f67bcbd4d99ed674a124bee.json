@@ -1,0 +1,30 @@
+{
+  "text": "Il serait là si on l'avait prévenu",
+  "text_sha256": "f53644f5424f6d2f954b9466e645f4b6c879cdf39f67bcbd4d99ed674a124bee",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9156462585034013,
+      "source_seconds": 1.9156462585034013,
+      "source_file_sha256": "0b6aa2ff6c0d9fa2b9434ef0ccca7b4f8696c11c70c9605c4ccd53801eeea840",
+      "file_sha256": "1eba9b17694fffc9e68ff270299717ef789d3ba46e5510a43411dd94c8ecffad",
+      "bytes": 16135,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

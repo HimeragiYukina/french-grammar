@@ -953,7 +953,24 @@ window.GRAMMAR_DATA.B1={
       ],
       "comparison": "Je suis arrivé et le train est parti 在通常顺序叙述中理解为先到、后发车（et 本身不严格规定先后）；Quand je suis arrivé, le train était parti 明确到达之前火车已经走了。Il pleuvait 是背景中正在下雨；il avait plu 强调参照点之前下过雨。",
       "errors": "错误：Elle avait partie。改：Elle était partie（partir 用 être）。错误：Elles avaient achetées des billets。改：Elles avaient acheté des billets（后置 COD 不触发配合）。",
-      "boundaries": "愈过去时不是“很久以前”的时态；时间近远不决定它，过去参照点和先后关系才决定。独立的 Ah ! Si j’avais su ! 表示追悔，主句可以省略。"
+      "boundaries": "愈过去时不是“很久以前”的时态；时间近远不决定它，过去参照点和先后关系才决定。独立的 Ah ! Si j’avais su ! 表示追悔，主句可以省略。",
+      "related": [
+        "a2-pc-vs-imp",
+        "b1-discours-indirect",
+        "b1-cond-passe"
+      ],
+      "practice": [
+        {
+          "q": "周二到办公室时，Léa发现周一已发的文件不见了。把两句合成一句，标明发送早于发现：Mardi, Léa a constaté la disparition du dossier. Elle avait envoyé ce dossier lundi.",
+          "a": "Mardi, Léa a constaté que le dossier qu’elle avait envoyé lundi avait disparu.",
+          "note": "两个先行事实都相对周二发现：发送avait envoyé，消失avait disparu。dossier阳性单数，envoyé不加e；也接受 Mardi, Léa a constaté que le dossier avait disparu ; elle l’avait envoyé lundi。各0—2：过去参照点、先后关系、代词/配合、信息完整。"
+        },
+        {
+          "q": "按给定视角改错并解释：Les lettres qu’elle avait écrit étaient déjà dans l’enveloppe quand je suis arrivé.",
+          "a": "Les lettres qu’elle avait écrites étaient déjà dans l’enveloppe quand je suis arrivé.",
+          "note": "que回指阴性复数lettres，作écrire前置COD，因此écrites；不是因为elle是女性而配合。étaient这里描述状态，不需要一律改成愈过去时。je若指女性，可写quand je suis arrivée；这不影响lettres与écrites的配合。"
+        }
+      ]
     },
     "b1-cond-present": {
       "sections": [
@@ -1034,7 +1051,24 @@ window.GRAMMAR_DATA.B1={
       ],
       "comparison": "Je viendrai demain 是直陈式将来、直接承诺；je viendrais si je pouvais 是附条件的结果。Je veux 更直接，je voudrais 更委婉。Elle a dit qu’elle viendrait 的条件式主要表示过去将来，不自动等于“也许来”。",
       "errors": "错误：Si j’aurais le temps, je viendrais。改：Si j’avais le temps, je viendrais。注意 je parlerai（将来）与 je parlerais（条件）拼写不同。",
-      "boundaries": "礼貌条件式不改变实际时间：Je voudrais un café 是现在点单。新闻条件式应保留信息未证实的含义，不能译成已确认事实。"
+      "boundaries": "礼貌条件式不改变实际时间：Je voudrais un café 是现在点单。新闻条件式应保留信息未证实的含义，不能译成已确认事实。",
+      "related": [
+        "b1-discours-indirect",
+        "b1-si",
+        "b1-cond-passe"
+      ],
+      "practice": [
+        {
+          "q": "昨天Paul说：“Je viendrai vendredi.” 今天转述，用过去报告动词；不要擅加“据传”或“如果”。",
+          "a": "Hier, Paul m’a dit qu’il viendrait vendredi.",
+          "note": "viendrait标昨天视点之后的将来，本身不证明消息不可信，也不证明周五已经到来。若明确今天仍有效安排，保留viendra的转述也可能成立；本题指定过去视角，练viendrait。"
+        },
+        {
+          "q": "会议在明天；文件还没到。用条件式礼貌请求对方今天发送，写明原因，不能声称已发送。",
+          "a": "Pourriez-vous m’envoyer le dossier aujourd’hui ? J’en ai besoin pour la réunion de demain.",
+          "note": "两项内容必须有：发送请求＋今天期限/明天会议原因。Serait-il possible de m’envoyer…也接受。礼貌不等于删掉期限；不要把请求改成 Vous me l’avez envoyé。"
+        }
+      ]
     },
     "b1-cond-passe": {
       "sections": [
@@ -1109,7 +1143,24 @@ window.GRAMMAR_DATA.B1={
       ],
       "comparison": "J’aurais dû appeler 是“本该打电话”；je devrais appeler 是现在或未来的建议。Il a quitté le pays 陈述事实；il aurait quitté le pays 表示消息尚未证实。",
       "errors": "错误：Si tu aurais appelé…。改：Si tu avais appelé…。错误：Elles seraient parti。改：Elles seraient parties。",
-      "boundaries": "条件式过去时本身不保证动作没有发生：报道中的 auraient gagné 可能是真实但未证实。追悔与传闻要从语境区别。"
+      "boundaries": "条件式过去时本身不保证动作没有发生：报道中的 auraient gagné 可能是真实但未证实。追悔与传闻要从语境区别。",
+      "related": [
+        "b1-cond-present",
+        "b1-pqp",
+        "b1-si"
+      ],
+      "practice": [
+        {
+          "q": "比较两句，分别判断是“过去未实现”还是“未经说话者核实”，并说明第二句能否推出根本没离境：Sans la grève, Léa serait partie lundi. / Selon un témoin, Léa serait partie lundi.",
+          "a": "La première phrase présente un départ empêché par la grève. La seconde rapporte un départ non confirmé ; elle ne permet pas de conclure que Léa n’est pas partie.",
+          "note": "第一句明确罢工阻断条件；第二句source selon un témoin给传闻，不是未发生证明。可中文解释。各0—2：条件识别、消息来源、真实性边界、两句差异。"
+        },
+        {
+          "q": "指定女性说话者，改写为过去追悔：Je n’ai pas vérifié l’adresse avant de partir, et je suis allée au mauvais bâtiment. 用 J’aurais dû… 开头。",
+          "a": "J’aurais dû vérifier l’adresse avant de partir ; je suis allée au mauvais bâtiment.",
+          "note": "aurais dû＋原形表达事后追悔。dû不随女性je加e（此处无前置COD）；allée按女性je配合。可删后半已知后果，但不能把实际到错楼说成假设。"
+        }
+      ]
     },
     "b1-subj-present": {
       "sections": [
@@ -1168,7 +1219,23 @@ window.GRAMMAR_DATA.B1={
       ],
       "comparison": "Je sais qu’elle vient 陈述认知事实；je veux qu’elle vienne 表愿望。Je suis content qu’elle soit là 的事实完全可能真实，虚拟式由情感结构触发，不能理解成“事情不真实”。",
       "errors": "错误：按 ils boivent 给 nous 写 boivions。改：que nous buvions。错误：que vous faisez。改：que vous fassiez。不要见 que 就使用虚拟式。",
-      "boundaries": "“nous/vous 与未完成过去时相同”的助记不适用于所有动词：être 的 soyons/soyez、avoir 的 ayons/ayez 不同。虚拟式通常在从句，但 Qu’il entre ! 等独立祈愿、命令结构也可使用。"
+      "boundaries": "“nous/vous 与未完成过去时相同”的助记不适用于所有动词：être 的 soyons/soyez、avoir 的 ayons/ayez 不同。虚拟式通常在从句，但 Qu’il entre ! 等独立祈愿、命令结构也可使用。",
+      "related": [
+        "b1-subj-declencheurs",
+        "b1-cond-present"
+      ],
+      "practice": [
+        {
+          "q": "经理提出喝水和作决定两项要求。仅补动词：Il faut que nous ___ (boire) de l’eau et que nous ___ (prendre) une décision.",
+          "a": "Il faut que nous buvions de l’eau et que nous prenions une décision.",
+          "note": "nous/vous取buv-/pren-，不是照ils boivent/prennent造boivions/prennions。两个并列que从句都受il faut触发；句子本身仅把两任务并列，若须明确先后可加 ensuite。"
+        },
+        {
+          "q": "为明天的活动提要求，改正两处词形：Je souhaite que vous êtes disponibles et que vous pouvez venir demain.",
+          "a": "Je souhaite que vous soyez disponibles et que vous puissiez venir demain.",
+          "note": "souhaiter que触发soyez、puissiez，demain不要求虚拟式将来时。disponibles按vous复数；尊称单人时形容词为disponible。两动词均改对且保留愿望而非宣布到场。"
+        }
+      ]
     },
     "b1-subj-declencheurs": {
       "sections": [
@@ -1259,7 +1326,24 @@ window.GRAMMAR_DATA.B1={
       ],
       "comparison": "Je souhaite qu’il réussisse 与 J’espère qu’il réussira 都表示希望，但前者虚拟式、后者通常直陈式。Avant qu’il parte 把离开定位在另一个动作之后，不表示说话当下离开必未发生；après qu’il est parti 把离开定位在另一动作之前，规范上用直陈式。",
       "errors": "错误：Il faut que tu fais。改：Il faut que tu fasses。错误：J’espère qu’il soit là demain。通常改：J’espère qu’il sera là demain。",
-      "boundaries": "否定/疑问 penser 或 espérer 后并非强制虚拟式，选式取决于语义及断言角度。avant que、à moins que 等正式语体中可有赘词 ne：avant qu’il ne parte；此 ne 不表示否定。ne…pas 等可构成真正否定，部分正式结构的 ne 单独也能否定，不能只靠是否有 pas 判断。"
+      "boundaries": "否定/疑问 penser 或 espérer 后并非强制虚拟式，选式取决于语义及断言角度。avant que、à moins que 等正式语体中可有赘词 ne：avant qu’il ne parte；此 ne 不表示否定。ne…pas 等可构成真正否定，部分正式结构的 ne 单独也能否定，不能只靠是否有 pas 判断。",
+      "related": [
+        "b1-subj-present",
+        "b1-si",
+        "b1-cond-present"
+      ],
+      "practice": [
+        {
+          "q": "Léa已确实在场。分别用“我知道”与“我很高兴”报告同一事实：Je sais que Léa ___ ici. / Je suis content que Léa ___ ici.",
+          "a": "Je sais que Léa est ici. Je suis content que Léa soit ici.",
+          "note": "事实没有改变；savoir陈述认知用直陈式est，content评价真实事件仍用虚拟式soit。女性说话者contente也正确。不能因soit就说她没在场。"
+        },
+        {
+          "q": "表达对明天成功的肯定期待与愿望。用réussir补全并说明差别：J’espère que tu ___ demain. / Je souhaite que tu ___ demain.",
+          "a": "J’espère que tu réussiras demain. Je souhaite que tu réussisses demain.",
+          "note": "肯定espérer que通常直陈将来réussiras，souhaiter que虚拟réussisses；不是根据中文“希望”统一用同一语气。只针对这两句肯定形式，不推广为否定/疑问中的绝对规则。"
+        }
+      ]
     },
     "b1-si": {
       "sections": [
@@ -1581,7 +1665,24 @@ window.GRAMMAR_DATA.B1={
       ],
       "comparison": "Le gardien ferme la porte 强调施事；la porte est fermée par le gardien 调整焦点。La porte est fermée 可是状态，la porte a été fermée 明确发生过关门动作。",
       "errors": "错误：La lettre a été envoyé。改：La lettre a été envoyée。错误：Il a été téléphoné par Marie（试图将 téléphoner à 的对象作被动主语）。改：Marie lui a téléphoné。",
-      "boundaries": "普通被动主要要求直接及物结构；个别词汇或无人称被动另有边界，不宜把“所有及物动词都能自然被动化”当绝对规则。avoir 等虽可直接带宾语，也不是所有语境都适合被动。"
+      "boundaries": "普通被动主要要求直接及物结构；个别词汇或无人称被动另有边界，不宜把“所有及物动词都能自然被动化”当绝对规则。avoir 等虽可直接带宾语，也不是所有语境都适合被动。",
+      "related": [
+        "b1-discours-indirect",
+        "a2-coi",
+        "b1-pqp"
+      ],
+      "practice": [
+        {
+          "q": "给参加者写公告，突出“申请”，保持将来与处理顺序：Les bénévoles examineront les demandes dans l’ordre d’arrivée. 改被动，不省施事。",
+          "a": "Les demandes seront examinées par les bénévoles dans l’ordre d’arrivée.",
+          "note": "être承担将来seront，examinées随阴性复数demandes。各0—2：事实/顺序、时态、配合、施事。被动改变起点，不表示处理已完成。"
+        },
+        {
+          "q": "把错误被动改为自然主动，保留昨天和Marie为来电者：Paul a été téléphoné par Marie hier.",
+          "a": "Marie a téléphoné à Paul hier.",
+          "note": "téléphoner à Paul中的Paul是COI，不能按普通COD被动公式变主语。Marie lui a téléphoné hier也接受，但须先已明确lui=Paul；不要改成Paul打给Marie。"
+        }
+      ]
     },
     "b1-double-pronoms": {
       "sections": [
@@ -1763,7 +1864,23 @@ window.GRAMMAR_DATA.B1={
       ],
       "comparison": "C’est mon livre 用限定词修饰名词；c’est le mien 用代词替代整个名词组。Notre maison 中 notre 无长音符；la nôtre 中 nôtre 有长音符。Le sien 可能是他的或她的，必要时说 à lui/à elle 澄清。",
       "errors": "错误：C’est mien（普通指代用法）。改：C’est le mien。错误：ma voiture et le tien。改：ma voiture et la tienne。",
-      "boundaries": "les miens/les siens 等可指亲人或同伴：Elle est rentrée auprès des siens，意为回到家人身边。faire des siennes 等固定表达有独立含义，不宜逐字理解。"
+      "boundaries": "les miens/les siens 等可指亲人或同伴：Elle est rentrée auprès des siens，意为回到家人身边。faire des siennes 等固定表达有独立含义，不宜逐字理解。",
+      "related": [
+        "b1-demonstratifs-pron",
+        "a2-coi"
+      ],
+      "practice": [
+        {
+          "q": "Nadia与Paul各有一辆车。Nadia说：Ma voiture est petite ; ___ (Paul的车) est plus grande. 用主有代词，并解释车主性别是否决定形式。",
+          "a": "Ma voiture est petite ; la sienne est plus grande.",
+          "note": "la sienne配合阴性单数voiture，车主是Paul也不改le sien。若上下文可能有多个车主，应重复la voiture de Paul澄清；单靠sienne不能证明所属者为女性。"
+        },
+        {
+          "q": "用主有代词避免重复，并保持“比起你们的方法，我更喜欢我们的”方向：Je préfère notre méthode à votre méthode.",
+          "a": "Je préfère notre méthode à la vôtre.",
+          "note": "méthode阴性单数，à la不缩合；vôtre有长音符，notre限定词没有。Je préfère la nôtre à la vôtre亦接受，前提méthode已明确；不能倒写比较偏好。"
+        }
+      ]
     },
     "b1-demonstratifs-pron": {
       "sections": [
@@ -1838,7 +1955,23 @@ window.GRAMMAR_DATA.B1={
       ],
       "comparison": "Cette robe 的 cette 是限定词，celle-ci 是代词。Je préfère celle de Marie 指一件同类物；Je préfère cela 可指一个方案或整体事情。",
       "errors": "错误：Je prends celui（孤立、无补充的普通用法）。改：Je prends celui-ci。错误：ces qui veulent venir。改：ceux qui veulent venir。",
-      "boundaries": "ce 不像 ça 一样自由作所有动词主语：Cela fonctionne / Ça fonctionne，不写 Ce fonctionne。celui/celle 可后接更丰富限定语，但初学阶段优先掌握 de、关系从句与 -ci/-là。"
+      "boundaries": "ce 不像 ça 一样自由作所有动词主语：Cela fonctionne / Ça fonctionne，不写 Ce fonctionne。celui/celle 可后接更丰富限定语，但初学阶段优先掌握 de、关系从句与 -ci/-là。",
+      "related": [
+        "b1-possessifs-pron",
+        "b1-dont"
+      ],
+      "practice": [
+        {
+          "q": "桌上有Paul的一条围巾和Marie的一条围巾。只指Marie那条，不引入近远：Je choisis ___ Marie.（écharpe）",
+          "a": "Je choisis celle de Marie.",
+          "note": "écharpe阴性单数，用celle de；不是celui。在本句中celle必须带de Marie这一限定补语，不能只填一个无补语、无-ci/-là的celle。只写celle-là未保留指定所有者；Marie的性别不决定代词性数。"
+        },
+        {
+          "q": "区分同类物与整件事：两方案均延后。用中性代词合并第二句，避免误指其中一个方案：Les deux projets sont retardés. Cette situation nous inquiète.",
+          "a": "Les deux projets sont retardés ; cela nous inquiète.",
+          "note": "cela/ça回指两方案延后的整件事；口语ça也接受。celui-ci会指定一个阳性方案而不保留整个情势，ce不能直接写Ce nous inquiète。"
+        }
+      ]
     },
     "b1-dont": {
       "sections": [
@@ -1913,7 +2046,23 @@ window.GRAMMAR_DATA.B1={
       ],
       "comparison": "Le livre que je lis：lire le livre，直接宾语用 que；le livre dont je parle：parler du livre，de 补语用 dont。La maison dont le toit est rouge 可用 dont；la maison sur le toit de laquelle… 的补语嵌于 sur 介词组，宜保留 de laquelle。",
       "errors": "错误：Le livre dont j’en parle。改：Le livre dont je parle。错误：L’homme dont sa voiture est rouge。改：L’homme dont la voiture est rouge。",
-      "boundaries": "dont 不替代任意含 de 的字符串。来源意义如 la ville d’où je viens 通常用 d’où；数量中的 dont 不要求补出完整谓语。"
+      "boundaries": "dont 不替代任意含 de 的字符串。来源意义如 la ville d’où je viens 通常用 d’où；数量中的 dont 不要求补出完整谓语。",
+      "related": [
+        "b1-demonstratifs-pron",
+        "a2-coi"
+      ],
+      "practice": [
+        {
+          "q": "合并两句并保持“需要的是工具”：Voici les outils. Nous avons besoin de ces outils. 关系从句用dont。",
+          "a": "Voici les outils dont nous avons besoin.",
+          "note": "avoir besoin de决定dont；不写dont nous en avons besoin，重复同一de回指。若写dont nous avons besoin de l’aide，改变或破坏原支配，不能因出现dont就判对。"
+        },
+        {
+          "q": "保留完整复合介词près de合并：Cette maison est à vendre. Nous habitons près de cette maison.",
+          "a": "Cette maison, près de laquelle nous habitons, est à vendre.",
+          "note": "près de作为整体保留，maison阴性单数用de laquelle；不写près dont。La maison près de laquelle nous habitons est à vendre也接受。只写dont nous habitons既丢près也破坏habiter结构。这题用于识别dont的限制；完整de laquelle变形属于后续复合关系代词内容，可先借助本题给出的结构完成，不以此单题要求掌握所有lequel形式。"
+        }
+      ]
     },
     "b1-gerondif": {
       "sections": [
@@ -1978,7 +2127,23 @@ window.GRAMMAR_DATA.B1={
       ],
       "comparison": "En arrivant, Paul a appelé 指 Paul 到达时打电话；Paul arrivant, nous avons fermé la porte 是现在分词独立结构，可有不同主语。Il apprend en lisant 表学习方式；il aime lire 中 lire 是动词的宾语。",
       "errors": "错误：En arrivant à la gare, le train était déjà parti（到达者误连成火车）。改：Quand je suis arrivé à la gare, le train était déjà parti。错误：en faisent。改：en faisant。",
-      "boundaries": "副动词的同主语规则是普通规范用法的重要检查点；固定表达 en passant、en attendant 某些句子较特殊。表示清晰先后完成，可用 après avoir + 分词，而不强行套同时副动词。"
+      "boundaries": "副动词的同主语规则是普通规范用法的重要检查点；固定表达 en passant、en attendant 某些句子较特殊。表示清晰先后完成，可用 après avoir + 分词，而不强行套同时副动词。",
+      "related": [
+        "b1-pqp",
+        "b1-dont"
+      ],
+      "practice": [
+        {
+          "q": "看展览的是我们，改正悬垂主语；保留比较图片与发现变化：En comparant les photos, le quartier semblait différent.",
+          "a": "En comparant les photos, nous avons trouvé le quartier différent.",
+          "note": "副动词comparer的主体须清楚对应nous。Quand nous avons comparé les photos, nous avons trouvé le quartier différent也接受。不是只改semblait成a semblé就能解决主体。"
+        },
+        {
+          "q": "指定“先完整读完，再回复”，用après avoir合并，不能把先后改为同时：J’ai lu tout le dossier. Ensuite, j’ai répondu au client.",
+          "a": "Après avoir lu tout le dossier, j’ai répondu au client.",
+          "note": "过去不定式avoir lu明确读取完成先于回复，两动作同je。En lisant…把动作放同时/过程中，不能保住“完整读完再回复”的任务要求。"
+        }
+      ]
     },
     "b1-negations": {
       "sections": [
@@ -2073,7 +2238,23 @@ window.GRAMMAR_DATA.B1={
       ],
       "comparison": "Je n’ai pas de voiture 是没有车；je n’ai qu’une voiture 是只有一辆车。Je ne l’ai pas vu 是没看见他；je ne l’ai plus vu 是此后再没看见他。",
       "errors": "错误：Je n’ai pas rien compris（若想说全没理解）。改：Je n’ai rien compris。错误：Je n’ai personne vu。改：Je n’ai vu personne。错误：Je ne bois que d’eau。改：Je ne bois que de l’eau。",
-      "boundaries": "口语常省 ne，但正式写作保留。aucuns frais、aucunes funérailles 等只有复数或复数义变化的名词可用复数 aucun。ne…pas que 可表示“不只”：Il n’y a pas que toi。"
+      "boundaries": "口语常省 ne，但正式写作保留。aucuns frais、aucunes funérailles 等只有复数或复数义变化的名词可用复数 aucun。ne…pas que 可表示“不只”：Il n’y a pas que toi。",
+      "related": [
+        "b1-demonstratifs-pron",
+        "b1-connecteurs-base"
+      ],
+      "practice": [
+        {
+          "q": "三位家长中两位有空、一位没空。选择并解释符合事实的表达：Tous les parents ne sont pas disponibles. / Aucun parent n’est disponible.",
+          "a": "Tous les parents ne sont pas disponibles : deux sont disponibles, un ne l’est pas.",
+          "note": "前句在此给定语境是并非所有；Aucun全否定与两位有空冲突。为避免口语范围歧义，可更清楚写Les parents ne sont pas tous disponibles。不能把部分否定推成所有人都不行。"
+        },
+        {
+          "q": "活动只有二十个名额，但已经收到三十份申请。用ne…que改写“只有二十个名额”，另写一句说明不能由容量推出二十人已确认。",
+          "a": "Nous n’avons que vingt places. Cela ne signifie pas que vingt inscriptions sont déjà confirmées.",
+          "note": "ne…que限制名额数，不是没有名额；申请量、容量、已确认人数是不同指标。第二句可改述为Le nombre de places ne prouve pas le nombre d’inscriptions confirmées。两项各0—2：限制范围、人数状态、自然表达、不增事实。"
+        }
+      ]
     },
     "b1-connecteurs-base": {
       "sections": [

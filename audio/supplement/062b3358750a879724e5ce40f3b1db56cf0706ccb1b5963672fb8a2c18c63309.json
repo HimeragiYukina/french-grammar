@@ -1,0 +1,30 @@
+{
+  "text": "vouloir de quelque chose",
+  "text_sha256": "062b3358750a879724e5ce40f3b1db56cf0706ccb1b5963672fb8a2c18c63309",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5209070294784581,
+      "source_seconds": 1.5209070294784581,
+      "source_file_sha256": "b8383997eb5cfdaccfeb0a404b65100be53e5821fe76c56208d54e0c3d33bd1a",
+      "file_sha256": "49969177e8a673b772fd1aadc1c2de5178d30e477edb8c771a93c2840e608836",
+      "bytes": 13000,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

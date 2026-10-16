@@ -1,0 +1,30 @@
+{
+  "text": "Une amie arrive ; deux amies arrivent.",
+  "text_sha256": "5136598b58c41f92e8250645fc0b2b16c3cec3563add4b5e0067ce988e69b26f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5774149659863945,
+      "source_seconds": 2.5774149659863945,
+      "source_file_sha256": "f9fc949817b82bb931fd2faeb6df8979bdf1af601704b8816287ebfa41777551",
+      "file_sha256": "17344c736b9dcd426359b227de3652d098c3572313ac4c4f17a262d3ec6c847e",
+      "bytes": 21359,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

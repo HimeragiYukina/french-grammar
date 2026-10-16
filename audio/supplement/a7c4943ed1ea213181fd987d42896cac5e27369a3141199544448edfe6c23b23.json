@@ -1,0 +1,30 @@
+{
+  "text": "De Gaulle était un grand homme.",
+  "text_sha256": "a7c4943ed1ea213181fd987d42896cac5e27369a3141199544448edfe6c23b23",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.787936507936508,
+      "source_seconds": 1.787936507936508,
+      "source_file_sha256": "dd6531ceeec84cd14ce8ad58c729991d957f55b03fe4bcd75fba9730718b6356",
+      "file_sha256": "6cb53e32aadf877a42bf497488b2162442df5cecf32c4d40d79d0f8755a74549",
+      "bytes": 15090,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

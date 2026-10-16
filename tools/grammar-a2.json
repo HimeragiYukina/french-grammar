@@ -72,7 +72,7 @@
         {
           "fr": "Elle <b>a monté</b> ses valises, puis elle <b>est montée</b> se coucher.",
           "zh": "她把行李搬了上去,然后上楼睡觉了。",
-          "use": "带宾语改用 avoir:monter 带直接宾语(ses valises)时用 avoir 且不配合;不带宾语时用 être 并配合(montée)"
+          "use": "带直接宾语的相关用法改用 avoir：此句 ses valises 后置，所以 monté 不配合；前置 COD 则另判配合。不带直接宾语的位移用 être，此句与 elle 配合为 montée。"
         }
       ],
       "tip": "<b>易错:</b>非代词式的 être 类动词通常配合主语:elle est venu<b>e</b>、ils sont venu<b>s</b>。代词式另判断:elles se sont parlé。monter/descendre/sortir 等带直接宾语的相关用法改用 avoir。"

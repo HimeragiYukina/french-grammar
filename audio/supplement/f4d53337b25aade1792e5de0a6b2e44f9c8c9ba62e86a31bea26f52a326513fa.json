@@ -1,0 +1,30 @@
+{
+  "text": "Lundi matin, ma responsable m’a appelé pour préparer une réunion avec un nouveau client.",
+  "text_sha256": "f4d53337b25aade1792e5de0a6b2e44f9c8c9ba62e86a31bea26f52a326513fa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.655600907029479,
+      "source_seconds": 4.655600907029479,
+      "source_file_sha256": "5e0e1abeeffee45e5d9a1024b593d51b74cfbc35ebb3555c89faf0633a791e6f",
+      "file_sha256": "d593a4ec159a0a1ec170132ec2412c72172d36c31ebad5c05c4343827f287d21",
+      "bytes": 38078,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Nous allons nous coucher tôt.",
+  "text_sha256": "f71bed451a92e21016310113b3942527096f87ab57a9b6c69b7b127b323d1614",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3351473922902495,
+      "source_seconds": 1.3351473922902495,
+      "source_file_sha256": "d98eb3acd8f0b25e2b1596cc699d34096a185fca2cba53750322af3436b0b4c8",
+      "file_sha256": "263ce3be49b9e9fb05a2dfe839af343c7276226e86736178581176488bcfbe9a",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

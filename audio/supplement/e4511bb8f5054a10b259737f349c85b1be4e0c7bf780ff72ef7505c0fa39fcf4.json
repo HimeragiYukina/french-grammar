@@ -1,0 +1,30 @@
+{
+  "text": "Qui vient ?",
+  "text_sha256": "e4511bb8f5054a10b259737f349c85b1be4e0c7bf780ff72ef7505c0fa39fcf4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.592108843537415,
+      "source_seconds": 0.592108843537415,
+      "source_file_sha256": "eda8e185f12f88675c7fada843de08ab3c3eff7b9fd9b98713bec9d4d26aa4f0",
+      "file_sha256": "eb408960e085358687f9dbe6d39fdbfd2c53458d6cce35e4fb1bcb6cf60e9cb0",
+      "bytes": 5477,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Soudain, quelqu'un ___ (crier) pendant que nous ___ (dîner).",
+  "text_sha256": "8c3f6db83fbcdcdea99bd06da3b34913730df747498b93e4d1a99e95ef03dcbe",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6586848072562357,
+      "source_seconds": 2.6586848072562357,
+      "source_file_sha256": "4a8dc76039376d7ffc3c9ffc5d83c052ca06e86cb682d87d04ebb05662995b6d",
+      "file_sha256": "dca3a8796fe27d75937d81209dd15b9ee1a2049c47c2082cd653409bfb43d21b",
+      "bytes": 21986,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

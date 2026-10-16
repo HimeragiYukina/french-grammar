@@ -1,0 +1,30 @@
+{
+  "text": "Il fut surpris",
+  "text_sha256": "1bb427fe98b43c8c2a51f5fbb9360adb4cb6d837c7f2e2529b0ac2c84e47ef6c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1261678004535147,
+      "source_seconds": 1.1261678004535147,
+      "source_file_sha256": "90ee18bcd409e0e03cb0298733f07a8f205b37a0717e51a0da12d78ab82fd3f9",
+      "file_sha256": "633939740426cc1b4a4513cd0fdf9e91697cd4efbf53ecf11a87516d0addbbde",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

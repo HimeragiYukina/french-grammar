@@ -1,0 +1,30 @@
+{
+  "text": "Tu as un frère ? Oui, j’en ai un ; Léa n’en a pas.",
+  "text_sha256": "440cb97f8ff4f1fcca66845ebba8ba075ef9eac98b0af5066eeb2f8af4a3221f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.622312925170068,
+      "source_seconds": 3.622312925170068,
+      "source_file_sha256": "8278c93ef753da9d70baca9062138791db96c12113c4eeb89850e81afdfd14f8",
+      "file_sha256": "5658980661024ed1514d8d1e152388d5c60729efd8743e8b80246c14da91a623",
+      "bytes": 29719,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

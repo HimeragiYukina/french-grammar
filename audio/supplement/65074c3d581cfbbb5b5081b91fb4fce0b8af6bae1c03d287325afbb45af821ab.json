@@ -1,0 +1,30 @@
+{
+  "text": "La consultation n’a pas pu avoir lieu",
+  "text_sha256": "65074c3d581cfbbb5b5081b91fb4fce0b8af6bae1c03d287325afbb45af821ab",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.10140589569161,
+      "source_seconds": 2.10140589569161,
+      "source_file_sha256": "e105c37c4428719a55c58d8c714c40130771219797e87826c84c45834b3b880a",
+      "file_sha256": "39586c5340babd1044253e706a694497f02b7dc72190676ba6aed4c5b37fff7d",
+      "bytes": 17598,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

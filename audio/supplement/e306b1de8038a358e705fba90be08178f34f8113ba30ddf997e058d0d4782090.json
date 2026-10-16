@@ -1,0 +1,30 @@
+{
+  "text": "Je voulais qu'il vînt",
+  "text_sha256": "e306b1de8038a358e705fba90be08178f34f8113ba30ddf997e058d0d4782090",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2887074829931973,
+      "source_seconds": 1.2887074829931973,
+      "source_file_sha256": "174b0cfc4db6d4f2537dae3f71c74ed1a9fa84a1024bc939059dd5c7ceca5c09",
+      "file_sha256": "7d9767439d30f62dc10024eb173f35471c477d506f60a0c05552158514954ec3",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

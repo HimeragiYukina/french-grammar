@@ -1,0 +1,30 @@
+{
+  "text": "Le train part à dix-huit heures trente.",
+  "text_sha256": "bbf171abd3bf9de5530cb773f2c717f3c73e8a267a1af6ada156be418aa6fc9d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.449705215419501,
+      "source_seconds": 2.449705215419501,
+      "source_file_sha256": "e360428bf7b4ad4959d489713c407f0694bd10cc9639288ff7e1ccf52121f2d0",
+      "file_sha256": "15912411234adeff0c28255e3ca03f8d96348765a875fc2458bf3ec92f5ad353",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

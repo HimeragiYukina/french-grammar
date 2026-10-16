@@ -1,0 +1,30 @@
+{
+  "text": "Vas-y",
+  "text_sha256": "edd1bf9f3e55baf145c57757a3ea2574dfc25b5ac01f890662d71fcdbe137c01",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1377777777777778,
+      "source_seconds": 1.1377777777777778,
+      "source_file_sha256": "273ff1b0b672eab49e08d70e3c7b1a76855691cdb5570474ef05d6602a7eb197",
+      "file_sha256": "5a9e027a4fed9487e4213b77ab1b5e4f2304ba8e20cd326a5e836dc813947ce0",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

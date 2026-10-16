@@ -1,0 +1,30 @@
+{
+  "text": "familier: Je suis crevé.",
+  "text_sha256": "bd3ee41a7f7d794e13e066e3a4c9989e3bf810a451fb82750cefd58b8e32c2b2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.078185941043084,
+      "source_seconds": 2.078185941043084,
+      "source_file_sha256": "d9d0d44f230c30cbdc7fb78d0c427c6fbf844a878bd6cde7f04264af5ff07cc2",
+      "file_sha256": "e42a85d152f0f12e05063550a9b5cf2a5c463e24951fc1cecc87335354c49ae7",
+      "bytes": 17389,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

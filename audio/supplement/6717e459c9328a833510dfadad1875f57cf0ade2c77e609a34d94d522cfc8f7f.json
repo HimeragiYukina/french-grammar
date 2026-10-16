@@ -1,0 +1,30 @@
+{
+  "text": "Il a refusé de venir sous prétexte qu'il était malade.",
+  "text_sha256": "6717e459c9328a833510dfadad1875f57cf0ade2c77e609a34d94d522cfc8f7f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2043537414965986,
+      "source_seconds": 3.2043537414965986,
+      "source_file_sha256": "a3d90da2e6923b8566e08044db7bf4c151c38b7f8f23f53f1092e2b1a0603517",
+      "file_sha256": "150cbe0cb73910cf315ec87401729abc22f02e5a97a6d26a87691f6f8fc98bdd",
+      "bytes": 26375,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

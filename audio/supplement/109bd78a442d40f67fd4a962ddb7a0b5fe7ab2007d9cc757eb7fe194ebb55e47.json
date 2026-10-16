@@ -1,0 +1,30 @@
+{
+  "text": "J’écris enfin aux voisins pour leur expliquer le changement et leur donner la nouvelle adresse.",
+  "text_sha256": "109bd78a442d40f67fd4a962ddb7a0b5fe7ab2007d9cc757eb7fe194ebb55e47",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.841360544217687,
+      "source_seconds": 4.841360544217687,
+      "source_file_sha256": "c1f02b88dcdbe19fd77c58902103eac280f009f4584e94055954911c99315138",
+      "file_sha256": "5e382f60484bf77c08e74476cf6f918bc88b854b50afd9101736f95bf6ebdecf",
+      "bytes": 39541,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

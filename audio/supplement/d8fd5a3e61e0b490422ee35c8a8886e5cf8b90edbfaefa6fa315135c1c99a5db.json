@@ -1,0 +1,30 @@
+{
+  "text": "Il se sentait mieux après que le médecin l’avait rassuré.",
+  "text_sha256": "d8fd5a3e61e0b490422ee35c8a8886e5cf8b90edbfaefa6fa315135c1c99a5db",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7747845804988662,
+      "source_seconds": 2.7747845804988662,
+      "source_file_sha256": "97026393d08e47525bb7125d976a1c8f39d3079a9c704e87a36aa13a9b618c02",
+      "file_sha256": "ebc6bb6bf8f4125a101cddb47ad717a11047ebfdc7f302fdd0f348d76b16249d",
+      "bytes": 23031,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

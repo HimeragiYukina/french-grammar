@@ -1,0 +1,30 @@
+{
+  "text": "Les lettres que j’ai écrites hier sont sur la table.",
+  "text_sha256": "d13d829cd23ac7961a58c5fda0cec9725d0af4d786b54271ea586453b5b50166",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5774149659863945,
+      "source_seconds": 2.5774149659863945,
+      "source_file_sha256": "85050826f484ba102d814b5c45b56d0117789ea81dfed6df12a3bed102869264",
+      "file_sha256": "da9fe2db58c8e11ef9d2b1bdef2635c5c5ef0a571462b9707eb7dddca6521118",
+      "bytes": 21359,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elles se sont vues tomber sur l'écran de contrôle.",
+  "text_sha256": "fb0744a54bdd51f9863ddbf645bed39f43c25d2b27328cd3a87935a922a90784",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.3336054421768706,
+      "source_seconds": 2.3336054421768706,
+      "source_file_sha256": "0dcd53152e6a057eb5fe17e68453ade4812a53d18c2973c880f8edadea7fa519",
+      "file_sha256": "8d5f97fb730851908108e21d93e8b9424d90fd07b5a9d6fa2b75343e0764b883",
+      "bytes": 19479,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "pas) : Il se cache de peur qu'on ___ le ___ (voir).",
+  "text_sha256": "2b384bb8cd69d4dbd4fb1d12ff1d3833ada9c47451a2053918521ef76f297106",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5658049886621317,
+      "source_seconds": 2.5658049886621317,
+      "source_file_sha256": "ff9b49c1f2df2c23aa326909ff85f85b97d2248735326e17e231d96c45f41344",
+      "file_sha256": "3d3749bb8bcbb8e032e173b8aa56d95809901c5d8ea1d1320f1ff969dc37f8e3",
+      "bytes": 21359,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

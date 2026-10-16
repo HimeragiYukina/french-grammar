@@ -1,0 +1,30 @@
+{
+  "text": "Nous sommes ___ mai. (5",
+  "text_sha256": "fab6f8a90f37a7767980d2ed4a62522b324bfd3c47c5e1b6d8f3c5cf693c605e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3931972789115645,
+      "source_seconds": 1.3931972789115645,
+      "source_file_sha256": "bfc82443706be1355faad462bdd27a2d11538b3f70a8ac7cb081527d1ce9da65",
+      "file_sha256": "a17039d5de16a47f58352ed348c972f1cc9e5058679d6dc6294cd7a7b697794d",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

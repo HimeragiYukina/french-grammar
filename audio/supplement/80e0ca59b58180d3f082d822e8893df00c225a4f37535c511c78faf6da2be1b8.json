@@ -1,0 +1,30 @@
+{
+  "text": "Nous avons parlé en marchant le long du fleuve.",
+  "text_sha256": "80e0ca59b58180d3f082d822e8893df00c225a4f37535c511c78faf6da2be1b8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4380952380952383,
+      "source_seconds": 2.4380952380952383,
+      "source_file_sha256": "d9e8431de4dcef94560cbff5a61e4240eff432439cf7690f87321ff2be665907",
+      "file_sha256": "7657659ef01dd84c29db03ddaf4304cc72fca0623f149811139ceed4f3f0e8e9",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

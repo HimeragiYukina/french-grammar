@@ -1,0 +1,30 @@
+{
+  "text": "Je n’ai personne vu",
+  "text_sha256": "c1d61438cd1cb6a7739adb7f40a6584b90f8c28d6be61a144fd36ab004393360",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.195827664399093,
+      "source_seconds": 1.195827664399093,
+      "source_file_sha256": "785ac6edd57c6a9d1b1aceb10b4edbf2edee1f1f7ca49a4e73bdc86fa1734c24",
+      "file_sha256": "6daf325472772e64dc52f62ee01aeb0248d8ebbd2fee7973756d16097edd1a28",
+      "bytes": 10284,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

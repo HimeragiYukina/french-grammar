@@ -1,0 +1,30 @@
+{
+  "text": "Elle ne répond pas ; elle aura oublié son téléphone chez elle.",
+  "text_sha256": "84c7bafce27d7efc103f944c9f5d328dd500bff387ece2801ce8111cd6db741b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.3668934240362813,
+      "source_seconds": 3.3668934240362813,
+      "source_file_sha256": "11f179cc85d8e6d08d93d1f3ba459d8a15eb2d22dacff56a87566c2156986cb0",
+      "file_sha256": "0f00359202521ac9a507c1096751c1994397fabbf1f9f4b3557a426bfb820180",
+      "bytes": 27629,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

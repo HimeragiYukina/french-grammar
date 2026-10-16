@@ -1,0 +1,30 @@
+{
+  "text": "Tous les dimanches, nous ___ (manger) chez ma grand-mère.",
+  "text_sha256": "e8f9c5b019b2a1242d34446f1b12e8dfc5cc9ca63a257c9cd17e9f6963504a4f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5541950113378684,
+      "source_seconds": 2.5541950113378684,
+      "source_file_sha256": "ae8f1ec2fa4f13fba3f1fa4cf15274614cc6f1e2d1d780b8bc40a978119ffb71",
+      "file_sha256": "6336798cde403bda004e540900a6736b58843b419ac113fcd6f64eb650ca822f",
+      "bytes": 21150,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

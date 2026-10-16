@@ -1,0 +1,30 @@
+{
+  "text": "Ce dont nous avons besoin, c’est du temps, pas un nouvel outil. C’est à Léa que j’ai remis le rapport.",
+  "text_sha256": "1655d059ac084ba2a46937c25cc4602b7daf73065949e08b2754cab8597414cd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.2128798185941045,
+      "source_seconds": 5.2128798185941045,
+      "source_file_sha256": "6b8a342d3389b31c553e8c2b487ac5e4f5b19df293b92d1ed6cbc1129c0d81f2",
+      "file_sha256": "b0cab2212fb0961dfbb06e3f90b4c0d9503e0815c5ba55b9af7268cf715b0688",
+      "bytes": 42466,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

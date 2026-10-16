@@ -1,0 +1,30 @@
+{
+  "text": "penser à un rendez-vous",
+  "text_sha256": "1468837b6ecc5605dcdfcf2fd46c6e11d9256c7429f291fb09f89ca2489d1003",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4164172335600906,
+      "source_seconds": 1.4164172335600906,
+      "source_file_sha256": "a17ab9c59dbcb28ddf18d04c638da22faa6f4658d6d978a4f0108c79f764f3b4",
+      "file_sha256": "b846397d0bdc484cbe1ed54cef7239d0acd4f5f7eb13f66446909438768d1cfe",
+      "bytes": 12164,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

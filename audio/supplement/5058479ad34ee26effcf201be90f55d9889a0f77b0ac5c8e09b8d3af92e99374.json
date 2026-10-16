@@ -1,0 +1,30 @@
+{
+  "text": "Vas-y maintenant ; n’y va pas demain.",
+  "text_sha256": "5058479ad34ee26effcf201be90f55d9889a0f77b0ac5c8e09b8d3af92e99374",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1130158730158732,
+      "source_seconds": 2.1130158730158732,
+      "source_file_sha256": "cb427cdc68ccce304457fdf62914021f2e3ac4a7664e90a725be9dfe997d4715",
+      "file_sha256": "43f6262663ddca84a8b7cf476a9a5a69dd3a91769201ca047ae188fa7f7292d2",
+      "bytes": 17598,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

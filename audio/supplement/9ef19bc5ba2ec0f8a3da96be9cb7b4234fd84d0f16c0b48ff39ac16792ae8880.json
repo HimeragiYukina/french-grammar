@@ -1,0 +1,30 @@
+{
+  "text": "Combien ça coûte ?",
+  "text_sha256": "9ef19bc5ba2ec0f8a3da96be9cb7b4234fd84d0f16c0b48ff39ac16792ae8880",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1029478458049886,
+      "source_seconds": 1.1029478458049886,
+      "source_file_sha256": "a25d23baf3b421ea736192093d24545490ec3b361ae2e663c70ab92c0177021e",
+      "file_sha256": "d379f1dd1a733ab3bac7b7ecb47572defd86a7412ddb8a67a4a9288e96e850d1",
+      "bytes": 9657,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

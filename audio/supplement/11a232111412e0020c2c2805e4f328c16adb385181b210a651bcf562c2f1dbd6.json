@@ -1,0 +1,30 @@
+{
+  "text": "Tu peux venir demain ?",
+  "text_sha256": "11a232111412e0020c2c2805e4f328c16adb385181b210a651bcf562c2f1dbd6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1493877551020408,
+      "source_seconds": 1.1493877551020408,
+      "source_file_sha256": "da8591f9960e9dc2c31570989bf1bada7aed497b824f7e704605c936c7bed59c",
+      "file_sha256": "11208465399a61967d530235a29bf28d3bccb38cb5c4e258c56d39627726c6b1",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

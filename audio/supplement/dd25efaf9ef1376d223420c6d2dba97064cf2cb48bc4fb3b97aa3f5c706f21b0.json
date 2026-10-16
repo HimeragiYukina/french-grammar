@@ -1,0 +1,30 @@
+{
+  "text": "Comme est-il gentil !",
+  "text_sha256": "dd25efaf9ef1376d223420c6d2dba97064cf2cb48bc4fb3b97aa3f5c706f21b0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.207437641723356,
+      "source_seconds": 1.207437641723356,
+      "source_file_sha256": "87ca5521a13d111ad393d2782a0efd0c67df8de11175392b1cb4cd60c27dbcec",
+      "file_sha256": "9890734e7f95a060ea87f71d0ee9f8be38deafdb03766e1e432966bf03dbfcc9",
+      "bytes": 10493,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

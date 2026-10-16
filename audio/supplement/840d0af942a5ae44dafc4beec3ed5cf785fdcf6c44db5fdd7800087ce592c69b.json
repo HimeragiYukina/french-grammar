@@ -1,0 +1,30 @@
+{
+  "text": "Je peux venir, mais elle veut rester.",
+  "text_sha256": "840d0af942a5ae44dafc4beec3ed5cf785fdcf6c44db5fdd7800087ce592c69b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.403265306122449,
+      "source_seconds": 2.403265306122449,
+      "source_file_sha256": "73647f4fd180fce5afe9a6b7af689cc796e69d940c20d8079506832937b189cb",
+      "file_sha256": "5e163ef61378ad4666edbe87a6ed622077665747f2d4f898aceecfdfb2d521a9",
+      "bytes": 19897,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elle m’a demandé si je pouvais contacter Paul",
+  "text_sha256": "80040effd1df3a28078b87ec499d100aafaae2f774304971a3ae16e581e126ac",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.426485260770975,
+      "source_seconds": 2.426485260770975,
+      "source_file_sha256": "34912688f163f9971bee3d750473495667a0480b3f3367635d65081abafbb0db",
+      "file_sha256": "9329370b73fba3b6d4a5f040301fbb3dac6d2ac428d4200f95fe4bb78f9c7b9b",
+      "bytes": 20106,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

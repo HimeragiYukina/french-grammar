@@ -1,0 +1,30 @@
+{
+  "text": "Le système est efficace ; cela réduit les coûts. → L'efficacité du système réduit les coûts.",
+  "text_sha256": "a439bd0255caed220248ae3845ab3b58550b7563da403821e6d235078693c3ea",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.189659863945578,
+      "source_seconds": 5.189659863945578,
+      "source_file_sha256": "4ee4306a25b3c6756a7b0d07e4305d4d2007f343dc96a2f058d9a4633fb8b115",
+      "file_sha256": "21bfc31e0a2aa19b043a2bc46be82b5198581f8f1e6664d5fa82db2d58d39f73",
+      "bytes": 42257,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

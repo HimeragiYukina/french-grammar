@@ -1,0 +1,30 @@
+{
+  "text": "Tout compétent qu'il est, il hésite",
+  "text_sha256": "fb58b393035b82b72ea825b287fac8919cdb7062ab9eb2d344ff3981850d4588",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9853061224489796,
+      "source_seconds": 1.9853061224489796,
+      "source_file_sha256": "3df91c916abb6cf922f65592111ebc611c2f602c7ed7dc35b000031119ed7316",
+      "file_sha256": "6273eb32255f8e12d3a9bb291323e1d76b851fc53294b4bd71ff2f86282d4295",
+      "bytes": 16553,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

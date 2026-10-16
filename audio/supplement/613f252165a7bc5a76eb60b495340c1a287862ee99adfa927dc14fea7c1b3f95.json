@@ -1,0 +1,30 @@
+{
+  "text": "J'aime ___ chanson et ___ photos. (",
+  "text_sha256": "613f252165a7bc5a76eb60b495340c1a287862ee99adfa927dc14fea7c1b3f95",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6253968253968254,
+      "source_seconds": 1.6253968253968254,
+      "source_file_sha256": "e12443ddd3deff61dcdfdda1694019fc8da044d3dd8545402832a3c9e0c1cbf8",
+      "file_sha256": "f0a1542061548c60c5d10d38c5e4fe9e0af6f1177a02e70ca56defb71b2b0aba",
+      "bytes": 13836,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

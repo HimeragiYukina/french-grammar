@@ -1,0 +1,30 @@
+{
+  "text": "Ayant perdu son billet, il a dû en acheter un autre.",
+  "text_sha256": "f6f857f2fa9e3433405eafb624a4eb696ec916da365549f028bcd3f6c0af72ba",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.076643990929705,
+      "source_seconds": 3.076643990929705,
+      "source_file_sha256": "e467fa0a05d8139ba52f6e435e6cc17e0a4258a8ab7b6b49884f11a207501ff2",
+      "file_sha256": "20cbc256e80312e54d2fe604e51d036cb860f33078a084e3ab3738eb8914c2c1",
+      "bytes": 25330,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

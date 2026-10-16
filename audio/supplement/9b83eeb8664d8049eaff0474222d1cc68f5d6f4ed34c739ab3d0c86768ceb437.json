@@ -1,0 +1,30 @@
+{
+  "text": "Il ne se rase pas le dimanche.",
+  "text_sha256": "9b83eeb8664d8049eaff0474222d1cc68f5d6f4ed34c739ab3d0c86768ceb437",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7066666666666668,
+      "source_seconds": 1.7066666666666668,
+      "source_file_sha256": "ad4648f51fbeb9d8741e994ba9080a3c73d2cc3a0689a45406f6f19bf0530b8f",
+      "file_sha256": "249adf7d68c0f42c153a3852d4bc5b0b0eb3d46cd0ee45d3441d0766d3bdc03c",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

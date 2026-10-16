@@ -1,0 +1,30 @@
+{
+  "text": "Fatiguant tout le monde, il rendit la réunion pénible.",
+  "text_sha256": "3209e4975d85e9cdb1ab3c387f820289b107ade02cf5a75a103ab1a568ee06db",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.274013605442177,
+      "source_seconds": 3.274013605442177,
+      "source_file_sha256": "e8b3496f229fa86a9f675ef2ba2d68e2f4d429ac1efbe1a66d52c238c2b48a33",
+      "file_sha256": "b518b1407f5c497d1aad7a865ddf3485ab640a7e15c11696fa92559ebd5536e6",
+      "bytes": 27002,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

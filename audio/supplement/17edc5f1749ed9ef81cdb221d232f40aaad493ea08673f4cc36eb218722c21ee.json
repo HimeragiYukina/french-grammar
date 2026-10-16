@@ -1,0 +1,30 @@
+{
+  "text": "Les billets sont vendus à l’entrée.",
+  "text_sha256": "17edc5f1749ed9ef81cdb221d232f40aaad493ea08673f4cc36eb218722c21ee",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8459863945578232,
+      "source_seconds": 1.8459863945578232,
+      "source_file_sha256": "209f0964867a1b784f4dc3a8cef6a8ba25caca19a1e1d8be849166df48722a97",
+      "file_sha256": "7b9eb203ad4796d5481c87f0e4fe6cf51bde10ece2f02182726873268a530748",
+      "bytes": 15508,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

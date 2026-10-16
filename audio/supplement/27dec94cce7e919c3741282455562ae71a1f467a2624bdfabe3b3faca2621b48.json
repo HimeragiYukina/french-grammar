@@ -1,0 +1,30 @@
+{
+  "text": "Nous aurions voulu rester, mais le dernier bus partait.",
+  "text_sha256": "27dec94cce7e919c3741282455562ae71a1f467a2624bdfabe3b3faca2621b48",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.716734693877551,
+      "source_seconds": 2.716734693877551,
+      "source_file_sha256": "f4c922442d0826ed3cc5167ef5a3281cd728cb19a166ca4d7ad510c1841217b7",
+      "file_sha256": "772a448bb7924fb63e5b47b6f844b674a831cfab8a68649ff40101721df7c279",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

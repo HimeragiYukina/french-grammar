@@ -1,0 +1,30 @@
+{
+  "text": "Marie rit ; Paul est en larmes",
+  "text_sha256": "14be17eda55dde15008b68fe77dc56cdaed8e85864350279958e23d538333390",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.020136054421769,
+      "source_seconds": 2.020136054421769,
+      "source_file_sha256": "b2415d3734b17efdba14180bac5f3d229e30a40222db2b4d04d12c556f03e614",
+      "file_sha256": "4b9829614c134ee71ab1ed635a18d97cfa36fcdf5930900f6300faeacb132597",
+      "bytes": 16971,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

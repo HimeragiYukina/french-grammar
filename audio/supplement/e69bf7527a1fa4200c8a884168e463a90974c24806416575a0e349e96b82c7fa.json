@@ -1,0 +1,30 @@
+{
+  "text": "Parle-t-elle",
+  "text_sha256": "e69bf7527a1fa4200c8a884168e463a90974c24806416575a0e349e96b82c7fa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9171882086167801,
+      "source_seconds": 0.9171882086167801,
+      "source_file_sha256": "598274a5e6a013995a3583ed25a15ffdb886dcc482f0f2553cbfff47cec6e136",
+      "file_sha256": "bb1b0464aa4dfe2dbd017291b7bdb5d6fbf70079ad5b152cdb55d26ff4715717",
+      "bytes": 8194,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

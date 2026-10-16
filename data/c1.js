@@ -362,7 +362,7 @@ window.GRAMMAR_DATA.C1={
         },
         {
           "fr": "Tous le savaient. <b>Or</b>, personne n'agit.",
-          "zh": "人人都知道。然而无人行动。",
+          "zh": "人人当时都知道。然而现在无人行动。",
           "use": "or(然而):议论文中引入与预期相反的事实或新前提的标志性连接词"
         },
         {
@@ -885,7 +885,23 @@ window.GRAMMAR_DATA.C1={
       ],
       "comparison": "Il lisait quand elle entra（读书是背景）与 Il lut la lettre et sortit（读完信作为完整事件）。Hier, j’ai rencontré Paul 是自然日常叙述；Hier, je rencontrai Paul 刻意呈现文学叙述。",
       "errors": "错误：把“持续很久”一律改成 imparfait。纠正：Il régna trente ans 合法，因三十年整体已封闭。错误：*ils venèrent；应为 ils vinrent。",
-      "boundaries": "以阅读识别为主。书信、新闻和口语并非绝对禁用，特殊风格或固定表达可出现。形式相同的 il finit 可为现在时或简单过去时，须看上下文。"
+      "boundaries": "以阅读识别为主。书信、新闻和口语并非绝对禁用，特殊风格或固定表达可出现。形式相同的 il finit 可为现在时或简单过去时，须看上下文。",
+      "related": [
+        "a2-pc-vs-imp",
+        "c2-passe-anterieur"
+      ],
+      "practice": [
+        {
+          "q": "编辑传记：Pendant vingt ans, elle dirigea le laboratoire. 同事说持续很久必须改dirigeait。是否接受？说明视角。",
+          "a": "Non. Dirigea présente les vingt années comme une période achevée ; dirigeait conviendrait à une présentation de l’intérieur ou à un arrière-plan.",
+          "note": "二十年也可整体完成；持续时长不直接决定时态。可中文解释，不要求逐字。"
+        },
+        {
+          "q": "把小说句 Le couloir était vide ; soudain, Léa ouvrit la porte et reconnut son frère 改成自然口头叙述，保留背景与事件分工。",
+          "a": "Le couloir était vide ; soudain, Léa a ouvert la porte et a reconnu son frère.",
+          "note": "était保持背景；ouvrit/reconnut可换复合过去时。不要机械把背景也换a été；口头复述可调整连接但须保留事件顺序。"
+        }
+      ]
     },
     "c1-subj-imparfait": {
       "sections": [
@@ -940,7 +956,24 @@ window.GRAMMAR_DATA.C1={
       ],
       "comparison": "Bien qu’il fût tard（虚拟式未完成，fût 带 ^）与 Il fut surpris（直陈式简单过去时）。Je voulais qu’il vienne（希望他来）与 Je regrettais qu’il soit venu（遗憾他已经来过）。",
       "errors": "错误：*Il fallait qu’il venait。falloir que 触发虚拟式，现代用 vienne，文学用 vînt。错误：所有古典过去虚拟式都换成现在虚拟式；先时的 eût compris 应换成 ait compris。",
-      "boundaries": "现代日常书面语也可用虚拟式现在/过去，无需强行古典呼应。此时态不单凭“过去”决定：从句若陈述事实且句法要求直陈式，不能换用虚拟式。"
+      "boundaries": "现代日常书面语也可用虚拟式现在/过去，无需强行古典呼应。此时态不单凭“过去”决定：从句若陈述事实且句法要求直陈式，不能换用虚拟式。",
+      "related": [
+        "b1-subj-present",
+        "b2-subj-passe",
+        "c1-passe-simple"
+      ],
+      "practice": [
+        {
+          "q": "现代化改写：Elle regrettait qu’il eût quitté la réunion ; elle souhaitait qu’il revînt. 保留先时与后时。",
+          "a": "Elle regrettait qu’il ait quitté la réunion ; elle souhaitait qu’il revienne.",
+          "note": "离开先于遗憾，用虚拟式过去；回来为愿望指向的事件，用虚拟式现在。不能把两处都换现在式。"
+        },
+        {
+          "q": "校对文学句 Il fallait qu’elle vint avant midi. 写正确形式并用现代句说明含义。",
+          "a": "Il fallait qu’elle vînt avant midi. Moderne : Il fallait qu’elle vienne avant midi.",
+          "note": "fallait que要求虚拟式；vint无长音符是简单过去时，vînt为虚拟式未完成。现代vienne不表示今天发生。"
+        }
+      ]
     },
     "c1-cond-2e": {
       "sections": [
@@ -1000,7 +1033,24 @@ window.GRAMMAR_DATA.C1={
       ],
       "comparison": "Sans aide, il eût échoué = il aurait échoué；Je regrettais qu’il eût échoué = 现代 qu’il ait échoué，后者是遗憾已发生失败的虚拟式从句。",
       "errors": "错误：*elle eût partie。partir 用 être，应为 elle fût partie。错误：把 il eut aimé 当文学条件式；eut 无长音符是简单过去助动词，eût 才是虚拟式形态。",
-      "boundaries": "主要用于识别文学。古典 Si j’eusse su, je ne fusse pas venu 可出现；现代学习写作使用 Si j’avais su, je ne serais pas venu，不把文学例外扩展成 si + 普通条件式。"
+      "boundaries": "主要用于识别文学。古典 Si j’eusse su, je ne fusse pas venu 可出现；现代学习写作使用 Si j’avais su, je ne serais pas venu，不把文学例外扩展成 si + 普通条件式。",
+      "related": [
+        "b1-cond-passe",
+        "b1-si",
+        "c1-subj-imparfait"
+      ],
+      "practice": [
+        {
+          "q": "比较两句eût échoué并分别现代化：Sans soutien, il eût échoué. / Elle regrettait qu’il eût échoué.",
+          "a": "Sans soutien, il aurait échoué. / Elle regrettait qu’il ait échoué.",
+          "note": "前者反事实结果，后者由regretter支配的先时虚拟式。外形相同不等于语法值相同。"
+        },
+        {
+          "q": "为现代读者重写 Si j’eusse connu ce risque, je ne fusse pas partie，保留说话者为女性及反事实。",
+          "a": "Si j’avais connu ce risque, je ne serais pas partie.",
+          "note": "现代si从句愈过去时、结果条件式过去；partie随女性主语。不得换成si j’aurais connu。"
+        }
+      ]
     },
     "c1-inversion": {
       "sections": [
@@ -1100,7 +1150,23 @@ window.GRAMMAR_DATA.C1={
       ],
       "comparison": "Aussi parle-t-il allemand（因此他说德语）与 Il parle aussi allemand（他也说德语）。Peut-être viendra-t-il = Peut-être qu’il viendra；后者日常更自然。Ainsi fonctionne le système / Le système fonctionne ainsi 的 ainsi 是方式，不可只靠位置套规则。",
       "errors": "错误：*a-t-il été-t…；复合时态只倒装助动词。错误：*prend-t-elle；应 prend-elle。错误：把 sans doute 译为毫无疑问，通常是“大概”，较确定可用 sans aucun doute。",
-      "boundaries": "倒装多为正式文体选择；en vain、ainsi、du moins 的句首用法不全强制倒装。口语不宜为显得高级而堆砌。第一人称倒装有形态难点，常改为 peut-être que je… 等。"
+      "boundaries": "倒装多为正式文体选择；en vain、ainsi、du moins 的句首用法不全强制倒装。口语不宜为显得高级而堆砌。第一人称倒装有形态难点，常改为 peut-être que je… 等。",
+      "related": [
+        "a1-question",
+        "c2-inversion-style"
+      ],
+      "practice": [
+        {
+          "q": "正式纪要：Les données sont incomplètes ; aussi nous reportons la décision. 用结果义aussi倒装改写，保持时态。",
+          "a": "Les données sont incomplètes ; aussi reportons-nous la décision.",
+          "note": "reportons-nous中动词和代词连字符；aussi表示因此，不是“也”。主语nous，不加-t-。"
+        },
+        {
+          "q": "同事写 Peut-être Léa viendra-t-elle ; elle parle aussi italien. 他要求第二分句也倒装，理由是aussi总倒装。如何回应？",
+          "a": "La première proposition comporte une inversion soutenue après peut-être. Dans la seconde, aussi signifie également : aucune inversion n’est nécessaire.",
+          "note": "须分义项，不把结果义规则搬到添加义。可改Peut-être que Léa viendra为日常表达。"
+        }
+      ]
     },
     "c1-dislocation": {
       "sections": [
@@ -1175,7 +1241,24 @@ window.GRAMMAR_DATA.C1={
       ],
       "comparison": "Ce livre, je l’ai lu（把书作为话题，讨论读没读）与 C’est ce livre que j’ai lu（指出读的是这本而非另一本）。Ce qui m’inquiète, c’est le prix（空位主语）与 Ce que je critique, c’est le prix（空位宾语）。",
       "errors": "错误：*Cette proposition, j’y refuse；refuser 直接宾语，应 je la refuse。错误：*C’est moi qui a décidé；应 C’est moi qui ai décidé，qui 后按被强调主语人称配合。",
-      "boundaries": "移位句不只存在于口语，但正式论文应节制使用；分裂句也常见口语，并非书面专属。强调介词短语时保留介词：C’est à Léa que je parle。"
+      "boundaries": "移位句不只存在于口语，但正式论文应节制使用；分裂句也常见口语，并非书面专属。强调介词短语时保留介词：C’est à Léa que je parle。",
+      "related": [
+        "b2-mise-relief",
+        "a2-y",
+        "a2-cod"
+      ],
+      "practice": [
+        {
+          "q": "你想纠正“Marc提出方案”的误会。选择更适合的焦点结构，并说明与话题句差别：Léa, elle a proposé ce plan. / C’est Léa qui a proposé ce plan.",
+          "a": "C’est Léa qui a proposé ce plan, pas Marc.",
+          "note": "分裂句突出提出者以纠正候选；左移位把Léa设为话题。二者均可有语境效果，此处问最直接实现纠正者。"
+        },
+        {
+          "q": "会话改写 Ce dossier est important ; je pense souvent à cette solution. 分别采用右移位和左移位，保留介词支配。",
+          "a": "Il est important, ce dossier. À cette solution, j’y pense souvent.",
+          "note": "il复指阳单dossier；penser à事物用y。也接受Cette solution, j’y pense souvent；不能用je la pense。"
+        }
+      ]
     },
     "c1-concession-indefinie": {
       "sections": [
@@ -1260,7 +1343,23 @@ window.GRAMMAR_DATA.C1={
       ],
       "comparison": "Quoiqu’il soit fatigué, il travaille（尽管已经疲倦）与 Quoi qu’il fasse, il se fatigue（不论做什么都累）。Il court aussi vite que son frère（他跑得和他哥哥一样快）是实际程度比较；Aussi vite qu’il coure, il perdra（无论跑得多快，他都会输）用虚拟式表示任意程度也改变不了结论。",
       "errors": "错误：*quelque soit la raison；应 quelle que soit la raison。错误：*quelques difficile que ce soit；应 quelque difficile que ce soit，quelque 是程度副词。",
-      "boundaries": "许多结构正式而非会话默认表达，口语可说 peu importe où… 等。où que 与 quelque part 不同：前者泛指任一地点，后者表示某个不明确地点。"
+      "boundaries": "许多结构正式而非会话默认表达，口语可说 peu importe où… 等。où que 与 quelque part 不同：前者泛指任一地点，后者表示某个不明确地点。",
+      "related": [
+        "b2-opposition-concession",
+        "b1-subj-present"
+      ],
+      "practice": [
+        {
+          "q": "在通知中补全并解释：___ que ___ les raisons du refus, une réponse écrite est nécessaire. 使用quel que，不改变复数主语。",
+          "a": "Quelles que soient les raisons du refus, une réponse écrite est nécessaire.",
+          "note": "raisons阴复→quelles；être虚拟式复数soient。不是quelques soient。"
+        },
+        {
+          "q": "同一论点改述为任意程度让步：Cette solution est très coûteuse, mais elle reste nécessaire. 使用si…que，避免条件si。",
+          "a": "Si coûteuse que soit cette solution, elle reste nécessaire.",
+          "note": "coûteuse与solution阴单；soit虚拟式。表达不论多贵仍必要，不是“如果很贵才必要”。也接受Si coûteuse que cette solution soit。"
+        }
+      ]
     },
     "c1-hypothese-sans-si": {
       "sections": [
@@ -1371,7 +1470,24 @@ window.GRAMMAR_DATA.C1={
       ],
       "comparison": "Je viens à condition que tu sois là（你的在场是我来的条件）与 Je laisse un message au cas où tu serais absent（为你可能不在作预案）。En marchant, elle téléphonait 是同时动作，不能机械译为“如果走路”。",
       "errors": "错误：*au cas où il pleuvra / pleuve；标准表达 il pleuvrait。错误：*En arrivant, la porte était fermée；副动词的主语不能是门，应 À mon arrivée, la porte était fermée。",
-      "boundaries": "介词短语可能只表示伴随：avec Marie 通常“和玛丽一起”，不是“如果有玛丽”。au cas où 在实际口语中有非标准语气用法，学习写作用条件式。"
+      "boundaries": "介词短语可能只表示伴随：avec Marie 通常“和玛丽一起”，不是“如果有玛丽”。au cas où 在实际口语中有非标准语气用法，学习写作用条件式。",
+      "related": [
+        "b1-gerondif",
+        "b1-cond-passe",
+        "b2-but-condition"
+      ],
+      "practice": [
+        {
+          "q": "会议可能已取消，但你尚未核实。把备用动作接在句末：Appelez avant de venir, au cas où la réunion ___. 用annuler的被动完成形式。",
+          "a": "Appelez avant de venir, au cas où la réunion aurait été annulée.",
+          "note": "au cas où按规范用条件式；可能已经取消→条件式过去被动aurait été annulée，annulée随réunion。不是未来取消事实。"
+        },
+        {
+          "q": "修复动作主体不一致：En arrivant à la gare, le train était déjà parti. 保留我到站时车已走，不让火车到站。",
+          "a": "À mon arrivée à la gare, le train était déjà parti.",
+          "note": "可用Quand je suis arrivé(e) à la gare…；副动词通常同主语，原句语法上让train承担arriver。"
+        }
+      ]
     },
     "c1-ne-expletif": {
       "sections": [
@@ -1452,7 +1568,24 @@ window.GRAMMAR_DATA.C1={
       ],
       "comparison": "Je crains qu’il ne vienne（怕他来）与 Je crains qu’il ne vienne pas（怕他不来）。Je ne crains pas qu’il vienne（不怕他来）通常不再添加赘词 ne。",
       "errors": "错误：把 Je crains qu’il ne soit blessé 译成怕他没有受伤；应怕他受伤。错误：*sans qu’il ne le sache（无否定意的普通结构）；标准为 sans qu’il le sache。",
-      "boundaries": "OQLF 指出 ne explétif 可省且属正式语；否定兼疑问的恐惧主句有特殊许可，例如 Ne craignez-vous pas qu’il ne parte ?。判断 ne seul 必须结合谓词和结构，不能宣称“只有 ne…pas 才能否定”。"
+      "boundaries": "OQLF 指出 ne explétif 可省且属正式语；否定兼疑问的恐惧主句有特殊许可，例如 Ne craignez-vous pas qu’il ne parte ?。判断 ne seul 必须结合谓词和结构，不能宣称“只有 ne…pas 才能否定”。",
+      "related": [
+        "b1-negations",
+        "a2-comparatif",
+        "b1-subj-declencheurs"
+      ],
+      "practice": [
+        {
+          "q": "译并判断ne：Je crains qu’elle ne parte. / Je crains qu’elle ne parte pas.",
+          "a": "Je crains qu’elle ne parte. Je crains qu’elle ne parte pas.",
+          "note": "我怕她走。/ 我怕她不走。第一句ne为可省赘词；第二句ne…pas是真否定。 怕发生与怕不发生对立。不能因两句都含ne而同译，也不能去掉第二句pas。"
+        },
+        {
+          "q": "把正式句 Il est moins disponible que je ne le pensais 改成不带赘词ne的同义句，并说明pensais语气。",
+          "a": "Il est moins disponible que je le pensais. Pensais est à l’indicatif imparfait.",
+          "note": "不等比较中ne可省；不是虚拟式触发标记。译为他没我原先想的那么有空。"
+        }
+      ]
     },
     "c1-accord-avance": {
       "sections": [
@@ -1800,7 +1933,24 @@ window.GRAMMAR_DATA.C1={
       ],
       "comparison": "Avant qu’il parte, appelle-le（走之前打给他，虚拟式）与 Après qu’il sera parti, appelle-moi（走之后打给我，先将来时）。Après être arrivée, elle a appelé（同主语）与 Après que Léa est arrivée, Marc a appelé（不同主语）。",
       "errors": "错误（规范写作）：*après qu’il soit parti；应按语境用 est parti / était parti / sera parti。错误：把 avant que 的形式直接照搬到 après que。",
-      "boundaries": "实际现代口语和一些书面文本中 après que + 虚拟式很常见；这里明确教授 Académie 的规范直陈式，不否认真实用法差异。不能用“事已发生”作为唯一记忆依据，因为未来例句尚未发生。"
+      "boundaries": "实际现代口语和一些书面文本中 après que + 虚拟式很常见；这里明确教授 Académie 的规范直陈式，不否认真实用法差异。不能用“事已发生”作为唯一记忆依据，因为未来例句尚未发生。",
+      "related": [
+        "b2-futur-anterieur",
+        "b1-pqp",
+        "b1-gerondif"
+      ],
+      "practice": [
+        {
+          "q": "未来流程按规范补全：Après que vous ___ le document, nous vous enverrons un reçu. 用signer，强调签字完成在先。",
+          "a": "Après que vous aurez signé le document, nous vous enverrons un reçu.",
+          "note": "先将来时直陈式；不能因未来尚未发生而用ayez signé。规范教学与实际常见虚拟式用法须分开。"
+        },
+        {
+          "q": "合并两句以après开头：Léa a vérifié le contrat. Marc l’a signé. 能否写Après avoir vérifié le contrat, Marc l’a signé？给忠实版本。",
+          "a": "Après que Léa a vérifié le contrat, Marc l’a signé.",
+          "note": "不能用该不定式版本，否则核查者变成Marc。可用Après la vérification du contrat par Léa, Marc l’a signé。"
+        }
+      ]
     },
     "c1-impersonnelles": {
       "sections": [
@@ -1885,7 +2035,23 @@ window.GRAMMAR_DATA.C1={
       ],
       "comparison": "Il importe qu’il vienne（希望/要求他来，虚拟式）与 Il s’avère qu’il est venu（查明他来过，直陈式）。Cela empêche qu’il participe（阻止参加）与 Il n’empêche qu’il participe（尽管如此他仍参加）不是同一逻辑。",
       "errors": "错误：*il importe que chacun prend；应 prenne。错误：把 force est de constater que 理解成“力量是……”；它是固定句架。错误：*il n’empêche que il…；应 qu’il。",
-      "boundaries": "“客观表达”只是文体效果，措辞本身不证明结论客观。慎用 il va de soi 来宣称有争议观点为共识。无人称不定式可指一般人或语境中的行动者，不要求每次有同主语从句。"
+      "boundaries": "“客观表达”只是文体效果，措辞本身不证明结论客观。慎用 il va de soi 来宣称有争议观点为共识。无人称不定式可指一般人或语境中的行动者，不要求每次有同主语从句。",
+      "related": [
+        "b1-subj-declencheurs",
+        "b2-modalisation"
+      ],
+      "practice": [
+        {
+          "q": "把两项分别写成正式无人称句：建议每位候选人收到相同信息；核查发现旧文件不完整。使用il convient que / il s’avère que。",
+          "a": "Il convient que chaque candidat reçoive la même information. Il s’avère que l’ancien document était incomplet.",
+          "note": "建议评价→虚拟式reçoive；查明陈述→直陈式était。形式正式不意味着观点自动客观。"
+        },
+        {
+          "q": "同事以Il va de soi que tous les usagers sont satisfaits替代“没有投诉”。改成保留证据边界的正式句。",
+          "a": "Il convient de vérifier la satisfaction des usagers ; l’absence de plainte ne suffit pas à l’établir.",
+          "note": "这不是找同义高级词，而是修复无证共识。接受Il importe que nous vérifiions…；须同时保留无投诉不足证明满意。"
+        }
+      ]
     },
     "c1-adj-verbal": {
       "sections": [
@@ -1996,7 +2162,23 @@ window.GRAMMAR_DATA.C1={
       ],
       "comparison": "une femme provocante（具有挑衅性/惹眼的女子）与 une femme provoquant ses adversaires（正在挑衅对手的女子）。形容词描写性质，分词说明具体动作，差别不止 s/e 拼写。",
       "errors": "错误：*des personnes attendantes dehors；此处具体等待动作用 attendant。错误：*des preuves convainquantes；形容词为 convaincantes。错误：*en négligent les règles；应 en négligeant les règles。",
-      "boundaries": "不得把“有状语”作为唯一判别条件：différent de… 是形容词也有补语。形容词只有在词汇确实存在时才能使用；如 ayant 不存在对应常用形容词。分词 Fatiguant tout le monde 明确宾语，不独自标明“然后”；若先后完成是重点，可用 ayant fatigué。"
+      "boundaries": "不得把“有状语”作为唯一判别条件：différent de… 是形容词也有补语。形容词只有在词汇确实存在时才能使用；如 ayant 不存在对应常用形容词。分词 Fatiguant tout le monde 明确宾语，不独自标明“然后”；若先后完成是重点，可用 ayant fatigué。",
+      "related": [
+        "b2-participe-present",
+        "c1-passe-simple"
+      ],
+      "practice": [
+        {
+          "q": "选择词形并说明句法：Des preuves (convaincantes / convainquantes) ont été présentées ; (convaincant / convainquant) le jury par ces pièces, elle obtint gain de cause.",
+          "a": "Des preuves convaincantes ont été présentées ; convainquant le jury par ces pièces, elle obtint gain de cause.",
+          "note": "形容词修饰preuves→convaincantes；分词带宾语le jury→convainquant不变。不是单凭发音选字。"
+        },
+        {
+          "q": "从备忘中纠错：Les semaines précédentes le départ furent difficiles. 保留“出发前的几周”而非“此前几周”的含义，再写一个真正形容词版本。",
+          "a": "Les semaines précédant le départ furent difficiles. Adjectif : Les semaines précédentes avaient été plus calmes.",
+          "note": "précédant直接带le départ为分词不变；précédentes为形容词配阴复。不能只删le départ而声称原义完全保留。"
+        }
+      ]
     }
   },
   "contexts": [],

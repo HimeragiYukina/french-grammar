@@ -1,0 +1,30 @@
+{
+  "text": "Elle a été licenciée",
+  "text_sha256": "5f37b6cb3caacbdc3087cd69f96d26bd725ee46c46fdec8fc79fe179a14d3ef0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2654875283446712,
+      "source_seconds": 1.2654875283446712,
+      "source_file_sha256": "5d4c1a02e8d69cafbc976fbf00d3ecda5ebc4b104fec4e6984f92b9305fb21ac",
+      "file_sha256": "b2b0f519fbb7c42f40278c9e66335b41e44a835b14e777c616fdcd60a5a75ca5",
+      "bytes": 10910,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

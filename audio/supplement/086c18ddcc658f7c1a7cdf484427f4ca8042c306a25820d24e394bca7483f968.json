@@ -1,0 +1,30 @@
+{
+  "text": "Il est nécessaire que vous finissiez ce travail avant vendredi.",
+  "text_sha256": "086c18ddcc658f7c1a7cdf484427f4ca8042c306a25820d24e394bca7483f968",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.030204081632653,
+      "source_seconds": 3.030204081632653,
+      "source_file_sha256": "8a83355ed34aa65381d706555f8ae18f3340c9d807fd6606573aa88adfebff10",
+      "file_sha256": "5ccb2d3d0b0b20f9eedaa4a27b0d1e52cea7a6f4109e12a0719e37e5f5398972",
+      "bytes": 24912,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

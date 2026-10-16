@@ -1,0 +1,30 @@
+{
+  "text": "Selon la police, il serait à Lyon",
+  "text_sha256": "520efba0dd25376250ff675526949bbbcacd670d0a75de894e581468229e7d75",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1942857142857144,
+      "source_seconds": 2.1942857142857144,
+      "source_file_sha256": "5fd6ef244c2ffba363158556c886081744080a7a660f1503729517f852385b8b",
+      "file_sha256": "2ce72f30be6dbf071087d310fe194fa42d368ff65b40fdaad719ab7cfa09dfdc",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

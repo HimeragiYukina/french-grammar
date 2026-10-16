@@ -1,0 +1,30 @@
+{
+  "text": "Le jour où il est venu",
+  "text_sha256": "9e0ad19a61fd1df9ba5e583ebdf0937827589a0db2f2990ddf31246d11270d0e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5441269841269842,
+      "source_seconds": 1.5441269841269842,
+      "source_file_sha256": "c522f8dde4e372795b7fca2b593bcc59396e718a1885da88424388fd38a7a1c3",
+      "file_sha256": "b80f6bf04588890fb098c8d288f465156b80befd7e412389aa77ee88ad3582ec",
+      "bytes": 13209,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

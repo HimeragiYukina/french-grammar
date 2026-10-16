@@ -1,0 +1,30 @@
+{
+  "text": "Avec un meilleur équipement, ils auraient réussi.",
+  "text_sha256": "75d4c124cac020b922172ac9fe58d1c18f8bff1e497fb364d7f9fd1c86a88a54",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8792743764172335,
+      "source_seconds": 2.8792743764172335,
+      "source_file_sha256": "a898f2fe73bbd959e4ee7222c6152f87947b8efc151c7f5d3d57bbefb3588a73",
+      "file_sha256": "9f1e3f4e3ef40863852fb88747776fe078c15887d8a6b122dfd17e51c3ab0a82",
+      "bytes": 23867,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

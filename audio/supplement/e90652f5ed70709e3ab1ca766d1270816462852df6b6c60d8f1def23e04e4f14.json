@@ -1,0 +1,30 @@
+{
+  "text": "L’employée me répond : « Il durera environ vingt minutes, mais vous devrez attendre pendant quelques minutes à votre arrivée. »",
+  "text_sha256": "e90652f5ed70709e3ab1ca766d1270816462852df6b6c60d8f1def23e04e4f14",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.164897959183674,
+      "source_seconds": 6.164897959183674,
+      "source_file_sha256": "4d076a2d203863c83f9fb8ed35af3ed63b9ff18d72c53f2f5d385affcf5c8461",
+      "file_sha256": "849d1a72a427e590fe4efa339457efa91ad857541def79bf41ba69ba286e5927",
+      "bytes": 49990,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

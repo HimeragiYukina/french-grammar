@@ -1,0 +1,30 @@
+{
+  "text": "Nous parlons aux élèves de la classe.",
+  "text_sha256": "d16d1f021d24709629977e9ced6119d80a13149883723418f466b59191803d0a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0549659863945577,
+      "source_seconds": 2.0549659863945577,
+      "source_file_sha256": "e8d7b91da0d9212f7ee2aa3b54df8a5b3fdbf5f2e47d7487d0740265af6e1a0c",
+      "file_sha256": "ff63e518ea8eba78c322b7509ed1578c2801a12ff705bc01c05cbbd9ae2d935a",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

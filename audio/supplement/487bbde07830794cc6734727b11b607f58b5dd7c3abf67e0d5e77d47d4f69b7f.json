@@ -1,0 +1,30 @@
+{
+  "text": "Regarde ces nuages : il va pleuvoir.",
+  "text_sha256": "487bbde07830794cc6734727b11b607f58b5dd7c3abf67e0d5e77d47d4f69b7f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.75156462585034,
+      "source_seconds": 2.75156462585034,
+      "source_file_sha256": "771be5726e4975326b8422697b589feba0cf06e557f57266c91f2214f3b381f4",
+      "file_sha256": "829dd0364c87c4d9ea16d71edeb813def79bfa4b1db73c88c32bcca11138ada4",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

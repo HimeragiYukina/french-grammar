@@ -1,0 +1,30 @@
+{
+  "text": "Ils ont annoncé qu'ils auraient déménagé avant l'été.",
+  "text_sha256": "839583372f787c1f6e9a970ef6930a580497e96dc6ba513e0552fd0d82606d91",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.972154195011338,
+      "source_seconds": 2.972154195011338,
+      "source_file_sha256": "3e3af9018d9bcbf6f44579325ef3cc734c96482f71871842374aca8fe725d54b",
+      "file_sha256": "6dd1aec3a471854b9ae7614c55e72ad77eb0d399b9bbdb69f1f1f98796bae66f",
+      "bytes": 24494,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

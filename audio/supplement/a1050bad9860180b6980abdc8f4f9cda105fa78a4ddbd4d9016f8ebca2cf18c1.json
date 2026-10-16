@@ -1,0 +1,30 @@
+{
+  "text": "Quand bien même le partenaire m'aurait prévenue, je n'aurais pas pu terminer à temps. La première phrase est concessive ; la seconde présente l'absence de l'appel comme condition d'un autre résultat.",
+  "text_sha256": "a1050bad9860180b6980abdc8f4f9cda105fa78a4ddbd4d9016f8ebca2cf18c1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 10.08907029478458,
+      "source_seconds": 10.08907029478458,
+      "source_file_sha256": "56fa0530e95c149bac8aab7f8d70cfe68a391c85c0c1cf8740f5a0b3ccddaef9",
+      "file_sha256": "5b43360b813aff5eb837f6722478f52ed00d38806c77ba1d062dd5ca976c58da",
+      "bytes": 81546,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

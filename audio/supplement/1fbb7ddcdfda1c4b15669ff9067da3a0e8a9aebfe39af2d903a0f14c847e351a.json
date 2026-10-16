@@ -1,0 +1,30 @@
+{
+  "text": "C'est dans ce café que nous nous sommes rencontrés.",
+  "text_sha256": "1fbb7ddcdfda1c4b15669ff9067da3a0e8a9aebfe39af2d903a0f14c847e351a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.461315192743764,
+      "source_seconds": 2.461315192743764,
+      "source_file_sha256": "5755980d64a9cb6a9720879fa398b73f21356c5778a0eb9851f12a489a91da8a",
+      "file_sha256": "73dacbac30fd73369df4b86c2fbe514916d3a32bf7d3eefa1757181560f46430",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

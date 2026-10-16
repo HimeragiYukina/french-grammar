@@ -1,0 +1,30 @@
+{
+  "text": "À peine avais-je fermé la porte que le téléphone sonna.",
+  "text_sha256": "17c2eb62d8dc9fd6071ccb2068a07f615aaf8d47bacc4bcb483410687bf53a6c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8444444444444446,
+      "source_seconds": 2.8444444444444446,
+      "source_file_sha256": "9c5105280b5c7cf78d2f16543cd9917122c3205318c04cdbed299347e9db3827",
+      "file_sha256": "928b5f13a3dbc12662ffc4e52c692fd371601bf2ab5dbd46abd15ffa3e9065a5",
+      "bytes": 23449,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

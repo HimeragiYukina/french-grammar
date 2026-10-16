@@ -1,0 +1,30 @@
+{
+  "text": "Les candidates se sont succédé. Les remarques qu'elles se sont dites sont utiles. Se est indirect dans les deux phrases ; dans la seconde, remarques est un complément direct placé avant le participe.",
+  "text_sha256": "77ce76e7ed77498c74d6e633b8ee4a457bbeca4bfb23164aa633d8569213ccf4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.798820861678005,
+      "source_seconds": 9.798820861678005,
+      "source_file_sha256": "cfde70893f5bf76348d49ff22f0eb76a349695db1a600ff1c81e6ac6cffd0fe2",
+      "file_sha256": "06018d82b1f5bce03a6b8cd8c1d859ba9f713724bade8633643efb0d119d9366",
+      "bytes": 79247,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Il l'a écrit de sa propre main. / Donne-moi une serviette propre.",
+  "text_sha256": "731aa84ab780e601ad922d69be39f757b0ee1e36d3f0b0c0803561e17f9ee20c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.355283446712018,
+      "source_seconds": 3.355283446712018,
+      "source_file_sha256": "2c83cc75acce906fa5ca1cbe0ef9e31c997be8ba63ddc45c25f662498db9eeb8",
+      "file_sha256": "9acb8f7190075581ac2b2148610fb572069b067f3370cdd4551be96d2106fab5",
+      "bytes": 27629,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

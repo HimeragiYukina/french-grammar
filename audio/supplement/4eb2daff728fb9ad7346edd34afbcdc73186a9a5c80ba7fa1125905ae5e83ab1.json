@@ -1,0 +1,30 @@
+{
+  "text": ") : Après que tu ___ (terminer, futur antérieur), appelle-moi.",
+  "text_sha256": "4eb2daff728fb9ad7346edd34afbcdc73186a9a5c80ba7fa1125905ae5e83ab1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4597732426303853,
+      "source_seconds": 3.4597732426303853,
+      "source_file_sha256": "c0091c6ad1778693a9605507b78691605ff62caef598a4b9e28be3fae8e8af43",
+      "file_sha256": "4418d433e364059008b9e2773b5bae3004401992e7bab52a0478145949b5934c",
+      "bytes": 28465,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

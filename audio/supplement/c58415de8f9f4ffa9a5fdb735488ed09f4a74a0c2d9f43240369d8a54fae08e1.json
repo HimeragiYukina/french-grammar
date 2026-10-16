@@ -1,0 +1,30 @@
+{
+  "text": "Il arrive, il voit, il comprend",
+  "text_sha256": "c58415de8f9f4ffa9a5fdb735488ed09f4a74a0c2d9f43240369d8a54fae08e1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8444444444444446,
+      "source_seconds": 2.8444444444444446,
+      "source_file_sha256": "e1bb3c225e9961d2c17547fe18bd90c9a08507c3d1586e52ea0f69e44dded1ab",
+      "file_sha256": "73f4976f74eb5f24d55150123306c418a9af2daaace695746a57516cd383daaf",
+      "bytes": 23449,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

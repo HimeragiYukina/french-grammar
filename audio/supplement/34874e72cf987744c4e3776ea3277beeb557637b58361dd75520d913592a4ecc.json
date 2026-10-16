@@ -1,0 +1,30 @@
+{
+  "text": "un employé négligent / Négligeant les consignes, il provoqua un accident.",
+  "text_sha256": "34874e72cf987744c4e3776ea3277beeb557637b58361dd75520d913592a4ecc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.597551020408163,
+      "source_seconds": 4.597551020408163,
+      "source_file_sha256": "f080934e2050d6399264e1574fc3f5c2d2626e9e58f6fc863e4e5b4a289e2f2d",
+      "file_sha256": "e904062af3c3f090b9e84b17a48a16e6e53cbc98e21619af093cb3bd07071ec3",
+      "bytes": 37451,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

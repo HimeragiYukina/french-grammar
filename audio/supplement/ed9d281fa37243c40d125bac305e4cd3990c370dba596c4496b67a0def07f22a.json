@@ -1,0 +1,30 @@
+{
+  "text": "je viendrais si je pouvais",
+  "text_sha256": "ed9d281fa37243c40d125bac305e4cd3990c370dba596c4496b67a0def07f22a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6950566893424037,
+      "source_seconds": 1.6950566893424037,
+      "source_file_sha256": "d4c9d5f147e5228d5e34c4a140c64adc5c4bd1385de43cb8104e055f34f5ea69",
+      "file_sha256": "d452bfce2e24da22375b4b7fe10ccea1baccd3ba99164d3941781b043ac1cb0c",
+      "bytes": 14254,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

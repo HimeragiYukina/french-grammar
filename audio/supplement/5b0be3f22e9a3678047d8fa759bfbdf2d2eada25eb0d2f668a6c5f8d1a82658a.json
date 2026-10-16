@@ -1,0 +1,30 @@
+{
+  "text": "beaucoup",
+  "text_sha256": "5b0be3f22e9a3678047d8fa759bfbdf2d2eada25eb0d2f668a6c5f8d1a82658a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.6617687074829932,
+      "source_seconds": 0.6617687074829932,
+      "source_file_sha256": "83ce5ad8a92cef3b1223d3fe2194446da1fb6d978047764dbd5b8e87fe4f91a5",
+      "file_sha256": "cb6e02b09e47e1249a99fc9d6bb3266785373b16c5c02803d837b1aa766653ae",
+      "bytes": 6104,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

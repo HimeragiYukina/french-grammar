@@ -1,0 +1,30 @@
+{
+  "text": "Accordez ou non (COD = en) : Des fautes ? J'en ai ___ . (faire)",
+  "text_sha256": "ef32fc1f1614dc073c22ba170e8fa5ffffb67b9e3342c22ff3c41fa6a907cb4a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.388571428571429,
+      "source_seconds": 4.388571428571429,
+      "source_file_sha256": "d67c142ab964ee0ed3aaf3aa178b101af287513e242369af0fd46c0581a8f9f2",
+      "file_sha256": "707806b4d9b66fb9070eb639b4032fbf06faeb2f7eb772fb806515cbdd0bb43d",
+      "bytes": 35779,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

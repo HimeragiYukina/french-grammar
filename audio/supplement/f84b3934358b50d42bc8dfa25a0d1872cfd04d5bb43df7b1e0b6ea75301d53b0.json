@@ -1,0 +1,30 @@
+{
+  "text": "Le sac est sous la chaise, entre mes pieds.",
+  "text_sha256": "f84b3934358b50d42bc8dfa25a0d1872cfd04d5bb43df7b1e0b6ea75301d53b0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4961451247165534,
+      "source_seconds": 2.4961451247165534,
+      "source_file_sha256": "5bde2b7d055e1f339db8298af1c850d8f3f2a05f5529308cafba69d0923fedf7",
+      "file_sha256": "8d78f6348b91101ffc6d4ab0ea3741eb083e25580f1f6e3426e2eb728c3cd25b",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

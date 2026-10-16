@@ -1,0 +1,30 @@
+{
+  "text": "« Je suis fatigué aujourd'hui. » → Il a avoué qu'il était fatigué ce jour-là.",
+  "text_sha256": "7761b5ecbfdaa4787ec6704f494b4277f2d79d8c00cfffcbf0c289c603a8c75a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7035827664399092,
+      "source_seconds": 3.7035827664399092,
+      "source_file_sha256": "83d2abba3248d251a74effd6bb4b046f27bd7c41c23b8d3f14ccfb8f9d92e17d",
+      "file_sha256": "7d04898f046873178174dc1d44b7f4d70b939de967914c3f67fa5acdc07c0924",
+      "bytes": 30346,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

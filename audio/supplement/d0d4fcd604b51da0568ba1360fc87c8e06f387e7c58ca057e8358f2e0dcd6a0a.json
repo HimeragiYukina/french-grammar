@@ -1,0 +1,30 @@
+{
+  "text": "Paul arrivant, nous avons fermé la porte",
+  "text_sha256": "d0d4fcd604b51da0568ba1360fc87c8e06f387e7c58ca057e8358f2e0dcd6a0a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5425850340136056,
+      "source_seconds": 2.5425850340136056,
+      "source_file_sha256": "2b455a07741e91c53647c0c531021b6c845c661e8e82e7b01988460e00b0167e",
+      "file_sha256": "3a0adeff7f19bd213d660590d8306bdab7244a2f119704a06f78d9ee663f0200",
+      "bytes": 21150,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

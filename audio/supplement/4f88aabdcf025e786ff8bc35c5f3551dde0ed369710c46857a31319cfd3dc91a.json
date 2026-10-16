@@ -1,0 +1,30 @@
+{
+  "text": "J'ai ___ travail cette semaine. (trop)",
+  "text_sha256": "4f88aabdcf025e786ff8bc35c5f3551dde0ed369710c46857a31319cfd3dc91a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.136235827664399,
+      "source_seconds": 2.136235827664399,
+      "source_file_sha256": "ff6e276d5755c19e7c85d71db989d91ccbcfd7bb78b30bc9ebf3f30fc5de2164",
+      "file_sha256": "8d66694bfc03f370dd2a2676376a761a14f1fff3d09190ff582fdfa25ad33bb0",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

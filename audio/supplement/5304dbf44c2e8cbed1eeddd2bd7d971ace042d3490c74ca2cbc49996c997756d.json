@@ -1,0 +1,30 @@
+{
+  "text": "Il a déplacé le micro, de sorte que chacun pouvait l'entendre.",
+  "text_sha256": "5304dbf44c2e8cbed1eeddd2bd7d971ace042d3490c74ca2cbc49996c997756d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7500226757369615,
+      "source_seconds": 3.7500226757369615,
+      "source_file_sha256": "405104b19e2b62b7ca0cc9e8989d67ad49057a440b2bba3aae927447e77ff27a",
+      "file_sha256": "80206a9756f7b59db8ce1a9fd80249232f9c1da51d213e7c8d05d29101eda2ff",
+      "bytes": 30764,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

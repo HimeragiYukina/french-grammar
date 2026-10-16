@@ -1,0 +1,30 @@
+{
+  "text": "Leurs parents habitent à Nice et leur voiture est rouge.",
+  "text_sha256": "b28ce5e061fb6541a045f9737bca38aa633315eab4615e365838f2b41c7ab718",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.0650340136054424,
+      "source_seconds": 3.0650340136054424,
+      "source_file_sha256": "14db7fd7b171e5e82735500b9c858295ab57306796ad50f0bc010552dac44ae9",
+      "file_sha256": "692b1d3df3a947d59f4b465fc4d4b1215b6c56bb7ca0f3d4cbaae3d08f6f0cbf",
+      "bytes": 25330,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

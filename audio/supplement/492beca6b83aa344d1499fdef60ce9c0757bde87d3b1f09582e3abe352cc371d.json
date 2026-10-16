@@ -1,0 +1,30 @@
+{
+  "text": "Il voyage autant que sa sœur, mais il dépense moins.",
+  "text_sha256": "492beca6b83aa344d1499fdef60ce9c0757bde87d3b1f09582e3abe352cc371d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.297233560090703,
+      "source_seconds": 3.297233560090703,
+      "source_file_sha256": "91f8a8a0aefac43d8366cfd80170de326799d8984045d68e68bfb61ae4de187e",
+      "file_sha256": "a7b9111c38ed1d74df164106ccbd0e50fca6516df308d111b0e50724b3f958c0",
+      "bytes": 27211,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

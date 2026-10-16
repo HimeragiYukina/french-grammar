@@ -1,0 +1,30 @@
+{
+  "text": "fut-il",
+  "text_sha256": "4ae5d4b0c759eeab59974dfe37049032da5922a13a6c96deab56cec348d55048",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9171882086167801,
+      "source_seconds": 0.9171882086167801,
+      "source_file_sha256": "d46374629bd6dea8850448fc092bde5b412f79d97c9b9d14fa5a52f9049cab6f",
+      "file_sha256": "e088e29d25e185bae564db209678238180d91bf9bf7ad0ffe17ee34d6d7c4288",
+      "bytes": 8194,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

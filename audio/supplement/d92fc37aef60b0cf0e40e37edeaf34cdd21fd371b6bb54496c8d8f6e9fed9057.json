@@ -1,0 +1,30 @@
+{
+  "text": "Le fait qu'il soit étranger ne change rien à l'affaire.",
+  "text_sha256": "d92fc37aef60b0cf0e40e37edeaf34cdd21fd371b6bb54496c8d8f6e9fed9057",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.076643990929705,
+      "source_seconds": 3.076643990929705,
+      "source_file_sha256": "303726cbe097339963f1d5f2a58d6ce6299b563a8200f55f507d3855f163b1cb",
+      "file_sha256": "22038266d3f4c8c75b1af6b9d20721c79ece7c56e1c2ff558371b16b9d9531f0",
+      "bytes": 25330,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

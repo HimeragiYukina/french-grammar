@@ -1,0 +1,30 @@
+{
+  "text": "Je voudrais un délai supplémentaire. / Pourriez-vous reporter la date limite ?",
+  "text_sha256": "8f20c0d85f0049e11caf8596cebe84023e9045202a13b1a8f053dee543c4bcdb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.900952380952381,
+      "source_seconds": 3.900952380952381,
+      "source_file_sha256": "29455fd91063875f297b2a58cce1c61e1bcf636c75751e09e0c34a3d5d1818af",
+      "file_sha256": "0044ac4db460dc2b4303c45300a5e9a48578d6259e4caa08e34a40c4f81a8a07",
+      "bytes": 32017,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

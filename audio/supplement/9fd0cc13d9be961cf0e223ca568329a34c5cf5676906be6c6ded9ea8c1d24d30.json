@@ -1,0 +1,30 @@
+{
+  "text": "Elle aime danser.",
+  "text_sha256": "9fd0cc13d9be961cf0e223ca568329a34c5cf5676906be6c6ded9ea8c1d24d30",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.172607709750567,
+      "source_seconds": 1.172607709750567,
+      "source_file_sha256": "1f00548f21a5bff5dd115954a137999af3ecb6d60068dd5b72b74482046e9768",
+      "file_sha256": "f2a764eeed15ccac5dccf6b91784637e0cbf6202b89037b674496a85ddfa38b4",
+      "bytes": 10075,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

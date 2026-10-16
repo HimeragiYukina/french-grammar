@@ -1,0 +1,30 @@
+{
+  "text": "Voici les deux méthodes. Nous avons recours à ces méthodes. / Voici la salle. Nous travaillons à côté de cette salle.",
+  "text_sha256": "40c4f3a0f10b36ff9a568d9c73127ad1d8166b072a443212331647270f86a256",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.548027210884354,
+      "source_seconds": 6.548027210884354,
+      "source_file_sha256": "83b19c50306b8954ff4a471c6894ce074ff4d9ae2fb4cf9e08bc462c03b25919",
+      "file_sha256": "3c659bbd1713bda3c4e11a38b7b60780f79955c93eabb8f8b5a8229eb8f9e11f",
+      "bytes": 53124,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

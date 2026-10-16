@@ -1,0 +1,30 @@
+{
+  "text": "J’habite ici ___ septembre.",
+  "text_sha256": "28ded03f3ea1e86914df4bca80ffa2b9a037cf11b94d4a86fda0e28e5b12ef26",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6486167800453515,
+      "source_seconds": 1.6486167800453515,
+      "source_file_sha256": "ac1e5ddf03f7a5764ce6bcb4f4208f665ab7415a3e32f2890e4b9077635d3119",
+      "file_sha256": "59aa003ac8a5c3816eda457c7e9759603250e67a3c294ba32f25a033251ec0a2",
+      "bytes": 14045,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

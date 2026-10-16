@@ -1,0 +1,30 @@
+{
+  "text": "Paul cherche sa clé et Léa cherche son téléphone.",
+  "text_sha256": "3e6153f404038b9081be4498d49a86baf30ec7f0913cd04c563ac39cb4e37d92",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.239183673469388,
+      "source_seconds": 3.239183673469388,
+      "source_file_sha256": "8b12f087c553a4fbfd6713726b5d2b2d2f2eee21c286b1090eab6124a52655a4",
+      "file_sha256": "7522b893ec562f8eee95d6a6b0d969612677a5d3f4a0b47f19d997fce706e201",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

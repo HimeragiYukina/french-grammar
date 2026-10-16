@@ -1,0 +1,30 @@
+{
+  "text": "Avec ces lunettes, je vois mieux.",
+  "text_sha256": "e015c19914720c7d4c42880656cfdeff848a531aff624b988b9d7706d1fc0a9c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9156462585034013,
+      "source_seconds": 1.9156462585034013,
+      "source_file_sha256": "5dd6891a8b0b1197bd7e04ee72a95a12d10d85845f967633a53aa5b262ab9d45",
+      "file_sha256": "ed68e682b097b3b4e9b353bcd7c9c3818ca3e86dfac45ba47597682d4e4eb442",
+      "bytes": 16135,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

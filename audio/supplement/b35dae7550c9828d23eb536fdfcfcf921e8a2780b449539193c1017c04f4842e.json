@@ -1,0 +1,30 @@
+{
+  "text": "Mon réveil n'a pas sonné",
+  "text_sha256": "b35dae7550c9828d23eb536fdfcfcf921e8a2780b449539193c1017c04f4842e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3467573696145125,
+      "source_seconds": 1.3467573696145125,
+      "source_file_sha256": "511536926e4fafca0b96fa1d3d98a15d12e3326dd503ca5447cfc995f287377d",
+      "file_sha256": "6c77fd457bfa5ea9666d5b6ec3cc4129a4b8572f52af0dc6d042b9607feff5ea",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

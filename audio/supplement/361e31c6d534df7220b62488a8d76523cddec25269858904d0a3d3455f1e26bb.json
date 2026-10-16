@@ -1,0 +1,30 @@
+{
+  "text": "Le développement rapide du tourisme.",
+  "text_sha256": "361e31c6d534df7220b62488a8d76523cddec25269858904d0a3d3455f1e26bb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9853061224489796,
+      "source_seconds": 1.9853061224489796,
+      "source_file_sha256": "50c7bc68e2f0d57b722a7525621cb23a9980fd6388d149ede2ababa29dea5992",
+      "file_sha256": "03f114a86048ef5ddb6b38dc2a1907837b843cbb67bc7571fd0551e0e0371762",
+      "bytes": 16553,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

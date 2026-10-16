@@ -1,0 +1,30 @@
+{
+  "text": "Ces photos ? Il les a prises en Italie.",
+  "text_sha256": "2e81fa8cd8bb202774bb6a7886b637eb9e64163a7a59fec622f956187815fd55",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.414875283446712,
+      "source_seconds": 2.414875283446712,
+      "source_file_sha256": "02be51f02deb87b9aa526460d5c8ae51c37964caed0aa0e730cfdf66491e0234",
+      "file_sha256": "8939d0ec71dce7a72314f081473ad9e6e73d5ebc1d188a0ed3291ed0eec73d95",
+      "bytes": 20106,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

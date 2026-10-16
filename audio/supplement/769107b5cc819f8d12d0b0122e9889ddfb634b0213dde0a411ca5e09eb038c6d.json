@@ -1,0 +1,30 @@
+{
+  "text": "Comme la salle du quartier est en travaux, nous préparons notre repas collectif dans le jardin de Nadia. Nous changeons de lieu parce que nous ne voulons pas annuler la soirée. Nadia a installé deux grandes tables pour que tout le monde puisse manger ensemble. Je n’ai invité personne de nouveau ; nous n’avons que vingt places. Les invitations étaient prêtes hier, et je les lui ai envoyées ce matin. Puisque Paul passe au marché, je lui demande d’acheter du pain et quelques tomates. Du pain, il m’en apportera assez pour tous, donc je n’ai plus besoin de faire les courses. J’écris enfin aux voisins pour leur expliquer le changement et leur donner la nouvelle adresse.",
+  "text_sha256": "769107b5cc819f8d12d0b0122e9889ddfb634b0213dde0a411ca5e09eb038c6d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 34.202993197278914,
+      "source_seconds": 34.202993197278914,
+      "source_file_sha256": "e74d56b28c7c4befb1b5a6e8914b43961d33954e9c5451d59bacd579a89de16e",
+      "file_sha256": "5fbaf22ee2c964fb11f57deabd769ad6a5b2392e04d58d5b490de2d92b3e0684",
+      "bytes": 274434,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

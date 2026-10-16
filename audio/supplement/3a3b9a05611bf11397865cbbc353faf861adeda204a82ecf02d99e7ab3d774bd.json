@@ -1,0 +1,30 @@
+{
+  "text": "Elle regrettait que son frère fût si loin.",
+  "text_sha256": "3a3b9a05611bf11397865cbbc353faf861adeda204a82ecf02d99e7ab3d774bd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2407256235827666,
+      "source_seconds": 2.2407256235827666,
+      "source_file_sha256": "e6cabbbeaeaf4fe3f7dc77c3ea34963f309b34698f05bb4c25f1a76f66706807",
+      "file_sha256": "27e7ad564b14c3e2031f7bc21d9e51795ef68c0febaf976da8f1652a66fb58ed",
+      "bytes": 18643,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "eût fallu",
+  "text_sha256": "334ef3288d9c83329bc8e2d4b974dc3dea5d15f857475f4a47b2c20292efe16b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8475283446712019,
+      "source_seconds": 0.8475283446712019,
+      "source_file_sha256": "f8d7d93908fcffc713a2217a8a1aefb83abe3d19396225192946bdb09ed4f3cb",
+      "file_sha256": "f218893c31e229acfca6f63ff2e3af4871481181d2a78fe13e0e1f1a74323f63",
+      "bytes": 7567,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

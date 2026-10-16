@@ -1,0 +1,30 @@
+{
+  "text": "Passif = être (au temps voulu) + participe passé accordé avec le sujet. L’agent peut être omis ou introduit, généralement par par, parfois par de selon le verbe et le sens.",
+  "text_sha256": "48bee2a5213f29a7b097eead07439637921c9cc17172698e8ca9bb83539954a8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.787210884353742,
+      "source_seconds": 9.787210884353742,
+      "source_file_sha256": "b91e4de7bcff7a4cf7c0c77fd52c79a237ab9bf38823b0f2899eb7cfa27b1de4",
+      "file_sha256": "1eb435ce25472bfb2c4b30be53e5dab457a13dc61cebc5af2818dc84207bf7e9",
+      "bytes": 79038,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "J'ai mis une chemise propre pour l'entretien.",
+  "text_sha256": "9da6c45b3a7095e1a940e4acab67ab0f5cafc686559850878b1e64fb58b18c9c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.670294784580499,
+      "source_seconds": 2.670294784580499,
+      "source_file_sha256": "6164f25b2a8bb4f9893280b1e6a43d28317f954870cb8cafd44603068702e389",
+      "file_sha256": "37c0e85af5710295f7fbd21999664b836d3b03fdad6ebdffef79e77d096cd835",
+      "bytes": 22195,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

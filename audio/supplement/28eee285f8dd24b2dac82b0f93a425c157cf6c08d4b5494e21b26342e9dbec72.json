@@ -1,0 +1,30 @@
+{
+  "text": "Il a dit : « Je travaille ici. » → Il a dit qu'il travaillait là.",
+  "text_sha256": "28eee285f8dd24b2dac82b0f93a425c157cf6c08d4b5494e21b26342e9dbec72",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.564263038548753,
+      "source_seconds": 3.564263038548753,
+      "source_file_sha256": "4fa28932b1900b8eafd37e6de808ddd85c69285e55f01b9cf8eb7fcc22e06475",
+      "file_sha256": "b30d728f0e7b228412247595dbaedc957df378670f79f10eeecbdb78486a68aa",
+      "bytes": 29301,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

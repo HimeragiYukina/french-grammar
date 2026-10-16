@@ -1,0 +1,30 @@
+{
+  "text": "vous utilisent celui de nous. Avoir et être sont irréguliers.",
+  "text_sha256": "072d00a57efc81cb946493fe39ae021a287aa2c9e308948381672e83f4b1328c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.9706122448979593,
+      "source_seconds": 3.9706122448979593,
+      "source_file_sha256": "041fe6e9f8866e1499fa7fb835eabc38b2dad8c31ca0513b405473fbb4fe6d9e",
+      "file_sha256": "786d1ddde55316ecb412ce2caf6943610798e3fe3a3e83c3ce4db4dd2bf1179f",
+      "bytes": 32435,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

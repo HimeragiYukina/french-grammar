@@ -1,0 +1,30 @@
+{
+  "text": "Le pronom COD remplace un complément direct. Il précède généralement le verbe qui le régit : l’auxiliaire aux temps composés, souvent l’infinitif dans une construction à deux verbes. Il suit le verbe à l’impératif affirmatif.",
+  "text_sha256": "1ffd617412bc29ec5e306b83fdce95611e8e5d8f3c2f81905c8e9c7fb3f417bb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 12.678095238095239,
+      "source_seconds": 12.678095238095239,
+      "source_file_sha256": "8518fd62f27aaa27eaf03d8cfd313d1d99fdb1631b9118194ee4fc14f2a43f6d",
+      "file_sha256": "562a76f0f806c69968d4e2bc410e49a3e3aa6c951d39b6dad7956dc776fc60cd",
+      "bytes": 102235,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

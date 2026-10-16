@@ -1,0 +1,30 @@
+{
+  "text": "En général, la salle est complète ; en l'occurrence, il reste des places.",
+  "text_sha256": "b15afb83c0d7a336471ed3d937be94861aed061581c9812b2ae439060acb0317",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.061950113378685,
+      "source_seconds": 5.061950113378685,
+      "source_file_sha256": "47d8333d76179b509b71a022eda8d9500345e375ddb59ba9bdd6f174eedf6771",
+      "file_sha256": "8fc61417fd0d77cf854b334b77b3c4e1be126e5fd2d250bb3ed8aa07814e8275",
+      "bytes": 41213,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

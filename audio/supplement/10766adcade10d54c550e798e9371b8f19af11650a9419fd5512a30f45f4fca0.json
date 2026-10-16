@@ -1,0 +1,30 @@
+{
+  "text": "familier: Je suis crevé. / courant: Je suis très fatigué. / sens plus intense: Je suis épuisé.",
+  "text_sha256": "10766adcade10d54c550e798e9371b8f19af11650a9419fd5512a30f45f4fca0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.163356009070295,
+      "source_seconds": 7.163356009070295,
+      "source_file_sha256": "258bc9c4fe5ee0370822e9a2770c147ad1ba72e91fd020c2cc72e575e2e0b63f",
+      "file_sha256": "eb0031717a42920ae21e26a745d7e56885941b348f16c1bdab9a2384309587b3",
+      "bytes": 58140,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

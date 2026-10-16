@@ -1,0 +1,30 @@
+{
+  "text": "Si le soleil revient, nous déjeunerons au parc près de la rivière.",
+  "text_sha256": "c0551661ad4af76dc1848e74f74309842d741a2f32c6f21902b74aaa128515eb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7035827664399092,
+      "source_seconds": 3.7035827664399092,
+      "source_file_sha256": "565e094936d5810b584779590b3de6fdcaf528197f8613be3780301b13687287",
+      "file_sha256": "490045794b72172e5a5e1a7e1b90ebe290f7deb17d001d4aed90797c537f9317",
+      "bytes": 30346,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

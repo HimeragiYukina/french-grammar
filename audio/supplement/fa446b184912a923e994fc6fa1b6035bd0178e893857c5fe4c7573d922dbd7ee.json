@@ -1,0 +1,30 @@
+{
+  "text": "C'est la moins chère de toutes les chambres.",
+  "text_sha256": "fa446b184912a923e994fc6fa1b6035bd0178e893857c5fe4c7573d922dbd7ee",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9736961451247166,
+      "source_seconds": 1.9736961451247166,
+      "source_file_sha256": "7440dce4c1ac575545dec43e0d9c0fa4cf931426bc4343bd01f7cb8289295ef5",
+      "file_sha256": "f06705f103330e069e3413cb683cf1f651c2e8fb0fd8f640b895a949024b34b6",
+      "bytes": 16553,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

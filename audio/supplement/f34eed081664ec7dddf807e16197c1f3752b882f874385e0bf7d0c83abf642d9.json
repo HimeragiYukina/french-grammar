@@ -1,0 +1,30 @@
+{
+  "text": "Ce n'est pas tant le prix qui me gêne que le manque de garanties. Le prix peut jouer un rôle, mais le manque de garanties est présenté comme le facteur principal.",
+  "text_sha256": "f34eed081664ec7dddf807e16197c1f3752b882f874385e0bf7d0c83abf642d9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.75546485260771,
+      "source_seconds": 7.75546485260771,
+      "source_file_sha256": "c166acfbe5681a67a90c6e8ecd06b0996765fae1a216c33362dbb166828a6950",
+      "file_sha256": "afe038ab7b40bd6ecef8e0f2ac9c697e454036ecc8160d4092d32b5880eea237",
+      "bytes": 62737,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

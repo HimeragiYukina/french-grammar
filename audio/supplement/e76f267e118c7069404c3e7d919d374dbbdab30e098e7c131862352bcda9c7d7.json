@@ -1,0 +1,30 @@
+{
+  "text": "Tous les parents ne sont pas disponibles. / Aucun parent n’est disponible.",
+  "text_sha256": "e76f267e118c7069404c3e7d919d374dbbdab30e098e7c131862352bcda9c7d7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7151927437641725,
+      "source_seconds": 3.7151927437641725,
+      "source_file_sha256": "c16aacb704f6e1ab517dfce7dc528309cccdfac8ca9ca0cdb1e9ec6839f1a58b",
+      "file_sha256": "69e829731f605b78f3764af231576f710ea6a41eb685eb24a24302be1945d7a6",
+      "bytes": 30555,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

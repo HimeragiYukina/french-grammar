@@ -1,0 +1,30 @@
+{
+  "text": "Il a plus de travail que moi.",
+  "text_sha256": "5db255aeb96f9587db849936b82b04ee6d5df820b631d7187f8c2d435efac79e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6718367346938776,
+      "source_seconds": 1.6718367346938776,
+      "source_file_sha256": "d1318b63361ce5257dbd97ba7e490ca8157fe0d16de82fa242c8d6ed85dac5a6",
+      "file_sha256": "e46e1ab4663ba045aefa3a74e2a91dceacfc10025cf2a0c1a463ad7ef9e92460",
+      "bytes": 14045,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

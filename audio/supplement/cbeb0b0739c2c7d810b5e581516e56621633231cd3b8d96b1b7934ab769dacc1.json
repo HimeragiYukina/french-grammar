@@ -1,0 +1,30 @@
+{
+  "text": "si j’avais le temps, je viendrais",
+  "text_sha256": "cbeb0b0739c2c7d810b5e581516e56621633231cd3b8d96b1b7934ab769dacc1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0085260770975055,
+      "source_seconds": 2.0085260770975055,
+      "source_file_sha256": "39db074d60b83d9ca1b79e8aba851b64baed32bfc2143ae046b33577038fd89f",
+      "file_sha256": "6fa2e2a39bc5bf843896204ff1d658e6eb5a3dce7ce535a4bb1ab7389baf9e45",
+      "bytes": 16762,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

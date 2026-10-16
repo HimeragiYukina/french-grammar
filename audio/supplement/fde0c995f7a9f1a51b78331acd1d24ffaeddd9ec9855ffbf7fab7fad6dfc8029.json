@@ -1,0 +1,30 @@
+{
+  "text": "Il travaille alors qu'elle se repose",
+  "text_sha256": "fde0c995f7a9f1a51b78331acd1d24ffaeddd9ec9855ffbf7fab7fad6dfc8029",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0317460317460316,
+      "source_seconds": 2.0317460317460316,
+      "source_file_sha256": "2c0fa32b5389975d72672d5824a49c88eecd3f4218c7b6da08ee41a37fb91fc2",
+      "file_sha256": "2972b578cb18004975950f912b047ca05dd2032ab05aaea87bc39abfd5045df6",
+      "bytes": 16971,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

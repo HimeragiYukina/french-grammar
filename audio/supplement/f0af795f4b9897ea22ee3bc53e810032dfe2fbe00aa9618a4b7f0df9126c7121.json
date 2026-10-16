@@ -1,0 +1,30 @@
+{
+  "text": "J’ai écrit à ma sœur ; je lui ai envoyé les photos.",
+  "text_sha256": "f0af795f4b9897ea22ee3bc53e810032dfe2fbe00aa9618a4b7f0df9126c7121",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1463038548752835,
+      "source_seconds": 3.1463038548752835,
+      "source_file_sha256": "59819a4a15fb99e60586c5a779f85eea548f50a5160b1d798eb076c2358a065c",
+      "file_sha256": "b079b5f7d13898386361a149f0a584d6b02274c7b7c983a8a2429e16473da1be",
+      "bytes": 25957,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

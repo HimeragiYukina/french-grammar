@@ -1,0 +1,30 @@
+{
+  "text": "Tu peux sortir, à condition que tu rentres avant minuit.",
+  "text_sha256": "207063a7cb7cc77e59e44360510ff6ba69bff3f3a20467086e0e2a29065f3789",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8908843537414968,
+      "source_seconds": 2.8908843537414968,
+      "source_file_sha256": "c06bcb99c0dcb0c47229d1992f79b6f5ba70ca1f24d8d5b68b53b23046d17f5d",
+      "file_sha256": "d7d20cebdb8e32a2d1c710ede8bec5b32e5364dc79abf214c8e5fe45d093d22d",
+      "bytes": 23867,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

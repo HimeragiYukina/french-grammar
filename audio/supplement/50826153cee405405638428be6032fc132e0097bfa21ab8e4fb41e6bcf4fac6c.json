@@ -1,0 +1,30 @@
+{
+  "text": "Faites l'inversion : Sans doute",
+  "text_sha256": "50826153cee405405638428be6032fc132e0097bfa21ab8e4fb41e6bcf4fac6c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8575963718820863,
+      "source_seconds": 1.8575963718820863,
+      "source_file_sha256": "eea2f84cbb4b1268ffbc4315c4e31cbdd9c857a5207da091f5a4dc1b1affeee7",
+      "file_sha256": "0f472fe81fa06e9990e3113d28b76eeab095e7645a7092c0aae1e68176ddb3c1",
+      "bytes": 15717,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

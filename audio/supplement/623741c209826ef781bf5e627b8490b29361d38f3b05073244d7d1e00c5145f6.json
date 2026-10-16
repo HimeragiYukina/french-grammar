@@ -1,0 +1,30 @@
+{
+  "text": "Elle regrettait qu’il eût quitté la réunion ; elle souhaitait qu’il revînt.",
+  "text_sha256": "623741c209826ef781bf5e627b8490b29361d38f3b05073244d7d1e00c5145f6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.239183673469388,
+      "source_seconds": 3.239183673469388,
+      "source_file_sha256": "1ae014c88748f4c08fc812ead542d754f6e19cf274d3537b57514b89b5fb9759",
+      "file_sha256": "218e4643abd587cedd78aaa814b9cde623222310a4f89415087146b87da49bfc",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

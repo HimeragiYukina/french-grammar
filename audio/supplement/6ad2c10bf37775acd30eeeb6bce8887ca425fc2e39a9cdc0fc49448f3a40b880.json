@@ -1,0 +1,30 @@
+{
+  "text": "Le lendemain, nous avons présenté une proposition dont le client était satisfait.",
+  "text_sha256": "6ad2c10bf37775acd30eeeb6bce8887ca425fc2e39a9cdc0fc49448f3a40b880",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.4117913832199545,
+      "source_seconds": 4.4117913832199545,
+      "source_file_sha256": "c6882eac3089749fc7c31f0fb11dfc8a4c29c55abad152da11137408ee4af42e",
+      "file_sha256": "d82d8127ad2c988d90f26c5ee053a625b675089943a01d76603fb158a1a2d8eb",
+      "bytes": 35988,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

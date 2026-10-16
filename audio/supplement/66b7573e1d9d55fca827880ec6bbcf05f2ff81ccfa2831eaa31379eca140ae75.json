@@ -1,0 +1,30 @@
+{
+  "text": "Je lisais quand tu as appelé",
+  "text_sha256": "66b7573e1d9d55fca827880ec6bbcf05f2ff81ccfa2831eaa31379eca140ae75",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5325170068027212,
+      "source_seconds": 1.5325170068027212,
+      "source_file_sha256": "aef61be2f9340f5a36c6c196c8338ddd6fd21ae572a44da0c3610ad704048572",
+      "file_sha256": "c81c5bf4c2c335772458749e37416aa771c51deadd77602308e598b70594674b",
+      "bytes": 13000,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

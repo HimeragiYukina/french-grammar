@@ -1,0 +1,30 @@
+{
+  "text": "Tu es mon meilleur ami.",
+  "text_sha256": "beb62c45c3ca6c205572c2e17c18cef8da4d6b40ee637f0b2c64a34939dbdede",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1493877551020408,
+      "source_seconds": 1.1493877551020408,
+      "source_file_sha256": "9543d9d443fa333e585a31b40ad6baa28d75478567b1ed33e4f008fe8dae7ff2",
+      "file_sha256": "35fa64a7239cec8a594eb608c93d333ee9a80870151bbcec775b73945d2d94d0",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

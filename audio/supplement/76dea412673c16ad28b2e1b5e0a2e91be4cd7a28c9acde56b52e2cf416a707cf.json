@@ -1,0 +1,30 @@
+{
+  "text": "« après que » + indicatif : le fait est envisagé comme accompli avant un autre, même dans un contexte futur ; « avant que » + subjonctif.",
+  "text_sha256": "76dea412673c16ad28b2e1b5e0a2e91be4cd7a28c9acde56b52e2cf416a707cf",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.546485260770975,
+      "source_seconds": 7.546485260770975,
+      "source_file_sha256": "c86affa928ea844aa54c269b095361e77de2123b8e17929c7f5cf7f722402918",
+      "file_sha256": "e53ef9f6c603b87bd92e15ff1b460ee051c866bbe786828274307ea6b72949b2",
+      "bytes": 61066,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Voici le travail dont je suis fier.",
+  "text_sha256": "17184aa184314c4c81083862fc39b0e7c1868549313ae0fd4c50c340fdb7389b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.043356009070295,
+      "source_seconds": 2.043356009070295,
+      "source_file_sha256": "b057df260b6900c58b2c4545e49f52f27a8ad21a5fa66b367daf3f97124a2198",
+      "file_sha256": "640bf5b2c7bbb4795238c1b6d874ddbf11c9020cb465d26ee05f0bafe97067da",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

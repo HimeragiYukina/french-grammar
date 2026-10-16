@@ -1,0 +1,30 @@
+{
+  "text": "Nous finissons le travail à six heures, puis nous partons.",
+  "text_sha256": "d89af8b778917c397b567fecbb376fa0f86ee442f7f5386380115af2a0906483",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.645532879818594,
+      "source_seconds": 3.645532879818594,
+      "source_file_sha256": "8e7498ebd66d81eba46cf579fa59bd93a9f9198e301e376a5b01d87a6738e656",
+      "file_sha256": "bd8f71fab03771106e6895ffa2f23993fc4c62bd84822feb621a1f3b3b6298a7",
+      "bytes": 29928,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

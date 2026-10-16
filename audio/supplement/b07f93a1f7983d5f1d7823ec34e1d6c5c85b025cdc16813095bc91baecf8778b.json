@@ -1,0 +1,30 @@
+{
+  "text": "parler de ce livre",
+  "text_sha256": "b07f93a1f7983d5f1d7823ec34e1d6c5c85b025cdc16813095bc91baecf8778b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.242267573696145,
+      "source_seconds": 1.242267573696145,
+      "source_file_sha256": "565b05105c559f34270379d213b56138e5bde51e9accda945fea8f60cebef5f0",
+      "file_sha256": "7a5352959558181ef6f94c4e1d4c8c41c6c957fd2354bd1dc4f86ac75ba1e122",
+      "bytes": 10701,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

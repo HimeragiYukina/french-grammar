@@ -1,0 +1,30 @@
+{
+  "text": "Le fournisseur a annulé la commande sous prétexte qu’il n’avait plus de stock. Nous n’avons pas encore vérifié cette explication.",
+  "text_sha256": "089b09a06dc4353abe46b1aea05aa7650a2c6390ecdb97d3dfaa9a5246cd5af5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.455147392290249,
+      "source_seconds": 6.455147392290249,
+      "source_file_sha256": "60b65da557fbf7dff304ccb15cf7353afe4228016a18c60cd1119508200ba96a",
+      "file_sha256": "d4a4c15dffe17c01e5a9ac5467c7ec3ec30b69784942ab52528c97db9ba0c171",
+      "bytes": 52497,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

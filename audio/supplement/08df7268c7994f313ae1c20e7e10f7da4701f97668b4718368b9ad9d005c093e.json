@@ -1,0 +1,30 @@
+{
+  "text": "Je vais appeler ma mère après le déjeuner.",
+  "text_sha256": "08df7268c7994f313ae1c20e7e10f7da4701f97668b4718368b9ad9d005c093e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9388662131519274,
+      "source_seconds": 1.9388662131519274,
+      "source_file_sha256": "55ae965e3278dbd622f4c6e364e116776e951fc09d595c027557d42f40f99b47",
+      "file_sha256": "a087f469f813be46e8af8ec18cb3781e7933a72e2807343f6cfc5d8c50093b37",
+      "bytes": 16344,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

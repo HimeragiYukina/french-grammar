@@ -1,0 +1,30 @@
+{
+  "text": "Les enfants jouent avec des cailloux près de leurs vélos.",
+  "text_sha256": "b493b56967b4fa5d2cc7429dc92fc2584c8a7cbc142a3a8f4739358dd8683a4d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4729251700680273,
+      "source_seconds": 2.4729251700680273,
+      "source_file_sha256": "6be352ed15aabe555558caeb144f5920691713511bd9469146bf12eda083f428",
+      "file_sha256": "1e5f44e0e5258f9fab7d5b40217a33e0b5993b1add5479d73dbd760e638e9858",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

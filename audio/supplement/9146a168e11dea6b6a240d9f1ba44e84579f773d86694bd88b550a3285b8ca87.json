@@ -1,0 +1,30 @@
+{
+  "text": "Le subjonctif est souvent imposé par une construction. Pour de nombreux verbes, les personnes du singulier et ils/elles utilisent le radical de ils au présent ; nous/vous utilisent celui de nous. Avoir et être sont irréguliers.",
+  "text_sha256": "9146a168e11dea6b6a240d9f1ba44e84579f773d86694bd88b550a3285b8ca87",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 13.003174603174603,
+      "source_seconds": 13.003174603174603,
+      "source_file_sha256": "5443009ad0890551a39efca7db808f5df8f4b67f0cfdd9f3f3ecbee220412a47",
+      "file_sha256": "5bba1ac0265a0441adb8bbf6435ace1644bc71988f102d64d257c1cfd61e4be0",
+      "bytes": 104742,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

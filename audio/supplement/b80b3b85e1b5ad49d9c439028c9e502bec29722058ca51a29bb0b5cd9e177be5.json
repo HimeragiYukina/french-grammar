@@ -1,0 +1,30 @@
+{
+  "text": "Une seule personne a répondu à l'annonce.",
+  "text_sha256": "b80b3b85e1b5ad49d9c439028c9e502bec29722058ca51a29bb0b5cd9e177be5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2407256235827666,
+      "source_seconds": 2.2407256235827666,
+      "source_file_sha256": "37812e006ff5572b181356f908a3d3ebec99c25ac355d4291e0ff1750e6a29d5",
+      "file_sha256": "2abd29de1dc07ce0c51b9b614f27cdbfb42c1300fc17918d7a6859b4468196b8",
+      "bytes": 18643,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

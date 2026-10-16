@@ -1,0 +1,30 @@
+{
+  "text": "Mise en relief, nominalisation",
+  "text_sha256": "1758e1928e4a606bbcd206bffba7c15ece64f56a3b6ef20f5e4fdd9aa92cc7f5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.414875283446712,
+      "source_seconds": 2.414875283446712,
+      "source_file_sha256": "cdc739679945098a951563d9f7ab9fcc74880da47d95986d631b9249c57fddbf",
+      "file_sha256": "041c1f6e4168ac2f713c26d3604453475018b0990631f0a34487d25224450d70",
+      "bytes": 20106,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

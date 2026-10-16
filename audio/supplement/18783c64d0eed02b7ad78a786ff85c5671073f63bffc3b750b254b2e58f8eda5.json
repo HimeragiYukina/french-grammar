@@ -1,0 +1,30 @@
+{
+  "text": "Il va de soi que votre accord reste nécessaire.",
+  "text_sha256": "18783c64d0eed02b7ad78a786ff85c5671073f63bffc3b750b254b2e58f8eda5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4729251700680273,
+      "source_seconds": 2.4729251700680273,
+      "source_file_sha256": "c7b414e23a95c16fc9b9f90753b41517ed0352e9731e1c4582b79a4d1ac986ff",
+      "file_sha256": "ab330daa64d6c4538050d6ffdfed75b2e7627408fdf60288109f5d563deae12e",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

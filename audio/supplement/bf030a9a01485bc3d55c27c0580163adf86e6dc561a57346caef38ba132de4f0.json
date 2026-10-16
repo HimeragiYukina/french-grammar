@@ -1,0 +1,30 @@
+{
+  "text": "Il n'est pas exclu que la réunion soit annulée.",
+  "text_sha256": "bf030a9a01485bc3d55c27c0580163adf86e6dc561a57346caef38ba132de4f0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.693514739229025,
+      "source_seconds": 2.693514739229025,
+      "source_file_sha256": "ef7461f209cc1e1186a295ef6170aa5d4b5ab0e442061b014ed454fbc25ca968",
+      "file_sha256": "fcf2ca9981e79cdb994b70fcb11bef330e7a11afe7eb6dfedec4cd4b4403fb56",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

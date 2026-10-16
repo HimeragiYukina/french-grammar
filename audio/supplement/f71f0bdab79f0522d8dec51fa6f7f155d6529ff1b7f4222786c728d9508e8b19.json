@@ -1,0 +1,30 @@
+{
+  "text": "Je pense à lui. Je lui téléphone tous les jours.",
+  "text_sha256": "f71f0bdab79f0522d8dec51fa6f7f155d6529ff1b7f4222786c728d9508e8b19",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.995374149659864,
+      "source_seconds": 2.995374149659864,
+      "source_file_sha256": "66a13a6044767d127e258ad0d5333f24522bb1991b1ff9c405bcc1162a85288e",
+      "file_sha256": "53a4928cb89c3d6306514ae5eb4ce3d3d2c08caea271e614cedc6db8ad4d65db",
+      "bytes": 24703,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

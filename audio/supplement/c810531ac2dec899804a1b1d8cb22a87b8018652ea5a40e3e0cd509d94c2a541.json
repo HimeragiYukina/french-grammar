@@ -1,0 +1,30 @@
+{
+  "text": "Il a raté son bus, alors il a pris un taxi.",
+  "text_sha256": "c810531ac2dec899804a1b1d8cb22a87b8018652ea5a40e3e0cd509d94c2a541",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.0650340136054424,
+      "source_seconds": 3.0650340136054424,
+      "source_file_sha256": "bfd52641b36137bf0d27a2c181061ec0a71a842b2bb27c578fe11e1b31f32f7d",
+      "file_sha256": "2146025b2d1831cbe258603d4abd7173c21dbec0c513a7b6359de8f0092466ae",
+      "bytes": 25330,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

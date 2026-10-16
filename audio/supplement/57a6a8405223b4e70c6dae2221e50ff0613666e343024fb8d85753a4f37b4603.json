@@ -1,0 +1,30 @@
+{
+  "text": "J’habite dans ce quartier depuis septembre et je prépare mon dossier depuis deux semaines, mais il manque encore un document. J’ai appelé la mairie il y a trois jours ; aujourd’hui, mercredi, je téléphone de nouveau pour demander un rendez-vous. « Je voudrais venir vendredi matin ; pourriez-vous me dire combien de temps dure le rendez-vous ? » L’employée me répond : « Il durera environ vingt minutes, mais vous devrez attendre pendant quelques minutes à votre arrivée. » Je choisis donc dix heures ; elle confirme : « Votre rendez-vous est dans deux jours ; apportez votre pièce d’identité et arrivez un peu avant. »",
+  "text_sha256": "57a6a8405223b4e70c6dae2221e50ff0613666e343024fb8d85753a4f37b4603",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 29.98857142857143,
+      "source_seconds": 29.98857142857143,
+      "source_file_sha256": "89273f2d475eab1cfec2ba85b495c36dc20387c645e018b4681b0fdf9787b263",
+      "file_sha256": "53e0c9fb2ddc821a14e70b69ff050117b040ac7f9ff62c86c6b002c3c7ed551e",
+      "bytes": 240579,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

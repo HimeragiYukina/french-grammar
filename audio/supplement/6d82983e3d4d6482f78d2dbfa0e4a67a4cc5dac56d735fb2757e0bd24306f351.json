@@ -1,0 +1,30 @@
+{
+  "text": "Vous oubliez le fait qu'il était absent ce jour-là.",
+  "text_sha256": "6d82983e3d4d6482f78d2dbfa0e4a67a4cc5dac56d735fb2757e0bd24306f351",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.48453514739229,
+      "source_seconds": 2.48453514739229,
+      "source_file_sha256": "e1ee42254c867b360f2f7e536cf4867c6b51445dbd211d284632108d5cb8cb6b",
+      "file_sha256": "8b4e03f80d4f75419097445670da8945b9d4be165a86387d146c75cbecf2e11b",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

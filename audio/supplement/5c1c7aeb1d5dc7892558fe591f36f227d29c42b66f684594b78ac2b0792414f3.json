@@ -1,0 +1,30 @@
+{
+  "text": "Mon réveil n'a pas sonné, si bien que je suis arrivé en retard.",
+  "text_sha256": "5c1c7aeb1d5dc7892558fe591f36f227d29c42b66f684594b78ac2b0792414f3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.332063492063492,
+      "source_seconds": 3.332063492063492,
+      "source_file_sha256": "ad3eb5d2beea19dc115cccba541a3995a3a09f8c64a69f04a3c4fce198001983",
+      "file_sha256": "5ad36e4ad6ea7d0f49003106e9bd90af4d61ab7cc48521128ea58e5b2c43fe00",
+      "bytes": 27420,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

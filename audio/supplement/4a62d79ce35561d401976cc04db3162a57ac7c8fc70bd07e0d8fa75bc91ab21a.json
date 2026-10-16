@@ -1,0 +1,30 @@
+{
+  "text": "J’y vais à pied, car elle est tout près, et je prends aussi la liste que la professeure nous a envoyée.",
+  "text_sha256": "4a62d79ce35561d401976cc04db3162a57ac7c8fc70bd07e0d8fa75bc91ab21a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.178049886621316,
+      "source_seconds": 5.178049886621316,
+      "source_file_sha256": "890eee5b33cc66148eb45e36987e0101c5021da354923324b948e42337e61dfb",
+      "file_sha256": "6065c940e687d967c482019e2985357e401b6f8bc0709a7a5e8aace2e6f7bfc1",
+      "bytes": 42257,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

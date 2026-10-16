@@ -1,0 +1,30 @@
+{
+  "text": "La pauvreté de ce quartier.",
+  "text_sha256": "e00566bcde3ecd47b66661d9bcd4ee78fc263816dece0ded7b7a89aeb79dbf87",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5441269841269842,
+      "source_seconds": 1.5441269841269842,
+      "source_file_sha256": "012c21aa7ebd99b0c10d58e39be3b4cab85d168afd168ad72f5b330658fb97a3",
+      "file_sha256": "8df880a355a5d607035dbe8968b586e83c5a4e7f34b73f774476e379f3f08216",
+      "bytes": 13209,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

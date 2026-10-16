@@ -1,0 +1,30 @@
+{
+  "text": "Cette méthode est meilleure, et je comprends mieux avec elle.",
+  "text_sha256": "66d178ed930c6a67f5300b796941d5280f4591f721bc8b069523e9c7b87300f1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.378503401360544,
+      "source_seconds": 3.378503401360544,
+      "source_file_sha256": "eeda3721b8b19a1eef0fa23408e9ea820fbf2d39521e5e3256fe4f065e29ca73",
+      "file_sha256": "fcae88af912558f1dccba129564a4ac037a5561c1f583d9664ee7ec879e68e4a",
+      "bytes": 27838,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

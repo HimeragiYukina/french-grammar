@@ -1,0 +1,30 @@
+{
+  "text": "Il pensait qu’ils seraient rentrés avant minuit.",
+  "text_sha256": "81d1d2335df05ce3a7306ff04b92e95d4d15bcc8c9de614ea108f9c4f6da95df",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1942857142857144,
+      "source_seconds": 2.1942857142857144,
+      "source_file_sha256": "e168d5c24b63afc2eacebe17de8f7070476629a62b811b95182b059177eb6e08",
+      "file_sha256": "045457a493c75618ddc75e8e3d15fb7d16b6d22306c726ebb467532cb86bcc26",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "La ville que je visite",
+  "text_sha256": "8459209047edf32f9a3bb59fb9ca18b669a8457ac46391de4b836557bc97f6dc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4512471655328798,
+      "source_seconds": 1.4512471655328798,
+      "source_file_sha256": "c53b7e6fd55572001dc070220d1ee2ffb0b63727f4629c7f49e4454ec64e9c9b",
+      "file_sha256": "1522306379aeaa4f46582eceed6a1957d2ecb5281dabfeccbecc4b635836a5d1",
+      "bytes": 12373,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

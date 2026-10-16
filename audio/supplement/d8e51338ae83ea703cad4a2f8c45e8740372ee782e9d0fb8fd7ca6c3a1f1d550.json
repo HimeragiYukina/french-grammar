@@ -1,0 +1,30 @@
+{
+  "text": "Quand il arrivera, nous partirons",
+  "text_sha256": "d8e51338ae83ea703cad4a2f8c45e8740372ee782e9d0fb8fd7ca6c3a1f1d550",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0317460317460316,
+      "source_seconds": 2.0317460317460316,
+      "source_file_sha256": "44d28d7367f07e4c33e71b1aa6de619bfefb092737ae045e417ed4d39801799d",
+      "file_sha256": "ecbcf788fb1a722af0b04b0bad559ecef972d60aa5f6d3fd38fc5fdb82a2211d",
+      "bytes": 16971,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

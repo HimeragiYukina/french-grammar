@@ -1,0 +1,30 @@
+{
+  "text": "J’ai lu ce roman en deux jours",
+  "text_sha256": "12c2a0834f5772bb669f3e40e373856f8b5b9a063f713f1fcb7c8ed078d76030",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7066666666666668,
+      "source_seconds": 1.7066666666666668,
+      "source_file_sha256": "064cdda5075fe8b32d6336346d283b6cdd7a385bc8275f169c583363cdaf0cb4",
+      "file_sha256": "1efc450452ec674c094efeffecaf1165bd76e378e3718f91413ed5ebc886eed9",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

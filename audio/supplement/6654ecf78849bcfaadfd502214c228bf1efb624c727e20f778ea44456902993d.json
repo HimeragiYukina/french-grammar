@@ -1,0 +1,30 @@
+{
+  "text": "Je savais qu’elle était déjà venue ici.",
+  "text_sha256": "6654ecf78849bcfaadfd502214c228bf1efb624c727e20f778ea44456902993d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7531065759637188,
+      "source_seconds": 1.7531065759637188,
+      "source_file_sha256": "85ec16964e52e86e9d5c37ad18ac9878e090bda8ad1300ceaf9ac9d28f00f422",
+      "file_sha256": "e7127ac3b84a91a9e94b9fa516abe8690296bc5e0264fc309a48038ac2615754",
+      "bytes": 14881,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Je vais à l’hôpital",
+  "text_sha256": "dc8526e950966de669482f58a6e7f4c958b8f100274b4af90f46cff8e6596ba5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3931972789115645,
+      "source_seconds": 1.3931972789115645,
+      "source_file_sha256": "4dd615e0faca79495d961f3a24352a3630c622d7a274f284fbb67d46b753c02e",
+      "file_sha256": "713ec99b6694de558ef06b73abb11f99b8b578397a735adb9e4e5a92d0bef40d",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

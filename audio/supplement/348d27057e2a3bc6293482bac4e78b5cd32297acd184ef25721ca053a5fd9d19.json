@@ -1,0 +1,30 @@
+{
+  "text": "Il eut vite compris la situation et prit la fuite.",
+  "text_sha256": "348d27057e2a3bc6293482bac4e78b5cd32297acd184ef25721ca053a5fd9d19",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8212244897959184,
+      "source_seconds": 2.8212244897959184,
+      "source_file_sha256": "d1f137b5b8ab3b3d3cf1065bf3f387134f709cec344000d4992997d894b5529c",
+      "file_sha256": "059b1e6752997c2830bee9c430fc50e26c1bfb11d6e0beafbd7d68549a2a23df",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

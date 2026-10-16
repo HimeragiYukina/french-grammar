@@ -1,0 +1,30 @@
+{
+  "text": "Ne craignez-vous pas qu’il ne parte ?",
+  "text_sha256": "df3a728ddde29c3a073c43150b2b709935821b0542a303b65190fac523e1753d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9620861678004535,
+      "source_seconds": 1.9620861678004535,
+      "source_file_sha256": "fc3d4069ff32084eb7663ea6f227874848a1e519a776f72fe7fa1adbebb37d44",
+      "file_sha256": "2ca1146e869e1183e21896a232a24e28d71e5e2b9f76e8b4fa11b3ff2a3c0bae",
+      "bytes": 16553,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

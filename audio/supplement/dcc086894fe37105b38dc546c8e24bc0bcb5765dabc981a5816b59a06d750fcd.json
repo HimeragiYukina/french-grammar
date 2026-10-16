@@ -1,0 +1,30 @@
+{
+  "text": "J’espère qu’il réussira",
+  "text_sha256": "dcc086894fe37105b38dc546c8e24bc0bcb5765dabc981a5816b59a06d750fcd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.509297052154195,
+      "source_seconds": 1.509297052154195,
+      "source_file_sha256": "ba715a9c16b4c7387216682f5746c8a06700fad1cdf0bb6f553eb3d347b95a88",
+      "file_sha256": "cf9a510f315f5dc40dc0150517bdf84e0e058e4146af9b838467eaddd20a4495",
+      "bytes": 12791,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

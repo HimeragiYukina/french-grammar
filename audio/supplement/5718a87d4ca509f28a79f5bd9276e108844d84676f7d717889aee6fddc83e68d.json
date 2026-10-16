@@ -1,0 +1,30 @@
+{
+  "text": "Je vais y aller demain.",
+  "text_sha256": "5718a87d4ca509f28a79f5bd9276e108844d84676f7d717889aee6fddc83e68d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1377777777777778,
+      "source_seconds": 1.1377777777777778,
+      "source_file_sha256": "18cde572797380225eb20382b65e32c26cdf53702765ee122ea826542b5f2cbc",
+      "file_sha256": "01644420aefbca16dd0bad9b529e859dc7bd2d87034ede16397f2790b327c1b1",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

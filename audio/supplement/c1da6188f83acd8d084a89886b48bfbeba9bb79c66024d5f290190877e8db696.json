@@ -1,0 +1,30 @@
+{
+  "text": "Je veux la justice. → ___ , c'est la justice. (ce que…, c'est…)",
+  "text_sha256": "c1da6188f83acd8d084a89886b48bfbeba9bb79c66024d5f290190877e8db696",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2856235827664397,
+      "source_seconds": 3.2856235827664397,
+      "source_file_sha256": "6743ca639f2ad2655d5782d1776ea83a284a195098596066e374a3788636ab69",
+      "file_sha256": "4e1f7fee8fbbb4603e85ed2fb7fe97adb24bf78d028efd93e94966ee216cb6ce",
+      "bytes": 27002,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

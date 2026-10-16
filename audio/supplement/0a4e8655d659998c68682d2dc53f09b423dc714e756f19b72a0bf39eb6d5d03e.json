@@ -1,0 +1,30 @@
+{
+  "text": "Elles se sont levées à sept heures.",
+  "text_sha256": "0a4e8655d659998c68682d2dc53f09b423dc714e756f19b72a0bf39eb6d5d03e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5673469387755101,
+      "source_seconds": 1.5673469387755101,
+      "source_file_sha256": "710d29f52463f8a9fb4a892ec864de2b81cf1b7beb878b5a967f13db4dea464a",
+      "file_sha256": "d811172a684604edd2d478066fc74814a2d91a44424b07998999abb71be7a62d",
+      "bytes": 13209,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

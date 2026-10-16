@@ -1,0 +1,30 @@
+{
+  "text": "Le bus vient de partir. Il faut attendre le suivant.",
+  "text_sha256": "1f87c5b6bd697a9d1b39ea54dba4d46ad98f2e8d83144e079967413d8db57e94",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.239183673469388,
+      "source_seconds": 3.239183673469388,
+      "source_file_sha256": "0671e02c9d922a81d1fc8906f219c41bd51a098485ea2ae77e4fce400c440eff",
+      "file_sha256": "9b20c287e371ce29254e6e58be0d3ee212d466363072b475718f72f20667529e",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

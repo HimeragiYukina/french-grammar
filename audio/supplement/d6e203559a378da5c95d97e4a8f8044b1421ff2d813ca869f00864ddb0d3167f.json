@@ -1,0 +1,30 @@
+{
+  "text": "Chaque été de cette période, il revint au village.",
+  "text_sha256": "d6e203559a378da5c95d97e4a8f8044b1421ff2d813ca869f00864ddb0d3167f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.01859410430839,
+      "source_seconds": 3.01859410430839,
+      "source_file_sha256": "d1ffe06047360d3d3d7a0a0692f08e9d8e6f5f66b19555223a3b90af1421d37a",
+      "file_sha256": "dca3e6e4e4e3a0f9a79d3827619f1bc51cf0ee6579b340a25bc036795d93831f",
+      "bytes": 24912,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

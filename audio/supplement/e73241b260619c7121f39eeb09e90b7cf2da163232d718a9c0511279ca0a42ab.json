@@ -1,0 +1,30 @@
+{
+  "text": "les chats",
+  "text_sha256": "e73241b260619c7121f39eeb09e90b7cf2da163232d718a9c0511279ca0a42ab",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8359183673469388,
+      "source_seconds": 0.8359183673469388,
+      "source_file_sha256": "31cef6624535917601fd2a433fd9e88965abb3a0217578f8ffb16a8cd00509e0",
+      "file_sha256": "9a91347222f3ab92075f20c71df1c9c07e97a9f04c70cc18f9bb0da7a355cc45",
+      "bytes": 7358,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

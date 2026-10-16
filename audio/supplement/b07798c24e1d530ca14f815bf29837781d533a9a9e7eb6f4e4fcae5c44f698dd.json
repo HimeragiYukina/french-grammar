@@ -1,0 +1,30 @@
+{
+  "text": "Elle porte une robe blanche et des chaussures neuves.",
+  "text_sha256": "b07798c24e1d530ca14f815bf29837781d533a9a9e7eb6f4e4fcae5c44f698dd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.693514739229025,
+      "source_seconds": 2.693514739229025,
+      "source_file_sha256": "2a3843d4a910e65822beb114d017d192659a8dba3c1495ff89f84df02e5076be",
+      "file_sha256": "a4e421da46ec45d2c109a334873718131f582e17897041867a9b786915ee7574",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

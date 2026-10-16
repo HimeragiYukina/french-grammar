@@ -1,0 +1,30 @@
+{
+  "text": "Les enfants jouent aux échecs pendant la pause.",
+  "text_sha256": "da888961da1169e5fadfb24d5a95b805c9bd9a2e1d939e05f4573f38efe16f78",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.449705215419501,
+      "source_seconds": 2.449705215419501,
+      "source_file_sha256": "19396883ba4079be8a61dfbf57b38140d63ecb5450de8f67aa7cffbe424899c9",
+      "file_sha256": "0e0c55d67dde1c475365e7d1258c44a6ad0a57e70cd0e26a2aaf4e03bf9a7fa1",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

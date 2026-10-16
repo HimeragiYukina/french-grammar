@@ -1,0 +1,30 @@
+{
+  "text": "Les deux heures que le trajet a duré m'ont paru longues.",
+  "text_sha256": "3550db36811f141d848707b5e63a312f206d02fdd0bf57c30d33f0a9ceee5faa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8328344671201813,
+      "source_seconds": 2.8328344671201813,
+      "source_file_sha256": "7f53546de0ba500792940502b49306405a5e608077456ac25f6a5be1aae791c9",
+      "file_sha256": "04e542a5628dde56a0dd796775f47791546625c393507dd8e7f18227e844a5fd",
+      "bytes": 23449,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

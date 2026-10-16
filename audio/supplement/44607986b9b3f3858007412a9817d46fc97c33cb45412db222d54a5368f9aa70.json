@@ -1,0 +1,30 @@
+{
+  "text": "Nous avons parlé pendant une heure ; quand nous sommes sortis, la pluie était moins forte et les rues étaient presque vides.",
+  "text_sha256": "44607986b9b3f3858007412a9817d46fc97c33cb45412db222d54a5368f9aa70",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.640907029478458,
+      "source_seconds": 6.640907029478458,
+      "source_file_sha256": "1d57e5e34bcc812ca070439931f7dc0007a2fff49e4b09b9ecf25d923a4672ca",
+      "file_sha256": "c22251e15d9e72dfff626b8d3580ac4eea36f9a6b2b005c1ada17aa8a6d0a88b",
+      "bytes": 53960,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

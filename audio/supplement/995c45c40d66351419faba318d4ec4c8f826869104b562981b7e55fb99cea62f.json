@@ -1,0 +1,30 @@
+{
+  "text": "Nous nous écrivons chaque semaine.",
+  "text_sha256": "995c45c40d66351419faba318d4ec4c8f826869104b562981b7e55fb99cea62f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6486167800453515,
+      "source_seconds": 1.6486167800453515,
+      "source_file_sha256": "3a9ec240bb35676f8362a27b7fed590653d46fd2e15738c77bb8cd42ff7e7b22",
+      "file_sha256": "0aa0cc88edd83f8ba811ddaa2d195a619c8022eea6d1161d8be98c4fae5c0530",
+      "bytes": 14045,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

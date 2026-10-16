@@ -1,0 +1,30 @@
+{
+  "text": "D’habitude, elle arrivait à l’heure, mais ce jour-là son train a eu trente minutes de retard.",
+  "text_sha256": "cdc70adb25a103972c05955781b1ff378cd057b187f932c82538909668767c6c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.992290249433107,
+      "source_seconds": 4.992290249433107,
+      "source_file_sha256": "071165453071ec9260496679e11b7d34c906770e68aa962e3ab42eb391d5115a",
+      "file_sha256": "c62081f8898d8444f575efe0a28a34f7a212bc0330ec47f55a33f0ce3989aeed",
+      "bytes": 40795,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

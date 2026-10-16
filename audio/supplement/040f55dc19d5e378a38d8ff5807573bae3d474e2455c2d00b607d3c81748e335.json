@@ -1,0 +1,30 @@
+{
+  "text": "Démission du ministre.",
+  "text_sha256": "040f55dc19d5e378a38d8ff5807573bae3d474e2455c2d00b607d3c81748e335",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.497687074829932,
+      "source_seconds": 1.497687074829932,
+      "source_file_sha256": "5c01238294d9d58b227f4db8332076717875864ad201552c120ff9e9a6436bee",
+      "file_sha256": "bcbb829ce64819525889db3949cb55db50e173b6ee38c58d4abb069780d8077c",
+      "bytes": 12791,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

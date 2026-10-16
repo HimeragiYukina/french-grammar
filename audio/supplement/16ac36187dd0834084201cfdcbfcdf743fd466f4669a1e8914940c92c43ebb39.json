@@ -1,0 +1,30 @@
+{
+  "text": "Je ne peux pas venir demain. Merci de ne pas fumer ici.",
+  "text_sha256": "16ac36187dd0834084201cfdcbfcdf743fd466f4669a1e8914940c92c43ebb39",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9605442176870747,
+      "source_seconds": 2.9605442176870747,
+      "source_file_sha256": "60542605bf3d0c493598cd80cf160968bf58d463da3d76a1ae70d39a56e442ff",
+      "file_sha256": "0d0ab6a1708ace56f35513ba21098c2917e6de5307eb5f5a84b88afeb47e4fed",
+      "bytes": 24494,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

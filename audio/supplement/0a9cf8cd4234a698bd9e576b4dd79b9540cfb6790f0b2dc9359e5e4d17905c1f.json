@@ -1,0 +1,30 @@
+{
+  "text": "quitte à perdre du temps",
+  "text_sha256": "0a9cf8cd4234a698bd9e576b4dd79b9540cfb6790f0b2dc9359e5e4d17905c1f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2887074829931973,
+      "source_seconds": 1.2887074829931973,
+      "source_file_sha256": "4adda853900b750fc849f42d744cc7adbd08fe21049d9435560c3db115b8af23",
+      "file_sha256": "3e0ca092bdc827865a7a491a0306d939439250a7ae01e7acdc1e72d277c2f165",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

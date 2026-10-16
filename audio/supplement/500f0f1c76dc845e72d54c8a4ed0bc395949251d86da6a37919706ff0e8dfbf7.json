@@ -1,0 +1,30 @@
+{
+  "text": "Je vais acheter trois enveloppes.",
+  "text_sha256": "500f0f1c76dc845e72d54c8a4ed0bc395949251d86da6a37919706ff0e8dfbf7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.10140589569161,
+      "source_seconds": 2.10140589569161,
+      "source_file_sha256": "6b2b8441c4cb9213064895bb80bd6cfa8cd101fcde4908f29df5ca809094a57d",
+      "file_sha256": "067a1bb8a778f5e9539737c246b0726044eef2b535806d327b0508340a00bc4e",
+      "bytes": 17598,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

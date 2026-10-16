@@ -1,0 +1,30 @@
+{
+  "text": "Puisque tu connais déjà la réponse, pourquoi me demandes-tu ?",
+  "text_sha256": "f6befe888a7472e90a8e21596e4f4c3eccd9d0cab10155d671eb7faae68dc30f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2043537414965986,
+      "source_seconds": 3.2043537414965986,
+      "source_file_sha256": "4a4e2918e5863ab5eadacd969310520e9b2fbac502ff612469d8dcb223cb8d8c",
+      "file_sha256": "d4aad885fd16aa5494a0af4dc0f05aa0ac7f8220768b19688446e005270dcba5",
+      "bytes": 26375,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

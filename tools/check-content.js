@@ -8,7 +8,22 @@ for(const g of page.GRAMMAR){
  for(const s of x.sections){sections++;assert(s.title&&s.explanation&&s.examples.length>=2,g.id);for(const e of s.examples){examples++;assert(e.fr&&e.zh&&e.use,g.id);assert(!/[\u4e00-\u9fff\ufffd]/u.test(e.fr),g.id);}}
  for(const p of x.practice||[]){addedPractice++;assert(p.q&&p.a&&p.note,g.id);}
  const card=page.cardHTML(g);assert(card.includes('详细讲解')&&card.includes('例外与适用边界'),g.id);
- assert.equal((card.match(/class="tts"/g)||[]).length,2+g.ex.length+x.sections.reduce((n,s)=>n+s.examples.length,0)+page.PRACTICE[g.id].length+(x.practice||[]).length,g.id);
+ const excludedRuleFields={
+  'a1-prep-lieu':['fr'],'a1-futur-proche':['fr'],'a1-vouloir-inf':['title'],
+  'a2-comparatif':['fr'],'a2-superlatif':['fr'],
+  'b1-double-pronoms':['fr'],'b1-demonstratifs-pron':['fr'],
+  'b2-se-faire':['title'],'b2-mise-relief':['fr'],
+  'c1-concession-indefinie':['fr'],'c1-apres-que':['title'],
+  'c2-concordance-litteraire':['fr'],'c2-subj-fin':['fr']
+ };
+ const plain=value=>String(value).replace(/<[^>]+>/g,'');
+ const frenchTarget=value=>plain(value)&&!/[\u4e00-\u9fff]/.test(plain(value));
+ const rules=['title','fr'].filter(field=>!(excludedRuleFields[g.id]||[]).includes(field)).map(field=>g[field]);
+ const targets=[...rules,...g.ex.map(e=>e.fr),...x.sections.flatMap(s=>s.examples.map(e=>e.fr)),...(x.practice||[]).map(p=>p.a),...page.PRACTICE[g.id].map(p=>p.a)].filter(frenchTarget).map(plain);
+ const decode=value=>value.replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
+ const rendered=[...card.matchAll(/data-tts="([^"]*)"/g)].map(m=>decode(m[1]));
+ assert.deepEqual(rendered.sort(),targets.sort(),g.id+' exact eligible playback targets');
+ for(const field of excludedRuleFields[g.id]||[])assert(card.includes(g[field]),g.id+' formula text retained');
  page.setQuery(x.sections[0].examples[0].fr.toLowerCase());assert(page.matches(g));assert(page.cardHTML(g).includes('class="in-depth" open'));page.setQuery('');
  for(const id of x.related||[])assert(ids.includes(id),'Missing related grammar '+id);
 }

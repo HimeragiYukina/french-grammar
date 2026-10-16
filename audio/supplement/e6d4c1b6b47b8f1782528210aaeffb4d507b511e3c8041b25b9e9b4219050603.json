@@ -1,0 +1,30 @@
+{
+  "text": "Accord du participe passé",
+  "text_sha256": "e6d4c1b6b47b8f1782528210aaeffb4d507b511e3c8041b25b9e9b4219050603",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7414965986394557,
+      "source_seconds": 1.7414965986394557,
+      "source_file_sha256": "4ad34c50ce05704d333c0039e0020ceb8ae03e43664dc522e087c1e460353f40",
+      "file_sha256": "2a2fd829d8ac3f1fd7926d220c41219286d89f100c13d428977d49d38d11bde0",
+      "bytes": 14672,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

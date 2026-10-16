@@ -1,0 +1,30 @@
+{
+  "text": "Les demandes seront examinées par les bénévoles dans l’ordre d’arrivée.",
+  "text_sha256": "3cdd0ca0693b9b06a4bd8eaf017491bd3749295e7c399bc98fdbab67fc64b01d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.250793650793651,
+      "source_seconds": 3.250793650793651,
+      "source_file_sha256": "bf5c58ca6c05625831b6b26c3a04f31c71be12cbf2a7c415c364a9bbb80e6bf8",
+      "file_sha256": "f3ba018b99d13ecd2160dffc84de32f1a11756be4225f2323f7eb4533bff7fb8",
+      "bytes": 26793,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

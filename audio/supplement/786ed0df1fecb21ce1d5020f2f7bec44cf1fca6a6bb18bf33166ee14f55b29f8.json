@@ -1,0 +1,30 @@
+{
+  "text": "C'est une chère amie que je connais depuis l'enfance.",
+  "text_sha256": "786ed0df1fecb21ce1d5020f2f7bec44cf1fca6a6bb18bf33166ee14f55b29f8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6586848072562357,
+      "source_seconds": 2.6586848072562357,
+      "source_file_sha256": "1ed5203fc12c758406820156e7ab72e4c14830cc3acb86913b3983bbfced169d",
+      "file_sha256": "3620de749e05fcbfb7b6a0c09469dc41ef714234bd3a3da2ee994b4ff6cf9af9",
+      "bytes": 21986,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

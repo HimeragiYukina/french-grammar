@@ -1,0 +1,30 @@
+{
+  "text": "Tu as du lait ? Oui, j’en ai encore un peu.",
+  "text_sha256": "6369c05492ea88ab7b23ea9234dc8bca9f086d0ee38b7d58f421bebbfd00d460",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9257142857142857,
+      "source_seconds": 2.9257142857142857,
+      "source_file_sha256": "e4da851dcf63bf61e8cb95e708c7d09672e844b90d650d8dc63591db6ea9a5c2",
+      "file_sha256": "95732ac2690cd078ef4a6b4261b2ff57b53b1d6a76eb4bd9e1909578d6919d30",
+      "bytes": 24076,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

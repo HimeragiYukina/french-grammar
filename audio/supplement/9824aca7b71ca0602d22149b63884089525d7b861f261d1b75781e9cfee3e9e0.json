@@ -1,0 +1,30 @@
+{
+  "text": "L'entreprise recrute",
+  "text_sha256": "9824aca7b71ca0602d22149b63884089525d7b861f261d1b75781e9cfee3e9e0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4628571428571429,
+      "source_seconds": 1.4628571428571429,
+      "source_file_sha256": "f9d40e7a3a3f9a68b6d8f9eceac2fb1e51bb09a4ca2024254e24fd467c27adbe",
+      "file_sha256": "75b5ff3b30d8d685aeec4163d9887e12154ba5c540616ce070e0660bd282a917",
+      "bytes": 12373,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

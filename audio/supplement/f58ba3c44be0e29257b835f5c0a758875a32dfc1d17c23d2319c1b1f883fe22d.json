@@ -1,0 +1,30 @@
+{
+  "text": "Je suis arrivé et le train est parti",
+  "text_sha256": "f58ba3c44be0e29257b835f5c0a758875a32dfc1d17c23d2319c1b1f883fe22d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0317460317460316,
+      "source_seconds": 2.0317460317460316,
+      "source_file_sha256": "2d6c870dee136195444ba98666e2980d3439153ea9cda84a35dc762e92c61fed",
+      "file_sha256": "693461a8ab518bc8bcf2f52d2f3781011d46886c9a3c7ab67e228d54e5603f31",
+      "bytes": 16971,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

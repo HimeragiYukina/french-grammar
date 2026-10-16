@@ -1,0 +1,30 @@
+{
+  "text": "Si on chauffe l’eau, elle s’évapore.",
+  "text_sha256": "bb33914136fff5130a92a5b5d5b2121d4cbf5936b49f5a2662308ab52d2618ce",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2291156462585033,
+      "source_seconds": 2.2291156462585033,
+      "source_file_sha256": "55ac837bb48fdad729d82fa44753e6b29993e2a5cb1cf5469abb7d8cae10cee3",
+      "file_sha256": "2f9df1aa0d1838b9dc18f5ef00a08ce2a00d370e4ba1c1e9af43d4c3d8cc42a0",
+      "bytes": 18643,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

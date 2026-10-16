@@ -1,0 +1,30 @@
+{
+  "text": "Les deux candidates se sont succédé à la présidence.",
+  "text_sha256": "c732c9e72c6941463f9774ff07efeb983e7656b7d9b69023ec55c70bcb5edba5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.274013605442177,
+      "source_seconds": 3.274013605442177,
+      "source_file_sha256": "b9764b1faecb2e982f3ace32468329671e9ea86feea4f4f06f7fd1c7c8442ebf",
+      "file_sha256": "d7e79b081bb38842b7bbe626a678eac0c92b356278b8d624ac474888e94b799f",
+      "bytes": 27002,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

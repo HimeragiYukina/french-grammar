@@ -1,0 +1,30 @@
+{
+  "text": "À huit heures, il n'aura pas encore fini son travail.",
+  "text_sha256": "84553734cf4c81a51a2338fa1803b2a829b3515527b846b090bb95af207d0d50",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.053424036281179,
+      "source_seconds": 3.053424036281179,
+      "source_file_sha256": "29e829f7ada3617b503b2423916921506906516f46f4584f51a42b85deea7e9e",
+      "file_sha256": "ba6c2bbb1acfa50e927f3e56c40cba47c34a4ccdf9a40c04b0b964ed205caace",
+      "bytes": 25121,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

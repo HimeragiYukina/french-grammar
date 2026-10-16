@@ -1,0 +1,30 @@
+{
+  "text": "Je vais chez le médecin",
+  "text_sha256": "8a783b3f3f189cd86ae013118b47378c8226436b07163ddcfa7edb90c47e5f50",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3467573696145125,
+      "source_seconds": 1.3467573696145125,
+      "source_file_sha256": "945dfe5d925015baa9f4a3f481587a24e7d49496b6114f41381e6db80af3f3d1",
+      "file_sha256": "5112faf29de2dab35faee6e646ddc466e1e3975c79b6e66a4edea95c9a889bcc",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

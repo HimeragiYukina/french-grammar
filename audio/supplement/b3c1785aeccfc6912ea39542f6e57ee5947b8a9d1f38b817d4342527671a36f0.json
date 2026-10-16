@@ -1,0 +1,30 @@
+{
+  "text": "s’occuper de",
+  "text_sha256": "b3c1785aeccfc6912ea39542f6e57ee5947b8a9d1f38b817d4342527671a36f0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0797278911564625,
+      "source_seconds": 1.0797278911564625,
+      "source_file_sha256": "ef5144e9b6732c5fdd04eb80f9af1ce05c87e327d33c77ca5e0c722146f17d50",
+      "file_sha256": "c967afbd7c04ca83537be3db0003a166749ef4e1020f163ff88208c222dbcef7",
+      "bytes": 9448,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

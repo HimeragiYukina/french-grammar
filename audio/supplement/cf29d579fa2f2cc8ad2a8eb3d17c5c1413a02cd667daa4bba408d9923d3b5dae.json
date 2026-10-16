@@ -1,0 +1,30 @@
+{
+  "text": "Elle préfère voyager seule.",
+  "text_sha256": "cf29d579fa2f2cc8ad2a8eb3d17c5c1413a02cd667daa4bba408d9923d3b5dae",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8924263038548752,
+      "source_seconds": 1.8924263038548752,
+      "source_file_sha256": "a1e764dbff616955be080c3485bf511caa9549e9ddd7684f204ac0124f237cfd",
+      "file_sha256": "7ee621dfe2d54f064b92c0d77abb677ece419e73e928708d37198dd298e8664b",
+      "bytes": 15926,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

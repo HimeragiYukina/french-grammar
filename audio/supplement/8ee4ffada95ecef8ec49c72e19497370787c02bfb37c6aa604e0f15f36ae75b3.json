@@ -1,0 +1,30 @@
+{
+  "text": "La première proposition comporte une inversion soutenue après peut-être. Dans la seconde, aussi signifie également : aucune inversion n’est nécessaire.",
+  "text_sha256": "8ee4ffada95ecef8ec49c72e19497370787c02bfb37c6aa604e0f15f36ae75b3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.825124716553288,
+      "source_seconds": 7.825124716553288,
+      "source_file_sha256": "30a018afc34550e565cfe5c61f0378354e8ebfc382b4624ad0bbef57c7417003",
+      "file_sha256": "2350d5f8bc4b892a6a803197477f5e4eac349ffadef6f289ca94a47e441f5503",
+      "bytes": 63364,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

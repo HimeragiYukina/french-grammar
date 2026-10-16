@@ -1,0 +1,30 @@
+{
+  "text": "Elle refuse, non que le prix soit trop élevé — il l'est effectivement —, mais parce qu'elle manque de temps.",
+  "text_sha256": "a09fe5ac01ae2372548f2d6d02ddf339429a37080dad5ebc7428e6a7681789ff",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.596009070294785,
+      "source_seconds": 5.596009070294785,
+      "source_file_sha256": "4ce1793ea5f2bf8e0eb0eb2188d611499ddcd34b1e967578cddf23249fd7dba4",
+      "file_sha256": "9650be80c8a729ebfacb32dd4c65c9412b5828d972e168871f59d5b176d97532",
+      "bytes": 45601,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

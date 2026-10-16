@@ -1,0 +1,30 @@
+{
+  "text": "Il aura oublié",
+  "text_sha256": "3d2beffcebb5f9d8e7bd80ca687c7f3ed2b76219f12e9146fdf427f24a3b1912",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1145578231292517,
+      "source_seconds": 1.1145578231292517,
+      "source_file_sha256": "6e3ddc33327b707ff1b35fa9fd26f7f9b21dcaf970d93f466fd1d9f1ee1a9015",
+      "file_sha256": "0aff1234645574edb2ab85ee6c22e56d4d17cc3a364f164f269289d698e6e2da",
+      "bytes": 9657,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

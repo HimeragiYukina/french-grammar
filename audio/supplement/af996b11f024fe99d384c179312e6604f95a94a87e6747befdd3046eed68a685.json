@@ -1,0 +1,30 @@
+{
+  "text": "Ajoutez un peu d’huile, pas trop de sel.",
+  "text_sha256": "af996b11f024fe99d384c179312e6604f95a94a87e6747befdd3046eed68a685",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.3219954648526078,
+      "source_seconds": 2.3219954648526078,
+      "source_file_sha256": "fc67fad23b4e9d077b42eea741e11fca1bee033ec4e2b0aab46a9bd2f81abb1b",
+      "file_sha256": "332e7d87a5891919b4e0143e54d23a5174c0f184fa7d5b1cbaa907affb0eca3e",
+      "bytes": 19270,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

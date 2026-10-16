@@ -1,0 +1,30 @@
+{
+  "text": "Je choisis enfin un classeur bleu et je le pose sur le comptoir : « Pourriez-vous me donner un sac, s’il vous plaît ? »",
+  "text_sha256": "c8cce5a2e862de5aec6cb64ef985b12854556f00a112615cbdae92cc385f74c5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.874648526077097,
+      "source_seconds": 5.874648526077097,
+      "source_file_sha256": "3793d0a3d4a0b296b00fae21d6c6e328c2f73bcff36897feac49674cd4bfa476",
+      "file_sha256": "4e1813f146ff0bc278da9e01c6d78cf21b2f6c0eabb94f83857bac35797a5b07",
+      "bytes": 47691,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

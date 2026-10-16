@@ -1,0 +1,30 @@
+{
+  "text": "une histoire intéressante",
+  "text_sha256": "4fee23032900db033593e040452ea0f6de4cfd1fc6fd380ee7cbe53c967cc544",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6137868480725623,
+      "source_seconds": 1.6137868480725623,
+      "source_file_sha256": "3be5a89639d0a77de9b1bbff46b598eabf6b6fe6a2907f8fcea99b87910fc051",
+      "file_sha256": "48b7f75a9255ead87d85c6545ab3407c6d878a135674b16c3f39b3d2cacdb23a",
+      "bytes": 13627,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

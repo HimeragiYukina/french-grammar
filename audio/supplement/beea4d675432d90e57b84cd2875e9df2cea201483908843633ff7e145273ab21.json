@@ -1,0 +1,30 @@
+{
+  "text": "Samedi dernier, il pleuvait et la gare était pleine de voyageurs ; j’attendais mon amie Léa près de l’entrée principale. D’habitude, elle arrivait à l’heure, mais ce jour-là son train a eu trente minutes de retard. Pendant que je regardais le panneau des arrivées, mon téléphone a sonné : Léa cherchait la sortie de l’autre côté du bâtiment. Je lui ai expliqué le chemin, puis nous nous sommes retrouvés devant la boulangerie et nous avons acheté deux cafés. Nous avons parlé pendant une heure ; quand nous sommes sortis, la pluie était moins forte et les rues étaient presque vides.",
+  "text_sha256": "beea4d675432d90e57b84cd2875e9df2cea201483908843633ff7e145273ab21",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 29.814421768707483,
+      "source_seconds": 29.814421768707483,
+      "source_file_sha256": "4eab0c3eef88597a555e291eed2c3b01cabc1a9ca0eb0c01df264d5b4274761e",
+      "file_sha256": "5c9c40183214721739c41595dfb8b5b5097bbf10abf6df5991ddec975fa324e6",
+      "bytes": 239325,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

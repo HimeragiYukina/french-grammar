@@ -1,0 +1,30 @@
+{
+  "text": "Je vais à la papeterie",
+  "text_sha256": "2ef6a4092acdf1ea5ec286420aeb4ed10bafe3030535036378e7b11c815f274f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.230657596371882,
+      "source_seconds": 1.230657596371882,
+      "source_file_sha256": "beefb5fff2d17d2c6f7032bf78b70e437fc8d849a8208cf266e3d8c4df038f3f",
+      "file_sha256": "202f7986012c33f3a2c87998691737b1ce737061fb0b3560b535f64b2f11d1b5",
+      "bytes": 10701,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

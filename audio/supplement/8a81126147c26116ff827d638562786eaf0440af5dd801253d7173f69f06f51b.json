@@ -1,0 +1,30 @@
+{
+  "text": "Ces maisons sont construites en bois.",
+  "text_sha256": "8a81126147c26116ff827d638562786eaf0440af5dd801253d7173f69f06f51b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6370068027210884,
+      "source_seconds": 1.6370068027210884,
+      "source_file_sha256": "7585bc8f2ece1f20bc50f5282e033040f9754a5528c946327cc85120c7fb6f5c",
+      "file_sha256": "4a7889ce2a435abf098279ea02d7301c9c86cd657f73681d5d9288682ec1484a",
+      "bytes": 13836,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

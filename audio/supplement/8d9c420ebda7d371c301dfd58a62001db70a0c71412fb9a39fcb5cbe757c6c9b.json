@@ -1,0 +1,30 @@
+{
+  "text": "Bien qu'il soit fatigué, il travaille",
+  "text_sha256": "8d9c420ebda7d371c301dfd58a62001db70a0c71412fb9a39fcb5cbe757c6c9b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.36843537414966,
+      "source_seconds": 2.36843537414966,
+      "source_file_sha256": "55c2869fe4af0ef64e0bc94dec62358474d37e085cdf37505c7142e1e2a16ae9",
+      "file_sha256": "0e60961d05ea5e9426fe9279b1d194ddeacbc67dba37426aada47164b1fe91a9",
+      "bytes": 19688,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

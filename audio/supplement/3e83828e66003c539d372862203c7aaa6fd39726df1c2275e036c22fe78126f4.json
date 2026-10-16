@@ -1,0 +1,30 @@
+{
+  "text": "Si j’étais à ta place, je demanderais un délai.",
+  "text_sha256": "3e83828e66003c539d372862203c7aaa6fd39726df1c2275e036c22fe78126f4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6586848072562357,
+      "source_seconds": 2.6586848072562357,
+      "source_file_sha256": "a35c3baf31886663c8f7c81447b499d8f2b06bafb15127c433294a80d7983019",
+      "file_sha256": "8c30a3e396c695deffba28ebeb19077a7db6d9ab26f57ec3ff7b17665c4cc42d",
+      "bytes": 21986,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Léa, elle a proposé ce plan. / C’est Léa qui a proposé ce plan.",
+  "text_sha256": "fc2743c63b60bd2bb60cdef019ab8ea33e39646f452cb0afa9dd1d37e7ea268e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.156371882086168,
+      "source_seconds": 4.156371882086168,
+      "source_file_sha256": "be570f89afee75bfdad6b27aeb6152c6c8f2e4ea2d5431bfe622022e2d6ca760",
+      "file_sha256": "ac6b7a860c16d4dcc2717a9f7afc4c7ed73d1d4fc2110998319bf1a0c802ba38",
+      "bytes": 34107,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

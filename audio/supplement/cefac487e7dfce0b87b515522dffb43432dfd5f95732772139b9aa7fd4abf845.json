@@ -1,0 +1,30 @@
+{
+  "text": "Nos voisins ont un jardin plus grand que le nôtre.",
+  "text_sha256": "cefac487e7dfce0b87b515522dffb43432dfd5f95732772139b9aa7fd4abf845",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4729251700680273,
+      "source_seconds": 2.4729251700680273,
+      "source_file_sha256": "4babf2aee1ed77c0d18f4f25336db6f3c79a3dbbd712345a8ad7e01dc1eac79e",
+      "file_sha256": "2341320fa0abfd84dea344203ec8d693d40312197a5b93a8f75307cca1b88154",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

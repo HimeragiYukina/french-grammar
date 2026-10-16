@@ -1,0 +1,30 @@
+{
+  "text": "Elles chantent bien.",
+  "text_sha256": "18bc52c714c270322a425deb478ee0e5766e6aa00044053e6c8705f52411b874",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8591383219954648,
+      "source_seconds": 0.8591383219954648,
+      "source_file_sha256": "22a38135fee26c3c9b971ec78f020e21b59e28164a6f90dc4d341ee84c8603b0",
+      "file_sha256": "cf5612db7398f4152f91ac9cd0afe7a62a4ff0e96256429686029548aa96808c",
+      "bytes": 7567,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

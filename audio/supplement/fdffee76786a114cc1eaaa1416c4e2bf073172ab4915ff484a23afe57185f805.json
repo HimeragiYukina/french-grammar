@@ -1,0 +1,30 @@
+{
+  "text": "Marie lui a téléphoné hier",
+  "text_sha256": "fdffee76786a114cc1eaaa1416c4e2bf073172ab4915ff484a23afe57185f805",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8343764172335602,
+      "source_seconds": 1.8343764172335602,
+      "source_file_sha256": "d3970b444f844ac9e67d3a90247b31ccc6a09f033bde10a2d7898dff6ee8e4b4",
+      "file_sha256": "0f4d33e9a08d39fc0a7ac058bb69b25105bf30234d0f4c99bf77669473394d7f",
+      "bytes": 15508,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

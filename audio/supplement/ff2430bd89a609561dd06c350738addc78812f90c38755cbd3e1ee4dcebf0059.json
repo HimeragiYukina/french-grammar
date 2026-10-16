@@ -1,0 +1,30 @@
+{
+  "text": "Le gardien ferme la porte",
+  "text_sha256": "ff2430bd89a609561dd06c350738addc78812f90c38755cbd3e1ee4dcebf0059",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6950566893424037,
+      "source_seconds": 1.6950566893424037,
+      "source_file_sha256": "cb90c0524cbf60c08245d7c3c4400bae2a224c5c666a48b7a1264fdf337a1609",
+      "file_sha256": "d6aff602534c8885fad1ea7903af64a662a29688aa2a2f98fd3ea4d8ce68b180",
+      "bytes": 14254,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

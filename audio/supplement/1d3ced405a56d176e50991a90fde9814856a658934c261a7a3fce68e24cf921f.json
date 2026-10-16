@@ -1,0 +1,30 @@
+{
+  "text": "Je suis dans l’école",
+  "text_sha256": "1d3ced405a56d176e50991a90fde9814856a658934c261a7a3fce68e24cf921f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1377777777777778,
+      "source_seconds": 1.1377777777777778,
+      "source_file_sha256": "979e6f43221fb40f17138b80591a9e153689c18a9824a20176d6729d088b1ee2",
+      "file_sha256": "e5eb5c1009b1165531cbb4bd1cf37d1eb4f56f37ded411859841dba20d0f4395",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

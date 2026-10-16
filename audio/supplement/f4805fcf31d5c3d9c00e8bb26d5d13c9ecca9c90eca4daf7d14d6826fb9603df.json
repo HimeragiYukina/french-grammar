@@ -1,0 +1,30 @@
+{
+  "text": "Elle est descendue au rez-de-chaussée.",
+  "text_sha256": "f4805fcf31d5c3d9c00e8bb26d5d13c9ecca9c90eca4daf7d14d6826fb9603df",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8924263038548752,
+      "source_seconds": 1.8924263038548752,
+      "source_file_sha256": "f85144875f7ef63da1d30eed41f16fcc1f1f911f3bbc9de9ac97f9b155a65b32",
+      "file_sha256": "96a2786e1cc56eaeea1b83150420a3dc6a9e5bd54abcb3defd448fad8d442eb8",
+      "bytes": 15926,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

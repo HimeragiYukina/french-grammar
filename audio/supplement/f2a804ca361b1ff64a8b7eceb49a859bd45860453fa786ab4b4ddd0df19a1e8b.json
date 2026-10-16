@@ -1,0 +1,30 @@
+{
+  "text": "Nous avons assez de chaises pour tout le monde.",
+  "text_sha256": "f2a804ca361b1ff64a8b7eceb49a859bd45860453fa786ab4b4ddd0df19a1e8b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2871655328798184,
+      "source_seconds": 2.2871655328798184,
+      "source_file_sha256": "b7779eae0b97e3d0e224ce37c32d0fdd60c40f976493b4945ae8d9e36a721dcf",
+      "file_sha256": "2967c3dd8b4441fda2131807b69537fe887516442829960d46a89a585814e633",
+      "bytes": 19061,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

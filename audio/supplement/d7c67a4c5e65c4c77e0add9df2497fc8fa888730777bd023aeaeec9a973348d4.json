@@ -1,0 +1,30 @@
+{
+  "text": "Je ne peux pas venir, car j’ai déjà un rendez-vous.",
+  "text_sha256": "d7c67a4c5e65c4c77e0add9df2497fc8fa888730777bd023aeaeec9a973348d4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5658049886621317,
+      "source_seconds": 2.5658049886621317,
+      "source_file_sha256": "9357363ecf2dcf496f96a58bb6bce385234acd40a733b5e490ce27e7ecc38c09",
+      "file_sha256": "a3a7cce13323db3350c92e6894fb351eae4176d7ab4af968d458b1d6eacc5919",
+      "bytes": 21359,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

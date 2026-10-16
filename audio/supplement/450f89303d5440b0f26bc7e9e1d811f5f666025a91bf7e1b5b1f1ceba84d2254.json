@@ -1,0 +1,30 @@
+{
+  "text": "Avant, il fumait, mais maintenant il ne fume plus.",
+  "text_sha256": "450f89303d5440b0f26bc7e9e1d811f5f666025a91bf7e1b5b1f1ceba84d2254",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.111473922902494,
+      "source_seconds": 3.111473922902494,
+      "source_file_sha256": "ae0515b79a3a9c025d77ec8a01c8342d2e8a307086163bee8480eb319936bd42",
+      "file_sha256": "81dcc0fafa7ab676d4c49eeb13721f60277095b9bc206eeab6a891f16e46991f",
+      "bytes": 25748,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

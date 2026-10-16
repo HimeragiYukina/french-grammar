@@ -1,0 +1,30 @@
+{
+  "text": "Je ne travaille plus le dimanche.",
+  "text_sha256": "ee616bb8dd43c54525988398190509628ece6673ade80a780828596f46367958",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.822766439909297,
+      "source_seconds": 1.822766439909297,
+      "source_file_sha256": "25e4397978168df6e6cff291746af4edc1b1bd0cfc699969ee7d038e52b68841",
+      "file_sha256": "d69602d7851d3ddbef8fccfe5861ad6ae29bf33bf642e0e5388f1c715f883c73",
+      "bytes": 15299,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

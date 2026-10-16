@@ -1,0 +1,30 @@
+{
+  "text": "Temps composés",
+  "text_sha256": "31692d9de032b6f062277fe035e6fb10d19973766e715ae4c601897e9e77aa38",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1029478458049886,
+      "source_seconds": 1.1029478458049886,
+      "source_file_sha256": "ed15283b0a3e2006e56d1ac53331d20e06e5d6a5d3603e0c5bac62a17d6c59c4",
+      "file_sha256": "8b50de95d7089f72d69a18ad8b9529059ce9eea8c4dce3abd89d1bf11b9189ba",
+      "bytes": 9657,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

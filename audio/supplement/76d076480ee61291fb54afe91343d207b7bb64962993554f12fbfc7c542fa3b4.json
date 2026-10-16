@@ -1,0 +1,30 @@
+{
+  "text": "Elle est intervenue lundi",
+  "text_sha256": "76d076480ee61291fb54afe91343d207b7bb64962993554f12fbfc7c542fa3b4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5673469387755101,
+      "source_seconds": 1.5673469387755101,
+      "source_file_sha256": "b7b833e0eb0c980bb4fff28dc14f3e60c23ae3bcd948d3adca7fd3b5e8bb38a2",
+      "file_sha256": "12338ef7fd6611643318b13cb258d0629828ef548c063e0b046d84459979d8fa",
+      "bytes": 13209,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

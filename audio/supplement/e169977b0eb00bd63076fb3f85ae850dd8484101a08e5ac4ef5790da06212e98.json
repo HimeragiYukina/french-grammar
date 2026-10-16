@@ -1,0 +1,30 @@
+{
+  "text": "Les dix kilomètres qu'elle a couru l'ont fatiguée. Les distances qu'elle a mesurées étaient exactes. Dix kilomètres exprime ici la quantité parcourue ; distances est le complément direct de mesurer.",
+  "text_sha256": "e169977b0eb00bd63076fb3f85ae850dd8484101a08e5ac4ef5790da06212e98",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.763990929705216,
+      "source_seconds": 9.763990929705216,
+      "source_file_sha256": "b24a385629fb4e35346d247ce4d5442574ff46d87551891b9370518183c88e26",
+      "file_sha256": "a82c8368fa62bcc7c2a2ef269830e32ac8761d90aea15b5a5b94ba41f3595902",
+      "bytes": 78829,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

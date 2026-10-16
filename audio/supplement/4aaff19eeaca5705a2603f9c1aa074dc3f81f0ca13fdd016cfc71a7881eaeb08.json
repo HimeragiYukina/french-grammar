@@ -1,0 +1,30 @@
+{
+  "text": "J’ai appelé parce que je n’avais pas reçu la confirmation ; on m’a donc envoyé un nouveau message.",
+  "text_sha256": "4aaff19eeaca5705a2603f9c1aa074dc3f81f0ca13fdd016cfc71a7881eaeb08",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.713650793650793,
+      "source_seconds": 4.713650793650793,
+      "source_file_sha256": "bedd727f8f68f77743ceaf7ff59ea4e9a93060bda4e4cf587ed1ed40d50fd735",
+      "file_sha256": "713fc07a9bf568778d7aa8320f19053260d3309ad806a87442327f09cb91e939",
+      "bytes": 38496,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

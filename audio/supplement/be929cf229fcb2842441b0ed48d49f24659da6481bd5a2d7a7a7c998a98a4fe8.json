@@ -1,0 +1,30 @@
+{
+  "text": "Le discours indirect",
+  "text_sha256": "be929cf229fcb2842441b0ed48d49f24659da6481bd5a2d7a7a7c998a98a4fe8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.474467120181406,
+      "source_seconds": 1.474467120181406,
+      "source_file_sha256": "c19993a90b9234feeaa48c1c29656162f56c0b0568b9914973452b4e3bf4ab57",
+      "file_sha256": "1702c8ae37799f36b2b0c8bff92e9bf5eeaf5f5d8467cf0e478f86bed0806419",
+      "bytes": 12582,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

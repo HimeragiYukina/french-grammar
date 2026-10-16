@@ -1,0 +1,30 @@
+{
+  "text": "À cette heure demain, il sera à Lyon",
+  "text_sha256": "9676c45ec6e5b6ee8803b746e3aad35a42d392759c9b14a7303acb328cd40eb5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.124625850340136,
+      "source_seconds": 2.124625850340136,
+      "source_file_sha256": "f4a205d14bac4be512bdafa8f639da286376266899b3f091d3676a95a24e7cd8",
+      "file_sha256": "244c9be6c8a37a5e21ff8d3af6f46b76f0517b6854abb0d58e980730b252d7d9",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

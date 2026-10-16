@@ -1,0 +1,30 @@
+{
+  "text": "Fais-m’y penser",
+  "text_sha256": "aaaf46aa9743e8ef01547ec4438548d16b71ede32cc034e89bfebf305dbc9475",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.893968253968254,
+      "source_seconds": 0.893968253968254,
+      "source_file_sha256": "6302c92cd422576f983ae7d1ef85beeec0ab675ee219e9d614173f7b888a1046",
+      "file_sha256": "4be60169a41afc7f5d5464f86940259bcf804d9ddc07e27563935e9071d0da26",
+      "bytes": 7985,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

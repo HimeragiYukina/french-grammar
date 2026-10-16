@@ -1,0 +1,30 @@
+{
+  "text": "Quelle que soit votre expérience, une formation est prévue.",
+  "text_sha256": "52121b95ad8aeceed2bf7fb0fc1a8a5f4312828ee5c23ccd78597b56e02bd2da",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4946031746031747,
+      "source_seconds": 3.4946031746031747,
+      "source_file_sha256": "48373e0b4dbfb82e42850bf74a62006c518f72271d531250ac4e8fdc1c1f607f",
+      "file_sha256": "d8d94652801bc12ac99d0fc29431c14c800cc92d5d4a9bba5104b75a569ce266",
+      "bytes": 28674,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

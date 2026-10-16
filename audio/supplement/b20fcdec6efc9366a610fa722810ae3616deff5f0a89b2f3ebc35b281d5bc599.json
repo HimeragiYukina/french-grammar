@@ -1,0 +1,30 @@
+{
+  "text": "ma voiture et le tien",
+  "text_sha256": "b20fcdec6efc9366a610fa722810ae3616deff5f0a89b2f3ebc35b281d5bc599",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2770975056689342,
+      "source_seconds": 1.2770975056689342,
+      "source_file_sha256": "a0f91f4bf0cc5379853664a820dd1aac405b1e35992d01b91fdeb1194a18aa74",
+      "file_sha256": "9333d72823da074e97bc96f246f7955e22fb7828a9a505be068eab97e42b4eef",
+      "bytes": 10910,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

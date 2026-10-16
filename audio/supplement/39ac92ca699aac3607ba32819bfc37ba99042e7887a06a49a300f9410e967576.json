@@ -1,0 +1,30 @@
+{
+  "text": "Nous partons en vacances demain.",
+  "text_sha256": "39ac92ca699aac3607ba32819bfc37ba99042e7887a06a49a300f9410e967576",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8692063492063493,
+      "source_seconds": 1.8692063492063493,
+      "source_file_sha256": "4dc0c8ccd69f98a177bf8e89ef2a8f50ac185bc49f8d92ddd188e829dfc60c1a",
+      "file_sha256": "0c298d07000a040379a270d7b8bef6bdc8705e4530bc41370db4820d6568c7fb",
+      "bytes": 15717,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

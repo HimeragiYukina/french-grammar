@@ -1,0 +1,30 @@
+{
+  "text": "Pour peu qu’il y ait du vent, cette porte claque.",
+  "text_sha256": "8a97ac4b445b9c3a84b7cb6f7ba96ceaf6466ac56befc0186f60796bf39cf129",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5774149659863945,
+      "source_seconds": 2.5774149659863945,
+      "source_file_sha256": "b9c0d5dbeb5c02925f7c814999d451629e2d5d427172ae5003ee7bae242baab0",
+      "file_sha256": "e4e33eb9671d05c1973cc7dfd998f86102eec3462d142e96d399299e12f3b743",
+      "bytes": 21359,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

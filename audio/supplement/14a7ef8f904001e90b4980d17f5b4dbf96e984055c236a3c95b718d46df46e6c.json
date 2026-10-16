@@ -1,0 +1,30 @@
+{
+  "text": "Le conditionnel",
+  "text_sha256": "14a7ef8f904001e90b4980d17f5b4dbf96e984055c236a3c95b718d46df46e6c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.18421768707483,
+      "source_seconds": 1.18421768707483,
+      "source_file_sha256": "69bf42980d3bafed5a5d859488a76792880e2bc1d1dba57e30552464b0fee88f",
+      "file_sha256": "6f8593e2e7e8b3984bd826b06911289a5a701e2a7645d4bce74d2e1758ce5c83",
+      "bytes": 10284,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

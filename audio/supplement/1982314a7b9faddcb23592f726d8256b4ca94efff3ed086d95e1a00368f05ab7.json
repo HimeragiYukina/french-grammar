@@ -1,0 +1,30 @@
+{
+  "text": "Je n’aime pas le café. Il n’y a pas de café.",
+  "text_sha256": "1982314a7b9faddcb23592f726d8256b4ca94efff3ed086d95e1a00368f05ab7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.48453514739229,
+      "source_seconds": 2.48453514739229,
+      "source_file_sha256": "dbd18eb9fd140b3ab1169991a592235b2e07207cef9d17e9f422b22bbd9f05b0",
+      "file_sha256": "9435f85b1bcb16505b91f619a13e326427de2e79e62e2dbd783444993da0947a",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

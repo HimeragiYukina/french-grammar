@@ -1,0 +1,30 @@
+{
+  "text": "beaucoup des élèves de ma classe",
+  "text_sha256": "7a00d71a388509656523b688adbd5b45abe9ae3cffa22109103aa393e946fbf2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8692063492063493,
+      "source_seconds": 1.8692063492063493,
+      "source_file_sha256": "2476376ff0cbb1ab1596dfc05b99777f27106007c0a240b24777781c56aa1c87",
+      "file_sha256": "3040f09d74e1aaf825b312fa89326a73ecb5d72dc07ccd13073b1b63d1f3412a",
+      "bytes": 15717,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

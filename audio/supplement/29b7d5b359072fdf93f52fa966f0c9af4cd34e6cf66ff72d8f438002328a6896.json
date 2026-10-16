@@ -1,0 +1,30 @@
+{
+  "text": "chez moi",
+  "text_sha256": "29b7d5b359072fdf93f52fa966f0c9af4cd34e6cf66ff72d8f438002328a6896",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.7662585034013606,
+      "source_seconds": 0.7662585034013606,
+      "source_file_sha256": "2eabafad64db5d0fa9fa15630e21b4f9232bfedf2c09ee9a0ca90a8b820b9c84",
+      "file_sha256": "64807647cf3d4908417a792205a0a49b8b9d432d06b7bd037b893f93d9a48f07",
+      "bytes": 6940,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

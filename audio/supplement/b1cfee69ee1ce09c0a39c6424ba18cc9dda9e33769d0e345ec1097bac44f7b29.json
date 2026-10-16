@@ -1,0 +1,30 @@
+{
+  "text": "Je dîne chez des amis avec ma sœur. Je vais à l’hôpital.",
+  "text_sha256": "b1cfee69ee1ce09c0a39c6424ba18cc9dda9e33769d0e345ec1097bac44f7b29",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.332063492063492,
+      "source_seconds": 3.332063492063492,
+      "source_file_sha256": "35744dadfb7f630e64a1aac4be5a829b178a4404e940b9e6196e1f27046801b5",
+      "file_sha256": "4acc6f9f1ec06771fa598c7c0a9f4cc1bfe401df1a86c031ff4ce52e217267b1",
+      "bytes": 27420,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

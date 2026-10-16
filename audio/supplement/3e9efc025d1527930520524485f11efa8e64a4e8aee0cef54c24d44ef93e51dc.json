@@ -1,0 +1,30 @@
+{
+  "text": "Du pain, il m’en apportera assez pour tous, donc je n’ai plus besoin de faire les courses.",
+  "text_sha256": "3e9efc025d1527930520524485f11efa8e64a4e8aee0cef54c24d44ef93e51dc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.35374149659864,
+      "source_seconds": 4.35374149659864,
+      "source_file_sha256": "73723f8568bcaa72d313d5b4782c24d97ce44baab1325304fd741f3988ac2128",
+      "file_sha256": "eb6ee69d70519b9333cbd7c9ea139f13daf8f334d5d5a0088dc5bbdfa2fa11d1",
+      "bytes": 35570,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

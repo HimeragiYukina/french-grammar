@@ -1,0 +1,30 @@
+{
+  "text": "Faute de temps, nous avons renoncé à visiter le musée.",
+  "text_sha256": "ee55461f645c54bdf5d7316df230091d33a142617866ea08c1c820e5beb887b4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9257142857142857,
+      "source_seconds": 2.9257142857142857,
+      "source_file_sha256": "d6069534c829c064c11f2cd64c92e45fc5b5e0dbc90bcc7de43cfee711d88e94",
+      "file_sha256": "8f84b721175afbdf5e9e3c0eb03f77bbb232f9f07abe6d218c89fdda79f23920",
+      "bytes": 24076,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

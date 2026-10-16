@@ -1,0 +1,30 @@
+{
+  "text": "___ (aimer, je) réserver une table pour deux, s'il vous plaît.",
+  "text_sha256": "06c3a30e75fd853e4b484c381a0d1a2944a2630c88e9ac2e1d02103d1e05b731",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7747845804988662,
+      "source_seconds": 2.7747845804988662,
+      "source_file_sha256": "b20b09c49fb8c13f509b293d55d39c1d19303f3305986ef60f39db7ab253c33d",
+      "file_sha256": "d965b4f8fd73ec8d673ed5b53eb57d45fbd85dc259e419594acda3e37fd90782",
+      "bytes": 23031,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Nous n’avons que vingt places.",
+  "text_sha256": "d69376fea77fab16f4262b86b3a6ea6ec0de9c89b06c32c71adbe294753a81bc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.497687074829932,
+      "source_seconds": 1.497687074829932,
+      "source_file_sha256": "c4ed9f5a9c057ad364354758c8ba8ad68ff903310c431c6dd17e49125c39956b",
+      "file_sha256": "ba918ad3ce1d9e876f2f108a1dbe7f74f2267a4d22472a302209c8b19dd5b727",
+      "bytes": 12791,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "l'année où j'ai eu mon bac",
+  "text_sha256": "e744edf68f7c3af030e0ff0aecff16032676cf915e065d6bbc37329c3050250f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4048072562358276,
+      "source_seconds": 1.4048072562358276,
+      "source_file_sha256": "494d122dbd3a65d345b6b9ace3031da37a5319bfcaf35ebfa40168106eaf657a",
+      "file_sha256": "f9ee33f3ed551fea2aa0890102a229e4a31d8eadbbbe3f91b922bb0cdbaba5e3",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

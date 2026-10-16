@@ -1,0 +1,30 @@
+{
+  "text": "Il faut que tu ___ (rendre) ton dossier vendredi ; je suis surpris que tu l'___ déjà ___ (rendre). (",
+  "text_sha256": "51bb4096096137c366578e209444167ffcc64bce319e6e44f7157bdcd0a3591b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.516281179138322,
+      "source_seconds": 4.516281179138322,
+      "source_file_sha256": "1c648488d1d9bbd5987f0a3f96e1718a8da78644b8abf151815713f22a8650d7",
+      "file_sha256": "dfc88b35800e9a6b18e1772bcddcf9729f1fd31770648eacddc986d9316d0363",
+      "bytes": 36824,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

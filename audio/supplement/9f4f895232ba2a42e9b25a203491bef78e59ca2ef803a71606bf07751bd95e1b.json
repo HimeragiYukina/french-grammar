@@ -1,0 +1,30 @@
+{
+  "text": "Prends une veste au cas où il ferait froid.",
+  "text_sha256": "9f4f895232ba2a42e9b25a203491bef78e59ca2ef803a71606bf07751bd95e1b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.078185941043084,
+      "source_seconds": 2.078185941043084,
+      "source_file_sha256": "4dc56fcb0ad9a8f1c4aed47ac0b30d7887aef51820545cbab13644442cc1e066",
+      "file_sha256": "663bcf77aca8d43fb2a4b46e81f978997db5d779f182a6b6e6ee76e70bdea9cc",
+      "bytes": 17389,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

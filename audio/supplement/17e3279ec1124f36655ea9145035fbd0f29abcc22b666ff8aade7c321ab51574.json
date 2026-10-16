@@ -1,0 +1,30 @@
+{
+  "text": "J’aimerais que vous restiez encore un peu.",
+  "text_sha256": "17e3279ec1124f36655ea9145035fbd0f29abcc22b666ff8aade7c321ab51574",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.066575963718821,
+      "source_seconds": 2.066575963718821,
+      "source_file_sha256": "c76dbf367676272e83bba50c1d874bb5b041af5c0e3fee20c9a5dae9cc7bbb89",
+      "file_sha256": "f06a154c54e87aafe2ba3e41d717c3dc4a095e01c34a13a3eb4a29742d73127f",
+      "bytes": 17389,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

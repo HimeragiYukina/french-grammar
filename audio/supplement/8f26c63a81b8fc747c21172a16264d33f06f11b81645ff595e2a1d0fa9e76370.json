@@ -1,0 +1,30 @@
+{
+  "text": "Avec être, hors verbes pronominaux, accord généralement avec le sujet ; avec avoir, accord avec le COD antéposé selon la construction ; pour les verbes pronominaux, analyser la fonction de se et les autres compléments.",
+  "text_sha256": "8f26c63a81b8fc747c21172a16264d33f06f11b81645ff595e2a1d0fa9e76370",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 12.202086167800454,
+      "source_seconds": 12.202086167800454,
+      "source_file_sha256": "a9828f96fa53684d42f143d171ce34f7fcda63d8f4692b0945d7bfdd0868680b",
+      "file_sha256": "0da5eba3d052a2a12a2af5870b37ff954e9a88fa1ba62a7a7412687f82115440",
+      "bytes": 98473,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

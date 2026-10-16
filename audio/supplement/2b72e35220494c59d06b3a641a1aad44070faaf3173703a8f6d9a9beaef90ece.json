@@ -1,0 +1,30 @@
+{
+  "text": "Bien qu'il fût tard, il fut décidé de continuer.",
+  "text_sha256": "2b72e35220494c59d06b3a641a1aad44070faaf3173703a8f6d9a9beaef90ece",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.948934240362812,
+      "source_seconds": 2.948934240362812,
+      "source_file_sha256": "74d6a67e7850f726676edc217fb0959c5d370ff3210163451d7ab6c6c789e29f",
+      "file_sha256": "2905ed3f0a16841b05c8ecc0e82d03163d0621576c923a865700387eb3f8efa4",
+      "bytes": 24285,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

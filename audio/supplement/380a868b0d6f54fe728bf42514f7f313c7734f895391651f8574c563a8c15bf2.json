@@ -1,0 +1,30 @@
+{
+  "text": "Tu peux me filer ton numéro ? → Pourriez-vous me communiquer votre numéro ?",
+  "text_sha256": "380a868b0d6f54fe728bf42514f7f313c7734f895391651f8574c563a8c15bf2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.355283446712018,
+      "source_seconds": 3.355283446712018,
+      "source_file_sha256": "aa00fed75099ed816eef98f3c5f5bc252460ea12de0fe92b7e55ff3f5aa7ea74",
+      "file_sha256": "8fb8f55c0847b50e2b2af3dd303918ab3106418aa1697ee80113cf6a3fa6c885",
+      "bytes": 27629,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

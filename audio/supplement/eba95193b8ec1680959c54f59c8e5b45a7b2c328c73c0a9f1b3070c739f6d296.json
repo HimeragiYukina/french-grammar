@@ -1,0 +1,30 @@
+{
+  "text": "Tout compétent qu'il est, il peut se tromper.",
+  "text_sha256": "eba95193b8ec1680959c54f59c8e5b45a7b2c328c73c0a9f1b3070c739f6d296",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5193650793650795,
+      "source_seconds": 2.5193650793650795,
+      "source_file_sha256": "bc97446d791489b2d84da7a257fbd0e3ff94b040099a7c0b2c1052d0056fa4c1",
+      "file_sha256": "050ae7c76c2b4589d7a8e7d5b17f47c2cea15cfb0fc65a0a6555e3821eefb64b",
+      "bytes": 20941,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

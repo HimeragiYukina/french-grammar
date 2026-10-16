@@ -1,0 +1,30 @@
+{
+  "text": "Il apprend la prononciation en imitant les dialogues.",
+  "text_sha256": "d6238c24aafdaad5256a229335b1e22449a30ce9bce958e06bf9916be0a9b8ea",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.239183673469388,
+      "source_seconds": 3.239183673469388,
+      "source_file_sha256": "4405224ce0029dedc8db7c421fc8c925eb64cb329b47688c49c6be849db9349f",
+      "file_sha256": "529a0b543375f2c889543481d30a30b7ed42e81e1f16c71494839e9eb3e24f6e",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

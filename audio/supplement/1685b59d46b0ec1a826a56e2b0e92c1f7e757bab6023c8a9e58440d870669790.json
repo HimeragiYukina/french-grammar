@@ -1,0 +1,30 @@
+{
+  "text": "Les adjectifs",
+  "text_sha256": "1685b59d46b0ec1a826a56e2b0e92c1f7e757bab6023c8a9e58440d870669790",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0565079365079366,
+      "source_seconds": 1.0565079365079366,
+      "source_file_sha256": "f9e49502b9064959f2e27282aea78e32415686821624fac6dfa8bd486ede4106",
+      "file_sha256": "06398d6cb8ccb3eea6e8fe15a7a0f0918da3947dec4789ec59ad2bdb0ee210a5",
+      "bytes": 9239,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

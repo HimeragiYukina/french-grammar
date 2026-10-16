@@ -1,0 +1,30 @@
+{
+  "text": "Ci-joint les attestations demandées.",
+  "text_sha256": "9bc1836d7712750e46a5f6dd80427376413dbf60874513d745790717df9350fe",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8692063492063493,
+      "source_seconds": 1.8692063492063493,
+      "source_file_sha256": "996bc6477f2cbdd811c0c3ec5d15f0b86093d0734060e628282651cfc05d1819",
+      "file_sha256": "6bcb21772443e5362fb664eeec41d1506456b252a4f8a89d1acf3da170c5c983",
+      "bytes": 15717,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

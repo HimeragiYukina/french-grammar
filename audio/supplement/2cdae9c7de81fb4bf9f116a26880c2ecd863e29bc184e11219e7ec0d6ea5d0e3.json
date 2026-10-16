@@ -1,0 +1,30 @@
+{
+  "text": "Donne-moi ça",
+  "text_sha256": "2cdae9c7de81fb4bf9f116a26880c2ecd863e29bc184e11219e7ec0d6ea5d0e3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1029478458049886,
+      "source_seconds": 1.1029478458049886,
+      "source_file_sha256": "09959edf5d9e86b3ee18ba5541b13d52b7890f5852e9c45a34fa0d90c7af3950",
+      "file_sha256": "7860ed519bd828eb5aab30b6cc0e1263b9e8eeb3a360a1d6b1af7c5c6872794e",
+      "bytes": 9657,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

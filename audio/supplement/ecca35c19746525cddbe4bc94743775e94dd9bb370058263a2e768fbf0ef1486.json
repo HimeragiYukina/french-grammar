@@ -1,0 +1,30 @@
+{
+  "text": "J’ai rencontré une femme ; cette femme connaissait mon père.",
+  "text_sha256": "ecca35c19746525cddbe4bc94743775e94dd9bb370058263a2e768fbf0ef1486",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.308843537414966,
+      "source_seconds": 3.308843537414966,
+      "source_file_sha256": "0ca063b41bc86d4994d5c5f89e76c076a6377f1c5b7f65a6701a91fd836f72c9",
+      "file_sha256": "36b5c92d344c3009dbeee426e64c26d676bfa3c759ff0ba28e9b20488dd6b4da",
+      "bytes": 27211,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

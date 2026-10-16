@@ -1,0 +1,30 @@
+{
+  "text": "Grâce à ton aide, j'ai réussi ; à cause du bruit, je n'ai pas dormi.",
+  "text_sha256": "118f8394a4174f38eabf13182acec9e2975b40cb4f322e0387247e597266656f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.20281179138322,
+      "source_seconds": 4.20281179138322,
+      "source_file_sha256": "67bb3db65e69cfece4159ab65028b61c13d43be623f35a4b5571d78ac4a11a75",
+      "file_sha256": "cc112d3e45658b1132a9a28d160834a3c23ea83de55caf613a8da7e5f011d93d",
+      "bytes": 34316,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

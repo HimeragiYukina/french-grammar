@@ -1,0 +1,30 @@
+{
+  "text": "C'était une grande scientifique, admirée par ses collègues.",
+  "text_sha256": "406fb72851acfaf89c647af04eb8425965490f91e48a1de2af997423a7916aa1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2275736961451247,
+      "source_seconds": 3.2275736961451247,
+      "source_file_sha256": "9ae0f75d119ad52d75743b2fb49daf2f772432cef6c84ef53c2ef9e0d0972f43",
+      "file_sha256": "881aebc600d03ddee69d0ad865c62d9d9f2c96cd6d6d31f66135419be6f40c3b",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

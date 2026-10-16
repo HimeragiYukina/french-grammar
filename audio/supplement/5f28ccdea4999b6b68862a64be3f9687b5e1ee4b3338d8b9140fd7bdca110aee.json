@@ -1,0 +1,30 @@
+{
+  "text": "Paul, je lui ai demandé de rappeler.",
+  "text_sha256": "5f28ccdea4999b6b68862a64be3f9687b5e1ee4b3338d8b9140fd7bdca110aee",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.461315192743764,
+      "source_seconds": 2.461315192743764,
+      "source_file_sha256": "872ec0c1c33ca5114da04d6e75bcf88a50bce5195c2f0e918c0a8935f2a0ff25",
+      "file_sha256": "f18efa8ddfab2bf05060674be4054f9c50fbe5e58e5fe0f76a4af1125a1a1994",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

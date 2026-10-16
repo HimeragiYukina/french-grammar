@@ -1,0 +1,30 @@
+{
+  "text": "Elle demande qu’est-ce que je veux",
+  "text_sha256": "22368afc118cafedfaa23e5ad9840ce0f5b2232a208737b2969c58e11664552f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5325170068027212,
+      "source_seconds": 1.5325170068027212,
+      "source_file_sha256": "e01aa33d0e6dd4348bd54e0afdd184c4f896e2914c8257bf602f025f311ee102",
+      "file_sha256": "2d51749e7b03db1f2487ab45c12d9e9888df93700ad490081e8e153a353418ed",
+      "bytes": 13000,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

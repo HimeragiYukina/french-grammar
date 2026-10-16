@@ -1,0 +1,30 @@
+{
+  "text": "Des preuves convaincantes ont été présentées ; convainquant le jury par ces pièces, elle obtint gain de cause.",
+  "text_sha256": "e962be126394e81669cb646263d1bf3acd75befd4a896b0bc438f425c4fbaee7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.572789115646258,
+      "source_seconds": 5.572789115646258,
+      "source_file_sha256": "27e7bca2a866f0a5cfdc4dd3fce66c6cc19494fa4336da42a221efe34cf1e76a",
+      "file_sha256": "5eb0043df53c0e01f51ba9a343e14d03ea5fbe682fbc65fac3506fbfb514441e",
+      "bytes": 45392,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

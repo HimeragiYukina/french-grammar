@@ -1,0 +1,30 @@
+{
+  "text": "La chambre A",
+  "text_sha256": "947a5992192f8c383a9a6b5929efcc26b96aa5d7d1338cf1a398b965a0040773",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9636281179138322,
+      "source_seconds": 0.9636281179138322,
+      "source_file_sha256": "8acfb061f61135017c4fa6eb9bf8f4c118220e7224ae500055fd65dea4935ac8",
+      "file_sha256": "42bb56c427db46ab5f7d7a05b34126c3a8a14405d1327d2abdc375be0c41ad05",
+      "bytes": 8403,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

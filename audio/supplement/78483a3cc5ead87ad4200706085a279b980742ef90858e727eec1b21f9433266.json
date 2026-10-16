@@ -1,0 +1,30 @@
+{
+  "text": "Ce gâteau, je l'adore !",
+  "text_sha256": "78483a3cc5ead87ad4200706085a279b980742ef90858e727eec1b21f9433266",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6021768707482993,
+      "source_seconds": 1.6021768707482993,
+      "source_file_sha256": "c15c0929c1faf648d7662f08d51f71615901f00ef49b3eb759a91c9d4be42df5",
+      "file_sha256": "712eb094ff84e1d39dc80ef4f7baded4cf749e4a1ef9e6d4cd187d4d78ae0918",
+      "bytes": 13627,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

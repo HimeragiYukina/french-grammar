@@ -1,0 +1,30 @@
+{
+  "text": "Je promets à Léa de lui envoyer le dossier.",
+  "text_sha256": "ded0a79b000c82e509e2fd6c23c8777e0b0a1a96f178d6bba54816fb8f8e4f9e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2639455782312927,
+      "source_seconds": 2.2639455782312927,
+      "source_file_sha256": "a37b53dd58f65f584483d36dd2fc9b8942911090f2a731d0c02af79d0bf75df1",
+      "file_sha256": "0b0a2bd0cbb451919993e0547e8655b72f2097d0a6ed85b6e4aa4c789c5d4616",
+      "bytes": 18852,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Ne te couche pas trop tard !",
+  "text_sha256": "964506e0fc6c66a0c0ddda3a4efb1f621d4bd981bca8a334c2e883a8683b67b3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3931972789115645,
+      "source_seconds": 1.3931972789115645,
+      "source_file_sha256": "11d5bb98f3080d16a965af5b6cdc477547594ba70f76281a7318639722e17c78",
+      "file_sha256": "a5da13e71f8b08edc2484c4822766fd4ca80841c519b291f277646b35f4b3d86",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Voici les trois finalistes, parmi lesquels le jury choisira le gagnant.",
+  "text_sha256": "96d54bfb85553ce613cb057f048e1cbae6b9ff13373b2226cf17a1fb313298f4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.08671201814059,
+      "source_seconds": 4.08671201814059,
+      "source_file_sha256": "3433c0650d86057ed0d384008594f52b09df2f7b53dfdbae2882def9217474c3",
+      "file_sha256": "be0c786cd835c561b6f781c0adc074de1366b7511bf4776fdfc5078168c9ec18",
+      "bytes": 33480,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

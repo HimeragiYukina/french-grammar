@@ -810,8 +810,8 @@
         "explanation": "表示“在当前这个具体情形中”，可以从一般规律转入个案，也可指明当下所涉及的对象。不是单纯“例如”。",
         "examples": [
           {
-            "fr": "En général, il faut réserver ; en l'occurrence, il reste des places.",
-            "zh": "通常需要预订；但当前这个情况还有空位。",
+            "fr": "En général, la salle est complète ; en l'occurrence, il reste des places.",
+            "zh": "通常场地满座；不过这一次还有空位。",
             "use": "一般规则与具体个案区分。"
           },
           {

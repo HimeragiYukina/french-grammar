@@ -1,0 +1,30 @@
+{
+  "text": "Les preuves étaient insuffisantes ; ainsi l’accusé fut-il acquitté.",
+  "text_sha256": "3e03322584856ef9a940987530bac21a770c79c574ef31ab33cca312c3d8942d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4829931972789114,
+      "source_seconds": 3.4829931972789114,
+      "source_file_sha256": "a825bde69c4ba3455a436ee8b425c9b89ff9a2d8d038ef38af09a93c3ff18556",
+      "file_sha256": "ebd3ab483b4655ba9cf5d73516297ce18b9e0d229343704ece6ff17a0678874a",
+      "bytes": 28674,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

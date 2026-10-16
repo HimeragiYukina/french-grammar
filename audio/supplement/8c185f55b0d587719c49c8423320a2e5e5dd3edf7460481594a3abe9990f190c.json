@@ -1,0 +1,30 @@
+{
+  "text": "Ce trajet est agréable, encore qu'il soit un peu long.",
+  "text_sha256": "8c185f55b0d587719c49c8423320a2e5e5dd3edf7460481594a3abe9990f190c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8676643990929707,
+      "source_seconds": 2.8676643990929707,
+      "source_file_sha256": "7b03988c1df8183c0d07c5aae5892abb10e7b7b6a3e695b79c7540df752b57af",
+      "file_sha256": "3fef355e50b92e89029572bc7e611d6d91ce7a9e8a1afaad9daf90d0e464326d",
+      "bytes": 23658,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

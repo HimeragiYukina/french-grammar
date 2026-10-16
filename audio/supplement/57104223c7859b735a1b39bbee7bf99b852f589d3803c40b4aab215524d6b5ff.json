@@ -1,0 +1,30 @@
+{
+  "text": "C’est un livre…",
+  "text_sha256": "57104223c7859b735a1b39bbee7bf99b852f589d3803c40b4aab215524d6b5ff",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1261678004535147,
+      "source_seconds": 1.1261678004535147,
+      "source_file_sha256": "33d2ec9064e966606f628c428d5ae58789e4230ad6d7942e7e01a9b7e250a787",
+      "file_sha256": "3e73bba6f91bdc6d0811130dac8ac138c39a2c3d53613f0434f8b978cfceae81",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

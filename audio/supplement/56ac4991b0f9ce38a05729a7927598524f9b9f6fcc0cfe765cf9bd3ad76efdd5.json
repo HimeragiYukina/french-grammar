@@ -1,0 +1,30 @@
+{
+  "text": "Il y avait tant de monde que nous avons renoncé à entrer.",
+  "text_sha256": "56ac4991b0f9ce38a05729a7927598524f9b9f6fcc0cfe765cf9bd3ad76efdd5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6238548752834467,
+      "source_seconds": 2.6238548752834467,
+      "source_file_sha256": "49aace3fcc7f0876f44ff9961984fcdccd57ee2dc25c483cb17592c94818c511",
+      "file_sha256": "a3fd1a241ec34ba257d58e3b0b87e14ec8dd38d93d52a09d78c74322198f6606",
+      "bytes": 21777,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

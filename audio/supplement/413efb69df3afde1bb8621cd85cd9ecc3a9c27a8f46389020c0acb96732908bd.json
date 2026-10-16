@@ -1,0 +1,30 @@
+{
+  "text": "Ces tâches fatiguant les équipes demandent un contrôle. Ces tâches sont très fatigantes.",
+  "text_sha256": "413efb69df3afde1bb8621cd85cd9ecc3a9c27a8f46389020c0acb96732908bd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.876190476190477,
+      "source_seconds": 4.876190476190477,
+      "source_file_sha256": "4d4fa7eba213ba9b62f228a2c94686f6b04f75504dd66615d1e500204e9fef2a",
+      "file_sha256": "f2a127d04b18d65defcc92f8cc17155472f4bbe7fc71b6b66831ebb2703de85b",
+      "bytes": 39750,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

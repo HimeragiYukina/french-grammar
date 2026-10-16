@@ -208,8 +208,8 @@
             "use": "计量单位 + de，不再加部分冠词。"
           },
           {
-            "fr": "Je ne bois pas de lait, mais ce n’est pas du lait dans ce verre.",
-            "zh": "我不喝牛奶，但这个杯子里装的不是牛奶。",
+            "fr": "Je ne bois pas de lait. Ce n’est pas du lait dans ce verre.",
+            "zh": "我不喝牛奶。这个杯子里装的不是牛奶。",
             "use": "前半全量否定改 de，后半 être 表语保留 du。"
           }
         ]

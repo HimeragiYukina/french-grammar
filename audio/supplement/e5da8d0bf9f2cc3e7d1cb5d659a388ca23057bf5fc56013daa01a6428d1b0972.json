@@ -1,0 +1,30 @@
+{
+  "text": "Au fond de la salle se trouvait une vieille armoire.",
+  "text_sha256": "e5da8d0bf9f2cc3e7d1cb5d659a388ca23057bf5fc56013daa01a6428d1b0972",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1695238095238096,
+      "source_seconds": 3.1695238095238096,
+      "source_file_sha256": "7206123dcc87217033c3faab0d88e4fdb193b08ed65f36202b700420ea43fe2b",
+      "file_sha256": "796204584cb542a8231d6f25f97453fdf26def88886c8a98e59ff013b135b31d",
+      "bytes": 26166,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

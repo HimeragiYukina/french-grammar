@@ -1,0 +1,30 @@
+{
+  "text": "Hier soir, nous ___ (regarder) un film.",
+  "text_sha256": "fbd80cf62ae5744eb1f4bbb5152c4ac7c6591a13673044240013ad8f3030602a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4380952380952383,
+      "source_seconds": 2.4380952380952383,
+      "source_file_sha256": "670c43401bdf74e3bd368d24406f43442e5d99eb8d64fe818a32a8a3043fca3e",
+      "file_sha256": "85f0fb98d5b76110ab12c232f053e64cbd6edaca6e8a77121cc3bd11a592236e",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

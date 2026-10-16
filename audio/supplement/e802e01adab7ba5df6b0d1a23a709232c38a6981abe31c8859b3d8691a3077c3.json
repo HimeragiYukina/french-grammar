@@ -1,0 +1,30 @@
+{
+  "text": "Nous cherchons une personne parlant couramment allemand.",
+  "text_sha256": "e802e01adab7ba5df6b0d1a23a709232c38a6981abe31c8859b3d8691a3077c3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8792743764172335,
+      "source_seconds": 2.8792743764172335,
+      "source_file_sha256": "b7c8084d5e7299619ac4928dcfaf0fd6b62a91cbfa618edc5409a3b67128a3ab",
+      "file_sha256": "f989057a6b41499aef948057018bbb4a3cc539869881ef056dadb618451fdaa0",
+      "bytes": 23867,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

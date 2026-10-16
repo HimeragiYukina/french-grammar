@@ -73,7 +73,7 @@ window.GRAMMAR_DATA.A2={
         {
           "fr": "Elle <b>a monté</b> ses valises, puis elle <b>est montée</b> se coucher.",
           "zh": "她把行李搬了上去,然后上楼睡觉了。",
-          "use": "带宾语改用 avoir:monter 带直接宾语(ses valises)时用 avoir 且不配合;不带宾语时用 être 并配合(montée)"
+          "use": "带直接宾语的相关用法改用 avoir：此句 ses valises 后置，所以 monté 不配合；前置 COD 则另判配合。不带直接宾语的位移用 être，此句与 elle 配合为 montée。"
         }
       ],
       "tip": "<b>易错:</b>非代词式的 être 类动词通常配合主语:elle est venu<b>e</b>、ils sont venu<b>s</b>。代词式另判断:elles se sont parlé。monter/descendre/sortir 等带直接宾语的相关用法改用 avoir。"
@@ -1091,7 +1091,7 @@ window.GRAMMAR_DATA.A2={
           "examples": [
             {
               "fr": "Elle est descendue au rez-de-chaussée.",
-              "zh": "她下到一楼去了。",
+              "zh": "她下到地面层去了。",
               "use": "本人下降；au rez-de-chaussée是地点，非COD。"
             },
             {
@@ -1120,7 +1120,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "Il est sorti：他出去了；Il a sorti son téléphone：他拿出了手机。动作对象和句法结构同时改变。",
       "errors": "× Elle a venue → ✓ Elle est venue；× Elles se sont parléES → ✓ Elles se sont parlé：parler à使se为COI。",
-      "boundaries": "passer的助动词还受意义和惯用法影响：Il a passé trois jours ici；Il est passé chez nous。不要把记忆口诀当成覆盖所有派生词和语义的规则。"
+      "boundaries": "passer的助动词还受意义和惯用法影响：Il a passé trois jours ici；Il est passé chez nous。不要把记忆口诀当成覆盖所有派生词和语义的规则。",
+      "related": [],
+      "practice": [
+        {
+          "q": "昨天Léa独自下到地面层，随后把两个纸箱搬到地下室。用descendre写两句已完成事件，分别选择助动词。",
+          "a": "Léa est descendue au rez-de-chaussée. Elle a descendu deux cartons à la cave.",
+          "note": "第一句Léa本人位移，无COD，用être并配descendue；第二句deux cartons为后置COD，用avoir，descendu不因elle加e。改变人物或箱子数量可以，但须保留两种结构。"
+        },
+        {
+          "q": "工作人员名单为两位女性。补全并解释差异：Elles se sont ___ (laver), puis elles se sont ___ (laver) les mains.",
+          "a": "Elles se sont lavées, puis elles se sont lavé les mains.",
+          "note": "首处se作前置COD，与女性复数配lavées；第二处COD为后置les mains，se为间接成分，lavé不变。不是见être就无条件配合。"
+        }
+      ]
     },
     "a2-imparfait": {
       "sections": [
@@ -1191,7 +1204,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "Il était malade：描述当时病着；Il a été malade pendant trois jours：把三天患病作为有界阶段。",
       "errors": "× nous étudions（要表达过去）→ ✓ nous étudiions；× je êtreais → ✓ j’étais。",
-      "boundaries": "“未完成”是语法观察角度，不表示事实一定没结束。si+imparfait的假设用途见条件句，不宜按真实过去翻译。"
+      "boundaries": "“未完成”是语法观察角度，不表示事实一定没结束。si+imparfait的假设用途见条件句，不宜按真实过去翻译。",
+      "related": [],
+      "practice": [
+        {
+          "q": "描述旧学校的一般习惯，不统计已完成次数：以前每周三我们在同一个教室学习，并且常吃自己带的午饭。用nous、étudier/manger及imparfait写两句。",
+          "a": "Avant, nous étudiions dans la même salle tous les mercredis. Nous mangions souvent le déjeuner que nous apportions.",
+          "note": "étudi-加-ions写成étudiions，两个i；manger在-ions前写mangions，不保留e。可以说notre déjeuner等自然变体。题设指定背景习惯，不能只用mercredi当选时态口令。"
+        },
+        {
+          "q": "你现在刚到接待台，想委婉打听材料是否准备好。用je voulais和demander造句，再说明这是否必然表示你已放弃询问。",
+          "a": "Je voulais vous demander si mon dossier était prêt.",
+          "note": "此处imparfait缓和当前请求，不必表示愿望已结束；si是是否，陈述语序。Je voulais savoir si…也自然，但本题要求demander。"
+        }
+      ]
     },
     "a2-pc-vs-imp": {
       "sections": [
@@ -1386,7 +1412,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "Je vais partir：通常强调当前打算或迹象；Je partirai：把事件投射到未来，可作承诺。两者不能按“近/远”机械划分。",
       "errors": "× Si tu viendras → ✓ Si tu viens（条件句）；je serai（未来“我将是”）与je serais（条件“我会是”）注意词尾。",
-      "boundaries": "简单将来时也见缓和请求Vous me donnerez…，但礼貌程度依语气、关系和场合，不自动比条件式委婉。"
+      "boundaries": "简单将来时也见缓和请求Vous me donnerez…，但礼貌程度依语气、关系和场合，不自动比条件式委婉。",
+      "related": [],
+      "practice": [
+        {
+          "q": "承诺给朋友消息：他明天到站时你会给他打电话。用quand、tu/arriver和je/téléphoner，两个动词都用简单将来。",
+          "a": "Quand tu arriveras à la gare demain, je te téléphonerai.",
+          "note": "未来时间从句quand允许arriveras；téléphoner à quelqu’un用te。也可je t’appellerai，但本题指定téléphoner。不能套英语把quand从句强制改成现在时。"
+        },
+        {
+          "q": "如果你们早点完成报告，我们明早就会发送。用si、vous/finir、nous/envoyer完成开放条件句。",
+          "a": "Si vous finissez le rapport tôt, nous l’enverrons demain matin.",
+          "note": "条件si从句用现在时finissez，主句futur为enverrons；l’指rapport，放enverrons前。也可重复nous enverrons le rapport，意义相同。"
+        }
+      ]
     },
     "a2-cod": {
       "sections": [
@@ -1441,7 +1480,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "Je le regarde（regarder quelqu’un）：我看他；Je lui parle（parler à quelqu’un）：我跟他说话。由法语动词搭配决定，不按中文“他”选。",
       "errors": "× Je veux les → ✓ Je les veux；× Je les vais acheter → ✓ Je vais les acheter（通常结构）。",
-      "boundaries": "肯定命令式后置：Regarde-la !；Tu as du pain ? J’en ai，用en指不定量，不能与特指le混同。"
+      "boundaries": "肯定命令式后置：Regarde-la !；Tu as du pain ? J’en ai，用en指不定量，不能与特指le混同。",
+      "related": [],
+      "practice": [
+        {
+          "q": "你已和同事谈到那两张车票。改写Je vais imprimer les deux billets cet après-midi，只用代词替换les deux billets，并保留时间。",
+          "a": "Je vais les imprimer cet après-midi.",
+          "note": "特定复数COD用les，属于imprimer所以放在不定式前；不是Je les vais imprimer。这里用en deux会把题目要求的特定对象替换成数量结构。"
+        },
+        {
+          "q": "对方问你有没有收到前面谈到的那封信。以女性或男性说话者都适用的方式回答“我昨天收到了”，用la lettre的代词与recevoir复合过去时。",
+          "a": "Je l’ai reçue hier.",
+          "note": "l’指阴性lettre且COD前置，所以reçue；这个e不由说话者性别决定。可以加Oui；不能因男性说话人改成reçu。"
+        }
+      ]
     },
     "a2-coi": {
       "sections": [
@@ -1496,7 +1548,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "Je lui parle：parler à的普通COI；Je pense à lui：penser à的重读结构。Je parle de lui则是谈论他，介词de改变关系。",
       "errors": "× Je leurs téléphone → ✓ Je leur téléphone；× Je lui pense → ✓ Je pense à lui/elle。",
-      "boundaries": "法语间接宾语概念包括更多介词结构，不止à+人；此处列表是最常见弱读代词，不是所有COI的通用替换法。"
+      "boundaries": "法语间接宾语概念包括更多介词结构，不止à+人；此处列表是最常见弱读代词，不是所有COI的通用替换法。",
+      "related": [],
+      "practice": [
+        {
+          "q": "昨天你给姐姐/妹妹写了信；今天你会给她发一张照片。用lui代指ma sœur，分别写已完成和将来动作。",
+          "a": "Je lui ai écrit hier. Je lui enverrai une photo aujourd’hui.",
+          "note": "écrire à及envoyer quelque chose à均可用lui指接受者；她是女性仍用lui，écrit不因COI配合。je vais lui envoyer可表达近未来，但题设将来可接受。"
+        },
+        {
+          "q": "把“我在想Paul；我每天给他打电话”写成两句，避免重复Paul。第一句保留penser à，第二句用téléphoner。",
+          "a": "Je pense à lui. Je lui téléphone tous les jours.",
+          "note": "penser à特定人用à+重读代词；téléphoner à则用前置lui。不能因为两句中文都有“他”便统一Je lui pense，或统一y。"
+        }
+      ]
     },
     "a2-en": {
       "sections": [
@@ -1737,7 +1802,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "Elle lave son bébé：她给孩子洗澡；Elle se lave：她洗自己。Elles se sont vues（voir的COD）与Elles se sont parlé（parler à的COI）配合不同。",
       "errors": "× Je vais se lever → ✓ Je vais me lever；× Elles se sont lavées les mains → ✓ Elles se sont lavé les mains。",
-      "boundaries": "代词式不等于自反：La porte s’ouvre意为门开了，se作中间/被动意义。s’enfuir、s’évanouir等固有代词式一般与主语配合，但存在特殊词汇规则，见进阶章节。"
+      "boundaries": "代词式不等于自反：La porte s’ouvre意为门开了，se作中间/被动意义。s’enfuir、s’évanouir等固有代词式一般与主语配合，但存在特殊词汇规则，见进阶章节。",
+      "related": [],
+      "practice": [
+        {
+          "q": "你与另一位同事商量明早早起。用nous和aller se lever写计划，再用nous与ne pas se coucher tard写今晚安排。",
+          "a": "Nous allons nous lever tôt demain. Nous n’allons pas nous coucher tard ce soir.",
+          "note": "两个不定式动作主体均为nous，反身代词用nous而非se；否定包住变位动词allons，不放在coucher后。Nous ne nous coucherons pas tard也可表达未来安排。"
+        },
+        {
+          "q": "两位女性同事昨天互相打过电话，但没见面。用elles、se téléphoner/se voir及复合过去时写一句含mais的话。",
+          "a": "Elles se sont téléphoné hier, mais elles ne se sont pas vues.",
+          "note": "téléphoner à使se作COI，téléphoné不配合；voir直接宾语se前置，vues配女性复数。单看助动词être不能决定分词词尾。"
+        }
+      ]
     },
     "a2-imperatif": {
       "sections": [
@@ -1792,7 +1870,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "Lève-toi !：起来；Ne te lève pas !：别起来。Tu écoutes是陈述，Écoute !是命令；省略主语且去s。",
       "errors": "× Va-y → ✓ Vas-y；× Donne-moi-en → ✓ Donne-m’en（规范形式）；× Tu parle ! → ✓ Parle !。",
-      "boundaries": "若en/y属于后接不定式而非该命令动词，通常不加连接s或连字符：Va en chercher（去找一些，en属于chercher）。laisser有连接s的例外：Laisses-en échapper un peu（放掉一点），不可把前一口诀绝对化。offrir、ouvrir等tu命令也无s；不只-er原形如此。"
+      "boundaries": "若en/y属于后接不定式而非该命令动词，通常不加连接s或连字符：Va en chercher（去找一些，en属于chercher）。laisser有连接s的例外：Laisses-en échapper un peu（放掉一点），不可把前一口诀绝对化。offrir、ouvrir等tu命令也无s；不只-er原形如此。",
+      "related": [],
+      "practice": [
+        {
+          "q": "朋友面前有一篮苹果。先请他给你两个，再说不要把剩下的全给你。用donner、en和tu的肯定/否定命令各一句。",
+          "a": "Donne-m’en deux. Ne m’en donne pas tout le reste.",
+          "note": "肯定命令me在en前缩合m’，用连字符；否定代词前置m’en。deux必须保留。其他保留“两个而非全部”的自然否定句可接受。"
+        },
+        {
+          "q": "指示一位朋友“去找几个本子”。用aller的tu命令和en chercher，解释为什么写Va而非Vas。",
+          "a": "Va en chercher.",
+          "note": "en属于后面的chercher，不直接代替aller的地点补语，因此规范基础形式Va en chercher，无连接s/连字符；Vas-y则是y直接依附va的另一结构。"
+        }
+      ]
     },
     "a2-comparatif": {
       "sections": [
@@ -1847,7 +1938,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "Il est meilleur cuisinier：他是更好的厨师；Il cuisine mieux：他做饭做得更好。J’ai autant de livres que toi与Je lis autant que toi分别比较数量和阅读程度。",
       "errors": "× aussi de livres → ✓ autant de livres；× Elle chante meilleure → ✓ Elle chante mieux。",
-      "boundaries": "plus bon通常不用作一般优等比较，但特殊结构plus bon que mauvais是同一对象两个性质的比较，不应把所有出现plus bon都判错。"
+      "boundaries": "plus bon通常不用作一般优等比较，但特殊结构plus bon que mauvais是同一对象两个性质的比较，不应把所有出现plus bon都判错。",
+      "related": [],
+      "practice": [
+        {
+          "q": "比较两个房间：A有3扇窗、B有2扇窗；但面积相同。以La chambre A为主语写两句，分别比较窗户数量和房间大小。",
+          "a": "La chambre A a plus de fenêtres que la chambre B. Elle est aussi grande que la chambre B.",
+          "note": "名词数量plus de+fenêtres；形容词同程度aussi grande que。不能把相同面积写成autant grande，也不能只因窗多就推断面积更大。"
+        },
+        {
+          "q": "改正并说明形容词/副词区别：Cette méthode est mieux, et je comprends meilleur avec elle.",
+          "a": "Cette méthode est meilleure, et je comprends mieux avec elle.",
+          "note": "meilleure为bon比较级，配阴性méthode；mieux为bien比较级，修饰comprendre。此处明确比较方法质量，不把所有口语c’est mieux都判错。"
+        }
+      ]
     },
     "a2-superlatif": {
       "sections": [
@@ -1902,7 +2006,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "la moins chère =价格最低，la plus chère=价格最高；le moins cher也可修饰动词：C’est ici qu’on mange le moins cher（这里吃饭最便宜）。",
       "errors": "× Elle chante la mieux → ✓ Elle chante le mieux；× la plus bonne solution → ✓ la meilleure solution。",
-      "boundaries": "同一对象在不同时间/条件下性质程度比较可用不变le：C’est à midi que la lumière est le plus intense。初学不要将一般对象间性数规则扩展到此结构。"
+      "boundaries": "同一对象在不同时间/条件下性质程度比较可用不变le：C’est à midi que la lumière est le plus intense。初学不要将一般对象间性数规则扩展到此结构。",
+      "related": [],
+      "practice": [
+        {
+          "q": "三间房每晚分别为60、70、90欧元，甲房是60欧元。写“甲房是三间中最便宜的”，使用la chambre A、moins和chère。",
+          "a": "La chambre A est la moins chère des trois.",
+          "note": "最不贵即价格最低，阴性la/chère；des trois给比较范围。不能把la plus chère用于60欧元这间。La chambre A est la chambre la moins chère des trois也可。"
+        },
+        {
+          "q": "全班中Léa法语说得最好。用C’est Léa qui…、parler français和bien的最高级造句。",
+          "a": "C’est Léa qui parle le mieux français dans la classe.",
+          "note": "mieux修饰parler，副词最高级固定le，不随Léa变la。C’est Léa qui parle français le mieux…也可；le meilleur不能直接修饰parle。"
+        }
+      ]
     },
     "a2-qui-que": {
       "sections": [
@@ -1957,7 +2074,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "La fille qui aime Paul：喜欢Paul的女孩；La fille que Paul aime：Paul喜欢的女孩。谁喜欢谁由从句角色决定，不能按人/物选qui/que。",
       "errors": "× Le film qui je regarde → ✓ Le film que je regarde；× la femme qu’habite ici → ✓ la femme qui habite ici。",
-      "boundaries": "关系代词qui在标准用法中不省音；口语Tu sais qu’il…中的qu’来自que，不是qui。介词+qui用于人等进阶结构另见关系代词章节。"
+      "boundaries": "关系代词qui在标准用法中不省音；口语Tu sais qu’il…中的qu’来自que，不是qui。介词+qui用于人等进阶结构另见关系代词章节。",
+      "related": [],
+      "practice": [
+        {
+          "q": "合并两句介绍邻居，避免重复la voisine：La voisine est très aimable. Elle me prête ses outils.",
+          "a": "La voisine qui me prête ses outils est très aimable.",
+          "note": "voisine是prête的主语，所以qui；me虽紧邻qui却是受益者，不是从句主语。也可C’est une voisine qui…，但须保留借工具与友善两信息。"
+        },
+        {
+          "q": "合并：J’ai écrit ces lettres hier. Ces lettres sont sur la table. 以Les lettres…开头，保留hier并注意过去分词。",
+          "a": "Les lettres que j’ai écrites hier sont sur la table.",
+          "note": "j’为从句主语，lettres是écrire的COD，以que前置后分词écrites配阴性复数。不是按“人用qui、物用que”的口诀判断。"
+        }
+      ]
     },
     "a2-ou-relatif": {
       "sections": [
@@ -2012,7 +2142,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "La ville où je vis：我住的城市（地点补语）；La ville que je visite：我参观的城市（visiter的COD）。Le jour où il est venu与Le jour que j’ai choisi分别为时间状语和COD。",
       "errors": "× la maison où j’y habite → ✓ la maison où j’habite；ou=或者，où=地点/时间关系词，重音不能漏。",
-      "boundaries": "quand可单独引导时间状语Quand il arrive…；有先行词且替代时间状语时一般用où。正式文体也有au cours duquel等替代结构，不是时间词一律只许où。"
+      "boundaries": "quand可单独引导时间状语Quand il arrive…；有先行词且替代时间状语时一般用où。正式文体也有au cours duquel等替代结构，不是时间词一律只许où。",
+      "related": [],
+      "practice": [
+        {
+          "q": "用关系词合并两组信息：我住在这个城市；这个城市很安静。然后写“我参观的那个城市很大”，比较où与que。",
+          "a": "La ville où j’habite est calme. La ville que je visite est grande.",
+          "note": "habiter ici的地点关系可用où；visiter la ville中ville是COD，用que。只看先行词ville是地点不足以两句都选où。"
+        },
+        {
+          "q": "填关系词并说理由：Je me souviens du jour ___ nous sommes arrivés. / Le jour ___ je préfère pour la réunion est jeudi.",
+          "a": "Je me souviens du jour où nous sommes arrivés. Le jour que je préfère pour la réunion est jeudi.",
+          "note": "首句“在那天到达”是时间状语，où；次句je préfère le jour是直接宾语，que。arrivés可按全女性群体写arrivées；不能按名词jour自动选où。"
+        }
+      ]
     },
     "a2-quantite": {
       "sections": [
@@ -2067,7 +2210,20 @@ window.GRAMMAR_DATA.A2={
       ],
       "comparison": "beaucoup de livres：许多书，未限定集合；beaucoup des livres que tu m’as prêtés：你借给我的那些书中许多本。une tasse de thé说明内容，une tasse à thé说明用途。",
       "errors": "× beaucoup du pain（泛指）→ ✓ beaucoup de pain；× un peu temps → ✓ un peu de temps。少量可数朋友通常说quelques amis，不把不自然的un peu d’amis作为首选示例。",
-      "boundaries": "beaucoup单用作副词无需de：Il travaille beaucoup。名词数量并非所有表达都走de：plusieurs livres、quelques livres直接接名词。"
+      "boundaries": "beaucoup单用作副词无需de：Il travaille beaucoup。名词数量并非所有表达都走de：plusieurs livres、quelques livres直接接名词。",
+      "related": [],
+      "practice": [
+        {
+          "q": "准备十个人开会，目前只有八把椅子。用assez de回答“椅子够吗”，并用encore说明还需两把。",
+          "a": "Non, nous n’avons pas assez de chaises. Il nous faut encore deux chaises.",
+          "note": "assez表示够用，八把不满足十人；泛指数量de后不用des。也可Il manque encore deux chaises，不能说beaucoup就等于够。"
+        },
+        {
+          "q": "改写“你借给我的那些书中，我已经读了许多本”。用beaucoup，并保留特定集合les livres que tu m’as prêtés。",
+          "a": "J’ai déjà lu beaucoup des livres que tu m’as prêtés.",
+          "note": "这里是明确集合中的许多本，des=de+les；beaucoup de livres泛指许多书，不能机械把所有beaucoup des判错。prêtés配前置阳性复数livres；m’为接受者不控制配合。"
+        }
+      ]
     },
     "a2-temps-prep": {
       "sections": [

@@ -1,0 +1,30 @@
+{
+  "text": "Vous voulez des pommes ? — Oui, j’en voudrais un kilo.",
+  "text_sha256": "6dc23af71b79c806a9bc434c38bb59525385d018cad3376572c754a4c6fd181b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1811337868480725,
+      "source_seconds": 3.1811337868480725,
+      "source_file_sha256": "b2c8b3da5697febb1ad481ab5552b6ddc4cbf02c6a42e5ef49e840eaefb4dcb1",
+      "file_sha256": "6f1ab8c0d95ae0fdde296e59c4ea31e4168b6f89b9279dd3f134db88576a9706",
+      "bytes": 26166,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

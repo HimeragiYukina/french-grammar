@@ -1,0 +1,30 @@
+{
+  "text": "Les conférences très intéressantes attirent un large public.",
+  "text_sha256": "5f8bbe00d452d62693b84a682a9df4d88bb9448689a772b7e8f3bfaea9cddc22",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.0418140589569163,
+      "source_seconds": 3.0418140589569163,
+      "source_file_sha256": "3e7c446d7f8287a2b8995032e4d8be30b58a87e5a1897c6741e8a49aefe9a4e2",
+      "file_sha256": "bdd2671e981d7d1b89d5c40f85956d7074077c08b006c9c494ba1a932b4a64a1",
+      "bytes": 25121,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

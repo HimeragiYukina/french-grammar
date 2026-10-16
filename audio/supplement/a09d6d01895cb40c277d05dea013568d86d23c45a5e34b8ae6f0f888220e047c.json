@@ -1,0 +1,30 @@
+{
+  "text": "Demain, nous visitons le musée avec notre classe.",
+  "text_sha256": "a09d6d01895cb40c277d05dea013568d86d23c45a5e34b8ae6f0f888220e047c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.75156462585034,
+      "source_seconds": 2.75156462585034,
+      "source_file_sha256": "50bbf1f24f7ffae13c903aec02cbbed8841e3903e18197c6614d502ce6276b98",
+      "file_sha256": "4392322cfea830f6b06a6a361b534f90ffe6456c432fc81bfda7431b45d03cc5",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

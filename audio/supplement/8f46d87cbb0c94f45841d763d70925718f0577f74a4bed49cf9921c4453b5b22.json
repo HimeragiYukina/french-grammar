@@ -1,0 +1,30 @@
+{
+  "text": "Avant, nous étudiions dans la même salle tous les mercredis. Nous mangions souvent le déjeuner que nous apportions.",
+  "text_sha256": "8f46d87cbb0c94f45841d763d70925718f0577f74a4bed49cf9921c4453b5b22",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.839818594104308,
+      "source_seconds": 5.839818594104308,
+      "source_file_sha256": "201cfdadb7a2726958186626a43f7bc5f7baade162fee1f1472cd762b04a57f9",
+      "file_sha256": "71b1827b9c510272e6e14e92f3eee751fb477ff9a2456bfe99eed6815daf100a",
+      "bytes": 47482,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

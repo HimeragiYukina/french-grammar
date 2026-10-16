@@ -1,0 +1,30 @@
+{
+  "text": "C’est la plus belle exposition que j’aie visitée.",
+  "text_sha256": "360328397426cb67b2099a990641a63880915a1c0587241ff515d5fd86a356e0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2639455782312927,
+      "source_seconds": 2.2639455782312927,
+      "source_file_sha256": "13b6c1f89d55927de50b0470b640c5ad390532a191f387f990bfa4d3ea1f9b92",
+      "file_sha256": "2b43c5bcf35287b7cb3699359a8d373f2c8f374cee71ad887549eb3e3e5f9a2e",
+      "bytes": 18852,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

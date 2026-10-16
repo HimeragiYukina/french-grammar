@@ -1,0 +1,30 @@
+{
+  "text": "Certains verbes intransitifs de mouvement/changement d'état et tous les verbes pronominaux utilisent « être ». Pour les verbes pronominaux, l'accord dépend de la construction.",
+  "text_sha256": "caff8996e9a974f3ad3af84938fd11826cae129deda5b080188ea44c1ca15eff",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.09061224489796,
+      "source_seconds": 9.09061224489796,
+      "source_file_sha256": "901e3da0f907d1692a86011350abc4cc7944b9f62be55b3de69512d1f03f7d9e",
+      "file_sha256": "76d1a6dac1d8633cb3ead7b047968ae64558179000dcf4d8c3a92e526173c27f",
+      "bytes": 73395,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

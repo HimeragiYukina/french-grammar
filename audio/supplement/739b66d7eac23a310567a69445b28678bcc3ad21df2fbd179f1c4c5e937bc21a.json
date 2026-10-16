@@ -1,0 +1,30 @@
+{
+  "text": "« Tout est prêt », répondit le directeur.",
+  "text_sha256": "739b66d7eac23a310567a69445b28678bcc3ad21df2fbd179f1c4c5e937bc21a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2639455782312927,
+      "source_seconds": 2.2639455782312927,
+      "source_file_sha256": "ac3ced850111af431ec28a308b22cf44f99bdfc2baa6c89923000169c10e6719",
+      "file_sha256": "0357287a7b90cc28567b07eba5b5323f4a855095845aea1033de61de954f2163",
+      "bytes": 18852,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Mise en relief avec ce qui… c'est : L'effort compte. → ___ compte, ___ l'effort.",
+  "text_sha256": "f5769e2dae1b7151b23d8c3769709eadbb35b9e7a3a07fe031c6394e3abbe2fb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.284081632653061,
+      "source_seconds": 4.284081632653061,
+      "source_file_sha256": "e4a9d625b2607834e4bbf40d086efae5adabe36ded1202f3194dc2df6f6bbc3f",
+      "file_sha256": "54de4b68f773746eab45b18e4e8b92cc154b6a844f2cfb980f7658adfc199ec6",
+      "bytes": 34943,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "En admettant qu’il ait raison, cela ne justifie pas son attitude.",
+  "text_sha256": "5752cd08cc13586ba07a962609a8e9e1886ddc834d7afe82b7815514ce101b31",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.575873015873016,
+      "source_seconds": 3.575873015873016,
+      "source_file_sha256": "85f4cfdb2ffc04c10c77ddb9da5991cfeabc6b64d9fcc3613a0c2a4901451d86",
+      "file_sha256": "fc42cb40143a23722ed5a06ab44566c73dd5a37dbbe0e0055312728a7acafb85",
+      "bytes": 29301,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

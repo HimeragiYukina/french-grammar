@@ -1,0 +1,30 @@
+{
+  "text": "Concession et subjonctif fins",
+  "text_sha256": "ba4c30cf53a59aea592c01525eedbce9713e383bca842a62f43da83d91e02bbb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0085260770975055,
+      "source_seconds": 2.0085260770975055,
+      "source_file_sha256": "fa8a346dc557200752e17301c00544952f73812863aaefd12987bd4a81071ea3",
+      "file_sha256": "d6d9b776d8a9c6da1b7a60410b12193d247629b6a777eab6cfbdba703d7475d1",
+      "bytes": 16762,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

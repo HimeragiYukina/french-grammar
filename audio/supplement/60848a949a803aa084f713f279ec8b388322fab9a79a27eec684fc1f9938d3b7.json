@@ -1,0 +1,30 @@
+{
+  "text": "du pont",
+  "text_sha256": "60848a949a803aa084f713f279ec8b388322fab9a79a27eec684fc1f9938d3b7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.7662585034013606,
+      "source_seconds": 0.7662585034013606,
+      "source_file_sha256": "c6b7aadfec53ed84eeac47bb9858c57d7a7663f9b9a545e846ba01c87bacec8b",
+      "file_sha256": "61ab8446d60476a0a7d023791700a05b860a7ff564041c694b89205852e87bf6",
+      "bytes": 6940,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

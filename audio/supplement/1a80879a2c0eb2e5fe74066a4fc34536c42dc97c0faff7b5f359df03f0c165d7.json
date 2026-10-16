@@ -1,0 +1,30 @@
+{
+  "text": "Elles se sont parlé puis se sont plu.",
+  "text_sha256": "1a80879a2c0eb2e5fe74066a4fc34536c42dc97c0faff7b5f359df03f0c165d7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9272562358276644,
+      "source_seconds": 1.9272562358276644,
+      "source_file_sha256": "4e4311dba4c45227a68adb549f53d0f246469ed1b597e19814614d34d71bb8b2",
+      "file_sha256": "739c281d2a177a258fd030716b1ef6fd47ee5bf062cf7099948e0ef8e7268dd1",
+      "bytes": 16135,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

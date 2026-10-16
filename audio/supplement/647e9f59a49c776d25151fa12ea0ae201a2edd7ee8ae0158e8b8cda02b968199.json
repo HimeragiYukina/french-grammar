@@ -1,0 +1,30 @@
+{
+  "text": "File-moi un truc",
+  "text_sha256": "647e9f59a49c776d25151fa12ea0ae201a2edd7ee8ae0158e8b8cda02b968199",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1261678004535147,
+      "source_seconds": 1.1261678004535147,
+      "source_file_sha256": "25448878b390953c5a23bc0d6e2ac26e799ef398e52c13bae03d62a2744dd0b3",
+      "file_sha256": "bd33638de64e6e863d7c10401d5c1cd5651a8e48471c2981c6816704a65199df",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Les semaines précédant le départ furent difficiles. Adjectif : Les semaines précédentes avaient été plus calmes.",
+  "text_sha256": "8df7bb7485218d8e92e38a31e41279f8f7de8a1471bd3c535e0d21ed8935ed2d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.944308390022676,
+      "source_seconds": 5.944308390022676,
+      "source_file_sha256": "bad68033224ffc7cdc6a723fe704432e96fc6b3e6245bd2084180badbea724b7",
+      "file_sha256": "87fa933341911d3208fb718e0d4a57ee827b15742eed399cbb96d7ff14f4b51e",
+      "bytes": 48318,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

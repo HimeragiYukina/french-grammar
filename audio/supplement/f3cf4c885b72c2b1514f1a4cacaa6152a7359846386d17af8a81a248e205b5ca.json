@@ -1,0 +1,30 @@
+{
+  "text": "Elle ___ (monter) les escaliers, puis elle ___ (sortir).",
+  "text_sha256": "f3cf4c885b72c2b1514f1a4cacaa6152a7359846386d17af8a81a248e205b5ca",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.716734693877551,
+      "source_seconds": 2.716734693877551,
+      "source_file_sha256": "c0b6470ffffcc760199a13380576d8d114688068a1fb5b0bee817d21d74544b4",
+      "file_sha256": "ec281b88d29cda2784eb2513a709f9dc1822382e2e90e1d96bafe5c51127dc48",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

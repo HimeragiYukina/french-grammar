@@ -1,0 +1,30 @@
+{
+  "text": "Ce que je demande, c'est un délai supplémentaire.",
+  "text_sha256": "91157864284bb9f0066ce017e59ed9016ebece3a59c2a56fabddac92c2102204",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9373242630385485,
+      "source_seconds": 2.9373242630385485,
+      "source_file_sha256": "57101dc1df416304284c2a696e80e38dc1f02c43259ccee5aeab6f2674b7a29a",
+      "file_sha256": "48ac15f4e40eb3e5ade3acfe5887d5e5224690cbb7ae6a61f0484a8437645983",
+      "bytes": 24285,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

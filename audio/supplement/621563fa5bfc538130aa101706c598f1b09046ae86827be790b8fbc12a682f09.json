@@ -1,0 +1,30 @@
+{
+  "text": "La semaine dernière, j'étais en vacances.",
+  "text_sha256": "621563fa5bfc538130aa101706c598f1b09046ae86827be790b8fbc12a682f09",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8560544217687074,
+      "source_seconds": 2.8560544217687074,
+      "source_file_sha256": "de45cb7855fbf2e8b45e75dee4996df7f2bb9109b0144e324d17cacc0f4ac5e4",
+      "file_sha256": "6f790773f362826afcaf071f30f851fefa44cb1b3a5162e6f1d7f5957354b8b5",
+      "bytes": 23658,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

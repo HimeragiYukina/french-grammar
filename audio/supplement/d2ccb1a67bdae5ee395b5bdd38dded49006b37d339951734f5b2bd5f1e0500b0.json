@@ -1,0 +1,30 @@
+{
+  "text": "Ce sont mes camarades de classe.",
+  "text_sha256": "d2ccb1a67bdae5ee395b5bdd38dded49006b37d339951734f5b2bd5f1e0500b0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7066666666666668,
+      "source_seconds": 1.7066666666666668,
+      "source_file_sha256": "e63d139a0af574d9bb5d06538bdaf32649c2b8f5de92d60c61e8cf00c511d0d1",
+      "file_sha256": "7664a0a600be95d36e938c37be18ab698ecf524c51ae0f29e02e4c08e7ab430e",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

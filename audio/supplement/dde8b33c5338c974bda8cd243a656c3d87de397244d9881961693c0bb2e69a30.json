@@ -1,0 +1,30 @@
+{
+  "text": "Mon sac ressemble au tien.",
+  "text_sha256": "dde8b33c5338c974bda8cd243a656c3d87de397244d9881961693c0bb2e69a30",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4628571428571429,
+      "source_seconds": 1.4628571428571429,
+      "source_file_sha256": "370674cbe0420b707c62bc8f2f4679efd24c6d4fbfe5aa3e72fc9ace1748bf53",
+      "file_sha256": "8143ddb2718db403b401eaf03f42507cdd5d774ff13a01c58bb852daa45e4ffa",
+      "bytes": 12373,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

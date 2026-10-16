@@ -1,0 +1,30 @@
+{
+  "text": "Samedi, je vais au cinéma.",
+  "text_sha256": "c09f228b36de612e01351fd566679618c5a6026c76cd4dd498ff01774ede5372",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9969160997732427,
+      "source_seconds": 1.9969160997732427,
+      "source_file_sha256": "84c195406f0ec9e25fd5d989aa9daf56e684d718dd50765d95f1ac5d9b731439",
+      "file_sha256": "1bc00d963c2b6ae3af5b3f811c5cb7d531f475882b8a0d69de0ca2c49da49926",
+      "bytes": 16762,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

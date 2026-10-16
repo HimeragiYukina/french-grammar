@@ -1,0 +1,30 @@
+{
+  "text": "une femme provoquant ses adversaires",
+  "text_sha256": "8faa4e843ee22ac9e1b3febdaf161865f20c8a707dd147a96c3c9dd01e0205ed",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.124625850340136,
+      "source_seconds": 2.124625850340136,
+      "source_file_sha256": "3f4ba7e032b98b3e0ce54c272436cc31e7ed3daca98803f0e199af795ffadd9c",
+      "file_sha256": "f8fa8caba889ab4075d3402a2a8f657ca0e5a5ff1b14abe5d1f8c2a8b1c6b910",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Ce cadeau est ___ toi. (",
+  "text_sha256": "c563ba3ca6f5d8f2f94a89072c8b1395b2a2b91c0937b5706d9b65429f244db9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0100680272108844,
+      "source_seconds": 1.0100680272108844,
+      "source_file_sha256": "9341c133163d4cf63348a780ddd3ef64f5687dc9263bf054126d859804509b94",
+      "file_sha256": "9328d0c5c39245ddd140e6c6436492b0e436a5ea43ef475b1496ca4ca6324dcb",
+      "bytes": 8821,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

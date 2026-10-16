@@ -1,0 +1,30 @@
+{
+  "text": "Je n’ai pas pu sortir",
+  "text_sha256": "181027130dec66f5498a8c91248bbf95f33896f29e94319a4dcd563c92a208e0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4396371882086167,
+      "source_seconds": 1.4396371882086167,
+      "source_file_sha256": "b9193d2ea31abdd3b11d9242011b8a64f62c0f8be55a7299eac1bef1ee1239aa",
+      "file_sha256": "5d84c862c95da5b18132985f59e953130516dd00d23f18f85f41cbe75fc0dcca",
+      "bytes": 12373,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

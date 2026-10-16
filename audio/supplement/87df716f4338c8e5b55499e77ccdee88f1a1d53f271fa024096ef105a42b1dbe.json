@@ -1,0 +1,30 @@
+{
+  "text": "Comme il faisait froid, nous sommes rentrés.",
+  "text_sha256": "87df716f4338c8e5b55499e77ccdee88f1a1d53f271fa024096ef105a42b1dbe",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2639455782312927,
+      "source_seconds": 2.2639455782312927,
+      "source_file_sha256": "13add80a6791bc4383b8427f2e44e3d12b38e28e7be6514d3adbf9279c497e2a",
+      "file_sha256": "682aa3f2def0ec5762c0b4bae5906c469a0fed601554f3a44a9f9641551424d3",
+      "bytes": 18852,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "La table sur laquelle j'ai posé mes clés est dans l'entrée.",
+  "text_sha256": "72c30ff328a88500efff648f523c1dcefd170bce8563d0a4bf0446d1d8d37047",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.716734693877551,
+      "source_seconds": 2.716734693877551,
+      "source_file_sha256": "6f96f334a67f53d6b7bc91c4b44390ae0b830ac4e849ea8f43c910fcf2eaecc9",
+      "file_sha256": "0aa29eb5dfce3fa2a497349ce9d7070c978fb8c2dc7b6cbfb327aaa7b4a7d1a1",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

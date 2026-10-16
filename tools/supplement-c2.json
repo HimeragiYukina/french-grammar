@@ -107,5 +107,165 @@
       "c1-connecteurs-soutenus",
       "c2-ellipse"
     ]
+  },
+  "c2-passe-anterieur": {
+    "sections": [],
+    "related": [],
+    "practice": [
+      {
+        "q": "文学叙事改日常转述，保留先后但不用文学时态：Lorsque les visiteurs furent partis, la gardienne éteignit les lumières. 再说明能否据此断言她一秒也没等。",
+        "a": "Lorsque les visiteurs sont partis, la gardienne a éteint les lumières. La phrase indique l'ordre des événements, sans mesurer le délai entre eux.",
+        "note": "动作顺序正确1分；partir用être且partis配合1分；主句复合过去时1分；不凭lorsque断言立即相接1分。也接受明确用après le départ等自然名词化改述。"
+      },
+      {
+        "q": "两种衔接各写一句：A人物读完信立刻离开，用à peine…que和文学时态；B叙述者到达时，人物早已读完信，用愈过去时。不得把B也写成紧接事件。",
+        "a": "À peine eut-elle lu la lettre qu'elle quitta la pièce. Quand je suis arrivé, elle avait déjà lu la lettre.",
+        "note": "A的eut-elle与quitta各1分；B保到达参照和avait lu各1分。A她的分词lu不因女性主语配合，avoir且la lettre在后；B读信早于到达，不给离开信息。"
+      }
+    ]
+  },
+  "c2-concordance-litteraire": {
+    "sections": [],
+    "related": [],
+    "practice": [
+      {
+        "q": "编辑把Il regrettait qu'elle fût partie改成Il regrettait qu'elle parte。指出丢掉什么时间关系，并给自然现代版本。",
+        "a": "Il regrettait qu'elle soit partie. Le départ est présenté comme antérieur au regret ; parte ne conserve pas explicitement cette antériorité.",
+        "note": "识别fût partie为愈过去虚拟式1分；现代用soit partie且阴性配合1分；说明先行关系1分；不说虚拟式证明她未走1分。"
+      },
+      {
+        "q": "同一文学叙事中，A他希望她稍后来，B他怀疑她此前来过。分别用vînt和fût venue写句，再给现代对照。",
+        "a": "Il souhaitait qu'elle vînt le lendemain. Il doutait qu'elle fût venue la veille. Aujourd'hui : Il souhaitait qu'elle vienne le lendemain ; il doutait qu'elle soit venue la veille.",
+        "note": "两个文学形式各1分；来/已来时间对照1分；现代式与venue配合1分。vînt的抑扬符不能漏；“怀疑”不允许把B来访写成已证实事实。"
+      }
+    ]
+  },
+  "c2-concession-soutenue": {
+    "sections": [],
+    "related": [],
+    "practice": [
+      {
+        "q": "项目经理说：即便合作方当时提前告知，我也不可能按期完工。用quand bien même改写；与Sans son appel, je serais restée au bureau比较，哪个表达让步、哪个表达条件？",
+        "a": "Quand bien même le partenaire m'aurait prévenue, je n'aurais pas pu terminer à temps. La première phrase est concessive ; la seconde présente l'absence de l'appel comme condition d'un autre résultat.",
+        "note": "两处条件式过去各1分；女性叙述者prévenue配合1分；让步与条件区分1分。也可设男性叙述者prévenu，但须前后一致。不能把“即便”改“若非”。"
+      },
+      {
+        "q": "将Elle est très compétente, mais elle ne peut pas travailler seule改成tout…que结构，任选直陈或虚拟；解释是否能把soit判为错误。",
+        "a": "Toute compétente qu'elle soit, elle ne peut pas travailler seule. On peut aussi écrire Toute compétente qu'elle est. Le subjonctif est possible ; l'indicatif présente plus directement la compétence comme admise.",
+        "note": "toute因compétente辅音起始阴性配合1分；结构完整1分；接受两式1分；不把soit解释成她无能力1分。"
+      }
+    ]
+  },
+  "c2-subj-fin": {
+    "sections": [],
+    "related": [],
+    "practice": [
+      {
+        "q": "为麦克风写两句：A请调整位置，以便全场能听见；B他调过位置，结果全场能听见。都用de sorte que，并说明式选择依据。",
+        "a": "Réglez le micro de sorte que tout le monde puisse vous entendre. Il a réglé le micro, de sorte que tout le monde pouvait l'entendre. La première phrase vise un but ; la seconde présente un résultat.",
+        "note": "目的puisse1分；结果直陈pouvait或a pu1分；人称宾语对应1分；不把目的已实现当事实1分。"
+      },
+      {
+        "q": "纠正编辑的绝对规则“le fait que后必虚拟，le premier后也必虚拟”。以已知他那天缺席、已知Paul今天第一个到为情境，各写一句反例并解释。",
+        "a": "Vous oubliez le fait qu'il était absent ce jour-là. Paul est le premier candidat qui est arrivé ce matin. L'indicatif peut présenter des faits identifiés ; ces expressions ne déclenchent pas mécaniquement le subjonctif.",
+        "note": "两个直陈实例各1分；说明确认事实的表达角度1分；不反向宣称虚拟式一律错1分。也接受le premier à être arrivé，自然正确但须另给关系从句以展示该规则。"
+      }
+    ]
+  },
+  "c2-accord-extreme": {
+    "sections": [],
+    "related": [],
+    "practice": [
+      {
+        "q": "审校商务邮件：Les candidates se sont succédées. Les remarques qu'elles se sont dit sont utiles. 改正两处并分别指出se与前置名词的作用。",
+        "a": "Les candidates se sont succédé. Les remarques qu'elles se sont dites sont utiles. Se est indirect dans les deux phrases ; dans la seconde, remarques est un complément direct placé avant le participe.",
+        "note": "succédé1分；dites1分；两处se为COI1分；前置COD remarques解释1分。不能据être一律配合或se为COI一律不配合。"
+      },
+      {
+        "q": "下面两项数值与宾语不要按“都在que前”机械配合：Les dix kilomètres qu'elle a couru l'ont fatiguée. Les distances qu'elle a mesuré étaient exactes. 校改并解释。",
+        "a": "Les dix kilomètres qu'elle a couru l'ont fatiguée. Les distances qu'elle a mesurées étaient exactes. Dix kilomètres exprime ici la quantité parcourue ; distances est le complément direct de mesurer.",
+        "note": "第一句couru不变1分；第二句mesurées1分；数量补语与COD区分1分；fatiguée保留女性宾语配合1分。不要把所有具体距离名词都一律归数量补语，须看动词意义。"
+      }
+    ]
+  },
+  "c2-inversion-style": {
+    "sections": [],
+    "related": [],
+    "practice": [
+      {
+        "q": "给小说作最少编辑：« Je vous attendrai », ajouta-elle. Au fond de la cour se trouvaient ils. 前句修倒装，后句恢复自然代词语序。",
+        "a": "« Je vous attendrai », ajouta-t-elle. Ils se trouvaient au fond de la cour.",
+        "note": "ajouta-t-elle1分；ils在动词前且trouvaient配复数1分；不把名词后置规则套代词1分；说明插入语不是疑问1分。后句也接受Au fond de la cour, ils attendaient，但属语义改写，不是最少校改。"
+      },
+      {
+        "q": "面向读者先建立场景，把Une longue file attendait devant le théâtre改为地点在前、名词主语后置；再说明普通顺序是否错误。",
+        "a": "Devant le théâtre attendait une longue file. L'ordre initial reste correct ; la postposition sert ici à présenter le cadre avant le groupe qui l'occupe.",
+        "note": "后置名词完整1分；attendait与file单数配合1分；信息结构解释1分；承认普通语序正确1分。也接受se formait但须注明改变了动作意义。"
+      }
+    ]
+  },
+  "c2-ellipse": {
+    "sections": [],
+    "related": [],
+    "practice": [
+      {
+        "q": "把Marie vérifie les dates ; Paul vérifie les montants压缩为动词省略，再说明能否同法把Marie rit ; Paul est en larmes直接省成Paul, rit。",
+        "a": "Marie vérifie les dates ; Paul, les montants. Dans l'autre exemple, les prédicats diffèrent ; il faut conserver ou rendre récupérable est en larmes, et non attribuer rit à Paul.",
+        "note": "省略vérifie且保对象1分；区别不同谓词1分；不编造Paul笑1分；逗号与可复原关系解释1分。"
+      },
+      {
+        "q": "标题Fermeture du pont : circulation interrompue。写给现场工作人员的完整通知句，不凭标题补关闭原因、时长或决定者；再说标题失去了什么信息。",
+        "a": "Le pont est fermé et la circulation est interrompue. Le titre ne précise ni la cause, ni la durée, ni l'autorité qui a décidé la fermeture.",
+        "note": "两项状态保留各1分；不虚构因果细节1分；指出名词化时态/施事信息减少1分。也可用冒号保解释关系，但不能自行加pour travaux。"
+      }
+    ]
+  },
+  "c2-rection": {
+    "sections": [],
+    "related": [],
+    "practice": [
+      {
+        "q": "离开后“我想念朋友们”，但“他们不想念我”。用manquer写两句并明确谁是主语、谁体验想念。",
+        "a": "Mes amis me manquent depuis mon départ, mais je ne leur manque pas. Mes amis est sujet de la première proposition ; je est sujet de la seconde. Me et leur désignent ceux qui éprouvent le manque.",
+        "note": "manquent复数1分；je ne leur manque pas1分；体验者解释1分；depuis与持续现在相容1分。不能写Je manque mes amis。"
+      },
+      {
+        "q": "编辑了错误搭配：Ce chapitre s'agit de l'exil. Je lui tiens beaucoup parce qu'il m'a aidée. 若说的是“本章涉及流亡；我很在乎他”，请改正。",
+        "a": "Dans ce chapitre, il s'agit de l'exil. Je tiens beaucoup à lui parce qu'il m'a aidée.",
+        "note": "il非人称1分；Dans ce chapitre保主题1分；tenir à lui不用lui tenir1分；a aidée保女性直接宾语配合1分。若用Ce chapitre traite de l’exil同样可接受。"
+      }
+    ]
+  },
+  "c2-cause-niee": {
+    "sections": [],
+    "related": [],
+    "practice": [
+      {
+        "q": "她因时间不足拒绝，尽管价格确实高。用non que排除“价格”作为拒绝原因，同时保留价格高的事实；别把原因否定误写成事实否定。",
+        "a": "Elle refuse, non que le prix soit trop élevé — il l'est effectivement —, mais parce qu'elle manque de temps.",
+        "note": "non que+soit1分；mais parce que+直陈1分；明确价格高但非所给原因1分；事件拒绝不被否定1分。标点可另作两句。"
+      },
+      {
+        "q": "原话承认价格有影响，但更在意无担保。把“Ce n'est pas le prix qui me gêne”改成不完全排除价格的说法，并解释权重。",
+        "a": "Ce n'est pas tant le prix qui me gêne que le manque de garanties. Le prix peut jouer un rôle, mais le manque de garanties est présenté comme le facteur principal.",
+        "note": "pas tant…que完整1分；两个比较对象平行1分；不否定价格作用1分；明确后一因素更重要1分。也接受moins…que结构。"
+      }
+    ]
+  },
+  "c2-exclamation": {
+    "sections": [],
+    "related": [],
+    "practice": [
+      {
+        "q": "“我们没料到修复需要这么多耐心！”用Que de…感叹；再把“你真该早点提醒她”改为文学Que ne…倒装。",
+        "a": "Que de patience il faut pour cette restauration ! Que ne l'as-tu avertie plus tôt !",
+        "note": "Que de+patience不加冠词1分；感叹陈述序1分；Que ne+l’as-tu1分；l’指女性故avertie配合1分。若改vous也可，但语域人称须一致。"
+      },
+      {
+        "q": "报告写Le résultat est moins stable que nous ne le pensions。译文把它写成“比我们不以为的更不稳定”。给正常中文，并说明删ne、加pas各会怎样。",
+        "a": "Le résultat est moins stable que nous le pensions.",
+        "note": "结果没有我们原先以为的那么稳定。Le résultat est moins stable que nous le pensions. Ne可省且比较意义不变；不能把pas作为同样无意义的附加词。 正确比较方向1分；ne赘词不否定pensions1分；删ne同义1分；pas会加入真实否定或造成不自然结构1分。不从此句推断结果绝对不稳定。"
+      }
+    ]
   }
 }

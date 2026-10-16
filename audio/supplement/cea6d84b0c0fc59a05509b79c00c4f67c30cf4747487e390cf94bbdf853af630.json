@@ -1,0 +1,30 @@
+{
+  "text": "Avant qu’il parte, appelle-le",
+  "text_sha256": "cea6d84b0c0fc59a05509b79c00c4f67c30cf4747487e390cf94bbdf853af630",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9040362811791383,
+      "source_seconds": 1.9040362811791383,
+      "source_file_sha256": "ff310ae60e7b58a13180bc22f64cf27a1c11d6f6fe32f5548048d0b29ca6a04d",
+      "file_sha256": "ae03e788c2fc2491b727b16c14efec7ea789c86ec276155b6ef1496d572ed403",
+      "bytes": 15926,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

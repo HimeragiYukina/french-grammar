@@ -1,0 +1,30 @@
+{
+  "text": "Cette soupe est bonne ; elle est chaude.",
+  "text_sha256": "2b77a6936d3f2ff957623abf69fa36faab1c8653d0ec0a6fdc655a1c1da31acb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0549659863945577,
+      "source_seconds": 2.0549659863945577,
+      "source_file_sha256": "21068965c20a742b334dcc848fc741f69cb66edf622c8e16898c15dd7bd504e6",
+      "file_sha256": "dd629a3760ee23db7ee58c529a0051cc25096aae2facc8cd9cbaac714fffb1d0",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

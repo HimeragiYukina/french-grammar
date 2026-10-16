@@ -1,0 +1,30 @@
+{
+  "text": "N’eût été votre appel, je serais resté au bureau.",
+  "text_sha256": "a2c811cba6721b6396b2bec6ebec7d6829f38ad3ed838af306e99c2f9abb192d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9373242630385485,
+      "source_seconds": 2.9373242630385485,
+      "source_file_sha256": "d488345a634ca1133c9b9a57fbe19d8b65ec7a2c6534d480bab80fd84b3fc274",
+      "file_sha256": "57f9f2dd0504c6bf2043c821b8b844a704f342e29889b7ea1714b46591e6998c",
+      "bytes": 24285,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

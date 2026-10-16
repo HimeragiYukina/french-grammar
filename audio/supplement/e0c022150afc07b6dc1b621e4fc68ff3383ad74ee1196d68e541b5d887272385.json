@@ -1,0 +1,30 @@
+{
+  "text": "Dès qu'elles furent arrivé",
+  "text_sha256": "e0c022150afc07b6dc1b621e4fc68ff3383ad74ee1196d68e541b5d887272385",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4628571428571429,
+      "source_seconds": 1.4628571428571429,
+      "source_file_sha256": "1df38e0d083eb597cecb5bfd3e15a8fa9a3a110e4e94f790ccd70d0e8803e4b2",
+      "file_sha256": "71875ee72addc41b383dfb49b2fd44eff886b52da6d793c9098485bd290ef605",
+      "bytes": 12373,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

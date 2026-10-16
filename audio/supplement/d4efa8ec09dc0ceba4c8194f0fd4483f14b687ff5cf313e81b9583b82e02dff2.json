@@ -1,0 +1,30 @@
+{
+  "text": "Le subjonctif passé présente une action accomplie, antérieure à un repère passé, présent ou futur : avoir/être au subjonctif présent + participe passé.",
+  "text_sha256": "d4efa8ec09dc0ceba4c8194f0fd4483f14b687ff5cf313e81b9583b82e02dff2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 8.904852607709751,
+      "source_seconds": 8.904852607709751,
+      "source_file_sha256": "52d9e1f8a07c28e7fceae26c8b7d5f3cb67fed08bbc7e10644b73870cfe87cc3",
+      "file_sha256": "b16b9a21addf6bee239651875778795d973fc6b8702523fe6fb85e8bf437d8e9",
+      "bytes": 71933,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

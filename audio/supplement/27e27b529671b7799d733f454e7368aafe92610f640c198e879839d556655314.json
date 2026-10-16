@@ -1,0 +1,30 @@
+{
+  "text": "Chaque matin, elle marche jusqu’au bureau.",
+  "text_sha256": "27e27b529671b7799d733f454e7368aafe92610f640c198e879839d556655314",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.48453514739229,
+      "source_seconds": 2.48453514739229,
+      "source_file_sha256": "a191c851695d236278eb89e3bf5edf77d3b224f6051540543cddb19b646d7824",
+      "file_sha256": "986b93cf759430553acfc3a84a9e29f0c4beedb7cd22229cf7d22405c33d307b",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

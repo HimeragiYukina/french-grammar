@@ -1,0 +1,30 @@
+{
+  "text": "près de laquelle / sur le toit de laquelle",
+  "text_sha256": "3e0ca400a2ab6b2cb5195b8decfb1a1ab8c6d23a35efff7560c7d770b62e0256",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.147845804988662,
+      "source_seconds": 2.147845804988662,
+      "source_file_sha256": "b81512a11e586028530177e88042cef32b22fc9bc8fa0c25f884d7ee72309ccf",
+      "file_sha256": "138a17c3d30b8e4f013798af25d7f7e5cd7b45f0770a4aa0f658dd82fca89354",
+      "bytes": 18016,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

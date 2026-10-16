@@ -1,0 +1,30 @@
+{
+  "text": "Je suis rentré à pied parce que le bus a été annulé. / Le bus a été annulé, donc je suis rentré à pied.",
+  "text_sha256": "c69f15f7fc84d572049fbb0989b4e15c4a5ce0c1b314116edf4ba27aa7fbc712",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.30421768707483,
+      "source_seconds": 6.30421768707483,
+      "source_file_sha256": "d0b96f79af1661bd88ec1784dad31e5d715f36b12c33c84890af1f30e571f2d6",
+      "file_sha256": "ac11d5d92c3eb2e37e5beff6cc2111d620956e12e05ebf3c95f281ac9321f210",
+      "bytes": 51244,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

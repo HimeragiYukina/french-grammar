@@ -1,0 +1,30 @@
+{
+  "text": "Cette robe",
+  "text_sha256": "484af967c39711eb1856d9f5c2c62eeed4f62e6fa6593c535048c95cff02d157",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8126984126984127,
+      "source_seconds": 0.8126984126984127,
+      "source_file_sha256": "c53dec4b2ec25deb1894fc97c2d855462a9d65dac8fcea90509c98f757525533",
+      "file_sha256": "a085290dc4d54f4df8e9e1afdb9c7dcf8cc90d9fc2c2ce5523c31b2244a6f707",
+      "bytes": 7358,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

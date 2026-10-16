@@ -1,0 +1,30 @@
+{
+  "text": "Ils sont très contents.",
+  "text_sha256": "8f0758c01bf6fc798440f26befb1344a8a6accb3982f0d20e33a59e9934e897d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4280272108843537,
+      "source_seconds": 1.4280272108843537,
+      "source_file_sha256": "b8e89d7e1d8ca46f1fc90e83c2d6a7bd578e036d4584d5e8d4155d2f73d50ad1",
+      "file_sha256": "75903284bacdb70760416f0ff883cc413a1a03437772a933be0d12d40373fc2d",
+      "bytes": 12164,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

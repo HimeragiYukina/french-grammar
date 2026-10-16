@@ -1,0 +1,30 @@
+{
+  "text": "lundi prochain",
+  "text_sha256": "fc4321109f70facd284e51c379f6542c715c9f8db8cccfaabdf8e39dd2130d9c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.0797278911564625,
+      "source_seconds": 1.0797278911564625,
+      "source_file_sha256": "353a0a87b4465d4edefdb0a0fb3fb5d37e715f61f209e7fd95b6bae658d786c3",
+      "file_sha256": "299706ce4a2cf8b347b1abf59a59090be6930acd6cb37361005f5def2c3e5114",
+      "bytes": 9448,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

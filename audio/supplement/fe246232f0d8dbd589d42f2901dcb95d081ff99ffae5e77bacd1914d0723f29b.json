@@ -1,0 +1,30 @@
+{
+  "text": "Nous nous téléphonons tous les soirs.",
+  "text_sha256": "fe246232f0d8dbd589d42f2901dcb95d081ff99ffae5e77bacd1914d0723f29b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.811156462585034,
+      "source_seconds": 1.811156462585034,
+      "source_file_sha256": "d7e63cded01119d663b14cf2c500591ecb580d4682a7b4a1f30ac07c9b794985",
+      "file_sha256": "8117e19046dfa9e95f7efff0f4315179c5009c11b2327a398e8f411d073fac7c",
+      "bytes": 15299,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

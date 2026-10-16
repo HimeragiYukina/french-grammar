@@ -1,0 +1,30 @@
+{
+  "text": "Elle consulte ses messages en attendant le bus.",
+  "text_sha256": "0c4afd0b276238490abb7d34c26db987aa9ed5133646b618163210862101d5c8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4380952380952383,
+      "source_seconds": 2.4380952380952383,
+      "source_file_sha256": "8aef0fd9f7a2aea9207685ca050785918afa1bd7dcfd779d0eeaf62aab25e8ad",
+      "file_sha256": "2df1f366a26f8418c53badee5e2d330f9a4a97deae7d80e6f195e884353daffa",
+      "bytes": 20315,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

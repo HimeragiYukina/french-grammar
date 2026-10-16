@@ -1,0 +1,30 @@
+{
+  "text": "Lorsque les visiteurs sont partis, la gardienne a éteint les lumières. La phrase indique l'ordre des événements, sans mesurer le délai entre eux.",
+  "text_sha256": "fa9c2163936e96467daf57235f7177f020eed03bdfbb3cdeb2e2bdb1668ad425",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.395555555555555,
+      "source_seconds": 7.395555555555555,
+      "source_file_sha256": "be47f6eaec6632b0461fbd2b892d05f36f43ec14d872bfcb5a83387b97b300ba",
+      "file_sha256": "42f6b3a2a6b8ef29aebbadfa9b0395bc01107eaaffe89b3c462ca706065fa778",
+      "bytes": 60021,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "C'est une grande ville.",
+  "text_sha256": "45c1c7012efecad51c8b8cb283accd35261405d58809b2facd1b5411b6c47cf0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2887074829931973,
+      "source_seconds": 1.2887074829931973,
+      "source_file_sha256": "157a204d951bb7435a8d233b94b277668fa77111d052f836e0171130fbd6eedf",
+      "file_sha256": "fc8a945d13e99252180655cfcbfe5ab00bb32063cc75dec70fb3390567b7013f",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

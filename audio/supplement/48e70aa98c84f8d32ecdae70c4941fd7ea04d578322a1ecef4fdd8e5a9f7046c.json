@@ -1,0 +1,30 @@
+{
+  "text": "Tu as ___ argent pour le bus ? (assez)",
+  "text_sha256": "48e70aa98c84f8d32ecdae70c4941fd7ea04d578322a1ecef4fdd8e5a9f7046c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5541950113378684,
+      "source_seconds": 2.5541950113378684,
+      "source_file_sha256": "a26dad3145fd433103d26adfa818aa1099c716eb0a739dfd96fa8bf44953bb3b",
+      "file_sha256": "4b27a13ab599105003541133b3c8c3952d5f150731d1e3c74c7147b52442b614",
+      "bytes": 21150,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

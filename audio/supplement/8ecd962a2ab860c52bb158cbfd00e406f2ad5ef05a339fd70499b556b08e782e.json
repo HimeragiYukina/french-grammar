@@ -1,0 +1,30 @@
+{
+  "text": "Que cette ville a changé !",
+  "text_sha256": "8ecd962a2ab860c52bb158cbfd00e406f2ad5ef05a339fd70499b556b08e782e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3467573696145125,
+      "source_seconds": 1.3467573696145125,
+      "source_file_sha256": "85e94b95fca38057299209162cb9a2e1754f9073ce0ef05dedb8b8f620fdb7b1",
+      "file_sha256": "28036834e9f36a258f99408c9e9c04ac337fcf20e78ac9dbc72c31f9ecc2db2f",
+      "bytes": 11537,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

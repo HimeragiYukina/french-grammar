@@ -1,0 +1,30 @@
+{
+  "text": "Le livre est ___ la table et les clés sont ___ le sac. (",
+  "text_sha256": "d39de3a649614a4e72f2af76db01a73802a491276e8b9d7502a6c64d21ee9422",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.75156462585034,
+      "source_seconds": 2.75156462585034,
+      "source_file_sha256": "6f171d7e1b6d89b2191bb0f7cd7b78ec5ec44083350c76f8fbbe5f2c261cc1b0",
+      "file_sha256": "f3e78037f8136c979e0c11ac2f7614c53cf8a49b994c9135152740055ec3fe55",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

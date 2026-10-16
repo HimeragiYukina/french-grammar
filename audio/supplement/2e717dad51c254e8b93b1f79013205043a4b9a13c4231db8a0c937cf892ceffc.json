@@ -1,0 +1,30 @@
+{
+  "text": "Le pont est fermé et la circulation est interrompue. Le titre ne précise ni la cause, ni la durée, ni l'autorité qui a décidé la fermeture.",
+  "text_sha256": "2e717dad51c254e8b93b1f79013205043a4b9a13c4231db8a0c937cf892ceffc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 8.823582766439909,
+      "source_seconds": 8.823582766439909,
+      "source_file_sha256": "86cae34cb9fd82265b358bd7ee983b835a70f6f3fa45d956efab9f1407804c9e",
+      "file_sha256": "734d0878244206d09ffacda4613ff1e7b2458f9a4de2b5d00555ff2d43ad02be",
+      "bytes": 71306,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

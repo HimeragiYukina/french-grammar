@@ -1,0 +1,30 @@
+{
+  "text": "Paul et Léa sont partis ensemble.",
+  "text_sha256": "bf0f0c3905e9a5ca170df3743769f6e3bd7dfc1472e1fbd30478177e3f3d8fa1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2058956916099772,
+      "source_seconds": 2.2058956916099772,
+      "source_file_sha256": "22723e2e7d77347a58527e161bce93e853fa34bec2905bd089c571a987f2c7e8",
+      "file_sha256": "4489fb5ec62d81cca378473e9dbfe628efa9e88daee83c8b2e7e152783aeee7a",
+      "bytes": 18434,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

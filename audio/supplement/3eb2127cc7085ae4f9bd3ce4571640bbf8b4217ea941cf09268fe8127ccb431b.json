@@ -1,0 +1,30 @@
+{
+  "text": "perdu",
+  "text_sha256": "3eb2127cc7085ae4f9bd3ce4571640bbf8b4217ea941cf09268fe8127ccb431b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.7198185941043084,
+      "source_seconds": 0.7198185941043084,
+      "source_file_sha256": "6f0012e7be1e8efb5773a958816737893b3024cefdc9b5e689321d5f845b7028",
+      "file_sha256": "238793cc7bc62e76ef5d0b2363b52bf2208b252c6604165385309d4eae4f6c51",
+      "bytes": 6522,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

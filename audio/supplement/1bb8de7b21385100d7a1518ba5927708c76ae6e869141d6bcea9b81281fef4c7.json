@@ -1,0 +1,30 @@
+{
+  "text": "Ce qui manque, c'est une explication claire.",
+  "text_sha256": "1bb8de7b21385100d7a1518ba5927708c76ae6e869141d6bcea9b81281fef4c7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.3568253968253967,
+      "source_seconds": 2.3568253968253967,
+      "source_file_sha256": "d35d1c7bce1d5c3e262ddb5e11aceadda33e1a89a41691a4cb495675d7e954aa",
+      "file_sha256": "2d132996143e69848061c0bb369390abd0f7cb2cb42ea947408f96f98eaf8d3d",
+      "bytes": 19688,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "C'est un professeur, et il est très gentil.",
+  "text_sha256": "33198c51cba9ecba5629226e03fb936d1ec368a79c9f20a37b4c617cf2dca7e2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6122448979591835,
+      "source_seconds": 2.6122448979591835,
+      "source_file_sha256": "69c64f43c4e0666103cf6d26f8cdda86664c14f35ffcc923b105e123fe2a7adf",
+      "file_sha256": "f98d8d1be2d837ae8e5f3f8d6a17082ed1746c7b40fa3fb7c3aa990a6306b6bf",
+      "bytes": 21568,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "Six grammar level pages at 390px; all rendered TTS targets mapped.",
+  "grammar": [
+    {
+      "level": "a1",
+      "points": 23,
+      "playbackTargets": 428,
+      "unmapped": 0
+    },
+    {
+      "level": "a2",
+      "points": 18,
+      "playbackTargets": 384,
+      "unmapped": 0
+    },
+    {
+      "level": "b1",
+      "points": 15,
+      "playbackTargets": 396,
+      "unmapped": 0
+    },
+    {
+      "level": "b2",
+      "points": 16,
+      "playbackTargets": 377,
+      "unmapped": 0
+    },
+    {
+      "level": "c1",
+      "points": 13,
+      "playbackTargets": 328,
+      "unmapped": 0
+    },
+    {
+      "level": "c2",
+      "points": 12,
+      "playbackTargets": 284,
+      "unmapped": 0
+    }
+  ],
+  "errors": [],
+  "auditoryListening": false
+}

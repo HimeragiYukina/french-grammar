@@ -1,0 +1,30 @@
+{
+  "text": "Marie préfère le thé ; Paul, le café",
+  "text_sha256": "c48c86c0fbb453b89219066de7ae7e61f8fc97945455bafcdddfc57805003ae6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6238548752834467,
+      "source_seconds": 2.6238548752834467,
+      "source_file_sha256": "b74d438d9196f814c4d3c650fc4ad03a28a22d1aeb0fa2f4fb42838626aa7991",
+      "file_sha256": "8575054e390cfd9913d5bc7b9858b8ffc58130e4a0d206d24f2ec7dc6daf2017",
+      "bytes": 21777,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

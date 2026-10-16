@@ -1,0 +1,30 @@
+{
+  "text": "J'habite ___ Lyon, ___ France. (",
+  "text_sha256": "e3560afb15a3e0d1dc366eeeb45fc647b159f04e3b7049373647281f1d652176",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.799546485260771,
+      "source_seconds": 1.799546485260771,
+      "source_file_sha256": "7ff18f5776ad30d909c9e721b734641a7223026304a6edcf5933965abd4b2e56",
+      "file_sha256": "6df5773d3518b25b989f26ed81ae601fa7daf1453941e3e946440e42d413317c",
+      "bytes": 15090,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

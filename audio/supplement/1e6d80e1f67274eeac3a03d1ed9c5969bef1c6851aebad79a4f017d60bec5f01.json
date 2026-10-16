@@ -1,0 +1,30 @@
+{
+  "text": "J’ai déjà lu beaucoup des livres que tu m’as prêtés.",
+  "text_sha256": "1e6d80e1f67274eeac3a03d1ed9c5969bef1c6851aebad79a4f017d60bec5f01",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8212244897959184,
+      "source_seconds": 2.8212244897959184,
+      "source_file_sha256": "065271ed3ee27633644d99b088624d4ca82bda5053fe5e1db49b45164cbafc80",
+      "file_sha256": "4e4cd2cd8444f6fd96bf984dfc0b3f9a214205b4c9468c562445731df57d24c3",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

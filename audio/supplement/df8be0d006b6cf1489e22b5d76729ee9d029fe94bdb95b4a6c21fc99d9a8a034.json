@@ -1,0 +1,30 @@
+{
+  "text": "Je souhaite que tu réussisses ton examen.",
+  "text_sha256": "df8be0d006b6cf1489e22b5d76729ee9d029fe94bdb95b4a6c21fc99d9a8a034",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.182675736961451,
+      "source_seconds": 2.182675736961451,
+      "source_file_sha256": "0d84275184e60efd4d1789756ee9028eb825e540b7f168c8687e528c9b764298",
+      "file_sha256": "518262a239d8674aac47defdcea9bd266445cd35e4f3e108b444ea58c94d35d2",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

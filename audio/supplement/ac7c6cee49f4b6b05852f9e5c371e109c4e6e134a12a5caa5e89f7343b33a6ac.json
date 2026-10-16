@@ -1,0 +1,30 @@
+{
+  "text": "Il n’empêche qu’il participe",
+  "text_sha256": "ac7c6cee49f4b6b05852f9e5c371e109c4e6e134a12a5caa5e89f7343b33a6ac",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7066666666666668,
+      "source_seconds": 1.7066666666666668,
+      "source_file_sha256": "07ef83fda488dbf62203e36dd1b8c3af3b818a7c3ee5a392b9110f2be5b158df",
+      "file_sha256": "fa9ce5b73d14655351d9a61dffb43c13d04589d26b5b9c0979889bde64a6c12e",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

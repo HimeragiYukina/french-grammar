@@ -1,0 +1,30 @@
+{
+  "text": "Allons-y, il est tard !",
+  "text_sha256": "1b5c1ee553037e63a6c3835820afb32c9ec9a5e8053a764fc57ef082598fce28",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9736961451247166,
+      "source_seconds": 1.9736961451247166,
+      "source_file_sha256": "f056f7dbc805dc3a8ab6eb1fb0edd2c53edca9e1bc908260072bc4474f3f7c42",
+      "file_sha256": "76b01e1e135d8d6576488375000a241bca4595a4ef57c6229da89e8c6b07dda6",
+      "bytes": 16553,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

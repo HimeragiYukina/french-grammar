@@ -1,0 +1,30 @@
+{
+  "text": "Léa est descendue au rez-de-chaussée. Elle a descendu deux cartons à la cave.",
+  "text_sha256": "fb5d4f79f9aee3abf9159a6cfdaa9756528bb4ff20b97d4b57aa53ba989f1d62",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.342131519274377,
+      "source_seconds": 4.342131519274377,
+      "source_file_sha256": "54f03f0ea69275650bf02c410e7524b6753b63100e2d197c71fc889d7a8aec71",
+      "file_sha256": "8db69c72b5482bcfab212976e490734100517a6f8e6bbdfbbf509b3b9268a2ec",
+      "bytes": 35570,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

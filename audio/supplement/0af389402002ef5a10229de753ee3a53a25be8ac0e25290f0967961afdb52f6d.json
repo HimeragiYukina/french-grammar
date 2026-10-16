@@ -1,0 +1,30 @@
+{
+  "text": "Elle est rentrée auprès des siens",
+  "text_sha256": "0af389402002ef5a10229de753ee3a53a25be8ac0e25290f0967961afdb52f6d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6021768707482993,
+      "source_seconds": 1.6021768707482993,
+      "source_file_sha256": "88431bb046c1d4f0481c7b769b4194c8e3dd2dd845253876532d2c6f785f33ae",
+      "file_sha256": "a0d15af16f3fef91325f265da49c92be257854e16df60ff67071e51e39c86e26",
+      "bytes": 13627,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

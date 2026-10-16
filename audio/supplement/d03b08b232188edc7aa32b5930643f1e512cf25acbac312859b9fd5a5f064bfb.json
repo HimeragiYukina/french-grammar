@@ -1,0 +1,30 @@
+{
+  "text": "Je suis content qu’elle soit là",
+  "text_sha256": "d03b08b232188edc7aa32b5930643f1e512cf25acbac312859b9fd5a5f064bfb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6137868480725623,
+      "source_seconds": 1.6137868480725623,
+      "source_file_sha256": "d9299364955c5a39e062011faa3bab55fda5ebb39f7fd7ce5e7d321504fe5ff0",
+      "file_sha256": "36afe08f745199488cab1a45253ead745f97b9a1def91ba7f38a41e86ba3b791",
+      "bytes": 13627,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

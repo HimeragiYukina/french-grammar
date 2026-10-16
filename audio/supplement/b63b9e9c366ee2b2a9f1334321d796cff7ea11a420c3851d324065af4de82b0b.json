@@ -1,0 +1,30 @@
+{
+  "text": "Les élèves ouvrent leurs cahiers.",
+  "text_sha256": "b63b9e9c366ee2b2a9f1334321d796cff7ea11a420c3851d324065af4de82b0b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6021768707482993,
+      "source_seconds": 1.6021768707482993,
+      "source_file_sha256": "a972052ac6069cb1271494568fe4dee1c31ed898df6c713073940b7f23cb376a",
+      "file_sha256": "6a3dc0d9a090ca5647ed05b10b9d4308b972f2997bb252b6e67f74ecc4fefba0",
+      "bytes": 13627,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

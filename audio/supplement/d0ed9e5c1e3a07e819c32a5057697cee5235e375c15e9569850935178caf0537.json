@@ -1,0 +1,30 @@
+{
+  "text": "C'est ___ grand monument de la ville. (=",
+  "text_sha256": "d0ed9e5c1e3a07e819c32a5057697cee5235e375c15e9569850935178caf0537",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7182766439909296,
+      "source_seconds": 1.7182766439909296,
+      "source_file_sha256": "d3d15c72d90e29d5716e88e0427fe3443c5dc169c0a6f46512b2ab1a7454c1fc",
+      "file_sha256": "a31bdb430257e514585c76dfb1eea0c350d64969caaecc201b2617c8fb353e31",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Tout en reconnaissant ses qualités, je ne peux pas l’engager.",
+  "text_sha256": "8afab9ba643e427eb529199daef3a945b871e8a72bd1bd06c10852c055982d98",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.111473922902494,
+      "source_seconds": 3.111473922902494,
+      "source_file_sha256": "62bfbe9560375a52923e390c7e2325cd03ac5d1c98aba6e2e6d615f898eaa0d7",
+      "file_sha256": "a9f4334f397fce925386197251996506790db22cacf2752b456f16a57a9546c3",
+      "bytes": 25748,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

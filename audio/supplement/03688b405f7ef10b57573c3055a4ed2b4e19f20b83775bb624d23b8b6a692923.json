@@ -1,0 +1,30 @@
+{
+  "text": "Je demande un sac au vendeur",
+  "text_sha256": "03688b405f7ef10b57573c3055a4ed2b4e19f20b83775bb624d23b8b6a692923",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.787936507936508,
+      "source_seconds": 1.787936507936508,
+      "source_file_sha256": "45f30ca853d3de05f8b03f0892e2c96e8143981f6746f56e2f9e4271566b436f",
+      "file_sha256": "4da7af9bbd20a83555d943845469b8e58e472d801841fda05af87c91ff6e24b6",
+      "bytes": 15090,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

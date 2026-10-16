@@ -1,0 +1,30 @@
+{
+  "text": "Ordre des pronoms compléments : me te se nous vous",
+  "text_sha256": "c50a29e08a76eaaca4c4986216a63062b1ab310a4bf2071593fa22b7bda49fb5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7631746031746034,
+      "source_seconds": 2.7631746031746034,
+      "source_file_sha256": "ea6e9f5bc38cde99cff99743f5b2a5bb118b7d05a29216f23e48e30587549024",
+      "file_sha256": "38e98523cc2d93763f76a638d48e15ae58cf91014d07d442af377c669c57df79",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

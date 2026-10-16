@@ -1,0 +1,30 @@
+{
+  "text": "Selon les enquêteurs, le suspect aurait quitté le pays.",
+  "text_sha256": "212482603909214fd22992c6a127b6342ee87a8dce1c68b9fc17329a8de41efc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.215963718820862,
+      "source_seconds": 3.215963718820862,
+      "source_file_sha256": "f64a93532b1d03e1dc0efc52343176edb8e5e6a2526695a5d99d3a28c6513c03",
+      "file_sha256": "a91acc4ce357c3ce3c626146c328957abfc8c6ff45e7a473e15c422bb1b3499e",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

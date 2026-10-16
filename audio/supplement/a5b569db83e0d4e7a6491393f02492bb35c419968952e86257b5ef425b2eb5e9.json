@@ -1,0 +1,30 @@
+{
+  "text": "Cette barrière empêche que les animaux ne sortent.",
+  "text_sha256": "a5b569db83e0d4e7a6491393f02492bb35c419968952e86257b5ef425b2eb5e9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.670294784580499,
+      "source_seconds": 2.670294784580499,
+      "source_file_sha256": "aafda66cc4434fa92dece2a5157cb1b77377c6d3405794687388d308cc85f94f",
+      "file_sha256": "64b3d70cabf0b5595f59871524b1f18fd9715471e567eff68ee797d87e07e60f",
+      "bytes": 22195,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

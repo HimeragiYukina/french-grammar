@@ -1,0 +1,30 @@
+{
+  "text": "Inversion et emphase",
+  "text_sha256": "a1ea722188efd4a0f2b8f2426230ba006ac74efb0fd32477844ce0c436d24c21",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5441269841269842,
+      "source_seconds": 1.5441269841269842,
+      "source_file_sha256": "f5979fcc599dad32bbcfc12aa9d3c9b4485a6b3f0e95ed6d220f59366d447173",
+      "file_sha256": "9e458b5b3e8e4d3d404b950be928eb2b03233d733ea958b720ca42fc9b6cc1af",
+      "bytes": 13209,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

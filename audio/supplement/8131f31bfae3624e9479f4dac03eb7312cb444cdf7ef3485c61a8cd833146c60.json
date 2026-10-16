@@ -1,0 +1,30 @@
+{
+  "text": "Le fait qu'il soit parti sans prévenir m'inquiète.",
+  "text_sha256": "8131f31bfae3624e9479f4dac03eb7312cb444cdf7ef3485c61a8cd833146c60",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4729251700680273,
+      "source_seconds": 2.4729251700680273,
+      "source_file_sha256": "2fbe095aa10851079207b4b28789ef0158ad3081884518f51fed0ed7c376702c",
+      "file_sha256": "a3b2ebe06e6d39f359666c237c9f2bd756ed4c60b275aeaf838994f8bb609e21",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

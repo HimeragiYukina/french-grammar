@@ -1,0 +1,30 @@
+{
+  "text": "Verbes pronominaux, impératif",
+  "text_sha256": "90764afe30f9eed1fe04b1b9dd34eabe96f48b3afddf7105fa90b1afa56130f9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.345215419501134,
+      "source_seconds": 2.345215419501134,
+      "source_file_sha256": "3a50d61c0b0e6d13556fb8836b5dd3997a78cadba2b1b147376271590b079ec6",
+      "file_sha256": "8a5747563162263100ac5e160e5daba13f927cc813bd6aaf1ba67e3fc3e65549",
+      "bytes": 19479,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

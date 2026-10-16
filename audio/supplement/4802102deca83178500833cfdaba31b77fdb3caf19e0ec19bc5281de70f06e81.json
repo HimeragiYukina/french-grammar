@@ -1,0 +1,30 @@
+{
+  "text": "Les chevaux traversent les champs.",
+  "text_sha256": "4802102deca83178500833cfdaba31b77fdb3caf19e0ec19bc5281de70f06e81",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7066666666666668,
+      "source_seconds": 1.7066666666666668,
+      "source_file_sha256": "0f532cbac4001e857a8e5c78200243753671f5e7357db5c8f75bdd2c572ba63d",
+      "file_sha256": "ea288c32cba9b1210c388f201b163b0e380a7059dfd1e5b4d595fbd6e57670d4",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

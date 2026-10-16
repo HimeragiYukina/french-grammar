@@ -1,0 +1,30 @@
+{
+  "text": "Comment tu t'appelles ? Combien ça coûte ?",
+  "text_sha256": "f1858875ad5da633f631b76ca58096d7d50f91e9c7a24d2533f4075a2559796a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.136235827664399,
+      "source_seconds": 2.136235827664399,
+      "source_file_sha256": "4996cd161e4073ee6c28696ab1dca9c882f6de799315398b307e134de3ef61e3",
+      "file_sha256": "82f4fd52109f88e35ab97371005d8c8ff46ffc0de6d9a6335e910a79bb11b057",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

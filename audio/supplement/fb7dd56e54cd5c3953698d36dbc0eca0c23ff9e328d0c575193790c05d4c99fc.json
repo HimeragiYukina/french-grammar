@@ -1,0 +1,30 @@
+{
+  "text": "Nous avons vu un très bon film.",
+  "text_sha256": "fb7dd56e54cd5c3953698d36dbc0eca0c23ff9e328d0c575193790c05d4c99fc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9040362811791383,
+      "source_seconds": 1.9040362811791383,
+      "source_file_sha256": "392c655b075ab9448671c94c19a54e394095b8f5d3e2d541b48fb34de0fc46ee",
+      "file_sha256": "183a78d55990d842676701e6a849a70c49c612fcb2ffb50bb035f11180f32254",
+      "bytes": 15926,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Samedi, nous organisons un pique-nique avec Léa, mais la météo annonce des averses dans l’après-midi.",
+  "text_sha256": "c4f6df27ccc39bda9d2036bc0f4dfde96107fbfdedab55f3e6156082c189e6db",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.027120181405896,
+      "source_seconds": 5.027120181405896,
+      "source_file_sha256": "8b6671045289b8030bc72b087c9250545f12f47d8b606bf9604999911dc36b19",
+      "file_sha256": "b1ce0ed0c2c5c207e73dde3c76851d13babf107055201f008bc5b81ea11e081e",
+      "bytes": 41004,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

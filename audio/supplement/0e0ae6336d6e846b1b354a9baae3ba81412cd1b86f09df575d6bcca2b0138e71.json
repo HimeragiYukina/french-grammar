@@ -1,0 +1,30 @@
+{
+  "text": "la dernière semaine du stage",
+  "text_sha256": "0e0ae6336d6e846b1b354a9baae3ba81412cd1b86f09df575d6bcca2b0138e71",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9853061224489796,
+      "source_seconds": 1.9853061224489796,
+      "source_file_sha256": "0758ddcf65dc8244bd1ebd4f986488a1edb37de9ea69242ce3ab648d572655dd",
+      "file_sha256": "d413d2da317e14404fea9bbb1f57148869bec46481565a4102fa4bf6b4c73472",
+      "bytes": 16553,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

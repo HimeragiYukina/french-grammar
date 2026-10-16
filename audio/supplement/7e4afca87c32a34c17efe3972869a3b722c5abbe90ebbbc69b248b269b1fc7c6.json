@@ -1,0 +1,30 @@
+{
+  "text": "Le livre est sur la table et les clés sont dans le sac.",
+  "text_sha256": "7e4afca87c32a34c17efe3972869a3b722c5abbe90ebbbc69b248b269b1fc7c6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7747845804988662,
+      "source_seconds": 2.7747845804988662,
+      "source_file_sha256": "d965080268a29ee6a55f3474d673236ef6b9ef32f60bd7454d995765aa3ee40f",
+      "file_sha256": "dbbeb84c2d0c0c7ff4dc1ab3149fb85f253786124d77f1318d3b027d541c1624",
+      "bytes": 23031,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

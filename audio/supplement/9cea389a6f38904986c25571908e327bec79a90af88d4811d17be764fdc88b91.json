@@ -1,0 +1,30 @@
+{
+  "text": "il pourrait partir",
+  "text_sha256": "9cea389a6f38904986c25571908e327bec79a90af88d4811d17be764fdc88b91",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2190476190476192,
+      "source_seconds": 1.2190476190476192,
+      "source_file_sha256": "44658b46af1d9611db4d34e2a539498cfdb914dc5e1ab0478e2e06e1c0c8c025",
+      "file_sha256": "12a2ff39a433dd60a9fcb4ad8a4a64a87d705180f90a868eabeca5144c216e73",
+      "bytes": 10493,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

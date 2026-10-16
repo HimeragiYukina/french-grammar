@@ -1,0 +1,30 @@
+{
+  "text": "Il faut que vous ayez terminé avant vendredi.",
+  "text_sha256": "7999e37398d9d50a6bf1d2e2cd8abb5e0d23d5a38190d2652d66853864df0e19",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.36843537414966,
+      "source_seconds": 2.36843537414966,
+      "source_file_sha256": "87978bd0e83bcd26258cec15c3297be23251b84b7140a3dfecbaa5b2c9bc6e81",
+      "file_sha256": "a2a77fd4360b30f030f4ade6eebafa4279ef1bdc31dcdc5c5df06e450fc7ad44",
+      "bytes": 19688,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "× Le film qui je regarde → ✓ Le film que je regarde；× la femme qu’habite ici → ✓ la femme qui habite ici。",
+  "text_sha256": "46bfd8cb1f151a7d6947c7d5b3fb1b7854fa31e543c38087672e5abc54b9cda3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.195102040816327,
+      "source_seconds": 9.195102040816327,
+      "source_file_sha256": "f739409a613bc6702d58926db77f741dad1eb49282549aa5a7be355d142d3bc8",
+      "file_sha256": "482fc23fe824f7c42f1137921548445d7f6a10e5cc44c83889a6f21f2a31e8f6",
+      "bytes": 74231,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

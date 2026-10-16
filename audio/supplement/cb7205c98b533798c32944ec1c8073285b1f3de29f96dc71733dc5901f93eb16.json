@@ -1,0 +1,30 @@
+{
+  "text": "Je demande à Léa de m’envoyer les pièces",
+  "text_sha256": "cb7205c98b533798c32944ec1c8073285b1f3de29f96dc71733dc5901f93eb16",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2175056689342405,
+      "source_seconds": 2.2175056689342405,
+      "source_file_sha256": "7701c0372175c58dd127fe6c535f950f6e10d919c0e3b2c54c5edbea62350fa1",
+      "file_sha256": "74c5ce07d152ad19a7a9eef14331559b0e53b1d1c30f74d027376729b21e7e88",
+      "bytes": 18434,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

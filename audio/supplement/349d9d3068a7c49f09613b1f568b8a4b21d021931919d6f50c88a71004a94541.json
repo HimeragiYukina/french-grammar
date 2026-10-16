@@ -1,0 +1,30 @@
+{
+  "text": "C’est ma sœur, et ce sont ses enfants.",
+  "text_sha256": "349d9d3068a7c49f09613b1f568b8a4b21d021931919d6f50c88a71004a94541",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5309750566893423,
+      "source_seconds": 2.5309750566893423,
+      "source_file_sha256": "a5f1af85eaf6331caed6c42567fdb0c27178ff742521553141bf27908c24926a",
+      "file_sha256": "2ed2e2934e042df785af57df688aea6f6b4fcbb17b96c78a11da8258980dcf1f",
+      "bytes": 20941,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

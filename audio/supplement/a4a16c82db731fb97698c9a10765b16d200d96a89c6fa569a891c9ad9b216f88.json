@@ -1,0 +1,30 @@
+{
+  "text": "Mon grand-père est né en 1950.",
+  "text_sha256": "a4a16c82db731fb97698c9a10765b16d200d96a89c6fa569a891c9ad9b216f88",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.006984126984127,
+      "source_seconds": 3.006984126984127,
+      "source_file_sha256": "129ebc3396aa0b6837ce0bf62d5ffb4b047b199086ba323d6eb201b4f8a7f233",
+      "file_sha256": "2a132b6c3e100528ee6242bb800a6eb1a5fd47061d017d1d3f2b8b38791ce3a4",
+      "bytes": 24912,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

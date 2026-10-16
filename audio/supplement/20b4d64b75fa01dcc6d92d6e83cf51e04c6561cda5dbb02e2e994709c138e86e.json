@@ -1,0 +1,30 @@
+{
+  "text": "Il importe de conserver les justificatifs.",
+  "text_sha256": "20b4d64b75fa01dcc6d92d6e83cf51e04c6561cda5dbb02e2e994709c138e86e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.414875283446712,
+      "source_seconds": 2.414875283446712,
+      "source_file_sha256": "57e4951084ed7b096c7465b6f60a5706bfffcbe93cf510dcbecb978005532fc0",
+      "file_sha256": "5ba4d05da8a0444d66072391f2f424224f90ecc6ffde4e3bc2b0e04065cd41ad",
+      "bytes": 20106,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

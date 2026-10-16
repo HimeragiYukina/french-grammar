@@ -1,0 +1,30 @@
+{
+  "text": "Samedi, nous organisons un pique-nique avec Léa, mais la météo annonce des averses dans l’après-midi. Si le soleil revient, nous déjeunerons au parc près de la rivière. Si la pluie continue, nous mangerons chez moi et nous sortirons ensuite. Tu devrais apporter une veste, car il peut faire frais au bord de l’eau. J’aimerais que chacun apporte quelque chose, mais personne n’est obligé de cuisiner. Si nous avions une voiture, nous pourrions choisir un endroit plus éloigné. Pourrais-tu vérifier les horaires du bus avant de confirmer notre rendez-vous ? Si le dernier bus part tôt, préviens-moi : nous avancerons l’heure du départ.",
+  "text_sha256": "f24eb3ec896c1e892da66748a9b435d47feb5180c8810a3e1710ed960bc4e64a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 32.79818594104309,
+      "source_seconds": 32.79818594104309,
+      "source_file_sha256": "de5be552b8500abd18166a8ac5aa3b9985896720650d80813348d5f89c7d3be3",
+      "file_sha256": "365ade59a4e540bb0933728190b793dbc387a9dc38647aa602aa964865bd8747",
+      "bytes": 263149,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

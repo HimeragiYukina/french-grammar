@@ -1,0 +1,30 @@
+{
+  "text": "Ta chambre est petite ; la mienne est plus grande.",
+  "text_sha256": "2bbf3b4df06b069b5e3b6c113e44642e7f0ffe4070c35467cdfc8cd742675d6c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9837641723356008,
+      "source_seconds": 2.9837641723356008,
+      "source_file_sha256": "d3c18a5156b96652064285ae171e3376526a4cdc90856508439026cc6d9a5934",
+      "file_sha256": "76626943f64f4153d85cc052902baea8c606d1ad262a2d4f76107b9a06bdb203",
+      "bytes": 24703,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

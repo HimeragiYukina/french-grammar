@@ -1,0 +1,30 @@
+{
+  "text": "Nous avons une petite voiture rouge.",
+  "text_sha256": "385028cf0e986ba56287b8f9acfe2769c596a5e753c7ee70616ac313cda58949",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.078185941043084,
+      "source_seconds": 2.078185941043084,
+      "source_file_sha256": "dba240df6402927391b3f8613f76f0adba1909d4cd54652261f8501e4f6cd80a",
+      "file_sha256": "abe3fca0bbf27ee0dfef40e1855e16597b1d798754be6cf89666ff4368bf26ab",
+      "bytes": 17389,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

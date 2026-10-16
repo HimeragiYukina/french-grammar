@@ -1,0 +1,30 @@
+{
+  "text": "Bien qu’il fût malade, il poursuivit son voyage.",
+  "text_sha256": "f37b90623f26ea191f045e9c079a0d306b99b3a97f07ab021cd660a09d574f25",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.111473922902494,
+      "source_seconds": 3.111473922902494,
+      "source_file_sha256": "b39b33702a1416f83ba92ce2b23e7e107557e772f9e5adf439204c7304c50423",
+      "file_sha256": "1c4902ea7154dc187fe5ad1e015351574f95733ddc1a5d039ece235438a148e9",
+      "bytes": 25748,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

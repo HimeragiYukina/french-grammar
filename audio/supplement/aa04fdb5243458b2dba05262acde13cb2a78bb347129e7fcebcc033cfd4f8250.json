@@ -1,0 +1,30 @@
+{
+  "text": "Je viens de Lyon",
+  "text_sha256": "aa04fdb5243458b2dba05262acde13cb2a78bb347129e7fcebcc033cfd4f8250",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.195827664399093,
+      "source_seconds": 1.195827664399093,
+      "source_file_sha256": "e48e1ab6adfbf866ca9955cb0e8f45458708a180d681b58ae7fdd958c6a116c1",
+      "file_sha256": "49b6d06bc85128e3e9930cdced2e0dafd3fecfb4a4dc54e162c2cdf6842ca9ca",
+      "bytes": 10284,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

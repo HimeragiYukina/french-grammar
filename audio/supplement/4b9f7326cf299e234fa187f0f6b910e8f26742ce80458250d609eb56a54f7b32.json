@@ -1,0 +1,30 @@
+{
+  "text": "La semaine prochaine, je commencerai mon nouveau travail.",
+  "text_sha256": "4b9f7326cf299e234fa187f0f6b910e8f26742ce80458250d609eb56a54f7b32",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.0882539682539685,
+      "source_seconds": 3.0882539682539685,
+      "source_file_sha256": "1d01b184eb01152d674b64d96eec1bddd414765e5980d2c44fa75b8d4c9c1e33",
+      "file_sha256": "0962c6d45d94b789b6b3b31253057cb7fd9ecef7f582e1e49d5cdf1006208872",
+      "bytes": 25539,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

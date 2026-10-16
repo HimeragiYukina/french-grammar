@@ -1,0 +1,30 @@
+{
+  "text": "Après qu’il sera parti, appelle-moi",
+  "text_sha256": "9aa0c6e15d60fabc883db3b6f52b23ee605001e505b817bed08d5b5dc9eecabf",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.3568253968253967,
+      "source_seconds": 2.3568253968253967,
+      "source_file_sha256": "1d64ed866959b110142038f5e62881c0c8be854efdb81fa6387034898d8c0d8f",
+      "file_sha256": "050b1c7bae22c97074001156cbe11ae917320ea2d98b4afe2cd98dddc635837c",
+      "bytes": 19688,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

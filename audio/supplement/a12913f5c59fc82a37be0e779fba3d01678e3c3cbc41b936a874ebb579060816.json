@@ -1,0 +1,30 @@
+{
+  "text": "Je ne mange jamais avant de courir.",
+  "text_sha256": "a12913f5c59fc82a37be0e779fba3d01678e3c3cbc41b936a874ebb579060816",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8343764172335602,
+      "source_seconds": 1.8343764172335602,
+      "source_file_sha256": "058f01b3fca2fb32df26454c9b2ed8c5cbde73559f7f4db4408ccc31e8e02ece",
+      "file_sha256": "5d276675a3fb032f2c4a9f93ae4b60e5b5fadaf90e13639f0edb3f7ee43cd4ad",
+      "bytes": 15508,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

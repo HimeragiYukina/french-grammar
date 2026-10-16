@@ -1,0 +1,30 @@
+{
+  "text": "COD les mains",
+  "text_sha256": "d82b0cdabc69df0ac362f9317b6bd8985da224cc2fa755c9c9bdeb7d86371c64",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9868480725623583,
+      "source_seconds": 0.9868480725623583,
+      "source_file_sha256": "d0af2fdfe0145c0b62982600134e7cc69ed512e40e38637d1932caa3df8f2342",
+      "file_sha256": "c5d34026a78abd986acebe4eb39cfec1f66a37c655959385ebfd589d10fdd378",
+      "bytes": 8612,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

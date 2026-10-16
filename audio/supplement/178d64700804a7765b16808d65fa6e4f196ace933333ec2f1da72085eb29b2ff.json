@@ -1,0 +1,30 @@
+{
+  "text": "venir/tenir",
+  "text_sha256": "178d64700804a7765b16808d65fa6e4f196ace933333ec2f1da72085eb29b2ff",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1493877551020408,
+      "source_seconds": 1.1493877551020408,
+      "source_file_sha256": "6163f508b952e042a32e25b4de6aa0f4be0d711b1cd6f81471d60ae258f48606",
+      "file_sha256": "a4487ff8f580e7bd4bbe2382e947f1e8b195ded86df6d210925a6a14e6f9d2b8",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

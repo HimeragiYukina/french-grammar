@@ -1,0 +1,30 @@
+{
+  "text": "Pourriez-vous me prévenir si l’horaire change ?",
+  "text_sha256": "4fd293135f36c28baeca54e0e426a916851e11f0c85d64b2e4715399ff3ab573",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.36843537414966,
+      "source_seconds": 2.36843537414966,
+      "source_file_sha256": "016192eeb22b02ed0b959782b251c81642f33bdea80a856b5d85a197c45171aa",
+      "file_sha256": "5e9e14f3c1edaed531ff25f669172514ce24eb77d9fb94a9a789b01820afde15",
+      "bytes": 19688,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

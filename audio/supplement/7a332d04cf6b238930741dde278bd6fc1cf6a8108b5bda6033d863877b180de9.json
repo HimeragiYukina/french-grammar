@@ -1,0 +1,30 @@
+{
+  "text": "Si elle venait samedi, nous pourrions lui montrer la ville.",
+  "text_sha256": "7a332d04cf6b238930741dde278bd6fc1cf6a8108b5bda6033d863877b180de9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8328344671201813,
+      "source_seconds": 2.8328344671201813,
+      "source_file_sha256": "32b686fd54085aed5b3d7a2b6241afcbd19b1615a92eea069414acb82a23886c",
+      "file_sha256": "21016d00e8cbdda94f09e405608f4f5a16e1ba138a0d6bf460a95a198631d8eb",
+      "bytes": 23449,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

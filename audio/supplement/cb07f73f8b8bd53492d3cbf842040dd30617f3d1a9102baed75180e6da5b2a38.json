@@ -1,0 +1,30 @@
+{
+  "text": "Personne n'est venu à la réunion.",
+  "text_sha256": "cb07f73f8b8bd53492d3cbf842040dd30617f3d1a9102baed75180e6da5b2a38",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6718367346938776,
+      "source_seconds": 1.6718367346938776,
+      "source_file_sha256": "4df816624df2b13f444999df62234373e5a702a19b2a8be34c82a4a63fd2f94a",
+      "file_sha256": "ca1da9d09f524537d2804ed53fed36a8ba1c7c9a55afb787fab1bf5ad9d966cd",
+      "bytes": 14045,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

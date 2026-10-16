@@ -1,0 +1,30 @@
+{
+  "text": "Le recrutement de techniciens par l'entreprise",
+  "text_sha256": "7ba86112a7a9c2f7a3746b9698277c2f4770594fb43f5830e39ed1d9e2b30dfa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7399546485260773,
+      "source_seconds": 2.7399546485260773,
+      "source_file_sha256": "2ba0ec386189864db9ef7eb6bbf1e45cb8aaaef3122a3aed0cf6acbfd7e37b7b",
+      "file_sha256": "5d3e5f29b22fb12ba3d7db24557a3a334bd543eca021f54d9e15b7ed2855e32a",
+      "bytes": 22613,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

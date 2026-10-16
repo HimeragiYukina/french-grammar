@@ -1,0 +1,30 @@
+{
+  "text": "Aujourd’hui, je prends du chocolat",
+  "text_sha256": "d643d7a9f6539a882139a63f0d125d1099936a7958126a49690da9a3d4da08b6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0549659863945577,
+      "source_seconds": 2.0549659863945577,
+      "source_file_sha256": "b0f19afdb5f8037aa223327a884173c51b4072afe65addc8ba3cd20de2725cd8",
+      "file_sha256": "79941c72f31396edd223efb18ec12cd9eaf079af880bc7451f12b36cc529b707",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

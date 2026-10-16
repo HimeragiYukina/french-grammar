@@ -1,0 +1,30 @@
+{
+  "text": "Voici trois finalistes, parmi lesquelles le jury choisira la gagnante. La collègue avec qui je vérifie les résultats participe à la réunion.",
+  "text_sha256": "5b4a9c6774789dbba07b736b698d324d547cb43152033333dc35381c8f3d70f4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.604535147392291,
+      "source_seconds": 7.604535147392291,
+      "source_file_sha256": "b5f40c10446f63e54f0c91c9643064e12ea3555a346b37bde2b7df192208b04c",
+      "file_sha256": "09716fae14640f122e593b692dac0f62fedb5264c387bfc7baae7dc8635557c3",
+      "bytes": 61693,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

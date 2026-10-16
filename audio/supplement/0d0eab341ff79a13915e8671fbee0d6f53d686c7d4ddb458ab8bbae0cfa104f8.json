@@ -1,0 +1,30 @@
+{
+  "text": "Je n’ai invité personne de nouveau ; nous n’avons que vingt places.",
+  "text_sha256": "0d0eab341ff79a13915e8671fbee0d6f53d686c7d4ddb458ab8bbae0cfa104f8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2275736961451247,
+      "source_seconds": 3.2275736961451247,
+      "source_file_sha256": "4205c3b8b2583a311ab947bbbeb2892dc9549548e933927b3d1f1c69bd2333bf",
+      "file_sha256": "38b3a27fd4c3b2e2a74d0375ae87f9f2aef8475bfb107ae4eda85527a4953221",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

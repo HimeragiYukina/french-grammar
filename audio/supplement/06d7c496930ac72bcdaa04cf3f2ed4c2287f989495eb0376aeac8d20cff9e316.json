@@ -1,0 +1,30 @@
+{
+  "text": "Ce n’est pas Paul…",
+  "text_sha256": "06d7c496930ac72bcdaa04cf3f2ed4c2287f989495eb0376aeac8d20cff9e316",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1145578231292517,
+      "source_seconds": 1.1145578231292517,
+      "source_file_sha256": "6d303f26bd22a23c06e5cf556925b0d2d05129573c77888f63e0326f37e8a14d",
+      "file_sha256": "bababbc9b70b18ea62038f9c204b333c227469177d97d8fd61320ea0d7f65ffa",
+      "bytes": 9657,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

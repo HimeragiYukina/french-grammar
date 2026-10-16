@@ -1,0 +1,30 @@
+{
+  "text": "Nous changeons de lieu parce que nous ne voulons pas annuler la soirée.",
+  "text_sha256": "df767cc933f02597446895f6cc9a6cdc10973c9d1a23d648222fd95c14307dc9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8560544217687074,
+      "source_seconds": 2.8560544217687074,
+      "source_file_sha256": "92043615de6c5f3371301b7ed7407321cc6da812bf7f9c35b112994aa20365f2",
+      "file_sha256": "a569524457e6e359f3745566e61755ce00c9dc3f3a9cca07ed71fab56aa74682",
+      "bytes": 23658,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

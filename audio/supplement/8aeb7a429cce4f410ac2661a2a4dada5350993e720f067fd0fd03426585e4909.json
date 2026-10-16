@@ -1,0 +1,30 @@
+{
+  "text": "à côté de qui",
+  "text_sha256": "8aeb7a429cce4f410ac2661a2a4dada5350993e720f067fd0fd03426585e4909",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2770975056689342,
+      "source_seconds": 1.2770975056689342,
+      "source_file_sha256": "d1e7f178250f73153120bb924f7dc3f2c87da738cdc3dafcc975ac35e23ce40f",
+      "file_sha256": "2cf426e9114a5380d7f92aee6e42daa747509e889e9b3760a2a2d6694e700ed2",
+      "bytes": 10910,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

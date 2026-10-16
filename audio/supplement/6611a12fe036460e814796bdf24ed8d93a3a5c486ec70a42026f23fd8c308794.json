@@ -1,0 +1,30 @@
+{
+  "text": "C'est une réunion très fatigante.",
+  "text_sha256": "6611a12fe036460e814796bdf24ed8d93a3a5c486ec70a42026f23fd8c308794",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9388662131519274,
+      "source_seconds": 1.9388662131519274,
+      "source_file_sha256": "f82288f0ff3410963976cfe39fe34a190d14207f05d5f5dfb86aa18a38ed5c13",
+      "file_sha256": "2ff7c5d989b51010b661da9f1173fdac495d383fc48cb7db5836b64b18390cdd",
+      "bytes": 16344,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

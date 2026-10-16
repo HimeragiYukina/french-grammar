@@ -1,0 +1,30 @@
+{
+  "text": "Je préfère la nôtre à la vôtre",
+  "text_sha256": "6b49dae939fe2584d246ac2fc1aa4d58773205555c0367bd24b7fb3f522d5387",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.822766439909297,
+      "source_seconds": 1.822766439909297,
+      "source_file_sha256": "9c9eb2dce852163b866e0c06bd9aa714630a6a5e884f16d250ed9d2eda417df2",
+      "file_sha256": "dcbca4c7b993793f560b520c9f78dc86282ed035f14d862939e4d393f6084e62",
+      "bytes": 15299,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

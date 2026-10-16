@@ -1,0 +1,30 @@
+{
+  "text": "Tu prendras le train de neuf heures.",
+  "text_sha256": "dadac4a7b6fbe3e2c896c0738b84a35f479dcc708982277afeb93b0f70b0cc19",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5905668934240362,
+      "source_seconds": 1.5905668934240362,
+      "source_file_sha256": "e7aa3ae7f8387eacecc865309441bc8bd5074670f5177723bda70f812501e4c6",
+      "file_sha256": "c4308508c5e93843e9f16f3d4a4f6edb550c2a263e8efafc52a002068404398e",
+      "bytes": 13418,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

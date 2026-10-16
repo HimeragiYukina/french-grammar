@@ -1,0 +1,30 @@
+{
+  "text": "Je viens de partir",
+  "text_sha256": "f3e9a932e59f63e1d93cdd51f34b350cbfef8ac66a353a75cc6d4dee5f1635d0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3003174603174603,
+      "source_seconds": 1.3003174603174603,
+      "source_file_sha256": "c058c52d93fe72b038adc7ed309a7c0a6ea5a10ee675c851c85e81e510e464b4",
+      "file_sha256": "cb0a1d6d807014a86a4745767435466bcb78ca8d9e86ba228b905b9aa1112d5d",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Elle joue de la flûte dans un orchestre.",
+  "text_sha256": "84970558faaf01b7497fb3f9419f1ffa0578d77d631c5ada8294107486d2f30f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0085260770975055,
+      "source_seconds": 2.0085260770975055,
+      "source_file_sha256": "a30da7ae1e305a7d0e011236073d2ac23dae0a03a6af949f09410043a30b62f3",
+      "file_sha256": "69cde7bd0b730046d2a3694de6fda1e7c8f30d265dd5cc4708e12e9d0dcf0ae8",
+      "bytes": 16762,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

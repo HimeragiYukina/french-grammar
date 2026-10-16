@@ -1,0 +1,30 @@
+{
+  "text": "Je te manque",
+  "text_sha256": "974dacdec5dc810f25019dc9cd4e793b4b59d470dad0e978dfb8fb74d12bfd40",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8475283446712019,
+      "source_seconds": 0.8475283446712019,
+      "source_file_sha256": "a0ac170e0be65e1322cc5a2deb2c619c8a79b8d21bb5d1f6f33f55ed1354caea",
+      "file_sha256": "0b14c593f82d2279a3f248cc6736ccbc6911ff146ce065571607c48d63072fe6",
+      "bytes": 7567,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

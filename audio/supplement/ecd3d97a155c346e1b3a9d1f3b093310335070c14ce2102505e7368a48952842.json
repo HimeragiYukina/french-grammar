@@ -1,0 +1,30 @@
+{
+  "text": "Il fut le premier qui arriva",
+  "text_sha256": "ecd3d97a155c346e1b3a9d1f3b093310335070c14ce2102505e7368a48952842",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9156462585034013,
+      "source_seconds": 1.9156462585034013,
+      "source_file_sha256": "0eba33128dde5eee29fe623365f6145c129374847e4fb91dc792f42d483bc44d",
+      "file_sha256": "adbe4b3ab3991ae464ac114f629497b771e28b0316fdcb890c7abd7efa37d9aa",
+      "bytes": 16135,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

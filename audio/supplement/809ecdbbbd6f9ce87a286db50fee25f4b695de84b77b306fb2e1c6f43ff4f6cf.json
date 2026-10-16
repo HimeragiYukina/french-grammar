@@ -1,0 +1,30 @@
+{
+  "text": "Concordance des temps",
+  "text_sha256": "809ecdbbbd6f9ce87a286db50fee25f4b695de84b77b306fb2e1c6f43ff4f6cf",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3119274376417234,
+      "source_seconds": 1.3119274376417234,
+      "source_file_sha256": "0c195c982971e2a48635ad4656b68e46cf58849b4d7387c57091c3b78e740228",
+      "file_sha256": "c0b9bc0d80f7e51c466f9472a1e287e6eb09381cd806ac45467285820b3da11e",
+      "bytes": 11328,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Si j’avais connu ce risque, je ne serais pas partie.",
+  "text_sha256": "d7664b058e7c81f725bc404646bd51900b3b178b3dc36663c0e34dd8549eb713",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5309750566893423,
+      "source_seconds": 2.5309750566893423,
+      "source_file_sha256": "021b463281b733abbca66e9fe36f2c7148446daf9fc824c73f0d69a1bd8a7fc7",
+      "file_sha256": "aaa0058cdd41dcfa135812fc01ba072f95692108b273c54ebdbee44888692157",
+      "bytes": 20941,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "appelle-moi.",
+  "text_sha256": "f1a6ca68ca30e9ab79693e3ce0b6920dd35a34e10eb1f49f24a3e57fb677aa89",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9752380952380952,
+      "source_seconds": 0.9752380952380952,
+      "source_file_sha256": "b05a8ba05475d928f360d814a2a542b7b3d97df5f49ef30b9de6cd310634a4db",
+      "file_sha256": "00de8d60a9dec7dce57021ef9c37f26ef2520c512e96513ef2f46e40263310bc",
+      "bytes": 8612,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

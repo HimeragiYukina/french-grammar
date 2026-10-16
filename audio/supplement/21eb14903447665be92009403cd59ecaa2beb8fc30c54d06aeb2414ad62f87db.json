@@ -1,0 +1,30 @@
+{
+  "text": "Pourriez-vous me dire combien de temps dure le rendez-vous ?",
+  "text_sha256": "21eb14903447665be92009403cd59ecaa2beb8fc30c54d06aeb2414ad62f87db",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7399546485260773,
+      "source_seconds": 2.7399546485260773,
+      "source_file_sha256": "20c84e2f87cd4a883add6d585a1e8acda8a5616776cc9b1a8219b0ff5391cada",
+      "file_sha256": "5ab263349060da7dc92a3d44e056dd6c0cf561e46e5bd70647f064f2189a6574",
+      "bytes": 22613,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

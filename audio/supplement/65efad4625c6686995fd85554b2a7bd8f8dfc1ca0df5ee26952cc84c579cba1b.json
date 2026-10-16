@@ -1,0 +1,30 @@
+{
+  "text": "Je veux un café",
+  "text_sha256": "65efad4625c6686995fd85554b2a7bd8f8dfc1ca0df5ee26952cc84c579cba1b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2654875283446712,
+      "source_seconds": 1.2654875283446712,
+      "source_file_sha256": "3f6a30f3cbcf21d89f5e4e138b41ec567c6aa8b4fa65410cc975d5751a70631c",
+      "file_sha256": "477605c7ee96a8ff7c01d7eb9ebdb727e2424afaf0e2f51f0fba0fb5f7284fde",
+      "bytes": 10910,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

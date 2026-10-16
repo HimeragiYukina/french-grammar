@@ -1,0 +1,30 @@
+{
+  "text": "Sans doute a-t-elle oublié le rendez-vous",
+  "text_sha256": "b87b9f1e959c32b2c8b8513d08673fd4d4148a568f0e3684821f9aae5ddb347f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8808163265306121,
+      "source_seconds": 1.8808163265306121,
+      "source_file_sha256": "08c2cd5727de517e234e60a29f55914fd9c63685168ad753deccdfea3d6d23e4",
+      "file_sha256": "ab961337b56f535fb5276a7a9f55e148b2ab812e3ccd9cd15285bd4f89812738",
+      "bytes": 15717,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

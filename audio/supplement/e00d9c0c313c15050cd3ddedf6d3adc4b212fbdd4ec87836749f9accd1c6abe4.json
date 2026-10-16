@@ -1,0 +1,30 @@
+{
+  "text": "Je les trouve trop chers, ces billets.",
+  "text_sha256": "e00d9c0c313c15050cd3ddedf6d3adc4b212fbdd4ec87836749f9accd1c6abe4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2987755102040817,
+      "source_seconds": 2.2987755102040817,
+      "source_file_sha256": "c90c9a94949129f941be9de8d630eab7d72a6c57e689cb8c66a39ec6ba39ebda",
+      "file_sha256": "22abd434ce6b57662b6c7d62556bde26fcfa1a94d84049810b54f54824d63c52",
+      "bytes": 19061,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

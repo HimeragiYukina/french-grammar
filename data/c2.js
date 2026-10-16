@@ -793,7 +793,20 @@ window.GRAMMAR_DATA.C2={
       ],
       "comparison": "Dès qu'il eut terminé, il sortit（文学叙事）→ Dès qu'il a terminé, il est sorti（日常叙述，时间连词已说明先后）。Il avait terminé quand je suis arrivé 用愈过去时交代到达之前已有的结果或背景，不强调两事立即衔接。不能把每个先过去时机械改成愈过去时。",
       "errors": "× Quand elle eut partie → ✓ Quand elle fut partie：partir 用 être。× Dès qu'elles furent arrivé → ✓ furent arrivées。Quand il eut terminé 只说“完成了”，没有上下文不能擅自译成“一写完”。",
-      "boundaries": "主要用于文学、历史叙事；日常交流用复合过去时等自然表达。先过去时表达完成与先行，立即相接常由 dès que / à peine 等连词强化，不应把“刚完成”当作所有例句的唯一意义。"
+      "boundaries": "主要用于文学、历史叙事；日常交流用复合过去时等自然表达。先过去时表达完成与先行，立即相接常由 dès que / à peine 等连词强化，不应把“刚完成”当作所有例句的唯一意义。",
+      "related": [],
+      "practice": [
+        {
+          "q": "文学叙事改日常转述，保留先后但不用文学时态：Lorsque les visiteurs furent partis, la gardienne éteignit les lumières. 再说明能否据此断言她一秒也没等。",
+          "a": "Lorsque les visiteurs sont partis, la gardienne a éteint les lumières. La phrase indique l'ordre des événements, sans mesurer le délai entre eux.",
+          "note": "动作顺序正确1分；partir用être且partis配合1分；主句复合过去时1分；不凭lorsque断言立即相接1分。也接受明确用après le départ等自然名词化改述。"
+        },
+        {
+          "q": "两种衔接各写一句：A人物读完信立刻离开，用à peine…que和文学时态；B叙述者到达时，人物早已读完信，用愈过去时。不得把B也写成紧接事件。",
+          "a": "À peine eut-elle lu la lettre qu'elle quitta la pièce. Quand je suis arrivé, elle avait déjà lu la lettre.",
+          "note": "A的eut-elle与quitta各1分；B保到达参照和avait lu各1分。A她的分词lu不因女性主语配合，avoir且la lettre在后；B读信早于到达，不给离开信息。"
+        }
+      ]
     },
     "c2-concordance-litteraire": {
       "sections": [
@@ -832,7 +845,20 @@ window.GRAMMAR_DATA.C2={
       ],
       "comparison": "Je voulais qu'il vînt → Je voulais qu'il vienne；Je doutais qu'il eût compris → Je doutais qu'il ait compris。现代现在虚拟式不表示主句一定在现在：它可承接过去主句。Il fut surpris 是直陈式简单过去时；qu'il fût surpris 是未完成过去虚拟式；qu'il eût été surpris 是愈过去虚拟式。",
       "errors": "× Je voulais qu'il vint → ✓ qu'il vînt：漏抑扬符会换成另一时态。× qu'elles fussent arrivé → ✓ fussent arrivées。不能把“日常用虚拟式现在时即可”当通用规则：先行的动作通常用虚拟式过去时明确表达；某些状态/被动表述也可能由上下文承载时间关系。",
-      "boundaries": "现代法语普遍采用现在/过去虚拟式，正式写作也不强制使用文学时态。文学虚拟式用于阅读识别和特定风格，不等于 C2 写作越多越好。eût + 分词在某些独立假设句中也可有条件式过去第二式的价值，需结合句法判断。"
+      "boundaries": "现代法语普遍采用现在/过去虚拟式，正式写作也不强制使用文学时态。文学虚拟式用于阅读识别和特定风格，不等于 C2 写作越多越好。eût + 分词在某些独立假设句中也可有条件式过去第二式的价值，需结合句法判断。",
+      "related": [],
+      "practice": [
+        {
+          "q": "编辑把Il regrettait qu'elle fût partie改成Il regrettait qu'elle parte。指出丢掉什么时间关系，并给自然现代版本。",
+          "a": "Il regrettait qu'elle soit partie. Le départ est présenté comme antérieur au regret ; parte ne conserve pas explicitement cette antériorité.",
+          "note": "识别fût partie为愈过去虚拟式1分；现代用soit partie且阴性配合1分；说明先行关系1分；不说虚拟式证明她未走1分。"
+        },
+        {
+          "q": "同一文学叙事中，A他希望她稍后来，B他怀疑她此前来过。分别用vînt和fût venue写句，再给现代对照。",
+          "a": "Il souhaitait qu'elle vînt le lendemain. Il doutait qu'elle fût venue la veille. Aujourd'hui : Il souhaitait qu'elle vienne le lendemain ; il doutait qu'elle soit venue la veille.",
+          "note": "两个文学形式各1分；来/已来时间对照1分；现代式与venue配合1分。vînt的抑扬符不能漏；“怀疑”不允许把B来访写成已证实事实。"
+        }
+      ]
     },
     "c2-concession-soutenue": {
       "sections": [
@@ -929,7 +955,20 @@ window.GRAMMAR_DATA.C2={
       ],
       "comparison": "Même s'il pleut, je sortirai 使用 si + 直陈式；Quand bien même il pleuvrait, je sortirais 使用条件式。Bien qu'il soit compétent, il hésite 是普通让步；Tout compétent qu'il est, il hésite 特别突出被承认的性质。N'était son aide, nous échouerions 表无帮助的条件，不是“尽管有帮助”。",
       "errors": "× Quand bien même il pleuve → 学习者优先 ✓ quand bien même il pleuvrait。× Tout courageuse qu'elle est → ✓ Toute courageuse qu'elle est。不要把 pour autant que je sache 译为“无论如何”，也不要断言 tout…que 只能直陈式。",
-      "boundaries": "这些结构大多偏书面，日常用 même si / bien que / sans 更自然。pour autant que 的具体式选择有语义差异；固定知识保留短语优先学虚拟式。tout 与元音起始阴性形容词通常不配合：tout étonnée qu'elle est。"
+      "boundaries": "这些结构大多偏书面，日常用 même si / bien que / sans 更自然。pour autant que 的具体式选择有语义差异；固定知识保留短语优先学虚拟式。tout 与元音起始阴性形容词通常不配合：tout étonnée qu'elle est。",
+      "related": [],
+      "practice": [
+        {
+          "q": "项目经理说：即便合作方当时提前告知，我也不可能按期完工。用quand bien même改写；与Sans son appel, je serais restée au bureau比较，哪个表达让步、哪个表达条件？",
+          "a": "Quand bien même le partenaire m'aurait prévenue, je n'aurais pas pu terminer à temps. La première phrase est concessive ; la seconde présente l'absence de l'appel comme condition d'un autre résultat.",
+          "note": "两处条件式过去各1分；女性叙述者prévenue配合1分；让步与条件区分1分。也可设男性叙述者prévenu，但须前后一致。不能把“即便”改“若非”。"
+        },
+        {
+          "q": "将Elle est très compétente, mais elle ne peut pas travailler seule改成tout…que结构，任选直陈或虚拟；解释是否能把soit判为错误。",
+          "a": "Toute compétente qu'elle soit, elle ne peut pas travailler seule. On peut aussi écrire Toute compétente qu'elle est. Le subjonctif est possible ; l'indicatif présente plus directement la compétence comme admise.",
+          "note": "toute因compétente辅音起始阴性配合1分；结构完整1分；接受两式1分；不把soit解释成她无能力1分。"
+        }
+      ]
     },
     "c2-subj-fin": {
       "sections": [
@@ -1036,7 +1075,20 @@ window.GRAMMAR_DATA.C2={
       ],
       "comparison": "Je cherche quelqu'un qui sache réparer cela（寻找尚未识别的人）/ Je connais quelqu'un qui sait réparer cela（已知实际存在）。C'est le seul qui puisse nous aider 强调选择与能力；C'est le seul qui nous a aidés 确认帮助过我们的事实。",
       "errors": "× De sorte que 就一定虚拟式 → 看目的还是结果。× Le fait qu'il soit venu 就意味着没来 → 虚拟式表达语法与评价，不单独决定真假。× le premier qui 必用虚拟式 → Il fut le premier qui arriva 叙述真实先后可以直陈。",
-      "boundaries": "虚拟式的“主观性”是教学概括，不可直接推导真假。non que 与否定原因章节共用规则，本章聚焦式的选择。最高级后的式有表达角度差异，不应把符合语境的直陈式判错。"
+      "boundaries": "虚拟式的“主观性”是教学概括，不可直接推导真假。non que 与否定原因章节共用规则，本章聚焦式的选择。最高级后的式有表达角度差异，不应把符合语境的直陈式判错。",
+      "related": [],
+      "practice": [
+        {
+          "q": "为麦克风写两句：A请调整位置，以便全场能听见；B他调过位置，结果全场能听见。都用de sorte que，并说明式选择依据。",
+          "a": "Réglez le micro de sorte que tout le monde puisse vous entendre. Il a réglé le micro, de sorte que tout le monde pouvait l'entendre. La première phrase vise un but ; la seconde présente un résultat.",
+          "note": "目的puisse1分；结果直陈pouvait或a pu1分；人称宾语对应1分；不把目的已实现当事实1分。"
+        },
+        {
+          "q": "纠正编辑的绝对规则“le fait que后必虚拟，le premier后也必虚拟”。以已知他那天缺席、已知Paul今天第一个到为情境，各写一句反例并解释。",
+          "a": "Vous oubliez le fait qu'il était absent ce jour-là. Paul est le premier candidat qui est arrivé ce matin. L'indicatif peut présenter des faits identifiés ; ces expressions ne déclenchent pas mécaniquement le subjonctif.",
+          "note": "两个直陈实例各1分；说明确认事实的表达角度1分；不反向宣称虚拟式一律错1分。也接受le premier à être arrivé，自然正确但须另给关系从句以展示该规则。"
+        }
+      ]
     },
     "c2-accord-extreme": {
       "sections": [
@@ -1127,7 +1179,20 @@ window.GRAMMAR_DATA.C2={
       ],
       "comparison": "Elles se sont parlé（parler à，间接）/ Elles se sont regardées（regarder quelqu'un，直接）。Les quatre kilos que le bébé a pesé à la naissance（出生体重数量）/ Les colis qu'il a pesés（称了包裹，真正宾语）。ci-joint les pièces（句首不变）/ les pièces ci-jointes（后置配合）。",
       "errors": "× Elles se sont succédées → ✓ succédé。× Les épreuves qu'elle a vécu → ✓ vécues。“ci-joint 前置一律不配合”是过度简化：Vous trouverez ci-jointe la facture 同样规范。",
-      "boundaries": "此处的关键不是动词是否“本义”，而是数量补语、直接/间接宾语、词性与位置。配合存在规范细节，商务写作若犹豫可用 vous trouverez les pièces jointes 或 voici les pièces jointes 避免歧义。"
+      "boundaries": "此处的关键不是动词是否“本义”，而是数量补语、直接/间接宾语、词性与位置。配合存在规范细节，商务写作若犹豫可用 vous trouverez les pièces jointes 或 voici les pièces jointes 避免歧义。",
+      "related": [],
+      "practice": [
+        {
+          "q": "审校商务邮件：Les candidates se sont succédées. Les remarques qu'elles se sont dit sont utiles. 改正两处并分别指出se与前置名词的作用。",
+          "a": "Les candidates se sont succédé. Les remarques qu'elles se sont dites sont utiles. Se est indirect dans les deux phrases ; dans la seconde, remarques est un complément direct placé avant le participe.",
+          "note": "succédé1分；dites1分；两处se为COI1分；前置COD remarques解释1分。不能据être一律配合或se为COI一律不配合。"
+        },
+        {
+          "q": "下面两项数值与宾语不要按“都在que前”机械配合：Les dix kilomètres qu'elle a couru l'ont fatiguée. Les distances qu'elle a mesuré étaient exactes. 校改并解释。",
+          "a": "Les dix kilomètres qu'elle a couru l'ont fatiguée. Les distances qu'elle a mesurées étaient exactes. Dix kilomètres exprime ici la quantité parcourue ; distances est le complément direct de mesurer.",
+          "note": "第一句couru不变1分；第二句mesurées1分；数量补语与COD区分1分；fatiguée保留女性宾语配合1分。不要把所有具体距离名词都一律归数量补语，须看动词意义。"
+        }
+      ]
     },
     "c2-inversion-style": {
       "sections": [
@@ -1182,7 +1247,20 @@ window.GRAMMAR_DATA.C2={
       ],
       "comparison": "La mer s'étendait au loin 普通主语起句；Au loin s'étendait la mer 用地点引导画面。la ville où elle vivait 保持代词主语前置；la ville où vivait sa sœur 可后置名词主语。Viendra-t-elle ? 是提问；« Je viendrai », dit-elle 是插入陈述。",
       "errors": "× ajouta-elle → ✓ ajouta-t-elle。× répondit-t-elle → ✓ répondit-elle：动词末尾已有 t，不重复。× Au loin s'étendait ils → ✓ Au loin, ils s'étendaient：普通人称代词不能照搬名词后置。",
-      "boundaries": "书面风格倒装有信息结构和节奏条件，不由“状语在句首”自动强制。长动词短语、双宾语结构等可能造成不自然或歧义；保留正常语序始终是可用的表达。"
+      "boundaries": "书面风格倒装有信息结构和节奏条件，不由“状语在句首”自动强制。长动词短语、双宾语结构等可能造成不自然或歧义；保留正常语序始终是可用的表达。",
+      "related": [],
+      "practice": [
+        {
+          "q": "给小说作最少编辑：« Je vous attendrai », ajouta-elle. Au fond de la cour se trouvaient ils. 前句修倒装，后句恢复自然代词语序。",
+          "a": "« Je vous attendrai », ajouta-t-elle. Ils se trouvaient au fond de la cour.",
+          "note": "ajouta-t-elle1分；ils在动词前且trouvaient配复数1分；不把名词后置规则套代词1分；说明插入语不是疑问1分。后句也接受Au fond de la cour, ils attendaient，但属语义改写，不是最少校改。"
+        },
+        {
+          "q": "面向读者先建立场景，把Une longue file attendait devant le théâtre改为地点在前、名词主语后置；再说明普通顺序是否错误。",
+          "a": "Devant le théâtre attendait une longue file. L'ordre initial reste correct ; la postposition sert ici à présenter le cadre avant le groupe qui l'occupe.",
+          "note": "后置名词完整1分；attendait与file单数配合1分；信息结构解释1分；承认普通语序正确1分。也接受se formait但须注明改变了动作意义。"
+        }
+      ]
     },
     "c2-ellipse": {
       "sections": [
@@ -1237,7 +1315,20 @@ window.GRAMMAR_DATA.C2={
       ],
       "comparison": "Marie préfère le thé ; Paul, le café 是动词省略。Il arrive, il voit, il comprend 是无连词并置，动词都保留。Le ministre a démissionné → Démission du ministre 是名词化，也会失去原句明确时态。",
       "errors": "把 asyndète 译成“并列省略动词”不准确，应为无连词并置。Les uns riaient ; les autres, en larmes 只能补“étaient en larmes”等状态，不能机械恢复为“pleuraient en larmes”，两者并不完全等义。",
-      "boundaries": "省略广泛存在于口语、标题、文学，不是 C2 独有。名词化会隐藏主语、时间、原因关系；合同、说明书等要求明确时应保留必需信息。"
+      "boundaries": "省略广泛存在于口语、标题、文学，不是 C2 独有。名词化会隐藏主语、时间、原因关系；合同、说明书等要求明确时应保留必需信息。",
+      "related": [],
+      "practice": [
+        {
+          "q": "把Marie vérifie les dates ; Paul vérifie les montants压缩为动词省略，再说明能否同法把Marie rit ; Paul est en larmes直接省成Paul, rit。",
+          "a": "Marie vérifie les dates ; Paul, les montants. Dans l'autre exemple, les prédicats diffèrent ; il faut conserver ou rendre récupérable est en larmes, et non attribuer rit à Paul.",
+          "note": "省略vérifie且保对象1分；区别不同谓词1分；不编造Paul笑1分；逗号与可复原关系解释1分。"
+        },
+        {
+          "q": "标题Fermeture du pont : circulation interrompue。写给现场工作人员的完整通知句，不凭标题补关闭原因、时长或决定者；再说标题失去了什么信息。",
+          "a": "Le pont est fermé et la circulation est interrompue. Le titre ne précise ni la cause, ni la durée, ni l'autorité qui a décidé la fermeture.",
+          "note": "两项状态保留各1分；不虚构因果细节1分；指出名词化时态/施事信息减少1分。也可用冒号保解释关系，但不能自行加pour travaux。"
+        }
+      ]
     },
     "c2-conjecture": {
       "sections": [
@@ -1476,7 +1567,20 @@ window.GRAMMAR_DATA.C2={
       ],
       "comparison": "Je pense à lui → Je pense à lui，不能套成 je lui pense；Je tiens à lui 同样保留重读形式。Tu me manques（我想你）/ Je te manque（你想我）。Ce roman traite de l'exil / Dans ce roman, il s'agit de l'exil 都正确；× Ce roman s'agit de… 不正确。",
       "errors": "× Je manque toi → ✓ Tu me manques（表达我想你）。× Elle s'agit de ce problème → ✓ Il s'agit de ce problème。× Je lui veux de son retard → ✓ Je lui en veux de son retard。× jouer de tennis → ✓ jouer au tennis。",
-      "boundaries": "同一动词的介词支配随词义变化，不能从中文介词推导。表示演奏某件乐器，基础标准搭配用 jouer de（jouer du piano）；jouer + 直接宾语还可指演奏某作品（jouer une sonate）或扮演角色（jouer Hamlet），不能只看宾语外形选介词。manquer le train 是没赶上火车，manquer de courage 是缺勇气，结构与词义一并记。"
+      "boundaries": "同一动词的介词支配随词义变化，不能从中文介词推导。表示演奏某件乐器，基础标准搭配用 jouer de（jouer du piano）；jouer + 直接宾语还可指演奏某作品（jouer une sonate）或扮演角色（jouer Hamlet），不能只看宾语外形选介词。manquer le train 是没赶上火车，manquer de courage 是缺勇气，结构与词义一并记。",
+      "related": [],
+      "practice": [
+        {
+          "q": "离开后“我想念朋友们”，但“他们不想念我”。用manquer写两句并明确谁是主语、谁体验想念。",
+          "a": "Mes amis me manquent depuis mon départ, mais je ne leur manque pas. Mes amis est sujet de la première proposition ; je est sujet de la seconde. Me et leur désignent ceux qui éprouvent le manque.",
+          "note": "manquent复数1分；je ne leur manque pas1分；体验者解释1分；depuis与持续现在相容1分。不能写Je manque mes amis。"
+        },
+        {
+          "q": "编辑了错误搭配：Ce chapitre s'agit de l'exil. Je lui tiens beaucoup parce qu'il m'a aidée. 若说的是“本章涉及流亡；我很在乎他”，请改正。",
+          "a": "Dans ce chapitre, il s'agit de l'exil. Je tiens beaucoup à lui parce qu'il m'a aidée.",
+          "note": "il非人称1分；Dans ce chapitre保主题1分；tenir à lui不用lui tenir1分；a aidée保女性直接宾语配合1分。若用Ce chapitre traite de l’exil同样可接受。"
+        }
+      ]
     },
     "c2-cause-niee": {
       "sections": [
@@ -1531,7 +1635,20 @@ window.GRAMMAR_DATA.C2={
       ],
       "comparison": "Il refuse parce qu'il est malade 断言病是原因；Il refuse, non qu'il soit malade, mais parce qu'il est fatigué 排除病作为解释。Non parce qu'il est malade, mais parce qu'il est fatigué 中 parce que 保持直陈式，与 non que 的支配不同。",
       "errors": "× non qu'il est timide → 学习者用 ✓ non qu'il soit timide。不要把 Ce n'est pas qu'elle n'ait pas essayé 译成“她没试过”；外层否定恰好否认这种解释。non pas que 不要求另添赘词 ne。",
-      "boundaries": "non que 可以排除因果，而不一定否定从句事实本身：一个人可能真生病，但作者说这不是拒绝的原因。ce n'est pas tant…que… 表权重修正，不可译成完全否定第一因素。"
+      "boundaries": "non que 可以排除因果，而不一定否定从句事实本身：一个人可能真生病，但作者说这不是拒绝的原因。ce n'est pas tant…que… 表权重修正，不可译成完全否定第一因素。",
+      "related": [],
+      "practice": [
+        {
+          "q": "她因时间不足拒绝，尽管价格确实高。用non que排除“价格”作为拒绝原因，同时保留价格高的事实；别把原因否定误写成事实否定。",
+          "a": "Elle refuse, non que le prix soit trop élevé — il l'est effectivement —, mais parce qu'elle manque de temps.",
+          "note": "non que+soit1分；mais parce que+直陈1分；明确价格高但非所给原因1分；事件拒绝不被否定1分。标点可另作两句。"
+        },
+        {
+          "q": "原话承认价格有影响，但更在意无担保。把“Ce n'est pas le prix qui me gêne”改成不完全排除价格的说法，并解释权重。",
+          "a": "Ce n'est pas tant le prix qui me gêne que le manque de garanties. Le prix peut jouer un rôle, mais le manque de garanties est présenté comme le facteur principal.",
+          "note": "pas tant…que完整1分；两个比较对象平行1分；不否定价格作用1分；明确后一因素更重要1分。也接受moins…que结构。"
+        }
+      ]
     },
     "c2-cohesion": {
       "sections": [
@@ -1604,8 +1721,8 @@ window.GRAMMAR_DATA.C2={
           "explanation": "表示“在当前这个具体情形中”，可以从一般规律转入个案，也可指明当下所涉及的对象。不是单纯“例如”。",
           "examples": [
             {
-              "fr": "En général, il faut réserver ; en l'occurrence, il reste des places.",
-              "zh": "通常需要预订；但当前这个情况还有空位。",
+              "fr": "En général, la salle est complète ; en l'occurrence, il reste des places.",
+              "zh": "通常场地满座；不过这一次还有空位。",
               "use": "一般规则与具体个案区分。"
             },
             {
@@ -1785,7 +1902,20 @@ window.GRAMMAR_DATA.C2={
       ],
       "comparison": "Combien de livres as-tu lus ? 是数量问题，疑问倒装；Que de livres tu as lus ! 是数量感叹，陈述语序。Il est plus grand que je ne pensais（比我以为的高）/ Il est plus grand que je ne le pensais pas 会加入真正否定或导致不自然意义，不能把 pas 当赘词附上。",
       "errors": "× Que des souvenirs ! → 此固定感叹用 ✓ Que de souvenirs !。× Comme est-il gentil ! → 普通感叹 ✓ Comme il est gentil !。原句 Combien je regrette ces années passées 可能表达对那些岁月的遗憾/惋惜，不能脱离语境唯一译成“怀念”。",
-      "boundaries": "Que ne… 偏古典文学，日常多用 Si seulement… / Pourquoi n'as-tu pas…。赘词 ne 是可选的书面成分，不宜在所有比较、等量比较或真实否定中机械加入。现代学习者不用它也能表达同样比较。"
+      "boundaries": "Que ne… 偏古典文学，日常多用 Si seulement… / Pourquoi n'as-tu pas…。赘词 ne 是可选的书面成分，不宜在所有比较、等量比较或真实否定中机械加入。现代学习者不用它也能表达同样比较。",
+      "related": [],
+      "practice": [
+        {
+          "q": "“我们没料到修复需要这么多耐心！”用Que de…感叹；再把“你真该早点提醒她”改为文学Que ne…倒装。",
+          "a": "Que de patience il faut pour cette restauration ! Que ne l'as-tu avertie plus tôt !",
+          "note": "Que de+patience不加冠词1分；感叹陈述序1分；Que ne+l’as-tu1分；l’指女性故avertie配合1分。若改vous也可，但语域人称须一致。"
+        },
+        {
+          "q": "报告写Le résultat est moins stable que nous ne le pensions。译文把它写成“比我们不以为的更不稳定”。给正常中文，并说明删ne、加pas各会怎样。",
+          "a": "Le résultat est moins stable que nous le pensions.",
+          "note": "结果没有我们原先以为的那么稳定。Le résultat est moins stable que nous le pensions. Ne可省且比较意义不变；不能把pas作为同样无意义的附加词。 正确比较方向1分；ne赘词不否定pensions1分；删ne同义1分；pas会加入真实否定或造成不自然结构1分。不从此句推断结果绝对不稳定。"
+        }
+      ]
     }
   },
   "contexts": [],

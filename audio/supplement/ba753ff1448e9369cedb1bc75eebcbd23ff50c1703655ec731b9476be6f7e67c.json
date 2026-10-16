@@ -1,0 +1,30 @@
+{
+  "text": "Il faut que tu prennes ce médicament après le repas.",
+  "text_sha256": "ba753ff1448e9369cedb1bc75eebcbd23ff50c1703655ec731b9476be6f7e67c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.995374149659864,
+      "source_seconds": 2.995374149659864,
+      "source_file_sha256": "4d5596670590fb443184196bbea7fee9c096b13609f19641b5f05bf92feac284",
+      "file_sha256": "e876a58f73ff0cd505a13a35a17bb701482c9a62e7245ca1e78d4137408fc41f",
+      "bytes": 24703,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

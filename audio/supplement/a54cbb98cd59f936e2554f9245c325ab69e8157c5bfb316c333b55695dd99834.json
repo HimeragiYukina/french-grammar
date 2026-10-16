@@ -1,0 +1,30 @@
+{
+  "text": "Je vais ___ la gare ___ mon frère. (",
+  "text_sha256": "a54cbb98cd59f936e2554f9245c325ab69e8157c5bfb316c333b55695dd99834",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.474467120181406,
+      "source_seconds": 1.474467120181406,
+      "source_file_sha256": "08beaaa0f6c6b275c5888638db0ed998fb0de834186a0fd0a2e7016b0cb99c55",
+      "file_sha256": "b6f8574a3251ab1361d00a4b1d459b59fc594c89563237222da9c51c33b100b7",
+      "bytes": 12582,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

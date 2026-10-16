@@ -1,0 +1,30 @@
+{
+  "text": "Ma voiture est petite",
+  "text_sha256": "f8ff3fd2056ca0862e205174277e7f2cd5ccf865f01ef87d4b3b35e8230d60b9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4164172335600906,
+      "source_seconds": 1.4164172335600906,
+      "source_file_sha256": "c6825fcce044d28d3202c3dd9629a11b6b8141697bdb8797cfbf9bd804eb01d8",
+      "file_sha256": "955f326c6621ef67169a093c6519cd239af7aaa0895f503fc5d846a5ce497117",
+      "bytes": 12164,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

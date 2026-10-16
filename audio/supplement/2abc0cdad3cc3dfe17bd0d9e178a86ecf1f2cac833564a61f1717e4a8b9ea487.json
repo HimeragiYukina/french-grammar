@@ -1,0 +1,30 @@
+{
+  "text": "Je parle de lui",
+  "text_sha256": "2abc0cdad3cc3dfe17bd0d9e178a86ecf1f2cac833564a61f1717e4a8b9ea487",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1377777777777778,
+      "source_seconds": 1.1377777777777778,
+      "source_file_sha256": "53e1b5a2fda78d525e082eb863c51910244f2cf7a0026070d7c00a72b77576ef",
+      "file_sha256": "d00ba36cf3d23c1c181513f9eeff7efd5d672fba7e3d153172dbcb9a47c5ff06",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

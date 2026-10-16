@@ -1,0 +1,30 @@
+{
+  "text": "Bien qu'il fût tard, personne ne partit.",
+  "text_sha256": "ae7ae1a7513f3f0d79558a74e4fbbce64d1552e8c0d7655848a954a825dd41d3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.461315192743764,
+      "source_seconds": 2.461315192743764,
+      "source_file_sha256": "7e3fa10cd615a17e7a56b0de46fa94c828fc7e8d07adabf7bc51e02bd283f4b5",
+      "file_sha256": "1b9c9175a72bc4b3d46fc995d3fc20bde6ebe9d5d69a2ad1b22bdc0ba7b39cee",
+      "bytes": 20524,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Choisissez la bonne forme (fût ou fut ?) : Bien qu'il ___ (être) tard, personne ne partit.",
+  "text_sha256": "0aca9372167a78d1f313b65cc56405a7804bb5214b7d061d46d1bf612f82a614",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.446621315192743,
+      "source_seconds": 4.446621315192743,
+      "source_file_sha256": "15e6ba053a425135542c3a007ec5b7db80c53af085ff3b1dffef774cf807e01b",
+      "file_sha256": "0e385bd6f00f6d587e87358bd44626e15685577632fd224f6562353003c0c90b",
+      "bytes": 36406,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

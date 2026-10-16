@@ -1,0 +1,30 @@
+{
+  "text": "Provoquant ses adversaires, elle compliqua le débat.",
+  "text_sha256": "40057e0416b9ae70e52d177a5c39c11921deb3f12c5cb40b2965670a9c1c7dd3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.006984126984127,
+      "source_seconds": 3.006984126984127,
+      "source_file_sha256": "64c7f2b6b24389198c6d86c91b6755a7f6ecdf2ce6aec9f30a28c02457d29493",
+      "file_sha256": "7c68eea893d66e95182a09bed49d6966d45eb930cf7d42a16b7475327b34c426",
+      "bytes": 24912,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

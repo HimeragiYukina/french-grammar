@@ -1,0 +1,30 @@
+{
+  "text": "Elle me demande de ne rien promettre.",
+  "text_sha256": "b88342474b24ae1532f79dfc58bceb2fd2edafb873b447d92a05a29a1d825a83",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9156462585034013,
+      "source_seconds": 1.9156462585034013,
+      "source_file_sha256": "d394eb1d8844497d78d1df80118ac6f926a05c4271653eea9d9ae1738f5a58cd",
+      "file_sha256": "4fedd73b92a1727d200978f9d69773fdfd93837d1700bcc641e2866a2c78976e",
+      "bytes": 16135,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

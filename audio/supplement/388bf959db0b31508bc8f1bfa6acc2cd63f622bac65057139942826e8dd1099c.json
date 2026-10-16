@@ -1,0 +1,30 @@
+{
+  "text": "Ce n'est pas tant le prix qui me gêne que le manque de garanties.",
+  "text_sha256": "388bf959db0b31508bc8f1bfa6acc2cd63f622bac65057139942826e8dd1099c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7631746031746034,
+      "source_seconds": 2.7631746031746034,
+      "source_file_sha256": "05fb32167d9ae0c58150b63c96365e300b8f4bfdf9190cca455138e2b94a274d",
+      "file_sha256": "a58a817c13b3b46d4ac6086296d61631748a2fa254c7a064e3d2d060962d8c8f",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

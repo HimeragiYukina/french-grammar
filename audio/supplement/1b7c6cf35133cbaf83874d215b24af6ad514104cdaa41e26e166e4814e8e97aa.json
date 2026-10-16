@@ -1,0 +1,30 @@
+{
+  "text": "C’est un restaurant italien.",
+  "text_sha256": "1b7c6cf35133cbaf83874d215b24af6ad514104cdaa41e26e166e4814e8e97aa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4164172335600906,
+      "source_seconds": 1.4164172335600906,
+      "source_file_sha256": "c1481d159c1af9688f06f17945730a09839ede58a9150af7e365b66d1fcbc4c0",
+      "file_sha256": "9c97fc3d45049c800c8b4ef6a6cd8ab1ee74efa5f01a8c548bcc48277f88ca29",
+      "bytes": 12164,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

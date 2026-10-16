@@ -1,0 +1,30 @@
+{
+  "text": "Il est plus grand que je ne pensais",
+  "text_sha256": "84a21e39b3ed02cd200b94b38371cf62bd37989540916f1886f9249c7ca4fd4d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.799546485260771,
+      "source_seconds": 1.799546485260771,
+      "source_file_sha256": "9f497f12baeb8e0e0b5deba17906a39ff56abde4c6d1162fd12f052ea764c02c",
+      "file_sha256": "f0e9e2b80f4fed27b78b0a305c76766532508bb035d38a718708fb395968ba96",
+      "bytes": 15090,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

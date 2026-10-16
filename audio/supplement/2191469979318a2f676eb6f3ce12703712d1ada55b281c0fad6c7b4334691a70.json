@@ -1,0 +1,30 @@
+{
+  "text": "Je mange un poulet",
+  "text_sha256": "2191469979318a2f676eb6f3ce12703712d1ada55b281c0fad6c7b4334691a70",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1029478458049886,
+      "source_seconds": 1.1029478458049886,
+      "source_file_sha256": "53ce7b7157a34bb69988f19274067ec5e7513740edbc7af03d45e5b5df6b1426",
+      "file_sha256": "bacf6d1aece95ce287ea3b27badd8849c6b1aa1d7691e1ca52fc577af48d9d37",
+      "bytes": 9657,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

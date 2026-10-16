@@ -1,0 +1,30 @@
+{
+  "text": "Tu restes chez toi ce week-end ? — Oui, j'___ reste.",
+  "text_sha256": "890c9932f13b8ab1f02a5708accb71273b38b08ac64582cca2cefc5e5f926ef0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.599092970521542,
+      "source_seconds": 3.599092970521542,
+      "source_file_sha256": "98bd2fca63fe6867b874e96836dce8a8cb3d94605cc88066e23e8deaff417726",
+      "file_sha256": "c6b23887871f4a0c22a754fb39abe0f3e73b0d9406eabb9d09d21272625aa3c6",
+      "bytes": 29510,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

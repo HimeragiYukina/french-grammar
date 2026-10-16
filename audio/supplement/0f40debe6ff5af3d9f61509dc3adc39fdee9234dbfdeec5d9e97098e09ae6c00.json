@@ -1,0 +1,30 @@
+{
+  "text": "Ce soir, on mange chez nous.",
+  "text_sha256": "0f40debe6ff5af3d9f61509dc3adc39fdee9234dbfdeec5d9e97098e09ae6c00",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6602267573696146,
+      "source_seconds": 1.6602267573696146,
+      "source_file_sha256": "399c924ba0673332e9740f077baf2a4da9c975209f1fe0c42dc34e0a4e61aab4",
+      "file_sha256": "a56908bc4e6237f4ec746f8ea22973ff7d56dbd4e687cefd5ed23b46667dc363",
+      "bytes": 14045,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

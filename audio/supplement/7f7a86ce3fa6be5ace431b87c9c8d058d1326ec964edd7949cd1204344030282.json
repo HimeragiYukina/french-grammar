@@ -1,0 +1,30 @@
+{
+  "text": "Il a ___ travail ___ moi. (= +,",
+  "text_sha256": "7f7a86ce3fa6be5ace431b87c9c8d058d1326ec964edd7949cd1204344030282",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8459863945578232,
+      "source_seconds": 1.8459863945578232,
+      "source_file_sha256": "e9c3fe0d1c3de2ebf27fa2d44ae9771ab696bff84fbf34bfb99d8de1a2aea5cd",
+      "file_sha256": "103ffa1a072c27ad5fee374460b85bb5a874d9d6c4cc0c8e355025ddf3421884",
+      "bytes": 15508,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

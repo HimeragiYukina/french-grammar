@@ -1,0 +1,30 @@
+{
+  "text": "Je suis rentré plus tôt parce que le dernier train partait à vingt heures.",
+  "text_sha256": "f1cdfa62cfac484bfe5667e96a3bcfc08f8101ecb09ff817ade4694fccd91e2a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.8080725623582765,
+      "source_seconds": 3.8080725623582765,
+      "source_file_sha256": "27c778a5355574a98efd20b06629c95c1da14928a0f3d7ff9fb926d86d6d56a2",
+      "file_sha256": "e375a3887c52a1806ac8e0e3c46612abf95f4f17cf74eb8dc28d9d75ee969f5e",
+      "bytes": 31181,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "La porte était ouverte : quelqu’un avait oublié de la fermer.",
+  "text_sha256": "9cdd73abbdebbb59e13540342eecf611764ee0df3253a3b54573ce6aa18be1de",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7035827664399092,
+      "source_seconds": 3.7035827664399092,
+      "source_file_sha256": "644d0253111e69ab866675b64a55ac931461bfc9a2de0853c79848732d5008f9",
+      "file_sha256": "84f9dde3b3bfda261a57ff845f183c62377d30ecf5c983a52a76c19d02d09058",
+      "bytes": 30346,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

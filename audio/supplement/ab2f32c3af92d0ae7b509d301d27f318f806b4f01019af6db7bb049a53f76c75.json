@@ -1,0 +1,30 @@
+{
+  "text": "Au cas où le fichier aurait été endommagé avant l’envoi, gardez une copie.",
+  "text_sha256": "ab2f32c3af92d0ae7b509d301d27f318f806b4f01019af6db7bb049a53f76c75",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.1099319727891155,
+      "source_seconds": 4.1099319727891155,
+      "source_file_sha256": "3e73ab8f473eec9cd5045941168ab911dc6f48949c938fc483427d4f038806f3",
+      "file_sha256": "0a2af7216fa8a815ad5505e36da06a22a11cf12bbde3ba9addd93392a7cfd331",
+      "bytes": 33689,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

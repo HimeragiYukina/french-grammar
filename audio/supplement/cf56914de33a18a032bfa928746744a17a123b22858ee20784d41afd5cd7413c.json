@@ -1,0 +1,30 @@
+{
+  "text": "Elle a dit qu’elle viendrait",
+  "text_sha256": "cf56914de33a18a032bfa928746744a17a123b22858ee20784d41afd5cd7413c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.253877551020408,
+      "source_seconds": 1.253877551020408,
+      "source_file_sha256": "8e6ace001a0aae433e67217eefae16df3ea96813c27a2fb8498dfd541471fe65",
+      "file_sha256": "1e6ee1a19c35f347e180040dbb4f3300562426e6f56c0879796e7834bb9f57c3",
+      "bytes": 10701,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

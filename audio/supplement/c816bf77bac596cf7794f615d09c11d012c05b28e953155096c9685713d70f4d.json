@@ -1,0 +1,30 @@
+{
+  "text": "Il faut que vous soyez ici demain à neuf heures.",
+  "text_sha256": "c816bf77bac596cf7794f615d09c11d012c05b28e953155096c9685713d70f4d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.3103854875283445,
+      "source_seconds": 2.3103854875283445,
+      "source_file_sha256": "270a19a75be3b40d0ab86d30476264f43501646d55509b09ba339c258a63cc8d",
+      "file_sha256": "ff4118b1fc7b8eb591b4b0f4ba3894dda9f012ae65461a39c34ec8fe5b9a5bb9",
+      "bytes": 19270,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

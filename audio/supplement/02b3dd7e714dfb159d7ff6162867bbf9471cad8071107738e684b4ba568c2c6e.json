@@ -1,0 +1,30 @@
+{
+  "text": "Tu me manques",
+  "text_sha256": "02b3dd7e714dfb159d7ff6162867bbf9471cad8071107738e684b4ba568c2c6e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.7894784580498866,
+      "source_seconds": 0.7894784580498866,
+      "source_file_sha256": "370025bba6a3f212171a86262d33a3c4fde8fc0cf08a2e84fd7bff761aebe7c8",
+      "file_sha256": "a055cb48b0f13a93867fcd8735bfec989ec21757a35743db025c0c02925b4f0d",
+      "bytes": 7149,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

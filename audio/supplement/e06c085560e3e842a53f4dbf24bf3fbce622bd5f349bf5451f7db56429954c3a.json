@@ -1,0 +1,30 @@
+{
+  "text": "Pendant que je regardais le panneau, mon téléphone a sonné.",
+  "text_sha256": "e06c085560e3e842a53f4dbf24bf3fbce622bd5f349bf5451f7db56429954c3a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8676643990929707,
+      "source_seconds": 2.8676643990929707,
+      "source_file_sha256": "c230905fa6afc3934df8a4cc235118521294c463d1f21a209c52078a9b67bca2",
+      "file_sha256": "696bffdb1b3d678011d69ebc0fee5ad6a2f68c25d900e26f262f0d3cafc3d655",
+      "bytes": 23658,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

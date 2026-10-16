@@ -1,0 +1,30 @@
+{
+  "text": "Non, je n'ai pas de vélo.",
+  "text_sha256": "66d1ec450f96203d45bc7dc98878db793c4598acd392e0e5abfc082a37b29c16",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.7066666666666668,
+      "source_seconds": 1.7066666666666668,
+      "source_file_sha256": "21d82decd4a5eabc1be6b0f43366aa296643123e76538e9968c6c14708228e86",
+      "file_sha256": "d3409ab27cf91a07dff8d4f18d64e2c59b94f31c53a595a22f6879341d272c55",
+      "bytes": 14463,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

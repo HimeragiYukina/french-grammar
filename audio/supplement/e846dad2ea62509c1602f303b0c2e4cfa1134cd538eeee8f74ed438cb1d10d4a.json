@@ -1,0 +1,30 @@
+{
+  "text": "Son honnêteté me plaît. → ___ me plaît, ___ son honnêteté. (ce qui…, c'est…)",
+  "text_sha256": "e846dad2ea62509c1602f303b0c2e4cfa1134cd538eeee8f74ed438cb1d10d4a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.877732426303855,
+      "source_seconds": 3.877732426303855,
+      "source_file_sha256": "c0ff9df3828946707a40119fa377dba20bd1f0e77283e35ff36df00bb5fc11d0",
+      "file_sha256": "411bd180413f9a1d2e9aa57930dcb70fc4ee8410ac80086f1281584096db5798",
+      "bytes": 31808,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

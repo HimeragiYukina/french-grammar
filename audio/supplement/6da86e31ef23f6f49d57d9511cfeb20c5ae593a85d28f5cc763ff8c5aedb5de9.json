@@ -1,0 +1,30 @@
+{
+  "text": "J'attends que tu viennes ; je regrette que tu ne sois pas venu hier.",
+  "text_sha256": "6da86e31ef23f6f49d57d9511cfeb20c5ae593a85d28f5cc763ff8c5aedb5de9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4481632653061225,
+      "source_seconds": 3.4481632653061225,
+      "source_file_sha256": "1cfc6cf8e5cea1d8782fbc3b4e4601fa5605f6ecf3f2c677eaf49f45e1e706f5",
+      "file_sha256": "20b8765762190fa5c0ce56a987fdec0ffa0b9d3b36ac3f5afd790a245d8f26e1",
+      "bytes": 28256,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

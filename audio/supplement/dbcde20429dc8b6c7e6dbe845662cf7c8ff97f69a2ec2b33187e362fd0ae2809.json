@@ -1,0 +1,30 @@
+{
+  "text": "N'eût été son intervention, la réunion aurait dégénéré.",
+  "text_sha256": "dbcde20429dc8b6c7e6dbe845662cf7c8ff97f69a2ec2b33187e362fd0ae2809",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2275736961451247,
+      "source_seconds": 3.2275736961451247,
+      "source_file_sha256": "d1e490be96ffd075cf604100269630762c8a4530ccd3faf991ce3166d56329ba",
+      "file_sha256": "423ca9258118d180f50a9233185a089ce80af8825be63d0adf7893b1b7cce2ad",
+      "bytes": 26584,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

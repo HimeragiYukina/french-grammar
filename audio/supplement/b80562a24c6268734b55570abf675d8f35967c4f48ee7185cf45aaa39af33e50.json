@@ -1,0 +1,30 @@
+{
+  "text": "Attention, le verre va tomber ! Je ne vais pas acheter cette voiture.",
+  "text_sha256": "b80562a24c6268734b55570abf675d8f35967c4f48ee7185cf45aaa39af33e50",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.098321995464852,
+      "source_seconds": 4.098321995464852,
+      "source_file_sha256": "0feaf36549db4eb5d0e3a5e240a12d828faacebd4cefb360bcbce903c8ba458c",
+      "file_sha256": "343c89ebce7aec9cbb7cce0cd8c4ecbb6cf003f12be6b2085766f300d003328e",
+      "bytes": 33480,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

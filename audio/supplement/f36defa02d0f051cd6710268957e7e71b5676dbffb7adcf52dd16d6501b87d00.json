@@ -1,0 +1,30 @@
+{
+  "text": "Il régna trente ans",
+  "text_sha256": "f36defa02d0f051cd6710268957e7e71b5676dbffb7adcf52dd16d6501b87d00",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3119274376417234,
+      "source_seconds": 1.3119274376417234,
+      "source_file_sha256": "42eaacc1a92611684cf60a752c6a36c94ca4e34eb5867a56d861d7dcdef9b160",
+      "file_sha256": "bfebcfa125d53cfaf873c922adb18b5bc526b140870dc1f22ca89d97542c8fbb",
+      "bytes": 11328,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

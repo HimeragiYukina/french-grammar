@@ -1,0 +1,30 @@
+{
+  "text": "Elle a manqué de tomber dans l'escalier.",
+  "text_sha256": "7f7f3e7839d93e70651870c2277c0744eb38abd1df510fa4edec1ba959b89275",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9736961451247166,
+      "source_seconds": 1.9736961451247166,
+      "source_file_sha256": "1a3fab907cc876372994590ac66db527ae6cccbf07f086502c4a96ac5392bf0b",
+      "file_sha256": "51c326b59579340226f1d27707b27ecbf0e5426bcd6689d69d2c4ff515a4feed",
+      "bytes": 16553,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

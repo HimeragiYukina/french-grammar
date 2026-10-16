@@ -1,0 +1,30 @@
+{
+  "text": "Oui, je l'aime beaucoup.",
+  "text_sha256": "2585088fe89f1b2408758edeb421201b3916ca109cf0d6f3d74db5b08f03d9b7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.8692063492063493,
+      "source_seconds": 1.8692063492063493,
+      "source_file_sha256": "885a2687c88a976642678cfef7f66a34b3f34343d33ef42f2f4e97c7d94fdb4d",
+      "file_sha256": "5d1e260ac563249e8ecfe112418c8c6107e47008df6f2ba02f459def43ef117a",
+      "bytes": 15717,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

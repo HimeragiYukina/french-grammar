@@ -1,0 +1,30 @@
+{
+  "text": "Il doit être chez lui, car la lumière est allumée.",
+  "text_sha256": "3a7693148513edecb5ba1469c632782d8a7a74dae42e8d4a9a8370b8b3b0e8c2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.7747845804988662,
+      "source_seconds": 2.7747845804988662,
+      "source_file_sha256": "513819506f5981190eea63642071b2379cdcc5cfd6ba88786bee9d814b3f2805",
+      "file_sha256": "571feb10224c2654fec6f025b43548ca1339c8fc2fa2de94df0e372868363d94",
+      "bytes": 23031,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

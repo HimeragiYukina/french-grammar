@@ -1,0 +1,30 @@
+{
+  "text": "Je prends des notes pour mieux retenir les idées.",
+  "text_sha256": "610fcf54709df74d9499b37350f936b20723b292279fdd84308f3e2636f13787",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5541950113378684,
+      "source_seconds": 2.5541950113378684,
+      "source_file_sha256": "2adf21ab0806e791c167c92371c389c34b7b6692509c1b88ddd9313242ec06e8",
+      "file_sha256": "99142b5ec0062f3f1321058b071b9ca99ad8352b52a85b69fe2575015636b96e",
+      "bytes": 21150,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Quand bien même vous m'auriez prévenu, je n'aurais rien pu faire.",
+  "text_sha256": "de732b2ddd8c35e030e7d723f1b6cacfc7f84d219f71b21af5e2d267d656a368",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1463038548752835,
+      "source_seconds": 3.1463038548752835,
+      "source_file_sha256": "a46947708be505564ec202b2262cbd7ca5d4403b95d0b7f3d3b898b9f6422fd3",
+      "file_sha256": "0144097bf8c2f0555da8e108e5cff66250163b3c15f8a91d169364c0358e109d",
+      "bytes": 25957,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

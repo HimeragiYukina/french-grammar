@@ -1,0 +1,30 @@
+{
+  "text": "Ce n’est pas un café",
+  "text_sha256": "d9d6508156aa12deee55d3df6d28b9befee9f03d3e4d39799fea30a1876e0166",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2887074829931973,
+      "source_seconds": 1.2887074829931973,
+      "source_file_sha256": "231c53c81300fac66339a4a3f7a3d50bd89b470b105240ed0584fe63b5248aeb",
+      "file_sha256": "c400f53a8949644f13332cba5e7bec836c1eac0000c895fab31cea92be279f01",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

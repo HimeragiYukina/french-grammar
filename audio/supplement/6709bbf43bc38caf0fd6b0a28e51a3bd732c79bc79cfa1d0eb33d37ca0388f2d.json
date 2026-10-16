@@ -1,0 +1,30 @@
+{
+  "text": "Il a raison.",
+  "text_sha256": "6709bbf43bc38caf0fd6b0a28e51a3bd732c79bc79cfa1d0eb33d37ca0388f2d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9752380952380952,
+      "source_seconds": 0.9752380952380952,
+      "source_file_sha256": "693d54ec4994a9726c3afc30270736cd3b28ac90f05ef12284fd13e65c47cf85",
+      "file_sha256": "9927bc716c97ef62f3033d6274167bd5fa2f2b0967eb68c56dae5b80eee6b39f",
+      "bytes": 8612,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Je mange du chocolat",
+  "text_sha256": "87bbf955cb54d390e80d12c8e560efe6960724f0e1ff2b18bb56888773129904",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3815873015873017,
+      "source_seconds": 1.3815873015873017,
+      "source_file_sha256": "7d576e94fb68cf232f4a1c30744d95a3aadcdaa8eb3e5c6cf3d508a2c77f56d7",
+      "file_sha256": "f2eb04720b9da6063f9ef37649de899e25b20a15a1e6da0b11a4eab241e2e4f8",
+      "bytes": 11746,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

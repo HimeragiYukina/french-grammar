@@ -1,0 +1,30 @@
+{
+  "text": "familier: On a paumé nos clés. / courant: Nous avons perdu nos clés. / soutenu: Nous avons égaré nos clés.",
+  "text_sha256": "aca4c0f41f11ef14977ebb8d1542585cfaa4b7bb263a4e74685a9c2481645c94",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.548027210884354,
+      "source_seconds": 6.548027210884354,
+      "source_file_sha256": "904290080d32ca015f3804cc2ae0cb77510de01ec967464123c50754f11df104",
+      "file_sha256": "7c79208500bf8dd3cd95a41dd780e352662f6a633553f3e31375fe3d4b091356",
+      "bytes": 53124,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

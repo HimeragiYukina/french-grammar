@@ -1,0 +1,30 @@
+{
+  "text": "Il n’avait plus de batterie ; c’est pourquoi il n’a pas répondu.",
+  "text_sha256": "3f9caeb6ada0faaa9c20c7bc72bf7e825e454ead811b80bd3ad290da53df8c73",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8212244897959184,
+      "source_seconds": 2.8212244897959184,
+      "source_file_sha256": "b7b6064d4970cf871b26be08029d8d814d6f91a889d4c7a04f195a24b889eee8",
+      "file_sha256": "84d01b10ef75bb1b645d8cc6a2a6a13962a20ded05cefa2cfef2456a9fff33e9",
+      "bytes": 23240,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

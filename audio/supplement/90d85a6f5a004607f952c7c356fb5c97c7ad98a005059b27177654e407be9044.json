@@ -1,0 +1,30 @@
+{
+  "text": "On pourrait avancer que cette mesure favorise les petites entreprises.",
+  "text_sha256": "90d85a6f5a004607f952c7c356fb5c97c7ad98a005059b27177654e407be9044",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.017052154195011,
+      "source_seconds": 4.017052154195011,
+      "source_file_sha256": "82aba2883a100de20337d9eacc1565ebe22d8ba7e6688c3c28a4df3e0bb82557",
+      "file_sha256": "15af387c8affb4d1f850c7dbaf1fdada17ae67008ba85471e4b463b43acd4a03",
+      "bytes": 32853,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

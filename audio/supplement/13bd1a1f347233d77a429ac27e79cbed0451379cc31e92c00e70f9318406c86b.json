@@ -1,0 +1,30 @@
+{
+  "text": "Le livre dont je t'ai parlé est épuisé.",
+  "text_sha256": "13bd1a1f347233d77a429ac27e79cbed0451379cc31e92c00e70f9318406c86b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.0549659863945577,
+      "source_seconds": 2.0549659863945577,
+      "source_file_sha256": "aef18373047bd3bca35048884287ad750afdf93f9ec410e0fbeea5864c258dd6",
+      "file_sha256": "c30c719f9006ae20abebc522ad410d9d243517628f849a76e8cade6190c65f17",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

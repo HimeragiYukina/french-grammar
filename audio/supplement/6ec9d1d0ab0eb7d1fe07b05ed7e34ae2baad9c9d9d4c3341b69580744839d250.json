@@ -1,0 +1,30 @@
+{
+  "text": "Ta veste ?",
+  "text_sha256": "6ec9d1d0ab0eb7d1fe07b05ed7e34ae2baad9c9d9d4c3341b69580744839d250",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8591383219954648,
+      "source_seconds": 0.8591383219954648,
+      "source_file_sha256": "49f9f6b83811df39de7ff02531dd744fb20c89e4b4af5feaba0fcad57c86a9e3",
+      "file_sha256": "5f3015f178af9a77ec01f7e9c82c02c2730ad969db49482afa5b01c798d0d44b",
+      "bytes": 7567,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

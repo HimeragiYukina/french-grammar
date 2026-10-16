@@ -1,0 +1,30 @@
+{
+  "text": "Elle économise pour acheter un vélo.",
+  "text_sha256": "5849a57b257706ed2101b6670afe47f09f363dea63fb1d33adc77f6caea8c231",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9156462585034013,
+      "source_seconds": 1.9156462585034013,
+      "source_file_sha256": "52b15bbecc1b24a6dfcc235fb68f69de4ab64c2c3a9f993fd380df310f3a20f4",
+      "file_sha256": "55d61c20dbdeb147cc46783beed9a3223e505a4f9a32bb3387027441ee687302",
+      "bytes": 16135,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

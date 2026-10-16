@@ -1,0 +1,30 @@
+{
+  "text": "Je regrettais qu’il soit venu",
+  "text_sha256": "56ed376426c6ae90e0b17a673df7490e26eb4094cfd5f402ff1fed13c9a5f35a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.486077097505669,
+      "source_seconds": 1.486077097505669,
+      "source_file_sha256": "a2df88f21ede9a47a8532460df114eee8c7004d9ecb8093aa35feab52f44fb2a",
+      "file_sha256": "643ade164314a2291ad17e8303b2a2686825dd71be7b32059d09580dd6e349e5",
+      "bytes": 12582,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

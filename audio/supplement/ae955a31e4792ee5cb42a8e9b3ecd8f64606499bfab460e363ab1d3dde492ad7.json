@@ -1,0 +1,30 @@
+{
+  "text": "En comparant les photos, le quartier semblait différent.",
+  "text_sha256": "ae955a31e4792ee5cb42a8e9b3ecd8f64606499bfab460e363ab1d3dde492ad7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.9837641723356008,
+      "source_seconds": 2.9837641723356008,
+      "source_file_sha256": "9b626c67a5e8ad2acef7ca5f0fa8140389570def8d2807926f74a76b8f01ed05",
+      "file_sha256": "f71550dab32c18a3fc7d5b8d3ad190347b739cd8c24866f82fecf4899e1f7f07",
+      "bytes": 24703,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

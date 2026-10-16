@@ -1,0 +1,30 @@
+{
+  "text": "Elles ne se sont pas téléphoné hier.",
+  "text_sha256": "feb88e893333cb0787d4ad4dd5241e53acfdb36f289c83412301fd7058aa9a6d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.043356009070295,
+      "source_seconds": 2.043356009070295,
+      "source_file_sha256": "5a3dc6b8a92e9ef14f7ce68a1031eea346bc1e8357f9bf0e1a708ca007b77fe2",
+      "file_sha256": "35b8c5bdd9f4599dc8cdd0e2904daadd8ea25ffd38dc1be6798cb118b9febce4",
+      "bytes": 17180,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

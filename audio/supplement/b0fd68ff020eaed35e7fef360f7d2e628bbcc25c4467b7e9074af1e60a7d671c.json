@@ -1,0 +1,30 @@
+{
+  "text": "se souvenir",
+  "text_sha256": "b0fd68ff020eaed35e7fef360f7d2e628bbcc25c4467b7e9074af1e60a7d671c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1493877551020408,
+      "source_seconds": 1.1493877551020408,
+      "source_file_sha256": "0199cbd03ff7f42d5d67675cd6d4cfcd6a76c8aae855dc6d42ff0da8e4f153a3",
+      "file_sha256": "4e068effadaa44b4160025b358b59774aa13517dcdf2fb26cc61e7901c727cba",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

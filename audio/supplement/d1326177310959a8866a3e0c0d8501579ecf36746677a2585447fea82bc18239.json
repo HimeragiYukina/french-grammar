@@ -1,0 +1,30 @@
+{
+  "text": "Ça me fait plaisir de te revoir.",
+  "text_sha256": "d1326177310959a8866a3e0c0d8501579ecf36746677a2585447fea82bc18239",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9504761904761905,
+      "source_seconds": 1.9504761904761905,
+      "source_file_sha256": "d5509bc81f5a91ad2a400f8307cd97b27e643b20eabe37c012f7ba4b25103cfe",
+      "file_sha256": "3fc4dfe1f3d5825c8b1a37b26a7d9ed1784ab6e3738934ac607de5eda469c62b",
+      "bytes": 16344,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

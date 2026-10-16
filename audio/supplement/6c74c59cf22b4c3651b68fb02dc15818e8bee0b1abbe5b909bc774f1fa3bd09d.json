@@ -1,0 +1,30 @@
+{
+  "text": "Quand Léa est rentrée, nous avions déjà dîné.",
+  "text_sha256": "6c74c59cf22b4c3651b68fb02dc15818e8bee0b1abbe5b909bc774f1fa3bd09d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.507755102040816,
+      "source_seconds": 2.507755102040816,
+      "source_file_sha256": "167a3d5f265637da111cbd78cb4a314726208f2d680d4cb64b6d578c4e9b470e",
+      "file_sha256": "361b58ae96450513f0fa37d55c935d8da6c79182e19899dec8749ec0f9f7e23c",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

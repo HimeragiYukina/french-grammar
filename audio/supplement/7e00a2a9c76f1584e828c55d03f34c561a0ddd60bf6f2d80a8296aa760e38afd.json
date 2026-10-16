@@ -1,0 +1,30 @@
+{
+  "text": "Il court aussi vite que son frère",
+  "text_sha256": "7e00a2a9c76f1584e828c55d03f34c561a0ddd60bf6f2d80a8296aa760e38afd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9620861678004535,
+      "source_seconds": 1.9620861678004535,
+      "source_file_sha256": "d9158b06bac7ea0cbe0f1d42b2e0bc62c11f0f8d09294cc5fcc46f6914c14169",
+      "file_sha256": "02eb7967c504c006fd51a0eebfe8ea180357bb7c1d4668fca19f6aa198ac5cb2",
+      "bytes": 16553,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

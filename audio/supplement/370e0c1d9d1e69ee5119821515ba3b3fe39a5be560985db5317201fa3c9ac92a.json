@@ -1,0 +1,30 @@
+{
+  "text": "Au cas où vous auriez oublié votre billet, présentez une pièce d'identité.",
+  "text_sha256": "370e0c1d9d1e69ee5119821515ba3b3fe39a5be560985db5317201fa3c9ac92a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.982222222222222,
+      "source_seconds": 3.982222222222222,
+      "source_file_sha256": "797579f09799aec30d15cd43e9712a265795ebc3234c4416d97e303c20b62c54",
+      "file_sha256": "48de0235932c0842d3e22055a979fa4b4624444e3294cef0af00701dda5d2877",
+      "bytes": 32644,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

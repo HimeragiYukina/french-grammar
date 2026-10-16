@@ -1,0 +1,30 @@
+{
+  "text": "se succéder/plaire/nuire (se = COI → invariable) ; coûté/pesé/valu (complément de quantité non direct → invariable) ; ci-joint : invariable en tête de phrase ou avant un nom sans déterminant ; accord facultatif avant un nom déterminé dans la phrase.",
+  "text_sha256": "23bdcecdc7d3fa415f53d4e7f7329d68044b123e32137f30d3039bcdeb6dbf11",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 13.061224489795919,
+      "source_seconds": 13.061224489795919,
+      "source_file_sha256": "11008e5691e52c3c1feec8da4ba4087873588148cec3138d444220aacc0b92de",
+      "file_sha256": "cc9739cf52301323064e8e523c925b78122126ff587ce51168205d863f3b4543",
+      "bytes": 105160,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

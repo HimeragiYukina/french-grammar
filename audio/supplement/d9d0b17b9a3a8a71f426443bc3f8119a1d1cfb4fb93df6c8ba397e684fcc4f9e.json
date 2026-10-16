@@ -1,0 +1,30 @@
+{
+  "text": "Quelle veste choisis-tu ?",
+  "text_sha256": "d9d0b17b9a3a8a71f426443bc3f8119a1d1cfb4fb93df6c8ba397e684fcc4f9e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2654875283446712,
+      "source_seconds": 1.2654875283446712,
+      "source_file_sha256": "6e251fd36e690d9b3bbf954fdc3bba2f0e8e9fa63709da9eec99e9a9c376f74c",
+      "file_sha256": "69d82a7f960b34994547a7e8da1ed5b730946a75d323714eac2f505a5b482707",
+      "bytes": 10910,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
