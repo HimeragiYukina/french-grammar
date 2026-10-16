@@ -1,0 +1,206 @@
+{
+  "batch": "6",
+  "counts": {
+    "sections": 3,
+    "practice": 6
+  },
+  "files": [
+    {
+      "file": "tools/supplement-a2.json",
+      "before_sha256": "b1949c426f9d711dd19fdcce014e423c7a9223b1e797f4d8a74d3f4d66aae133",
+      "after_sha256": "0c0dca11991d34462da4ec45442215504583cf7aeb03a2f81a2fe12230524d6c",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "a2-quantite",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "autant de比较什么：相同箱数与不同重量",
+              "explanation": "独立搬家情境中，两人搬的箱数相同，箱重不同。autant de后接比较单位；assez de要联系够用的目标。argent、place、temps等量通常用单数，cartons等可数单位按数量语境用复数。比较对象改变，结论也改变。",
+              "examples": [
+                {
+                  "fr": "Lina transporte autant de cartons que Joël, mais ses cartons sont plus légers.",
+                  "zh": "莉娜搬的箱子和若埃尔一样多，但她的箱子更轻。",
+                  "use": "autant de cartons只比较箱数，不比较总重量。"
+                },
+                {
+                  "fr": "Nous n’avons pas assez de place pour ces quatre cartons.",
+                  "zh": "我们没有足够空间放这四个箱子。",
+                  "use": "assez de place说明空间是否满足特定用途。"
+                },
+                {
+                  "fr": "Il reste assez de temps pour un trajet, mais pas pour deux.",
+                  "zh": "剩下的时间够跑一趟，不够跑两趟。",
+                  "use": "够不够需给参照任务；temps不因两趟变复数。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "a2-quantite",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "8b7b835c38befce37e02f54166922b1ae29ea45169f6e8d41ad03fe65d3ba3a6",
+          "added": [
+            {
+              "q": "Lina与Joël各搬三箱，但Lina的每箱较轻。用autant de说相同处，再保留重量差别。",
+              "a": "Lina transporte autant de cartons que Joël, mais ses cartons sont plus légers.",
+              "note": "也接受两句或比较明确的自然改写；不能说同样重。相同箱数不推出总重量相同。"
+            },
+            {
+              "q": "只够跑一趟，不够两趟。用assez de temps写完整句；不能把temps改成可数趟数。",
+              "a": "Nous avons assez de temps pour un trajet, mais pas pour deux.",
+              "note": "也接受Il reste assez de temps…。够用对象必须保留一趟与两趟的对比。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/expansion-b1.json",
+      "before_sha256": "c71a357a47681fad5a01a5930b0f00089fd11c731844d33ef99566f62630fd44",
+      "after_sha256": "9cfcd64c230ccd9db6d7ba81a60269052ac162444919f67498fb6b025e44ed10",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "b1-si",
+            "sections"
+          ],
+          "prefix_length": 4,
+          "prefix_sha256": "664454c225b3aa57114e2fb40f538c832f7ed2e6ae965661ee2a9598e3d16588",
+          "added": [
+            {
+              "title": "同一个周末，si的两种功能：问是否与设条件",
+              "explanation": "独立维修情境中，客户询问明天是否能修，再根据答案决定是否送车。间接疑问的si相当于“是否”，可接未来时；条件si将条件与结果连接，不照搬未来时。已完成的事实也可用复合过去时放在条件从句中，例如“如果你已预约，请报姓名”，因此不能把si后所有过去时都当反事实。 规则核对：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/24140/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-dans-les-phrases-hypothetiques\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF假设句与间接疑问</a>（2026-10-16）。",
+              "examples": [
+                {
+                  "fr": "Je voudrais savoir si vous réparerez mon vélo demain.",
+                  "zh": "我想知道您明天是否会修我的自行车。",
+                  "use": "si引间接疑问，réparerez是将来时。"
+                },
+                {
+                  "fr": "Si le mécanicien est libre demain, j’apporterai mon vélo.",
+                  "zh": "如果修理师明天有空，我就把自行车送来。",
+                  "use": "条件从句est现在时指未来，主句将来时。"
+                },
+                {
+                  "fr": "Si vous avez déjà réservé, donnez votre nom à l’accueil.",
+                  "zh": "如果您已经预约，请在接待处报姓名。",
+                  "use": "条件用复合过去时指已完成预约；主句命令式。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "b1-si",
+            "practice"
+          ],
+          "prefix_length": 3,
+          "prefix_sha256": "ab3b57b366fac7c5368b3e4bfc35b5ff4b55f0e77ebc9961179d69fd425b8a1e",
+          "added": [
+            {
+              "q": "把“我想知道你明天是否会修我的自行车；如果修理师有空，我就把车送来”写成两句，第一句明确询问未来，第二句开放条件。",
+              "a": "Je voudrais savoir si vous réparerez mon vélo demain. Si le mécanicien est libre, j’apporterai mon vélo.",
+              "note": "接受自然同义改写；第一句si为是否，第二句为如果。不能把修车计划说成已完成。"
+            },
+            {
+              "q": "Si vous avez déjà réservé, donnez votre nom à l’accueil. 有人认为si后出现过去时，所以一定是假设没预约。用法语解释或改述，保“已预约则报姓名”。",
+              "a": "La phrase demande aux personnes qui ont déjà réservé de donner leur nom. Elle ne présente pas la réservation comme impossible ou irréelle.",
+              "note": "复合过去时在此是完成的现实条件，不是imparfait＋conditionnel的假设组合。也可中文解释并给自然法语改述。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-c2.json",
+      "before_sha256": "d0e42639bd90a33b5365b12acc57ff7428e6bde0ee98210c3a6c1953b8b6b6c1",
+      "after_sha256": "8d0bca8f3ead301b537bc8912bf730a1f15e2563e8414f68f024da88709e7b63",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "c2-cohesion",
+            "sections"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "03d3f752678804f013db224b17ab7fd2a43015d0f6f183713dc5de82768509d6",
+          "added": [
+            {
+              "title": "名词性照应要保留事件身份：cette traduction不是cette publication",
+              "explanation": "独立文学活动情境中，翻译、朗读和出版是不同事件。cette traduction、cette lecture等名词词组能压缩前文，但不应无依据把事件换成另一个；à cet égard限制随后评价的维度。照应不仅需语法性数正确，还需读者能找回同一事件。",
+              "examples": [
+                {
+                  "fr": "Léa a traduit le poème pour la soirée. Cette traduction sera lue sur scène ; sa publication n’est pas prévue.",
+                  "zh": "莱娅为晚会翻译了诗。这篇译文将在台上朗读；没有计划出版。",
+                  "use": "cette traduction回指翻译成果，不能改成cette publication。"
+                },
+                {
+                  "fr": "La lecture permet d’entendre le rythme. À cet égard, elle complète utilement le texte imprimé.",
+                  "zh": "朗读让人听到节奏；在这一点上，它对印本文本作了有益补充。",
+                  "use": "评价限定于听到节奏，不把朗读评为所有方面更好。"
+                },
+                {
+                  "fr": "Léa a traduit le texte et Mina le présentera. La traductrice restera dans la salle pendant la lecture.",
+                  "zh": "莱娅翻译了文本，米娜将介绍它。朗读时译者会留在观众席。",
+                  "use": "la traductrice依据已知角色回指Léa；不按最近女性名字误指Mina。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "c2-cohesion",
+            "practice"
+          ],
+          "prefix_length": 3,
+          "prefix_sha256": "8345b9e1507f4760225b375aa93bf2fb04dab986920c955028ade93a2e7eaed6",
+          "added": [
+            {
+              "q": "原文仅给翻译供晚会朗读，明确没有出版计划。修复Cette publication sera lue sur scène，保留翻译成果与用途，不增加出版事实。",
+              "a": "Cette traduction sera lue sur scène. Sa publication n’est pas prévue.",
+              "note": "也接受Le poème traduit sera lu sur scène…。照应词要保事件身份，不能仅为避免重复而改变事实。"
+            },
+            {
+              "q": "朗读有利于听节奏。用à cet égard给出局部评价，不将它说成取代印本文本。",
+              "a": "La lecture permet d’entendre le rythme. À cet égard, elle complète le texte imprimé sans le remplacer.",
+              "note": "接受en ce qui concerne le rythme等明确保维度的改写。最后的“不替代”是任务要求的立场，不伪装成原材料已验证的事实。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "protected_files_sha256": {
+    "append-only-batch2-20261016.json": "5cdfc333160fe3826204a2ac44dcab6619a332dbc471d4765aa94c8c212b71af",
+    "append-only-batch2-checks-20261016.json": "3c4458f65edcf547809e6dbe5bc176cfbe1a2a77ed1d5272b735b0535aa24aa0",
+    "append-only-batch3-20261016.json": "353700af00f121d76d3ee500068eea510dea365d64f40aaab89988a4f61a40ab",
+    "append-only-batch3-checks-20261016.json": "08ecd653be92cd4d2d64e96b5a0d06cf5e2da6d21f58e3590cd764eab7a26a40",
+    "append-only-batch4-20261016.json": "428c5477577664409b3eb90f77df940103e13ae537f505c576d0b1264655165e",
+    "append-only-batch4-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch5-20261016.json": "4596e055bb7fb3f009fbd046f9e0b3a7beb40fd74aeb6b82d0906042a235207d",
+    "append-only-batch5-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append_batch2_evidence.py": "1488492e962c80202bc0c0114f4c48023f86b9ebff65fdce2693417b77b91555",
+    "append_batch3_evidence.py": "1ced42994671b8002aaed195d88c84f632c782f1d309531bd018504f454d95ff",
+    "append_batch4_evidence.py": "48b881d966231cd661fe2e063850aa3328e5c0a237906e2a7eb387c01a990043",
+    "append_batch5_evidence.py": "1582039d1d83118f048654ddeb2546dcf7a3454df7f66781d8f7dd943da304ba",
+    "content-baseline.json": "a17a54048c334231f27a84457574491fa726696791eadf6945abd666a4e4b225",
+    "strict-review-baseline.json": "25fbee3f19541f18d60be04ad4ace10f4b75c1cd5426d3863110cda368985ea8"
+  },
+  "method": "Exact full-file hashes, unchanged old prefixes and explicit suffixes; restore only in memory before prior batch3/batch2/original checks."
+}

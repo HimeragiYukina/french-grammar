@@ -1,0 +1,30 @@
+{
+  "text": "Si le mécanicien est libre demain, j’apporterai mon vélo.",
+  "text_sha256": "9f17245a1f9ff568e52dff6ac25377e5020b0115e926dd4a9127ebade69ad587",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2043537414965986,
+      "source_seconds": 3.2043537414965986,
+      "source_file_sha256": "e473e6b6376916bb0dc8404a0a9e1e1bb0000343ef4c9076ad189d08a80eaa5f",
+      "file_sha256": "e58ffe4e037c5e882d31486212e5cb0c2bb129b19eecd21da1dce8d1d528d898",
+      "bytes": 26375,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

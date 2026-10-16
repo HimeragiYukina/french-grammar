@@ -1852,6 +1852,27 @@ window.GRAMMAR_DATA.C2={
               "use": "核查对象受 sur ce point 限定，后句明确阻断整体认可。"
             }
           ]
+        },
+        {
+          "title": "名词性照应要保留事件身份：cette traduction不是cette publication",
+          "explanation": "独立文学活动情境中，翻译、朗读和出版是不同事件。cette traduction、cette lecture等名词词组能压缩前文，但不应无依据把事件换成另一个；à cet égard限制随后评价的维度。照应不仅需语法性数正确，还需读者能找回同一事件。",
+          "examples": [
+            {
+              "fr": "Léa a traduit le poème pour la soirée. Cette traduction sera lue sur scène ; sa publication n’est pas prévue.",
+              "zh": "莱娅为晚会翻译了诗。这篇译文将在台上朗读；没有计划出版。",
+              "use": "cette traduction回指翻译成果，不能改成cette publication。"
+            },
+            {
+              "fr": "La lecture permet d’entendre le rythme. À cet égard, elle complète utilement le texte imprimé.",
+              "zh": "朗读让人听到节奏；在这一点上，它对印本文本作了有益补充。",
+              "use": "评价限定于听到节奏，不把朗读评为所有方面更好。"
+            },
+            {
+              "fr": "Léa a traduit le texte et Mina le présentera. La traductrice restera dans la salle pendant la lecture.",
+              "zh": "莱娅翻译了文本，米娜将介绍它。朗读时译者会留在观众席。",
+              "use": "la traductrice依据已知角色回指Léa；不按最近女性名字误指Mina。"
+            }
+          ]
         }
       ],
       "comparison": "or 添入关键事实；donc / partant 从前提推出结果。cela étant 承认前文但转向另一判断；quoi qu'il en soit 暂置争议、给不受影响的结论。en l'occurrence 具体到本次个案；à cet égard 具体到某一方面。",
@@ -1877,6 +1898,16 @@ window.GRAMMAR_DATA.C2={
           "q": "“审读组只核对第三段数字”不超过25法词改写，不暗示全文获批。",
           "a": "Le comité n’a vérifié que les chiffres du troisième paragraphe.",
           "note": "保留局部核查范围；不据此声称事实上从未批准全文。如需解释推论边界，可补 Cette vérification ne vaut pas approbation de l’ensemble du texte。不能把字数压缩自评直接换为语言等级。"
+        },
+        {
+          "q": "原文仅给翻译供晚会朗读，明确没有出版计划。修复Cette publication sera lue sur scène，保留翻译成果与用途，不增加出版事实。",
+          "a": "Cette traduction sera lue sur scène. Sa publication n’est pas prévue.",
+          "note": "也接受Le poème traduit sera lu sur scène…。照应词要保事件身份，不能仅为避免重复而改变事实。"
+        },
+        {
+          "q": "朗读有利于听节奏。用à cet égard给出局部评价，不将它说成取代印本文本。",
+          "a": "La lecture permet d’entendre le rythme. À cet égard, elle complète le texte imprimé sans le remplacer.",
+          "note": "接受en ce qui concerne le rythme等明确保维度的改写。最后的“不替代”是任务要求的立场，不伪装成原材料已验证的事实。"
         }
       ]
     },

@@ -1,0 +1,30 @@
+{
+  "text": "Je voudrais savoir si vous réparerez mon vélo demain.",
+  "text_sha256": "9096744b36c43c10cee98d84659dc45d0b1760a4c1e4300ef20c62565d89bf9a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.4961451247165534,
+      "source_seconds": 2.4961451247165534,
+      "source_file_sha256": "11bd2738534f3e5c1a7c595a7919e832f65d6d10819c3580c3c078904970704f",
+      "file_sha256": "6eb302e18ede8e55824577263055ab18c4752569dd83ab69d2e80f47d4146600",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

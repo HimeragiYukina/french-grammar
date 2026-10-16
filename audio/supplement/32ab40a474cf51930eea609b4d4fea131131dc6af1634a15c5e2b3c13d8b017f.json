@@ -1,0 +1,30 @@
+{
+  "text": "Cette traduction sera lue sur scène. Sa publication n’est pas prévue.",
+  "text_sha256": "32ab40a474cf51930eea609b4d4fea131131dc6af1634a15c5e2b3c13d8b017f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.889342403628118,
+      "source_seconds": 3.889342403628118,
+      "source_file_sha256": "9a8550f24a3f615b5f165cafdf47638f7154edcc1bca7e1e6106708700d81135",
+      "file_sha256": "213d5dba39590f3aec1525e5acaea157523e8e159b35a83e0687b1204c276cff",
+      "bytes": 31808,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

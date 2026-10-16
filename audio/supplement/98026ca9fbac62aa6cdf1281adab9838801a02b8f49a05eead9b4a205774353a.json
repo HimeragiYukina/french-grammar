@@ -1,0 +1,30 @@
+{
+  "text": "La lecture permet d’entendre le rythme. À cet égard, elle complète le texte imprimé sans le remplacer.",
+  "text_sha256": "98026ca9fbac62aa6cdf1281adab9838801a02b8f49a05eead9b4a205774353a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.443537414965986,
+      "source_seconds": 6.443537414965986,
+      "source_file_sha256": "d54827131c78d98e763e40f396ce745ecddf9e41b2130ee3b52fd567b1a85f19",
+      "file_sha256": "288440444997abbbffa3b65ec9c799cdb4cb5e95f96603ea794c0f17a29ebc30",
+      "bytes": 52288,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

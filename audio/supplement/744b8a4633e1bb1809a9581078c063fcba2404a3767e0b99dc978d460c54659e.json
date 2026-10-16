@@ -1,0 +1,30 @@
+{
+  "text": "Nous avons assez de temps pour un trajet, mais pas pour deux.",
+  "text_sha256": "744b8a4633e1bb1809a9581078c063fcba2404a3767e0b99dc978d460c54659e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.274013605442177,
+      "source_seconds": 3.274013605442177,
+      "source_file_sha256": "092514030ad1180afd0a37df6c6944035c4d36e9b689b601b2b05f25a07a5931",
+      "file_sha256": "89427552aafd8c9d57ccd9434b02a2ac053e72a9129ba17f0378282ac844bc31",
+      "bytes": 27002,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

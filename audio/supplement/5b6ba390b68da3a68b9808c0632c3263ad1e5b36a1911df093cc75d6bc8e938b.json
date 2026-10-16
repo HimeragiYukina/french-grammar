@@ -1,0 +1,30 @@
+{
+  "text": "Léa a traduit le texte et Mina le présentera. La traductrice restera dans la salle pendant la lecture.",
+  "text_sha256": "5b6ba390b68da3a68b9808c0632c3263ad1e5b36a1911df093cc75d6bc8e938b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.489977324263038,
+      "source_seconds": 6.489977324263038,
+      "source_file_sha256": "33bcab6ce96d8c642742855bffab25cffb7dc0704cc20b74b2f280d776bda6a4",
+      "file_sha256": "56856649c0303cd4866e8b7e7efaf547eb6e16368646c3a61a89ef9f52ec7e2c",
+      "bytes": 52706,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

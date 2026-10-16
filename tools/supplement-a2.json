@@ -316,7 +316,29 @@
     ]
   },
   "a2-quantite": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "autant de比较什么：相同箱数与不同重量",
+        "explanation": "独立搬家情境中，两人搬的箱数相同，箱重不同。autant de后接比较单位；assez de要联系够用的目标。argent、place、temps等量通常用单数，cartons等可数单位按数量语境用复数。比较对象改变，结论也改变。",
+        "examples": [
+          {
+            "fr": "Lina transporte autant de cartons que Joël, mais ses cartons sont plus légers.",
+            "zh": "莉娜搬的箱子和若埃尔一样多，但她的箱子更轻。",
+            "use": "autant de cartons只比较箱数，不比较总重量。"
+          },
+          {
+            "fr": "Nous n’avons pas assez de place pour ces quatre cartons.",
+            "zh": "我们没有足够空间放这四个箱子。",
+            "use": "assez de place说明空间是否满足特定用途。"
+          },
+          {
+            "fr": "Il reste assez de temps pour un trajet, mais pas pour deux.",
+            "zh": "剩下的时间够跑一趟，不够跑两趟。",
+            "use": "够不够需给参照任务；temps不因两趟变复数。"
+          }
+        ]
+      }
+    ],
     "related": [],
     "practice": [
       {
@@ -328,6 +350,16 @@
         "q": "改写“你借给我的那些书中，我已经读了许多本”。用beaucoup，并保留特定集合les livres que tu m’as prêtés。",
         "a": "J’ai déjà lu beaucoup des livres que tu m’as prêtés.",
         "note": "这里是明确集合中的许多本，des=de+les；beaucoup de livres泛指许多书，不能机械把所有beaucoup des判错。prêtés配前置阳性复数livres；m’为接受者不控制配合。"
+      },
+      {
+        "q": "Lina与Joël各搬三箱，但Lina的每箱较轻。用autant de说相同处，再保留重量差别。",
+        "a": "Lina transporte autant de cartons que Joël, mais ses cartons sont plus légers.",
+        "note": "也接受两句或比较明确的自然改写；不能说同样重。相同箱数不推出总重量相同。"
+      },
+      {
+        "q": "只够跑一趟，不够两趟。用assez de temps写完整句；不能把temps改成可数趟数。",
+        "a": "Nous avons assez de temps pour un trajet, mais pas pour deux.",
+        "note": "也接受Il reste assez de temps…。够用对象必须保留一趟与两趟的对比。"
       }
     ]
   },

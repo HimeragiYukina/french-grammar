@@ -1,0 +1,30 @@
+{
+  "text": "Léa a traduit le poème pour la soirée. Cette traduction sera lue sur scène ; sa publication n’est pas prévue.",
+  "text_sha256": "ca77b0c0ba7bdd9e0c2b3cc7ceb22fabed756aaf5f5c3e423d2489e63f2b0098",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.315827664399093,
+      "source_seconds": 6.315827664399093,
+      "source_file_sha256": "7c8026d494c0056a0f958ae1e8a512b317a5d46f46e474725ddbd109ff033faf",
+      "file_sha256": "830fbc510e47839576d64167694feae2b074342676d3f8768d6401d5f12129e4",
+      "bytes": 51244,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

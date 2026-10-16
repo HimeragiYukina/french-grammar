@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-16",
+  "title": "数量、条件与跨语域改写：第六批深化",
+  "status": "Verified locally; commit/push receipt separate",
+  "counts": {
+    "newPages": 0,
+    "improvedExistingGrammarPoints": 3,
+    "newSections": 3,
+    "newFrenchExamples": 9,
+    "newExplainedQuestions": 6
+  },
+  "grammarPoints": [
+    {
+      "level": "A2",
+      "pointId": "a2-quantite",
+      "sectionTitle": "autant de比较什么：相同箱数与不同重量",
+      "newSections": 1,
+      "newExamples": 3,
+      "newQuestions": 2
+    },
+    {
+      "level": "B1",
+      "pointId": "b1-si",
+      "sectionTitle": "同一个周末，si的两种功能：问是否与设条件",
+      "newSections": 1,
+      "newExamples": 3,
+      "newQuestions": 2
+    },
+    {
+      "level": "C2",
+      "pointId": "c2-cohesion",
+      "sectionTitle": "名词性照应要保留事件身份：cette traduction不是cette publication",
+      "newSections": 1,
+      "newExamples": 3,
+      "newQuestions": 2
+    }
+  ],
+  "audio": {
+    "ownExactUnits": 3679,
+    "newCPURecordings": 16,
+    "newMP3FullDecodeVerified": 16,
+    "originalWavsRetained": true,
+    "sourceSpanMismatches": 0,
+    "technicalSamples": {
+      "samples": 7,
+      "technicalFailures": 0,
+      "samplesWithCandidateFlags": 0,
+      "byLevelRepository": {
+        "A1": {
+          "grammar": 1
+        },
+        "A2": {
+          "grammar": 1
+        },
+        "B1": {
+          "grammar": 1
+        },
+        "B2": {
+          "grammar": 1
+        },
+        "C1": {
+          "grammar": 1
+        },
+        "C2": {
+          "grammar": 2
+        }
+      },
+      "tags": [
+        "abbreviation"
+      ],
+      "longreadFull": 0,
+      "longreadParagraphs": 0
+    },
+    "humanListeningPerformed": false,
+    "supersededOwnRecordingBeforeDelivery": 0
+  },
+  "tests": {
+    "passed": {
+      "grammarPoints": 97,
+      "baselinePreserved": true,
+      "layeredAppendOnlyProof": {
+        "sections": 3,
+        "practice": 6
+      },
+      "tamperRejectionCases": 3,
+      "sixLevelPagesAt390px": true
+    },
+    "failed": [],
+    "pending": []
+  },
+  "completedUtc": "2026-10-16T16:27:19.564405+00:00",
+  "reviewMode": "Single-agent second reading and explicit correction journals; not independent peer review",
+  "notTested": [
+    "Human acoustic listening / speech alignment",
+    "Real microphone",
+    "Real partner interaction",
+    "Actual installed Google français availability",
+    "New examination format checks (no examination format changed)"
+  ],
+  "remainingGaps": [
+    "本批仅深化三个既有主题，不能把其他短课视为已加长。",
+    "需继续增加跨话题应用、逐级先修复现、真实语速和真实互动；读完不保证达到C2。"
+  ],
+  "git": {
+    "status": "verified locally; authorized commit/push original branch pending receipt",
+    "deployment": false
+  }
+}

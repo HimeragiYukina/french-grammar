@@ -435,6 +435,27 @@
             "use": "本场景把没有车作为当前设定；未完成过去时用于有距离的假设，乘公交本身并不能证明没有车。"
           }
         ]
+      },
+      {
+        "title": "同一个周末，si的两种功能：问是否与设条件",
+        "explanation": "独立维修情境中，客户询问明天是否能修，再根据答案决定是否送车。间接疑问的si相当于“是否”，可接未来时；条件si将条件与结果连接，不照搬未来时。已完成的事实也可用复合过去时放在条件从句中，例如“如果你已预约，请报姓名”，因此不能把si后所有过去时都当反事实。 规则核对：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/24140/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-dans-les-phrases-hypothetiques\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF假设句与间接疑问</a>（2026-10-16）。",
+        "examples": [
+          {
+            "fr": "Je voudrais savoir si vous réparerez mon vélo demain.",
+            "zh": "我想知道您明天是否会修我的自行车。",
+            "use": "si引间接疑问，réparerez是将来时。"
+          },
+          {
+            "fr": "Si le mécanicien est libre demain, j’apporterai mon vélo.",
+            "zh": "如果修理师明天有空，我就把自行车送来。",
+            "use": "条件从句est现在时指未来，主句将来时。"
+          },
+          {
+            "fr": "Si vous avez déjà réservé, donnez votre nom à l’accueil.",
+            "zh": "如果您已经预约，请在接待处报姓名。",
+            "use": "条件用复合过去时指已完成预约；主句命令式。"
+          }
+        ]
       }
     ],
     "comparison": "Si j’ai le temps, je viendrai：作为可实现计划；si j’avais le temps, je viendrais：假设距离更远或当前没空。Je me demande s’il viendrait avec nous 中 si 意为“是否”，不是条件，条件式可以出现。",
@@ -455,6 +476,16 @@
         "q": "解释 Je ne sais pas si le bureau sera ouvert demain 为什么可以用 sera。",
         "a": "Ici, si signifie « est-ce que », et non « à condition que ».",
         "note": "这里 si 引出“是否”的间接疑问，不是条件从句。"
+      },
+      {
+        "q": "把“我想知道你明天是否会修我的自行车；如果修理师有空，我就把车送来”写成两句，第一句明确询问未来，第二句开放条件。",
+        "a": "Je voudrais savoir si vous réparerez mon vélo demain. Si le mécanicien est libre, j’apporterai mon vélo.",
+        "note": "接受自然同义改写；第一句si为是否，第二句为如果。不能把修车计划说成已完成。"
+      },
+      {
+        "q": "Si vous avez déjà réservé, donnez votre nom à l’accueil. 有人认为si后出现过去时，所以一定是假设没预约。用法语解释或改述，保“已预约则报姓名”。",
+        "a": "La phrase demande aux personnes qui ont déjà réservé de donner leur nom. Elle ne présente pas la réservation comme impossible ou irréelle.",
+        "note": "复合过去时在此是完成的现实条件，不是imparfait＋conditionnel的假设组合。也可中文解释并给自然法语改述。"
       }
     ],
     "related": [
