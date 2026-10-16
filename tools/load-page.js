@@ -6,6 +6,7 @@ function loadPage(level='ALL'){
  for(const l of ['a1','a2','b1','b2','c1','c2'])vm.runInNewContext(fs.readFileSync('data/'+l+'.js','utf8'),context);
  const win=new Proxy({GRAMMAR_TEST:true,GRAMMAR_DATA:data},{get(t,p){if(p in t)return t[p];if(['speechSynthesis','AUDIO_MANIFEST'].includes(p))return undefined;return fake;},has(){return false;}});
  const doc=new Proxy({body:{dataset:{level}}},{get(t,p){return p in t?t[p]:fake;}});
+ new Function('window',fs.readFileSync('assets/self-review.js','utf8'))(win);
  const script=fs.readFileSync('assets/app.js','utf8');
  const run=new Function('document','window','localStorage','navigator','speechSynthesis','Audio',script+'\nLEVELS.forEach(mergeLevel);return {GRAMMAR,PRACTICE,EXPANSIONS,EXPANSION_SOURCES,CONTEXTS,cardHTML,contextHTML,matches,setQuery(q){query=q;},setLevel(l){activeLevel=l;}};');
  return run(doc,win,{getItem(){return null;},setItem(){}},{language:'fr'},undefined,undefined);

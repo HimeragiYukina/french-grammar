@@ -52,7 +52,7 @@ function exerciseHTML(items,label='练习 · Exercices'){
 }
 function relatedHTML(ids){return (ids||[]).length?`<p class="related">相关语法：${ids.map(id=>{const g=GRAMMAR.find(g=>g.id===id);return `<a href="${pointURL(id)}">${g?fullTitle(g):(window.GRAMMAR_TITLES[id]||id)}</a>`;}).join(' · ')}</p>`:'';}
 function contextHTML(c){
-  return `<article class="context-card" id="${c.id}"><h3>${c.title}</h3><p><a href="audio-library.html?content=${escAttr(c.id)}">本语境全部配套法语音频</a></p>${relatedHTML(c.related)}<div class="fr passage">${tts(c.sentences.map(s=>s.fr).join(' '))} ${c.sentences.map(s=>s.fr).join(' ')}</div><details><summary>逐句理解 · 为什么这样说</summary>${c.sentences.map(s=>`<section class="usage-section"><div class="fr">${tts(s.fr)} ${s.fr}</div><div class="zh">${s.zh}</div><p><strong>为什么这样说：</strong>${s.why}</p><p><strong>换一种表达：</strong>${s.alternative}</p></section>`).join('')}</details>${exerciseHTML(c.practice,'语境练习 · Mise en pratique')}<details class="source-notes"><summary>参考资料</summary><ul>${(c.sources||[]).map(s=>`<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener noreferrer">${s.title}</a></li>`).join('')}</ul></details></article>`;
+  return `<article class="context-card" id="${c.id}"><h3>${c.title}</h3><p><a href="audio-library.html?content=${escAttr(c.id)}">本语境全部配套法语音频</a></p>${relatedHTML(c.related)}<div class="fr passage">${tts(c.sentences.map(s=>s.fr).join(' '))} ${c.sentences.map(s=>s.fr).join(' ')}</div><details><summary>逐句理解 · 为什么这样说</summary>${c.sentences.map(s=>`<section class="usage-section"><div class="fr">${tts(s.fr)} ${s.fr}</div><div class="zh">${s.zh}</div><p><strong>为什么这样说：</strong>${s.why}</p><p><strong>换一种表达：</strong>${s.alternative}</p></section>`).join('')}</details>${window.SELF_REVIEW?.render(c.level||c.id.slice(0,2),'speaking',true)||''}${window.SELF_REVIEW?.render(c.level||c.id.slice(0,2),'writing',true)||''}${exerciseHTML(c.practice,'语境练习 · Mise en pratique')}<details class="source-notes"><summary>参考资料</summary><ul>${(c.sources||[]).map(s=>`<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener noreferrer">${s.title}</a></li>`).join('')}</ul></details></article>`;
 }
 function expansionHTML(g){
   const x = EXPANSIONS[g.id];
@@ -84,6 +84,7 @@ function cardHTML(g){
     ${tip}
     ${expansionHTML(g)}
     ${practice}
+    ${window.SELF_REVIEW?.render(g.level,'speaking',true)||''}${window.SELF_REVIEW?.render(g.level,'writing',true)||''}
   </article>`;
 }
 

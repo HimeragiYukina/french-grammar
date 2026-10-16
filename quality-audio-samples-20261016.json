@@ -1,0 +1,945 @@
+{
+  "scope": "Bounded selected audio technical sample review; exacttext/current mapping/hash/full PCM decode/metrics. No human listening, pronunciation, speech-content alignment or truncation verdict.",
+  "method": {
+    "cpu": "two-core affinity, one decode process at a time, codec/filter one thread, hidden BELOW_NORMAL",
+    "silence": "20ms RMS below -45dBFS",
+    "flags": "Threshold candidates for human review, never proof of pronunciation or truncation",
+    "ASRModulesUnavailable": {
+      "whisper": true,
+      "faster_whisper": true,
+      "vosk": true
+    }
+  },
+  "listen": false,
+  "speechAlignment": "not_verified",
+  "summary": {
+    "samples": 14,
+    "technicalFailures": 0,
+    "samplesWithCandidateFlags": 0,
+    "byLevelRepository": {
+      "A1": {
+        "grammar": 2
+      },
+      "A2": {
+        "grammar": 1
+      },
+      "B1": {
+        "grammar": 1
+      },
+      "B2": {
+        "grammar": 2
+      },
+      "C1": {
+        "grammar": 2
+      },
+      "C2": {
+        "grammar": 6
+      }
+    },
+    "tags": [
+      "abbreviation",
+      "liaison",
+      "longsentence",
+      "numbers",
+      "quotes"
+    ],
+    "longreadFull": 0,
+    "longreadParagraphs": 0
+  },
+  "currentTextResolutions": [],
+  "prioritySelections": [
+    {
+      "repo": "grammar",
+      "id": "c1-ne-expletif",
+      "purpose": "applied correction: /c1-ne-expletif/practice/0/a",
+      "status": "no_current_approved_unit"
+    },
+    {
+      "repo": "grammar",
+      "id": "c2-exclamation",
+      "purpose": "applied correction: /c2-exclamation/practice/1/a",
+      "status": "selected",
+      "textSHA256": "bbd2e52a17103a07861b4c43f0ba2b97a74b9b4f4b70abb4ccf8dde960460156"
+    },
+    {
+      "repo": "grammar",
+      "id": "c2-cause-niee",
+      "purpose": "applied correction: /c2-cause-niee/practice/0/a",
+      "status": "selected",
+      "textSHA256": "083feb55cc8e602c5f7f6c184fb2134cbcd353603b15fd240f227afcd0bf525a"
+    },
+    {
+      "repo": "grammar",
+      "id": "c1-hypothese-sans-si",
+      "purpose": "applied correction: /c1-hypothese-sans-si/practice/0/q",
+      "status": "selected",
+      "textSHA256": "373337e32b94a834ac9e750abbb6b577a19225e4020cddfc78fd42e5442808a2"
+    },
+    {
+      "repo": "grammar",
+      "id": "c2-ellipse",
+      "purpose": "applied correction: /c2-ellipse/practice/1/q",
+      "status": "selected",
+      "textSHA256": "10888e52ece0c963e2106a4fb7b9b6aedddd05b17426182e69ad463c881a76b6"
+    }
+  ],
+  "samples": [
+    {
+      "repo": "grammar",
+      "levels": [
+        "A1"
+      ],
+      "tags": [
+        "abbreviation",
+        "numbers",
+        "quotes"
+      ],
+      "text": "L'heure : « Il est trois heures et demie ». La date : « le 14 juillet ». « le lundi » = tous les lundis.",
+      "path": "audio/fr-FR/da34de3f261b74a9.mp3",
+      "textSHA256": "64029ecd602eeb5408985b168e5c424f2d43dece0b53557e55df8ab7d523ad91",
+      "fileSHA256": "38f74b5f64640c7bf55acb4c178e079e9ac8512b73a2e44a8f57cf65f768c69d",
+      "bytes": 50256,
+      "coverageSeconds": null,
+      "occurrences": [
+        {
+          "id": "a1-heure-date",
+          "field": "/a1-heure-date/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 104
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "Check quoted time/date, trois heures et demie, 14 juillet and boundary pauses.",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": null
+      },
+      "metrics": {
+        "decodedSeconds": 8.376,
+        "sampleRate": 24000,
+        "channels": 1,
+        "rms": 0.0819390158103036,
+        "rmsDbFS": -21.73018513539032,
+        "nonzeroFraction": 0.6820877109200891,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.22,
+        "trailingSilenceSeconds": 0.916,
+        "maximumInternalSilenceSeconds": 1.0,
+        "internalSilencesGE0_5Seconds": [
+          {
+            "start": 1.94,
+            "end": 2.94,
+            "seconds": 1.0
+          },
+          {
+            "start": 4.66,
+            "end": 5.64,
+            "seconds": 0.98
+          }
+        ],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A1"
+      ],
+      "tags": [
+        "liaison"
+      ],
+      "text": "Madame, vous avez votre billet ? Les enfants, vous avez vos billets ?",
+      "path": "audio/supplement/561d65e4d202fa592890af856f27bfa16985c12654462668abeb140faf07b70e.mp3",
+      "textSHA256": "561d65e4d202fa592890af856f27bfa16985c12654462668abeb140faf07b70e",
+      "fileSHA256": "0f416487cc9671e50317d88b62ce5f854c8d6fa53bf9d97b481d5bfe17d57b00",
+      "bytes": 35570,
+      "coverageSeconds": 4.35374149659864,
+      "occurrences": [
+        {
+          "id": "a1-sujets",
+          "field": "/a1-sujets/practice/0/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 69
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "Check vous avez liaison /z/, les enfants liaison and intelligible singular/plural ticket forms.",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 4.35374149659864,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.17241746395819468,
+        "rmsDbFS": -15.268374942320008,
+        "nonzeroFraction": 0.9176458333333334,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1137,
+        "maximumInternalSilenceSeconds": 0.38,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A2"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "Je choisis enfin un classeur bleu et je le pose sur le comptoir : « Pourriez-vous me donner un sac, s’il vous plaît ? »",
+      "path": "audio/supplement/c8cce5a2e862de5aec6cb64ef985b12854556f00a112615cbdae92cc385f74c5.mp3",
+      "textSHA256": "c8cce5a2e862de5aec6cb64ef985b12854556f00a112615cbdae92cc385f74c5",
+      "fileSHA256": "4e1813f146ff0bc278da9e01c6d78cf21b2f6c0eabb94f83857bac35797a5b07",
+      "bytes": 47691,
+      "coverageSeconds": 5.874648526077097,
+      "occurrences": [
+        {
+          "id": "a2-context-course-achat",
+          "field": "/a2-context-course-achat/sentences/4/fr",
+          "source": "runtime.CONTEXTS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 119
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": [
+        "quoted request and sentence boundary",
+        "polite conditional question",
+        "s’il vous plaît and connected speech"
+      ],
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 5.874648526077097,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1637326380181694,
+        "rmsDbFS": -15.717294817583639,
+        "nonzeroFraction": 0.9864670825098815,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.06,
+        "trailingSilenceSeconds": 0.1546,
+        "maximumInternalSilenceSeconds": 0.28,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [
+        "liaison",
+        "longsentence",
+        "numbers"
+      ],
+      "text": "Nous n’avons que vingt places. Cela ne signifie pas que vingt inscriptions sont déjà confirmées.",
+      "path": "audio/supplement/62f103bf5b9db22701a1bc965b05bcd1dd217ee1c0f6ffd0917e54914ec40c27.mp3",
+      "textSHA256": "62f103bf5b9db22701a1bc965b05bcd1dd217ee1c0f6ffd0917e54914ec40c27",
+      "fileSHA256": "0abc4a05781656688d6075f3d8af745ecb3b172bd8b18eb7b11655ba5489a82a",
+      "bytes": 42048,
+      "coverageSeconds": 5.166439909297052,
+      "occurrences": [
+        {
+          "id": "b1-negations",
+          "field": "/b1-negations/practice/1/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 96
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": [
+        "numbers vingt",
+        "liaison before inscriptions",
+        "negative restriction and long two-sentence grouping"
+      ],
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 5.166439909297052,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.16299713921148232,
+        "rmsDbFS": -15.75640035800306,
+        "nonzeroFraction": 0.95703125,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.12,
+        "trailingSilenceSeconds": 0.1664,
+        "maximumInternalSilenceSeconds": 0.34,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B2"
+      ],
+      "tags": [
+        "abbreviation",
+        "numbers"
+      ],
+      "text": "L’eau bout à 100 °C à la pression atmosphérique normale.",
+      "path": "audio/supplement/3ab277c2438772f70904dc7740a271a5c1f53e0f35db8d023bc09821409d84e9.mp3",
+      "textSHA256": "3ab277c2438772f70904dc7740a271a5c1f53e0f35db8d023bc09821409d84e9",
+      "fileSHA256": "5b461b1e63dffdc95468f6289fb4c31d3066a0ce332131e29f6301d171166e1e",
+      "bytes": 30137,
+      "coverageSeconds": 3.680362811791383,
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/1/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 18,
+              "end_codepoint": 74
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": [
+        "100 °C read cent degrés Celsius, not raw symbol or English",
+        "preserve normal-pressure qualifier",
+        "enchaînement bout à"
+      ],
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.680362811791383,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.16303971682674065,
+        "rmsDbFS": -15.754131752706208,
+        "nonzeroFraction": 0.9852129337539433,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.08,
+        "trailingSilenceSeconds": 0.0804,
+        "maximumInternalSilenceSeconds": 0.1,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B2"
+      ],
+      "tags": [
+        "liaison"
+      ],
+      "text": "Les chanteuses que nous avons entendues chanter ont salué. Les chansons que nous avons entendu chanter étaient anciennes.",
+      "path": "audio/supplement/d7ae1a917b51b8711fedc2ad1ca8e79a88da6f3a7cff3bcb0c9178fcb6272f49.mp3",
+      "textSHA256": "d7ae1a917b51b8711fedc2ad1ca8e79a88da6f3a7cff3bcb0c9178fcb6272f49",
+      "fileSHA256": "9c952183a253d25cb0de8c0ae246790ed943ec691a20bc42137106c2f595276b",
+      "bytes": 47064,
+      "coverageSeconds": 5.7817687074829935,
+      "occurrences": [
+        {
+          "id": "b2-accord-pp",
+          "field": "/b2-accord-pp/practice/0/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 121
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": [
+        "liaison nous avons / avons entendues",
+        "liaison étaient anciennes",
+        "chanteuses versus chansons contrast; punctuation and complete ending"
+      ],
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 5.7817687074829935,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1526409996449399,
+        "rmsDbFS": -16.326575968777107,
+        "nonzeroFraction": 0.9800059613453815,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.1,
+        "trailingSilenceSeconds": 0.1018,
+        "maximumInternalSilenceSeconds": 0.22,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C1"
+      ],
+      "tags": [
+        "liaison"
+      ],
+      "text": "Les enfants que nous avons vus courir sont rentrés.",
+      "path": "audio/supplement/0a29642566f8cc4a005c5694de7f9309606413c5060ca881ae63d8b9405928b7.mp3",
+      "textSHA256": "0a29642566f8cc4a005c5694de7f9309606413c5060ca881ae63d8b9405928b7",
+      "fileSHA256": "55929255c815bb906fd250902ea37d7a92d7af9f0160e13064c1903206f5348c",
+      "bytes": 20106,
+      "coverageSeconds": 2.426485260770975,
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "/c1-accord-avance/sections/0/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 51
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "核听les enfants的/z/联诵、nous avons及句中词组边界；不能从拼写或波形判断实际实现。",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.426485260770975,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.16888510224718745,
+        "rmsDbFS": -15.448173177579038,
+        "nonzeroFraction": 0.9446583433014354,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1265,
+        "maximumInternalSilenceSeconds": 0,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [
+        "abbreviation"
+      ],
+      "text": "Concession soutenue : quand bien même (+cond.), n'était (+nom), encore que (+subj.), tout… que (souvent +ind., aussi +subj.).",
+      "path": "audio/supplement/a4b5b164b858817da6a416d3a1fe27090b955922d8f13f9f6a03a22691d486ff.mp3",
+      "textSHA256": "a4b5b164b858817da6a416d3a1fe27090b955922d8f13f9f6a03a22691d486ff",
+      "fileSHA256": "27879a43eab840ade05dc9a34914268d4548f9b7507f3b07a204af00fbbaf098",
+      "bytes": 61693,
+      "coverageSeconds": 7.616145124716553,
+      "occurrences": [
+        {
+          "id": "c2-concession-soutenue",
+          "field": "/c2-concession-soutenue/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 125
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "缩写cond./nom/subj./ind.的读法须人工确认；这是语法标签文本，是否应排除整段TTS需复核",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 7.616145124716553,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1617604338192492,
+        "rmsDbFS": -15.822553940668131,
+        "nonzeroFraction": 0.9504989996189024,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1361,
+        "maximumInternalSilenceSeconds": 0.34,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "« Je vous attendrai », ajouta-t-elle. Ils se trouvaient au fond de la cour.",
+      "path": "audio/supplement/70ecb7512df733c684108398e384e4031c609c32d258f2327abe68763e19e564.mp3",
+      "textSHA256": "70ecb7512df733c684108398e384e4031c609c32d258f2327abe68763e19e564",
+      "fileSHA256": "2119b95f7ab8d1892b0f7ef3ce99ef47c6e7479f065d3cfd2f39f9c81b7d45e0",
+      "bytes": 32017,
+      "coverageSeconds": 3.912562358276644,
+      "occurrences": [
+        {
+          "id": "c2-inversion-style",
+          "field": "/c2-inversion-style/practice/0/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 75
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "直接引语与倒装ajouta-t-elle；不能读出引号符号名称",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.912562358276644,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1615279946034483,
+        "rmsDbFS": -15.835043974621678,
+        "nonzeroFraction": 0.9407803227002968,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1326,
+        "maximumInternalSilenceSeconds": 0.34,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "text": "Les dix kilomètres qu'elle a couru l'ont épuisée.",
+      "path": "audio/supplement/6c3fa0f88f987406bea2c3a8e603e3e88ed2aab30e215d62e23a96aac48123d2.mp3",
+      "textSHA256": "6c3fa0f88f987406bea2c3a8e603e3e88ed2aab30e215d62e23a96aac48123d2",
+      "fileSHA256": "57dd1542ce47af95b7b6f7c4b6549d11d78167a437edc8d1f6e6f483e80848e7",
+      "bytes": 19897,
+      "coverageSeconds": 2.403265306122449,
+      "occurrences": [
+        {
+          "id": "c2-accord-extreme",
+          "field": "/c2-accord-extreme/sections/1/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 49
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "数量dix kilomètres与长段语法说明；避免把配合解释读成错误示范",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.403265306122449,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1550132465382202,
+        "rmsDbFS": -16.192623758833964,
+        "nonzeroFraction": 0.9476902173913043,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.2,
+        "trailingSilenceSeconds": 0.1233,
+        "maximumInternalSilenceSeconds": 0.04,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [],
+      "text": "Le résultat est moins stable que nous le pensions.",
+      "path": "audio/supplement/bbd2e52a17103a07861b4c43f0ba2b97a74b9b4f4b70abb4ccf8dde960460156.mp3",
+      "textSHA256": "bbd2e52a17103a07861b4c43f0ba2b97a74b9b4f4b70abb4ccf8dde960460156",
+      "fileSHA256": "37b7bcc3e6f560ebb5bc1ccdb197d48afdc6f63b6abc1e0884559f055e521eb0",
+      "bytes": 20524,
+      "coverageSeconds": 2.4729251700680273,
+      "occurrences": [
+        {
+          "id": "c2-exclamation",
+          "field": "/c2-exclamation/practice/1/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 16,
+              "end_codepoint": 66
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "c2-exclamation",
+          "field": "/c2-exclamation/practice/1/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 16,
+              "end_codepoint": 66
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "applied correction: /c2-exclamation/practice/1/a",
+      "affectedCorrections": [
+        "applied correction: /c2-exclamation/practice/1/a"
+      ],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.4729251700680273,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.16120901739423835,
+        "rmsDbFS": -15.852213382749042,
+        "nonzeroFraction": 0.9344006748826291,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1329,
+        "maximumInternalSilenceSeconds": 0.04,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [],
+      "text": "Elle refuse, non que le prix soit élevé — il l'est effectivement —, mais parce qu'elle manque de temps.",
+      "path": "audio/supplement/083feb55cc8e602c5f7f6c184fb2134cbcd353603b15fd240f227afcd0bf525a.mp3",
+      "textSHA256": "083feb55cc8e602c5f7f6c184fb2134cbcd353603b15fd240f227afcd0bf525a",
+      "fileSHA256": "53deb269474c327f410c41847be1506232b47057946bc76a60a8e7baddb7011b",
+      "bytes": 41004,
+      "coverageSeconds": 5.027120181405896,
+      "occurrences": [
+        {
+          "id": "c2-cause-niee",
+          "field": "/c2-cause-niee/practice/0/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 103
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "applied correction: /c2-cause-niee/practice/0/a",
+      "affectedCorrections": [
+        "applied correction: /c2-cause-niee/practice/0/a"
+      ],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 5.027120181405896,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.14551044986632064,
+        "rmsDbFS": -16.742116332006074,
+        "nonzeroFraction": 0.9892916426096998,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.06,
+        "trailingSilenceSeconds": 0.1671,
+        "maximumInternalSilenceSeconds": 0.2,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C1"
+      ],
+      "tags": [],
+      "text": "Appelez avant de venir, au cas où la réunion ___.",
+      "path": "audio/supplement/373337e32b94a834ac9e750abbb6b577a19225e4020cddfc78fd42e5442808a2.mp3",
+      "textSHA256": "373337e32b94a834ac9e750abbb6b577a19225e4020cddfc78fd42e5442808a2",
+      "fileSHA256": "2bab64dc9d94fd43081e7c01ed8e3a9eea891bc61c929ed4b48f34f2cd7773e7",
+      "bytes": 22404,
+      "coverageSeconds": 2.705124716553288,
+      "occurrences": [
+        {
+          "id": "c1-hypothese-sans-si",
+          "field": "/c1-hypothese-sans-si/practice/0/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 26,
+              "end_codepoint": 75
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "applied correction: /c1-hypothese-sans-si/practice/0/q",
+      "affectedCorrections": [
+        "applied correction: /c1-hypothese-sans-si/practice/0/q"
+      ],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.705124716553288,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.19507525832026673,
+        "rmsDbFS": -14.195956186314199,
+        "nonzeroFraction": 0.9260662553648069,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.0851,
+        "maximumInternalSilenceSeconds": 0.28,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [],
+      "text": "Fermeture du pont : circulation interrompue",
+      "path": "audio/supplement/10888e52ece0c963e2106a4fb7b9b6aedddd05b17426182e69ad463c881a76b6.mp3",
+      "textSHA256": "10888e52ece0c963e2106a4fb7b9b6aedddd05b17426182e69ad463c881a76b6",
+      "fileSHA256": "bb0e188bfffe7876cd3da58706fb94c79a7a0bbb508e0e541c5e9b1b8a367179",
+      "bytes": 23867,
+      "coverageSeconds": 2.8908843537414968,
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/practice/1/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 2,
+              "end_codepoint": 45
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "selectionPurpose": "applied correction: /c2-ellipse/practice/1/q",
+      "affectedCorrections": [
+        "applied correction: /c2-ellipse/practice/1/q"
+      ],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.8908843537414968,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1646873407012955,
+        "rmsDbFS": -15.66679566382695,
+        "nonzeroFraction": 0.9451399347389559,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.2,
+        "trailingSilenceSeconds": 0.1109,
+        "maximumInternalSilenceSeconds": 0.28,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    }
+  ],
+  "acceptedAudioFileAndTextSnapshotSha256": "7eab187cabf8ca7c9e8c70e040d9a4f3ab99c6a70c638414c5c8c358c45701d1"
+}

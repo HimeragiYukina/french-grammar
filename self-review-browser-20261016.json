@@ -1,0 +1,115 @@
+{
+  "passed": 6,
+  "rows": [
+    {
+      "repo": "grammar",
+      "level": "a1",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 12,
+      "noInputs": true,
+      "transfer": true,
+      "overflow": false
+    },
+    {
+      "repo": "grammar",
+      "level": "a2",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 10,
+      "noInputs": true,
+      "transfer": true,
+      "overflow": false
+    },
+    {
+      "repo": "grammar",
+      "level": "b1",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 9,
+      "noInputs": true,
+      "transfer": true,
+      "overflow": false
+    },
+    {
+      "repo": "grammar",
+      "level": "b2",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 9,
+      "noInputs": true,
+      "transfer": true,
+      "overflow": false
+    },
+    {
+      "repo": "grammar",
+      "level": "c1",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 10,
+      "noInputs": true,
+      "transfer": true,
+      "overflow": false
+    },
+    {
+      "repo": "grammar",
+      "level": "c2",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 9,
+      "noInputs": true,
+      "transfer": true,
+      "overflow": false
+    }
+  ],
+  "contextPassed": 6,
+  "contexts": [
+    {
+      "id": "a2-context-rendezvous-manque",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 1,
+      "overflow": false
+    },
+    {
+      "id": "a2-context-course-achat",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 1,
+      "overflow": false
+    },
+    {
+      "id": "a2-context-reservation-horaire",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 1,
+      "overflow": false
+    },
+    {
+      "id": "b1-context-pique-nique",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 1,
+      "overflow": false
+    },
+    {
+      "id": "b1-context-reunion",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 1,
+      "overflow": false
+    },
+    {
+      "id": "b1-context-repas",
+      "blocks": 2,
+      "dimensions": 8,
+      "models": 1,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "viewport": 390,
+  "scope": "Six grammar level cards and all six context cards: independent oral/written transfer self-review, four dimensions, no automatic score or new persistence.",
+  "progressPersistenceRegression": "Not run here; parent runs existing progress regression.",
+  "auditoryReview": false
+}

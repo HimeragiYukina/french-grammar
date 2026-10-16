@@ -1,0 +1,30 @@
+{
+  "text": "Je vais en imprimer deux",
+  "text_sha256": "1e298e50bcf184188b14e28517c06cc7d2c86f5beb3eb7db262862817e9d492b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.486077097505669,
+      "source_seconds": 1.486077097505669,
+      "source_file_sha256": "1184e3ffb611f9112e88749e1f3d0f796aaf1d514788c67dac5462c41a6d6545",
+      "file_sha256": "dd7a419e670317b49a06f2630aeea02b3cf8d583d90e8cd8111e11171eda9e1d",
+      "bytes": 12582,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

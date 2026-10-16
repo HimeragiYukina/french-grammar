@@ -1,0 +1,302 @@
+{
+  "date": "2026-10-16",
+  "repository": "grammar",
+  "baseline": "a25b5bb",
+  "appliedFixCount": 11,
+  "appliedFixes": [
+    {
+      "journalId": "quality-applied-fixes:01",
+      "repo": "grammar",
+      "file": "tools/supplement-a2.json",
+      "id": "a2-pc-etre",
+      "jsonpath": "/a2-pc-etre/practice/0/note",
+      "before": "第一句Léa本人位移，无COD，用être并配descendue；第二句deux cartons为后置COD，用avoir，descendu不因elle加e。改变人物或箱子数量可以，但须保留两种结构。",
+      "after": "第一句Léa本人位移，无COD，用être并配descendue；第二句deux cartons为后置COD，用avoir，descendu不因elle加e。本题须保留Léa及两个纸箱；另做迁移时可更换人物或数量，但不能把新事实当原题答案。",
+      "reason": "给定事实明确两个纸箱，原note允许改数量，评分与题干不一致。",
+      "reviewJournal": "a2",
+      "status": "applied_verified_current_source"
+    },
+    {
+      "journalId": "quality-applied-fixes:02",
+      "repo": "grammar",
+      "file": "tools/supplement-a2.json",
+      "id": "a2-cod",
+      "jsonpath": "/a2-cod/practice/0/note",
+      "before": "特定复数COD用les，属于imprimer所以放在不定式前；不是Je les vais imprimer。这里用en deux会把题目要求的特定对象替换成数量结构。",
+      "after": "题目要求以les替换已明确的特定复数宾语，les属于imprimer，放在不定式前，不能写Je les vais imprimer。Je vais en imprimer deux是保留数量的另一种改写，语法本身可以成立；本题指定特指宾语替换，不以en结构作为目标答案。",
+      "reason": "en deux不是完整改写；需区分本题替换要求与另一结构的语法正确性。",
+      "reviewJournal": "a2",
+      "status": "applied_verified_current_source"
+    },
+    {
+      "journalId": "quality-applied-fixes:03",
+      "repo": "grammar",
+      "file": "tools/supplement-a2.json",
+      "id": "a2-ou-relatif",
+      "jsonpath": "/a2-ou-relatif/practice/0/note",
+      "before": "habiter ici的地点关系可用où；visiter la ville中ville是COD，用que。只看先行词ville是地点不足以两句都选où。",
+      "after": "示范首句把habiter ici的地点补语改为où；visiter la ville中ville是COD，用que。habiter也可直接带城市宾语，因此La ville que j’habite est calme同样可接受，须能解释其及物结构。不能只因ville是地点就把visiter的COD一概改成où。",
+      "reason": "补合法habiter及物变体，避免评分把自然表达误判错误。",
+      "reviewJournal": "a2",
+      "status": "applied_verified_current_source"
+    },
+    {
+      "journalId": "quality-applied-fixes:18",
+      "repo": "grammar",
+      "file": "tools/supplement-b1.json",
+      "id": "b1-negations",
+      "jsonpath": "/b1-negations/practice/1/note",
+      "before": "ne…que限制名额数，不是没有名额；申请量、容量、已确认人数是不同指标。第二句可改述为Le nombre de places ne prouve pas le nombre d’inscriptions confirmées。两项各0—2：限制范围、人数状态、自然表达、不增事实。",
+      "after": "ne…que限制名额数，不是没有名额；申请量、容量、已确认人数是不同指标。第二句可改述为Le nombre de places ne prouve pas le nombre d’inscriptions confirmées。四项各0—2：限制范围、人数状态、自然表达、不增事实。",
+      "reason": "列出限制范围、人数状态、自然表达、不增事实共四项，却写“两项各0—2”，应统一为四维各0—2。",
+      "reviewJournal": "b1",
+      "status": "applied_verified_current_source"
+    },
+    {
+      "journalId": "quality-applied-fixes:21",
+      "repo": "grammar",
+      "file": "tools/supplement-c1.json",
+      "id": "c1-hypothese-sans-si",
+      "jsonpath": "/c1-hypothese-sans-si/practice/0/q",
+      "before": "会议可能已取消，但你尚未核实。把备用动作接在句末：Appelez avant de venir, au cas où la réunion ___. 用annuler的被动完成形式。",
+      "after": "会议可能已取消，但你尚未核实。补全句末的预防性条件：Appelez avant de venir, au cas où la réunion ___. 用annuler的被动完成形式。",
+      "reason": "句末au cas où从句是预防的可能情况，动作Appelez已在主句；不用“动作在句末”误指语法角色。",
+      "reviewJournal": "c1",
+      "status": "applied_verified_current_source"
+    },
+    {
+      "journalId": "quality-applied-fixes:22",
+      "repo": "grammar",
+      "file": "tools/supplement-c1.json",
+      "id": "c1-ne-expletif",
+      "jsonpath": "/c1-ne-expletif/practice/0/a",
+      "before": "Je crains qu’elle ne parte. Je crains qu’elle ne parte pas.",
+      "after": "第一句：我担心她会离开。ne是赘词，不表示否定。第二句：我担心她不会离开。ne…pas构成真正否定。",
+      "reason": "题干要求翻译并判ne，a原样重复题目；新a实际回答功能与意义，现有note保留两句中文翻译。不动原题输入。",
+      "reviewJournal": "c1",
+      "status": "applied_verified_current_source"
+    },
+    {
+      "journalId": "quality-applied-fixes:23",
+      "repo": "grammar",
+      "file": "tools/supplement-c2.json",
+      "id": "c2-exclamation",
+      "jsonpath": "/c2-exclamation/practice/1/a",
+      "before": "Le résultat est moins stable que nous le pensions.",
+      "after": "结果没有我们原先以为的那么稳定。Le résultat est moins stable que nous le pensions. 删去赘词ne不改变比较意义；加入pas会形成真实否定，不能当作同义替换。",
+      "reason": "题干要求正常中文、删ne与加pas三个输出；当前完整说明仅在note，参考答案未独立完成任务。",
+      "reviewJournal": "c2",
+      "status": "applied_verified_current_source"
+    },
+    {
+      "journalId": "quality-applied-fixes:24",
+      "repo": "grammar",
+      "file": "tools/supplement-c2.json",
+      "id": "c2-cause-niee",
+      "jsonpath": "/c2-cause-niee/practice/0/a",
+      "before": "Elle refuse, non que le prix soit trop élevé — il l'est effectivement —, mais parce qu'elle manque de temps.",
+      "after": "Elle refuse, non que le prix soit élevé — il l'est effectivement —, mais parce qu'elle manque de temps.",
+      "reason": "题干承认价格高，未必承认价格过高；避免trop加入评价。",
+      "reviewJournal": "c2",
+      "status": "applied_verified_current_source"
+    },
+    {
+      "journalId": "quality-applied-fixes:25",
+      "repo": "grammar",
+      "file": "tools/supplement-c2.json",
+      "id": "c2-inversion-style",
+      "jsonpath": "/c2-inversion-style/practice/0/note",
+      "before": "ajouta-t-elle1分；ils在动词前且trouvaient配复数1分；不把名词后置规则套代词1分；说明插入语不是疑问1分。后句也接受Au fond de la cour, ils attendaient，但属语义改写，不是最少校改。",
+      "after": "ajouta-t-elle1分；ils在动词前且trouvaient配复数1分；不把名词后置规则套代词1分；说明插入语不是疑问1分。Au fond de la cour, ils attendaient可作另行语义改写，但增加等待含义；本题要求最少校改，因此不计忠实性满分。",
+      "reason": "备选语义改写应与本题最少编辑满分标准分开。",
+      "reviewJournal": "c2",
+      "status": "applied_verified_current_source"
+    },
+    {
+      "journalId": "quality-applied-fixes:26",
+      "repo": "grammar",
+      "file": "tools/supplement-c2.json",
+      "id": "c2-ellipse",
+      "jsonpath": "/c2-ellipse/practice/1/q",
+      "before": "标题Fermeture du pont : circulation interrompue。写给现场工作人员的完整通知句，不凭标题补关闭原因、时长或决定者；再说标题失去了什么信息。",
+      "after": "标题Fermeture du pont : circulation interrompue。写给现场工作人员的完整通知句，不凭标题补关闭原因、时长或决定者；再说标题未说明哪些信息，并区分名词标题未显式标时与原材料从未提供的原因/时长/施事。",
+      "reason": "原材料从未给原因时长决定者，不能归因为名词化删失。",
+      "reviewJournal": "c2",
+      "status": "applied_verified_current_source"
+    },
+    {
+      "journalId": "quality-applied-fixes:29",
+      "repo": "grammar",
+      "file": "tools/supplement-c2.json",
+      "id": "c2-ellipse",
+      "jsonpath": "/c2-ellipse/practice/1/note",
+      "before": "两项状态保留各1分；不虚构因果细节1分；指出名词化时态/施事信息减少1分。也可用冒号保解释关系，但不能自行加pour travaux。",
+      "after": "两项状态保留各1分；不虚构因果细节1分；指出标题未显式标时，同时区分原因、时长和决定者原材料从未提供、并非都被名词化删去1分。也可用冒号保解释关系，但不能自行加pour travaux。",
+      "reason": "题干已区分原材料从未给出的施事与名词化未显式标时；同步评分边界，保留既有pour travaux。",
+      "reviewJournal": "c2",
+      "status": "applied_verified_current_source"
+    }
+  ],
+  "substantiveReviewJournals": [
+    {
+      "sourceJournalId": "quality-a2:grammar_other_changes:0",
+      "level": "A2",
+      "reviewRecord": {
+        "file": "tools/grammar-a2.json",
+        "pointer": "/grammar/1/ex/5/use",
+        "before": "带宾语改用 avoir:monter 带直接宾语(ses valises)时用 avoir 且不配合;不带宾语时用 être 并配合(montée)",
+        "after": "带直接宾语的相关用法改用 avoir：此句 ses valises 后置，所以 monté 不配合；前置 COD 则另判配合。不带直接宾语的位移用 être，此句与 elle 配合为 montée。",
+        "verdict": "pass",
+        "evidence": "Accord scope now distinguishes postposed COD; rez-de-chaussée translation consistently ground floor."
+      }
+    },
+    {
+      "sourceJournalId": "quality-a2:grammar_other_changes:1",
+      "level": "A2",
+      "reviewRecord": {
+        "file": "tools/expansion-a2.json",
+        "pointer": "/a2-pc-etre/sections/1/examples/0/zh",
+        "before": "她下到一楼去了。",
+        "after": "她下到地面层去了。",
+        "verdict": "pass",
+        "evidence": "Accord scope now distinguishes postposed COD; rez-de-chaussée translation consistently ground floor."
+      }
+    },
+    {
+      "sourceJournalId": "quality-c2:substantiveChanges:3",
+      "level": "C2",
+      "reviewRecord": {
+        "id": "c2-cohesion / expansion-c2",
+        "verdict": "pass",
+        "evidence": "场地通常满座但本次有位是真正一般与个案对照，避免预订要求与空位并非反例。"
+      }
+    }
+  ],
+  "existingSourceFieldDeltaCount": 10,
+  "existingSourceFieldDeltas": [
+    {
+      "file": "tools/grammar-a1.json",
+      "jsonpath": "/practice/a1-genre/2/note",
+      "baseline": "a25b5bb",
+      "before": "元音开头名词前缩合为 l'",
+      "after": "元音开头名词前le/la省音为l’；这是省音，不是à+le=au一类缩合。",
+      "reason": "Existing content field changed from the exact baseline; contextual review scope remains limited to the attached source journals.",
+      "sourceJournalIds": [],
+      "contextJournalIds": [],
+      "reviewStatus": "baseline_delta_recorded_not_blanket_leaf_approval"
+    },
+    {
+      "file": "tools/expansion-a1.json",
+      "jsonpath": "/a1-partitif/sections/2/examples/1/fr",
+      "baseline": "a25b5bb",
+      "before": "Je ne bois pas de lait, mais ce n’est pas du lait dans ce verre.",
+      "after": "Je ne bois pas de lait. Ce n’est pas du lait dans ce verre.",
+      "reason": "Existing content field changed from the exact baseline; contextual review scope remains limited to the attached source journals.",
+      "sourceJournalIds": [],
+      "contextJournalIds": [],
+      "reviewStatus": "baseline_delta_recorded_not_blanket_leaf_approval"
+    },
+    {
+      "file": "tools/expansion-a1.json",
+      "jsonpath": "/a1-partitif/sections/2/examples/1/zh",
+      "baseline": "a25b5bb",
+      "before": "我不喝牛奶，但这个杯子里装的不是牛奶。",
+      "after": "我不喝牛奶。这个杯子里装的不是牛奶。",
+      "reason": "Existing content field changed from the exact baseline; contextual review scope remains limited to the attached source journals.",
+      "sourceJournalIds": [],
+      "contextJournalIds": [],
+      "reviewStatus": "baseline_delta_recorded_not_blanket_leaf_approval"
+    },
+    {
+      "file": "tools/supplement-a1.json",
+      "jsonpath": "/a1-partitif/sections/0/examples/4/use",
+      "baseline": "a25b5bb",
+      "before": "sans sucre 描述不加糖，不否定茶的存在。",
+      "after": "sans sucre描述不加糖，不否定咖啡的存在。",
+      "reason": "Existing content field changed from the exact baseline; contextual review scope remains limited to the attached source journals.",
+      "sourceJournalIds": [],
+      "contextJournalIds": [],
+      "reviewStatus": "baseline_delta_recorded_not_blanket_leaf_approval"
+    },
+    {
+      "file": "tools/grammar-a2.json",
+      "jsonpath": "/grammar/1/ex/5/use",
+      "baseline": "a25b5bb",
+      "before": "带宾语改用 avoir:monter 带直接宾语(ses valises)时用 avoir 且不配合;不带宾语时用 être 并配合(montée)",
+      "after": "带直接宾语的相关用法改用 avoir：此句 ses valises 后置，所以 monté 不配合；前置 COD 则另判配合。不带直接宾语的位移用 être，此句与 elle 配合为 montée。",
+      "reason": "Existing content field changed from the exact baseline; contextual review scope remains limited to the attached source journals.",
+      "sourceJournalIds": [],
+      "contextJournalIds": [
+        "quality-a2:grammar_other_changes:0",
+        "quality-a2:grammar_other_changes:1"
+      ],
+      "reviewStatus": "baseline_delta_recorded_not_blanket_leaf_approval"
+    },
+    {
+      "file": "tools/expansion-a2.json",
+      "jsonpath": "/a2-pc-etre/sections/1/examples/0/zh",
+      "baseline": "a25b5bb",
+      "before": "她下到一楼去了。",
+      "after": "她下到地面层去了。",
+      "reason": "Existing content field changed from the exact baseline; contextual review scope remains limited to the attached source journals.",
+      "sourceJournalIds": [],
+      "contextJournalIds": [
+        "quality-a2:grammar_other_changes:0",
+        "quality-a2:grammar_other_changes:1"
+      ],
+      "reviewStatus": "baseline_delta_recorded_not_blanket_leaf_approval"
+    },
+    {
+      "file": "tools/grammar-b2.json",
+      "jsonpath": "/practice/b2-mode-choix/2/note",
+      "baseline": "a25b5bb",
+      "before": "考查条件式:假设『换作是你』的情景,用条件式现在委婉表达建议。",
+      "after": "考查条件式：À ta place 表示“如果我是你／处在你的位置”，用条件式现在 refuserais 委婉表达建议。",
+      "reason": "Existing content field changed from the exact baseline; contextual review scope remains limited to the attached source journals.",
+      "sourceJournalIds": [],
+      "contextJournalIds": [],
+      "reviewStatus": "baseline_delta_recorded_not_blanket_leaf_approval"
+    },
+    {
+      "file": "tools/grammar-c1.json",
+      "jsonpath": "/grammar/9/ex/2/zh",
+      "baseline": "a25b5bb",
+      "before": "人人都知道。然而无人行动。",
+      "after": "人人当时都知道。然而现在无人行动。",
+      "reason": "Existing content field changed from the exact baseline; contextual review scope remains limited to the attached source journals.",
+      "sourceJournalIds": [],
+      "contextJournalIds": [],
+      "reviewStatus": "baseline_delta_recorded_not_blanket_leaf_approval"
+    },
+    {
+      "file": "tools/expansion-c2.json",
+      "jsonpath": "/c2-cohesion/sections/4/examples/0/fr",
+      "baseline": "a25b5bb",
+      "before": "En général, il faut réserver ; en l'occurrence, il reste des places.",
+      "after": "En général, la salle est complète ; en l'occurrence, il reste des places.",
+      "reason": "Existing content field changed from the exact baseline; contextual review scope remains limited to the attached source journals.",
+      "sourceJournalIds": [],
+      "contextJournalIds": [
+        "quality-c2:substantiveChanges:3"
+      ],
+      "reviewStatus": "baseline_delta_recorded_not_blanket_leaf_approval"
+    },
+    {
+      "file": "tools/expansion-c2.json",
+      "jsonpath": "/c2-cohesion/sections/4/examples/0/zh",
+      "baseline": "a25b5bb",
+      "before": "通常需要预订；但当前这个情况还有空位。",
+      "after": "通常场地满座；不过这一次还有空位。",
+      "reason": "Existing content field changed from the exact baseline; contextual review scope remains limited to the attached source journals.",
+      "sourceJournalIds": [],
+      "contextJournalIds": [
+        "quality-c2:substantiveChanges:3"
+      ],
+      "reviewStatus": "baseline_delta_recorded_not_blanket_leaf_approval"
+    }
+  ],
+  "limits": [
+    "Source deltas record exact baseline-to-current text; they do not expand the reviewer scope beyond each original journal.",
+    "New question additions are stored separately in quality-content-review-20261016.json."
+  ]
+}

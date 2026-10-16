@@ -1253,7 +1253,7 @@ window.GRAMMAR_DATA.C2={
         {
           "q": "给小说作最少编辑：« Je vous attendrai », ajouta-elle. Au fond de la cour se trouvaient ils. 前句修倒装，后句恢复自然代词语序。",
           "a": "« Je vous attendrai », ajouta-t-elle. Ils se trouvaient au fond de la cour.",
-          "note": "ajouta-t-elle1分；ils在动词前且trouvaient配复数1分；不把名词后置规则套代词1分；说明插入语不是疑问1分。后句也接受Au fond de la cour, ils attendaient，但属语义改写，不是最少校改。"
+          "note": "ajouta-t-elle1分；ils在动词前且trouvaient配复数1分；不把名词后置规则套代词1分；说明插入语不是疑问1分。Au fond de la cour, ils attendaient可作另行语义改写，但增加等待含义；本题要求最少校改，因此不计忠实性满分。"
         },
         {
           "q": "面向读者先建立场景，把Une longue file attendait devant le théâtre改为地点在前、名词主语后置；再说明普通顺序是否错误。",
@@ -1324,9 +1324,9 @@ window.GRAMMAR_DATA.C2={
           "note": "省略vérifie且保对象1分；区别不同谓词1分；不编造Paul笑1分；逗号与可复原关系解释1分。"
         },
         {
-          "q": "标题Fermeture du pont : circulation interrompue。写给现场工作人员的完整通知句，不凭标题补关闭原因、时长或决定者；再说标题失去了什么信息。",
+          "q": "标题Fermeture du pont : circulation interrompue。写给现场工作人员的完整通知句，不凭标题补关闭原因、时长或决定者；再说标题未说明哪些信息，并区分名词标题未显式标时与原材料从未提供的原因/时长/施事。",
           "a": "Le pont est fermé et la circulation est interrompue. Le titre ne précise ni la cause, ni la durée, ni l'autorité qui a décidé la fermeture.",
-          "note": "两项状态保留各1分；不虚构因果细节1分；指出名词化时态/施事信息减少1分。也可用冒号保解释关系，但不能自行加pour travaux。"
+          "note": "两项状态保留各1分；不虚构因果细节1分；指出标题未显式标时，同时区分原因、时长和决定者原材料从未提供、并非都被名词化删去1分。也可用冒号保解释关系，但不能自行加pour travaux。"
         }
       ]
     },
@@ -1640,7 +1640,7 @@ window.GRAMMAR_DATA.C2={
       "practice": [
         {
           "q": "她因时间不足拒绝，尽管价格确实高。用non que排除“价格”作为拒绝原因，同时保留价格高的事实；别把原因否定误写成事实否定。",
-          "a": "Elle refuse, non que le prix soit trop élevé — il l'est effectivement —, mais parce qu'elle manque de temps.",
+          "a": "Elle refuse, non que le prix soit élevé — il l'est effectivement —, mais parce qu'elle manque de temps.",
           "note": "non que+soit1分；mais parce que+直陈1分；明确价格高但非所给原因1分；事件拒绝不被否定1分。标点可另作两句。"
         },
         {
@@ -1912,7 +1912,7 @@ window.GRAMMAR_DATA.C2={
         },
         {
           "q": "报告写Le résultat est moins stable que nous ne le pensions。译文把它写成“比我们不以为的更不稳定”。给正常中文，并说明删ne、加pas各会怎样。",
-          "a": "Le résultat est moins stable que nous le pensions.",
+          "a": "结果没有我们原先以为的那么稳定。Le résultat est moins stable que nous le pensions. 删去赘词ne不改变比较意义；加入pas会形成真实否定，不能当作同义替换。",
           "note": "结果没有我们原先以为的那么稳定。Le résultat est moins stable que nous le pensions. Ne可省且比较意义不变；不能把pas作为同样无意义的附加词。 正确比较方向1分；ne赘词不否定pensions1分；删ne同义1分；pas会加入真实否定或造成不自然结构1分。不从此句推断结果绝对不稳定。"
         }
       ]

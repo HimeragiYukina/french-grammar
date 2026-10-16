@@ -1,19 +1,18 @@
 {
   "scope": "Grammar-only approved data catalog and preserved original voice files.",
-  "units": 3518,
+  "units": 3522,
   "byRepository": {
-    "grammar": 3518
+    "grammar": 3522
   },
   "originalGrammarVoiceFiles": 1090,
   "httpHeads": 0,
   "issues": [],
   "auditoryListening": false,
-  "acceptedAudioFileAndTextSnapshotSha256": "a086af44ac2bedbfaf1d1ea26a00da6b3716fb7ed46beb3730db587be6660258",
+  "acceptedAudioFileAndTextSnapshotSha256": "7eab187cabf8ca7c9e8c70e040d9a4f3ab99c6a70c638414c5c8c358c45701d1",
   "httpLinkVerification": {
-    "count": 3518,
+    "count": 3522,
     "passed": true,
-    "method": "HEAD request for each exact-text unit through the local installed-Edge request context",
-    "performedBy": "tools/test-audio-20261016.js integrated local harness",
+    "performedBy": "Installed-Edge local integrated harness HEAD each catalog file",
     "auditoryListening": false
   }
 }

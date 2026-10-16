@@ -1,804 +1,5 @@
 {
   "pageErrors": [],
-  "timestamp": "2026-10-16T07:35:43.109Z",
-  "browser": "Installed Microsoft Edge, headless, fresh isolated profile; no visible desktop or IAB",
-  "listened": false,
-  "notVerified": [
-    "Auditory intelligibility/pronunciation/prosody",
-    "Real availability of Google français: preference logic tested with a mock list only",
-    "Actual microphone: regression uses synthetic input only"
-  ],
-  "results": [
-    {
-      "name": "a1-genre actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-genre every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-indefini actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-indefini every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-pluriel actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-pluriel every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-partitif actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-partitif every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-sujets actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-sujets every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-etre actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-etre every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-avoir actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-avoir every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-cest-ilya actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-cest-ilya every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-present-er actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-present-er every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-present-ir actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-present-ir every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-present-irreg actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-present-irreg every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-adj actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-adj every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-possessif actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-possessif every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-demonstratif actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-demonstratif every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-negation actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-negation every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-question actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-question every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-mots-interro actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-mots-interro every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-prep-lieu actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-prep-lieu every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-prep-base actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-prep-base every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-heure-date actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-heure-date every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-futur-proche actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-futur-proche every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-passe-recent actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-passe-recent every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a1-vouloir-inf actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a1-vouloir-inf every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-pc-avoir actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-pc-avoir every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-pc-etre actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-pc-etre every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-imparfait actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-imparfait every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-pc-vs-imp actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-pc-vs-imp every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-futur-simple actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-futur-simple every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-cod actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-cod every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-coi actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-coi every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-en actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-en every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-y actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-y every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-pronominaux actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-pronominaux every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-imperatif actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-imperatif every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-comparatif actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-comparatif every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-superlatif actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-superlatif every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-qui-que actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-qui-que every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-ou-relatif actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-ou-relatif every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-quantite actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-quantite every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-temps-prep actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-temps-prep every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "a2-politesse actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "a2-politesse every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-pqp actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-pqp every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-cond-present actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-cond-present every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-cond-passe actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-cond-passe every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-subj-present actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-subj-present every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-subj-declencheurs actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-subj-declencheurs every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-si actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-si every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-discours-indirect actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-discours-indirect every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-passif actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-passif every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-double-pronoms actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-double-pronoms every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-possessifs-pron actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-possessifs-pron every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-demonstratifs-pron actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-demonstratifs-pron every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-dont actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-dont every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-gerondif actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-gerondif every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-negations actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-negations every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b1-connecteurs-base actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b1-connecteurs-base every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-subj-passe actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-subj-passe every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-mode-choix actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-mode-choix every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-concordance actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-concordance every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-participe-present actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-participe-present every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-se-faire actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-se-faire every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-relatifs-composes actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-relatifs-composes every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-mise-relief actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-mise-relief every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-nominalisation actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-nominalisation every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-futur-anterieur actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-futur-anterieur every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-opposition-concession actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-opposition-concession every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-cause-consequence actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-cause-consequence every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-but-condition actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-but-condition every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-accord-pp actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-accord-pp every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-registres actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-registres every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-modalisation actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-modalisation every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "b2-adj-sens actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "b2-adj-sens every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-passe-simple actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-passe-simple every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-subj-imparfait actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-subj-imparfait every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-cond-2e actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-cond-2e every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-inversion actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-inversion every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-dislocation actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-dislocation every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-concession-indefinie actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-concession-indefinie every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-hypothese-sans-si actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-hypothese-sans-si every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-ne-expletif actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-ne-expletif every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-accord-avance actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-accord-avance every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-connecteurs-soutenus actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-connecteurs-soutenus every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-apres-que actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-apres-que every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-impersonnelles actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-impersonnelles every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c1-adj-verbal actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c1-adj-verbal every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-passe-anterieur actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-passe-anterieur every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-concordance-litteraire actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-concordance-litteraire every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-concession-soutenue actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-concession-soutenue every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-subj-fin actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-subj-fin every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-accord-extreme actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-accord-extreme every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-inversion-style actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-inversion-style every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-ellipse actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-ellipse every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-conjecture actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-conjecture every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-rection actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-rection every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-cause-niee actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-cause-niee every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-cohesion actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-cohesion every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "c2-exclamation actual browser playback",
-      "pass": true
-    },
-    {
-      "name": "c2-exclamation every rendered French speech button has an exact audio mapping",
-      "pass": true
-    },
-    {
-      "name": "grammar direct-file offline playback",
-      "pass": true
-    },
-    {
-      "name": "Google français preference survives reload without selecting synthetic supplement",
-      "pass": true
-    },
-    {
-      "name": "local delivery report loads, plays and fits mobile: http://127.0.0.1:8765/audio-20261016.html",
-      "pass": true
-    }
-  ],
-  "scope": "Grammar-only real browser playback, every point target mapping, offline file playback, original-voice metadata and preference logic. No auditory listening.",
   "preservedClipMetadata": [
     {
       "path": "audio/fr-FR/ac743b9c0d6bcfb5.mp3",
@@ -2781,12 +1982,810 @@
       "seconds": 7.848
     }
   ],
-  "acceptedAudioFileAndTextSnapshotSha256": "a086af44ac2bedbfaf1d1ea26a00da6b3716fb7ed46beb3730db587be6660258",
+  "timestamp": "2026-10-16T08:08:55.878Z",
+  "browser": "Installed Microsoft Edge, headless, fresh isolated profile; no visible desktop or IAB",
+  "listened": false,
+  "notVerified": [
+    "Auditory intelligibility/pronunciation/prosody",
+    "Real availability of Google français: preference logic tested with a mock list only",
+    "Actual microphone: regression uses synthetic input only"
+  ],
+  "results": [
+    {
+      "name": "a1-genre actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-genre every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-indefini actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-indefini every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-pluriel actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-pluriel every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-partitif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-partitif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-sujets actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-sujets every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-etre actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-etre every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-avoir actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-avoir every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-cest-ilya actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-cest-ilya every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-present-er actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-present-er every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-present-ir actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-present-ir every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-present-irreg actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-present-irreg every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-adj actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-adj every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-possessif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-possessif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-demonstratif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-demonstratif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-negation actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-negation every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-question actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-question every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-mots-interro actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-mots-interro every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-prep-lieu actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-prep-lieu every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-prep-base actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-prep-base every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-heure-date actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-heure-date every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-futur-proche actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-futur-proche every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-passe-recent actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-passe-recent every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a1-vouloir-inf actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a1-vouloir-inf every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-avoir actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-avoir every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-etre actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-etre every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-imparfait actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-imparfait every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-vs-imp actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-pc-vs-imp every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-futur-simple actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-futur-simple every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-cod actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-cod every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-coi actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-coi every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-en actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-en every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-y actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-y every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-pronominaux actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-pronominaux every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-imperatif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-imperatif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-comparatif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-comparatif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-superlatif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-superlatif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-qui-que actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-qui-que every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-ou-relatif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-ou-relatif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-quantite actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-quantite every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-temps-prep actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-temps-prep every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "a2-politesse actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "a2-politesse every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-pqp actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-pqp every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-cond-present actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-cond-present every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-cond-passe actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-cond-passe every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-subj-present actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-subj-present every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-subj-declencheurs actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-subj-declencheurs every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-si actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-si every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-passif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-passif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-double-pronoms actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-double-pronoms every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-possessifs-pron actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-possessifs-pron every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-demonstratifs-pron actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-demonstratifs-pron every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-dont actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-dont every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-gerondif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-gerondif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-negations actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-negations every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b1-connecteurs-base actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b1-connecteurs-base every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-subj-passe actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-subj-passe every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-mode-choix actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-mode-choix every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-concordance actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-concordance every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-participe-present actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-participe-present every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-se-faire actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-se-faire every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-relatifs-composes actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-relatifs-composes every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-mise-relief actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-mise-relief every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-nominalisation actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-nominalisation every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-futur-anterieur actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-futur-anterieur every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-opposition-concession actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-opposition-concession every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-cause-consequence actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-cause-consequence every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-but-condition actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-but-condition every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-accord-pp actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-accord-pp every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-registres actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-registres every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-modalisation actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-modalisation every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "b2-adj-sens actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "b2-adj-sens every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-passe-simple actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-passe-simple every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-subj-imparfait actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-subj-imparfait every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-cond-2e actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-cond-2e every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-inversion actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-inversion every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-dislocation actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-dislocation every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-concession-indefinie actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-concession-indefinie every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-hypothese-sans-si actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-hypothese-sans-si every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-ne-expletif actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-ne-expletif every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-accord-avance actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-accord-avance every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-connecteurs-soutenus actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-connecteurs-soutenus every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-apres-que actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-apres-que every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-impersonnelles actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-impersonnelles every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c1-adj-verbal actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c1-adj-verbal every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-passe-anterieur actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-passe-anterieur every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-concordance-litteraire actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-concordance-litteraire every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-concession-soutenue actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-concession-soutenue every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-subj-fin actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-subj-fin every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-accord-extreme actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-accord-extreme every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-inversion-style actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-inversion-style every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-ellipse actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-ellipse every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-conjecture actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-conjecture every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-rection actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-rection every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-cause-niee actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-cause-niee every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-cohesion actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-cohesion every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation actual browser playback",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation every rendered French speech button has an exact audio mapping",
+      "pass": true
+    },
+    {
+      "name": "grammar direct-file offline playback",
+      "pass": true
+    },
+    {
+      "name": "Google français preference survives reload without selecting synthetic supplement",
+      "pass": true
+    },
+    {
+      "name": "local delivery report loads, plays and fits mobile: http://127.0.0.1:8765/audio-20261016.html",
+      "pass": true
+    }
+  ],
+  "scope": "Grammar-only native playback, all point targets, offline playback and voice-preference logic; not auditory listening.",
+  "acceptedAudioFileAndTextSnapshotSha256": "7eab187cabf8ca7c9e8c70e040d9a4f3ab99c6a70c638414c5c8c358c45701d1",
   "httpLinkVerification": {
-    "count": 3518,
+    "count": 3522,
     "passed": true,
-    "method": "HEAD request for each exact-text unit through the local installed-Edge request context",
-    "performedBy": "tools/test-audio-20261016.js integrated local harness",
+    "performedBy": "Installed-Edge local integrated harness HEAD each catalog file",
     "auditoryListening": false
   }
 }

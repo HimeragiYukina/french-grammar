@@ -115,7 +115,7 @@
       {
         "q": "昨天Léa独自下到地面层，随后把两个纸箱搬到地下室。用descendre写两句已完成事件，分别选择助动词。",
         "a": "Léa est descendue au rez-de-chaussée. Elle a descendu deux cartons à la cave.",
-        "note": "第一句Léa本人位移，无COD，用être并配descendue；第二句deux cartons为后置COD，用avoir，descendu不因elle加e。改变人物或箱子数量可以，但须保留两种结构。"
+        "note": "第一句Léa本人位移，无COD，用être并配descendue；第二句deux cartons为后置COD，用avoir，descendu不因elle加e。本题须保留Léa及两个纸箱；另做迁移时可更换人物或数量，但不能把新事实当原题答案。"
       },
       {
         "q": "工作人员名单为两位女性。补全并解释差异：Elles se sont ___ (laver), puis elles se sont ___ (laver) les mains.",
@@ -163,7 +163,7 @@
       {
         "q": "你已和同事谈到那两张车票。改写Je vais imprimer les deux billets cet après-midi，只用代词替换les deux billets，并保留时间。",
         "a": "Je vais les imprimer cet après-midi.",
-        "note": "特定复数COD用les，属于imprimer所以放在不定式前；不是Je les vais imprimer。这里用en deux会把题目要求的特定对象替换成数量结构。"
+        "note": "题目要求以les替换已明确的特定复数宾语，les属于imprimer，放在不定式前，不能写Je les vais imprimer。Je vais en imprimer deux是保留数量的另一种改写，语法本身可以成立；本题指定特指宾语替换，不以en结构作为目标答案。"
       },
       {
         "q": "对方问你有没有收到前面谈到的那封信。以女性或男性说话者都适用的方式回答“我昨天收到了”，用la lettre的代词与recevoir复合过去时。",
@@ -275,7 +275,7 @@
       {
         "q": "用关系词合并两组信息：我住在这个城市；这个城市很安静。然后写“我参观的那个城市很大”，比较où与que。",
         "a": "La ville où j’habite est calme. La ville que je visite est grande.",
-        "note": "habiter ici的地点关系可用où；visiter la ville中ville是COD，用que。只看先行词ville是地点不足以两句都选où。"
+        "note": "示范首句把habiter ici的地点补语改为où；visiter la ville中ville是COD，用que。habiter也可直接带城市宾语，因此La ville que j’habite est calme同样可接受，须能解释其及物结构。不能只因ville是地点就把visiter的COD一概改成où。"
       },
       {
         "q": "填关系词并说理由：Je me souviens du jour ___ nous sommes arrivés. / Le jour ___ je préfère pour la réunion est jeudi.",

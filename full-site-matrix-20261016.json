@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3518,
-  "covered": 3518,
+  "denominator": 3522,
+  "covered": 3522,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -323,11 +323,11 @@
       "kind": "grammar-point",
       "id": "a2-cod",
       "level": "A2",
-      "exactTextUnits": 34,
-      "localFilesPresent": 34,
+      "exactTextUnits": 35,
+      "localFilesPresent": 35,
       "missingLocalFiles": 0,
       "requiredUnits": 34,
-      "errorInputUnits": 0
+      "errorInputUnits": 1
     },
     {
       "repo": "grammar",
@@ -422,10 +422,10 @@
       "kind": "grammar-point",
       "id": "a2-ou-relatif",
       "level": "A2",
-      "exactTextUnits": 33,
-      "localFilesPresent": 33,
+      "exactTextUnits": 36,
+      "localFilesPresent": 36,
       "missingLocalFiles": 0,
-      "requiredUnits": 33,
+      "requiredUnits": 36,
       "errorInputUnits": 0
     },
     {
@@ -884,10 +884,10 @@
       "kind": "grammar-point",
       "id": "c1-ne-expletif",
       "level": "C1",
-      "exactTextUnits": 44,
-      "localFilesPresent": 44,
+      "exactTextUnits": 43,
+      "localFilesPresent": 43,
       "missingLocalFiles": 0,
-      "requiredUnits": 43,
+      "requiredUnits": 42,
       "errorInputUnits": 1
     },
     {
@@ -1005,10 +1005,10 @@
       "kind": "grammar-point",
       "id": "c2-inversion-style",
       "level": "C2",
-      "exactTextUnits": 26,
-      "localFilesPresent": 26,
+      "exactTextUnits": 27,
+      "localFilesPresent": 27,
       "missingLocalFiles": 0,
-      "requiredUnits": 26,
+      "requiredUnits": 27,
       "errorInputUnits": 0
     },
     {
@@ -1144,5 +1144,5 @@
       "errorInputUnits": 0
     }
   ],
-  "acceptedAudioFileAndTextSnapshotSha256": "a086af44ac2bedbfaf1d1ea26a00da6b3716fb7ed46beb3730db587be6660258"
+  "acceptedAudioFileAndTextSnapshotSha256": "7eab187cabf8ca7c9e8c70e040d9a4f3ab99c6a70c638414c5c8c358c45701d1"
 }

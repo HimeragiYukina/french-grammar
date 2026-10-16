@@ -1,0 +1,30 @@
+{
+  "text": "visiter la ville",
+  "text_sha256": "c3afaf168003fd91320d576d6ab63d2ff5ebda56866e10ebb1c2d8479fa077f6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.3931972789115645,
+      "source_seconds": 1.3931972789115645,
+      "source_file_sha256": "0145f8a75d4a8802bd22fa847813e583191b03567a0d71f50a7199aada2868a9",
+      "file_sha256": "56add2c3b6613c31cb9c96e57b832b2d7ccf68b6542708bf84903acb3623f3a3",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

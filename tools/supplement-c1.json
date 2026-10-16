@@ -234,7 +234,7 @@
     ],
     "practice": [
       {
-        "q": "会议可能已取消，但你尚未核实。把备用动作接在句末：Appelez avant de venir, au cas où la réunion ___. 用annuler的被动完成形式。",
+        "q": "会议可能已取消，但你尚未核实。补全句末的预防性条件：Appelez avant de venir, au cas où la réunion ___. 用annuler的被动完成形式。",
         "a": "Appelez avant de venir, au cas où la réunion aurait été annulée.",
         "note": "au cas où按规范用条件式；可能已经取消→条件式过去被动aurait été annulée，annulée随réunion。不是未来取消事实。"
       },
@@ -255,7 +255,7 @@
     "practice": [
       {
         "q": "译并判断ne：Je crains qu’elle ne parte. / Je crains qu’elle ne parte pas.",
-        "a": "Je crains qu’elle ne parte. Je crains qu’elle ne parte pas.",
+        "a": "第一句：我担心她会离开。ne是赘词，不表示否定。第二句：我担心她不会离开。ne…pas构成真正否定。",
         "note": "我怕她走。/ 我怕她不走。第一句ne为可省赘词；第二句ne…pas是真否定。 怕发生与怕不发生对立。不能因两句都含ne而同译，也不能去掉第二句pas。"
       },
       {

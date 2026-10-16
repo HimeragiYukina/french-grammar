@@ -1,0 +1,7 @@
+{
+  "scope": "Exact current question snapshots, unique IDs, declared append-delta records and ID/path guarded fixes. Independent semantic verdicts remain in quality-content-review.",
+  "questions": 162,
+  "repositoryFixesVerified": 11,
+  "issues": [],
+  "semanticReviewIsSeparate": true
+}
