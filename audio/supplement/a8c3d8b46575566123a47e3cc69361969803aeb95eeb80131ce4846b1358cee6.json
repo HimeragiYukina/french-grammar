@@ -1,0 +1,10 @@
+{
+  "text": "Soudain, quelqu'un a crié pendant que nous dînions.",
+  "text_sha256": "a8c3d8b46575566123a47e3cc69361969803aeb95eeb80131ce4846b1358cee6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

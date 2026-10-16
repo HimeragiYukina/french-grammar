@@ -1,0 +1,10 @@
+{
+  "text": "Il dit qu’il viendra demain.",
+  "text_sha256": "4e712919d2f15cfa7212aab9622885f0d5999e2502ba41e48f7915c8094d7bc2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

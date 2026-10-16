@@ -1,0 +1,10 @@
+{
+  "text": "Elle demande ce qui fait ce bruit.",
+  "text_sha256": "2bbc26db98eff34fc948dc258fbe3e5e5c1d048606a26d7001de2f1750877baa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

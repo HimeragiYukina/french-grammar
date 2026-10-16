@@ -1,0 +1,10 @@
+{
+  "text": "Comme il était malade, il est resté au lit.",
+  "text_sha256": "8f7ef795ff9ebd8ca90f094c2fe6409f3ef3ffce4c2ca05d9af7bb96e51cd851",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

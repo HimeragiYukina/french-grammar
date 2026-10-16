@@ -1,0 +1,10 @@
+{
+  "text": "Le passé composé présente un événement comme un tout achevé et peut faire avancer le récit ; l'imparfait décrit une situation ou une action en cours dans le passé.",
+  "text_sha256": "d46da6a9e220c817d4819df993f7c71d864a3b776f1e8aca118330107f28d23b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

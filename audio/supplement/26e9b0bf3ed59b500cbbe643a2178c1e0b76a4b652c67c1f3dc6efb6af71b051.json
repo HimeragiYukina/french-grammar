@@ -1,0 +1,10 @@
+{
+  "text": "Hier, je n’ai pas conduit : ma sœur a pris le volant.",
+  "text_sha256": "26e9b0bf3ed59b500cbbe643a2178c1e0b76a4b652c67c1f3dc6efb6af71b051",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 0,
+  "generated_this_run": 41,
   "generation_runs": [
     {
-      "generated": 207,
-      "note": "Grammar-only local Siwis output; combined synthesis timings are recorded in the private tutorial repository."
+      "generated": 248,
+      "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 5.441740036010742,
+  "elapsed_seconds": 15.91976261138916,
   "listened": false,
   "records": [
     {
@@ -5231,6 +5231,1079 @@
       "channels": 1,
       "sample_width": 2,
       "rms": 4913.028951599958
+    },
+    {
+      "repo": "grammar",
+      "text": "Passé composé vs imparfait",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "title"
+        }
+      ],
+      "existing": [],
+      "sha256": "d7621d1bfdfa62db4bfa03cefc41ba917c3b90046c0987e0e4938f5dbc58f157",
+      "path": "audio/fr-FR/915695eb2c08f635.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "53dd3a20bbfc6f87541a197b46d7d8277f6bf03d7a7cbe939acea5f53f33941a",
+      "bytes": 16560
+    },
+    {
+      "repo": "grammar",
+      "text": "Le passé composé présente un événement comme un tout achevé et peut faire avancer le récit ; l'imparfait décrit une situation ou une action en cours dans le passé.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "fr"
+        }
+      ],
+      "existing": [],
+      "sha256": "d46da6a9e220c817d4819df993f7c71d864a3b776f1e8aca118330107f28d23b",
+      "path": "audio/supplement/d46da6a9e220c817d4819df993f7c71d864a3b776f1e8aca118330107f28d23b.wav",
+      "source": "local-siwis",
+      "file_sha256": "cd32f15336d99fc1d2caf4584d939aa98b15274500c728ef94611bd2969857e2",
+      "bytes": 361516,
+      "seconds": 8.196643990929704,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4103.660841708173
+    },
+    {
+      "repo": "grammar",
+      "text": "Je dormais quand le téléphone a sonné.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "examples.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "1fc86c75ae239ee696ac89b009a2effb6bcf56de26b04ecf562394344d8a1e50",
+      "path": "audio/fr-FR/3da1274f17a2595c.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "c1727632f7d4fb5a0b8ecdb59d8393a60d07818880b9939e6703cdfcddb00a2e",
+      "bytes": 17568
+    },
+    {
+      "repo": "grammar",
+      "text": "Hier il a plu toute la journée.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "examples.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "c67a20eb3ea4e4dca02099def89de9c6b317c8653554cd0133f2c20fb2d17c63",
+      "path": "audio/fr-FR/9d11273f4e48dac7.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "2d3f69b9d257231474bdb81e5d1f7ab109b24dac6285f59872f85050d98b83c9",
+      "bytes": 15840
+    },
+    {
+      "repo": "grammar",
+      "text": "Avant, je fumais ; un jour, j'ai arrêté.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "examples.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "f54591648c2a9f76738953856a2a09125613d1cf9c41ffc39af395dab071e4e3",
+      "path": "audio/supplement/f54591648c2a9f76738953856a2a09125613d1cf9c41ffc39af395dab071e4e3.wav",
+      "source": "local-siwis",
+      "file_sha256": "138aff327f660f67ad89a85015c10913fe0d98a363620cc88e9c68a34bff930e",
+      "bytes": 134188,
+      "seconds": 3.0418140589569163,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5255.658899133261
+    },
+    {
+      "repo": "grammar",
+      "text": "Comme il était malade, il est resté au lit.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "examples.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "8f7ef795ff9ebd8ca90f094c2fe6409f3ef3ffce4c2ca05d9af7bb96e51cd851",
+      "path": "audio/supplement/8f7ef795ff9ebd8ca90f094c2fe6409f3ef3ffce4c2ca05d9af7bb96e51cd851.wav",
+      "source": "local-siwis",
+      "file_sha256": "690d469ebdef001e37aacfa3756dbbadad58865750ac33522beb705c5a1aba95",
+      "bytes": 98860,
+      "seconds": 2.2407256235827666,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6603.0939367821775
+    },
+    {
+      "repo": "grammar",
+      "text": "Je lisais quand on a frappé à la porte.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "ae04f7c93d2066031110388deccb64a9a6c08ca55abf0ca62ac8e944254964a6",
+      "path": "audio/fr-FR/a76f973d23c73667.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "403f6fccb5f80dd8b905a87c317f654fa152e3805eb42c5f8cd47fb114a39ee9",
+      "bytes": 18288
+    },
+    {
+      "repo": "grammar",
+      "text": "Hier, il faisait froid, alors je suis resté à la maison.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "de1b868004d68e33129b3fb63c02db2692ea8510f1b81ba75ef6f23bc7762e5b",
+      "path": "audio/fr-FR/0602ec1c344d3d5d.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "29402156b2ddae41e484a9d9b426cec0aaec0d20f11e424efc97637efcc4a6dd",
+      "bytes": 26064
+    },
+    {
+      "repo": "grammar",
+      "text": "Quand j'étais enfant, j'allais souvent à la mer ; une fois, j'ai vu un dauphin.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "7f02e4bceaf09bea57cd43fb749e93c280e7c5ef6b6324da8ce56e7ad9abbdcc",
+      "path": "audio/supplement/7f02e4bceaf09bea57cd43fb749e93c280e7c5ef6b6324da8ce56e7ad9abbdcc.wav",
+      "source": "local-siwis",
+      "file_sha256": "9291acdcce8df53d07d845edf3ae1354bc37d02f00776e0970cd9f722cea8b9e",
+      "bytes": 202284,
+      "seconds": 4.5859410430839,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6704.354779629817
+    },
+    {
+      "repo": "grammar",
+      "text": "Soudain, quelqu'un a crié pendant que nous dînions.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "a8c3d8b46575566123a47e3cc69361969803aeb95eeb80131ce4846b1358cee6",
+      "path": "audio/supplement/a8c3d8b46575566123a47e3cc69361969803aeb95eeb80131ce4846b1358cee6.wav",
+      "source": "local-siwis",
+      "file_sha256": "2e121d143f46e7fbb10b7c500f5e0ac0dffa2c99ee34d4cabb37e789c71a299c",
+      "bytes": 128556,
+      "seconds": 2.914104308390023,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5192.337015674229
+    },
+    {
+      "repo": "grammar",
+      "text": "Je marchais vers la gare quand j’ai rencontré Léa.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.0.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "92e83e9e4b731b64872cf1c0816fe58fc2928ac04c9688c68bef487bd0d73db7",
+      "path": "audio/supplement/92e83e9e4b731b64872cf1c0816fe58fc2928ac04c9688c68bef487bd0d73db7.wav",
+      "source": "local-siwis",
+      "file_sha256": "52b1840fa06772e359c603ecb00dda1441397453bcba374853d157e39b65a69c",
+      "bytes": 104492,
+      "seconds": 2.36843537414966,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6447.821240820866
+    },
+    {
+      "repo": "grammar",
+      "text": "Il pleuvait ; nous avons décidé de rester chez nous.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.0.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "8c859f0606cda6c7bbeab4d42d44571c69b31c131ffc6e6d867871e43063e123",
+      "path": "audio/supplement/8c859f0606cda6c7bbeab4d42d44571c69b31c131ffc6e6d867871e43063e123.wav",
+      "source": "local-siwis",
+      "file_sha256": "6017b7e16d3ba16ed9361dac2fb7ee38158b1aa1a59e351a73efbceb9208a98a",
+      "bytes": 118828,
+      "seconds": 2.693514739229025,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5764.969650576105
+    },
+    {
+      "repo": "grammar",
+      "text": "Je savais la réponse, mais je n’ai rien dit.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.1.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "49984484fd8a89f13cc10fb8b929643d619c87b81f8f5537aa9590f5c25ae6fe",
+      "path": "audio/supplement/49984484fd8a89f13cc10fb8b929643d619c87b81f8f5537aa9590f5c25ae6fe.wav",
+      "source": "local-siwis",
+      "file_sha256": "fa7fef3ace2eb4293e2c89ec381dab314b5a4e6733037df9731bd07d5658793b",
+      "bytes": 102444,
+      "seconds": 2.3219954648526078,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5991.317456520284
+    },
+    {
+      "repo": "grammar",
+      "text": "J’ai su la nouvelle ce matin.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.1.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "498b380ab59a589d986748268aab14c45e575537611e59e227a57867f238c2d8",
+      "path": "audio/supplement/498b380ab59a589d986748268aab14c45e575537611e59e227a57867f238c2d8.wav",
+      "source": "local-siwis",
+      "file_sha256": "d0e9ea237f7df538b0d5f6d46947751bb494b9f21eb521c072048d6dff49ce5c",
+      "bytes": 74796,
+      "seconds": 1.6950566893424037,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5950.013073323492
+    },
+    {
+      "repo": "grammar",
+      "text": "Pendant ce voyage, j’ai appelé ma mère tous les jours.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.2.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "a5aa19c82e4aec5d9e1632311af7180f0780cd0585cbc0e1694f17fa3e0b2bcc",
+      "path": "audio/supplement/a5aa19c82e4aec5d9e1632311af7180f0780cd0585cbc0e1694f17fa3e0b2bcc.wav",
+      "source": "local-siwis",
+      "file_sha256": "d4dc5ea79fb52924dfb02a0bef77466b9e5458e289191bdc1d5f223759fd5240",
+      "bytes": 137260,
+      "seconds": 3.111473922902494,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5042.649009274774
+    },
+    {
+      "repo": "grammar",
+      "text": "Hier, à midi, je dormais encore.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.2.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "8f3a16b9a7e1332b3bf57835bb56ec5962ddf89ceaf872f5313c3cfa2d8af9ee",
+      "path": "audio/supplement/8f3a16b9a7e1332b3bf57835bb56ec5962ddf89ceaf872f5313c3cfa2d8af9ee.wav",
+      "source": "local-siwis",
+      "file_sha256": "f47abde1dc2f632b5fc14412803204966ab0fb999542c029505f99cb4aa7dade",
+      "bytes": 119340,
+      "seconds": 2.705124716553288,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5349.681878393023
+    },
+    {
+      "repo": "grammar",
+      "text": "J’attendais à l’arrêt quand le chauffeur a annoncé que le bus était en panne.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.3.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "6935ca83eae0b2935904c69018f4fee82fe978e8896d702fb7b1226250083de7",
+      "path": "audio/supplement/6935ca83eae0b2935904c69018f4fee82fe978e8896d702fb7b1226250083de7.wav",
+      "source": "local-siwis",
+      "file_sha256": "49e2f9ab89d4d0284919c443c02ec6a0f8cbdc9ccca8a4c04f57a604f4c839bf",
+      "bytes": 178732,
+      "seconds": 4.051882086167801,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5633.183890473379
+    },
+    {
+      "repo": "grammar",
+      "text": "Pendant ce stage, j’ai pris le bus tous les jours ; avant, j’allais au travail à pied.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.3.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "dc0a6c716544e4b3cd75aa12d297026b9333b5bde04a8088e2d2639a33c3acee",
+      "path": "audio/supplement/dc0a6c716544e4b3cd75aa12d297026b9333b5bde04a8088e2d2639a33c3acee.wav",
+      "source": "local-siwis",
+      "file_sha256": "0bbb5668312c43388af9e66e225c680e17443f1614a5997ab9a8c341933555f3",
+      "bytes": 218156,
+      "seconds": 4.9458503401360545,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4915.944311070637
+    },
+    {
+      "repo": "grammar",
+      "text": "Pendant que je préparais le dîner, Sami mettait la table.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.4.0"
+        },
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "supplement.practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "b51700e4d41224b67e6a51217e98f23b2445d78d9778632ddf373617b47bd67f",
+      "path": "audio/supplement/b51700e4d41224b67e6a51217e98f23b2445d78d9778632ddf373617b47bd67f.wav",
+      "source": "local-siwis",
+      "file_sha256": "9b511f2f20a7bef74330e17f997ce8efc72bb9c304e762589779ede72a91627a",
+      "bytes": 130092,
+      "seconds": 2.948934240362812,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5241.715275429059
+    },
+    {
+      "repo": "grammar",
+      "text": "Quand nous habitions à Lille, nous allions souvent au marché.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.4.1"
+        },
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "supplement.practice.5"
+        }
+      ],
+      "existing": [],
+      "sha256": "5143066ee86a56b75dd2dc967652c5dbf9969dafa34852ed4e4fecbdc9db528e",
+      "path": "audio/supplement/5143066ee86a56b75dd2dc967652c5dbf9969dafa34852ed4e4fecbdc9db528e.wav",
+      "source": "local-siwis",
+      "file_sha256": "ff4b4d27865cd930f3b1b16de7b930213e6483cfa8f0daff4b6edb940ef0dcd4",
+      "bytes": 145452,
+      "seconds": 3.297233560090703,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5483.964529171397
+    },
+    {
+      "repo": "grammar",
+      "text": "À cette époque, je ne conduisais pas.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.5.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "e5ca9924553d2ff0786a6b90214b7be80c36df7ec7584ad379193382d25005d4",
+      "path": "audio/supplement/e5ca9924553d2ff0786a6b90214b7be80c36df7ec7584ad379193382d25005d4.wav",
+      "source": "local-siwis",
+      "file_sha256": "c8b2438f8de019e3093eddfef63844d074f80e2fc0bab9972b7fe5c4fa9eb3a4",
+      "bytes": 99884,
+      "seconds": 2.2639455782312927,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4248.1384501268685
+    },
+    {
+      "repo": "grammar",
+      "text": "Hier, je n’ai pas conduit : ma sœur a pris le volant.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "expansion.5.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "26e9b0bf3ed59b500cbbe643a2178c1e0b76a4b652c67c1f3dc6efb6af71b051",
+      "path": "audio/supplement/26e9b0bf3ed59b500cbbe643a2178c1e0b76a4b652c67c1f3dc6efb6af71b051.wav",
+      "source": "local-siwis",
+      "file_sha256": "e256dd7f1c5b73f67636e7ab01e2166651858af739ae36eb51ee1fb9997f0220",
+      "bytes": 156204,
+      "seconds": 3.541043083900227,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4664.981688953727
+    },
+    {
+      "repo": "grammar",
+      "text": "J’attendais le bus quand mon collègue m’a appelé.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "supplement.practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "23c14ea4c9563528ce42f54c0e505a4c679fae872bad759b91101654bbc75091",
+      "path": "audio/supplement/23c14ea4c9563528ce42f54c0e505a4c679fae872bad759b91101654bbc75091.wav",
+      "source": "local-siwis",
+      "file_sha256": "4530a09c77292c602a5b76333e785b67523e5e22cd6b535c8774019a8d798ae0",
+      "bytes": 110124,
+      "seconds": 2.4961451247165534,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6656.302037452175
+    },
+    {
+      "repo": "grammar",
+      "text": "Pendant deux mois, j’ai pris ce bus tous les jours.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "supplement.practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "db72fa964e844f7c8465e53746b835b68b7e674f0359132ed76efad648b47691",
+      "path": "audio/supplement/db72fa964e844f7c8465e53746b835b68b7e674f0359132ed76efad648b47691.wav",
+      "source": "local-siwis",
+      "file_sha256": "20f14d4409a5b99381737abcae8d03963eaccacbfc0922e775d923a9e0bd228f",
+      "bytes": 114732,
+      "seconds": 2.6006349206349206,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5738.332297799719
+    },
+    {
+      "repo": "grammar",
+      "text": "Le restaurant était très bruyant, alors nous sommes partis.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "supplement.practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "9e1416293f770bc2fe560a60738cf1b52270cb502d3ba586d794b63d53a6c1b7",
+      "path": "audio/supplement/9e1416293f770bc2fe560a60738cf1b52270cb502d3ba586d794b63d53a6c1b7.wav",
+      "source": "local-siwis",
+      "file_sha256": "5b00812721adbc9bece68f02428fe2ceb47c44fcb0b03462bb255c2dfd53b058",
+      "bytes": 142380,
+      "seconds": 3.2275736961451247,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4924.920947988167
+    },
+    {
+      "repo": "grammar",
+      "text": "À cette époque, je ne conduisais pas. Hier, je n’ai pas conduit.",
+      "occurrences": [
+        {
+          "id": "a2-pc-vs-imp",
+          "field": "supplement.practice.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "c19d5cde9749d3590ca7930d0817c3d08135f1368af698a1c7b8b388c46dada4",
+      "path": "audio/supplement/c19d5cde9749d3590ca7930d0817c3d08135f1368af698a1c7b8b388c46dada4.wav",
+      "source": "local-siwis",
+      "file_sha256": "f8f65cf54e79a49d5913e8268d9f9ea40cef677918d99eaeab8677dd3237b00f",
+      "bytes": 173100,
+      "seconds": 3.924172335600907,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5280.308010114116
+    },
+    {
+      "repo": "grammar",
+      "text": "Le discours indirect (au présent)",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "title"
+        }
+      ],
+      "existing": [],
+      "sha256": "8cf74afaf8ac23430f37ad7ef1932608ded18cfaeb6381cbaa376060db0ead82",
+      "path": "audio/fr-FR/91da796d528c7303.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "cbe7fcbf1a2251ded050525bd400afebf7799dad952e91e82403780425a446c9",
+      "bytes": 18000
+    },
+    {
+      "repo": "grammar",
+      "text": "Rapporter les paroles : que (déclaration), si (question oui/non), ce que/ce qui (question sur une chose), préposition + quoi, de + infinitif (ordre).",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "fr"
+        }
+      ],
+      "existing": [],
+      "sha256": "f656b5307e21e6dd855998a43ffbcd905c21a9ab3278c1d01001944dede181d1",
+      "path": "audio/supplement/f656b5307e21e6dd855998a43ffbcd905c21a9ab3278c1d01001944dede181d1.wav",
+      "source": "local-siwis",
+      "file_sha256": "8eb20f9435570afacfb05297b61ae0a58e66fca8218bca5947b5e934556f5dd2",
+      "bytes": 394796,
+      "seconds": 8.951292517006802,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4041.88699406202
+    },
+    {
+      "repo": "grammar",
+      "text": "Il dit : « Je suis fatigué » → Il dit qu'il est fatigué.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "examples.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "d320f9d8a8b7b46e643aacd701a3685db7c2e0d1b25a7f00f5e7cbd4b2bce026",
+      "path": "audio/fr-FR/43e0c6bd28e7d1a4.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "813b717a2e623fb0cfcd92effa61ad0d24b13dbcf541bff426c60db477ee462d",
+      "bytes": 23616
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle demande : « Tu viens ? » → Elle demande si je viens.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "examples.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "33b1ef24bd00b7fbef97ac480c7e10006684196921c5fecc056aac8df8f19acc",
+      "path": "audio/fr-FR/d2a4fb00b129c929.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "ba69d248cc241149bfdd115c0c54dfbf630c8a67b95a0eeec254a2f5bed8e993",
+      "bytes": 27072
+    },
+    {
+      "repo": "grammar",
+      "text": "« Sors ! » → Il me dit de sortir.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "examples.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "a8bf9db0480d1e4fced51727b6b5eeec622760c5c04fc0905acd98cb6397538c",
+      "path": "audio/fr-FR/0416c2830515bb2f.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "fe87dbbb580c1995ed0b793713f9cd5af271fcd1463b6a0be6ac2bf47ba41e00",
+      "bytes": 21888
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle me demande : « Où habites-tu ? » → Elle me demande où j'habite.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "examples.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "ba290c24ba7ef40b5be959ac20b2607cd00a9645f83d64130242d833822426cf",
+      "path": "audio/supplement/ba290c24ba7ef40b5be959ac20b2607cd00a9645f83d64130242d833822426cf.wav",
+      "source": "local-siwis",
+      "file_sha256": "148e183007559135770e37e4a6bcc2689def843722b2c729876f2306178e9605",
+      "bytes": 152620,
+      "seconds": 3.4597732426303853,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5689.313364874999
+    },
+    {
+      "repo": "grammar",
+      "text": "« Qu'est-ce que tu veux ? » → Il demande ce que je veux.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "examples.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "c948b99fb271b3cf00c9bff22ec8bcd8005e9ae53eb5bc5d67c8a2af3672f1cf",
+      "path": "audio/supplement/c948b99fb271b3cf00c9bff22ec8bcd8005e9ae53eb5bc5d67c8a2af3672f1cf.wav",
+      "source": "local-siwis",
+      "file_sha256": "367df2b808164c87aa758ec08a0d2615336d283c7fd9f54d5f17a0d3b03eb16a",
+      "bytes": 111148,
+      "seconds": 2.5193650793650795,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6224.522708910061
+    },
+    {
+      "repo": "grammar",
+      "text": "Il dit qu'il est fatigué.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "0f8e9c19d6f03773e8ad5201e97ebf773eccefb5adc3ffad4b8dacba6b93718d",
+      "path": "audio/fr-FR/5e8d2494ce330f5f.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "43685108889f677257cc0278e45c9b3568fdc8cad01125e1a0512cc4300a3f09",
+      "bytes": 13104
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle me demande si je viens.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "793236d1fde272dbe0cd876a4eee8ee8a386b62f30b39c4ac0c6a223a4bb13d1",
+      "path": "audio/fr-FR/a6eae97887f481eb.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "203d820113d45ce8f2722800bda4360c5159799c6d87936f260dda0ae59b7b19",
+      "bytes": 14544
+    },
+    {
+      "repo": "grammar",
+      "text": "Il demande ce que je fais.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "180c6cc2c7c0aabf27c2aeb8042742dce3a9388cdb9898731bd399d6c8fa0662",
+      "path": "audio/fr-FR/dbdd0ff2c84dfd55.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "3c2b2a9efb541c0f0c0c2b531e4303bd8283e5500e8696aecb541c410c71fb09",
+      "bytes": 13824
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle nous dit de l'attendre.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "da040e89d0e1984178e9e4cb2450bc6244f729031a91486f80edd28a179e7e64",
+      "path": "audio/supplement/da040e89d0e1984178e9e4cb2450bc6244f729031a91486f80edd28a179e7e64.wav",
+      "source": "local-siwis",
+      "file_sha256": "22958fb2c9e96e4bedcf91956006e9c2d0acb4de56f604d509bb36708cc8274d",
+      "bytes": 58412,
+      "seconds": 1.3235374149659864,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5987.38504133394
+    },
+    {
+      "repo": "grammar",
+      "text": "Il me demande où je travaille.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "practice.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "c201ce32bdb657daa504d91e999dc48330fbe80bfb28ea3c06cd74f18d019ce3",
+      "path": "audio/supplement/c201ce32bdb657daa504d91e999dc48330fbe80bfb28ea3c06cd74f18d019ce3.wav",
+      "source": "local-siwis",
+      "file_sha256": "7cb7aea6a889f1bb81c76dca72303e709bbd3df34af9d89fd03e7f385f8c9b84",
+      "bytes": 67628,
+      "seconds": 1.5325170068027212,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 7849.610289980965
+    },
+    {
+      "repo": "grammar",
+      "text": "Paul dit : « Je suis prêt. » → Paul dit qu’il est prêt.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.0.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "bf0728f2edf2438a6bdbad901fa6906a5e48ea50ae34d3aca7a07a5259379eb0",
+      "path": "audio/supplement/bf0728f2edf2438a6bdbad901fa6906a5e48ea50ae34d3aca7a07a5259379eb0.wav",
+      "source": "local-siwis",
+      "file_sha256": "70e5051564cfe34d547d6f4f95d573e647ca1c94b5e70e0879f57b7c576de796",
+      "bytes": 136748,
+      "seconds": 3.0998639455782313,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4463.056573607956
+    },
+    {
+      "repo": "grammar",
+      "text": "Marie me dit : « Ton dossier est complet. » → Marie me dit que mon dossier est complet.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.0.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "379480c43339d0ab38a0efb6a89c1b3da6c1e3538b92ef76f3b7556218dfb77a",
+      "path": "audio/supplement/379480c43339d0ab38a0efb6a89c1b3da6c1e3538b92ef76f3b7556218dfb77a.wav",
+      "source": "local-siwis",
+      "file_sha256": "348191dcefab5140e862ccdd5952f48ef3c5ae58e0e19dfc9c3b459af303a027",
+      "bytes": 188460,
+      "seconds": 4.272471655328798,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4710.508463600164
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle demande si nous avons réservé.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.1.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "0f1e99f82b197cdd5fe48143c100703cd2b99b837a59858782d772bfa24010d1",
+      "path": "audio/supplement/0f1e99f82b197cdd5fe48143c100703cd2b99b837a59858782d772bfa24010d1.wav",
+      "source": "local-siwis",
+      "file_sha256": "f674a389cc3bc5bf3bd64902e78c45e30ae795c76f49ef04bb881ae63c6a2388",
+      "bytes": 78892,
+      "seconds": 1.787936507936508,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5741.833403679329
+    },
+    {
+      "repo": "grammar",
+      "text": "Il veut savoir où tu habites.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.1.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "b4fd7caf8d5a30a5180a0beb485727572d0588e13fe6b30d6d035eba7f501ee2",
+      "path": "audio/supplement/b4fd7caf8d5a30a5180a0beb485727572d0588e13fe6b30d6d035eba7f501ee2.wav",
+      "source": "local-siwis",
+      "file_sha256": "bf05b0674f1310b906b1e28b1421a5b1cccd6f04d6efbe7054a9dd82c56ee7c7",
+      "bytes": 81452,
+      "seconds": 1.8459863945578232,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6836.749691634129
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle demande ce qui fait ce bruit.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.1.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "2bbc26db98eff34fc948dc258fbe3e5e5c1d048606a26d7001de2f1750877baa",
+      "path": "audio/supplement/2bbc26db98eff34fc948dc258fbe3e5e5c1d048606a26d7001de2f1750877baa.wav",
+      "source": "local-siwis",
+      "file_sha256": "88db9b4211fb74acbe887c8220dfdebdaff450936c4bfd451186e1ae1e34cee8",
+      "bytes": 73772,
+      "seconds": 1.6718367346938776,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6452.144522200118
+    },
+    {
+      "repo": "grammar",
+      "text": "Il demande ce que tu cherches.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.1.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "49af9d9814eec782ba1d73bf798ac2e16b5eb3cc9d04c9e21fb05aac5a780fa7",
+      "path": "audio/supplement/49af9d9814eec782ba1d73bf798ac2e16b5eb3cc9d04c9e21fb05aac5a780fa7.wav",
+      "source": "local-siwis",
+      "file_sha256": "b60d3c60b5c45062f40a8263ba1bc1ca401fe3d45c108987ac2acab96f2cc256",
+      "bytes": 73260,
+      "seconds": 1.6602267573696146,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 7023.629296135852
+    },
+    {
+      "repo": "grammar",
+      "text": "Le médecin me conseille de me reposer.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.2.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "6179bec8e2fec4d72f90873a572df4463db0959aa360354e7f6103a967d6ef0e",
+      "path": "audio/supplement/6179bec8e2fec4d72f90873a572df4463db0959aa360354e7f6103a967d6ef0e.wav",
+      "source": "local-siwis",
+      "file_sha256": "f22a6f2cd666848e6ca3ac291690ea9501a8b0781d122aa2b4e3602f7c3fd6ef",
+      "bytes": 94764,
+      "seconds": 2.147845804988662,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5877.525832802953
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle nous demande de ne pas faire de bruit.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.2.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "8e0aefc3b2f0017e436a397a429400d6ec1966aeba0d9919b183517a64044bf6",
+      "path": "audio/supplement/8e0aefc3b2f0017e436a397a429400d6ec1966aeba0d9919b183517a64044bf6.wav",
+      "source": "local-siwis",
+      "file_sha256": "6378d59fc653f5b8bfcbabe61464b630f0521b212db0dc6a24ad96a40a797893",
+      "bytes": 85036,
+      "seconds": 1.9272562358276644,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5936.901873123041
+    },
+    {
+      "repo": "grammar",
+      "text": "Il dit qu’il viendra demain.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.2.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "4e712919d2f15cfa7212aab9622885f0d5999e2502ba41e48f7915c8094d7bc2",
+      "path": "audio/supplement/4e712919d2f15cfa7212aab9622885f0d5999e2502ba41e48f7915c8094d7bc2.wav",
+      "source": "local-siwis",
+      "file_sha256": "ba7c88e8e9cd8fd40ba033c0be625b92ffc04b07ee8593bb2a7d15d02ea455e0",
+      "bytes": 62508,
+      "seconds": 1.4164172335600906,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6594.217597035529
+    },
+    {
+      "repo": "grammar",
+      "text": "Il m’a dit lundi qu’il viendrait le lendemain.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.2.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "911fc3ec5c885453165231f908bdd2ebac5bc7a3af1abf8d72ec093a7da120be",
+      "path": "audio/supplement/911fc3ec5c885453165231f908bdd2ebac5bc7a3af1abf8d72ec093a7da120be.wav",
+      "source": "local-siwis",
+      "file_sha256": "6fdb83121ca8684f69ca8ea1434709a3061794be15f7af7c374392742fdbaca5",
+      "bytes": 94252,
+      "seconds": 2.136235827664399,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5792.593067274874
+    },
+    {
+      "repo": "grammar",
+      "text": "La réceptionniste me demande si je me suis déjà inscrit.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.3.0"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "supplement.practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "08e81fb89a4503c0c62f1f0f91276b05a1712c8e497e55762ccbd6fd176d1d0c",
+      "path": "audio/supplement/08e81fb89a4503c0c62f1f0f91276b05a1712c8e497e55762ccbd6fd176d1d0c.wav",
+      "source": "local-siwis",
+      "file_sha256": "a4bb016bf1a06896d71f850bd780b6fd155ae7c2eb3f13e69cd88560152fac57",
+      "bytes": 125996,
+      "seconds": 2.8560544217687074,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6207.12578535957
+    },
+    {
+      "repo": "grammar",
+      "text": "Le bibliothécaire veut savoir de quoi nous avons besoin.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.3.1"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "supplement.practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "d922a3213ce897ac4f77dd6f7cb980999842271f4b3b3916f57422dd6c304454",
+      "path": "audio/supplement/d922a3213ce897ac4f77dd6f7cb980999842271f4b3b3916f57422dd6c304454.wav",
+      "source": "local-siwis",
+      "file_sha256": "ea6ecaaa230a16defc2bdf7943c360e0ecd446f41b1e73589cc3033df2b61320",
+      "bytes": 140332,
+      "seconds": 3.1811337868480725,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6972.969201829599
+    },
+    {
+      "repo": "grammar",
+      "text": "Le guide nous demande de ne pas nous éloigner du groupe.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.4.0"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "supplement.practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "f1a25857f3160f5d98085d6bc0556a1724175f355f6bd654190e49d7c54103c7",
+      "path": "audio/supplement/f1a25857f3160f5d98085d6bc0556a1724175f355f6bd654190e49d7c54103c7.wav",
+      "source": "local-siwis",
+      "file_sha256": "8c6aaa417bf22af3f2c0a06360486ede4736b2394e2343c48ffc3cdb5594a210",
+      "bytes": 131116,
+      "seconds": 2.972154195011338,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5941.9465265118115
+    },
+    {
+      "repo": "grammar",
+      "text": "Lundi, Nora m’a promis qu’elle me prêterait son dictionnaire le lendemain.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "expansion.4.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "f1b29149648c94b14acfcf0b8991b4077ad630987ac562fb90161724ce15b634",
+      "path": "audio/supplement/f1b29149648c94b14acfcf0b8991b4077ad630987ac562fb90161724ce15b634.wav",
+      "source": "local-siwis",
+      "file_sha256": "493d33ff93fb6b6f97970957efbe7dc292b723c9514f503c586cc099ff70719f",
+      "bytes": 150572,
+      "seconds": 3.4133333333333336,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4435.737086920084
+    },
+    {
+      "repo": "grammar",
+      "text": "Lundi, Nora m’a promis qu’elle me prêterait son dictionnaire le lendemain, mardi.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "supplement.practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "d30c5f6aed2c14af9456b0e11034eae60781e31d5442a5054ccd9c89012ab952",
+      "path": "audio/supplement/d30c5f6aed2c14af9456b0e11034eae60781e31d5442a5054ccd9c89012ab952.wav",
+      "source": "local-siwis",
+      "file_sha256": "bb999bfe5be02d2a7e40957a100a26f9df003d99aaef8f64be9f3f3a11455d5f",
+      "bytes": 165420,
+      "seconds": 3.7500226757369615,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4547.737312021493
     }
   ],
   "scope": {
@@ -5243,9 +6316,11 @@
       "c2-conjecture",
       "b2-opposition-concession",
       "c1-connecteurs-soutenus",
-      "c2-cohesion"
+      "c2-cohesion",
+      "a2-pc-vs-imp",
+      "b1-discours-indirect"
     ],
-    "definition": "Standalone French playback units in the nine touched grammar points, including titles, examples and model answers."
+    "definition": "Standalone French playback units in touched grammar points."
   },
   "excluded": []
 }

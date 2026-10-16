@@ -1,0 +1,10 @@
+{
+  "text": "Il veut savoir où tu habites.",
+  "text_sha256": "b4fd7caf8d5a30a5180a0beb485727572d0588e13fe6b30d6d035eba7f501ee2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

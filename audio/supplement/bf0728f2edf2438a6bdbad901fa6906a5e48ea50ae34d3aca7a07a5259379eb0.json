@@ -1,0 +1,10 @@
+{
+  "text": "Paul dit : « Je suis prêt. » → Paul dit qu’il est prêt.",
+  "text_sha256": "bf0728f2edf2438a6bdbad901fa6906a5e48ea50ae34d3aca7a07a5259379eb0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

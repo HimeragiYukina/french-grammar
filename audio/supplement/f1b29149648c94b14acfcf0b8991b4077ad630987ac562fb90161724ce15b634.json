@@ -1,0 +1,10 @@
+{
+  "text": "Lundi, Nora m’a promis qu’elle me prêterait son dictionnaire le lendemain.",
+  "text_sha256": "f1b29149648c94b14acfcf0b8991b4077ad630987ac562fb90161724ce15b634",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

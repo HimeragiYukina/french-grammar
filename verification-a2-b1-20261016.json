@@ -1,0 +1,53 @@
+{
+  "batch": "a2-b1-20261016",
+  "content": {
+    "existing_lessons_deepened": 0,
+    "existing_grammar_points_deepened": 2,
+    "new_bilingual_examples": 8,
+    "explained_questions": 7,
+    "new_course_pages": 0
+  },
+  "audio": {
+    "batch": "a2-b1-20261016",
+    "coverage": {
+      "grammar": {
+        "covered": 309,
+        "denominator": 309,
+        "new_files_total": 248,
+        "new_files_this_batch": 41,
+        "new_seconds_this_batch": 125.09750566893425,
+        "reused_normal_texts": 61
+      }
+    },
+    "new_files_this_batch": 41,
+    "new_seconds_this_batch": 125.09750566893425,
+    "model": "fr_FR-siwis-medium",
+    "listened": false
+  },
+  "validation": {
+    "combined_browser_regression_checks": 131,
+    "passed": true,
+    "normal_console_pages": 13,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "schema_and_prerequisites": "356 lessons, no issues",
+    "grammar_baseline": "Original 97 points,427 examples,436 exercises preserved; strict historical ledger passes",
+    "file_mapping": "All702 scoped units match exact text/file hashes and HTTP links; all actual rendered grammar playback buttons mapped"
+  },
+  "review": {
+    "method": "Independent read-only model review; not human teacher certification",
+    "resolved": [
+      "Accept ce dont when the exercise does not explicitly require preposition+quoi",
+      "Aspect applies to the failure to perceive, not the external change",
+      "Specified task opening agrees with open-task rubric"
+    ]
+  },
+  "not_verified": [
+    "Auditory intelligibility/pronunciation/prosody",
+    "Actual Google français availability",
+    "Real microphone input; synthetic-stream regression only",
+    "Learner CEFR or official exam result"
+  ],
+  "browser": "Installed Microsoft Edge, headless isolated profile; no foreground takeover",
+  "git_scope": "Task-specific next batch only, no user progress/cache/model/backup files; existing branch and visibility retained"
+}

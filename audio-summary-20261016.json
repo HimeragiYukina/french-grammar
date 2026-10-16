@@ -1,24 +1,15 @@
 {
+  "batch": "cumulative-through-a2-b1-20261016",
   "coverage": {
     "grammar": {
-      "covered": 256,
-      "denominator": 256,
-      "new_files": 207,
-      "reused": 49,
-      "new_seconds": 630.3869387755103,
-      "new_bytes": 27809172
+      "covered": 309,
+      "denominator": 309,
+      "new_files_total": 248,
+      "new_files_this_batch": 41,
+      "new_seconds_this_batch": 125.09750566893425,
+      "reused_normal_texts": 61
     }
   },
-  "total_new_files": 207,
-  "new_seconds": 630.3869387755103,
-  "unique_site_text_units": 256,
   "model": "fr_FR-siwis-medium",
-  "providers": [
-    "CPUExecutionProvider"
-  ],
-  "threads": {
-    "intra_op": 2,
-    "inter_op": 1
-  },
   "listened": false
 }

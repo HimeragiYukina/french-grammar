@@ -1,0 +1,10 @@
+{
+  "text": "Pendant ce stage, j’ai pris le bus tous les jours ; avant, j’allais au travail à pied.",
+  "text_sha256": "dc0a6c716544e4b3cd75aa12d297026b9333b5bde04a8088e2d2639a33c3acee",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

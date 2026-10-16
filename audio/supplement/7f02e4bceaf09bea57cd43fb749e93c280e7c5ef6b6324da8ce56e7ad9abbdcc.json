@@ -1,0 +1,10 @@
+{
+  "text": "Quand j'étais enfant, j'allais souvent à la mer ; une fois, j'ai vu un dauphin.",
+  "text_sha256": "7f02e4bceaf09bea57cd43fb749e93c280e7c5ef6b6324da8ce56e7ad9abbdcc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

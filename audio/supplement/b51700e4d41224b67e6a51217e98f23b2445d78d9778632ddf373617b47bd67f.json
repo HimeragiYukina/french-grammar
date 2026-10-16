@@ -1,0 +1,10 @@
+{
+  "text": "Pendant que je préparais le dîner, Sami mettait la table.",
+  "text_sha256": "b51700e4d41224b67e6a51217e98f23b2445d78d9778632ddf373617b47bd67f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

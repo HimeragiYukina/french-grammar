@@ -1,0 +1,10 @@
+{
+  "text": "Le guide nous demande de ne pas nous éloigner du groupe.",
+  "text_sha256": "f1a25857f3160f5d98085d6bc0556a1724175f355f6bd654190e49d7c54103c7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

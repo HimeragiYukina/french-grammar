@@ -1,0 +1,10 @@
+{
+  "text": "Elle me demande : « Où habites-tu ? » → Elle me demande où j'habite.",
+  "text_sha256": "ba290c24ba7ef40b5be959ac20b2607cd00a9645f83d64130242d833822426cf",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

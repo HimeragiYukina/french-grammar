@@ -49,5 +49,63 @@
       "a2-pc-avoir",
       "a2-pc-vs-imp"
     ]
+  },
+  "a2-pc-vs-imp": {
+    "sections": [
+      {
+        "title": "同时展开的过程与背景时期：先定观察角度",
+        "explanation": "Pendant que 可以连接同时展开的过程；quand 也可以定位背景时期，不是复合过去时专属标记。同一句换时态可转成整体回顾，题目必须交代希望读者站在哪个时间视点。",
+        "examples": [
+          {
+            "fr": "Pendant que je préparais le dîner, Sami mettait la table.",
+            "zh": "我准备晚饭时，萨米正摆餐具。",
+            "use": "两个过程同时展开，不要求其中一个成为打断事件。"
+          },
+          {
+            "fr": "Quand nous habitions à Lille, nous allions souvent au marché.",
+            "zh": "我们住在里尔那会儿，常去市场。",
+            "use": "quand 引背景时期，两处未完成过去时；souvent不是唯一决定因素。"
+          }
+        ]
+      },
+      {
+        "title": "否定也有观察角度：当时不做，与那次没做",
+        "explanation": "未完成过去时可描写当时状态或习惯，否定复合过去时可把一次未发生的行为放进完整时间框架。不能据此把所有否定都固定在一种过去时，也不能仅凭 hier 判定形式。",
+        "examples": [
+          {
+            "fr": "À cette époque, je ne conduisais pas.",
+            "zh": "那时我不开车。",
+            "use": "描述当时习惯/情况，没有宣称这一状态持续到现在。"
+          },
+          {
+            "fr": "Hier, je n’ai pas conduit : ma sœur a pris le volant.",
+            "zh": "昨天我没开车，是我姐姐/妹妹开的。",
+            "use": "按题目视角整体回顾昨天的这次安排；不由否定或hier单独决定时态。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "按“两个过程正在同时展开”填空：Pendant que je ___ le dîner, Sami ___ la table. (préparer / mettre)",
+        "a": "Pendant que je préparais le dîner, Sami mettait la table.",
+        "note": "两处未完成过去时符合指定的内部观察角度；改为复合过去时可形成另一种整体回顾，不是一概语法错误。"
+      },
+      {
+        "q": "比较“那时我不开车”与“昨天那次我没有开车”：用两句法语保留各自视角。",
+        "a": "À cette époque, je ne conduisais pas. Hier, je n’ai pas conduit.",
+        "note": "前句当时习惯/状态，后句限定安排中的未发生行为；不能推出今天仍不开车。"
+      },
+      {
+        "q": "用 quand 写一个过去背景时期加习惯的句子，证明它不自动要求复合过去时。",
+        "a": "Quand nous habitions à Lille, nous allions souvent au marché.",
+        "note": "其他背景时期和习惯可接受；解释应说清观察角度，而非宣称quand永远搭配未完成过去时。"
+      }
+    ],
+    "related": [
+      "a2-imparfait",
+      "a2-pc-avoir",
+      "b1-pqp"
+    ]
   }
 }

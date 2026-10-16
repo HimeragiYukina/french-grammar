@@ -1,0 +1,10 @@
+{
+  "text": "Le médecin me conseille de me reposer.",
+  "text_sha256": "6179bec8e2fec4d72f90873a572df4463db0959aa360354e7f6103a967d6ef0e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

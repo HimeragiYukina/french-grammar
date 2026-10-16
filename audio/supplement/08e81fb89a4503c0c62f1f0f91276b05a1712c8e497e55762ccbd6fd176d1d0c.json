@@ -1,0 +1,10 @@
+{
+  "text": "La réceptionniste me demande si je me suis déjà inscrit.",
+  "text_sha256": "08e81fb89a4503c0c62f1f0f91276b05a1712c8e497e55762ccbd6fd176d1d0c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

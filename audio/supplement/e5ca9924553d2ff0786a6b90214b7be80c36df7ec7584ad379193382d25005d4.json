@@ -1,0 +1,10 @@
+{
+  "text": "À cette époque, je ne conduisais pas.",
+  "text_sha256": "e5ca9924553d2ff0786a6b90214b7be80c36df7ec7584ad379193382d25005d4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "J’ai su la nouvelle ce matin.",
+  "text_sha256": "498b380ab59a589d986748268aab14c45e575537611e59e227a57867f238c2d8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

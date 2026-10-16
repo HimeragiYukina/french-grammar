@@ -1,0 +1,10 @@
+{
+  "text": "Il me demande où je travaille.",
+  "text_sha256": "c201ce32bdb657daa504d91e999dc48330fbe80bfb28ea3c06cd74f18d019ce3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

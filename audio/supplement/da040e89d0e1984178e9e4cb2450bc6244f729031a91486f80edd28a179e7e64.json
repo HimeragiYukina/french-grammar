@@ -1,0 +1,10 @@
+{
+  "text": "Elle nous dit de l'attendre.",
+  "text_sha256": "da040e89d0e1984178e9e4cb2450bc6244f729031a91486f80edd28a179e7e64",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

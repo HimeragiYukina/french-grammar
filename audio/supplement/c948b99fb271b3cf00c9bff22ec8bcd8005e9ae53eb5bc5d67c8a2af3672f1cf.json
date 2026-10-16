@@ -1,0 +1,10 @@
+{
+  "text": "« Qu'est-ce que tu veux ? » → Il demande ce que je veux.",
+  "text_sha256": "c948b99fb271b3cf00c9bff22ec8bcd8005e9ae53eb5bc5d67c8a2af3672f1cf",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

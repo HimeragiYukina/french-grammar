@@ -1,0 +1,10 @@
+{
+  "text": "Hier, à midi, je dormais encore.",
+  "text_sha256": "8f3a16b9a7e1332b3bf57835bb56ec5962ddf89ceaf872f5313c3cfa2d8af9ee",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

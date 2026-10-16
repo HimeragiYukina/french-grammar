@@ -1,0 +1,17 @@
+{
+  "batch": "a2-b1-20261016",
+  "coverage": {
+    "grammar": {
+      "covered": 309,
+      "denominator": 309,
+      "new_files_total": 248,
+      "new_files_this_batch": 41,
+      "new_seconds_this_batch": 125.09750566893425,
+      "reused_normal_texts": 61
+    }
+  },
+  "new_files_this_batch": 41,
+  "new_seconds_this_batch": 125.09750566893425,
+  "model": "fr_FR-siwis-medium",
+  "listened": false
+}

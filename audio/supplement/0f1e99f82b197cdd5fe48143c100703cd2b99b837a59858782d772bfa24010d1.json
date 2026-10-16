@@ -1,0 +1,10 @@
+{
+  "text": "Elle demande si nous avons réservé.",
+  "text_sha256": "0f1e99f82b197cdd5fe48143c100703cd2b99b837a59858782d772bfa24010d1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

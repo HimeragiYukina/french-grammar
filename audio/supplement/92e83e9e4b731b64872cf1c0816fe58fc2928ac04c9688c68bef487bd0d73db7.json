@@ -1,0 +1,10 @@
+{
+  "text": "Je marchais vers la gare quand j’ai rencontré Léa.",
+  "text_sha256": "92e83e9e4b731b64872cf1c0816fe58fc2928ac04c9688c68bef487bd0d73db7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

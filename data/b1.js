@@ -1433,11 +1433,70 @@ window.GRAMMAR_DATA.B1={
               "use": "转述时视角和时间坐标改变。"
             }
           ]
+        },
+        {
+          "title": "间接疑问与自反代词：还原谁向谁问",
+          "explanation": "间接问题采用陈述语序，是非问用 si；“关于/需要什么”先查动词的介词支配。se 的人称跟实际动作主体，不照抄直接问句里的 vous。",
+          "examples": [
+            {
+              "fr": "La réceptionniste me demande si je me suis déjà inscrit.",
+              "zh": "接待员问我是否已经报名。",
+              "use": "原问题对男性转述者说 Vous vous êtes déjà inscrit ?；转述变je me suis，女性可写inscrite。"
+            },
+            {
+              "fr": "Le bibliothécaire veut savoir de quoi nous avons besoin.",
+              "zh": "图书管理员想知道我们需要什么。",
+              "use": "avoir besoin de 保留 de；不是不加介词的ce que。"
+            }
+          ]
+        },
+        {
+          "title": "请求的否定与原话的日期：三类改动分开",
+          "explanation": "先定位行动者，再放否定，最后根据转述日定位时间。周一说的 demain 指周二；如果周二才转述，可明示 le lendemain（相对周一）。这里条件式现在时表达过去视点的将来，本身不表示兑现与否，也不等于不信任。",
+          "examples": [
+            {
+              "fr": "Le guide nous demande de ne pas nous éloigner du groupe.",
+              "zh": "导游要求我们不要离开团队。",
+              "use": "直接请求 Ne vous éloignez pas du groupe，转述者属于被要求的一群人。"
+            },
+            {
+              "fr": "Lundi, Nora m’a promis qu’elle me prêterait son dictionnaire le lendemain.",
+              "zh": "诺拉周一向我承诺，她会在第二天把词典借给我。",
+              "use": "le lendemain 相对周一为周二；承诺不证明已经借出。"
+            }
+          ]
         }
       ],
       "comparison": "Il demande : « Qu’est-ce qui se passe ? » → Il demande ce qui se passe；« Qu’est-ce que tu fais ? » → Il demande ce que tu fais。Demander si 不表示条件，其后可有将来或条件式。",
       "errors": "错误：Il demande où habites-tu。改：Il demande où tu habites。错误：Elle demande qu’est-ce que je veux。改：Elle demande ce que je veux。",
-      "boundaries": "不是所有请求都能用 demander de：Elle demande que la réunion soit reportée 是明确从句主语的请求，虚拟式。转述不是逐字翻译，务必先确认指代和现实日期。"
+      "boundaries": "不是所有请求都能用 demander de：Elle demande que la réunion soit reportée 是明确从句主语的请求，虚拟式。转述不是逐字翻译，务必先确认指代和现实日期。",
+      "related": [
+        "a2-pronominaux",
+        "b1-cond-present",
+        "b2-concordance"
+      ],
+      "practice": [
+        {
+          "q": "接待员对男性转述者问“Vous vous êtes déjà inscrit ?”。用 La réceptionniste me demande… 转述。",
+          "a": "La réceptionniste me demande si je me suis déjà inscrit.",
+          "note": "是否用si，vous变je，反身vous变me；女转述者可写inscrite，不能保留人称代词倒装。"
+        },
+        {
+          "q": "用“介词 + quoi”结构补全：Le bibliothécaire veut savoir ___ nous avons besoin.",
+          "a": "Le bibliothécaire veut savoir de quoi nous avons besoin.",
+          "note": "本题指定介词+quoi，avoir besoin de 保留de，因此用de quoi；若不限定结构，ce dont nous avons besoin也正确，不能一概判错。"
+        },
+        {
+          "q": "导游对包括你在内的游客说“Ne vous éloignez pas du groupe.”，转述。",
+          "a": "Le guide nous demande de ne pas nous éloigner du groupe.",
+          "note": "接收者nous、反身nous与行动者一致；ne pas放在不定式前，不能变成否定“提出请求”。"
+        },
+        {
+          "q": "诺拉周一对你说“Je te prêterai mon dictionnaire demain.”；你周二转述这次承诺。写一句，交代原话日期与预计借出的日期，不声称已经兑现。",
+          "a": "Lundi, Nora m’a promis qu’elle me prêterait son dictionnaire le lendemain, mardi.",
+          "note": "四项各0—2：je/te/mon调整；周一来源与周二目标清楚；过去视点将来；未添加兑现事实。同一参照日可保留demain，并非任何转述都必须改le lendemain。"
+        }
+      ]
     },
     "b1-passif": {
       "sections": [
