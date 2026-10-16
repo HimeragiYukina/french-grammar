@@ -148,6 +148,16 @@
         "q": "周三回顾周一教师解释的普遍规律 « L’eau bout à 100 °C à la pression atmosphérique normale. » 用 Le professeur a expliqué que… 转述，并说明为何可不后移。",
         "a": "Le professeur a expliqué que l’eau bout à 100 °C à la pression atmosphérique normale.",
         "note": "一般规律可保留现在时；未完成过去bouillait若忠实定位当时讲解也可接受，不能机械判错。保留正常大气压条件，不能写成任何压力都100度沸腾。"
+      },
+      {
+        "q": "周一负责人对你说“J’ai rangé la caisse hier, et je vérifierai l’armoire demain.” 周三按过去视点转述，用elle、人称及明确星期，不宣称检查已完成。",
+        "a": "Lundi, la responsable m’a dit qu’elle avait rangé la caisse dimanche et qu’elle vérifierait l’armoire mardi.",
+        "note": "ai rangé后移为avait rangé，周一的hier是周日；vérifierai后移为vérifierait，周一的demain是周二。允许la veille/le lendemain，只要参照清楚。不能加elle a effectivement vérifié，因为转述承诺不证明履行。"
+      },
+      {
+        "q": "周四收到Malik留言“Je me souviens d’une caisse rouge près de la porte, mais je ne peux pas dater cette scène.” 同事据此写“La caisse était près de la porte jeudi.” 用两句法语纠正：保留回忆归属并区分收信日期与所忆场景日期。",
+        "a": "Dans le message reçu jeudi, Malik dit qu’il se souvient d’une caisse rouge près de la porte, sans pouvoir dater cette scène. La date de réception du message ne permet pas de dater ce souvenir.",
+        "note": "也可用Malik a écrit qu’il se souvenait…，根据转述视点选择过去或现在；重点是不把周四收信写成周四箱子在门边，不把未知日期改成“从来没有箱子”。开放迁移可换同义组织，但须保留来源和两种日期的区分。"
       }
     ]
   },

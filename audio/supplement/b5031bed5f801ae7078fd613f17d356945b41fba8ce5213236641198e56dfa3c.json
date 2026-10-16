@@ -1,0 +1,30 @@
+{
+  "text": "la veille",
+  "text_sha256": "b5031bed5f801ae7078fd613f17d356945b41fba8ce5213236641198e56dfa3c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.893968253968254,
+      "source_seconds": 0.893968253968254,
+      "source_file_sha256": "8ec2c9517178d41aef4902c201577c908e6bb5b66f47a21ddba1ea8a8c23f928",
+      "file_sha256": "88e1472beeec7d272216c2e84240b0d6258a5981337e27d31271c85f6b80cad8",
+      "bytes": 7985,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

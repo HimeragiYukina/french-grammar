@@ -1,0 +1,238 @@
+[
+  {
+    "level": "A1",
+    "point": "a1-mots-interro",
+    "sections": [
+      {
+        "title": "问时刻还是问编号：泳池服务台",
+        "explanation": "何时与哪个编号需要不同问题。询问一天中的具体开放时刻，用表示几点的疑问短语；问寄物柜号，用哪个编号。泳池开放并不意味着游泳课同时开始：如果工作人员只知道开放时刻，课程时刻仍需另问。不要用场馆开放信息替代尚未公布的课程安排。",
+        "examples": [
+          {
+            "fr": "À quelle heure est-ce que la piscine ouvre ? — À huit heures.",
+            "zh": "泳池几点开放？——八点。",
+            "use": "问一天中的具体时刻；八点只回答泳池开放，不自动回答课程开始。"
+          },
+          {
+            "fr": "Quel est le numéro de mon casier ? — C’est le numéro seize.",
+            "zh": "我的寄物柜编号是多少？——是十六号。",
+            "use": "numéro为阳性单数，问编号用quel；不以询问时刻的形式提问。"
+          },
+          {
+            "fr": "Quand est-ce que le cours commence ? — Je ne sais pas encore.",
+            "zh": "课程什么时候开始？——我还不知道。",
+            "use": "没有确定课程时间时如实表示未知；不能把第一句的八点当成这句答案。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "泳池服务台练习：你只知道场馆八点开放，要问自己的寄物柜编号。写出一个合适问题；不要写一个以“几点”开头的问题。",
+        "a": "Quel est le numéro de mon casier ?",
+        "note": "编号是识别标签而非一天中的时刻，quel与阳性numéro配合。也接受Quel numéro porte mon casier ?；用时刻问法不能完成本题。"
+      },
+      {
+        "q": "独立迁移：工作人员说泳池八点开放，但游泳课开始时间还不知道。写两句，第一句回读泳池开放时刻，第二句询问课程何时开始；不要擅自说课也八点开始。",
+        "a": "La piscine ouvre à huit heures. Quand est-ce que le cours commence ?",
+        "note": "第一句回读已知事实，第二句索取仍未知的课程时刻。第二句也可用À quelle heure est-ce que le cours commence ?；不能仅凭场馆开放推定课程开始。"
+      }
+    ],
+    "independentlyReviewed": true,
+    "scope": "Original fictional grammar scenario; reviewed answers and inference limits; not official examination material."
+  },
+  {
+    "level": "A2",
+    "point": "a2-pc-avoir",
+    "sections": [
+      {
+        "title": "录音准备：测试完成不代表录制完成",
+        "examples": [
+          {
+            "fr": "Nous avons déjà testé les micros, mais nous n’avons pas encore enregistré la chanson.",
+            "zh": "我们已经测试过麦克风，但还没有录制这首歌。",
+            "use": "测试与录制分别判断；déjà和pas encore不改变动词所指事件。"
+          },
+          {
+            "fr": "La chanteuse vient de recevoir la partition. Elle a lu la première page, mais elle n’a pas encore chanté avec le groupe.",
+            "zh": "女歌手刚收到乐谱。她已经读了第一页，但还没有和乐队一起唱。",
+            "use": "刚收到、已读一页、尚未合唱是三条不同事实；venir de后接不定式。"
+          }
+        ],
+        "explanation": "在乐队排练的独立情境中，用复合过去时核对完成清单：测试过设备、收到乐谱和录好歌曲是不同事件。déjà确认截至目前已做；pas encore表示截至目前尚未发生，并不保证之后一定发生。venir de +不定式标出刚发生，不能误当作未来计划。读到结果时回查具体动词，不凭准备充分推断任务完成。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "乐队已测试麦克风，但尚未录歌。纠正总结并保留这两个事实：Nous avons déjà enregistré la chanson.",
+        "a": "Nous avons déjà testé les micros, mais nous n’avons pas encore enregistré la chanson.",
+        "note": "不能仅改成没有录歌而遗漏已测试。也接受Nous avons testé les micros. Nous n’avons pas encore enregistré la chanson.；déjà可省，不得把尚未录制说成从未录制过任何歌曲。"
+      },
+      {
+        "q": "女歌手刚收到乐谱，只读了第一页，尚未与乐队合唱。写三句说明这些事实，第一句使用venir de。",
+        "a": "La chanteuse vient de recevoir la partition. Elle a seulement lu la première page. Elle n’a pas encore chanté avec le groupe.",
+        "note": "vient de recevoir标刚收到；a lu只覆盖第一页；pas encore chanté不能改成不会唱。允许Elle vient de recevoir…代替首句名词，合并后两句也可；不能添加已经读完整份乐谱。"
+      }
+    ],
+    "independentlyReviewed": true,
+    "scope": "Original fictional grammar scenario; reviewed answers and inference limits; not official examination material."
+  },
+  {
+    "level": "B1",
+    "point": "b1-discours-indirect",
+    "sections": [
+      {
+        "title": "跨日转述：保留原消息日期与未确认状态",
+        "explanation": "以下独立虚构维修预约发生在周二和周三。转述日期改变时，demain不能机械照搬；可以直接写jeudi消除歧义。转述“可能”要保留pourrait，尚未确认不能改成已预约。条件式过去视角与现实核实状态分开检查。",
+        "examples": [
+          {
+            "fr": "Mardi, la réparatrice a annoncé qu’elle pourrait passer le lendemain, mais que l’horaire restait à confirmer.",
+            "zh": "周二，维修员说她可能第二天来，但时间仍待确认。",
+            "use": "le lendemain相对周二指周三；pourrait保留可能，不表示已确认。"
+          },
+          {
+            "fr": "Mercredi, elle a précisé que son passage était finalement prévu jeudi à neuf heures, et non mercredi.",
+            "zh": "周三，她说明最终安排是周四九点来，而不是周三。",
+            "use": "绝对星期与时间优先消除跨日歧义；最终说明取代早先未确认的可能安排。"
+          },
+          {
+            "fr": "Elle a demandé au client de ne pas laisser l’appareil branché avant son arrivée.",
+            "zh": "她请客户在她来之前不要让设备接着电。",
+            "use": "请求转述用demander à…de ne pas；不把原话的vous照抄成错误动作主体。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "独立情境：周二维修员对你说“Je pourrai peut-être venir demain, mais je dois encore confirmer.” 周三上午你向同事转述，尚无新消息。写一句过去引述，明确原计划指哪天并保留未确认。",
+        "a": "Mardi, la réparatrice m’a dit qu’elle pourrait peut-être venir le lendemain, donc mercredi, mais qu’elle devait encore confirmer.",
+        "note": "le lendemain以周二为参照指周三，不是周三转述时的明天。pourrait与peut-être可保原不确定性；尚无确认，不能写Elle vient aujourd’hui à neuf heures。也接受…venir mercredi…，或保留引语并注明周二来源。未给具体时刻，不得补九点。"
+      },
+      {
+        "q": "另一则独立维修消息：周三维修员写“Mon passage est finalement prévu jeudi à neuf heures. Ne laissez pas l’appareil branché avant mon arrivée.” 当天向同住人转告两项内容，用Elle a précisé que…与Elle nous a demandé de…；不得变成修好保证。",
+        "a": "Elle a précisé que son passage était finalement prévu jeudi à neuf heures. Elle nous a demandé de ne pas laisser l’appareil branché avant son arrivée.",
+        "note": "son passage指她来访，ne pas位于不定式前，son arrivée仍指维修员。也接受que son passage est finalement prévu…以强调仍有效安排。已安排来访不等于保证当场修好，原文也未给维修费用。"
+      }
+    ],
+    "independentlyReviewed": true,
+    "scope": "Original fictional grammar scenario; reviewed answers and inference limits; not official examination material."
+  },
+  {
+    "level": "B2",
+    "point": "b2-concordance",
+    "sections": [
+      {
+        "title": "旧话的时态与后来消息的日期：后移不等于核实",
+        "explanation": "独立场景：社区修理工坊寻找一只红色工具箱。周一管理员说的话、周三志愿者的回忆、周四收到的留言属于不同来源。转述时，用愈过去标记早于报告的动作，用条件式标记过去视点的将来；这两者本身都不证明动作完成或承诺履行。demain须按原话日期换成明确日期或le lendemain；ce jour-là要能指回具体日期。若内容只是听说或记忆，应保留selon、se souvenir等归属，不能靠语法后移把它写成已核实事实。",
+        "examples": [
+          {
+            "fr": "Lundi, la responsable a déclaré qu’elle avait rangé la caisse la veille.",
+            "zh": "周一，负责人说她前一天已经把箱子收好了。",
+            "use": "avait rangé表示收箱先于周一发言；la veille指周日。这里只确认她作了这一陈述，不等于有人独立核实。"
+          },
+          {
+            "fr": "Mercredi, je rapporte que la responsable avait annoncé lundi : « Je vérifierai l’armoire demain. » Elle avait donc annoncé qu’elle vérifierait l’armoire mardi.",
+            "zh": "周三我转述：负责人周一曾说“我明天检查柜子”。所以她当时宣布的是周二会检查柜子。",
+            "use": "vérifierait是过去视点的将来，mardi消除demain的参照歧义；仍未说明她是否真的检查。"
+          },
+          {
+            "fr": "Dans son message reçu jeudi, Malik écrit qu’il se souvient d’une caisse rouge près de la porte, sans pouvoir dater cette scène.",
+            "zh": "在周四收到的消息中，马利克写道，他记得门边有一个红箱子，但无法确定那一幕的日期。",
+            "use": "现在时écrit引出仍可阅读的消息，se souvient保留回忆来源；收信日期不自动成为箱子在门边的日期。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "周一负责人对你说“J’ai rangé la caisse hier, et je vérifierai l’armoire demain.” 周三按过去视点转述，用elle、人称及明确星期，不宣称检查已完成。",
+        "a": "Lundi, la responsable m’a dit qu’elle avait rangé la caisse dimanche et qu’elle vérifierait l’armoire mardi.",
+        "note": "ai rangé后移为avait rangé，周一的hier是周日；vérifierai后移为vérifierait，周一的demain是周二。允许la veille/le lendemain，只要参照清楚。不能加elle a effectivement vérifié，因为转述承诺不证明履行。"
+      },
+      {
+        "q": "周四收到Malik留言“Je me souviens d’une caisse rouge près de la porte, mais je ne peux pas dater cette scène.” 同事据此写“La caisse était près de la porte jeudi.” 用两句法语纠正：保留回忆归属并区分收信日期与所忆场景日期。",
+        "a": "Dans le message reçu jeudi, Malik dit qu’il se souvient d’une caisse rouge près de la porte, sans pouvoir dater cette scène. La date de réception du message ne permet pas de dater ce souvenir.",
+        "note": "也可用Malik a écrit qu’il se souvenait…，根据转述视点选择过去或现在；重点是不把周四收信写成周四箱子在门边，不把未知日期改成“从来没有箱子”。开放迁移可换同义组织，但须保留来源和两种日期的区分。"
+      }
+    ],
+    "independentlyReviewed": true,
+    "scope": "Original fictional grammar scenario; reviewed answers and inference limits; not official examination material."
+  },
+  {
+    "level": "C1",
+    "point": "c1-hypothese-sans-si",
+    "sections": [
+      {
+        "title": "sans的过去假设与au cas où的预案：剧团道具间",
+        "explanation": "以下是与课程案例独立的原创虚构情境：剧团周六在道具间排练，管理员提前留了备用钥匙；参与者都已按时进入。sans＋名词搭配条件式过去可想象另一种过去，但须区分已知事实和推测结果。au cas où＋条件式过去可为“可能已经发生”的未知情况准备行动，不表示该情况已确定。两者不宜只换连词而不改变整句话的交际目的。",
+        "examples": [
+          {
+            "fr": "Sans la clé de secours laissée par la régisseuse, nous aurions peut-être dû attendre dehors.",
+            "zh": "要是没有舞台监督留下的备用钥匙，我们也许本来得在外面等。",
+            "use": "已知留下钥匙并及时进入；另一个世界的等待是推测，peut-être不把等待伪装成实测。"
+          },
+          {
+            "fr": "Appelez la régisseuse avant de partir, au cas où elle aurait changé le code de la porte.",
+            "zh": "出发前给舞台监督打电话，以防她已经改了门码。",
+            "use": "改码尚未知，aurait changé表示可能先发生；祈使主句提出核实预案，不宣称门码已经改变。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "原创剧团情境：管理员确实留了备用钥匙，大家按时进门；没有钥匙时是否一定会延误，材料未说。用Sans开头改述一个过去假设，保留“也许要在外面等”，不能加钥匙是唯一进入办法。",
+        "a": "Sans la clé de secours, nous aurions peut-être dû attendre dehors.",
+        "note": "条件式过去aurions dû＋attendre；peut-être保留推测强度。可用il aurait peut-être fallu attendre dehors。不是“我们实际等过”；也不排除其他入门办法。应用题核事实与假设，不将自然过去反事实当因果证明。"
+      },
+      {
+        "q": "迁移到社区陶艺室：你尚不知道负责人是否已换门码；请同行者出发前打电话核实。用au cas où＋changer的条件式过去，随后用中文解释为何不能译成“负责人确实换了门码”。",
+        "a": "Téléphonez avant de partir, au cas où la responsable aurait changé le code de la porte. 中文：门码是否已换尚未核实；这是假设可能已发生的情况，为它安排电话核实，不是确认换码。",
+        "note": "负责人可能已换而非已证实换码；aurait changé是au cas où的规范条件式过去。主句可为Téléphonez/Appelez，也可用tu的祈使句；动词人称须随la responsable第三人称单数。须另解释未知状态；若只给法语句，任务未完全完成。"
+      }
+    ],
+    "independentlyReviewed": true,
+    "scope": "Original fictional grammar scenario; reviewed answers and inference limits; not official examination material."
+  },
+  {
+    "level": "C2",
+    "point": "c2-ellipse",
+    "sections": [
+      {
+        "title": "短句留下气氛，完整通知交代可执行信息",
+        "explanation": "无动词短句可制造停顿和主观感受；转写成实用通知时，补出的时态、因果和负责者必须有上下文依据。缺谓词并不总能唯一复原，省略后的并置也不自动表示因果。文学转述可保开放性，现场通知应另核实缺失条件；不能靠“补完整”发明事故原因。",
+        "examples": [
+          {
+            "fr": "Dernier match. Gradins vides. Au loin, une sirène.",
+            "zh": "最后一场比赛。空空的看台。远处，一声警笛。",
+            "use": "三段景象并置；既未说疏散，也未确定警笛与体育场有关。"
+          },
+          {
+            "fr": "Le dernier match est terminé ; les gradins sont vides. La cause du signal entendu au loin n’est pas précisée.",
+            "zh": "最后一场比赛已经结束；看台空了。远处响起的信号的原因没有说明。",
+            "use": "只有上下文另明确比赛结束时才可补est terminé；原三短句本身也可能是在描绘赛前。"
+          },
+          {
+            "fr": "La note du régisseur indique : « Le match s’est achevé à vingt-deux heures. Le stade ferme à vingt-trois heures. »",
+            "zh": "场务说明写道：“比赛已于二十二点结束。体育场二十三点关闭。”",
+            "use": "实际补完整通知的时间依据；不能把警笛当作提前关闭命令。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "独立原创广播草稿：Dernier match. Gradins vides. Au loin, une sirène. 另有场务记录：Le match s’est achevé à vingt-deux heures；le stade ferme à vingt-trois heures。给观众写两句完整法语通知，保时间并说明是否能断言警笛要求立即疏散。",
+        "a": "Le dernier match s’est achevé à vingt-deux heures. Le stade ferme à vingt-trois heures. Le brouillon ne permet pas d’affirmer que la sirène ordonne une évacuation immédiate.",
+        "note": "接受两句通知外加第三句解释，或中文解释。22点已结束/23点关闭各1分；不补因果/立即疏散1分；区分场务事实与草稿气氛1分。省略补全以另给记录为依据，不把警笛来源未知改成不存在危险。"
+      },
+      {
+        "q": "短篇评论标题写“Une sirène : le stade évacué”，但材料只有“Gradins vides. Au loin, une sirène.”。指出新增推论，改成不强定因果的法语标题；再给一个保留文学停顿的版本，不能声称看台从未有人。",
+        "a": "Le titre ajoute une évacuation et suggère un lien avec la sirène, que les deux fragments n’établissent pas. Version prudente : « Des gradins vides, une sirène au loin ». Version rythmée : « Les gradins, vides. Au loin, la sirène. »",
+        "note": "识别évacuation新增1分；冒号因果暗示被指出1分；谨慎标题保观察范围1分；节奏版不加从未有人/迫切命令1分。也接受其他自然无因果并置；两碎片不提供警笛发生的确切时刻或负责者。"
+      }
+    ],
+    "independentlyReviewed": true,
+    "scope": "Original fictional grammar scenario; reviewed answers and inference limits; not official examination material."
+  }
+]

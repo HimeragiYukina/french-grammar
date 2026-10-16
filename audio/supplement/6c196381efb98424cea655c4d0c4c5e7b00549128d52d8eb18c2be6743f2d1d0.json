@@ -1,0 +1,30 @@
+{
+  "text": "Gradins vides. Au loin, une sirène.",
+  "text_sha256": "6c196381efb98424cea655c4d0c4c5e7b00549128d52d8eb18c2be6743f2d1d0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8560544217687074,
+      "source_seconds": 2.8560544217687074,
+      "source_file_sha256": "5cd284faebdbae0e2ccf188b5b4762eaae458706dad87658c9fdee083f59e82c",
+      "file_sha256": "91593c2a2411d8fba3006280aee4b9c9d8f29f0c642c561aeb18f07eea718af4",
+      "bytes": 23658,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

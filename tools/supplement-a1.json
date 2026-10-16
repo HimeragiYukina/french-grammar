@@ -318,6 +318,16 @@
         "q": "你要知道对方待几天及说哪些语言。写两个问题。",
         "a": "Combien de jours restez-vous ? Quelles langues parlez-vous ?",
         "note": "combien de后jours复数；quelles配langues阴性复数。est-ce que或自然口语语序也可，但保留de和配合。"
+      },
+      {
+        "q": "泳池服务台练习：你只知道场馆八点开放，要问自己的寄物柜编号。写出一个合适问题；不要写一个以“几点”开头的问题。",
+        "a": "Quel est le numéro de mon casier ?",
+        "note": "编号是识别标签而非一天中的时刻，quel与阳性numéro配合。也接受Quel numéro porte mon casier ?；用时刻问法不能完成本题。"
+      },
+      {
+        "q": "独立迁移：工作人员说泳池八点开放，但游泳课开始时间还不知道。写两句，第一句回读泳池开放时刻，第二句询问课程何时开始；不要擅自说课也八点开始。",
+        "a": "La piscine ouvre à huit heures. Quand est-ce que le cours commence ?",
+        "note": "第一句回读已知事实，第二句索取仍未知的课程时刻。第二句也可用À quelle heure est-ce que le cours commence ?；不能仅凭场馆开放推定课程开始。"
       }
     ]
   },

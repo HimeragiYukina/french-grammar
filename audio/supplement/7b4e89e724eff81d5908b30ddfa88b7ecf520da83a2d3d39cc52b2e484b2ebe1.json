@@ -1,0 +1,30 @@
+{
+  "text": "il aurait peut-être fallu attendre dehors",
+  "text_sha256": "7b4e89e724eff81d5908b30ddfa88b7ecf520da83a2d3d39cc52b2e484b2ebe1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.182675736961451,
+      "source_seconds": 2.182675736961451,
+      "source_file_sha256": "9d902456cc8aac900c4e8250d13f8520bf9ad367ab653e30c1d726a8db158cdd",
+      "file_sha256": "f7328515f8686728aad02f1426320da8a32a59a034991534a711b148f244048a",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

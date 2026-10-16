@@ -1,0 +1,30 @@
+{
+  "text": "Dans le message reçu jeudi, Malik dit qu’il se souvient d’une caisse rouge près de la porte, sans pouvoir dater cette scène. La date de réception du message ne permet pas de dater ce souvenir.",
+  "text_sha256": "9d3b01ffd03b826474472f7139565f8b0908321c9a92e055eb531dba64577fa1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.798820861678005,
+      "source_seconds": 9.798820861678005,
+      "source_file_sha256": "5e0f7404deaad519dbc927fff2ec70e6a1498a049e280b6a19f4db6a957992b9",
+      "file_sha256": "fafa8906eb92e09396a6f79d4395110ad195fbc212f909c591028b15df311045",
+      "bytes": 79247,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

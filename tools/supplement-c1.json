@@ -226,7 +226,24 @@
     ]
   },
   "c1-hypothese-sans-si": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "sans的过去假设与au cas où的预案：剧团道具间",
+        "explanation": "以下是与课程案例独立的原创虚构情境：剧团周六在道具间排练，管理员提前留了备用钥匙；参与者都已按时进入。sans＋名词搭配条件式过去可想象另一种过去，但须区分已知事实和推测结果。au cas où＋条件式过去可为“可能已经发生”的未知情况准备行动，不表示该情况已确定。两者不宜只换连词而不改变整句话的交际目的。",
+        "examples": [
+          {
+            "fr": "Sans la clé de secours laissée par la régisseuse, nous aurions peut-être dû attendre dehors.",
+            "zh": "要是没有舞台监督留下的备用钥匙，我们也许本来得在外面等。",
+            "use": "已知留下钥匙并及时进入；另一个世界的等待是推测，peut-être不把等待伪装成实测。"
+          },
+          {
+            "fr": "Appelez la régisseuse avant de partir, au cas où elle aurait changé le code de la porte.",
+            "zh": "出发前给舞台监督打电话，以防她已经改了门码。",
+            "use": "改码尚未知，aurait changé表示可能先发生；祈使主句提出核实预案，不宣称门码已经改变。"
+          }
+        ]
+      }
+    ],
     "related": [
       "b1-gerondif",
       "b1-cond-passe",
@@ -242,6 +259,16 @@
         "q": "修复动作主体不一致：En arrivant à la gare, le train était déjà parti. 保留我到站时车已走，不让火车到站。",
         "a": "À mon arrivée à la gare, le train était déjà parti.",
         "note": "可用Quand je suis arrivé(e) à la gare…；副动词通常同主语，原句语法上让train承担arriver。"
+      },
+      {
+        "q": "原创剧团情境：管理员确实留了备用钥匙，大家按时进门；没有钥匙时是否一定会延误，材料未说。用Sans开头改述一个过去假设，保留“也许要在外面等”，不能加钥匙是唯一进入办法。",
+        "a": "Sans la clé de secours, nous aurions peut-être dû attendre dehors.",
+        "note": "条件式过去aurions dû＋attendre；peut-être保留推测强度。可用il aurait peut-être fallu attendre dehors。不是“我们实际等过”；也不排除其他入门办法。应用题核事实与假设，不将自然过去反事实当因果证明。"
+      },
+      {
+        "q": "迁移到社区陶艺室：你尚不知道负责人是否已换门码；请同行者出发前打电话核实。用au cas où＋changer的条件式过去，随后用中文解释为何不能译成“负责人确实换了门码”。",
+        "a": "Téléphonez avant de partir, au cas où la responsable aurait changé le code de la porte. 中文：门码是否已换尚未核实；这是假设可能已发生的情况，为它安排电话核实，不是确认换码。",
+        "note": "负责人可能已换而非已证实换码；aurait changé是au cas où的规范条件式过去。主句可为Téléphonez/Appelez，也可用tu的祈使句；动词人称须随la responsable第三人称单数。须另解释未知状态；若只给法语句，任务未完全完成。"
       }
     ]
   },

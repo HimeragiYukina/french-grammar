@@ -1,0 +1,30 @@
+{
+  "text": "mardi",
+  "text_sha256": "41559c72e9fb9d4065ec982c504c69f26d5899aa021abe2f2efcf00ee66283f5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.6501587301587302,
+      "source_seconds": 0.6501587301587302,
+      "source_file_sha256": "1c27fdc834892eea7c16e5ccc6337762ee349b46dffc53b0d4f64a24a7f7576e",
+      "file_sha256": "c1a450a716f5af600d58a0cb6dc83af7f7bfaa346388147391d3f3ef41e1dbc8",
+      "bytes": 5895,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

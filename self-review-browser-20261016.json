@@ -16,7 +16,7 @@
       "level": "a2",
       "blocks": 2,
       "dimensions": 8,
-      "models": 10,
+      "models": 12,
       "noInputs": true,
       "transfer": true,
       "overflow": false
@@ -109,7 +109,7 @@
   ],
   "errors": [],
   "viewport": 390,
-  "scope": "Six grammar level cards and all six context cards: independent oral/written transfer self-review, four dimensions, no automatic score or new persistence.",
+  "scope": "12 tutorial level-type cases + six grammar level cards; both details expanded, four dimensions per type, models present, no new input/tts controls.",
   "progressPersistenceRegression": "Not run here; parent runs existing progress regression.",
   "auditoryReview": false
 }

@@ -1,0 +1,30 @@
+{
+  "text": "À quelle heure est-ce que la piscine ouvre ? — À huit heures.",
+  "text_sha256": "ec1c65e48df6a481f512507e4cafb568837fa8347c844fb65b9c7aab17a33574",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.0998639455782313,
+      "source_seconds": 3.0998639455782313,
+      "source_file_sha256": "e24762cd37560e172689ece083d9bcedab3e90d4ac1cc84c59041b3c50a1bf95",
+      "file_sha256": "57de2e2e20ada8377222086e928c7004bdf140947624d17d409029c182fe4791",
+      "bytes": 25539,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

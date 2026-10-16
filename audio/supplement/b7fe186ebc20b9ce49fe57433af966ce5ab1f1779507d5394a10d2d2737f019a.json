@@ -1,0 +1,30 @@
+{
+  "text": "Mercredi, elle a précisé que son passage était finalement prévu jeudi à neuf heures, et non mercredi.",
+  "text_sha256": "b7fe186ebc20b9ce49fe57433af966ce5ab1f1779507d5394a10d2d2737f019a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.735328798185941,
+      "source_seconds": 5.735328798185941,
+      "source_file_sha256": "2e69fbf41f85cab255c24e4f865f1530cd9bb6fd1128da6d574be0350e3ef631",
+      "file_sha256": "fa61d524807a5d07d6538f5961cb80fdabe24ae4a76de77575ea085e738cb1f4",
+      "bytes": 46646,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

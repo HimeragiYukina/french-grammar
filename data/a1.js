@@ -2511,6 +2511,27 @@ window.GRAMMAR_DATA.A1={
               "use": "quelles 与 langues 阴性复数配合。"
             }
           ]
+        },
+        {
+          "title": "问时刻还是问编号：泳池服务台",
+          "explanation": "何时与哪个编号需要不同问题。询问一天中的具体开放时刻，用表示几点的疑问短语；问寄物柜号，用哪个编号。泳池开放并不意味着游泳课同时开始：如果工作人员只知道开放时刻，课程时刻仍需另问。不要用场馆开放信息替代尚未公布的课程安排。",
+          "examples": [
+            {
+              "fr": "À quelle heure est-ce que la piscine ouvre ? — À huit heures.",
+              "zh": "泳池几点开放？——八点。",
+              "use": "问一天中的具体时刻；八点只回答泳池开放，不自动回答课程开始。"
+            },
+            {
+              "fr": "Quel est le numéro de mon casier ? — C’est le numéro seize.",
+              "zh": "我的寄物柜编号是多少？——是十六号。",
+              "use": "numéro为阳性单数，问编号用quel；不以询问时刻的形式提问。"
+            },
+            {
+              "fr": "Quand est-ce que le cours commence ? — Je ne sais pas encore.",
+              "zh": "课程什么时候开始？——我还不知道。",
+              "use": "没有确定课程时间时如实表示未知；不能把第一句的八点当成这句答案。"
+            }
+          ]
         }
       ],
       "comparison": "Qui vient ?（谁来，qui 为主语）/ Qui invites-tu ?（你邀请谁，qui 为宾语）；Que veux-tu ?（规范前置）/ Tu veux quoi ?（口语后置）。",
@@ -2527,6 +2548,16 @@ window.GRAMMAR_DATA.A1={
           "q": "你要知道对方待几天及说哪些语言。写两个问题。",
           "a": "Combien de jours restez-vous ? Quelles langues parlez-vous ?",
           "note": "combien de后jours复数；quelles配langues阴性复数。est-ce que或自然口语语序也可，但保留de和配合。"
+        },
+        {
+          "q": "泳池服务台练习：你只知道场馆八点开放，要问自己的寄物柜编号。写出一个合适问题；不要写一个以“几点”开头的问题。",
+          "a": "Quel est le numéro de mon casier ?",
+          "note": "编号是识别标签而非一天中的时刻，quel与阳性numéro配合。也接受Quel numéro porte mon casier ?；用时刻问法不能完成本题。"
+        },
+        {
+          "q": "独立迁移：工作人员说泳池八点开放，但游泳课开始时间还不知道。写两句，第一句回读泳池开放时刻，第二句询问课程何时开始；不要擅自说课也八点开始。",
+          "a": "La piscine ouvre à huit heures. Quand est-ce que le cours commence ?",
+          "note": "第一句回读已知事实，第二句索取仍未知的课程时刻。第二句也可用À quelle heure est-ce que le cours commence ?；不能仅凭场馆开放推定课程开始。"
         }
       ]
     },

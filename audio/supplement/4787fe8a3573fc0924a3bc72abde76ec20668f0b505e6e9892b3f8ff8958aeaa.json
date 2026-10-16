@@ -1,0 +1,30 @@
+{
+  "text": "Mardi, la réparatrice a annoncé qu’elle pourrait passer le lendemain, mais que l’horaire restait à confirmer.",
+  "text_sha256": "4787fe8a3573fc0924a3bc72abde76ec20668f0b505e6e9892b3f8ff8958aeaa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.201269841269841,
+      "source_seconds": 5.201269841269841,
+      "source_file_sha256": "db9435f0b6fb42ac8479c08084ee97749f2e4188efed8796c0133ee002b4db0b",
+      "file_sha256": "3462b23485954e7d413242045b4f6576f5662ed822c1c3648be699b4654ec365",
+      "bytes": 42466,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

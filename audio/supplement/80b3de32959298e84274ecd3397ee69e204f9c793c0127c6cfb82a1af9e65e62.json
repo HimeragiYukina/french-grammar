@@ -1,0 +1,30 @@
+{
+  "text": "Je pourrai peut-être venir demain, mais je dois encore confirmer.",
+  "text_sha256": "80b3de32959298e84274ecd3397ee69e204f9c793c0127c6cfb82a1af9e65e62",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.378503401360544,
+      "source_seconds": 3.378503401360544,
+      "source_file_sha256": "dce210c2a5340d88fff5ec7e26649d2ae8dee5c3ab626076735724fd07acb5dd",
+      "file_sha256": "a9eb474954bb787cc21c9579b4a54b040b8f8bc3cc70896997e2da670002550b",
+      "bytes": 27838,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -205,7 +205,29 @@
     ]
   },
   "c2-ellipse": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "短句留下气氛，完整通知交代可执行信息",
+        "explanation": "无动词短句可制造停顿和主观感受；转写成实用通知时，补出的时态、因果和负责者必须有上下文依据。缺谓词并不总能唯一复原，省略后的并置也不自动表示因果。文学转述可保开放性，现场通知应另核实缺失条件；不能靠“补完整”发明事故原因。",
+        "examples": [
+          {
+            "fr": "Dernier match. Gradins vides. Au loin, une sirène.",
+            "zh": "最后一场比赛。空空的看台。远处，一声警笛。",
+            "use": "三段景象并置；既未说疏散，也未确定警笛与体育场有关。"
+          },
+          {
+            "fr": "Le dernier match est terminé ; les gradins sont vides. La cause du signal entendu au loin n’est pas précisée.",
+            "zh": "最后一场比赛已经结束；看台空了。远处响起的信号的原因没有说明。",
+            "use": "只有上下文另明确比赛结束时才可补est terminé；原三短句本身也可能是在描绘赛前。"
+          },
+          {
+            "fr": "La note du régisseur indique : « Le match s’est achevé à vingt-deux heures. Le stade ferme à vingt-trois heures. »",
+            "zh": "场务说明写道：“比赛已于二十二点结束。体育场二十三点关闭。”",
+            "use": "实际补完整通知的时间依据；不能把警笛当作提前关闭命令。"
+          }
+        ]
+      }
+    ],
     "related": [],
     "practice": [
       {
@@ -217,6 +239,16 @@
         "q": "标题Fermeture du pont : circulation interrompue。写给现场工作人员的完整通知句，不凭标题补关闭原因、时长或决定者；再说标题未说明哪些信息，并区分名词标题未显式标时与原材料从未提供的原因/时长/施事。",
         "a": "Le pont est fermé et la circulation est interrompue. Le titre ne précise ni la cause, ni la durée, ni l'autorité qui a décidé la fermeture.",
         "note": "两项状态保留各1分；不虚构因果细节1分；指出标题未显式标时，同时区分原因、时长和决定者原材料从未提供、并非都被名词化删去1分。也可用冒号保解释关系，但不能自行加pour travaux。"
+      },
+      {
+        "q": "独立原创广播草稿：Dernier match. Gradins vides. Au loin, une sirène. 另有场务记录：Le match s’est achevé à vingt-deux heures；le stade ferme à vingt-trois heures。给观众写两句完整法语通知，保时间并说明是否能断言警笛要求立即疏散。",
+        "a": "Le dernier match s’est achevé à vingt-deux heures. Le stade ferme à vingt-trois heures. Le brouillon ne permet pas d’affirmer que la sirène ordonne une évacuation immédiate.",
+        "note": "接受两句通知外加第三句解释，或中文解释。22点已结束/23点关闭各1分；不补因果/立即疏散1分；区分场务事实与草稿气氛1分。省略补全以另给记录为依据，不把警笛来源未知改成不存在危险。"
+      },
+      {
+        "q": "短篇评论标题写“Une sirène : le stade évacué”，但材料只有“Gradins vides. Au loin, une sirène.”。指出新增推论，改成不强定因果的法语标题；再给一个保留文学停顿的版本，不能声称看台从未有人。",
+        "a": "Le titre ajoute une évacuation et suggère un lien avec la sirène, que les deux fragments n’établissent pas. Version prudente : « Des gradins vides, une sirène au loin ». Version rythmée : « Les gradins, vides. Au loin, la sirène. »",
+        "note": "识别évacuation新增1分；冒号因果暗示被指出1分；谨慎标题保观察范围1分；节奏版不加从未有人/迫切命令1分。也接受其他自然无因果并置；两碎片不提供警笛发生的确切时刻或负责者。"
       }
     ]
   },

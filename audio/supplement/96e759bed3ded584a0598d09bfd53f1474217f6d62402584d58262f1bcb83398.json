@@ -1,0 +1,30 @@
+{
+  "text": "Appelez la régisseuse avant de partir, au cas où elle aurait changé le code de la porte.",
+  "text_sha256": "96e759bed3ded584a0598d09bfd53f1474217f6d62402584d58262f1bcb83398",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.829750566893424,
+      "source_seconds": 4.829750566893424,
+      "source_file_sha256": "37e71ef6a958e5b2aeb8ee16ffc00531446489af040e16c96df8f6c993a97534",
+      "file_sha256": "b67eb2bf5c2d67556cf0c387f36cdf7f04c6492608b8478bbaef08c41f416a87",
+      "bytes": 39332,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

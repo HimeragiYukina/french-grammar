@@ -1,0 +1,30 @@
+{
+  "text": "La chanteuse vient de recevoir la partition. Elle a seulement lu la première page. Elle n’a pas encore chanté avec le groupe.",
+  "text_sha256": "3664e69cfa3783e3ab92c255b83fc2d41e7d5ad0563851b9e5a85d1bb105516e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.931156462585034,
+      "source_seconds": 6.931156462585034,
+      "source_file_sha256": "e55832cf491ca4beb23f217540019f4c9e02bb745caff9593b633ef9878cd2de",
+      "file_sha256": "955024823a6e221b397fa01fa2bf27a26f3fa7ab90f5307401c5a410438b9022",
+      "bytes": 56259,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

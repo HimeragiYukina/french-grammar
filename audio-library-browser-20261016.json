@@ -2,7 +2,7 @@
   "results": [
     {
       "repo": "grammar",
-      "units": 3522,
+      "units": 3592,
       "httpPlayback": true,
       "mobileOverflow": false,
       "filter": true,
@@ -13,6 +13,5 @@
     }
   ],
   "errors": [],
-  "auditoryListening": false,
-  "acceptedAudioFileAndTextSnapshotSha256": "7eab187cabf8ca7c9e8c70e040d9a4f3ab99c6a70c638414c5c8c358c45701d1"
+  "auditoryListening": false
 }

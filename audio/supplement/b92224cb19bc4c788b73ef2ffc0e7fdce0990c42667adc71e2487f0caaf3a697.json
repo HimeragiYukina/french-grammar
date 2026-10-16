@@ -1,0 +1,30 @@
+{
+  "text": "Mercredi, je rapporte que la responsable avait annoncé lundi : « Je vérifierai l’armoire demain. » Elle avait donc annoncé qu’elle vérifierait l’armoire mardi.",
+  "text_sha256": "b92224cb19bc4c788b73ef2ffc0e7fdce0990c42667adc71e2487f0caaf3a697",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 8.126984126984127,
+      "source_seconds": 8.126984126984127,
+      "source_file_sha256": "d931795774455e815c63302c9539dc53a3100d48d9247a575fa35c699b6ea60d",
+      "file_sha256": "37946fbc800140cc1bea55f78658c11239e3a2c31f59cb23c808788a5f2f7103",
+      "bytes": 65872,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

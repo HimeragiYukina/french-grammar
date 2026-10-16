@@ -1,0 +1,30 @@
+{
+  "text": "Elle a demandé au client de ne pas laisser l’appareil branché avant son arrivée.",
+  "text_sha256": "42f08a015e83b1e00da85ee61fb08e0379cbc116bcd8184dda60c89720083c4c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.1099319727891155,
+      "source_seconds": 4.1099319727891155,
+      "source_file_sha256": "e31f77d06eb3d3267fdd338ac45be7950f5e20adc2fab9917953f6b106bdfc1a",
+      "file_sha256": "9fbe3c5a01ce95741a5cdec73081c2809e70e6324d03f2d05a01d9d61b1f3861",
+      "bytes": 33689,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "La note du régisseur indique : « Le match s’est achevé à vingt-deux heures. Le stade ferme à vingt-trois heures. »",
+  "text_sha256": "32937d2d64b262e12fe2b60c416e43da6a74353234f86156a091cbb51b3a8f69",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.15328798185941,
+      "source_seconds": 6.15328798185941,
+      "source_file_sha256": "2e4ac4e81f1cde10714e22bd289fcb876d35d262e31f8122ea665c4d0597d246",
+      "file_sha256": "88ab44793239723976538dd7037900049dc9cc45f14eb5976334de9b9b51e119",
+      "bytes": 49990,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

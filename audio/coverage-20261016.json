@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 6,
+  "generated_this_run": 71,
   "generation_runs": [
     {
-      "generated": 3027,
+      "generated": 3097,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 78.8114230632782,
+  "elapsed_seconds": 294.6201720237732,
   "listened": false,
   "records": [
     {
@@ -24607,6 +24607,30 @@
             {
               "start_codepoint": 15,
               "end_codepoint": 25
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/sections/3/examples/0/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 15,
+              "end_codepoint": 25
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/sections/3/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 59,
+              "end_codepoint": 69
             }
           ],
           "kind": "eligible_phrase"
@@ -56909,18 +56933,6 @@
           "kind": "eligible_phrase"
         },
         {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/sections/3/examples/1/use",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 29,
-              "end_codepoint": 35
-            }
-          ],
-          "kind": "eligible_phrase"
-        },
-        {
           "id": "b2-relatifs-composes",
           "field": "/b2-relatifs-composes/sections/2/examples/2/use",
           "source": "runtime.EXPANSIONS",
@@ -57147,459 +57159,6 @@
     },
     {
       "repo": "grammar",
-      "text": "La réceptionniste me demande si je me suis déjà inscrit.",
-      "occurrences": [
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/sections/3/examples/0/fr",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 0,
-              "end_codepoint": 56
-            }
-          ],
-          "kind": "eligible_standalone"
-        },
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/practice/0/a",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 0,
-              "end_codepoint": 56
-            }
-          ],
-          "kind": "eligible_standalone"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "eligible_standalone"
-      ],
-      "kind": "eligible_standalone",
-      "sha256": "08e81fb89a4503c0c62f1f0f91276b05a1712c8e497e55762ccbd6fd176d1d0c",
-      "path": "audio/supplement/08e81fb89a4503c0c62f1f0f91276b05a1712c8e497e55762ccbd6fd176d1d0c.mp3",
-      "source": "local-siwis",
-      "file_sha256": "ce12ba26c9c01efee8974e18308637f95cca2f45439283c23e7166ad2e2ff14e",
-      "bytes": 23658,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 2.8560544217687074,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/08e81fb89a4503c0c62f1f0f91276b05a1712c8e497e55762ccbd6fd176d1d0c.wav",
-        "file_sha256": "a4bb016bf1a06896d71f850bd780b6fd155ae7c2eb3f13e69cd88560152fac57",
-        "seconds": 2.8560544217687074
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "Vous vous êtes déjà inscrit ?",
-      "occurrences": [
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/sections/3/examples/0/use",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 11,
-              "end_codepoint": 40
-            }
-          ],
-          "kind": "eligible_standalone"
-        },
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/practice/0/q",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 11,
-              "end_codepoint": 40
-            }
-          ],
-          "kind": "eligible_standalone"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "eligible_standalone"
-      ],
-      "kind": "eligible_standalone",
-      "sha256": "90eb8ff0202ed89ce9a59a3c908924ae6ab96a832f3f2a81de2455d4bc5894e6",
-      "path": "audio/supplement/90eb8ff0202ed89ce9a59a3c908924ae6ab96a832f3f2a81de2455d4bc5894e6.mp3",
-      "source": "local-siwis",
-      "file_sha256": "18eb0c3a6de64ed16c749aedb2929260a036d9b9440342a8b1ed1e02838cae63",
-      "bytes": 13209,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 1.555736961451247,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/90eb8ff0202ed89ce9a59a3c908924ae6ab96a832f3f2a81de2455d4bc5894e6.wav",
-        "file_sha256": "707033ce5defd121d1b709a9a6f776836ff9b197ce427564c2761217ee985710",
-        "seconds": 1.555736961451247
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "je me suis",
-      "occurrences": [
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/sections/3/examples/0/use",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 44,
-              "end_codepoint": 54
-            }
-          ],
-          "kind": "eligible_phrase"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "eligible_phrase"
-      ],
-      "kind": "eligible_phrase",
-      "sha256": "f22155e17baa7882a89f693b85ed3efa6cc1bf3eca71988160caab395b787f45",
-      "path": "audio/supplement/f22155e17baa7882a89f693b85ed3efa6cc1bf3eca71988160caab395b787f45.mp3",
-      "source": "local-siwis",
-      "file_sha256": "c48938f5802bfb4103a603e9b674fac6340d7489490efd753cd1b96f3796e970",
-      "bytes": 8194,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 0.9287981859410431,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/f22155e17baa7882a89f693b85ed3efa6cc1bf3eca71988160caab395b787f45.wav",
-        "file_sha256": "30b0842cb7b3fdee31a418ba528a188d2d9855fc2cc486f843d466bbae0e0e79",
-        "seconds": 0.9287981859410431
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "Le bibliothécaire veut savoir de quoi nous avons besoin.",
-      "occurrences": [
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/sections/3/examples/1/fr",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 0,
-              "end_codepoint": 56
-            }
-          ],
-          "kind": "eligible_standalone"
-        },
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/practice/1/a",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 0,
-              "end_codepoint": 56
-            }
-          ],
-          "kind": "eligible_standalone"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "eligible_standalone"
-      ],
-      "kind": "eligible_standalone",
-      "sha256": "d922a3213ce897ac4f77dd6f7cb980999842271f4b3b3916f57422dd6c304454",
-      "path": "audio/supplement/d922a3213ce897ac4f77dd6f7cb980999842271f4b3b3916f57422dd6c304454.mp3",
-      "source": "local-siwis",
-      "file_sha256": "aa8c3e4c8a07f5fa11133be392fb25f0a79b4a83527f418a56096af511ff2657",
-      "bytes": 26166,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 3.1811337868480725,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/d922a3213ce897ac4f77dd6f7cb980999842271f4b3b3916f57422dd6c304454.wav",
-        "file_sha256": "ea6ecaaa230a16defc2bdf7943c360e0ecd446f41b1e73589cc3033df2b61320",
-        "seconds": 3.1811337868480725
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "avoir besoin de",
-      "occurrences": [
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/sections/3/examples/1/use",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 0,
-              "end_codepoint": 15
-            }
-          ],
-          "kind": "eligible_phrase"
-        },
-        {
-          "id": "b2-mise-relief",
-          "field": "/b2-mise-relief/sections/1/examples/2/use",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 0,
-              "end_codepoint": 15
-            }
-          ],
-          "kind": "eligible_phrase"
-        },
-        {
-          "id": "c1-dislocation",
-          "field": "/c1-dislocation/sections/2/examples/3/use",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 0,
-              "end_codepoint": 15
-            }
-          ],
-          "kind": "eligible_phrase"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "eligible_phrase"
-      ],
-      "kind": "eligible_phrase",
-      "sha256": "6c2d4ebbf968eca272f9a0f8f0bd14a1d37c0187a316e502ff234281b38be8c1",
-      "path": "audio/supplement/6c2d4ebbf968eca272f9a0f8f0bd14a1d37c0187a316e502ff234281b38be8c1.mp3",
-      "source": "local-siwis",
-      "file_sha256": "4eed4bf05d3f03d46477abad6f133f31ab5b4b1c1aefdc5a51c96da7b9a9f2b2",
-      "bytes": 10493,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 1.2190476190476192,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/6c2d4ebbf968eca272f9a0f8f0bd14a1d37c0187a316e502ff234281b38be8c1.wav",
-        "file_sha256": "dee168be431645fe7ddcf0e946d0f34aaa2e98e9b338a0dada9dddd0c98e9c07",
-        "seconds": 1.2190476190476192
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "Le guide nous demande de ne pas nous éloigner du groupe.",
-      "occurrences": [
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/sections/4/examples/0/fr",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 0,
-              "end_codepoint": 56
-            }
-          ],
-          "kind": "eligible_standalone"
-        },
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/practice/2/a",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 0,
-              "end_codepoint": 56
-            }
-          ],
-          "kind": "eligible_standalone"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "eligible_standalone"
-      ],
-      "kind": "eligible_standalone",
-      "sha256": "f1a25857f3160f5d98085d6bc0556a1724175f355f6bd654190e49d7c54103c7",
-      "path": "audio/supplement/f1a25857f3160f5d98085d6bc0556a1724175f355f6bd654190e49d7c54103c7.mp3",
-      "source": "local-siwis",
-      "file_sha256": "22acf05e0366896502583e18a185a9fefe8e39452a84847bb466ec2f38be50fa",
-      "bytes": 24494,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 2.972154195011338,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/f1a25857f3160f5d98085d6bc0556a1724175f355f6bd654190e49d7c54103c7.wav",
-        "file_sha256": "8c6aaa417bf22af3f2c0a06360486ede4736b2394e2343c48ffc3cdb5594a210",
-        "seconds": 2.972154195011338
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "Ne vous éloignez pas du groupe",
-      "occurrences": [
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/sections/4/examples/0/use",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 5,
-              "end_codepoint": 35
-            }
-          ],
-          "kind": "eligible_phrase"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "eligible_phrase"
-      ],
-      "kind": "eligible_phrase",
-      "sha256": "b5cfb996906a40954e07fb2dbae8e727d795563842290ecf538913a812e9fdb9",
-      "path": "audio/supplement/b5cfb996906a40954e07fb2dbae8e727d795563842290ecf538913a812e9fdb9.mp3",
-      "source": "local-siwis",
-      "file_sha256": "bab1ceac21a1122a415761aa2ba8722c16c7431c6c1eaff987914473bfc83430",
-      "bytes": 12164,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 1.4280272108843537,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/b5cfb996906a40954e07fb2dbae8e727d795563842290ecf538913a812e9fdb9.wav",
-        "file_sha256": "d763a8282f158b4dfdb5b44833483d2cb58531be954926c83c46d922ab97c457",
-        "seconds": 1.4280272108843537
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "Lundi, Nora m’a promis qu’elle me prêterait son dictionnaire le lendemain.",
-      "occurrences": [
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/sections/4/examples/1/fr",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 0,
-              "end_codepoint": 74
-            }
-          ],
-          "kind": "eligible_standalone"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "eligible_standalone"
-      ],
-      "kind": "eligible_standalone",
-      "sha256": "f1b29149648c94b14acfcf0b8991b4077ad630987ac562fb90161724ce15b634",
-      "path": "audio/supplement/f1b29149648c94b14acfcf0b8991b4077ad630987ac562fb90161724ce15b634.mp3",
-      "source": "local-siwis",
-      "file_sha256": "80a621c36fe6e99ff188e6b85c5b472c412f55adacb47e7b155f815f1fb6e20d",
-      "bytes": 28047,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 3.4133333333333336,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/f1b29149648c94b14acfcf0b8991b4077ad630987ac562fb90161724ce15b634.wav",
-        "file_sha256": "493d33ff93fb6b6f97970957efbe7dc292b723c9514f503c586cc099ff70719f",
-        "seconds": 3.4133333333333336
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "le lendemain",
-      "occurrences": [
-        {
-          "id": "b1-discours-indirect",
-          "field": "/b1-discours-indirect/sections/4/examples/1/use",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 0,
-              "end_codepoint": 12
-            }
-          ],
-          "kind": "eligible_phrase"
-        },
-        {
-          "id": "b2-concordance",
-          "field": "/b2-concordance/sections/2/examples/0/use",
-          "source": "runtime.EXPANSIONS",
-          "source_offsets": [
-            {
-              "start_codepoint": 18,
-              "end_codepoint": 30
-            }
-          ],
-          "kind": "eligible_phrase"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "eligible_phrase"
-      ],
-      "kind": "eligible_phrase",
-      "sha256": "86499f948b85de9a5d03dd926459baf77144ae9afa2ffa46e29cca7e0b2f4712",
-      "path": "audio/supplement/86499f948b85de9a5d03dd926459baf77144ae9afa2ffa46e29cca7e0b2f4712.mp3",
-      "source": "local-siwis",
-      "file_sha256": "fbd78e3b79546ace8f973f03710148aeb7c3e9521d70035862e9fe388a098f5a",
-      "bytes": 7776,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 0.8823582766439909,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/86499f948b85de9a5d03dd926459baf77144ae9afa2ffa46e29cca7e0b2f4712.wav",
-        "file_sha256": "f3e99cdf05ec29c84919d9ac8b4def01da3637a322d4fc20943c21bdcb48fb96",
-        "seconds": 0.8823582766439909
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
       "text": "Il demande où habites-tu",
       "occurrences": [
         {
@@ -57805,6 +57364,59 @@
     },
     {
       "repo": "grammar",
+      "text": "Vous vous êtes déjà inscrit ?",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/0/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 11,
+              "end_codepoint": 40
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/4/examples/0/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 11,
+              "end_codepoint": 40
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "90eb8ff0202ed89ce9a59a3c908924ae6ab96a832f3f2a81de2455d4bc5894e6",
+      "path": "audio/supplement/90eb8ff0202ed89ce9a59a3c908924ae6ab96a832f3f2a81de2455d4bc5894e6.mp3",
+      "source": "local-siwis",
+      "file_sha256": "18eb0c3a6de64ed16c749aedb2929260a036d9b9440342a8b1ed1e02838cae63",
+      "bytes": 13209,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 1.555736961451247,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/90eb8ff0202ed89ce9a59a3c908924ae6ab96a832f3f2a81de2455d4bc5894e6.wav",
+        "file_sha256": "707033ce5defd121d1b709a9a6f776836ff9b197ce427564c2761217ee985710",
+        "seconds": 1.555736961451247
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
       "text": "La réceptionniste me demande…",
       "occurrences": [
         {
@@ -57846,6 +57458,59 @@
     },
     {
       "repo": "grammar",
+      "text": "La réceptionniste me demande si je me suis déjà inscrit.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/0/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 56
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/4/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 56
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "08e81fb89a4503c0c62f1f0f91276b05a1712c8e497e55762ccbd6fd176d1d0c",
+      "path": "audio/supplement/08e81fb89a4503c0c62f1f0f91276b05a1712c8e497e55762ccbd6fd176d1d0c.mp3",
+      "source": "local-siwis",
+      "file_sha256": "ce12ba26c9c01efee8974e18308637f95cca2f45439283c23e7166ad2e2ff14e",
+      "bytes": 23658,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 2.8560544217687074,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/08e81fb89a4503c0c62f1f0f91276b05a1712c8e497e55762ccbd6fd176d1d0c.wav",
+        "file_sha256": "a4bb016bf1a06896d71f850bd780b6fd155ae7c2eb3f13e69cd88560152fac57",
+        "seconds": 2.8560544217687074
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
       "text": "Le bibliothécaire veut savoir ___ nous avons besoin.",
       "occurrences": [
         {
@@ -57882,6 +57547,59 @@
         "path": "audio/supplement/fa6ac67c9e28e2dc1eb3f44dac38946f5b436cdf1aee90e6befbd0e8296c07dc.wav",
         "file_sha256": "739f4fb5b6b7ba2a777f56fcd2196068f413a6c90c5defdf4d0cad5ba7829fc4",
         "seconds": 3.01859410430839
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Le bibliothécaire veut savoir de quoi nous avons besoin.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/1/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 56
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/4/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 56
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "d922a3213ce897ac4f77dd6f7cb980999842271f4b3b3916f57422dd6c304454",
+      "path": "audio/supplement/d922a3213ce897ac4f77dd6f7cb980999842271f4b3b3916f57422dd6c304454.mp3",
+      "source": "local-siwis",
+      "file_sha256": "aa8c3e4c8a07f5fa11133be392fb25f0a79b4a83527f418a56096af511ff2657",
+      "bytes": 26166,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 3.1811337868480725,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/d922a3213ce897ac4f77dd6f7cb980999842271f4b3b3916f57422dd6c304454.wav",
+        "file_sha256": "ea6ecaaa230a16defc2bdf7943c360e0ecd446f41b1e73589cc3033df2b61320",
+        "seconds": 3.1811337868480725
       },
       "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
@@ -57964,6 +57682,59 @@
         "path": "audio/supplement/d346a6d4467fa2c8c167eaafd22bd99d8cab33e8eda4b2b342cad0a7a53946d6.wav",
         "file_sha256": "289825f7140861a8bf02ff1283f548322215cd85342e8ea3c6fd3d79be012ebb",
         "seconds": 1.6486167800453515
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Le guide nous demande de ne pas nous éloigner du groupe.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 56
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/5/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 56
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "f1a25857f3160f5d98085d6bc0556a1724175f355f6bd654190e49d7c54103c7",
+      "path": "audio/supplement/f1a25857f3160f5d98085d6bc0556a1724175f355f6bd654190e49d7c54103c7.mp3",
+      "source": "local-siwis",
+      "file_sha256": "22acf05e0366896502583e18a185a9fefe8e39452a84847bb466ec2f38be50fa",
+      "bytes": 24494,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 2.972154195011338,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/f1a25857f3160f5d98085d6bc0556a1724175f355f6bd654190e49d7c54103c7.wav",
+        "file_sha256": "8c6aaa417bf22af3f2c0a06360486ede4736b2394e2343c48ffc3cdb5594a210",
+        "seconds": 2.972154195011338
       },
       "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
@@ -75200,6 +74971,119 @@
     },
     {
       "repo": "grammar",
+      "text": "le lendemain",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/2/examples/0/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 18,
+              "end_codepoint": 30
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/3/examples/0/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 12
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/5/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 52,
+              "end_codepoint": 64
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/5/examples/1/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 12
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/4/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 12
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 123,
+              "end_codepoint": 135
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 84,
+              "end_codepoint": 96
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "86499f948b85de9a5d03dd926459baf77144ae9afa2ffa46e29cca7e0b2f4712",
+      "path": "audio/supplement/86499f948b85de9a5d03dd926459baf77144ae9afa2ffa46e29cca7e0b2f4712.mp3",
+      "source": "local-siwis",
+      "file_sha256": "fbd78e3b79546ace8f973f03710148aeb7c3e9521d70035862e9fe388a098f5a",
+      "bytes": 7776,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 0.8823582766439909,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/86499f948b85de9a5d03dd926459baf77144ae9afa2ffa46e29cca7e0b2f4712.wav",
+        "file_sha256": "f3e99cdf05ec29c84919d9ac8b4def01da3637a322d4fc20943c21bdcb48fb96",
+        "seconds": 0.8823582766439909
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
       "text": "Elle m'a demandé : « Où habites-tu ? » → Elle m'a demandé où j'habitais.",
       "occurrences": [
         {
@@ -80402,6 +80286,71 @@
         "path": "audio/supplement/0df7b757575d5943fce5117cdee67f643dd581070101007bd67d48f0d143d647.wav",
         "file_sha256": "835cc1ee93c8f3eea5f28f6d4940160b25c4421d2d7d4e77de5603b89879842a",
         "seconds": 1.9620861678004535
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "avoir besoin de",
+      "occurrences": [
+        {
+          "id": "b2-mise-relief",
+          "field": "/b2-mise-relief/sections/1/examples/2/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 15
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "c1-dislocation",
+          "field": "/c1-dislocation/sections/2/examples/3/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 15
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/4/examples/1/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 15
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "6c2d4ebbf968eca272f9a0f8f0bd14a1d37c0187a316e502ff234281b38be8c1",
+      "path": "audio/supplement/6c2d4ebbf968eca272f9a0f8f0bd14a1d37c0187a316e502ff234281b38be8c1.mp3",
+      "source": "local-siwis",
+      "file_sha256": "4eed4bf05d3f03d46477abad6f133f31ab5b4b1c1aefdc5a51c96da7b9a9f2b2",
+      "bytes": 10493,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 1.2190476190476192,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/6c2d4ebbf968eca272f9a0f8f0bd14a1d37c0187a316e502ff234281b38be8c1.wav",
+        "file_sha256": "dee168be431645fe7ddcf0e946d0f34aaa2e98e9b338a0dada9dddd0c98e9c07",
+        "seconds": 1.2190476190476192
       },
       "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
@@ -91008,6 +90957,18 @@
             {
               "start_codepoint": 0,
               "end_codepoint": 11
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 175,
+              "end_codepoint": 186
             }
           ],
           "kind": "eligible_phrase"
@@ -141406,423 +141367,6 @@
     },
     {
       "repo": "grammar",
-      "text": "Samedi dernier, il pleuvait et la gare était pleine de voyageurs ; j’attendais mon amie Léa près de l’entrée principale. D’habitude, elle arrivait à l’heure, mais ce jour-là son train a eu trente minutes de retard. Pendant que je regardais le panneau des arrivées, mon téléphone a sonné : Léa cherchait la sortie de l’autre côté du bâtiment. Je lui ai expliqué le chemin, puis nous nous sommes retrouvés devant la boulangerie et nous avons acheté deux cafés. Nous avons parlé pendant une heure ; quand nous sommes sortis, la pluie était moins forte et les rues étaient presque vides.",
-      "occurrences": [
-        {
-          "id": "a2-context-rendezvous-manque",
-          "field": "/a2-context-rendezvous-manque/sentences.full",
-          "source": "runtime.CONTEXTS",
-          "source_offsets": [
-            {
-              "path": "/a2-context-rendezvous-manque/sentences/0/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 120
-            },
-            {
-              "path": "/a2-context-rendezvous-manque/sentences/1/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 93
-            },
-            {
-              "path": "/a2-context-rendezvous-manque/sentences/2/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 126
-            },
-            {
-              "path": "/a2-context-rendezvous-manque/sentences/3/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 116
-            },
-            {
-              "path": "/a2-context-rendezvous-manque/sentences/4/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 124
-            }
-          ],
-          "kind": "runtime_composite"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "runtime_composite"
-      ],
-      "kind": "runtime_composite",
-      "sha256": "beea4d675432d90e57b84cd2875e9df2cea201483908843633ff7e145273ab21",
-      "path": "audio/supplement/beea4d675432d90e57b84cd2875e9df2cea201483908843633ff7e145273ab21.mp3",
-      "source": "local-siwis",
-      "file_sha256": "5c9c40183214721739c41595dfb8b5b5097bbf10abf6df5991ddec975fa324e6",
-      "bytes": 239325,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 29.814421768707483,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/beea4d675432d90e57b84cd2875e9df2cea201483908843633ff7e145273ab21.wav",
-        "file_sha256": "4eab0c3eef88597a555e291eed2c3b01cabc1a9ca0eb0c01df264d5b4274761e",
-        "seconds": 29.814421768707483
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "Demain, notre cours commence dans une nouvelle salle, alors je vais à la papeterie du quartier pour acheter du matériel. J’y vais à pied, car elle est tout près, et je prends aussi la liste que la professeure nous a envoyée. À l’entrée, je montre cette liste au vendeur et je lui demande où se trouvent les cahiers à grands carreaux. Il m’en propose plusieurs, mais je n’en prends que deux parce que nous travaillons surtout sur ordinateur. Je choisis enfin un classeur bleu et je le pose sur le comptoir : « Pourriez-vous me donner un sac, s’il vous plaît ? »",
-      "occurrences": [
-        {
-          "id": "a2-context-course-achat",
-          "field": "/a2-context-course-achat/sentences.full",
-          "source": "runtime.CONTEXTS",
-          "source_offsets": [
-            {
-              "path": "/a2-context-course-achat/sentences/0/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 120
-            },
-            {
-              "path": "/a2-context-course-achat/sentences/1/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 103
-            },
-            {
-              "path": "/a2-context-course-achat/sentences/2/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 108
-            },
-            {
-              "path": "/a2-context-course-achat/sentences/3/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 106
-            },
-            {
-              "path": "/a2-context-course-achat/sentences/4/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 119
-            }
-          ],
-          "kind": "runtime_composite"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "runtime_composite"
-      ],
-      "kind": "runtime_composite",
-      "sha256": "33a51808a20acf6f801a4fd6bfe3af604b2bdc6c16ea3b6a6dbf16da28cc84c3",
-      "path": "audio/supplement/33a51808a20acf6f801a4fd6bfe3af604b2bdc6c16ea3b6a6dbf16da28cc84c3.mp3",
-      "source": "local-siwis",
-      "file_sha256": "12c449744a2c77a91c1072144af0009708085553e169628b93aa6b09c4c7063a",
-      "bytes": 217591,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 27.09768707482993,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/33a51808a20acf6f801a4fd6bfe3af604b2bdc6c16ea3b6a6dbf16da28cc84c3.wav",
-        "file_sha256": "a047a1f521ac49f9c28cd3cb704eaf848ae477fcca2528b6f19395d1ad7df122",
-        "seconds": 27.09768707482993
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "J’habite dans ce quartier depuis septembre et je prépare mon dossier depuis deux semaines, mais il manque encore un document. J’ai appelé la mairie il y a trois jours ; aujourd’hui, mercredi, je téléphone de nouveau pour demander un rendez-vous. « Je voudrais venir vendredi matin ; pourriez-vous me dire combien de temps dure le rendez-vous ? » L’employée me répond : « Il durera environ vingt minutes, mais vous devrez attendre pendant quelques minutes à votre arrivée. » Je choisis donc dix heures ; elle confirme : « Votre rendez-vous est dans deux jours ; apportez votre pièce d’identité et arrivez un peu avant. »",
-      "occurrences": [
-        {
-          "id": "a2-context-reservation-horaire",
-          "field": "/a2-context-reservation-horaire/sentences.full",
-          "source": "runtime.CONTEXTS",
-          "source_offsets": [
-            {
-              "path": "/a2-context-reservation-horaire/sentences/0/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 125
-            },
-            {
-              "path": "/a2-context-reservation-horaire/sentences/1/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 119
-            },
-            {
-              "path": "/a2-context-reservation-horaire/sentences/2/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 99
-            },
-            {
-              "path": "/a2-context-reservation-horaire/sentences/3/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 127
-            },
-            {
-              "path": "/a2-context-reservation-horaire/sentences/4/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 145
-            }
-          ],
-          "kind": "runtime_composite"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "runtime_composite"
-      ],
-      "kind": "runtime_composite",
-      "sha256": "57a6a8405223b4e70c6dae2221e50ff0613666e343024fb8d85753a4f37b4603",
-      "path": "audio/supplement/57a6a8405223b4e70c6dae2221e50ff0613666e343024fb8d85753a4f37b4603.mp3",
-      "source": "local-siwis",
-      "file_sha256": "53e0c9fb2ddc821a14e70b69ff050117b040ac7f9ff62c86c6b002c3c7ed551e",
-      "bytes": 240579,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 29.98857142857143,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/57a6a8405223b4e70c6dae2221e50ff0613666e343024fb8d85753a4f37b4603.wav",
-        "file_sha256": "89273f2d475eab1cfec2ba85b495c36dc20387c645e018b4681b0fdf9787b263",
-        "seconds": 29.98857142857143
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "Samedi, nous organisons un pique-nique avec Léa, mais la météo annonce des averses dans l’après-midi. Si le soleil revient, nous déjeunerons au parc près de la rivière. Si la pluie continue, nous mangerons chez moi et nous sortirons ensuite. Tu devrais apporter une veste, car il peut faire frais au bord de l’eau. J’aimerais que chacun apporte quelque chose, mais personne n’est obligé de cuisiner. Si nous avions une voiture, nous pourrions choisir un endroit plus éloigné. Pourrais-tu vérifier les horaires du bus avant de confirmer notre rendez-vous ? Si le dernier bus part tôt, préviens-moi : nous avancerons l’heure du départ.",
-      "occurrences": [
-        {
-          "id": "b1-context-pique-nique",
-          "field": "/b1-context-pique-nique/sentences.full",
-          "source": "runtime.CONTEXTS",
-          "source_offsets": [
-            {
-              "path": "/b1-context-pique-nique/sentences/0/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 101
-            },
-            {
-              "path": "/b1-context-pique-nique/sentences/1/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 66
-            },
-            {
-              "path": "/b1-context-pique-nique/sentences/2/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 72
-            },
-            {
-              "path": "/b1-context-pique-nique/sentences/3/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 72
-            },
-            {
-              "path": "/b1-context-pique-nique/sentences/4/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 84
-            },
-            {
-              "path": "/b1-context-pique-nique/sentences/5/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 75
-            },
-            {
-              "path": "/b1-context-pique-nique/sentences/6/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 79
-            },
-            {
-              "path": "/b1-context-pique-nique/sentences/7/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 77
-            }
-          ],
-          "kind": "runtime_composite"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "runtime_composite"
-      ],
-      "kind": "runtime_composite",
-      "sha256": "f24eb3ec896c1e892da66748a9b435d47feb5180c8810a3e1710ed960bc4e64a",
-      "path": "audio/supplement/f24eb3ec896c1e892da66748a9b435d47feb5180c8810a3e1710ed960bc4e64a.mp3",
-      "source": "local-siwis",
-      "file_sha256": "365ade59a4e540bb0933728190b793dbc387a9dc38647aa602aa964865bd8747",
-      "bytes": 263149,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 32.79818594104309,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/f24eb3ec896c1e892da66748a9b435d47feb5180c8810a3e1710ed960bc4e64a.wav",
-        "file_sha256": "de5be552b8500abd18166a8ac5aa3b9985896720650d80813348d5f89c7d3be3",
-        "seconds": 32.79818594104309
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "Lundi matin, ma responsable m’a appelé pour préparer une réunion avec un nouveau client. Elle m’a expliqué que le client avait envoyé ses questions la veille. Elle voulait savoir si j’avais déjà lu le document et ce que je pensais du calendrier. Je lui ai répondu que j’avais vérifié les dates, mais que deux informations manquaient encore. Elle m’a demandé de contacter Paul et de ne rien promettre avant sa réponse. Paul m’a assuré qu’il nous enverrait les chiffres avant dix-sept heures. Dès que j’ai reçu son tableau, je l’ai transmis à ma responsable ; je le lui ai envoyé avec un court commentaire. Le lendemain, nous avons présenté une proposition dont le client était satisfait.",
-      "occurrences": [
-        {
-          "id": "b1-context-reunion",
-          "field": "/b1-context-reunion/sentences.full",
-          "source": "runtime.CONTEXTS",
-          "source_offsets": [
-            {
-              "path": "/b1-context-reunion/sentences/0/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 88
-            },
-            {
-              "path": "/b1-context-reunion/sentences/1/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 69
-            },
-            {
-              "path": "/b1-context-reunion/sentences/2/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 86
-            },
-            {
-              "path": "/b1-context-reunion/sentences/3/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 94
-            },
-            {
-              "path": "/b1-context-reunion/sentences/4/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 76
-            },
-            {
-              "path": "/b1-context-reunion/sentences/5/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 72
-            },
-            {
-              "path": "/b1-context-reunion/sentences/6/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 113
-            },
-            {
-              "path": "/b1-context-reunion/sentences/7/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 81
-            }
-          ],
-          "kind": "runtime_composite"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "runtime_composite"
-      ],
-      "kind": "runtime_composite",
-      "sha256": "64b5574db300a28119eb573906dd7049b0ee2127c1975c2fb946d8a1cdd5825c",
-      "path": "audio/supplement/64b5574db300a28119eb573906dd7049b0ee2127c1975c2fb946d8a1cdd5825c.mp3",
-      "source": "local-siwis",
-      "file_sha256": "ec5463e0b5e04ae3713413ad62cfb931b270f4337acb7c61fd367f37c55ca4ef",
-      "bytes": 277150,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 34.53968253968254,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/64b5574db300a28119eb573906dd7049b0ee2127c1975c2fb946d8a1cdd5825c.wav",
-        "file_sha256": "9020fb46d01f6858899e714c69008dda858e0e38c38acb328b0f0336f0ea8b22",
-        "seconds": 34.53968253968254
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
-      "text": "Comme la salle du quartier est en travaux, nous préparons notre repas collectif dans le jardin de Nadia. Nous changeons de lieu parce que nous ne voulons pas annuler la soirée. Nadia a installé deux grandes tables pour que tout le monde puisse manger ensemble. Je n’ai invité personne de nouveau ; nous n’avons que vingt places. Les invitations étaient prêtes hier, et je les lui ai envoyées ce matin. Puisque Paul passe au marché, je lui demande d’acheter du pain et quelques tomates. Du pain, il m’en apportera assez pour tous, donc je n’ai plus besoin de faire les courses. J’écris enfin aux voisins pour leur expliquer le changement et leur donner la nouvelle adresse.",
-      "occurrences": [
-        {
-          "id": "b1-context-repas",
-          "field": "/b1-context-repas/sentences.full",
-          "source": "runtime.CONTEXTS",
-          "source_offsets": [
-            {
-              "path": "/b1-context-repas/sentences/0/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 104
-            },
-            {
-              "path": "/b1-context-repas/sentences/1/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 71
-            },
-            {
-              "path": "/b1-context-repas/sentences/2/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 83
-            },
-            {
-              "path": "/b1-context-repas/sentences/3/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 67
-            },
-            {
-              "path": "/b1-context-repas/sentences/4/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 72
-            },
-            {
-              "path": "/b1-context-repas/sentences/5/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 83
-            },
-            {
-              "path": "/b1-context-repas/sentences/6/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 90
-            },
-            {
-              "path": "/b1-context-repas/sentences/7/fr",
-              "start_codepoint": 0,
-              "end_codepoint": 95
-            }
-          ],
-          "kind": "runtime_composite"
-        }
-      ],
-      "existing": [],
-      "roles": [
-        "runtime_composite"
-      ],
-      "kind": "runtime_composite",
-      "sha256": "769107b5cc819f8d12d0b0122e9889ddfb634b0213dde0a411ca5e09eb038c6d",
-      "path": "audio/supplement/769107b5cc819f8d12d0b0122e9889ddfb634b0213dde0a411ca5e09eb038c6d.mp3",
-      "source": "local-siwis",
-      "file_sha256": "5fbaf22ee2c964fb11f57deabd769ad6a5b2392e04d58d5b490de2d92b3e0684",
-      "bytes": 274434,
-      "inventoryCoverage": "verified-local-file",
-      "audioformat": "mp3",
-      "codec": "libmp3lame",
-      "bitrate": 64000,
-      "seconds": 34.202993197278914,
-      "sample_rate": 22050,
-      "channels": 1,
-      "original_wav": {
-        "path": "audio/supplement/769107b5cc819f8d12d0b0122e9889ddfb634b0213dde0a411ca5e09eb038c6d.wav",
-        "file_sha256": "e74d56b28c7c4befb1b5a6e8914b43961d33954e9c5451d59bacd579a89de16e",
-        "seconds": 34.202993197278914
-      },
-      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
-    },
-    {
-      "repo": "grammar",
       "text": "On forme généralement le pluriel en ajoutant -s. Cas particuliers : -eau→-eaux, -al→-aux, etc.",
       "occurrences": [
         {
@@ -143144,17 +142688,17 @@
       "bytes": 12582,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.486077097505669,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/1e298e50bcf184188b14e28517c06cc7d2c86f5beb3eb7db262862817e9d492b.wav",
         "file_sha256": "1184e3ffb611f9112e88749e1f3d0f796aaf1d514788c67dac5462c41a6d6545",
-        "bytes": 65580,
-        "rms": 7282.415742220538
+        "seconds": 1.486077097505669
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -143185,17 +142729,17 @@
       "bytes": 8194,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 0.9404081632653061,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/96b386006edb09d7acdc95571195b5b747d4d81f8a1ab3e89a10acd755e9e889.wav",
         "file_sha256": "d88d512f287cecca0078c43ca905a9fab8611bb66bcadadf07207d58c7eef24f",
-        "bytes": 41516,
-        "rms": 7340.0876431178685
+        "seconds": 0.9404081632653061
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -143226,17 +142770,17 @@
       "bytes": 11955,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.3931972789115645,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/c3afaf168003fd91320d576d6ab63d2ff5ebda56866e10ebb1c2d8479fa077f6.wav",
         "file_sha256": "0145f8a75d4a8802bd22fa847813e583191b03567a0d71f50a7199aada2868a9",
-        "bytes": 61484,
-        "rms": 6179.385794336473
+        "seconds": 1.3931972789115645
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -143267,17 +142811,17 @@
       "bytes": 14881,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.7647165532879818,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/d1a1a6c818245da1d2f792d4235ae44a2a483f33034c1918fd850e481a795f4e.wav",
         "file_sha256": "72b1399dc945ea71b1f54529160f94f13ebf18524b22c767bade9ddea7271310",
-        "bytes": 77868,
-        "rms": 6966.553458927062
+        "seconds": 1.7647165532879818
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -143390,17 +142934,17 @@
       "bytes": 10075,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.1609977324263039,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/c08fecfa3682aee51e25b39c02a32b20c52471fe0602aab885384f89c1620a1f.wav",
         "file_sha256": "1e24db4f5d9709583e3b81aedbbbdac76010de74d0c7e700204f9b449ccbfe3f",
-        "bytes": 51244,
-        "rms": 5958.260932291034
+        "seconds": 1.1609977324263039
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -143513,17 +143057,3679 @@
       "bytes": 41004,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 5.027120181405896,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/083feb55cc8e602c5f7f6c184fb2134cbcd353603b15fd240f227afcd0bf525a.wav",
         "file_sha256": "2e4ab1b0856e4c9c20ab72d42741dd10f6a5442cbcb56206e2949eea0b822948",
-        "bytes": 221740,
-        "rms": 5024.19234492332
+        "seconds": 5.027120181405896
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "À quelle heure est-ce que la piscine ouvre ? — À huit heures.",
+      "occurrences": [
+        {
+          "id": "a1-mots-interro",
+          "field": "/a1-mots-interro/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 61
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "ec1c65e48df6a481f512507e4cafb568837fa8347c844fb65b9c7aab17a33574",
+      "path": "audio/supplement/ec1c65e48df6a481f512507e4cafb568837fa8347c844fb65b9c7aab17a33574.mp3",
+      "source": "local-siwis",
+      "file_sha256": "57de2e2e20ada8377222086e928c7004bdf140947624d17d409029c182fe4791",
+      "bytes": 25539,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.0998639455782313,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/ec1c65e48df6a481f512507e4cafb568837fa8347c844fb65b9c7aab17a33574.wav",
+        "file_sha256": "e24762cd37560e172689ece083d9bcedab3e90d4ac1cc84c59041b3c50a1bf95",
+        "bytes": 136748,
+        "rms": 5782.028620243237
       },
       "codec": "libmp3lame",
       "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Quel est le numéro de mon casier ? — C’est le numéro seize.",
+      "occurrences": [
+        {
+          "id": "a1-mots-interro",
+          "field": "/a1-mots-interro/sections/3/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 59
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "1524b094f2188da86f32ee9affd6b7a08f53302323b76ca130e9e9b0b0dd4139",
+      "path": "audio/supplement/1524b094f2188da86f32ee9affd6b7a08f53302323b76ca130e9e9b0b0dd4139.mp3",
+      "source": "local-siwis",
+      "file_sha256": "f3e8bae20aa8c043a95a7a0638e0aae07f99bbd9387db25035e2a99f059b0186",
+      "bytes": 27420,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.320453514739229,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/1524b094f2188da86f32ee9affd6b7a08f53302323b76ca130e9e9b0b0dd4139.wav",
+        "file_sha256": "e729cabfaf1a49ecb70bdc5b4807ef18f623ac76e929af01ff2cbf8daeb96a9a",
+        "bytes": 146476,
+        "rms": 6913.864841073565
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "numéro",
+      "occurrences": [
+        {
+          "id": "a1-mots-interro",
+          "field": "/a1-mots-interro/sections/3/examples/1/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 6
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "a1-mots-interro",
+          "field": "/a1-mots-interro/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 23,
+              "end_codepoint": 29
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "a1-mots-interro",
+          "field": "/a1-mots-interro/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 40,
+              "end_codepoint": 46
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "d6a52369c6811b183908980f7e090b8812f026f0df79bac6fe2f0432c3834bf6",
+      "path": "audio/supplement/d6a52369c6811b183908980f7e090b8812f026f0df79bac6fe2f0432c3834bf6.mp3",
+      "source": "local-siwis",
+      "file_sha256": "023fbaea7432af9ee10bf285a987fedb073ccd9c6f0375752a94bfdb9c2c4d9d",
+      "bytes": 7358,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.8126984126984127,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/d6a52369c6811b183908980f7e090b8812f026f0df79bac6fe2f0432c3834bf6.wav",
+        "file_sha256": "a3691120fdf6cff773dd3f4348fd9429c316e6b4bcb2f6fb6d2beb9b4056fdaf",
+        "bytes": 35884,
+        "rms": 9054.841413193295
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Quand est-ce que le cours commence ? — Je ne sais pas encore.",
+      "occurrences": [
+        {
+          "id": "a1-mots-interro",
+          "field": "/a1-mots-interro/sections/3/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 61
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "14672170f385837237650b20a0d030462b987dff5068b71a78364867146ee1fc",
+      "path": "audio/supplement/14672170f385837237650b20a0d030462b987dff5068b71a78364867146ee1fc.mp3",
+      "source": "local-siwis",
+      "file_sha256": "717bfd8a5db947695f6fad840dcc8919fdd37925443ef875262a47e09ccc050f",
+      "bytes": 25121,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.053424036281179,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/14672170f385837237650b20a0d030462b987dff5068b71a78364867146ee1fc.wav",
+        "file_sha256": "1a3672478a65c1d77535079a7e7b097dc00bdd9ec4278eb71d33e0d05be1da7b",
+        "bytes": 134700,
+        "rms": 6073.0762409884765
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Quel est le numéro de mon casier ?",
+      "occurrences": [
+        {
+          "id": "a1-mots-interro",
+          "field": "/a1-mots-interro/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 34
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "c9f86c58f8d284b752f97fa307433f4d19bb88556a5f7d6a335df475a139365a",
+      "path": "audio/supplement/c9f86c58f8d284b752f97fa307433f4d19bb88556a5f7d6a335df475a139365a.mp3",
+      "source": "local-siwis",
+      "file_sha256": "e5b0fcb727434872683d83160677117d7e3c76ec86cb7a04dd169898b99f2a5f",
+      "bytes": 15299,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.811156462585034,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/c9f86c58f8d284b752f97fa307433f4d19bb88556a5f7d6a335df475a139365a.wav",
+        "file_sha256": "580255f436bbe920b15cd1d5b583242d91e1f30cd674a4ccd534c7a81a02913a",
+        "bytes": 79916,
+        "rms": 7311.87810653232
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Quel numéro porte mon casier ?",
+      "occurrences": [
+        {
+          "id": "a1-mots-interro",
+          "field": "/a1-mots-interro/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 35,
+              "end_codepoint": 65
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "5ec36401cee925e27bb66ddd46b7162ff2ebaaf6193444543a46add838c2c6bf",
+      "path": "audio/supplement/5ec36401cee925e27bb66ddd46b7162ff2ebaaf6193444543a46add838c2c6bf.mp3",
+      "source": "local-siwis",
+      "file_sha256": "4e07a952c9c0238a0a49a4066214ab8af07e083a708ef06589d3080ffb3465d7",
+      "bytes": 15090,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.787936507936508,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/5ec36401cee925e27bb66ddd46b7162ff2ebaaf6193444543a46add838c2c6bf.wav",
+        "file_sha256": "039d6dfcf32da2cca94f2b1f3c996d80ad984fd203cbf7cf8c170723bbede273",
+        "bytes": 78892,
+        "rms": 7217.93484241206
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La piscine ouvre à huit heures. Quand est-ce que le cours commence ?",
+      "occurrences": [
+        {
+          "id": "a1-mots-interro",
+          "field": "/a1-mots-interro/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 68
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "4ae61f197db1acd195b5d0f144e340a583bf501eec7239a6d3bae587213f25e6",
+      "path": "audio/supplement/4ae61f197db1acd195b5d0f144e340a583bf501eec7239a6d3bae587213f25e6.mp3",
+      "source": "local-siwis",
+      "file_sha256": "109bea9b7d611ed4b34a57c293f72ac7df4768531e8aae41a985dc4cb9ba8135",
+      "bytes": 33271,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.0751020408163265,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/4ae61f197db1acd195b5d0f144e340a583bf501eec7239a6d3bae587213f25e6.wav",
+        "file_sha256": "fbfda0d7276a2b6a98f6aea71b5996c384259be3627f87bf274bdaab707ec28e",
+        "bytes": 179756,
+        "rms": 6646.389821921498
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "À quelle heure est-ce que le cours commence ?",
+      "occurrences": [
+        {
+          "id": "a1-mots-interro",
+          "field": "/a1-mots-interro/practice/3/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 30,
+              "end_codepoint": 75
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "365b9aa71b44c89e2ad366c9555444ae32b1f5d4c26dad04b66851b0da30ccbf",
+      "path": "audio/supplement/365b9aa71b44c89e2ad366c9555444ae32b1f5d4c26dad04b66851b0da30ccbf.mp3",
+      "source": "local-siwis",
+      "file_sha256": "d9a54ed63f3c62c8368835e64e894b8f75a98262a27272bcd7ae555d8f0b7d67",
+      "bytes": 16971,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.0317460317460316,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/365b9aa71b44c89e2ad366c9555444ae32b1f5d4c26dad04b66851b0da30ccbf.wav",
+        "file_sha256": "e84d306d9ba42a08bed0c046ffb63947d46f316eb59687b6ecd8dfa4e60add41",
+        "bytes": 89644,
+        "rms": 6924.600527675186
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Nous avons déjà testé les micros, mais nous n’avons pas encore enregistré la chanson.",
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 85
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 85
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "a9c3b1acb3b2d255d4703b3e83251ad81c07e7ae9fc57e802e72d667231325c9",
+      "path": "audio/supplement/a9c3b1acb3b2d255d4703b3e83251ad81c07e7ae9fc57e802e72d667231325c9.mp3",
+      "source": "local-siwis",
+      "file_sha256": "2c051de4221d4254e095cb5de47d719d5148678400cb0cb88ebda87f2ef9861b",
+      "bytes": 33480,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.08671201814059,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/a9c3b1acb3b2d255d4703b3e83251ad81c07e7ae9fc57e802e72d667231325c9.wav",
+        "file_sha256": "384cd1e6eadc18b8fac433ea3fc15f284d2789fa93cd8f71bd71ec038f13a6d3",
+        "bytes": 180268,
+        "rms": 5317.924187771128
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "déjà",
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/sections/3/examples/0/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 10,
+              "end_codepoint": 14
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/sections/3/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 46,
+              "end_codepoint": 50
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/practice/3/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 95,
+              "end_codepoint": 99
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "1913fb3460b7de0641842fcd677d93acd064fbac170ca4e60b2fc186cf95d5ca",
+      "path": "audio/supplement/1913fb3460b7de0641842fcd677d93acd064fbac170ca4e60b2fc186cf95d5ca.mp3",
+      "source": "local-siwis",
+      "file_sha256": "f225539b4d37af0669c721faa5e50dcb269996b2aae68c8f1f70f46f3460f0ee",
+      "bytes": 6522,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.7082086167800453,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/1913fb3460b7de0641842fcd677d93acd064fbac170ca4e60b2fc186cf95d5ca.wav",
+        "file_sha256": "68330d3b7e04f5f56012f0aaaef2c61d1790bf43fe8ba670535475e6b960fb9e",
+        "bytes": 31276,
+        "rms": 6289.146918321521
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La chanteuse vient de recevoir la partition. Elle a lu la première page, mais elle n’a pas encore chanté avec le groupe.",
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/sections/3/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 120
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "e8b4c1ed6ab62ff41a13e234927da9de38629d8bbcaa997c6eea781de1b544ac",
+      "path": "audio/supplement/e8b4c1ed6ab62ff41a13e234927da9de38629d8bbcaa997c6eea781de1b544ac.mp3",
+      "source": "local-siwis",
+      "file_sha256": "2d714f24feafc86731281a38be8656b99a51ee991da383994e5b5c5ccb9562e5",
+      "bytes": 53542,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 6.606077097505669,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/e8b4c1ed6ab62ff41a13e234927da9de38629d8bbcaa997c6eea781de1b544ac.wav",
+        "file_sha256": "aabf11da74c7b9701c90681bb976f3d0034cc00e6c9701e2bb0b7c2c62a36f03",
+        "bytes": 291372,
+        "rms": 5242.023128920892
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Nous avons déjà enregistré la chanson.",
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 28,
+              "end_codepoint": 66
+            }
+          ],
+          "kind": "error_input"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "error_input"
+      ],
+      "kind": "error_input",
+      "sha256": "7482d0b3ab9a67d9d1ccec073821db53c1c4bb69c5e0fbc1cfacff81020a472f",
+      "path": "audio/supplement/7482d0b3ab9a67d9d1ccec073821db53c1c4bb69c5e0fbc1cfacff81020a472f.mp3",
+      "source": "local-siwis",
+      "file_sha256": "9b7a296809d131f9d2a674428b0158e5d33f2ba81b21c34e5ee6b7feb8cba87b",
+      "bytes": 18643,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.2407256235827666,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/7482d0b3ab9a67d9d1ccec073821db53c1c4bb69c5e0fbc1cfacff81020a472f.wav",
+        "file_sha256": "158d924737fe3203b14dc5e4d5cb18a94b6b6e0267af9049c5ee3daed6f984b2",
+        "bytes": 98860,
+        "rms": 6505.824115972328
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Nous avons testé les micros. Nous n’avons pas encore enregistré la chanson.",
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/practice/3/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 19,
+              "end_codepoint": 94
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "8e8e8938b87b9dc03f71e8ffbf3fb73a4dc8667a90f2008d74c07100c399465b",
+      "path": "audio/supplement/8e8e8938b87b9dc03f71e8ffbf3fb73a4dc8667a90f2008d74c07100c399465b.mp3",
+      "source": "local-siwis",
+      "file_sha256": "d4e9b6881ae0ad9ddeea95decbe48ff40c2dea2ca782f142eae0921281701431",
+      "bytes": 32017,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.900952380952381,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/8e8e8938b87b9dc03f71e8ffbf3fb73a4dc8667a90f2008d74c07100c399465b.wav",
+        "file_sha256": "aceff345897f9361bbaef5f8a322f8e439529bb98d4d2cca1357117a36c3e5e3",
+        "bytes": 172076,
+        "rms": 6234.0983218410665
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La chanteuse vient de recevoir la partition. Elle a seulement lu la première page. Elle n’a pas encore chanté avec le groupe.",
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/practice/4/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 125
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "3664e69cfa3783e3ab92c255b83fc2d41e7d5ad0563851b9e5a85d1bb105516e",
+      "path": "audio/supplement/3664e69cfa3783e3ab92c255b83fc2d41e7d5ad0563851b9e5a85d1bb105516e.mp3",
+      "source": "local-siwis",
+      "file_sha256": "955024823a6e221b397fa01fa2bf27a26f3fa7ab90f5307401c5a410438b9022",
+      "bytes": 56259,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 6.931156462585034,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/3664e69cfa3783e3ab92c255b83fc2d41e7d5ad0563851b9e5a85d1bb105516e.wav",
+        "file_sha256": "e55832cf491ca4beb23f217540019f4c9e02bb745caff9593b633ef9878cd2de",
+        "bytes": 305708,
+        "rms": 5980.141472717578
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "vient de recevoir",
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/practice/4/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 17
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/practice/4/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 65,
+              "end_codepoint": 82
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "650fa2d675b318f97021fbadc3293a3668f3b3f8a72a89c72abc7a1d9e3e5e28",
+      "path": "audio/supplement/650fa2d675b318f97021fbadc3293a3668f3b3f8a72a89c72abc7a1d9e3e5e28.mp3",
+      "source": "local-siwis",
+      "file_sha256": "8f7c6760ce5c12f7a10a50d27df48730c3970c021dd9116d5c29bd0d2cdc6067",
+      "bytes": 10284,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.195827664399093,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/650fa2d675b318f97021fbadc3293a3668f3b3f8a72a89c72abc7a1d9e3e5e28.wav",
+        "file_sha256": "5513781c65d3c95360d878a0f2a3619afed1ba36526e7df0c99e04ddce8a3c8b",
+        "bytes": 52780,
+        "rms": 6750.142112222095
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "a lu",
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/practice/4/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 22,
+              "end_codepoint": 26
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "df4123e7f7acfb8563cb71f767fa4052046e38caf53862ae3f21c599359ea0e1",
+      "path": "audio/supplement/df4123e7f7acfb8563cb71f767fa4052046e38caf53862ae3f21c599359ea0e1.mp3",
+      "source": "local-siwis",
+      "file_sha256": "4665933c8141aa0a827a3d03e49fc795343904a4c9035d2ef75bdfd8a4254e38",
+      "bytes": 6104,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.6617687074829932,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/df4123e7f7acfb8563cb71f767fa4052046e38caf53862ae3f21c599359ea0e1.wav",
+        "file_sha256": "7af2c2d71a00ae2582f82efdc1135dd6149ec06c02fc9832526d028a040b86a2",
+        "bytes": 29228,
+        "rms": 5998.904720925324
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "pas encore chanté",
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/practice/4/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 33,
+              "end_codepoint": 50
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "1e4b27b3ee05735a00001034b437234775853f55fa1d3693b4e2dbe3f5fabfc7",
+      "path": "audio/supplement/1e4b27b3ee05735a00001034b437234775853f55fa1d3693b4e2dbe3f5fabfc7.mp3",
+      "source": "local-siwis",
+      "file_sha256": "4055a01f9cbdd9e81d65793cf84eb901c82cd7d3aaceed5c90226a39e5fa3a84",
+      "bytes": 10075,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.1609977324263039,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/1e4b27b3ee05735a00001034b437234775853f55fa1d3693b4e2dbe3f5fabfc7.wav",
+        "file_sha256": "58fb735bf0484aa78ae5f5e4649a94e38ff967606b68ae7299aa51a79799510d",
+        "bytes": 51244,
+        "rms": 5399.858802884919
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "demain",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/3/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 27,
+              "end_codepoint": 33
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/5/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 29,
+              "end_codepoint": 35
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/5/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 58,
+              "end_codepoint": 64
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 104,
+              "end_codepoint": 110
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 129,
+              "end_codepoint": 135
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/examples/1/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 27,
+              "end_codepoint": 33
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 62,
+              "end_codepoint": 68
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 90,
+              "end_codepoint": 96
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "8d87f74739c36a01a7800c7c80090b72158250f824c3db7b9a1809f876b64046",
+      "path": "audio/supplement/8d87f74739c36a01a7800c7c80090b72158250f824c3db7b9a1809f876b64046.mp3",
+      "source": "local-siwis",
+      "file_sha256": "9660fb07278e53c7db66984f9e07970577140a64a74549b66dc137658bd91781",
+      "bytes": 6104,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.6617687074829932,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/8d87f74739c36a01a7800c7c80090b72158250f824c3db7b9a1809f876b64046.wav",
+        "file_sha256": "a271ffb6b68150d88e394b27b7e3d0f0916d68ab5043c2ee7e9ec3f56858de2e",
+        "bytes": 29228,
+        "rms": 6550.066961613242
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "jeudi",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/3/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 45,
+              "end_codepoint": 50
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "1b855bb06439bae2932c4b04cd15ec1e6a615813df8dd594bb2bc401d5cb41d3",
+      "path": "audio/supplement/1b855bb06439bae2932c4b04cd15ec1e6a615813df8dd594bb2bc401d5cb41d3.mp3",
+      "source": "local-siwis",
+      "file_sha256": "8d84575d9163a4f932e8a50786813c74a205405d4c0edfa40857ffad29a6bdf6",
+      "bytes": 6104,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.6617687074829932,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/1b855bb06439bae2932c4b04cd15ec1e6a615813df8dd594bb2bc401d5cb41d3.wav",
+        "file_sha256": "a2808e49201050f0edd512699fbabf5192736a008221329dcdd972b151ae26c8",
+        "bytes": 29228,
+        "rms": 5594.318160948999
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Mardi, la réparatrice a annoncé qu’elle pourrait passer le lendemain, mais que l’horaire restait à confirmer.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 109
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "4787fe8a3573fc0924a3bc72abde76ec20668f0b505e6e9892b3f8ff8958aeaa",
+      "path": "audio/supplement/4787fe8a3573fc0924a3bc72abde76ec20668f0b505e6e9892b3f8ff8958aeaa.mp3",
+      "source": "local-siwis",
+      "file_sha256": "3462b23485954e7d413242045b4f6576f5662ed822c1c3648be699b4654ec365",
+      "bytes": 42466,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 5.201269841269841,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/4787fe8a3573fc0924a3bc72abde76ec20668f0b505e6e9892b3f8ff8958aeaa.wav",
+        "file_sha256": "db9435f0b6fb42ac8479c08084ee97749f2e4188efed8796c0133ee002b4db0b",
+        "bytes": 229420,
+        "rms": 4261.339907122354
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Mercredi, elle a précisé que son passage était finalement prévu jeudi à neuf heures, et non mercredi.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/3/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 101
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "b7fe186ebc20b9ce49fe57433af966ce5ab1f1779507d5394a10d2d2737f019a",
+      "path": "audio/supplement/b7fe186ebc20b9ce49fe57433af966ce5ab1f1779507d5394a10d2d2737f019a.mp3",
+      "source": "local-siwis",
+      "file_sha256": "fa61d524807a5d07d6538f5961cb80fdabe24ae4a76de77575ea085e738cb1f4",
+      "bytes": 46646,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 5.735328798185941,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/b7fe186ebc20b9ce49fe57433af966ce5ab1f1779507d5394a10d2d2737f019a.wav",
+        "file_sha256": "2e69fbf41f85cab255c24e4f865f1530cd9bb6fd1128da6d574be0350e3ef631",
+        "bytes": 252972,
+        "rms": 5184.300851114286
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle a demandé au client de ne pas laisser l’appareil branché avant son arrivée.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/3/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 80
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "42f08a015e83b1e00da85ee61fb08e0379cbc116bcd8184dda60c89720083c4c",
+      "path": "audio/supplement/42f08a015e83b1e00da85ee61fb08e0379cbc116bcd8184dda60c89720083c4c.mp3",
+      "source": "local-siwis",
+      "file_sha256": "9fbe3c5a01ce95741a5cdec73081c2809e70e6324d03f2d05a01d9d61b1f3861",
+      "bytes": 33689,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.1099319727891155,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/42f08a015e83b1e00da85ee61fb08e0379cbc116bcd8184dda60c89720083c4c.wav",
+        "file_sha256": "e31f77d06eb3d3267fdd338ac45be7950f5e20adc2fab9917953f6b106bdfc1a",
+        "bytes": 181292,
+        "rms": 6538.344797975284
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "inscrite",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/4/examples/0/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 59,
+              "end_codepoint": 67
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "c48ee084e3b6350bcee8b8c85ff2ca798a577f856dc4738f9b4183bba4a5e827",
+      "path": "audio/supplement/c48ee084e3b6350bcee8b8c85ff2ca798a577f856dc4738f9b4183bba4a5e827.mp3",
+      "source": "local-siwis",
+      "file_sha256": "3dbf39474ba95ac2bb9a95be7aa0ce01f80e8ddde42e27bdb846a1488f15db9e",
+      "bytes": 7985,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.893968253968254,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/c48ee084e3b6350bcee8b8c85ff2ca798a577f856dc4738f9b4183bba4a5e827.wav",
+        "file_sha256": "7f97bcb9ce88360d7d9093ce5ecca48d2dcc14adced5b5df3227e9ea33f814f5",
+        "bytes": 39468,
+        "rms": 5353.091896466852
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Ne vous éloignez pas du groupe",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/5/examples/0/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 5,
+              "end_codepoint": 35
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "b5cfb996906a40954e07fb2dbae8e727d795563842290ecf538913a812e9fdb9",
+      "path": "audio/supplement/b5cfb996906a40954e07fb2dbae8e727d795563842290ecf538913a812e9fdb9.mp3",
+      "source": "local-siwis",
+      "file_sha256": "bab1ceac21a1122a415761aa2ba8722c16c7431c6c1eaff987914473bfc83430",
+      "bytes": 12164,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 1.4280272108843537,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/b5cfb996906a40954e07fb2dbae8e727d795563842290ecf538913a812e9fdb9.wav",
+        "file_sha256": "d763a8282f158b4dfdb5b44833483d2cb58531be954926c83c46d922ab97c457",
+        "seconds": 1.4280272108843537
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Lundi, Nora m’a promis qu’elle me prêterait son dictionnaire le lendemain.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/5/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 74
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "f1b29149648c94b14acfcf0b8991b4077ad630987ac562fb90161724ce15b634",
+      "path": "audio/supplement/f1b29149648c94b14acfcf0b8991b4077ad630987ac562fb90161724ce15b634.mp3",
+      "source": "local-siwis",
+      "file_sha256": "80a621c36fe6e99ff188e6b85c5b472c412f55adacb47e7b155f815f1fb6e20d",
+      "bytes": 28047,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 3.4133333333333336,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/f1b29149648c94b14acfcf0b8991b4077ad630987ac562fb90161724ce15b634.wav",
+        "file_sha256": "493d33ff93fb6b6f97970957efbe7dc292b723c9514f503c586cc099ff70719f",
+        "seconds": 3.4133333333333336
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Je pourrai peut-être venir demain, mais je dois encore confirmer.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/4/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 14,
+              "end_codepoint": 79
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "80b3de32959298e84274ecd3397ee69e204f9c793c0127c6cfb82a1af9e65e62",
+      "path": "audio/supplement/80b3de32959298e84274ecd3397ee69e204f9c793c0127c6cfb82a1af9e65e62.mp3",
+      "source": "local-siwis",
+      "file_sha256": "a9eb474954bb787cc21c9579b4a54b040b8f8bc3cc70896997e2da670002550b",
+      "bytes": 27838,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.378503401360544,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/80b3de32959298e84274ecd3397ee69e204f9c793c0127c6cfb82a1af9e65e62.wav",
+        "file_sha256": "dce210c2a5340d88fff5ec7e26649d2ae8dee5c3ab626076735724fd07acb5dd",
+        "bytes": 149036,
+        "rms": 5670.61869952411
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Mardi, la réparatrice m’a dit qu’elle pourrait peut-être venir le lendemain, donc mercredi, mais qu’elle devait encore confirmer.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/4/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 129
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "9e314eb50cc050e7d2d7156b79d0882e2f9b427d66a33f84037ec606d3aed5d9",
+      "path": "audio/supplement/9e314eb50cc050e7d2d7156b79d0882e2f9b427d66a33f84037ec606d3aed5d9.mp3",
+      "source": "local-siwis",
+      "file_sha256": "0b50315a8dd788a7b63c5a339af2c7731bab6fdab7e5e14382f63c690fcc5467",
+      "bytes": 54169,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 6.675736961451247,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/9e314eb50cc050e7d2d7156b79d0882e2f9b427d66a33f84037ec606d3aed5d9.wav",
+        "file_sha256": "4ad93cf8e0ccac62354d45a31760f070f866b6aae342271767c7aa954259485a",
+        "bytes": 294444,
+        "rms": 4633.922544324654
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "pourrait",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/4/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 33,
+              "end_codepoint": 41
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "6e5d477e10a9ae505f293908ac57051bac8025eec068aa299938dc33f3eccd71",
+      "path": "audio/supplement/6e5d477e10a9ae505f293908ac57051bac8025eec068aa299938dc33f3eccd71.mp3",
+      "source": "local-siwis",
+      "file_sha256": "4f13bf4114f0267d6c72dc6b9159f5f8437c3d71280fe3f971adb609984291fc",
+      "bytes": 5268,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.5688888888888889,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/6e5d477e10a9ae505f293908ac57051bac8025eec068aa299938dc33f3eccd71.wav",
+        "file_sha256": "244c096b8a4a05e467d241775775e663f6e921644ff53474efb15f326c9f4d50",
+        "bytes": 25132,
+        "rms": 5968.578352130411
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "peut-être",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/4/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 42,
+              "end_codepoint": 51
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "c1-hypothese-sans-si",
+          "field": "/c1-hypothese-sans-si/sections/4/examples/0/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 24,
+              "end_codepoint": 33
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "d18567bdc0f721ba11a73c10a4b5d12572f1f3c1ca1304389138e94dff04c704",
+      "path": "audio/supplement/d18567bdc0f721ba11a73c10a4b5d12572f1f3c1ca1304389138e94dff04c704.mp3",
+      "source": "local-siwis",
+      "file_sha256": "cfd4cd283ae94ed2692a2f1cc816c4db2b2c973bc13b9bf8f5bd54e873446602",
+      "bytes": 7567,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.8591383219954648,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/d18567bdc0f721ba11a73c10a4b5d12572f1f3c1ca1304389138e94dff04c704.wav",
+        "file_sha256": "8b466d93ff593cc6e90f07679ae2d412052473ca684082e094732f8e25a809e6",
+        "bytes": 37932,
+        "rms": 5760.879133984569
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle vient aujourd’hui à neuf heures",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/4/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 67,
+              "end_codepoint": 103
+            }
+          ],
+          "kind": "error_input"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "error_input"
+      ],
+      "kind": "error_input",
+      "sha256": "cea8afc5e8c0f06733aa19e1d05b32aef5345e09644eaf4548dc7173ce86c84a",
+      "path": "audio/supplement/cea8afc5e8c0f06733aa19e1d05b32aef5345e09644eaf4548dc7173ce86c84a.mp3",
+      "source": "local-siwis",
+      "file_sha256": "33046f8fa962b798ff4773c3df9f09789ab9298ac9623389d3ea2a16a8184b1c",
+      "bytes": 15090,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.787936507936508,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/cea8afc5e8c0f06733aa19e1d05b32aef5345e09644eaf4548dc7173ce86c84a.wav",
+        "file_sha256": "d01392ad948ea8991bc5bd22d9f0f211ff12f966af2a3fc94c6072261b7a0b33",
+        "bytes": 78892,
+        "rms": 6712.064805085799
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Mon passage est finalement prévu jeudi à neuf heures. Ne laissez pas l’appareil branché avant mon arrivée.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/5/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 17,
+              "end_codepoint": 123
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "23f222b886c75563ca403e0a1471291f08b7e8eaa7291c9dbfbc400da47079bf",
+      "path": "audio/supplement/23f222b886c75563ca403e0a1471291f08b7e8eaa7291c9dbfbc400da47079bf.mp3",
+      "source": "local-siwis",
+      "file_sha256": "bff76a86a76268aa680f83f75fe15506fc2f26c5499949dd170bc2d0618e49fc",
+      "bytes": 47064,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 5.7817687074829935,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/23f222b886c75563ca403e0a1471291f08b7e8eaa7291c9dbfbc400da47079bf.wav",
+        "file_sha256": "e61e4c706c76658cb97e6ab9f6a3a7eb55eaa38339c257164ec06f9d04e21d73",
+        "bytes": 255020,
+        "rms": 5910.5624241406185
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle a précisé que son passage était finalement prévu jeudi à neuf heures. Elle nous a demandé de ne pas laisser l’appareil branché avant son arrivée.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/5/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 150
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "384ea4c2fea22c409bb3d759d72a71fcf6ca40a27c1be75ccaceca8b86ce2672",
+      "path": "audio/supplement/384ea4c2fea22c409bb3d759d72a71fcf6ca40a27c1be75ccaceca8b86ce2672.mp3",
+      "source": "local-siwis",
+      "file_sha256": "178929494a04708b6475e68d120b7c6b3ff0383e71f5fea2be6c9da57ff61c05",
+      "bytes": 60648,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 7.48843537414966,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/384ea4c2fea22c409bb3d759d72a71fcf6ca40a27c1be75ccaceca8b86ce2672.wav",
+        "file_sha256": "0859fa10d8d5fe333e383f760346848cefab56f475d969572538de96428af3d2",
+        "bytes": 330284,
+        "rms": 5791.332100950042
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "son passage",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/5/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 11
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/5/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 53,
+              "end_codepoint": 64
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "a4ed3db946cd0838c6fd593c37853d97cf740b9649b465e8ebd3096d910e6e45",
+      "path": "audio/supplement/a4ed3db946cd0838c6fd593c37853d97cf740b9649b465e8ebd3096d910e6e45.mp3",
+      "source": "local-siwis",
+      "file_sha256": "9ac90ad7718607b377fcd152a3ee34dd0d51b843951df9d394563eaae884dcc4",
+      "bytes": 8403,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.9636281179138322,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/a4ed3db946cd0838c6fd593c37853d97cf740b9649b465e8ebd3096d910e6e45.wav",
+        "file_sha256": "d891a88dd0b6146dff6ed4c842517b5f819dcb6fbadcf6608ca0f53cb7ec4c59",
+        "bytes": 42540,
+        "rms": 6005.151918313922
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "son arrivée",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/5/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 29,
+              "end_codepoint": 40
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "110521b01593636bb2b2080bb3efc884813045d9563c96c0f1b34c70981681b4",
+      "path": "audio/supplement/110521b01593636bb2b2080bb3efc884813045d9563c96c0f1b34c70981681b4.mp3",
+      "source": "local-siwis",
+      "file_sha256": "7a4638b3bcf408e71771b4be3ea133e39069a24386b621bad967070f77d881af",
+      "bytes": 9448,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.0797278911564625,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/110521b01593636bb2b2080bb3efc884813045d9563c96c0f1b34c70981681b4.wav",
+        "file_sha256": "fbd8fa09900a100849b0d82b418e9d45abda340c0705b5240088adf4c49a217c",
+        "bytes": 47660,
+        "rms": 5989.289477708576
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "ce jour-là",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 136,
+              "end_codepoint": 146
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "9149f740f90a127fbb9b59ce78ec0554fe73d61549d428cd08e5169bf11b99ff",
+      "path": "audio/supplement/9149f740f90a127fbb9b59ce78ec0554fe73d61549d428cd08e5169bf11b99ff.mp3",
+      "source": "local-siwis",
+      "file_sha256": "114b64d69322aec8206650d24c61f57a5bd682ba540febfcb57c20cd424c7b38",
+      "bytes": 8821,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.0100680272108844,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/9149f740f90a127fbb9b59ce78ec0554fe73d61549d428cd08e5169bf11b99ff.wav",
+        "file_sha256": "f8cf1ddb60710fdaa18882e2f0505927269d64402452486e7df6fcd4dac32f09",
+        "bytes": 44588,
+        "rms": 6448.275547476933
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "selon",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/explanation",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 169,
+              "end_codepoint": 174
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "d6570680b0e89056ec499f05d96cd7de68dfb478a16e5c6b96dc6c26a883f79d",
+      "path": "audio/supplement/d6570680b0e89056ec499f05d96cd7de68dfb478a16e5c6b96dc6c26a883f79d.mp3",
+      "source": "local-siwis",
+      "file_sha256": "c821840c399fec5f53dd8c2ef44a5ccda3400ced358c479e0d3320723264cb39",
+      "bytes": 6731,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.7546485260770975,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/d6570680b0e89056ec499f05d96cd7de68dfb478a16e5c6b96dc6c26a883f79d.wav",
+        "file_sha256": "0e3cffcccc37f60e433c9f89d88617d3d05c1623039c5a7491b5643bcaa35543",
+        "bytes": 33324,
+        "rms": 6981.974084811083
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Lundi, la responsable a déclaré qu’elle avait rangé la caisse la veille.",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 72
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "332571f4c80cabf21d34543f14fff878a2b702caa848f9e6da1ea9f1aa8ea2bc",
+      "path": "audio/supplement/332571f4c80cabf21d34543f14fff878a2b702caa848f9e6da1ea9f1aa8ea2bc.mp3",
+      "source": "local-siwis",
+      "file_sha256": "d15c3713222b64f27a08c26e58289c5be47fd8f7fb06f28ba18c8cdf5db74737",
+      "bytes": 34107,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.167981859410431,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/332571f4c80cabf21d34543f14fff878a2b702caa848f9e6da1ea9f1aa8ea2bc.wav",
+        "file_sha256": "eaade0c7e3c5b27078c28d4c168d397601e92bfecd6bfcef867e9374585e499e",
+        "bytes": 183852,
+        "rms": 5388.904593525377
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "avait rangé",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/examples/0/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 11
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 11,
+              "end_codepoint": 22
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "46f5da770f1b844c453af3ddd8afd5d8a7e6c2facdff4a97efc4d579a0860f77",
+      "path": "audio/supplement/46f5da770f1b844c453af3ddd8afd5d8a7e6c2facdff4a97efc4d579a0860f77.mp3",
+      "source": "local-siwis",
+      "file_sha256": "60cf0e90d7f23072f43dca06b7ced126f1b786c290eda8ab7b4db3ea329ebc19",
+      "bytes": 8194,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.9171882086167801,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/46f5da770f1b844c453af3ddd8afd5d8a7e6c2facdff4a97efc4d579a0860f77.wav",
+        "file_sha256": "da85c9fd540acc38394156cfafb2f557988818932b448702f417872a615652b9",
+        "bytes": 40492,
+        "rms": 7425.566492162687
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "la veille",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/examples/0/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 22,
+              "end_codepoint": 31
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 74,
+              "end_codepoint": 83
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "b5031bed5f801ae7078fd613f17d356945b41fba8ce5213236641198e56dfa3c",
+      "path": "audio/supplement/b5031bed5f801ae7078fd613f17d356945b41fba8ce5213236641198e56dfa3c.mp3",
+      "source": "local-siwis",
+      "file_sha256": "88e1472beeec7d272216c2e84240b0d6258a5981337e27d31271c85f6b80cad8",
+      "bytes": 7985,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.893968253968254,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/b5031bed5f801ae7078fd613f17d356945b41fba8ce5213236641198e56dfa3c.wav",
+        "file_sha256": "8ec2c9517178d41aef4902c201577c908e6bb5b66f47a21ddba1ea8a8c23f928",
+        "bytes": 39468,
+        "rms": 6369.271352859409
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Mercredi, je rapporte que la responsable avait annoncé lundi : « Je vérifierai l’armoire demain. » Elle avait donc annoncé qu’elle vérifierait l’armoire mardi.",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 159
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "b92224cb19bc4c788b73ef2ffc0e7fdce0990c42667adc71e2487f0caaf3a697",
+      "path": "audio/supplement/b92224cb19bc4c788b73ef2ffc0e7fdce0990c42667adc71e2487f0caaf3a697.mp3",
+      "source": "local-siwis",
+      "file_sha256": "37946fbc800140cc1bea55f78658c11239e3a2c31f59cb23c808788a5f2f7103",
+      "bytes": 65872,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 8.126984126984127,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/b92224cb19bc4c788b73ef2ffc0e7fdce0990c42667adc71e2487f0caaf3a697.wav",
+        "file_sha256": "d931795774455e815c63302c9539dc53a3100d48d9247a575fa35c699b6ea60d",
+        "bytes": 358444,
+        "rms": 4985.745391391243
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "vérifierait",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/examples/1/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 11
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 47,
+              "end_codepoint": 58
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "a27e6efdc34c4045dbdef0ce6b396d0ab5a9351ce0a8584dd70afe370dbf9db0",
+      "path": "audio/supplement/a27e6efdc34c4045dbdef0ce6b396d0ab5a9351ce0a8584dd70afe370dbf9db0.mp3",
+      "source": "local-siwis",
+      "file_sha256": "11c42fcf09204a72469be46bee6ef61207eefcc125d4559b9367f9d34a6fc7b0",
+      "bytes": 8821,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.9984580498866213,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/a27e6efdc34c4045dbdef0ce6b396d0ab5a9351ce0a8584dd70afe370dbf9db0.wav",
+        "file_sha256": "828b46e32d3fe1ba59c45aae3ac7672bb4d0a3d4d3f3fcd4125d38d1cfeb2cd2",
+        "bytes": 44076,
+        "rms": 6218.510191520471
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "mardi",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/examples/1/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 20,
+              "end_codepoint": 25
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "41559c72e9fb9d4065ec982c504c69f26d5899aa021abe2f2efcf00ee66283f5",
+      "path": "audio/supplement/41559c72e9fb9d4065ec982c504c69f26d5899aa021abe2f2efcf00ee66283f5.mp3",
+      "source": "local-siwis",
+      "file_sha256": "c1a450a716f5af600d58a0cb6dc83af7f7bfaa346388147391d3f3ef41e1dbc8",
+      "bytes": 5895,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.6501587301587302,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/41559c72e9fb9d4065ec982c504c69f26d5899aa021abe2f2efcf00ee66283f5.wav",
+        "file_sha256": "1c27fdc834892eea7c16e5ccc6337762ee349b46dffc53b0d4f64a24a7f7576e",
+        "bytes": 28716,
+        "rms": 4985.7253579880025
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Dans son message reçu jeudi, Malik écrit qu’il se souvient d’une caisse rouge près de la porte, sans pouvoir dater cette scène.",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 127
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "2cc309409a499f7c596dd0ee53af2fdddda3bdd27ff8bdea142b7511c1fcd917",
+      "path": "audio/supplement/2cc309409a499f7c596dd0ee53af2fdddda3bdd27ff8bdea142b7511c1fcd917.mp3",
+      "source": "local-siwis",
+      "file_sha256": "7b1145010424bbcc16d98dfd118c610b21ba07f78c01ac6fa12a6d20ced475ea",
+      "bytes": 54169,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 6.675736961451247,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/2cc309409a499f7c596dd0ee53af2fdddda3bdd27ff8bdea142b7511c1fcd917.wav",
+        "file_sha256": "389a3e7680586181eee607712a44625c8a208396b7901746eb9c21f022ce88bd",
+        "bytes": 294444,
+        "rms": 3845.6017428891
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "écrit",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/examples/2/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 3,
+              "end_codepoint": 8
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "5d8ed3369221e463d0925b2cc92a0f84f212feddec11077d9cba86f9c3e6e421",
+      "path": "audio/supplement/5d8ed3369221e463d0925b2cc92a0f84f212feddec11077d9cba86f9c3e6e421.mp3",
+      "source": "local-siwis",
+      "file_sha256": "fbce8a20ad92036d433a8dee9a1c322633870d02722c8816cb14538a05b56220",
+      "bytes": 5686,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.603718820861678,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/5d8ed3369221e463d0925b2cc92a0f84f212feddec11077d9cba86f9c3e6e421.wav",
+        "file_sha256": "5fb40c2e834800f4a9595d8bbaab832350c8b6cee6734291ec1a9325bdd423d5",
+        "bytes": 26668,
+        "rms": 5757.092567642703
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "se souvient",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/sections/4/examples/2/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 18,
+              "end_codepoint": 29
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "26f3ed6cbb9297204723038388d064c12d9e553d2ad92bd1b0ea5ae40a6b783b",
+      "path": "audio/supplement/26f3ed6cbb9297204723038388d064c12d9e553d2ad92bd1b0ea5ae40a6b783b.mp3",
+      "source": "local-siwis",
+      "file_sha256": "7669142b781407afa5903ad000d244870091512ecc595415d6d3cdb5ca0b9211",
+      "bytes": 9030,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.0448979591836736,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/26f3ed6cbb9297204723038388d064c12d9e553d2ad92bd1b0ea5ae40a6b783b.wav",
+        "file_sha256": "5d36ffe7b3f4e050c87ad78cf30b03473d495bd882518e34d0aca3f4b8db7390",
+        "bytes": 46124,
+        "rms": 4981.671596916297
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "J’ai rangé la caisse hier, et je vérifierai l’armoire demain.",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 9,
+              "end_codepoint": 70
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "ae70722672d20f7e83d92231f2bf652eddf63de1f80d7c97c0d4a3eac36210a3",
+      "path": "audio/supplement/ae70722672d20f7e83d92231f2bf652eddf63de1f80d7c97c0d4a3eac36210a3.mp3",
+      "source": "local-siwis",
+      "file_sha256": "82c2f070bad02c37d3a6bead4dd598dc7ce2be272985757ce29cee7dc918161c",
+      "bytes": 26375,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.2043537414965986,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/ae70722672d20f7e83d92231f2bf652eddf63de1f80d7c97c0d4a3eac36210a3.wav",
+        "file_sha256": "2cb3ceb406b1607c66c1b8c446b33f1f15936ddf6ca0022410174a4c2bf89c3b",
+        "bytes": 141356,
+        "rms": 5398.205860606641
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Lundi, la responsable m’a dit qu’elle avait rangé la caisse dimanche et qu’elle vérifierait l’armoire mardi.",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 108
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "c28b27db3961ddd78f66ea7526cb30e6c7c7b61bc624e46b7302ed0042cf0400",
+      "path": "audio/supplement/c28b27db3961ddd78f66ea7526cb30e6c7c7b61bc624e46b7302ed0042cf0400.mp3",
+      "source": "local-siwis",
+      "file_sha256": "05ddfde0d9623b4c7556992d63540da5721dbb03bd980594eed64a9b08f6f770",
+      "bytes": 45392,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 5.584399092970521,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/c28b27db3961ddd78f66ea7526cb30e6c7c7b61bc624e46b7302ed0042cf0400.wav",
+        "file_sha256": "6e51ccc332f4d89b469bfe40f8c56dd9053b4ba96f4ae4d4efe36d4911e4b204",
+        "bytes": 246316,
+        "rms": 5805.08924107495
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "ai rangé",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 8
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "de7ae626a6cd21fe26c8190707d517eb26865842921307127242784ce98335b0",
+      "path": "audio/supplement/de7ae626a6cd21fe26c8190707d517eb26865842921307127242784ce98335b0.mp3",
+      "source": "local-siwis",
+      "file_sha256": "74bd9eabda756af7f3522208b6f76326c48eae0823dc39c596690b42554a79da",
+      "bytes": 8194,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.9287981859410431,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/de7ae626a6cd21fe26c8190707d517eb26865842921307127242784ce98335b0.wav",
+        "file_sha256": "b53db98c3ec700d9ed5e4fc6cc36d4bd19801decc7a85eecf73f60bd87a254e1",
+        "bytes": 41004,
+        "rms": 7747.195837745982
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "hier",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 26,
+              "end_codepoint": 30
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "529cbc8f212773f23d5eceabfdd3e1736c7c063518b43711d03d229866b12d76",
+      "path": "audio/supplement/529cbc8f212773f23d5eceabfdd3e1736c7c063518b43711d03d229866b12d76.mp3",
+      "source": "local-siwis",
+      "file_sha256": "0e5361ff20a5e10f4a89efc19dfcadde0d65ffe88b1fe8fb3d491587726c4cfd",
+      "bytes": 5895,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.6385487528344671,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/529cbc8f212773f23d5eceabfdd3e1736c7c063518b43711d03d229866b12d76.wav",
+        "file_sha256": "f8872e02cebf1206f14ae04c633cc1800053f911b06f1421b0ebe276fc91fdf8",
+        "bytes": 28204,
+        "rms": 6436.284858560859
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "vérifierai",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 34,
+              "end_codepoint": 44
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 47,
+              "end_codepoint": 57
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "dc5eaa0838ff770f2d83a39359d0b24e8502783ec2a2fc4bce6727eeea8bca5e",
+      "path": "audio/supplement/dc5eaa0838ff770f2d83a39359d0b24e8502783ec2a2fc4bce6727eeea8bca5e.mp3",
+      "source": "local-siwis",
+      "file_sha256": "e0c0384321aa70e3cf0c084af4ead6919c7b9404f287ba29405eef1b5d7e7dc3",
+      "bytes": 9448,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.0913378684807256,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/dc5eaa0838ff770f2d83a39359d0b24e8502783ec2a2fc4bce6727eeea8bca5e.wav",
+        "file_sha256": "227428189379bbc848758f89bfb79cb66226c857f2be92ad57cfdf12ff8267c6",
+        "bytes": 48172,
+        "rms": 5375.4931436280785
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "elle a effectivement vérifié",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 107,
+              "end_codepoint": 135
+            }
+          ],
+          "kind": "error_input"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "error_input"
+      ],
+      "kind": "error_input",
+      "sha256": "cf4ab6901175470fce1a7de23ed219ead40543fe0fe076f6b7a522335414775d",
+      "path": "audio/supplement/cf4ab6901175470fce1a7de23ed219ead40543fe0fe076f6b7a522335414775d.mp3",
+      "source": "local-siwis",
+      "file_sha256": "0cda0ae3705177c1043a9e180be3acfbbcaba7b722b4cb54087529a2e3ced0b2",
+      "bytes": 12582,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.474467120181406,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/cf4ab6901175470fce1a7de23ed219ead40543fe0fe076f6b7a522335414775d.wav",
+        "file_sha256": "67c36f28c3abee3213486b994f0ac38925c3762e9fdb056b1b57737da808337b",
+        "bytes": 65068,
+        "rms": 5755.721858292052
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Je me souviens d’une caisse rouge près de la porte, mais je ne peux pas dater cette scène.",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 12,
+              "end_codepoint": 102
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "6d062e96f09a2b0f2feffb8b70ba48623b5dc6d7be56bcd2fe754aea87dd9671",
+      "path": "audio/supplement/6d062e96f09a2b0f2feffb8b70ba48623b5dc6d7be56bcd2fe754aea87dd9671.mp3",
+      "source": "local-siwis",
+      "file_sha256": "9e053df7bfcb64cd06cb7579dccbe2299509e0a7693b14fca3918fc62e87879d",
+      "bytes": 32644,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.982222222222222,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/6d062e96f09a2b0f2feffb8b70ba48623b5dc6d7be56bcd2fe754aea87dd9671.wav",
+        "file_sha256": "46f6932fe167a11410acd4e4cabf10f2c82203fa87fff91d6c67b655891d412a",
+        "bytes": 175660,
+        "rms": 5283.6307432005315
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La caisse était près de la porte jeudi.",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 110,
+              "end_codepoint": 149
+            }
+          ],
+          "kind": "error_input"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "error_input"
+      ],
+      "kind": "error_input",
+      "sha256": "8fe70b08eb0c2ff14665a12163fce1dcdba311e409d99728af355883d0a6afd3",
+      "path": "audio/supplement/8fe70b08eb0c2ff14665a12163fce1dcdba311e409d99728af355883d0a6afd3.mp3",
+      "source": "local-siwis",
+      "file_sha256": "462799730a0f6d1e6caab3274fa811657e5ba98b6c4af01603de96d17617d02c",
+      "bytes": 17598,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.1130158730158732,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/8fe70b08eb0c2ff14665a12163fce1dcdba311e409d99728af355883d0a6afd3.wav",
+        "file_sha256": "9f8be1f8f1199feee213f3e6ecc40378652ceeb62808c477a758074a0237ba01",
+        "bytes": 93228,
+        "rms": 4806.959396952688
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Dans le message reçu jeudi, Malik dit qu’il se souvient d’une caisse rouge près de la porte, sans pouvoir dater cette scène. La date de réception du message ne permet pas de dater ce souvenir.",
+      "occurrences": [
+        {
+          "id": "b2-concordance",
+          "field": "/b2-concordance/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 192
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "9d3b01ffd03b826474472f7139565f8b0908321c9a92e055eb531dba64577fa1",
+      "path": "audio/supplement/9d3b01ffd03b826474472f7139565f8b0908321c9a92e055eb531dba64577fa1.mp3",
+      "source": "local-siwis",
+      "file_sha256": "fafa8906eb92e09396a6f79d4395110ad195fbc212f909c591028b15df311045",
+      "bytes": 79247,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 9.798820861678005,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/9d3b01ffd03b826474472f7139565f8b0908321c9a92e055eb531dba64577fa1.wav",
+        "file_sha256": "5e0f7404deaad519dbc927fff2ec70e6a1498a049e280b6a19f4db6a957992b9",
+        "bytes": 432172,
+        "rms": 3829.38368914496
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Sans la clé de secours laissée par la régisseuse, nous aurions peut-être dû attendre dehors.",
+      "occurrences": [
+        {
+          "id": "c1-hypothese-sans-si",
+          "field": "/c1-hypothese-sans-si/sections/4/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 92
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "748823376458c9944b89f2f2f171cb825c1b9a62d0d19834dabdae3854dbfe22",
+      "path": "audio/supplement/748823376458c9944b89f2f2f171cb825c1b9a62d0d19834dabdae3854dbfe22.mp3",
+      "source": "local-siwis",
+      "file_sha256": "0ee50c76a46e3541648b81bcd9ea19708797dc06df9f411291a38689a436ae5c",
+      "bytes": 39959,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.911020408163266,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/748823376458c9944b89f2f2f171cb825c1b9a62d0d19834dabdae3854dbfe22.wav",
+        "file_sha256": "9a4b0df7d506b515bbc24fa09911f6120e65704942427e66ea98bbdcf14d977c",
+        "bytes": 216620,
+        "rms": 5281.42961315653
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Appelez la régisseuse avant de partir, au cas où elle aurait changé le code de la porte.",
+      "occurrences": [
+        {
+          "id": "c1-hypothese-sans-si",
+          "field": "/c1-hypothese-sans-si/sections/4/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 88
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "96e759bed3ded584a0598d09bfd53f1474217f6d62402584d58262f1bcb83398",
+      "path": "audio/supplement/96e759bed3ded584a0598d09bfd53f1474217f6d62402584d58262f1bcb83398.mp3",
+      "source": "local-siwis",
+      "file_sha256": "b67eb2bf5c2d67556cf0c387f36cdf7f04c6492608b8478bbaef08c41f416a87",
+      "bytes": 39332,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.829750566893424,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/96e759bed3ded584a0598d09bfd53f1474217f6d62402584d58262f1bcb83398.wav",
+        "file_sha256": "37e71ef6a958e5b2aeb8ee16ffc00531446489af040e16c96df8f6c993a97534",
+        "bytes": 213036,
+        "rms": 5346.192649524948
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "aurait changé",
+      "occurrences": [
+        {
+          "id": "c1-hypothese-sans-si",
+          "field": "/c1-hypothese-sans-si/sections/4/examples/1/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 6,
+              "end_codepoint": 19
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "c1-hypothese-sans-si",
+          "field": "/c1-hypothese-sans-si/practice/3/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 15,
+              "end_codepoint": 28
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "dd3ddb450b528a6cea9e6d55d54ad18ea78bfb88ccced38920a5e0a6c253a14b",
+      "path": "audio/supplement/dd3ddb450b528a6cea9e6d55d54ad18ea78bfb88ccced38920a5e0a6c253a14b.mp3",
+      "source": "local-siwis",
+      "file_sha256": "cbfe11408244b0756133f1bb92e02d6e7c36b86b01b828075529a08a6b4e47d9",
+      "bytes": 9448,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.0913378684807256,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/dd3ddb450b528a6cea9e6d55d54ad18ea78bfb88ccced38920a5e0a6c253a14b.wav",
+        "file_sha256": "3bdfcd27a80a2d4f7e669bd9c8c84c0888959573ee571aa99b1ca3a41fc3b3a9",
+        "bytes": 48172,
+        "rms": 5736.152006090529
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Sans la clé de secours, nous aurions peut-être dû attendre dehors.",
+      "occurrences": [
+        {
+          "id": "c1-hypothese-sans-si",
+          "field": "/c1-hypothese-sans-si/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 66
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "732882cab7a930d743d05be1b02b890d5794b1d0471b4f98223a42a4b7841ebc",
+      "path": "audio/supplement/732882cab7a930d743d05be1b02b890d5794b1d0471b4f98223a42a4b7841ebc.mp3",
+      "source": "local-siwis",
+      "file_sha256": "26244c7b13abbccf18427de358921ad0d5751203b384f22b751e3fa163580db1",
+      "bytes": 30137,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.680362811791383,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/732882cab7a930d743d05be1b02b890d5794b1d0471b4f98223a42a4b7841ebc.wav",
+        "file_sha256": "8c877bf92af580b99eff0585e1aadfc9ee28d9f7485130d91a296e92dded6b55",
+        "bytes": 162348,
+        "rms": 5150.32508156098
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "il aurait peut-être fallu attendre dehors",
+      "occurrences": [
+        {
+          "id": "c1-hypothese-sans-si",
+          "field": "/c1-hypothese-sans-si/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 43,
+              "end_codepoint": 84
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "7b4e89e724eff81d5908b30ddfa88b7ecf520da83a2d3d39cc52b2e484b2ebe1",
+      "path": "audio/supplement/7b4e89e724eff81d5908b30ddfa88b7ecf520da83a2d3d39cc52b2e484b2ebe1.mp3",
+      "source": "local-siwis",
+      "file_sha256": "f7328515f8686728aad02f1426320da8a32a59a034991534a711b148f244048a",
+      "bytes": 18225,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.182675736961451,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/7b4e89e724eff81d5908b30ddfa88b7ecf520da83a2d3d39cc52b2e484b2ebe1.wav",
+        "file_sha256": "9d902456cc8aac900c4e8250d13f8520bf9ad367ab653e30c1d726a8db158cdd",
+        "bytes": 96300,
+        "rms": 5993.427467782103
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Téléphonez avant de partir, au cas où la responsable aurait changé le code de la porte.",
+      "occurrences": [
+        {
+          "id": "c1-hypothese-sans-si",
+          "field": "/c1-hypothese-sans-si/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 87
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "7589fdc2a1291787658effaf6442670cf77cd9ed0fdb2db8fdbc5ee0d07de9af",
+      "path": "audio/supplement/7589fdc2a1291787658effaf6442670cf77cd9ed0fdb2db8fdbc5ee0d07de9af.mp3",
+      "source": "local-siwis",
+      "file_sha256": "e2a0681da2b06f8854e31992e7627cb34b109332b3ffede06d2b888e66335e70",
+      "bytes": 39541,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.841360544217687,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/7589fdc2a1291787658effaf6442670cf77cd9ed0fdb2db8fdbc5ee0d07de9af.wav",
+        "file_sha256": "f8c9adca5a0f178151e79dd22769f9faa133c59927f94df57acb8ef5eae08882",
+        "bytes": 213548,
+        "rms": 5410.778395260384
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Téléphonez",
+      "occurrences": [
+        {
+          "id": "c1-hypothese-sans-si",
+          "field": "/c1-hypothese-sans-si/practice/3/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 51,
+              "end_codepoint": 61
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "fbfac1fb7126bfdfa6d1e9dee1e40e02b842a390b01a65ad7b8db149835a7abb",
+      "path": "audio/supplement/fbfac1fb7126bfdfa6d1e9dee1e40e02b842a390b01a65ad7b8db149835a7abb.mp3",
+      "source": "local-siwis",
+      "file_sha256": "2740b2a255153c527326871576e5daac08b1e68d9b2b289d4d5f15d7a8071aa7",
+      "bytes": 6731,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.7430385487528345,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/fbfac1fb7126bfdfa6d1e9dee1e40e02b842a390b01a65ad7b8db149835a7abb.wav",
+        "file_sha256": "a005d46f6b662e85a12cb61c12dee176134590094cb144a51ce3fa36889dbe41",
+        "bytes": 32812,
+        "rms": 7071.4053564270225
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Appelez",
+      "occurrences": [
+        {
+          "id": "c1-hypothese-sans-si",
+          "field": "/c1-hypothese-sans-si/practice/3/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 62,
+              "end_codepoint": 69
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "da4afc81f7fe76892ed7dd70cd8c4ae22c057447c7ffaf9b5db5c4bfaa147802",
+      "path": "audio/supplement/da4afc81f7fe76892ed7dd70cd8c4ae22c057447c7ffaf9b5db5c4bfaa147802.mp3",
+      "source": "local-siwis",
+      "file_sha256": "c6c133fec851d05d2ab36eda956b8a26492bbf3be58f99602bb8b6a540179743",
+      "bytes": 6313,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.6965986394557823,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/da4afc81f7fe76892ed7dd70cd8c4ae22c057447c7ffaf9b5db5c4bfaa147802.wav",
+        "file_sha256": "acf4383c5507d713914ab7ca51860d2e4f7a83c535e44618650b4777fa52a100",
+        "bytes": 30764,
+        "rms": 6826.827504116648
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Dernier match. Gradins vides. Au loin, une sirène.",
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 50
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/practice/2/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 9,
+              "end_codepoint": 59
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "4c19d7c4a9c87a2acc9ba915ba4df9f3644628f7078f663b17e744b510bbd0b4",
+      "path": "audio/supplement/4c19d7c4a9c87a2acc9ba915ba4df9f3644628f7078f663b17e744b510bbd0b4.mp3",
+      "source": "local-siwis",
+      "file_sha256": "759eb116f542208f24f83c8c6e6d5f43c63ddaaa408310772dd3bdf69012e60e",
+      "bytes": 34943,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.260861678004535,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/4c19d7c4a9c87a2acc9ba915ba4df9f3644628f7078f663b17e744b510bbd0b4.wav",
+        "file_sha256": "fc3575b38728906208a749d21fa279996257e6c343bef8ff6041455aa11e0811",
+        "bytes": 187948,
+        "rms": 6461.677853614476
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Le dernier match est terminé ; les gradins sont vides. La cause du signal entendu au loin n’est pas précisée.",
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/sections/3/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 109
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "966ca299178c47a05bc6d4b6c64a7f277c271a30ff3bb44e4d2ad10805d9721d",
+      "path": "audio/supplement/966ca299178c47a05bc6d4b6c64a7f277c271a30ff3bb44e4d2ad10805d9721d.mp3",
+      "source": "local-siwis",
+      "file_sha256": "b4d6fa5512e4b29f36dbf08c6cc55f70828548465a8c9b7261c179ff813add72",
+      "bytes": 48945,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 6.013968253968254,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/966ca299178c47a05bc6d4b6c64a7f277c271a30ff3bb44e4d2ad10805d9721d.wav",
+        "file_sha256": "19231d2f3ac2b3129817ea3319f35f63cd4f14f5f87a180f13b1b9ac59dc9649",
+        "bytes": 265260,
+        "rms": 5214.3976088433965
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "est terminé",
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/sections/3/examples/1/use",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 16,
+              "end_codepoint": 27
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "f94e086386523ccdad5138b9eb28960b57e8b60f4c38b6e2467772fd56f9cc9a",
+      "path": "audio/supplement/f94e086386523ccdad5138b9eb28960b57e8b60f4c38b6e2467772fd56f9cc9a.mp3",
+      "source": "local-siwis",
+      "file_sha256": "04d95528d72049c9cf7fd6adbe6fdf28fedc288bc703bdcac667c0230bd44a56",
+      "bytes": 8612,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.9752380952380952,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/f94e086386523ccdad5138b9eb28960b57e8b60f4c38b6e2467772fd56f9cc9a.wav",
+        "file_sha256": "395645f0ed7669a2c2a38519e7027a84d960f2d4989e84745fcb1316033b8231",
+        "bytes": 43052,
+        "rms": 7433.964131887691
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La note du régisseur indique : « Le match s’est achevé à vingt-deux heures. Le stade ferme à vingt-trois heures. »",
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/sections/3/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 114
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "32937d2d64b262e12fe2b60c416e43da6a74353234f86156a091cbb51b3a8f69",
+      "path": "audio/supplement/32937d2d64b262e12fe2b60c416e43da6a74353234f86156a091cbb51b3a8f69.mp3",
+      "source": "local-siwis",
+      "file_sha256": "88ab44793239723976538dd7037900049dc9cc45f14eb5976334de9b9b51e119",
+      "bytes": 49990,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 6.15328798185941,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/32937d2d64b262e12fe2b60c416e43da6a74353234f86156a091cbb51b3a8f69.wav",
+        "file_sha256": "2e4ac4e81f1cde10714e22bd289fcb876d35d262e31f8122ea665c4d0597d246",
+        "bytes": 271404,
+        "rms": 6280.524916805027
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Le match s’est achevé à vingt-deux heures",
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/practice/2/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 67,
+              "end_codepoint": 108
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "c71d589c926b29f8da60940ab38d7095b18920e2ef32b7c2a2aa8988cb88f2e9",
+      "path": "audio/supplement/c71d589c926b29f8da60940ab38d7095b18920e2ef32b7c2a2aa8988cb88f2e9.mp3",
+      "source": "local-siwis",
+      "file_sha256": "44abd17ecfc84eaf80adecca53bf088e2addd716259f6e65ca69d9d81cc84cc7",
+      "bytes": 16971,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.0317460317460316,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/c71d589c926b29f8da60940ab38d7095b18920e2ef32b7c2a2aa8988cb88f2e9.wav",
+        "file_sha256": "9e0c3cd1eec445d7a22bf29ab9ff17db057b3ed65e54209a07b2a45e4c507108",
+        "bytes": 89644,
+        "rms": 5763.971030511895
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "le stade ferme à vingt-trois heures",
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/practice/2/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 109,
+              "end_codepoint": 144
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "8a7326b52674a83d65a8947bb9a4c952ec19528cbcc1136d2ce9e4c10d997f77",
+      "path": "audio/supplement/8a7326b52674a83d65a8947bb9a4c952ec19528cbcc1136d2ce9e4c10d997f77.mp3",
+      "source": "local-siwis",
+      "file_sha256": "84c4686c8baf0d87cadec9b628909a0247a0e9fa3e08b139126e44652093b3f3",
+      "bytes": 16553,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.9620861678004535,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/8a7326b52674a83d65a8947bb9a4c952ec19528cbcc1136d2ce9e4c10d997f77.wav",
+        "file_sha256": "0de518335417a23b85c858815316e885191f05953e2562d895a25f597d9ec53e",
+        "bytes": 86572,
+        "rms": 6823.4874854982545
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Le dernier match s’est achevé à vingt-deux heures. Le stade ferme à vingt-trois heures. Le brouillon ne permet pas d’affirmer que la sirène ordonne une évacuation immédiate.",
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 173
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "10031dab53a48fc20df7a0a5ae72e011f77840e5d915b3494275e7e84b6846aa",
+      "path": "audio/supplement/10031dab53a48fc20df7a0a5ae72e011f77840e5d915b3494275e7e84b6846aa.mp3",
+      "source": "local-siwis",
+      "file_sha256": "041ce92997ba9bb6ed0f029d2559e96245ce2288d34c9bd219e3713cb8cd1693",
+      "bytes": 75485,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 9.346031746031747,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/10031dab53a48fc20df7a0a5ae72e011f77840e5d915b3494275e7e84b6846aa.wav",
+        "file_sha256": "aaf492022bd49e4655f8fc87e26c44b6bc5ec20b7dd60d0c1e3c0599bbee1858",
+        "bytes": 412204,
+        "rms": 5419.032043448998
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Une sirène : le stade évacué",
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 8,
+              "end_codepoint": 36
+            }
+          ],
+          "kind": "error_input"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "error_input"
+      ],
+      "kind": "error_input",
+      "sha256": "f2cf0c8b85e8725d4afa337879d79801edd5df841c4f4cb130d9c56b5d3680bc",
+      "path": "audio/supplement/f2cf0c8b85e8725d4afa337879d79801edd5df841c4f4cb130d9c56b5d3680bc.mp3",
+      "source": "local-siwis",
+      "file_sha256": "5f8dd3a39cc76257aa75a329af08c030318c3cd4b636382aec9ded28df182b7a",
+      "bytes": 17180,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.0549659863945577,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/f2cf0c8b85e8725d4afa337879d79801edd5df841c4f4cb130d9c56b5d3680bc.wav",
+        "file_sha256": "2eb67e0571a505aa538110fa321cf3bb0e87b615a7dd855d7b1b56bbc86b8d53",
+        "bytes": 90668,
+        "rms": 6330.6365488098245
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Gradins vides. Au loin, une sirène.",
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 44,
+              "end_codepoint": 79
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "6c196381efb98424cea655c4d0c4c5e7b00549128d52d8eb18c2be6743f2d1d0",
+      "path": "audio/supplement/6c196381efb98424cea655c4d0c4c5e7b00549128d52d8eb18c2be6743f2d1d0.mp3",
+      "source": "local-siwis",
+      "file_sha256": "91593c2a2411d8fba3006280aee4b9c9d8f29f0c642c561aeb18f07eea718af4",
+      "bytes": 23658,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.8560544217687074,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/6c196381efb98424cea655c4d0c4c5e7b00549128d52d8eb18c2be6743f2d1d0.wav",
+        "file_sha256": "5cd284faebdbae0e2ccf188b5b4762eaae458706dad87658c9fdee083f59e82c",
+        "bytes": 125996,
+        "rms": 6190.381208394205
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Le titre ajoute une évacuation et suggère un lien avec la sirène, que les deux fragments n’établissent pas. Version prudente : « Des gradins vides, une sirène au loin ». Version rythmée : « Les gradins, vides. Au loin, la sirène. »",
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 231
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "f422f49dd41d75e019f66746f0272cbd19878e5e0b2510fe19f5f9086d5b3f2d",
+      "path": "audio/supplement/f422f49dd41d75e019f66746f0272cbd19878e5e0b2510fe19f5f9086d5b3f2d.mp3",
+      "source": "local-siwis",
+      "file_sha256": "8be22259fe1f1e74ce1c053d1dd5529d2830908ce49ae54f2369e1ea82bee717",
+      "bytes": 113519,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 14.094512471655328,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/f422f49dd41d75e019f66746f0272cbd19878e5e0b2510fe19f5f9086d5b3f2d.wav",
+        "file_sha256": "461083fed36b06ec75d8f107e9883ae16d79119c513a757a235a0e71de0d6663",
+        "bytes": 621612,
+        "rms": 5191.359729906771
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "évacuation",
+      "occurrences": [
+        {
+          "id": "c2-ellipse",
+          "field": "/c2-ellipse/practice/3/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 2,
+              "end_codepoint": 12
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "c0395e6fbf396e00aeb8b390dd0a1244804b0110938696fe265ea6310fe14625",
+      "path": "audio/supplement/c0395e6fbf396e00aeb8b390dd0a1244804b0110938696fe265ea6310fe14625.mp3",
+      "source": "local-siwis",
+      "file_sha256": "45e72fe6cefe24c0666c93945dadeec04a99dd910b31d4c0fb007ef6dfd967ce",
+      "bytes": 9866,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.1261678004535147,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/c0395e6fbf396e00aeb8b390dd0a1244804b0110938696fe265ea6310fe14625.wav",
+        "file_sha256": "6f8e98137cefb1fbd89230cfe05802ab81ee5a2ac99aacd8c8b597a42050eb88",
+        "bytes": 49708,
+        "rms": 6708.911734275821
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Samedi dernier, il pleuvait et la gare était pleine de voyageurs ; j’attendais mon amie Léa près de l’entrée principale. D’habitude, elle arrivait à l’heure, mais ce jour-là son train a eu trente minutes de retard. Pendant que je regardais le panneau des arrivées, mon téléphone a sonné : Léa cherchait la sortie de l’autre côté du bâtiment. Je lui ai expliqué le chemin, puis nous nous sommes retrouvés devant la boulangerie et nous avons acheté deux cafés. Nous avons parlé pendant une heure ; quand nous sommes sortis, la pluie était moins forte et les rues étaient presque vides.",
+      "occurrences": [
+        {
+          "id": "a2-context-rendezvous-manque",
+          "field": "/a2-context-rendezvous-manque/sentences.full",
+          "source": "runtime.CONTEXTS",
+          "source_offsets": [
+            {
+              "path": "/a2-context-rendezvous-manque/sentences/0/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 120
+            },
+            {
+              "path": "/a2-context-rendezvous-manque/sentences/1/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 93
+            },
+            {
+              "path": "/a2-context-rendezvous-manque/sentences/2/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 126
+            },
+            {
+              "path": "/a2-context-rendezvous-manque/sentences/3/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 116
+            },
+            {
+              "path": "/a2-context-rendezvous-manque/sentences/4/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 124
+            }
+          ],
+          "kind": "runtime_composite"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "runtime_composite"
+      ],
+      "kind": "runtime_composite",
+      "sha256": "beea4d675432d90e57b84cd2875e9df2cea201483908843633ff7e145273ab21",
+      "path": "audio/supplement/beea4d675432d90e57b84cd2875e9df2cea201483908843633ff7e145273ab21.mp3",
+      "source": "local-siwis",
+      "file_sha256": "5c9c40183214721739c41595dfb8b5b5097bbf10abf6df5991ddec975fa324e6",
+      "bytes": 239325,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 29.814421768707483,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/beea4d675432d90e57b84cd2875e9df2cea201483908843633ff7e145273ab21.wav",
+        "file_sha256": "4eab0c3eef88597a555e291eed2c3b01cabc1a9ca0eb0c01df264d5b4274761e",
+        "seconds": 29.814421768707483
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Demain, notre cours commence dans une nouvelle salle, alors je vais à la papeterie du quartier pour acheter du matériel. J’y vais à pied, car elle est tout près, et je prends aussi la liste que la professeure nous a envoyée. À l’entrée, je montre cette liste au vendeur et je lui demande où se trouvent les cahiers à grands carreaux. Il m’en propose plusieurs, mais je n’en prends que deux parce que nous travaillons surtout sur ordinateur. Je choisis enfin un classeur bleu et je le pose sur le comptoir : « Pourriez-vous me donner un sac, s’il vous plaît ? »",
+      "occurrences": [
+        {
+          "id": "a2-context-course-achat",
+          "field": "/a2-context-course-achat/sentences.full",
+          "source": "runtime.CONTEXTS",
+          "source_offsets": [
+            {
+              "path": "/a2-context-course-achat/sentences/0/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 120
+            },
+            {
+              "path": "/a2-context-course-achat/sentences/1/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 103
+            },
+            {
+              "path": "/a2-context-course-achat/sentences/2/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 108
+            },
+            {
+              "path": "/a2-context-course-achat/sentences/3/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 106
+            },
+            {
+              "path": "/a2-context-course-achat/sentences/4/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 119
+            }
+          ],
+          "kind": "runtime_composite"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "runtime_composite"
+      ],
+      "kind": "runtime_composite",
+      "sha256": "33a51808a20acf6f801a4fd6bfe3af604b2bdc6c16ea3b6a6dbf16da28cc84c3",
+      "path": "audio/supplement/33a51808a20acf6f801a4fd6bfe3af604b2bdc6c16ea3b6a6dbf16da28cc84c3.mp3",
+      "source": "local-siwis",
+      "file_sha256": "12c449744a2c77a91c1072144af0009708085553e169628b93aa6b09c4c7063a",
+      "bytes": 217591,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 27.09768707482993,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/33a51808a20acf6f801a4fd6bfe3af604b2bdc6c16ea3b6a6dbf16da28cc84c3.wav",
+        "file_sha256": "a047a1f521ac49f9c28cd3cb704eaf848ae477fcca2528b6f19395d1ad7df122",
+        "seconds": 27.09768707482993
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "J’habite dans ce quartier depuis septembre et je prépare mon dossier depuis deux semaines, mais il manque encore un document. J’ai appelé la mairie il y a trois jours ; aujourd’hui, mercredi, je téléphone de nouveau pour demander un rendez-vous. « Je voudrais venir vendredi matin ; pourriez-vous me dire combien de temps dure le rendez-vous ? » L’employée me répond : « Il durera environ vingt minutes, mais vous devrez attendre pendant quelques minutes à votre arrivée. » Je choisis donc dix heures ; elle confirme : « Votre rendez-vous est dans deux jours ; apportez votre pièce d’identité et arrivez un peu avant. »",
+      "occurrences": [
+        {
+          "id": "a2-context-reservation-horaire",
+          "field": "/a2-context-reservation-horaire/sentences.full",
+          "source": "runtime.CONTEXTS",
+          "source_offsets": [
+            {
+              "path": "/a2-context-reservation-horaire/sentences/0/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 125
+            },
+            {
+              "path": "/a2-context-reservation-horaire/sentences/1/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 119
+            },
+            {
+              "path": "/a2-context-reservation-horaire/sentences/2/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 99
+            },
+            {
+              "path": "/a2-context-reservation-horaire/sentences/3/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 127
+            },
+            {
+              "path": "/a2-context-reservation-horaire/sentences/4/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 145
+            }
+          ],
+          "kind": "runtime_composite"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "runtime_composite"
+      ],
+      "kind": "runtime_composite",
+      "sha256": "57a6a8405223b4e70c6dae2221e50ff0613666e343024fb8d85753a4f37b4603",
+      "path": "audio/supplement/57a6a8405223b4e70c6dae2221e50ff0613666e343024fb8d85753a4f37b4603.mp3",
+      "source": "local-siwis",
+      "file_sha256": "53e0c9fb2ddc821a14e70b69ff050117b040ac7f9ff62c86c6b002c3c7ed551e",
+      "bytes": 240579,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 29.98857142857143,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/57a6a8405223b4e70c6dae2221e50ff0613666e343024fb8d85753a4f37b4603.wav",
+        "file_sha256": "89273f2d475eab1cfec2ba85b495c36dc20387c645e018b4681b0fdf9787b263",
+        "seconds": 29.98857142857143
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Samedi, nous organisons un pique-nique avec Léa, mais la météo annonce des averses dans l’après-midi. Si le soleil revient, nous déjeunerons au parc près de la rivière. Si la pluie continue, nous mangerons chez moi et nous sortirons ensuite. Tu devrais apporter une veste, car il peut faire frais au bord de l’eau. J’aimerais que chacun apporte quelque chose, mais personne n’est obligé de cuisiner. Si nous avions une voiture, nous pourrions choisir un endroit plus éloigné. Pourrais-tu vérifier les horaires du bus avant de confirmer notre rendez-vous ? Si le dernier bus part tôt, préviens-moi : nous avancerons l’heure du départ.",
+      "occurrences": [
+        {
+          "id": "b1-context-pique-nique",
+          "field": "/b1-context-pique-nique/sentences.full",
+          "source": "runtime.CONTEXTS",
+          "source_offsets": [
+            {
+              "path": "/b1-context-pique-nique/sentences/0/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 101
+            },
+            {
+              "path": "/b1-context-pique-nique/sentences/1/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 66
+            },
+            {
+              "path": "/b1-context-pique-nique/sentences/2/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 72
+            },
+            {
+              "path": "/b1-context-pique-nique/sentences/3/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 72
+            },
+            {
+              "path": "/b1-context-pique-nique/sentences/4/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 84
+            },
+            {
+              "path": "/b1-context-pique-nique/sentences/5/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 75
+            },
+            {
+              "path": "/b1-context-pique-nique/sentences/6/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 79
+            },
+            {
+              "path": "/b1-context-pique-nique/sentences/7/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 77
+            }
+          ],
+          "kind": "runtime_composite"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "runtime_composite"
+      ],
+      "kind": "runtime_composite",
+      "sha256": "f24eb3ec896c1e892da66748a9b435d47feb5180c8810a3e1710ed960bc4e64a",
+      "path": "audio/supplement/f24eb3ec896c1e892da66748a9b435d47feb5180c8810a3e1710ed960bc4e64a.mp3",
+      "source": "local-siwis",
+      "file_sha256": "365ade59a4e540bb0933728190b793dbc387a9dc38647aa602aa964865bd8747",
+      "bytes": 263149,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 32.79818594104309,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/f24eb3ec896c1e892da66748a9b435d47feb5180c8810a3e1710ed960bc4e64a.wav",
+        "file_sha256": "de5be552b8500abd18166a8ac5aa3b9985896720650d80813348d5f89c7d3be3",
+        "seconds": 32.79818594104309
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Lundi matin, ma responsable m’a appelé pour préparer une réunion avec un nouveau client. Elle m’a expliqué que le client avait envoyé ses questions la veille. Elle voulait savoir si j’avais déjà lu le document et ce que je pensais du calendrier. Je lui ai répondu que j’avais vérifié les dates, mais que deux informations manquaient encore. Elle m’a demandé de contacter Paul et de ne rien promettre avant sa réponse. Paul m’a assuré qu’il nous enverrait les chiffres avant dix-sept heures. Dès que j’ai reçu son tableau, je l’ai transmis à ma responsable ; je le lui ai envoyé avec un court commentaire. Le lendemain, nous avons présenté une proposition dont le client était satisfait.",
+      "occurrences": [
+        {
+          "id": "b1-context-reunion",
+          "field": "/b1-context-reunion/sentences.full",
+          "source": "runtime.CONTEXTS",
+          "source_offsets": [
+            {
+              "path": "/b1-context-reunion/sentences/0/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 88
+            },
+            {
+              "path": "/b1-context-reunion/sentences/1/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 69
+            },
+            {
+              "path": "/b1-context-reunion/sentences/2/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 86
+            },
+            {
+              "path": "/b1-context-reunion/sentences/3/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 94
+            },
+            {
+              "path": "/b1-context-reunion/sentences/4/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 76
+            },
+            {
+              "path": "/b1-context-reunion/sentences/5/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 72
+            },
+            {
+              "path": "/b1-context-reunion/sentences/6/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 113
+            },
+            {
+              "path": "/b1-context-reunion/sentences/7/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 81
+            }
+          ],
+          "kind": "runtime_composite"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "runtime_composite"
+      ],
+      "kind": "runtime_composite",
+      "sha256": "64b5574db300a28119eb573906dd7049b0ee2127c1975c2fb946d8a1cdd5825c",
+      "path": "audio/supplement/64b5574db300a28119eb573906dd7049b0ee2127c1975c2fb946d8a1cdd5825c.mp3",
+      "source": "local-siwis",
+      "file_sha256": "ec5463e0b5e04ae3713413ad62cfb931b270f4337acb7c61fd367f37c55ca4ef",
+      "bytes": 277150,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 34.53968253968254,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/64b5574db300a28119eb573906dd7049b0ee2127c1975c2fb946d8a1cdd5825c.wav",
+        "file_sha256": "9020fb46d01f6858899e714c69008dda858e0e38c38acb328b0f0336f0ea8b22",
+        "seconds": 34.53968253968254
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Comme la salle du quartier est en travaux, nous préparons notre repas collectif dans le jardin de Nadia. Nous changeons de lieu parce que nous ne voulons pas annuler la soirée. Nadia a installé deux grandes tables pour que tout le monde puisse manger ensemble. Je n’ai invité personne de nouveau ; nous n’avons que vingt places. Les invitations étaient prêtes hier, et je les lui ai envoyées ce matin. Puisque Paul passe au marché, je lui demande d’acheter du pain et quelques tomates. Du pain, il m’en apportera assez pour tous, donc je n’ai plus besoin de faire les courses. J’écris enfin aux voisins pour leur expliquer le changement et leur donner la nouvelle adresse.",
+      "occurrences": [
+        {
+          "id": "b1-context-repas",
+          "field": "/b1-context-repas/sentences.full",
+          "source": "runtime.CONTEXTS",
+          "source_offsets": [
+            {
+              "path": "/b1-context-repas/sentences/0/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 104
+            },
+            {
+              "path": "/b1-context-repas/sentences/1/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 71
+            },
+            {
+              "path": "/b1-context-repas/sentences/2/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 83
+            },
+            {
+              "path": "/b1-context-repas/sentences/3/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 67
+            },
+            {
+              "path": "/b1-context-repas/sentences/4/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 72
+            },
+            {
+              "path": "/b1-context-repas/sentences/5/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 83
+            },
+            {
+              "path": "/b1-context-repas/sentences/6/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 90
+            },
+            {
+              "path": "/b1-context-repas/sentences/7/fr",
+              "start_codepoint": 0,
+              "end_codepoint": 95
+            }
+          ],
+          "kind": "runtime_composite"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "runtime_composite"
+      ],
+      "kind": "runtime_composite",
+      "sha256": "769107b5cc819f8d12d0b0122e9889ddfb634b0213dde0a411ca5e09eb038c6d",
+      "path": "audio/supplement/769107b5cc819f8d12d0b0122e9889ddfb634b0213dde0a411ca5e09eb038c6d.mp3",
+      "source": "local-siwis",
+      "file_sha256": "5fbaf22ee2c964fb11f57deabd769ad6a5b2392e04d58d5b490de2d92b3e0684",
+      "bytes": 274434,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "seconds": 34.202993197278914,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/769107b5cc819f8d12d0b0122e9889ddfb634b0213dde0a411ca5e09eb038c6d.wav",
+        "file_sha256": "e74d56b28c7c4befb1b5a6e8914b43961d33954e9c5451d59bacd579a89de16e",
+        "seconds": 34.202993197278914
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     }
   ],
   "scope": {
@@ -143642,5 +146848,12 @@
     "bitrate": 64000,
     "original_wavs_retained": true,
     "full_decode_verified": true
+  },
+  "role_sync": {
+    "sourceSpanMismatches": 0,
+    "mediaModified": false,
+    "textModified": false,
+    "changedRecords": 0,
+    "actualListening": false
   }
 }

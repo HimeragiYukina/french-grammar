@@ -1,0 +1,30 @@
+{
+  "text": "Nous avons déjà testé les micros, mais nous n’avons pas encore enregistré la chanson.",
+  "text_sha256": "a9c3b1acb3b2d255d4703b3e83251ad81c07e7ae9fc57e802e72d667231325c9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.08671201814059,
+      "source_seconds": 4.08671201814059,
+      "source_file_sha256": "384cd1e6eadc18b8fac433ea3fc15f284d2789fa93cd8f71bd71ec038f13a6d3",
+      "file_sha256": "2c051de4221d4254e095cb5de47d719d5148678400cb0cb88ebda87f2ef9861b",
+      "bytes": 33480,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

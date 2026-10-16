@@ -1,0 +1,30 @@
+{
+  "text": "Le titre ajoute une évacuation et suggère un lien avec la sirène, que les deux fragments n’établissent pas. Version prudente : « Des gradins vides, une sirène au loin ». Version rythmée : « Les gradins, vides. Au loin, la sirène. »",
+  "text_sha256": "f422f49dd41d75e019f66746f0272cbd19878e5e0b2510fe19f5f9086d5b3f2d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 14.094512471655328,
+      "source_seconds": 14.094512471655328,
+      "source_file_sha256": "461083fed36b06ec75d8f107e9883ae16d79119c513a757a235a0e71de0d6663",
+      "file_sha256": "8be22259fe1f1e74ce1c053d1dd5529d2830908ce49ae54f2369e1ea82bee717",
+      "bytes": 113519,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

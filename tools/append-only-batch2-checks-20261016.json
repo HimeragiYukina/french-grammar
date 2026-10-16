@@ -1,0 +1,37 @@
+{
+  "batch": "grammar-original-expansion-20261016-batch2",
+  "status": "passed",
+  "checks": {
+    "append_only_evidence": {
+      "sections": 6,
+      "practice": 12,
+      "affected_source_files": 10
+    },
+    "historical_content_baseline": "passed without modifying content-baseline.json",
+    "strict_review_baseline": "passed:97 points,6 contexts,145 historical field fixes; original review counts checked after exact batch2 reversal",
+    "tamper_rejection": [
+      {
+        "scenario": "old_prefix_loss",
+        "rejected": true,
+        "evidence": "('Batch2 current source changed outside ledger', 'tools/expansion-a1.json')"
+      },
+      {
+        "scenario": "added_suffix_change",
+        "rejected": true,
+        "evidence": "('Batch2 current source changed outside ledger', 'tools/expansion-a1.json')"
+      },
+      {
+        "scenario": "unrelated_field_change",
+        "rejected": true,
+        "evidence": "('Batch2 current source changed outside ledger', 'tools/expansion-a1.json')"
+      }
+    ]
+  },
+  "original_prefix_proof": "Each appended array retains the exact old-prefix SHA; exact added suffix is removed only in memory. Whole reconstructed file SHA must match recorded pre-batch file. Existing historical baselines then replay their prior fixes and must still match original hashes.",
+  "baseline_files_sha256": {
+    "content-baseline.json": "a17a54048c334231f27a84457574491fa726696791eadf6945abd666a4e4b225",
+    "strict-review-baseline.json": "25fbee3f19541f18d60be04ad4ace10f4b75c1cd5426d3863110cda368985ea8"
+  },
+  "public_scope": "Grammar-only source payload; no tutorial IDs, text, or private corpus.",
+  "limits": "Evidence proves append-only preservation and recorded attribution. It does not replace language review or auditory listening."
+}

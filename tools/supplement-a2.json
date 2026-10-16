@@ -299,5 +299,21 @@
         "note": "这里是明确集合中的许多本，des=de+les；beaucoup de livres泛指许多书，不能机械把所有beaucoup des判错。prêtés配前置阳性复数livres；m’为接受者不控制配合。"
       }
     ]
+  },
+  "a2-pc-avoir": {
+    "sections": [],
+    "practice": [
+      {
+        "q": "乐队已测试麦克风，但尚未录歌。纠正总结并保留这两个事实：Nous avons déjà enregistré la chanson.",
+        "a": "Nous avons déjà testé les micros, mais nous n’avons pas encore enregistré la chanson.",
+        "note": "不能仅改成没有录歌而遗漏已测试。也接受Nous avons testé les micros. Nous n’avons pas encore enregistré la chanson.；déjà可省，不得把尚未录制说成从未录制过任何歌曲。"
+      },
+      {
+        "q": "女歌手刚收到乐谱，只读了第一页，尚未与乐队合唱。写三句说明这些事实，第一句使用venir de。",
+        "a": "La chanteuse vient de recevoir la partition. Elle a seulement lu la première page. Elle n’a pas encore chanté avec le groupe.",
+        "note": "vient de recevoir标刚收到；a lu只覆盖第一页；pas encore chanté不能改成不会唱。允许Elle vient de recevoir…代替首句名词，合并后两句也可；不能添加已经读完整份乐谱。"
+      }
+    ],
+    "related": []
   }
 }

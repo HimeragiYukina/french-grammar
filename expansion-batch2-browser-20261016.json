@@ -1,0 +1,50 @@
+{
+  "viewport": 390,
+  "passed": 6,
+  "rows": [
+    {
+      "level": "a1",
+      "point": "a1-mots-interro",
+      "newSectionVisible": true,
+      "newAnswersRevealed": 2,
+      "overflow": false
+    },
+    {
+      "level": "a2",
+      "point": "a2-pc-avoir",
+      "newSectionVisible": true,
+      "newAnswersRevealed": 2,
+      "overflow": false
+    },
+    {
+      "level": "b1",
+      "point": "b1-discours-indirect",
+      "newSectionVisible": true,
+      "newAnswersRevealed": 2,
+      "overflow": false
+    },
+    {
+      "level": "b2",
+      "point": "b2-concordance",
+      "newSectionVisible": true,
+      "newAnswersRevealed": 2,
+      "overflow": false
+    },
+    {
+      "level": "c1",
+      "point": "c1-hypothese-sans-si",
+      "newSectionVisible": true,
+      "newAnswersRevealed": 2,
+      "overflow": false
+    },
+    {
+      "level": "c2",
+      "point": "c2-ellipse",
+      "newSectionVisible": true,
+      "newAnswersRevealed": 2,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "auditoryReview": false
+}

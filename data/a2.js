@@ -1039,6 +1039,22 @@ window.GRAMMAR_DATA.A2={
               "use": "已发生的是三次尝试；personne 作主语，不能换成 rien 来指人。"
             }
           ]
+        },
+        {
+          "title": "录音准备：测试完成不代表录制完成",
+          "examples": [
+            {
+              "fr": "Nous avons déjà testé les micros, mais nous n’avons pas encore enregistré la chanson.",
+              "zh": "我们已经测试过麦克风，但还没有录制这首歌。",
+              "use": "测试与录制分别判断；déjà和pas encore不改变动词所指事件。"
+            },
+            {
+              "fr": "La chanteuse vient de recevoir la partition. Elle a lu la première page, mais elle n’a pas encore chanté avec le groupe.",
+              "zh": "女歌手刚收到乐谱。她已经读了第一页，但还没有和乐队一起唱。",
+              "use": "刚收到、已读一页、尚未合唱是三条不同事实；venir de后接不定式。"
+            }
+          ],
+          "explanation": "在乐队排练的独立情境中，用复合过去时核对完成清单：测试过设备、收到乐谱和录好歌曲是不同事件。déjà确认截至目前已做；pas encore表示截至目前尚未发生，并不保证之后一定发生。venir de +不定式标出刚发生，不能误当作未来计划。读到结果时回查具体动词，不凭准备充分推断任务完成。"
         }
       ],
       "comparison": "Je lisais quand tu as appelé：读书是当时展开的背景；J’ai lu ce roman en deux jours：把读完小说视为完整事件。两种过去时表达观察角度，而非长短。",
@@ -1059,6 +1075,16 @@ window.GRAMMAR_DATA.A2={
           "q": "用 nous 与 déjà，把 réserver une chambre 改为已完成的预订。",
           "a": "Nous avons déjà réservé une chambre.",
           "note": "déjà 放在 avons 与 réservé 之间。"
+        },
+        {
+          "q": "乐队已测试麦克风，但尚未录歌。纠正总结并保留这两个事实：Nous avons déjà enregistré la chanson.",
+          "a": "Nous avons déjà testé les micros, mais nous n’avons pas encore enregistré la chanson.",
+          "note": "不能仅改成没有录歌而遗漏已测试。也接受Nous avons testé les micros. Nous n’avons pas encore enregistré la chanson.；déjà可省，不得把尚未录制说成从未录制过任何歌曲。"
+        },
+        {
+          "q": "女歌手刚收到乐谱，只读了第一页，尚未与乐队合唱。写三句说明这些事实，第一句使用venir de。",
+          "a": "La chanteuse vient de recevoir la partition. Elle a seulement lu la première page. Elle n’a pas encore chanté avec le groupe.",
+          "note": "vient de recevoir标刚收到；a lu只覆盖第一页；pas encore chanté不能改成不会唱。允许Elle vient de recevoir…代替首句名词，合并后两句也可；不能添加已经读完整份乐谱。"
         }
       ],
       "related": [

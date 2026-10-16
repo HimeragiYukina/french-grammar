@@ -4,37 +4,37 @@
     {
       "level": "a1",
       "points": 23,
-      "playbackTargets": 428,
+      "playbackTargets": 433,
       "unmapped": 0
     },
     {
       "level": "a2",
       "points": 18,
-      "playbackTargets": 384,
+      "playbackTargets": 388,
       "unmapped": 0
     },
     {
       "level": "b1",
       "points": 15,
-      "playbackTargets": 396,
+      "playbackTargets": 401,
       "unmapped": 0
     },
     {
       "level": "b2",
       "points": 16,
-      "playbackTargets": 377,
+      "playbackTargets": 382,
       "unmapped": 0
     },
     {
       "level": "c1",
       "points": 13,
-      "playbackTargets": 327,
+      "playbackTargets": 330,
       "unmapped": 0
     },
     {
       "level": "c2",
       "points": 12,
-      "playbackTargets": 283,
+      "playbackTargets": 288,
       "unmapped": 0
     }
   ],

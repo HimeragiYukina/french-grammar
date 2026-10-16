@@ -48,6 +48,22 @@
             "use": "已发生的是三次尝试；personne 作主语，不能换成 rien 来指人。"
           }
         ]
+      },
+      {
+        "title": "录音准备：测试完成不代表录制完成",
+        "examples": [
+          {
+            "fr": "Nous avons déjà testé les micros, mais nous n’avons pas encore enregistré la chanson.",
+            "zh": "我们已经测试过麦克风，但还没有录制这首歌。",
+            "use": "测试与录制分别判断；déjà和pas encore不改变动词所指事件。"
+          },
+          {
+            "fr": "La chanteuse vient de recevoir la partition. Elle a lu la première page, mais elle n’a pas encore chanté avec le groupe.",
+            "zh": "女歌手刚收到乐谱。她已经读了第一页，但还没有和乐队一起唱。",
+            "use": "刚收到、已读一页、尚未合唱是三条不同事实；venir de后接不定式。"
+          }
+        ],
+        "explanation": "在乐队排练的独立情境中，用复合过去时核对完成清单：测试过设备、收到乐谱和录好歌曲是不同事件。déjà确认截至目前已做；pas encore表示截至目前尚未发生，并不保证之后一定发生。venir de +不定式标出刚发生，不能误当作未来计划。读到结果时回查具体动词，不凭准备充分推断任务完成。"
       }
     ],
     "comparison": "Je lisais quand tu as appelé：读书是当时展开的背景；J’ai lu ce roman en deux jours：把读完小说视为完整事件。两种过去时表达观察角度，而非长短。",

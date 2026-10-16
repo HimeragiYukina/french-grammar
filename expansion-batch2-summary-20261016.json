@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-16",
+  "status": "Verified expansion batch; authorized commit and push on original branch",
+  "batch": "grammar-expansion-batch2",
+  "countingBasis": "仅核对本语法仓库实际追加节与题目，以及六份独立原创语法proposal。",
+  "counts": {
+    "newPages": 0,
+    "improvedExistingGrammarPoints": 6,
+    "newSections": 6,
+    "newExplainedTransferQuestions": 12,
+    "newFrenchExamples": 16
+  },
+  "grammarPoints": [
+    {
+      "level": "A1",
+      "pointId": "a1-mots-interro",
+      "improvedExistingPoints": 1,
+      "newPages": 0,
+      "newSections": 1,
+      "newExplainedTransferQuestions": 2,
+      "sectionTitle": "问时刻还是问编号：泳池服务台",
+      "newFrenchExamples": 3,
+      "sourceFiles": [
+        "tools/expansion-a1.json",
+        "tools/supplement-a1.json"
+      ],
+      "currentAppendsMatchReviewedProposal": true
+    },
+    {
+      "level": "A2",
+      "pointId": "a2-pc-avoir",
+      "improvedExistingPoints": 1,
+      "newPages": 0,
+      "newSections": 1,
+      "newExplainedTransferQuestions": 2,
+      "sectionTitle": "录音准备：测试完成不代表录制完成",
+      "newFrenchExamples": 2,
+      "sourceFiles": [
+        "tools/expansion-a2.json",
+        "tools/supplement-a2.json"
+      ],
+      "currentAppendsMatchReviewedProposal": true
+    },
+    {
+      "level": "B1",
+      "pointId": "b1-discours-indirect",
+      "improvedExistingPoints": 1,
+      "newPages": 0,
+      "newSections": 1,
+      "newExplainedTransferQuestions": 2,
+      "sectionTitle": "跨日转述：保留原消息日期与未确认状态",
+      "newFrenchExamples": 3,
+      "sourceFiles": [
+        "tools/expansion-b1.json",
+        "tools/supplement-b1.json"
+      ],
+      "currentAppendsMatchReviewedProposal": true
+    },
+    {
+      "level": "B2",
+      "pointId": "b2-concordance",
+      "improvedExistingPoints": 1,
+      "newPages": 0,
+      "newSections": 1,
+      "newExplainedTransferQuestions": 2,
+      "sectionTitle": "旧话的时态与后来消息的日期：后移不等于核实",
+      "newFrenchExamples": 3,
+      "sourceFiles": [
+        "tools/expansion-b2.json",
+        "tools/supplement-b2.json"
+      ],
+      "currentAppendsMatchReviewedProposal": true
+    },
+    {
+      "level": "C1",
+      "pointId": "c1-hypothese-sans-si",
+      "improvedExistingPoints": 1,
+      "newPages": 0,
+      "newSections": 1,
+      "newExplainedTransferQuestions": 2,
+      "sectionTitle": "sans的过去假设与au cas où的预案：剧团道具间",
+      "newFrenchExamples": 2,
+      "sourceFiles": [
+        "tools/supplement-c1.json"
+      ],
+      "currentAppendsMatchReviewedProposal": true
+    },
+    {
+      "level": "C2",
+      "pointId": "c2-ellipse",
+      "improvedExistingPoints": 1,
+      "newPages": 0,
+      "newSections": 1,
+      "newExplainedTransferQuestions": 2,
+      "sectionTitle": "短句留下气氛，完整通知交代可执行信息",
+      "newFrenchExamples": 3,
+      "sourceFiles": [
+        "tools/supplement-c2.json"
+      ],
+      "currentAppendsMatchReviewedProposal": true
+    }
+  ],
+  "audio": {
+    "ownExactUnits": 3592,
+    "newRecordings": 71,
+    "generatedUsing": "Piper CPUExecutionProvider, 2 threads, BELOW_NORMAL",
+    "newMP3FullDecodeVerified": 71,
+    "originalWavsRetained": true,
+    "sourceSpanMismatches": 0,
+    "technicalSamples": 6,
+    "technicalFailures": 0,
+    "thresholdFlags": 0,
+    "actualListening": false
+  },
+  "tests": {
+    "status": "pending_final_acceptance",
+    "passed": [
+      {
+        "name": "六语法点实际追加与复审proposal逐项相等",
+        "points": 6,
+        "sections": 6,
+        "questions": 12
+      },
+      {
+        "name": "本站六语法点390px浏览器验收",
+        "cases": 6,
+        "newAnswersRevealed": 12,
+        "failed": 0,
+        "evidence": "expansion-batch2-browser.json 的 grammar 数组"
+      }
+    ],
+    "failed": [],
+    "pending": [],
+    "notRun": [
+      "实际人工听审与语音转写对齐",
+      "真实Google français语音可用性",
+      "真实麦克风互动"
+    ],
+    "finalPassed": [
+      {
+        "name": "课程内容/链接/JS与语法schema/旧基线/严格保留",
+        "status": "pass"
+      },
+      {
+        "name": "全站390px浏览器",
+        "grammarPoints": 97,
+        "errors": []
+      },
+      {
+        "name": "音频目录HTTP+file离线播放/分页/筛选/速率/链接",
+        "status": "pass",
+        "ownUnits": 3592
+      },
+      {
+        "name": "音频技术抽样",
+        "samples": 6,
+        "failures": 0
+      }
+    ]
+  },
+  "remainingGaps": [
+    "本轮各级只深化一个既有语法点，不代表全部语法现象、语域和例外均覆盖。",
+    "中高级仍需持续长输入、跨情境复现及真实互动；语法练习不能单独证明语言等级。"
+  ],
+  "limits": [
+    "本批为既有内容深化，新增页面0；不与前一批改进数量混算。",
+    "中高级仍需更多持续长输入、跨话题复现与真实互动；本批完成不代表课程已完整覆盖A1—C2。",
+    "学习任务及自评不是官方评分，阅读完成不保证达到C2或取得某考试分数。",
+    "通过解码、哈希和映射检查不等于已听验；实际发音、韵律与语音文本对齐尚未人工复核。"
+  ],
+  "localOpen": {
+    "repository": "C:\\Users\\10673\\git\\french-grammar",
+    "command": "见仓库运行说明",
+    "reportDestinationPlanned": "expansion-batch2-summary-20261016.html"
+  },
+  "noRepositoryWrites": false,
+  "completedUtc": "2026-10-16T11:37:05.079969+00:00",
+  "gitActions": {
+    "authorized": true,
+    "mode": "Commit/push existing branch after validation; remote receipt recorded separately",
+    "deployment": false
+  }
+}

@@ -532,6 +532,27 @@
             "use": "转述时视角和时间坐标改变。"
           }
         ]
+      },
+      {
+        "title": "跨日转述：保留原消息日期与未确认状态",
+        "explanation": "以下独立虚构维修预约发生在周二和周三。转述日期改变时，demain不能机械照搬；可以直接写jeudi消除歧义。转述“可能”要保留pourrait，尚未确认不能改成已预约。条件式过去视角与现实核实状态分开检查。",
+        "examples": [
+          {
+            "fr": "Mardi, la réparatrice a annoncé qu’elle pourrait passer le lendemain, mais que l’horaire restait à confirmer.",
+            "zh": "周二，维修员说她可能第二天来，但时间仍待确认。",
+            "use": "le lendemain相对周二指周三；pourrait保留可能，不表示已确认。"
+          },
+          {
+            "fr": "Mercredi, elle a précisé que son passage était finalement prévu jeudi à neuf heures, et non mercredi.",
+            "zh": "周三，她说明最终安排是周四九点来，而不是周三。",
+            "use": "绝对星期与时间优先消除跨日歧义；最终说明取代早先未确认的可能安排。"
+          },
+          {
+            "fr": "Elle a demandé au client de ne pas laisser l’appareil branché avant son arrivée.",
+            "zh": "她请客户在她来之前不要让设备接着电。",
+            "use": "请求转述用demander à…de ne pas；不把原话的vous照抄成错误动作主体。"
+          }
+        ]
       }
     ],
     "comparison": "Il demande : « Qu’est-ce qui se passe ? » → Il demande ce qui se passe；« Qu’est-ce que tu fais ? » → Il demande ce que tu fais。Demander si 不表示条件，其后可有将来或条件式。",

@@ -106,6 +106,16 @@
         "q": "诺拉周一对你说“Je te prêterai mon dictionnaire demain.”；你周二转述这次承诺。写一句，交代原话日期与预计借出的日期，不声称已经兑现。",
         "a": "Lundi, Nora m’a promis qu’elle me prêterait son dictionnaire le lendemain, mardi.",
         "note": "四项各0—2：je/te/mon调整；周一来源与周二目标清楚；过去视点将来；未添加兑现事实。同一参照日可保留demain，并非任何转述都必须改le lendemain。"
+      },
+      {
+        "q": "独立情境：周二维修员对你说“Je pourrai peut-être venir demain, mais je dois encore confirmer.” 周三上午你向同事转述，尚无新消息。写一句过去引述，明确原计划指哪天并保留未确认。",
+        "a": "Mardi, la réparatrice m’a dit qu’elle pourrait peut-être venir le lendemain, donc mercredi, mais qu’elle devait encore confirmer.",
+        "note": "le lendemain以周二为参照指周三，不是周三转述时的明天。pourrait与peut-être可保原不确定性；尚无确认，不能写Elle vient aujourd’hui à neuf heures。也接受…venir mercredi…，或保留引语并注明周二来源。未给具体时刻，不得补九点。"
+      },
+      {
+        "q": "另一则独立维修消息：周三维修员写“Mon passage est finalement prévu jeudi à neuf heures. Ne laissez pas l’appareil branché avant mon arrivée.” 当天向同住人转告两项内容，用Elle a précisé que…与Elle nous a demandé de…；不得变成修好保证。",
+        "a": "Elle a précisé que son passage était finalement prévu jeudi à neuf heures. Elle nous a demandé de ne pas laisser l’appareil branché avant son arrivée.",
+        "note": "son passage指她来访，ne pas位于不定式前，son arrivée仍指维修员。也接受que son passage est finalement prévu…以强调仍有效安排。已安排来访不等于保证当场修好，原文也未给维修费用。"
       }
     ],
     "related": [

@@ -1,0 +1,30 @@
+{
+  "text": "Lundi, la responsable a déclaré qu’elle avait rangé la caisse la veille.",
+  "text_sha256": "332571f4c80cabf21d34543f14fff878a2b702caa848f9e6da1ea9f1aa8ea2bc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.167981859410431,
+      "source_seconds": 4.167981859410431,
+      "source_file_sha256": "eaade0c7e3c5b27078c28d4c168d397601e92bfecd6bfcef867e9374585e499e",
+      "file_sha256": "d15c3713222b64f27a08c26e58289c5be47fd8f7fb06f28ba18c8cdf5db74737",
+      "bytes": 34107,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Je me souviens d’une caisse rouge près de la porte, mais je ne peux pas dater cette scène.",
+  "text_sha256": "6d062e96f09a2b0f2feffb8b70ba48623b5dc6d7be56bcd2fe754aea87dd9671",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.982222222222222,
+      "source_seconds": 3.982222222222222,
+      "source_file_sha256": "46f6932fe167a11410acd4e4cabf10f2c82203fa87fff91d6c67b655891d412a",
+      "file_sha256": "9e053df7bfcb64cd06cb7579dccbe2299509e0a7693b14fca3918fc62e87879d",
+      "bytes": 32644,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

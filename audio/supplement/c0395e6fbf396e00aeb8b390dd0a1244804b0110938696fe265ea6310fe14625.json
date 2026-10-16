@@ -1,0 +1,30 @@
+{
+  "text": "évacuation",
+  "text_sha256": "c0395e6fbf396e00aeb8b390dd0a1244804b0110938696fe265ea6310fe14625",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.1261678004535147,
+      "source_seconds": 1.1261678004535147,
+      "source_file_sha256": "6f8e98137cefb1fbd89230cfe05802ab81ee5a2ac99aacd8c8b597a42050eb88",
+      "file_sha256": "45e72fe6cefe24c0666c93945dadeec04a99dd910b31d4c0fb007ef6dfd967ce",
+      "bytes": 9866,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

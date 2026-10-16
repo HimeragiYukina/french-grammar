@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3522,
-  "covered": 3522,
+  "denominator": 3592,
+  "covered": 3592,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -191,10 +191,10 @@
       "kind": "grammar-point",
       "id": "a1-mots-interro",
       "level": "A1",
-      "exactTextUnits": 34,
-      "localFilesPresent": 34,
+      "exactTextUnits": 42,
+      "localFilesPresent": 42,
       "missingLocalFiles": 0,
-      "requiredUnits": 34,
+      "requiredUnits": 42,
       "errorInputUnits": 0
     },
     {
@@ -268,11 +268,11 @@
       "kind": "grammar-point",
       "id": "a2-pc-avoir",
       "level": "A2",
-      "exactTextUnits": 31,
-      "localFilesPresent": 31,
+      "exactTextUnits": 40,
+      "localFilesPresent": 40,
       "missingLocalFiles": 0,
-      "requiredUnits": 30,
-      "errorInputUnits": 1
+      "requiredUnits": 38,
+      "errorInputUnits": 2
     },
     {
       "repo": "grammar",
@@ -532,11 +532,11 @@
       "kind": "grammar-point",
       "id": "b1-discours-indirect",
       "level": "B1",
-      "exactTextUnits": 49,
-      "localFilesPresent": 49,
+      "exactTextUnits": 63,
+      "localFilesPresent": 63,
       "missingLocalFiles": 0,
-      "requiredUnits": 49,
-      "errorInputUnits": 0
+      "requiredUnits": 62,
+      "errorInputUnits": 1
     },
     {
       "repo": "grammar",
@@ -653,11 +653,11 @@
       "kind": "grammar-point",
       "id": "b2-concordance",
       "level": "B2",
-      "exactTextUnits": 28,
-      "localFilesPresent": 28,
+      "exactTextUnits": 50,
+      "localFilesPresent": 50,
       "missingLocalFiles": 0,
-      "requiredUnits": 28,
-      "errorInputUnits": 0
+      "requiredUnits": 48,
+      "errorInputUnits": 2
     },
     {
       "repo": "grammar",
@@ -873,10 +873,10 @@
       "kind": "grammar-point",
       "id": "c1-hypothese-sans-si",
       "level": "C1",
-      "exactTextUnits": 46,
-      "localFilesPresent": 46,
+      "exactTextUnits": 55,
+      "localFilesPresent": 55,
       "missingLocalFiles": 0,
-      "requiredUnits": 44,
+      "requiredUnits": 53,
       "errorInputUnits": 2
     },
     {
@@ -1016,11 +1016,11 @@
       "kind": "grammar-point",
       "id": "c2-ellipse",
       "level": "C2",
-      "exactTextUnits": 25,
-      "localFilesPresent": 25,
+      "exactTextUnits": 36,
+      "localFilesPresent": 36,
       "missingLocalFiles": 0,
-      "requiredUnits": 24,
-      "errorInputUnits": 1
+      "requiredUnits": 34,
+      "errorInputUnits": 2
     },
     {
       "repo": "grammar",
@@ -1143,6 +1143,5 @@
       "requiredUnits": 22,
       "errorInputUnits": 0
     }
-  ],
-  "acceptedAudioFileAndTextSnapshotSha256": "7eab187cabf8ca7c9e8c70e040d9a4f3ab99c6a70c638414c5c8c358c45701d1"
+  ]
 }

@@ -1,0 +1,30 @@
+{
+  "text": "son passage",
+  "text_sha256": "a4ed3db946cd0838c6fd593c37853d97cf740b9649b465e8ebd3096d910e6e45",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.9636281179138322,
+      "source_seconds": 0.9636281179138322,
+      "source_file_sha256": "d891a88dd0b6146dff6ed4c842517b5f819dcb6fbadcf6608ca0f53cb7ec4c59",
+      "file_sha256": "9ac90ad7718607b377fcd152a3ee34dd0d51b843951df9d394563eaae884dcc4",
+      "bytes": 8403,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "La caisse était près de la porte jeudi.",
+  "text_sha256": "8fe70b08eb0c2ff14665a12163fce1dcdba311e409d99728af355883d0a6afd3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.1130158730158732,
+      "source_seconds": 2.1130158730158732,
+      "source_file_sha256": "9f8be1f8f1199feee213f3e6ecc40378652ceeb62808c477a758074a0237ba01",
+      "file_sha256": "462799730a0f6d1e6caab3274fa811657e5ba98b6c4af01603de96d17617d02c",
+      "bytes": 17598,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

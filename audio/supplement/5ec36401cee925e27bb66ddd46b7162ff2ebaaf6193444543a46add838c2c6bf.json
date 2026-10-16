@@ -1,0 +1,30 @@
+{
+  "text": "Quel numéro porte mon casier ?",
+  "text_sha256": "5ec36401cee925e27bb66ddd46b7162ff2ebaaf6193444543a46add838c2c6bf",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.787936507936508,
+      "source_seconds": 1.787936507936508,
+      "source_file_sha256": "039d6dfcf32da2cca94f2b1f3c996d80ad984fd203cbf7cf8c170723bbede273",
+      "file_sha256": "4e07a952c9c0238a0a49a4066214ab8af07e083a708ef06589d3080ffb3465d7",
+      "bytes": 15090,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

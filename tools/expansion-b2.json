@@ -184,6 +184,27 @@
             "use": "报告者把居住状态当作目前仍成立的信息。"
           }
         ]
+      },
+      {
+        "title": "旧话的时态与后来消息的日期：后移不等于核实",
+        "explanation": "独立场景：社区修理工坊寻找一只红色工具箱。周一管理员说的话、周三志愿者的回忆、周四收到的留言属于不同来源。转述时，用愈过去标记早于报告的动作，用条件式标记过去视点的将来；这两者本身都不证明动作完成或承诺履行。demain须按原话日期换成明确日期或le lendemain；ce jour-là要能指回具体日期。若内容只是听说或记忆，应保留selon、se souvenir等归属，不能靠语法后移把它写成已核实事实。",
+        "examples": [
+          {
+            "fr": "Lundi, la responsable a déclaré qu’elle avait rangé la caisse la veille.",
+            "zh": "周一，负责人说她前一天已经把箱子收好了。",
+            "use": "avait rangé表示收箱先于周一发言；la veille指周日。这里只确认她作了这一陈述，不等于有人独立核实。"
+          },
+          {
+            "fr": "Mercredi, je rapporte que la responsable avait annoncé lundi : « Je vérifierai l’armoire demain. » Elle avait donc annoncé qu’elle vérifierait l’armoire mardi.",
+            "zh": "周三我转述：负责人周一曾说“我明天检查柜子”。所以她当时宣布的是周二会检查柜子。",
+            "use": "vérifierait是过去视点的将来，mardi消除demain的参照歧义；仍未说明她是否真的检查。"
+          },
+          {
+            "fr": "Dans son message reçu jeudi, Malik écrit qu’il se souvient d’une caisse rouge près de la porte, sans pouvoir dater cette scène.",
+            "zh": "在周四收到的消息中，马利克写道，他记得门边有一个红箱子，但无法确定那一幕的日期。",
+            "use": "现在时écrit引出仍可阅读的消息，se souvient保留回忆来源；收信日期不自动成为箱子在门边的日期。"
+          }
+        ]
       }
     ],
     "comparison": "Il a dit qu'il était malade（当时病了，现在是否仍病未说明）/ qu'il est malade（把病情呈现为目前仍有效）。hier → la veille 仅在时间参照改变时；同一天即时转述可保留 aujourd'hui。",

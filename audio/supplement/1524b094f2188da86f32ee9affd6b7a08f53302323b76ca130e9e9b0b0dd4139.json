@@ -1,0 +1,30 @@
+{
+  "text": "Quel est le numéro de mon casier ? — C’est le numéro seize.",
+  "text_sha256": "1524b094f2188da86f32ee9affd6b7a08f53302323b76ca130e9e9b0b0dd4139",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.320453514739229,
+      "source_seconds": 3.320453514739229,
+      "source_file_sha256": "e729cabfaf1a49ecb70bdc5b4807ef18f623ac76e929af01ff2cbf8daeb96a9a",
+      "file_sha256": "f3e8bae20aa8c043a95a7a0638e0aae07f99bbd9387db25035e2a99f059b0186",
+      "bytes": 27420,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

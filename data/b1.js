@@ -1519,6 +1519,27 @@ window.GRAMMAR_DATA.B1={
           ]
         },
         {
+          "title": "跨日转述：保留原消息日期与未确认状态",
+          "explanation": "以下独立虚构维修预约发生在周二和周三。转述日期改变时，demain不能机械照搬；可以直接写jeudi消除歧义。转述“可能”要保留pourrait，尚未确认不能改成已预约。条件式过去视角与现实核实状态分开检查。",
+          "examples": [
+            {
+              "fr": "Mardi, la réparatrice a annoncé qu’elle pourrait passer le lendemain, mais que l’horaire restait à confirmer.",
+              "zh": "周二，维修员说她可能第二天来，但时间仍待确认。",
+              "use": "le lendemain相对周二指周三；pourrait保留可能，不表示已确认。"
+            },
+            {
+              "fr": "Mercredi, elle a précisé que son passage était finalement prévu jeudi à neuf heures, et non mercredi.",
+              "zh": "周三，她说明最终安排是周四九点来，而不是周三。",
+              "use": "绝对星期与时间优先消除跨日歧义；最终说明取代早先未确认的可能安排。"
+            },
+            {
+              "fr": "Elle a demandé au client de ne pas laisser l’appareil branché avant son arrivée.",
+              "zh": "她请客户在她来之前不要让设备接着电。",
+              "use": "请求转述用demander à…de ne pas；不把原话的vous照抄成错误动作主体。"
+            }
+          ]
+        },
+        {
           "title": "间接疑问与自反代词：还原谁向谁问",
           "explanation": "间接问题采用陈述语序，是非问用 si；“关于/需要什么”先查动词的介词支配。se 的人称跟实际动作主体，不照抄直接问句里的 vous。",
           "examples": [
@@ -1579,6 +1600,16 @@ window.GRAMMAR_DATA.B1={
           "q": "诺拉周一对你说“Je te prêterai mon dictionnaire demain.”；你周二转述这次承诺。写一句，交代原话日期与预计借出的日期，不声称已经兑现。",
           "a": "Lundi, Nora m’a promis qu’elle me prêterait son dictionnaire le lendemain, mardi.",
           "note": "四项各0—2：je/te/mon调整；周一来源与周二目标清楚；过去视点将来；未添加兑现事实。同一参照日可保留demain，并非任何转述都必须改le lendemain。"
+        },
+        {
+          "q": "独立情境：周二维修员对你说“Je pourrai peut-être venir demain, mais je dois encore confirmer.” 周三上午你向同事转述，尚无新消息。写一句过去引述，明确原计划指哪天并保留未确认。",
+          "a": "Mardi, la réparatrice m’a dit qu’elle pourrait peut-être venir le lendemain, donc mercredi, mais qu’elle devait encore confirmer.",
+          "note": "le lendemain以周二为参照指周三，不是周三转述时的明天。pourrait与peut-être可保原不确定性；尚无确认，不能写Elle vient aujourd’hui à neuf heures。也接受…venir mercredi…，或保留引语并注明周二来源。未给具体时刻，不得补九点。"
+        },
+        {
+          "q": "另一则独立维修消息：周三维修员写“Mon passage est finalement prévu jeudi à neuf heures. Ne laissez pas l’appareil branché avant mon arrivée.” 当天向同住人转告两项内容，用Elle a précisé que…与Elle nous a demandé de…；不得变成修好保证。",
+          "a": "Elle a précisé que son passage était finalement prévu jeudi à neuf heures. Elle nous a demandé de ne pas laisser l’appareil branché avant son arrivée.",
+          "note": "son passage指她来访，ne pas位于不定式前，son arrivée仍指维修员。也接受que son passage est finalement prévu…以强调仍有效安排。已安排来访不等于保证当场修好，原文也未给维修费用。"
         }
       ]
     },

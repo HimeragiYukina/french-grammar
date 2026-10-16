@@ -1,0 +1,30 @@
+{
+  "text": "J’ai rangé la caisse hier, et je vérifierai l’armoire demain.",
+  "text_sha256": "ae70722672d20f7e83d92231f2bf652eddf63de1f80d7c97c0d4a3eac36210a3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2043537414965986,
+      "source_seconds": 3.2043537414965986,
+      "source_file_sha256": "2cb3ceb406b1607c66c1b8c446b33f1f15936ddf6ca0022410174a4c2bf89c3b",
+      "file_sha256": "82c2f070bad02c37d3a6bead4dd598dc7ce2be272985757ce29cee7dc918161c",
+      "bytes": 26375,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

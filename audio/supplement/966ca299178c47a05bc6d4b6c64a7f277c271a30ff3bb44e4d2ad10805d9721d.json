@@ -1,0 +1,30 @@
+{
+  "text": "Le dernier match est terminé ; les gradins sont vides. La cause du signal entendu au loin n’est pas précisée.",
+  "text_sha256": "966ca299178c47a05bc6d4b6c64a7f277c271a30ff3bb44e4d2ad10805d9721d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.013968253968254,
+      "source_seconds": 6.013968253968254,
+      "source_file_sha256": "19231d2f3ac2b3129817ea3319f35f63cd4f14f5f87a180f13b1b9ac59dc9649",
+      "file_sha256": "b4d6fa5512e4b29f36dbf08c6cc55f70828548465a8c9b7261c179ff813add72",
+      "bytes": 48945,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
