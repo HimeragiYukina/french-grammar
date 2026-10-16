@@ -1,0 +1,30 @@
+{
+  "text": "Cette lecture m’émeut moins par la mélodie que par les silences entre les mots.",
+  "text_sha256": "d0af94e3cfe94c1885dcc7677caf564021a34576a3ad4496d79de4a9be0cfb7d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.5294331065759637,
+      "source_seconds": 3.5294331065759637,
+      "source_file_sha256": "f575630db98dad35960ba19f48ba9e0cde6b9e6ea3da9c4e548fedde15261934",
+      "file_sha256": "d8fe78c91616ad82cca8b9cb4dd81d0aafc940c9218a17283cf72b803a848915",
+      "bytes": 29092,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

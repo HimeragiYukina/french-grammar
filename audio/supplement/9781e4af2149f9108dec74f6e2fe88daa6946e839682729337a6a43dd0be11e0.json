@@ -1,0 +1,30 @@
+{
+  "text": "Les deux bols sont blancs et les deux assiettes sont blanches.",
+  "text_sha256": "9781e4af2149f9108dec74f6e2fe88daa6946e839682729337a6a43dd0be11e0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1811337868480725,
+      "source_seconds": 3.1811337868480725,
+      "source_file_sha256": "aa36934a2c780db72690b7915d03365cf5c02024b94c93a59cfd71e44cd95221",
+      "file_sha256": "edd2f7135a8d92454a8d8d11d87d5e98573a556525591806e64a939f39039f98",
+      "bytes": 26166,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

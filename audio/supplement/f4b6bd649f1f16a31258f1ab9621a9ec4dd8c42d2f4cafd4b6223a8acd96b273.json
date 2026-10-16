@@ -1,0 +1,30 @@
+{
+  "text": "L’effet tient davantage aux silences qu’à la mélodie.",
+  "text_sha256": "f4b6bd649f1f16a31258f1ab9621a9ec4dd8c42d2f4cafd4b6223a8acd96b273",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.6122448979591835,
+      "source_seconds": 2.6122448979591835,
+      "source_file_sha256": "3b335bb13e93016c9af2e144b754ef34abb3a81a7e44d939a5eefb0e67ef1551",
+      "file_sha256": "b951ccda6dc4e6687bc9ca1009cb0c201f1454f12f26b15164eaa3cf291d581f",
+      "bytes": 21568,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

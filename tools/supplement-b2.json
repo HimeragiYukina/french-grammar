@@ -295,7 +295,29 @@
     ]
   },
   "b2-cause-consequence": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "moins par A que par B：比较作用来源，不把A彻底取消",
+        "explanation": "独立诗歌朗读情境中，一位听者比较自己感动的来源。moins par A que par B让B相对更突出，并不单凭这一结构宣布A不存在或不起任何作用。两边par引出的成分保持平行。改写时可用davantage、surtout等表达相近权重，但不凭空加精确比例。",
+        "examples": [
+          {
+            "fr": "Cette lecture m’émeut moins par la mélodie que par les silences entre les mots.",
+            "zh": "这次朗读让我感动，相对更多靠词语间的停顿，而非旋律。",
+            "use": "比较这位听者感受的来源，非证明所有人反应相同。"
+          },
+          {
+            "fr": "L’effet tient davantage aux silences qu’à la mélodie.",
+            "zh": "这一作用相对更多来自停顿，而非旋律。",
+            "use": "tenir à支配à；aux=à+les。权重近似改述，不等于旋律全无贡献。"
+          },
+          {
+            "fr": "La voix baisse à la fin, si bien que la dernière syllabe devient presque inaudible.",
+            "zh": "末尾声音降低，结果最后一个音节几乎听不见。",
+            "use": "给定情境的结果；si bien que后直陈式，不改成朗读者必有该目的。"
+          }
+        ]
+      }
+    ],
     "related": [],
     "practice": [
       {
@@ -307,6 +329,16 @@
         "q": "供应商以没有库存为由取消订单；你没有证据认定库存说法为假。用sous prétexte que报道它，再补一句保留真实性判断。",
         "a": "Le fournisseur a annulé la commande sous prétexte qu’il n’avait plus de stock. Nous n’avons pas encore vérifié cette explication.",
         "note": "sous prétexte que把理由呈现为借口/表示距离，不逻辑蕴含“库存一定充足”。也接受faute de stock等若仅报告原因，但本题指定呈现距离；不得编造已查证其撒谎。"
+      },
+      {
+        "q": "将Cette lecture m’émeut moins par la mélodie que par les silences自然改述，保留相对权重，不写旋律完全无效。",
+        "a": "Les silences contribuent davantage que la mélodie à l’émotion que je ressens pendant cette lecture.",
+        "note": "也接受L’effet tient davantage aux silences qu’à la mélodie等。保持个人感受范围，不加“人人如此”或百分比。"
+      },
+      {
+        "q": "“末尾声音降低，所以最后一个音节几乎听不见”，用si bien que写结果；资料没有说朗读者故意让人听不见。",
+        "a": "La voix baisse à la fin, si bien que la dernière syllabe devient presque inaudible.",
+        "note": "结果句使用直陈式devient；不能自动改成pour que并把目的强加给朗读者。也可其他自然结果改述，但本题应体现指定连接。"
       }
     ]
   },

@@ -1,0 +1,30 @@
+{
+  "text": "Les silences contribuent davantage que la mélodie à l’émotion que je ressens pendant cette lecture.",
+  "text_sha256": "69c8308f2b4e99746184559a8a591643e626ae8c91fd496f0b7d6cc134e2a02b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.038730158730159,
+      "source_seconds": 5.038730158730159,
+      "source_file_sha256": "1b6cd5094d460dd25f36b854821b3f42784fc9ffeb2199b0873568d88271efc8",
+      "file_sha256": "340105b90d382e5fc55525e53d31e1f692a385244804a407964aa040e3ff7c82",
+      "bytes": 41004,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Il envisage d’attendre une éclaircie le lendemain ; cette attente n’est pas racontée comme accomplie. Pour attribuer la voix, il faut aussi lire le contexte, pas seulement le conditionnel.",
+  "text_sha256": "d6aa9ee4f9882dee4ab26930019f56ab295ab667a78a725617dded82ca9c0d45",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.346031746031747,
+      "source_seconds": 9.346031746031747,
+      "source_file_sha256": "3b4f212f9e8d9a443a3820d28b9c6de3ca51809d596c0030d0e492d79dc77f58",
+      "file_sha256": "e7d1dc9760980f4ad23a1f945a611bfc3cf946290ce654432f437a712c6a3612",
+      "bytes": 75485,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

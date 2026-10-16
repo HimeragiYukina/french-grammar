@@ -1,0 +1,30 @@
+{
+  "text": "Le vent tombait. Le passeur détacha la corde et poussa la barque.",
+  "text_sha256": "dd6f255a79518ae644a8a5440f7583f4cd30e10050f1efaa77ac2a41a44145ed",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.005442176870749,
+      "source_seconds": 4.005442176870749,
+      "source_file_sha256": "6b7af0509e6d73753d6019d08e30199fbbb0605f2318aa5aee5c3e18e6573197",
+      "file_sha256": "4c1ca8de620614c8747adcafbcc0905e73daa62c48452a8c6db325a97a9ec74b",
+      "bytes": 32853,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

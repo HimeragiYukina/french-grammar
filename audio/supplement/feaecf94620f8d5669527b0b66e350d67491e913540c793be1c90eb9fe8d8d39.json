@@ -1,0 +1,30 @@
+{
+  "text": "Encore un départ sans soleil ! Demain, il attendrait une éclaircie.",
+  "text_sha256": "feaecf94620f8d5669527b0b66e350d67491e913540c793be1c90eb9fe8d8d39",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.435011337868481,
+      "source_seconds": 4.435011337868481,
+      "source_file_sha256": "869290b6038b694f6795224a1774b7b252c3d5fd5d04cb59028e63a7c097bb21",
+      "file_sha256": "16b7e9c754393e32c49f7abda636b1e7a17a582cc4904c8b2dbb8a9053457d2f",
+      "bytes": 36197,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

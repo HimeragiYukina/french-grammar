@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 0,
+  "generated_this_run": 17,
   "generation_runs": [
     {
-      "generated": 3184,
+      "generated": 3201,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 58.30026626586914,
+  "elapsed_seconds": 110.62150382995605,
   "listened": false,
   "records": [
     {
@@ -150048,6 +150048,739 @@
         "seconds": 6.443537414965986
       },
       "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Voici un bol blanc et une assiette blanche.",
+      "occurrences": [
+        {
+          "id": "a1-adj",
+          "field": "/a1-adj/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 43
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "71f0450466811d4e973d7b869ebabdcb62e319fc2a769ac87ff3f81f4cc22e47",
+      "path": "audio/supplement/71f0450466811d4e973d7b869ebabdcb62e319fc2a769ac87ff3f81f4cc22e47.mp3",
+      "source": "local-siwis",
+      "file_sha256": "9432e928b6d9d4e7770198a5471cc667b9c493e600b29b94eb47ebbe8b4a7050",
+      "bytes": 21986,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.6586848072562357,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/71f0450466811d4e973d7b869ebabdcb62e319fc2a769ac87ff3f81f4cc22e47.wav",
+        "file_sha256": "0f57aca53400b46d31204bd22091edbe20803501ad394840b2b8b26b4bc25936",
+        "bytes": 117292,
+        "rms": 5114.686428967619
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Les bols sont blancs et les assiettes sont blanches.",
+      "occurrences": [
+        {
+          "id": "a1-adj",
+          "field": "/a1-adj/sections/3/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 52
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "e14c373cf046017d673af1046501cbec29c8046d7f670976a87837b21af2c25a",
+      "path": "audio/supplement/e14c373cf046017d673af1046501cbec29c8046d7f670976a87837b21af2c25a.mp3",
+      "source": "local-siwis",
+      "file_sha256": "35a2073927dc794473a4f81289a3838309c1d3c58e0ba53a4b331f5480fbfe32",
+      "bytes": 23449,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.8328344671201813,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/e14c373cf046017d673af1046501cbec29c8046d7f670976a87837b21af2c25a.wav",
+        "file_sha256": "4e44168804e79e470f45988fa2f4f138c4061dd0424a79d7710e7cfcb1bfa27b",
+        "bytes": 124972,
+        "rms": 4428.486915788876
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La nappe est noire et les serviettes sont rouges.",
+      "occurrences": [
+        {
+          "id": "a1-adj",
+          "field": "/a1-adj/sections/3/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 49
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "5615c3a2274f1589b9f53dad9fb5f3fe5468cc95d338d3b9d00296c53f10808d",
+      "path": "audio/supplement/5615c3a2274f1589b9f53dad9fb5f3fe5468cc95d338d3b9d00296c53f10808d.mp3",
+      "source": "local-siwis",
+      "file_sha256": "119ec34af763c58c807cf6a017c98289f49bd9a3b988bbc3468eee32265b7d9b",
+      "bytes": 22404,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.716734693877551,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/5615c3a2274f1589b9f53dad9fb5f3fe5468cc95d338d3b9d00296c53f10808d.wav",
+        "file_sha256": "92c40f89b063a2325099914b3c9623d89a72edaa2ce545b9fe48aad8f8b0092e",
+        "bytes": 119852,
+        "rms": 4917.409860389861
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Les deux bols sont blancs et les deux assiettes sont blanches.",
+      "occurrences": [
+        {
+          "id": "a1-adj",
+          "field": "/a1-adj/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "9781e4af2149f9108dec74f6e2fe88daa6946e839682729337a6a43dd0be11e0",
+      "path": "audio/supplement/9781e4af2149f9108dec74f6e2fe88daa6946e839682729337a6a43dd0be11e0.mp3",
+      "source": "local-siwis",
+      "file_sha256": "edd2f7135a8d92454a8d8d11d87d5e98573a556525591806e64a939f39039f98",
+      "bytes": 26166,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.1811337868480725,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/9781e4af2149f9108dec74f6e2fe88daa6946e839682729337a6a43dd0be11e0.wav",
+        "file_sha256": "aa36934a2c780db72690b7915d03365cf5c02024b94c93a59cfd71e44cd95221",
+        "bytes": 140332,
+        "rms": 5504.368827529786
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Voici deux bols blancs et deux assiettes blanches",
+      "occurrences": [
+        {
+          "id": "a1-adj",
+          "field": "/a1-adj/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 3,
+              "end_codepoint": 52
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "327fdbfc8aa3c13ebeb635c4d7e03822e58fa5cd2526f036473561cd18f3e2ef",
+      "path": "audio/supplement/327fdbfc8aa3c13ebeb635c4d7e03822e58fa5cd2526f036473561cd18f3e2ef.mp3",
+      "source": "local-siwis",
+      "file_sha256": "e7da0bc84235a85b77ed7b31ec173dfbb265205c5c75fe482c84276ceb634406",
+      "bytes": 25330,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.076643990929705,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/327fdbfc8aa3c13ebeb635c4d7e03822e58fa5cd2526f036473561cd18f3e2ef.wav",
+        "file_sha256": "cbcfba0d9853fe61e3be7d4013b60d6d7c94b82ffe08757601514a9e72c807b8",
+        "bytes": 135724,
+        "rms": 6297.1415860067655
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La nappe est noire. Les serviettes sont rouges.",
+      "occurrences": [
+        {
+          "id": "a1-adj",
+          "field": "/a1-adj/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 47
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "126839080945d759e840eef5a9650e0504773c5dd1a259329d194104fc44d9b3",
+      "path": "audio/supplement/126839080945d759e840eef5a9650e0504773c5dd1a259329d194104fc44d9b3.mp3",
+      "source": "local-siwis",
+      "file_sha256": "e5b8b40ab54e094b66ee5f1d20351cf09e9b2c82b9ad8a63851fa519e096194e",
+      "bytes": 22613,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.7399546485260773,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/126839080945d759e840eef5a9650e0504773c5dd1a259329d194104fc44d9b3.wav",
+        "file_sha256": "f8672ed176ea18bfa1b0f6efe9ce4006eca9b048da67f722d4d6c80862fd165a",
+        "bytes": 120876,
+        "rms": 5049.292434204972
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Cette lecture m’émeut moins par la mélodie que par les silences entre les mots.",
+      "occurrences": [
+        {
+          "id": "b2-cause-consequence",
+          "field": "/b2-cause-consequence/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 79
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "d0af94e3cfe94c1885dcc7677caf564021a34576a3ad4496d79de4a9be0cfb7d",
+      "path": "audio/supplement/d0af94e3cfe94c1885dcc7677caf564021a34576a3ad4496d79de4a9be0cfb7d.mp3",
+      "source": "local-siwis",
+      "file_sha256": "d8fe78c91616ad82cca8b9cb4dd81d0aafc940c9218a17283cf72b803a848915",
+      "bytes": 29092,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.5294331065759637,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/d0af94e3cfe94c1885dcc7677caf564021a34576a3ad4496d79de4a9be0cfb7d.wav",
+        "file_sha256": "f575630db98dad35960ba19f48ba9e0cde6b9e6ea3da9c4e548fedde15261934",
+        "bytes": 155692,
+        "rms": 5165.35961556259
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "L’effet tient davantage aux silences qu’à la mélodie.",
+      "occurrences": [
+        {
+          "id": "b2-cause-consequence",
+          "field": "/b2-cause-consequence/sections/3/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 53
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "f4b6bd649f1f16a31258f1ab9621a9ec4dd8c42d2f4cafd4b6223a8acd96b273",
+      "path": "audio/supplement/f4b6bd649f1f16a31258f1ab9621a9ec4dd8c42d2f4cafd4b6223a8acd96b273.mp3",
+      "source": "local-siwis",
+      "file_sha256": "b951ccda6dc4e6687bc9ca1009cb0c201f1454f12f26b15164eaa3cf291d581f",
+      "bytes": 21568,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.6122448979591835,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/f4b6bd649f1f16a31258f1ab9621a9ec4dd8c42d2f4cafd4b6223a8acd96b273.wav",
+        "file_sha256": "3b335bb13e93016c9af2e144b754ef34abb3a81a7e44d939a5eefb0e67ef1551",
+        "bytes": 115244,
+        "rms": 5851.3183785140345
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La voix baisse à la fin, si bien que la dernière syllabe devient presque inaudible.",
+      "occurrences": [
+        {
+          "id": "b2-cause-consequence",
+          "field": "/b2-cause-consequence/sections/3/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 83
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "b2-cause-consequence",
+          "field": "/b2-cause-consequence/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 83
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "0e7f5c64c86cd91a5f0513a360126b39dea08de7692380d6dcd0d23dbbf73663",
+      "path": "audio/supplement/0e7f5c64c86cd91a5f0513a360126b39dea08de7692380d6dcd0d23dbbf73663.mp3",
+      "source": "local-siwis",
+      "file_sha256": "ae377cba4c7c86f64f39e38f9630aae55a5ffc9ab8677e64d0351810c4ae06dd",
+      "bytes": 34525,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.214421768707483,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/0e7f5c64c86cd91a5f0513a360126b39dea08de7692380d6dcd0d23dbbf73663.wav",
+        "file_sha256": "2cf66ec1745a4383b2c97ce476f06ceede56407ec6385987d8ad430e574a58ae",
+        "bytes": 185900,
+        "rms": 5134.599546927368
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Cette lecture m’émeut moins par la mélodie que par les silences",
+      "occurrences": [
+        {
+          "id": "b2-cause-consequence",
+          "field": "/b2-cause-consequence/practice/2/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 1,
+              "end_codepoint": 64
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "6e3640085ded1ad6568510d77e9149cc8d589f685ef01aee6d98d547f0e5659c",
+      "path": "audio/supplement/6e3640085ded1ad6568510d77e9149cc8d589f685ef01aee6d98d547f0e5659c.mp3",
+      "source": "local-siwis",
+      "file_sha256": "b40834efd5956d4eedd581e73903c3b3a8cc9947ddfb442d91ffea2b54ca9b9c",
+      "bytes": 26375,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.1927437641723357,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/6e3640085ded1ad6568510d77e9149cc8d589f685ef01aee6d98d547f0e5659c.wav",
+        "file_sha256": "f5598b019800b9055600acad7b6435ee8de45fdeadccd76187bd6a3fcf2e3720",
+        "bytes": 140844,
+        "rms": 4919.007470923955
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Les silences contribuent davantage que la mélodie à l’émotion que je ressens pendant cette lecture.",
+      "occurrences": [
+        {
+          "id": "b2-cause-consequence",
+          "field": "/b2-cause-consequence/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 99
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "69c8308f2b4e99746184559a8a591643e626ae8c91fd496f0b7d6cc134e2a02b",
+      "path": "audio/supplement/69c8308f2b4e99746184559a8a591643e626ae8c91fd496f0b7d6cc134e2a02b.mp3",
+      "source": "local-siwis",
+      "file_sha256": "340105b90d382e5fc55525e53d31e1f692a385244804a407964aa040e3ff7c82",
+      "bytes": 41004,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 5.038730158730159,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/69c8308f2b4e99746184559a8a591643e626ae8c91fd496f0b7d6cc134e2a02b.wav",
+        "file_sha256": "1b6cd5094d460dd25f36b854821b3f42784fc9ffeb2199b0873568d88271efc8",
+        "bytes": 222252,
+        "rms": 4996.818383640072
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "L’effet tient davantage aux silences qu’à la mélodie",
+      "occurrences": [
+        {
+          "id": "b2-cause-consequence",
+          "field": "/b2-cause-consequence/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 3,
+              "end_codepoint": 55
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "dbb5ae32aa5e41c8488c6a9a9edf71545f2bd59d318c0090789057af28e40194",
+      "path": "audio/supplement/dbb5ae32aa5e41c8488c6a9a9edf71545f2bd59d318c0090789057af28e40194.mp3",
+      "source": "local-siwis",
+      "file_sha256": "7805a0788c7c164d11af753e7943ae11e710b8ef7308025eecfae863160e1986",
+      "bytes": 20315,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.4380952380952383,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/dbb5ae32aa5e41c8488c6a9a9edf71545f2bd59d318c0090789057af28e40194.wav",
+        "file_sha256": "8b48fbf665844d38d9a98e16451660b0f4b9ccd72261be00afd2ac505609dc4b",
+        "bytes": 107564,
+        "rms": 5679.091318679123
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Le vent tombait. Le passeur détacha la corde et poussa la barque.",
+      "occurrences": [
+        {
+          "id": "c1-passe-simple",
+          "field": "/c1-passe-simple/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 65
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "c1-passe-simple",
+          "field": "/c1-passe-simple/practice/2/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 4,
+              "end_codepoint": 69
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "dd6f255a79518ae644a8a5440f7583f4cd30e10050f1efaa77ac2a41a44145ed",
+      "path": "audio/supplement/dd6f255a79518ae644a8a5440f7583f4cd30e10050f1efaa77ac2a41a44145ed.mp3",
+      "source": "local-siwis",
+      "file_sha256": "4c1ca8de620614c8747adcafbcc0905e73daa62c48452a8c6db325a97a9ec74b",
+      "bytes": 32853,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.005442176870749,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/dd6f255a79518ae644a8a5440f7583f4cd30e10050f1efaa77ac2a41a44145ed.wav",
+        "file_sha256": "6b7af0509e6d73753d6019d08e30199fbbb0605f2318aa5aee5c3e18e6573197",
+        "bytes": 176684,
+        "rms": 5733.9747015763405
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Encore un départ sans soleil ! Demain, il attendrait une éclaircie.",
+      "occurrences": [
+        {
+          "id": "c1-passe-simple",
+          "field": "/c1-passe-simple/sections/3/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 67
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "c1-passe-simple",
+          "field": "/c1-passe-simple/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 8,
+              "end_codepoint": 75
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "feaecf94620f8d5669527b0b66e350d67491e913540c793be1c90eb9fe8d8d39",
+      "path": "audio/supplement/feaecf94620f8d5669527b0b66e350d67491e913540c793be1c90eb9fe8d8d39.mp3",
+      "source": "local-siwis",
+      "file_sha256": "16b7e9c754393e32c49f7abda636b1e7a17a582cc4904c8b2dbb8a9053457d2f",
+      "bytes": 36197,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.435011337868481,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/feaecf94620f8d5669527b0b66e350d67491e913540c793be1c90eb9fe8d8d39.wav",
+        "file_sha256": "869290b6038b694f6795224a1774b7b252c3d5fd5d04cb59028e63a7c097bb21",
+        "bytes": 195628,
+        "rms": 5100.145380691063
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Le passeur a détaché la corde et a poussé la barque pendant que le vent tombait.",
+      "occurrences": [
+        {
+          "id": "c1-passe-simple",
+          "field": "/c1-passe-simple/sections/3/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 80
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "d276ee0128107376eb764e72e18e23a86c5a928ff0e06fe3de42426ceec025b0",
+      "path": "audio/supplement/d276ee0128107376eb764e72e18e23a86c5a928ff0e06fe3de42426ceec025b0.mp3",
+      "source": "local-siwis",
+      "file_sha256": "19c4481565c07a56f5b298aef9e4c66659f83c000176a43dc6ea2e81d5c57871",
+      "bytes": 34316,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.191201814058957,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/d276ee0128107376eb764e72e18e23a86c5a928ff0e06fe3de42426ceec025b0.wav",
+        "file_sha256": "d932a0b2663bb9f8b6ef8e68a92cdcda0b3b98186c54072c1e467e7408dd5cf5",
+        "bytes": 184876,
+        "rms": 4793.929452620682
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Le vent qui tombait forme l’arrière-plan. Les verbes « détacha » et « poussa » présentent les actions qui font avancer ce passage du récit.",
+      "occurrences": [
+        {
+          "id": "c1-passe-simple",
+          "field": "/c1-passe-simple/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 139
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "a36f0f2e0e6acb9cdbec236958f5dc9b4571c285020e237b3a3474d300c2c580",
+      "path": "audio/supplement/a36f0f2e0e6acb9cdbec236958f5dc9b4571c285020e237b3a3474d300c2c580.mp3",
+      "source": "local-siwis",
+      "file_sha256": "4deb62f55df53c4d64bb57cceec1d45811d8cb342c69c9d2b4eeb3b4623e71c4",
+      "bytes": 56886,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 7.012426303854875,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/a36f0f2e0e6acb9cdbec236958f5dc9b4571c285020e237b3a3474d300c2c580.wav",
+        "file_sha256": "958fb9a8cd2c6600d71a5149b4b6f3fb9fbeb4ce9cd0a657bebfb6623f23cd33",
+        "bytes": 309292,
+        "rms": 5641.704686197142
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Il envisage d’attendre une éclaircie le lendemain ; cette attente n’est pas racontée comme accomplie. Pour attribuer la voix, il faut aussi lire le contexte, pas seulement le conditionnel.",
+      "occurrences": [
+        {
+          "id": "c1-passe-simple",
+          "field": "/c1-passe-simple/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 188
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "d6aa9ee4f9882dee4ab26930019f56ab295ab667a78a725617dded82ca9c0d45",
+      "path": "audio/supplement/d6aa9ee4f9882dee4ab26930019f56ab295ab667a78a725617dded82ca9c0d45.mp3",
+      "source": "local-siwis",
+      "file_sha256": "e7d1dc9760980f4ad23a1f945a611bfc3cf946290ce654432f437a712c6a3612",
+      "bytes": 75485,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 9.346031746031747,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/d6aa9ee4f9882dee4ab26930019f56ab295ab667a78a725617dded82ca9c0d45.wav",
+        "file_sha256": "3b4f212f9e8d9a443a3820d28b9c6de3ca51809d596c0030d0e492d79dc77f58",
+        "bytes": 412204,
+        "rms": 5057.720032122735
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
     },
     {
       "repo": "grammar",

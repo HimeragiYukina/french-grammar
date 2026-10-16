@@ -1,0 +1,30 @@
+{
+  "text": "La voix baisse à la fin, si bien que la dernière syllabe devient presque inaudible.",
+  "text_sha256": "0e7f5c64c86cd91a5f0513a360126b39dea08de7692380d6dcd0d23dbbf73663",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.214421768707483,
+      "source_seconds": 4.214421768707483,
+      "source_file_sha256": "2cf66ec1745a4383b2c97ce476f06ceede56407ec6385987d8ad430e574a58ae",
+      "file_sha256": "ae377cba4c7c86f64f39e38f9630aae55a5ffc9ab8677e64d0351810c4ae06dd",
+      "bytes": 34525,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

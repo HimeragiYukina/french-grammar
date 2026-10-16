@@ -109,7 +109,29 @@
     ]
   },
   "c1-passe-simple": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "简单过去时框住事件，不替读者判断所有声音",
+        "explanation": "独立渡船故事中，简单过去时推进动作；未完成过去时可呈背景，评价句又可让人物的感受进入叙事。一个时态不负责证明评价客观，也不单独证明自由间接引语。过去时态用法核对OQLF；声音分析参照Philippe与Zufferey关于原型和边界的讨论。本节短文及解读为原创。 <a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/24210/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-simple\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF简单过去时</a>；<a href=\"https://www.fabula.org/colloques/document3322.php\" target=\"_blank\" rel=\"noopener noreferrer\">Fabula研究导读</a>（2026-10-16）。",
+        "examples": [
+          {
+            "fr": "Le vent tombait. Le passeur détacha la corde et poussa la barque.",
+            "zh": "风正渐弱。摆渡人解下绳子，把小船推开。",
+            "use": "tombait呈过程背景；détacha、poussa推进这段叙事事件。"
+          },
+          {
+            "fr": "Encore un départ sans soleil ! Demain, il attendrait une éclaircie.",
+            "zh": "又是在没有太阳时出发！明天，他要等天放晴一些。",
+            "use": "接在摆渡人感知之后，可让人听到他的情绪与计划；独立脱离语境不作万能识别。"
+          },
+          {
+            "fr": "Le passeur a détaché la corde et a poussé la barque pendant que le vent tombait.",
+            "zh": "风渐渐弱下来时，摆渡人解下绳子，推开小船。",
+            "use": "自然口头改述可用复合过去时处理动作，背景不必机械也改成复合过去时。"
+          }
+        ]
+      }
+    ],
     "related": [
       "a2-pc-vs-imp",
       "c2-passe-anterieur"
@@ -124,6 +146,16 @@
         "q": "把小说句 Le couloir était vide ; soudain, Léa ouvrit la porte et reconnut son frère 改成自然口头叙述，保留背景与事件分工。",
         "a": "Le couloir était vide ; soudain, Léa a ouvert la porte et a reconnu son frère.",
         "note": "était保持背景；ouvrit/reconnut可换复合过去时。不要机械把背景也换a été；口头复述可调整连接但须保留事件顺序。"
+      },
+      {
+        "q": "渡船片段Le vent tombait. Le passeur détacha la corde et poussa la barque. 指出过程背景与推进事件，用一至两句自然法语解释；不要说简单过去时只准瞬间动作。",
+        "a": "Le vent qui tombait forme l’arrière-plan. Les verbes « détacha » et « poussa » présentent les actions qui font avancer ce passage du récit.",
+        "note": "可中文解释并用法语定位相应动词；此处按语篇分工说明，不按动作时长机械分类。"
+      },
+      {
+        "q": "承接摆渡人感知的Encore un départ sans soleil ! Demain, il attendrait une éclaircie. 有人据attendrait说他已在当天等过放晴。用法语纠正，并说明仅凭条件式能否确认声音归属。",
+        "a": "Il envisage d’attendre une éclaircie le lendemain ; cette attente n’est pas racontée comme accomplie. Pour attribuer la voix, il faut aussi lire le contexte, pas seulement le conditionnel.",
+        "note": "保未来计划与未完成边界；按上下文解释可能的人物声音，不把某一时态当充分条件。"
       }
     ]
   },

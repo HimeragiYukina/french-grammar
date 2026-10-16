@@ -1,0 +1,209 @@
+{
+  "batch": "7",
+  "counts": {
+    "sections": 3,
+    "practice": 6
+  },
+  "files": [
+    {
+      "file": "tools/supplement-a1.json",
+      "before_sha256": "981af91abb66c3b7f839719881cc75a27bb2c7864ce65d764d6dd1f1f13a1d7d",
+      "after_sha256": "d0e280a54d322380fcfd04a915bac25bf1f8292803b0efb899b2dae473b27d3c",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "a1-adj",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "餐具颜色的性数与表语：bols blancs，assiettes blanches",
+              "explanation": "独立厨房情境：bol是阳性，assiette是阴性。颜色形容词紧随名词或在être后，配合都保留。先掌握blanc/blanche、noir/noire等常用形式，再看原页不变颜色的例外；不能从一个白色名词推断另一个名词的性别。规则核对：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/21721/la-grammaire/ladjectif/accord-de-ladjectif/adjectifs-de-couleur/accord-des-adjectifs-de-couleur-de-forme-simple\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF简单颜色词配合</a>（2026-10-16）。",
+              "examples": [
+                {
+                  "fr": "Voici un bol blanc et une assiette blanche.",
+                  "zh": "这是一个白碗和一个白盘子。",
+                  "use": "blanc随阳性bol，blanche随阴性assiette。"
+                },
+                {
+                  "fr": "Les bols sont blancs et les assiettes sont blanches.",
+                  "zh": "碗是白色的，盘子也是白色的。",
+                  "use": "作表语也随主语性数配合。"
+                },
+                {
+                  "fr": "La nappe est noire et les serviettes sont rouges.",
+                  "zh": "桌布是黑色的，餐巾是红色的。",
+                  "use": "noire阴单；rouges复数。rouge的阴性形式不再加第二个e。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "a1-adj",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "b40dc709438ca9c459cd75b4ff22b8a181287a2908af547d831c314df4546359",
+          "added": [
+            {
+              "q": "厨房有两个白碗、两只白盘子。用bols与assiettes各写一处白色描述，可用Voici或être。",
+              "a": "Les deux bols sont blancs et les deux assiettes sont blanches.",
+              "note": "也接受Voici deux bols blancs et deux assiettes blanches。不能因同为白色就把两个名词的配合写成同一形式。"
+            },
+            {
+              "q": "把“桌布是黑色，餐巾是红色”写成两句：nappe阴单，serviettes阴复。",
+              "a": "La nappe est noire. Les serviettes sont rouges.",
+              "note": "可用et合句。noire的e是阴性配合；rouges的s是复数拼写，不给rouge再加e。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-b2.json",
+      "before_sha256": "aec17e7adec202927c9ec30f91d42aaabfe33bf003ebf38c04541031ce1d4c2c",
+      "after_sha256": "e727e3ae2f03cb4d86ffbf464a0bf91736f457e5834c42ccdf48a7c87961c423",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "b2-cause-consequence",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "moins par A que par B：比较作用来源，不把A彻底取消",
+              "explanation": "独立诗歌朗读情境中，一位听者比较自己感动的来源。moins par A que par B让B相对更突出，并不单凭这一结构宣布A不存在或不起任何作用。两边par引出的成分保持平行。改写时可用davantage、surtout等表达相近权重，但不凭空加精确比例。",
+              "examples": [
+                {
+                  "fr": "Cette lecture m’émeut moins par la mélodie que par les silences entre les mots.",
+                  "zh": "这次朗读让我感动，相对更多靠词语间的停顿，而非旋律。",
+                  "use": "比较这位听者感受的来源，非证明所有人反应相同。"
+                },
+                {
+                  "fr": "L’effet tient davantage aux silences qu’à la mélodie.",
+                  "zh": "这一作用相对更多来自停顿，而非旋律。",
+                  "use": "tenir à支配à；aux=à+les。权重近似改述，不等于旋律全无贡献。"
+                },
+                {
+                  "fr": "La voix baisse à la fin, si bien que la dernière syllabe devient presque inaudible.",
+                  "zh": "末尾声音降低，结果最后一个音节几乎听不见。",
+                  "use": "给定情境的结果；si bien que后直陈式，不改成朗读者必有该目的。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "b2-cause-consequence",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "b33ae8684903a9baebe1610a8f097f1cec2013e00e7aa40031be8f94115c47b8",
+          "added": [
+            {
+              "q": "将Cette lecture m’émeut moins par la mélodie que par les silences自然改述，保留相对权重，不写旋律完全无效。",
+              "a": "Les silences contribuent davantage que la mélodie à l’émotion que je ressens pendant cette lecture.",
+              "note": "也接受L’effet tient davantage aux silences qu’à la mélodie等。保持个人感受范围，不加“人人如此”或百分比。"
+            },
+            {
+              "q": "“末尾声音降低，所以最后一个音节几乎听不见”，用si bien que写结果；资料没有说朗读者故意让人听不见。",
+              "a": "La voix baisse à la fin, si bien que la dernière syllabe devient presque inaudible.",
+              "note": "结果句使用直陈式devient；不能自动改成pour que并把目的强加给朗读者。也可其他自然结果改述，但本题应体现指定连接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-c1.json",
+      "before_sha256": "8bd2b41c6122545d2ad71d4e9a9db60d7bb9b5b6d6bcd967588bb5f723b750ab",
+      "after_sha256": "2d5a1dabaf85598a74cb1a879d7fef99404a46ab6699b153749b03fb0aea6a3a",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "c1-passe-simple",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "简单过去时框住事件，不替读者判断所有声音",
+              "explanation": "独立渡船故事中，简单过去时推进动作；未完成过去时可呈背景，评价句又可让人物的感受进入叙事。一个时态不负责证明评价客观，也不单独证明自由间接引语。过去时态用法核对OQLF；声音分析参照Philippe与Zufferey关于原型和边界的讨论。本节短文及解读为原创。 <a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/24210/la-grammaire/le-verbe/temps-grammaticaux/passe/generalites-sur-le-passe-simple\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF简单过去时</a>；<a href=\"https://www.fabula.org/colloques/document3322.php\" target=\"_blank\" rel=\"noopener noreferrer\">Fabula研究导读</a>（2026-10-16）。",
+              "examples": [
+                {
+                  "fr": "Le vent tombait. Le passeur détacha la corde et poussa la barque.",
+                  "zh": "风正渐弱。摆渡人解下绳子，把小船推开。",
+                  "use": "tombait呈过程背景；détacha、poussa推进这段叙事事件。"
+                },
+                {
+                  "fr": "Encore un départ sans soleil ! Demain, il attendrait une éclaircie.",
+                  "zh": "又是在没有太阳时出发！明天，他要等天放晴一些。",
+                  "use": "接在摆渡人感知之后，可让人听到他的情绪与计划；独立脱离语境不作万能识别。"
+                },
+                {
+                  "fr": "Le passeur a détaché la corde et a poussé la barque pendant que le vent tombait.",
+                  "zh": "风渐渐弱下来时，摆渡人解下绳子，推开小船。",
+                  "use": "自然口头改述可用复合过去时处理动作，背景不必机械也改成复合过去时。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "c1-passe-simple",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "66ff14c1051af79664ad218b5a2f4f86fe24e6d6ca81f734c804964d91f33d71",
+          "added": [
+            {
+              "q": "渡船片段Le vent tombait. Le passeur détacha la corde et poussa la barque. 指出过程背景与推进事件，用一至两句自然法语解释；不要说简单过去时只准瞬间动作。",
+              "a": "Le vent qui tombait forme l’arrière-plan. Les verbes « détacha » et « poussa » présentent les actions qui font avancer ce passage du récit.",
+              "note": "可中文解释并用法语定位相应动词；此处按语篇分工说明，不按动作时长机械分类。"
+            },
+            {
+              "q": "承接摆渡人感知的Encore un départ sans soleil ! Demain, il attendrait une éclaircie. 有人据attendrait说他已在当天等过放晴。用法语纠正，并说明仅凭条件式能否确认声音归属。",
+              "a": "Il envisage d’attendre une éclaircie le lendemain ; cette attente n’est pas racontée comme accomplie. Pour attribuer la voix, il faut aussi lire le contexte, pas seulement le conditionnel.",
+              "note": "保未来计划与未完成边界；按上下文解释可能的人物声音，不把某一时态当充分条件。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "protected_files_sha256": {
+    "append-only-batch2-20261016.json": "5cdfc333160fe3826204a2ac44dcab6619a332dbc471d4765aa94c8c212b71af",
+    "append-only-batch2-checks-20261016.json": "3c4458f65edcf547809e6dbe5bc176cfbe1a2a77ed1d5272b735b0535aa24aa0",
+    "append-only-batch3-20261016.json": "353700af00f121d76d3ee500068eea510dea365d64f40aaab89988a4f61a40ab",
+    "append-only-batch3-checks-20261016.json": "08ecd653be92cd4d2d64e96b5a0d06cf5e2da6d21f58e3590cd764eab7a26a40",
+    "append-only-batch4-20261016.json": "428c5477577664409b3eb90f77df940103e13ae537f505c576d0b1264655165e",
+    "append-only-batch4-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch5-20261016.json": "4596e055bb7fb3f009fbd046f9e0b3a7beb40fd74aeb6b82d0906042a235207d",
+    "append-only-batch5-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch6-20261016.json": "c76fdacb3e99c21b87dd0ab3c34056c73c6d7804a958dd29eef4e9f6c9b22e7d",
+    "append-only-batch6-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append_batch2_evidence.py": "1488492e962c80202bc0c0114f4c48023f86b9ebff65fdce2693417b77b91555",
+    "append_batch3_evidence.py": "1ced42994671b8002aaed195d88c84f632c782f1d309531bd018504f454d95ff",
+    "append_batch4_evidence.py": "48b881d966231cd661fe2e063850aa3328e5c0a237906e2a7eb387c01a990043",
+    "append_batch5_evidence.py": "1582039d1d83118f048654ddeb2546dcf7a3454df7f66781d8f7dd943da304ba",
+    "append_batch6_evidence.py": "0cd104bbd5d1df709a9963b757b5e59a490d70d99769ee94bc86e46e2940fa43",
+    "content-baseline.json": "a17a54048c334231f27a84457574491fa726696791eadf6945abd666a4e4b225",
+    "strict-review-baseline.json": "25fbee3f19541f18d60be04ad4ace10f4b75c1cd5426d3863110cda368985ea8"
+  },
+  "method": "Exact full-file hashes, unchanged old prefixes and explicit suffixes; restore only in memory before prior batch3/batch2/original checks."
+}

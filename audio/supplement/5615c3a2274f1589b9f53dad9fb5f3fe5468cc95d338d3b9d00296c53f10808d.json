@@ -1,0 +1,30 @@
+{
+  "text": "La nappe est noire et les serviettes sont rouges.",
+  "text_sha256": "5615c3a2274f1589b9f53dad9fb5f3fe5468cc95d338d3b9d00296c53f10808d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.716734693877551,
+      "source_seconds": 2.716734693877551,
+      "source_file_sha256": "92c40f89b063a2325099914b3c9623d89a72edaa2ce545b9fe48aad8f8b0092e",
+      "file_sha256": "119ec34af763c58c807cf6a017c98289f49bd9a3b988bbc3468eee32265b7d9b",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

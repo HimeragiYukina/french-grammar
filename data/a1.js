@@ -2171,6 +2171,27 @@ window.GRAMMAR_DATA.A1={
               "use": "ami/appartement 元音前的阳单变体。"
             }
           ]
+        },
+        {
+          "title": "餐具颜色的性数与表语：bols blancs，assiettes blanches",
+          "explanation": "独立厨房情境：bol是阳性，assiette是阴性。颜色形容词紧随名词或在être后，配合都保留。先掌握blanc/blanche、noir/noire等常用形式，再看原页不变颜色的例外；不能从一个白色名词推断另一个名词的性别。规则核对：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/21721/la-grammaire/ladjectif/accord-de-ladjectif/adjectifs-de-couleur/accord-des-adjectifs-de-couleur-de-forme-simple\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF简单颜色词配合</a>（2026-10-16）。",
+          "examples": [
+            {
+              "fr": "Voici un bol blanc et une assiette blanche.",
+              "zh": "这是一个白碗和一个白盘子。",
+              "use": "blanc随阳性bol，blanche随阴性assiette。"
+            },
+            {
+              "fr": "Les bols sont blancs et les assiettes sont blanches.",
+              "zh": "碗是白色的，盘子也是白色的。",
+              "use": "作表语也随主语性数配合。"
+            },
+            {
+              "fr": "La nappe est noire et les serviettes sont rouges.",
+              "zh": "桌布是黑色的，餐巾是红色的。",
+              "use": "noire阴单；rouges复数。rouge的阴性形式不再加第二个e。"
+            }
+          ]
         }
       ],
       "comparison": "un ancien professeur（从前的老师）/ un professeur ancien 较不自然，表示资历时常说 un professeur expérimenté；un grand homme（伟人）/ un homme grand（高个子）。",
@@ -2187,6 +2208,16 @@ window.GRAMMAR_DATA.A1={
           "q": "解释un grand homme与un homme grand的区别，再把un beau appartement改正。",
           "a": "Un grand homme. Un homme grand. Un bel appartement.",
           "note": "un grand homme通常是一位伟人；un homme grand是高个子男人。un bel appartement。 grand的位置改变常见意义；beau在紧接阳性元音起首词前用bel，名词仍阳性。"
+        },
+        {
+          "q": "厨房有两个白碗、两只白盘子。用bols与assiettes各写一处白色描述，可用Voici或être。",
+          "a": "Les deux bols sont blancs et les deux assiettes sont blanches.",
+          "note": "也接受Voici deux bols blancs et deux assiettes blanches。不能因同为白色就把两个名词的配合写成同一形式。"
+        },
+        {
+          "q": "把“桌布是黑色，餐巾是红色”写成两句：nappe阴单，serviettes阴复。",
+          "a": "La nappe est noire. Les serviettes sont rouges.",
+          "note": "可用et合句。noire的e是阴性配合；rouges的s是复数拼写，不给rouge再加e。"
         }
       ]
     },
