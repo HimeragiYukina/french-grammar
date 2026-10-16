@@ -1,0 +1,10 @@
+{
+  "text": "Il fallait réserver, faute de quoi nous n’aurions pas eu de place.",
+  "text_sha256": "31ba91ec5f55338c03eb0dbbb68a167ca15984d8e3dbb825979d7f59c13b0fcf",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

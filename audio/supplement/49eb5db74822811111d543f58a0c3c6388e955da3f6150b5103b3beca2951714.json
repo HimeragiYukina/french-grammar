@@ -1,0 +1,10 @@
+{
+  "text": "Ce médicament exige une ordonnance ; or, je n'en ai pas.",
+  "text_sha256": "49eb5db74822811111d543f58a0c3c6388e955da3f6150b5103b3beca2951714",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

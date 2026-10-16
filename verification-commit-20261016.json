@@ -1,0 +1,27 @@
+{
+  "browser": "Installed Microsoft Edge, headless isolated profile; no foreground/session takeover",
+  "combined_regression_checks": 111,
+  "normal_console_check": {
+    "pages": 10,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "mobileWidth": 390
+  },
+  "audio_scope": {
+    "covered": 256,
+    "denominator": 256,
+    "new_files": 207,
+    "reused": 49,
+    "new_seconds": 630.3869387755103,
+    "new_bytes": 27809172
+  },
+  "listened": false,
+  "not_verified": [
+    "Auditory intelligibility/pronunciation",
+    "Actual availability of Google français voice; preference logic tested only",
+    "Independent human teacher assessment"
+  ],
+  "preservation": "Original normal audio retained; no learner exports, recordings, credentials, node_modules, model binaries, workspace backups or whole-file review snapshots included.",
+  "push_target": "origin/expand-level-pages-and-contexts",
+  "scope": "Commit and normal push to existing upstream only; visibility/deployment settings unchanged."
+}

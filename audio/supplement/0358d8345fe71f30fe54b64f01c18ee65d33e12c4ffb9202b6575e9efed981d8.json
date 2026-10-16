@@ -1,0 +1,10 @@
+{
+  "text": "Donne-les-moi !",
+  "text_sha256": "0358d8345fe71f30fe54b64f01c18ee65d33e12c4ffb9202b6575e9efed981d8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

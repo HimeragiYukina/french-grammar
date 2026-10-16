@@ -1,0 +1,10 @@
+{
+  "text": "Cette chambre est petite ; en revanche, elle donne sur le jardin.",
+  "text_sha256": "de67288ce2a067da5009b0d3d9fe7cd8483604ced05611c68a2c16a0a9903d7e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

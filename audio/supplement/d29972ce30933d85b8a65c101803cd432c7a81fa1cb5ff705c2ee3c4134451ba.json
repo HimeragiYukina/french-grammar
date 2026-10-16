@@ -1,0 +1,10 @@
+{
+  "text": "Bien que appelle le subjonctif ; après que appelle l’indicatif dans la norme écrite. Les deux phrases peuvent évoquer une pluie réelle.",
+  "text_sha256": "d29972ce30933d85b8a65c101803cd432c7a81fa1cb5ff705c2ee3c4134451ba",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

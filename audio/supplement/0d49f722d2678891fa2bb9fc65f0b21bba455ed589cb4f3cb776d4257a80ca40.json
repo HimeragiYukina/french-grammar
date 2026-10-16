@@ -1,0 +1,10 @@
+{
+  "text": "Je ne vous en parlerai pas.",
+  "text_sha256": "0d49f722d2678891fa2bb9fc65f0b21bba455ed589cb4f3cb776d4257a80ca40",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "J'ai beau relire ce passage, je ne le comprends pas.",
+  "text_sha256": "6b6a51e768c7308d5129192d4c34ec037d0eb12c7bb83a17576b8a5750806bb5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

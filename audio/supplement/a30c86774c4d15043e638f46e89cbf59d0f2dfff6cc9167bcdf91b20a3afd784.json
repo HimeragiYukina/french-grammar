@@ -1,0 +1,10 @@
+{
+  "text": "Elles se sont plu dès leur première rencontre.",
+  "text_sha256": "a30c86774c4d15043e638f46e89cbf59d0f2dfff6cc9167bcdf91b20a3afd784",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

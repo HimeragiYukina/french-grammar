@@ -1,0 +1,10 @@
+{
+  "text": "La sécurité reste notre priorité. À cet égard, deux mesures seront prises.",
+  "text_sha256": "b86071a1067c4c4df08b0f2ec1ead7c852be4c949ee83db335c85e2226b3af8f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Selon plusieurs témoins, le suspect se trouverait à Lyon.",
+  "text_sha256": "b8787fb3b8d004f4e64dcfc3b9fe16c34412a440f638991068316c298797b4fe",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

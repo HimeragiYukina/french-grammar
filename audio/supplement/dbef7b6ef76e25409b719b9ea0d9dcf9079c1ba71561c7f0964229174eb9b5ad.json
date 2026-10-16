@@ -1,0 +1,10 @@
+{
+  "text": "J’ai appelé il y a trois jours, mais je n’ai pas reçu de confirmation depuis.",
+  "text_sha256": "dbef7b6ef76e25409b719b9ea0d9dcf9079c1ba71561c7f0964229174eb9b5ad",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

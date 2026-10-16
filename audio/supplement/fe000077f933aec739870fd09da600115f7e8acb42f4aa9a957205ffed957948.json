@@ -1,0 +1,10 @@
+{
+  "text": "Des erreurs, j’en ai commis plusieurs.",
+  "text_sha256": "fe000077f933aec739870fd09da600115f7e8acb42f4aa9a957205ffed957948",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

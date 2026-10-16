@@ -1,0 +1,10 @@
+{
+  "text": "Le nouveau local est moins vaste ; en revanche, il est desservi par deux lignes de tramway.",
+  "text_sha256": "526304ffc5d83f6637e8b934566f0c82d49bd8b434886d913f1c67f0a6b092d4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

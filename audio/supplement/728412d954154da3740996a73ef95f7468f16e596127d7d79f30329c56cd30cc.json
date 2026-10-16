@@ -1,0 +1,10 @@
+{
+  "text": "Ce restaurant est cher ; pourtant, il est toujours plein.",
+  "text_sha256": "728412d954154da3740996a73ef95f7468f16e596127d7d79f30329c56cd30cc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

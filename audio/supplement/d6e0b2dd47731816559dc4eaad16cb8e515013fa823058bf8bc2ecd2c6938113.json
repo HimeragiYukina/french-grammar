@@ -1,0 +1,10 @@
+{
+  "text": "Elle lit un roman en deux jours.",
+  "text_sha256": "d6e0b2dd47731816559dc4eaad16cb8e515013fa823058bf8bc2ecd2c6938113",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

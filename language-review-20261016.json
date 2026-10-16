@@ -1,0 +1,100 @@
+{
+  "method": "Deux revues indépendantes par agents, puis décision éditoriale ; pas une certification par enseignant humain.",
+  "authority": [
+    {
+      "url": "https://www.academie-francaise.fr/apres-que",
+      "point": "après que + indicatif ; exemple existant conservé"
+    }
+  ],
+  "format": "Exact leaf edits and appended items; redundant whole-file snapshots retained only in local workspace.",
+  "changes": [
+    {
+      "file": "tools/supplement-b1.json",
+      "path": [
+        "b1-double-pronoms",
+        "practice",
+        1,
+        "a"
+      ],
+      "before": "说话者 je",
+      "after": "Le locuteur, désigné par je, promet d’envoyer le dossier."
+    },
+    {
+      "file": "tools/supplement-b1.json",
+      "path": [
+        "b1-double-pronoms",
+        "sections",
+        0,
+        "explanation"
+      ],
+      "before": "Je lui demande de me les envoyer 中 lui 是 demander à quelqu’un 的对象；me les 属于 envoyer quelque chose à quelqu’un，应在不定式前。不是看到多个代词就把它们全部排列在第一个动词前。先展开名词：Je demande à Léa d’envoyer les pièces à moi。\n通常 Je demande à Léa de venir 中 venir 的主体是 Léa；Je promets à Léa de venir 中主体是 je。重组代词前必须保留这一行动分配。否定也有作用域：Je ne lui demande pas de venir 否定请求；Je lui demande de ne pas venir 则确实提出了“不要来”的请求。",
+      "after": "Je lui demande de me les envoyer 中 lui 是 demander à quelqu’un 的对象；me les 属于 envoyer quelque chose à quelqu’un，应在不定式前。不是看到多个代词就把它们全部排列在第一个动词前。先展开名词：Je demande à Léa de m’envoyer les pièces；其中 me 表示接收人“给我”。\n通常 Je demande à Léa de venir 中 venir 的主体是 Léa；Je promets à Léa de venir 中主体是 je。重组代词前必须保留这一行动分配。否定也有作用域：Je ne lui demande pas de venir 否定请求；Je lui demande de ne pas venir 则确实提出了“不要来”的请求。"
+    },
+    {
+      "file": "tools/supplement-b2.json",
+      "path": [
+        "b2-opposition-concession",
+        "practice",
+        0,
+        "a"
+      ],
+      "before": "不可以。Même si 引条件情景，未确认关门。",
+      "after": "Non. Même si introduit une situation conditionnelle sans confirmer que la salle sera fermée."
+    },
+    {
+      "file": "tools/supplement-b2.json",
+      "path": [
+        "b2-opposition-concession",
+        "sections",
+        1,
+        "explanation"
+      ],
+      "before": "Bien que la salle soit fermée 以让步方式呈现关门；Même si la salle est fermée peut 引出“即便关门”的情景，不必确认实际关门。复合句中的 pouvoir 还可能表达许可、能力或可能，不能只凭连接词推导完整事实。重写时先记录P是否已知，再决定用事实性让步还是条件测试。",
+      "after": "Bien que la salle soit fermée 以让步方式呈现关门；Même si la salle est fermée 可引出“即便关门”的情景，不必确认实际关门。复合句中的 pouvoir 还可能表达许可、能力或可能，不能只凭连接词推导完整事实。重写时先记录P是否已知，再决定用事实性让步还是条件测试。"
+    },
+    {
+      "file": "tools/supplement-c2.json",
+      "path": [
+        "c2-cohesion",
+        "practice",
+        2,
+        "a"
+      ],
+      "before": "Le comité n’a vérifié que les chiffres du troisième paragraphe, sans approuver l’ensemble du texte.",
+      "after": "Le comité n’a vérifié que les chiffres du troisième paragraphe."
+    },
+    {
+      "file": "tools/supplement-c2.json",
+      "path": [
+        "c2-cohesion",
+        "practice",
+        2,
+        "note"
+      ],
+      "before": "局部对象、动作性质和未扩大认可为必需信息。措辞可变，不由压缩字数直接判语言等级。",
+      "after": "保留局部核查范围；不据此声称事实上从未批准全文。如需解释推论边界，可补 Cette vérification ne vaut pas approbation de l’ensemble du texte。不能把字数压缩自评直接换为语言等级。"
+    },
+    {
+      "file": "tools/supplement-c2.json",
+      "path": [
+        "c2-conjecture",
+        "practice",
+        0,
+        "q"
+      ],
+      "before": "办公室与外套都空了，据此推断她走了；哪句最直接？ 选项：Elle a dû partir. / Elle aurait dû partir plus tôt. / Elle devait partir demain.",
+      "after": "办公室空了，外套也不见了，据此推断她走了；哪句最直接？ 选项：Elle a dû partir. / Elle aurait dû partir plus tôt. / Elle devait partir demain."
+    },
+    {
+      "file": "tools/supplement-c2.json",
+      "path": [
+        "c2-conjecture",
+        "sections",
+        0,
+        "explanation"
+      ],
+      "before": "Elle a dû partir 可指过去的必要性，也可在具体线索下推断她已经离开；上下文决定。Elle aurait dû partir 更早可表达未实现的合宜行为或事后批评，不能当成较弱版本的“她一定离开了”。条件式还可用于转述未证实的义务，故同样必须核实语境。\nElle devait présenter le rapport 可表示过去计划或义务，既不能单独证明她已作报告，也不能单独证明取消。Elle aurait présenté le rapport, selon un témoin 标示未经确认的转述；il est possible qu’elle ait présenté le rapport 则提出可能性，未标示相同来源。改写时保留来源、时间和是否实现，不把所有弱化表达排成固定概率表。",
+      "after": "Elle a dû partir 可指过去的必要性，也可在具体线索下推断她已经离开；上下文决定。Elle aurait dû partir plus tôt 在这一语境中可表达未实现的合宜行为或事后批评，不能当成较弱版本的“她一定离开了”。条件式还可用于转述未证实的义务，故同样必须核实语境。\nElle devait présenter le rapport 可表示过去计划或义务，既不能单独证明她已作报告，也不能单独证明取消。Elle aurait présenté le rapport, selon un témoin 标示未经确认的转述；il est possible qu’elle ait présenté le rapport 则提出可能性，未标示相同来源。改写时保留来源、时间和是否实现，不把所有弱化表达排成固定概率表。"
+    }
+  ]
+}

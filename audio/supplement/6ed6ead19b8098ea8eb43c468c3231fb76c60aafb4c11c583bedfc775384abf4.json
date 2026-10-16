@@ -1,0 +1,10 @@
+{
+  "text": "Nous avons loué cette voiture pour une semaine.",
+  "text_sha256": "6ed6ead19b8098ea8eb43c468c3231fb76c60aafb4c11c583bedfc775384abf4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Il me donne du café → Il m'en donne.",
+  "text_sha256": "adbf72c39d0843d2f12567655ccc6d0c8c8fc53e07b0b97e4ff240824c05b423",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Elles se sont parlé pendant une heure.",
+  "text_sha256": "159c4c7a9fcf8a2190168d339869e1604949f48ce74cf980035432661da21235",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Elle aurait dû partir plus tôt : maintenant, elle a raté le train.",
+  "text_sha256": "0526e47a4d831a42ffa8d75e6f14d616f34e55b969a02f496a1200f87b4bd62f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

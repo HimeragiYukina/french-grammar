@@ -1,0 +1,10 @@
+{
+  "text": "Bien que le jardin soit petit, on peut y lire.",
+  "text_sha256": "963d4b586458e14d4e1ae418b17ce6dcaebce8b51a529b27afd004a4a77865a4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

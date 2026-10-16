@@ -1,0 +1,10 @@
+{
+  "text": "Donne-m’en un peu.",
+  "text_sha256": "b3232a7412b5baa1261c99927371a15a8f7571b63fac1122bf393c4e4a6f9291",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

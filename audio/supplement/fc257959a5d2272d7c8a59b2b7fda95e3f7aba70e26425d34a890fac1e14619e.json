@@ -1,0 +1,10 @@
+{
+  "text": "Je crois qu'elle connaît déjà la réponse.",
+  "text_sha256": "fc257959a5d2272d7c8a59b2b7fda95e3f7aba70e26425d34a890fac1e14619e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

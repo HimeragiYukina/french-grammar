@@ -1,0 +1,10 @@
+{
+  "text": "Même s'il pleut demain, nous sortirons.",
+  "text_sha256": "6bf481b3f492391bd0c5d4f598d1672ffbb6d85e13dbbab7262937743cdc08b4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-15",
+  "passed": {
+    "changed_page_browser_checks": {
+      "results": [
+        {
+          "name": "tutorial A1-U05-L01 at 390",
+          "pass": true
+        },
+        {
+          "name": "grammar a1-partitif at 390",
+          "pass": true
+        },
+        {
+          "name": "tutorial A2-U03-L01 at 390",
+          "pass": true
+        },
+        {
+          "name": "grammar a2-temps-prep at 390",
+          "pass": true
+        },
+        {
+          "name": "tutorial B1-U05-L04 at 390",
+          "pass": true
+        },
+        {
+          "name": "grammar b1-double-pronoms at 390",
+          "pass": true
+        },
+        {
+          "name": "tutorial B2-U06-L06 at 390",
+          "pass": true
+        },
+        {
+          "name": "grammar b2-mode-choix at 390",
+          "pass": true
+        },
+        {
+          "name": "tutorial C1-U07-L06 at 390",
+          "pass": true
+        },
+        {
+          "name": "grammar c1-accord-avance at 390",
+          "pass": true
+        },
+        {
+          "name": "tutorial C2-U03-L03 at 390",
+          "pass": true
+        },
+        {
+          "name": "grammar c2-conjecture at 390",
+          "pass": true
+        },
+        {
+          "name": "tutorial A1-U05-L01 at 1440",
+          "pass": true
+        },
+        {
+          "name": "grammar a1-partitif at 1440",
+          "pass": true
+        },
+        {
+          "name": "tutorial A2-U03-L01 at 1440",
+          "pass": true
+        },
+        {
+          "name": "grammar a2-temps-prep at 1440",
+          "pass": true
+        },
+        {
+          "name": "tutorial B1-U05-L04 at 1440",
+          "pass": true
+        },
+        {
+          "name": "grammar b1-double-pronoms at 1440",
+          "pass": true
+        },
+        {
+          "name": "tutorial B2-U06-L06 at 1440",
+          "pass": true
+        },
+        {
+          "name": "grammar b2-mode-choix at 1440",
+          "pass": true
+        },
+        {
+          "name": "tutorial C1-U07-L06 at 1440",
+          "pass": true
+        },
+        {
+          "name": "grammar c1-accord-avance at 1440",
+          "pass": true
+        },
+        {
+          "name": "tutorial C2-U03-L03 at 1440",
+          "pass": true
+        },
+        {
+          "name": "grammar c2-conjecture at 1440",
+          "pass": true
+        },
+        {
+          "name": "grammar file protocol retains supplements",
+          "pass": true
+        }
+      ],
+      "pageErrors": [],
+      "scope": "headless fresh browser context; no user profile, microphone or desktop access",
+      "untested": [
+        "actual Google français voice availability or audible output",
+        "human oral performance",
+        "new example prerecorded audio"
+      ]
+    },
+    "existing_tutorial_regression": {
+      "browser": "155.0.4283.45",
+      "viewportDesktop": {
+        "width": 1440,
+        "height": 1000
+      },
+      "viewportMobile": {
+        "width": 390,
+        "height": 844
+      },
+      "results": [
+        {
+          "name": "home loads local course data",
+          "pass": true
+        },
+        {
+          "name": "search and repeated filter operations",
+          "pass": true
+        },
+        {
+          "name": "independent lesson page and bilingual toggles",
+          "pass": true
+        },
+        {
+          "name": "reading and mastery states independent, persist reload",
+          "pass": true
+        },
+        {
+          "name": "exercise incorrect/correct feedback and error resolution",
+          "pass": true
+        },
+        {
+          "name": "audio metadata, repeat and rate",
+          "pass": true
+        },
+        {
+          "name": "writing counter, saved draft and timer",
+          "pass": true
+        },
+        {
+          "name": "microphone failure handled without granting permission",
+          "pass": true
+        },
+        {
+          "name": "word card spaced review",
+          "pass": true
+        },
+        {
+          "name": "index and cross-level associations search",
+          "pass": true
+        },
+        {
+          "name": "JSON export and valid import, invalid backup rejection",
+          "pass": true
+        },
+        {
+          "name": "exam pages and timers",
+          "pass": true
+        },
+        {
+          "name": "mobile viewport and navigation repeated",
+          "pass": true
+        },
+        {
+          "name": "all course page URLs and audio headers",
+          "pass": true
+        }
+      ],
+      "pageErrors": [],
+      "recordingScope": "Permission/error path only; no real microphone permission granted; live recording not verified",
+      "timestamp": "2026-10-15T08:13:49.772Z"
+    },
+    "tutorial_schema": {
+      "lessons": 353,
+      "issues": []
+    },
+    "grammar_checks": [
+      "build-pages.py",
+      "check-baseline.py",
+      "check-strict-review.py",
+      "check-content.js",
+      "extract.js",
+      "check-audio.js"
+    ],
+    "javascript_syntax": [
+      "tutorial/assets/app.js",
+      "grammar/assets/app.js"
+    ],
+    "preservation": "Tutorial before/after ledger proves existing fields, dialogue, audio and exercise prefixes unchanged; grammar historical baseline preserved.",
+    "grammar_audio_files_checked": 1090
+  },
+  "failed_final": [],
+  "resolved_test_issue": "Two B2 assertions still expected an old generic heading after refinement. The test now reads authored source headings; final rerun 25/25 passed.",
+  "not_tested": [
+    "Actual Google français voice availability and acoustic listening",
+    "Live microphone capture or human speaking/writing proficiency",
+    "New examples have no prerecorded audio",
+    "No separate TypeScript check: both projects use static JavaScript; build and node --check completed"
+  ],
+  "scope": "Local files only; no commit/push/deployment; no access to real browser profile or learning progress; no desktop interaction.",
+  "record_scope": "Grammar repository; earlier combined validation counts are historical summaries, not copies of private tutorial content."
+}

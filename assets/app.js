@@ -254,7 +254,7 @@ function utter(text){
 function audioURLFor(text){
   if(!useNeural||!MAN||!MAN.map)return null;
   const f=MAN.map[text];
-  return f ? (MAN.base+neuralVoice+'/'+f) : null;
+  return f ? (MAN.base+neuralVoice+'/'+f) : ((MAN.localMap&&MAN.localMap[text])||null);
 }
 function speakOne(text,done){
   if(!('speechSynthesis' in window)){done&&done();return;}

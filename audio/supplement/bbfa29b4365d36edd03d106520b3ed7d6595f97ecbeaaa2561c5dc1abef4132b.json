@@ -1,0 +1,10 @@
+{
+  "text": "Je ne mange pas de pain et je bois beaucoup d'eau.",
+  "text_sha256": "bbfa29b4365d36edd03d106520b3ed7d6595f97ecbeaaa2561c5dc1abef4132b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

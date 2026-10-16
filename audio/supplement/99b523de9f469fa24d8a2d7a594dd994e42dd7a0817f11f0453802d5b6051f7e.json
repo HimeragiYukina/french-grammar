@@ -1,0 +1,10 @@
+{
+  "text": "Il faut du courage pour parler en public.",
+  "text_sha256": "99b523de9f469fa24d8a2d7a594dd994e42dd7a0817f11f0453802d5b6051f7e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

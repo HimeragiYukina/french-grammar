@@ -2135,6 +2135,32 @@ window.GRAMMAR_DATA.A2={
               "use": "depuis 参照的是当时；叙事中的“后来”用 plus tard，而非机械使用相对于现在的 dans。"
             }
           ]
+        },
+        {
+          "title": "语境诊断：depuis 与否定复合过去时：没有发生也能持续",
+          "explanation": "现在仍持续的肯定状态常用现在时 + depuis；但 Je n’ai pas reçu de réponse depuis lundi 用否定复合过去时，表示从周一起直到现在一次回复也未收到。持续的是“没有收到”这个区间，而不是收到的动作。不要把 depuis + passé composé 一概判错。\ndepuis que 后接直陈式，说明持续区间的起点；起点事件可用复合过去时，主句按持续状态选择现在时。il y a trois jours 指三天前的一次事件，不保证现在仍持续。办理预约时分别说明开始时间与最后联系时间，避免把三天前打过电话写成一直打了三天。",
+          "examples": [
+            {
+              "fr": "Je travaille ici depuis lundi.",
+              "zh": "我从周一起一直在这里工作。",
+              "use": "肯定持续状态用现在时；depuis 引出起点。"
+            },
+            {
+              "fr": "Je n’ai pas reçu de réponse depuis lundi.",
+              "zh": "从周一起我就没有收到回复。",
+              "use": "否定复合过去时覆盖周一起至今没有收到的区间。"
+            },
+            {
+              "fr": "Depuis que j’ai changé d’horaire, je dors mieux.",
+              "zh": "自从换了作息，我睡得更好了。",
+              "use": "depuis que 后的已完成起点与主句现在状态分开。"
+            },
+            {
+              "fr": "J’ai appelé il y a trois jours, mais je n’ai pas reçu de confirmation depuis.",
+              "zh": "我三天前打过电话，但之后一直没有收到确认。",
+              "use": "il y a 定位一次电话，depuis 指之后直到现在。"
+            }
+          ]
         }
       ],
       "comparison": "Il est parti il y a trois jours：三天前走的；Il est absent depuis trois jours：已不在这里三天；Il part pour trois jours：预计离开三天。pendant两小时是持续时间，en两小时是完成耗时。",
@@ -2155,12 +2181,28 @@ window.GRAMMAR_DATA.A2={
           "q": "改写“我昨天花半小时填写完了表格”，用 passé composé 和 en。",
           "a": "J’ai rempli le formulaire en une demi-heure hier.",
           "note": "en 衡量完成耗时；pendant 描述活动延续，未必填完。"
+        },
+        {
+          "q": "周一起至今一封回复也未收到，哪句精确？ 选项：Je n’ai pas reçu de réponse depuis lundi. / Je ne recevrai pas de réponse pendant lundi. / J’ai reçu une réponse il y a lundi.",
+          "a": "Je n’ai pas reçu de réponse depuis lundi.",
+          "note": "否定复合过去时可与 depuis 搭配，覆盖截至现在未发生的事件；pendant lundi 和 il y a lundi 均不适合这个时间表达。"
+        },
+        {
+          "q": "补全并说明时间关系：Depuis que je ___ (changer) d’horaire, je ___ (dormir) mieux.",
+          "a": "Depuis que j’ai changé d’horaire, je dors mieux.",
+          "note": "换作息是已经完成的起点，睡得更好是目前持续的状态。depuis que 接直陈式，不因中文“自从”而使用虚拟式。"
+        },
+        {
+          "q": "向活动中心追问报名：三天前发了邮件，此后未收到答复；要求确认。",
+          "a": "J’ai envoyé un courriel il y a trois jours, mais je n’ai pas reçu de réponse depuis. Pouvez-vous confirmer mon inscription ?",
+          "note": "须保留一次已完成的发送、直到现在无回复及确认请求。courriel 可换成 e-mail；开放题不要求逐字相同。"
         }
       ],
       "related": [
         "a2-pc-vs-imp",
         "a2-futur-simple",
-        "b1-pqp"
+        "b1-pqp",
+        "a2-pc-avoir"
       ]
     },
     "a2-politesse": {

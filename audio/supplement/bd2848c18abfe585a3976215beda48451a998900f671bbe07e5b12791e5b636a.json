@@ -1,0 +1,10 @@
+{
+  "text": "Le local est plus petit ; en revanche, il est mieux desservi par les transports.",
+  "text_sha256": "bd2848c18abfe585a3976215beda48451a998900f671bbe07e5b12791e5b636a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

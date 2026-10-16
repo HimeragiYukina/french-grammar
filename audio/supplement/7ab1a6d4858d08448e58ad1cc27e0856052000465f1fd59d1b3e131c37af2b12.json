@@ -1,0 +1,10 @@
+{
+  "text": "Penses-tu qu'une autre solution soit possible ?",
+  "text_sha256": "7ab1a6d4858d08448e58ad1cc27e0856052000465f1fd59d1b3e131c37af2b12",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

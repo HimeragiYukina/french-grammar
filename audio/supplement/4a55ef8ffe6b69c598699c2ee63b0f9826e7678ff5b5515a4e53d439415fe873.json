@@ -1,0 +1,10 @@
+{
+  "text": "D'après la presse, l'entreprise aurait signé un accord hier.",
+  "text_sha256": "4a55ef8ffe6b69c598699c2ee63b0f9826e7678ff5b5515a4e53d439415fe873",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

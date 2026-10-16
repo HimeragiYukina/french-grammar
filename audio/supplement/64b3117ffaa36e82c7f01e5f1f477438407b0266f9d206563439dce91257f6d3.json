@@ -1,0 +1,10 @@
+{
+  "text": "Ajoute de la farine et de l’eau.",
+  "text_sha256": "64b3117ffaa36e82c7f01e5f1f477438407b0266f9d206563439dce91257f6d3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

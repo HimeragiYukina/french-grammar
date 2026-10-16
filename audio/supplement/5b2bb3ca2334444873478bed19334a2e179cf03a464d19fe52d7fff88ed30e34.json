@@ -1,0 +1,10 @@
+{
+  "text": "Le locuteur, désigné par je, promet d’envoyer le dossier.",
+  "text_sha256": "5b2bb3ca2334444873478bed19334a2e179cf03a464d19fe52d7fff88ed30e34",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Il dira la vérité, quitte à déplaire.",
+  "text_sha256": "76fd244002bcef46577c16eef422c7abefa39d582a213ea3fbdebf3fac872061",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

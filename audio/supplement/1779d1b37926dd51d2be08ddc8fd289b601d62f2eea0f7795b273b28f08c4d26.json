@@ -1,0 +1,10 @@
+{
+  "text": "Il est probable que le train arrivera en retard.",
+  "text_sha256": "1779d1b37926dd51d2be08ddc8fd289b601d62f2eea0f7795b273b28f08c4d26",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

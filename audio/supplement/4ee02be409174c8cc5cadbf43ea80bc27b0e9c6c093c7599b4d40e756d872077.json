@@ -1,0 +1,10 @@
+{
+  "text": "Il fait doux à Nice, alors qu'il neige à Paris.",
+  "text_sha256": "4ee02be409174c8cc5cadbf43ea80bc27b0e9c6c093c7599b4d40e756d872077",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

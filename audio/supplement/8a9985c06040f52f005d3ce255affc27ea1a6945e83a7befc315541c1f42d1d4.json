@@ -1,0 +1,10 @@
+{
+  "text": "La route est longue ; elle est, au demeurant, fort belle.",
+  "text_sha256": "8a9985c06040f52f005d3ce255affc27ea1a6945e83a7befc315541c1f42d1d4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

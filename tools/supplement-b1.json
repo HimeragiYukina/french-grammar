@@ -1,0 +1,54 @@
+{
+  "b1-double-pronoms": {
+    "sections": [
+      {
+        "title": "语境诊断：两个动词、两组角色：代词跟着谁走",
+        "explanation": "Je lui demande de me les envoyer 中 lui 是 demander à quelqu’un 的对象；me les 属于 envoyer quelque chose à quelqu’un，应在不定式前。不是看到多个代词就把它们全部排列在第一个动词前。先展开名词：Je demande à Léa de m’envoyer les pièces；其中 me 表示接收人“给我”。\n通常 Je demande à Léa de venir 中 venir 的主体是 Léa；Je promets à Léa de venir 中主体是 je。重组代词前必须保留这一行动分配。否定也有作用域：Je ne lui demande pas de venir 否定请求；Je lui demande de ne pas venir 则确实提出了“不要来”的请求。",
+        "examples": [
+          {
+            "fr": "Je lui demande de me les envoyer demain.",
+            "zh": "我请她明天把这些材料发给我。",
+            "use": "lui 是 demander 的间接宾语；me les 是 envoyer 的补语。"
+          },
+          {
+            "fr": "Je promets de les lui envoyer demain.",
+            "zh": "我答应明天把这些材料发给她。",
+            "use": "promettre 的主语承诺自己执行 envoyer；lui 只是接收人。"
+          },
+          {
+            "fr": "Je ne lui demande pas de venir.",
+            "zh": "我并没有要求她来。",
+            "use": "ne…pas 包围变位动词，否定“要求”这个行为。"
+          },
+          {
+            "fr": "Je lui demande de ne pas venir.",
+            "zh": "我要求她不要来。",
+            "use": "de ne pas venir 把否定放在被要求的动作内部。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "“我请她把这些文件发给我”，完整代词顺序是？ 选项：Je me les lui demande d’envoyer. / Je lui demande de me les envoyer. / Je les demande de lui me envoyer.",
+        "a": "Je lui demande de me les envoyer.",
+        "note": "lui 属于 demander；me les 属于 envoyer，放在它前面。全部挤到变位动词前会改变支配关系。"
+      },
+      {
+        "q": "Je promets à Léa de lui envoyer le dossier. 谁承诺发送？ 选项：Léa / 说话者 je / 无法判断，因为出现 lui",
+        "a": "Le locuteur, désigné par je, promet d’envoyer le dossier.",
+        "note": "promettre à qn de faire 的不定式通常与主语共享行动者；lui 是发送的接收者，不是发送人。"
+      },
+      {
+        "q": "对照改写：①我没有要求他们发文件。②我要求他们不要发文件。",
+        "a": "Je ne leur demande pas d’envoyer le dossier. / Je leur demande de ne pas envoyer le dossier.",
+        "note": "①否定 demander，不推出已经要求不发送；②否定不定式 envoyer，确实提出禁止发送的请求。两句不可互换。"
+      }
+    ],
+    "related": [
+      "a2-cod",
+      "a2-coi",
+      "a2-imperatif"
+    ]
+  }
+}

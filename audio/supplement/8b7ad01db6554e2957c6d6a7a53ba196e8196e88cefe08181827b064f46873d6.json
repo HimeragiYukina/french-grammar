@@ -1,0 +1,10 @@
+{
+  "text": "Elles se sont rendu compte de l’erreur.",
+  "text_sha256": "8b7ad01db6554e2957c6d6a7a53ba196e8196e88cefe08181827b064f46873d6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

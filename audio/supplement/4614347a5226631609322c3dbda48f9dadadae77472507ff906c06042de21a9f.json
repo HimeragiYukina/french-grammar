@@ -1,0 +1,10 @@
+{
+  "text": "Cette méthode est utile dans la mesure où elle permet de comparer les données.",
+  "text_sha256": "4614347a5226631609322c3dbda48f9dadadae77472507ff906c06042de21a9f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "J’ai envoyé un courriel il y a trois jours, mais je n’ai pas reçu de réponse depuis. Pouvez-vous confirmer mon inscription ?",
+  "text_sha256": "7f32bce06d0650c0165797bc10046a483683594c6d26ec42ab918cc824a17eaa",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

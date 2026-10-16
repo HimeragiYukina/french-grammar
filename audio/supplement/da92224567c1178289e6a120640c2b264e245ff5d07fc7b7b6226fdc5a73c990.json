@@ -1,0 +1,10 @@
+{
+  "text": "Non. La phrase refuse de déduire une meilleure sécurité de la seule réduction de distance.",
+  "text_sha256": "da92224567c1178289e6a120640c2b264e245ff5d07fc7b7b6226fdc5a73c990",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

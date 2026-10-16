@@ -1,0 +1,10 @@
+{
+  "text": "Tu peux m’en donner deux ?",
+  "text_sha256": "708ad4c93e049a3c6cb36d1fafa76af22ec3a52802bc2c3b0a891e3038802cc6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

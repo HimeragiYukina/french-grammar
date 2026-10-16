@@ -1,0 +1,10 @@
+{
+  "text": "La notice, au demeurant très claire, ne répond pas à la question des horaires.",
+  "text_sha256": "22295bba0202aae18174ab75cd5f3c13f7dc8b0258b6f51ec551249838aaf38e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

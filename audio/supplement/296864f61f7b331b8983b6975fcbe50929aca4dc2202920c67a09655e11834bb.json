@@ -1,0 +1,10 @@
+{
+  "text": "Je lui demande de me les envoyer.",
+  "text_sha256": "296864f61f7b331b8983b6975fcbe50929aca4dc2202920c67a09655e11834bb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

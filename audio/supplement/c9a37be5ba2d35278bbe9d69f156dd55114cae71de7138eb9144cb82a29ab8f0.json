@@ -1,0 +1,10 @@
+{
+  "text": "La cour est ouverte le matin, alors que le jardin est accessible l’après-midi.",
+  "text_sha256": "c9a37be5ba2d35278bbe9d69f156dd55114cae71de7138eb9144cb82a29ab8f0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

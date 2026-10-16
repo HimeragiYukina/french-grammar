@@ -1,0 +1,111 @@
+{
+  "c1-accord-avance": {
+    "sections": [
+      {
+        "title": "语境诊断：se rendre compte 与 s’apercevoir：同一认识过程，不同配合",
+        "explanation": "se rendre compte de 保持 rendu：compte 是固定表达中的直接成分，se 不直接控制分词配合。s’apercevoir de 在“意识到”意义下按主语配合。相近中文译法不能决定相同词尾；先识别完整动词结构。\nplaire à、succéder à 的 se 是间接宾语，plu、succédé 不随主语变化。Elles se sont plu 可指她们彼此喜欢，也可在地点语境中指她们待得愉快；意义由语境决定，词尾仍不加 es。校对时逐项还原支配，不用“être 后都一致”或“找不到宾语就一致”替代分析。",
+        "examples": [
+          {
+            "fr": "Elles se sont rendu compte de l’erreur.",
+            "zh": "她们意识到了错误。",
+            "use": "固定结构 se rendre compte 保持 rendu，不随 elles 增加 es。"
+          },
+          {
+            "fr": "Elles se sont aperçues de l’erreur.",
+            "zh": "她们察觉了错误。",
+            "use": "察觉意义下 s’apercevoir de 按主语配合：aperçues。"
+          },
+          {
+            "fr": "Elles se sont plu dès leur première rencontre.",
+            "zh": "她们第一次见面就互有好感。",
+            "use": "plaire à 的 se 为 COI，plu 不变。"
+          },
+          {
+            "fr": "Trois directrices se sont succédé à la tête de l’association.",
+            "zh": "三位女负责人先后领导过协会。",
+            "use": "succéder à 的 se 为 COI，succédé 不变。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "哪一组词尾准确？ 选项：Elles se sont rendues compte et se sont aperçu du problème. / Elles se sont rendu compte et se sont aperçues du problème. / Elles se sont rendues compte et se sont aperçues du problème.",
+        "a": "Elles se sont rendu compte et se sont aperçues du problème.",
+        "note": "se rendre compte 保持 rendu；s’apercevoir de（察觉）随阴性复数主语写 aperçues。不能因两者近义而同处理。"
+      },
+      {
+        "q": "改错并还原支配：Les deux directrices se sont succédées.",
+        "a": "Les deux directrices se sont succédé.",
+        "note": "succéder à quelqu’un，因此 se 是 COI，succédé 不变；阴性复数主语本身不足以决定配合。"
+      },
+      {
+        "q": "编辑批注：为什么 Elles se sont plu 和 Elles se sont vues 的词尾不同？用法语解释一句。",
+        "a": "On plaît à quelqu’un, mais on voit quelqu’un : se est indirect dans la première phrase et direct dans la seconde.",
+        "note": "plaire à → se 为 COI，plu 不变；voir qn → 前置 se 为 COD，vues 配合。应说明支配关系，不只说一个是例外。"
+      }
+    ],
+    "related": [
+      "a2-pronominaux",
+      "b2-accord-pp"
+    ]
+  },
+  "c1-connecteurs-soutenus": {
+    "sections": [
+      {
+        "title": "dès lors 与 pour autant：推出结论还是阻止过度结论",
+        "explanation": "dès lors 可依时间语境表示从那时起，也可在论证中表示既然如此/因此。pour autant 常与否定配合，阻断由前句跳到过强结论；不否认前句。写来源综合时可用“承认发现→阻断过度推论→提出有限结论”，不应把连接词当作无内容装饰。",
+        "examples": [
+          {
+            "fr": "Le règlement exclut désormais les véhicules lourds ; dès lors, il faut revoir le trajet des livraisons.",
+            "zh": "规定如今排除重型车辆；因此须重审送货路线。",
+            "use": "论证中的 dès lors 连接规则变化和行动需要，非单纯时间先后。"
+          },
+          {
+            "fr": "Le trajet est plus court ; il n’est pas pour autant moins dangereux.",
+            "zh": "路线更短，却不因此更安全。",
+            "use": "承认更短，否定从长度直接推出更低危险；未断言一定更危险。"
+          }
+        ]
+      },
+      {
+        "title": "au demeurant 与 en revanche：补充评价还是建立对照",
+        "explanation": "au demeurant 常补充一句评价或补充说明，可近于“此外/说到底就这一点而言”，并非每次都翻成“然而”。en revanche 通常对照得失或相反方面，不自动表示后项精确补偿前项。选择连接词后应能说出它连接哪两个命题；如果只是换高级词却说不清关系，应回到较简单的表达。",
+        "examples": [
+          {
+            "fr": "La notice, au demeurant très claire, ne répond pas à la question des horaires.",
+            "zh": "这份说明本身很清楚，但没有回答时段问题。",
+            "use": "插入评价不否定正文批评；清楚与未涉及该问题可同时成立。"
+          },
+          {
+            "fr": "Le nouveau local est moins vaste ; en revanche, il est desservi par deux lignes de tramway.",
+            "zh": "新场地较小；另一方面，有两条有轨电车线路到达。",
+            "use": "面积与交通是不同评价维度，不能计算成自动相抵的净收益。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "La route est plus courte ; elle n’est pas pour autant plus sûre. 是否断言路线更危险？",
+        "a": "Non. La phrase refuse de déduire une meilleure sécurité de la seule réduction de distance.",
+        "note": "否定“更安全”的推论不自动证明相反；实际风险仍需数据。"
+      },
+      {
+        "q": "把“场地较小但交通更方便”改成保留两维、不给总分的正式句。",
+        "a": "Le local est plus petit ; en revanche, il est mieux desservi par les transports.",
+        "note": "允许其他对照结构。不得加 donc il est globalement meilleur，除非说明评价权重及额外理由。"
+      },
+      {
+        "q": "解释 La notice, au demeurant très claire, ne traite pas des horaires 中插入语与主句关系。",
+        "a": "La clarté de la notice est reconnue, mais son champ ne comprend pas les horaires.",
+        "note": "不是先肯定再撤销；清晰度与内容覆盖范围不同。可用中文，但须明确两个维度。"
+      }
+    ],
+    "related": [
+      "b2-opposition-concession",
+      "b2-cause-consequence",
+      "c2-cohesion"
+    ]
+  }
+}

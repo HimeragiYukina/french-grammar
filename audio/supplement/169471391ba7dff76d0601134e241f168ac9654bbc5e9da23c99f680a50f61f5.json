@@ -1,0 +1,10 @@
+{
+  "text": "J’habite ici depuis septembre.",
+  "text_sha256": "169471391ba7dff76d0601134e241f168ac9654bbc5e9da23c99f680a50f61f5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

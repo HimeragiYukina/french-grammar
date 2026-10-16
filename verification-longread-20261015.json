@@ -1,0 +1,361 @@
+{
+  "batch": "longread-20261015",
+  "content_metrics": [
+    {
+      "id": "B2-B02",
+      "level": "B2",
+      "paragraphs": 6,
+      "french_input_words": 783,
+      "objective_questions": 6,
+      "open_questions": 3,
+      "writing_model_words": 240,
+      "grammar_companion": "b2-opposition-concession"
+    },
+    {
+      "id": "C1-B02",
+      "level": "C1",
+      "paragraphs": 6,
+      "french_input_words": 809,
+      "objective_questions": 6,
+      "open_questions": 3,
+      "writing_model_words": 256,
+      "grammar_companion": "c1-connecteurs-soutenus"
+    },
+    {
+      "id": "C2-B02",
+      "level": "C2",
+      "paragraphs": 6,
+      "french_input_words": 808,
+      "objective_questions": 6,
+      "open_questions": 3,
+      "writing_model_words": 330,
+      "grammar_companion": "c2-cohesion"
+    }
+  ],
+  "passed": {
+    "browser_check_count": 63,
+    "browser_reports": {
+      "browser-tests": {
+        "browser": "155.0.4283.45",
+        "viewportDesktop": {
+          "width": 1440,
+          "height": 1000
+        },
+        "viewportMobile": {
+          "width": 390,
+          "height": 844
+        },
+        "results": [
+          {
+            "name": "home loads local course data",
+            "pass": true
+          },
+          {
+            "name": "search and repeated filter operations",
+            "pass": true
+          },
+          {
+            "name": "independent lesson page and bilingual toggles",
+            "pass": true
+          },
+          {
+            "name": "reading and mastery states independent, persist reload",
+            "pass": true
+          },
+          {
+            "name": "exercise incorrect/correct feedback and error resolution",
+            "pass": true
+          },
+          {
+            "name": "audio metadata, repeat and rate",
+            "pass": true
+          },
+          {
+            "name": "writing counter, saved draft and timer",
+            "pass": true
+          },
+          {
+            "name": "microphone failure handled without granting permission",
+            "pass": true
+          },
+          {
+            "name": "word card spaced review",
+            "pass": true
+          },
+          {
+            "name": "index and cross-level associations search",
+            "pass": true
+          },
+          {
+            "name": "JSON export and valid import, invalid backup rejection",
+            "pass": true
+          },
+          {
+            "name": "exam pages and timers",
+            "pass": true
+          },
+          {
+            "name": "mobile viewport and navigation repeated",
+            "pass": true
+          },
+          {
+            "name": "all course page URLs and audio headers",
+            "pass": true
+          }
+        ],
+        "pageErrors": [],
+        "recordingScope": "Permission/error path only; no real microphone permission granted; live recording not verified",
+        "timestamp": "2026-10-15T08:27:31.350Z"
+      },
+      "completion-browser-tests": {
+        "results": [
+          {
+            "name": "complete exam entry links and readable mobile original figure",
+            "pass": true
+          },
+          {
+            "name": "all transfer pages with full input, links, declared audio or explicit reading fallback",
+            "pass": true
+          }
+        ],
+        "pageErrors": [],
+        "timestamp": "2026-10-15T08:24:54.283Z"
+      },
+      "extended-browser-tests": {
+        "results": [
+          {
+            "name": "TEF listening one-play and forward-only",
+            "pass": true
+          },
+          {
+            "name": "TCF reading return keeps selected answer",
+            "pass": true
+          },
+          {
+            "name": "six four-skill assessments render and answers work",
+            "pass": true
+          },
+          {
+            "name": "open exercise requires actual response and uses self-check",
+            "pass": true
+          },
+          {
+            "name": "section anchors stay in independent lesson",
+            "pass": true
+          },
+          {
+            "name": "every level sampled audio has real duration",
+            "pass": true
+          },
+          {
+            "name": "four real human materials decode with duration",
+            "pass": true
+          },
+          {
+            "name": "recording mechanics with synthetic stream, no real mic",
+            "pass": true
+          },
+          {
+            "name": "coverage report filters and keeps mobile width",
+            "pass": true
+          },
+          {
+            "name": "recommended route respects unmet lesson prerequisites",
+            "pass": true
+          },
+          {
+            "name": "full index pagination and query reset",
+            "pass": true
+          },
+          {
+            "name": "exam draft word count persists after reload",
+            "pass": true
+          }
+        ],
+        "pageErrors": [],
+        "timestamp": "2026-10-15T08:24:58.786Z",
+        "recordingScope": "Synthetic oscillator stream tests MediaRecorder start/stop/blob replay wiring. Real microphone permission was not granted or tested."
+      },
+      "longread-browser-tests": {
+        "results": [
+          {
+            "name": "B2-B02 paragraphs and layout at 390",
+            "pass": true
+          },
+          {
+            "name": "B2-B02 grammar companion at 390",
+            "pass": true
+          },
+          {
+            "name": "C1-B02 paragraphs and layout at 390",
+            "pass": true
+          },
+          {
+            "name": "C1-B02 grammar companion at 390",
+            "pass": true
+          },
+          {
+            "name": "C2-B02 paragraphs and layout at 390",
+            "pass": true
+          },
+          {
+            "name": "C2-B02 grammar companion at 390",
+            "pass": true
+          },
+          {
+            "name": "B2-B02 paragraphs and layout at 1440",
+            "pass": true
+          },
+          {
+            "name": "B2-B02 grammar companion at 1440",
+            "pass": true
+          },
+          {
+            "name": "C1-B02 paragraphs and layout at 1440",
+            "pass": true
+          },
+          {
+            "name": "C1-B02 grammar companion at 1440",
+            "pass": true
+          },
+          {
+            "name": "C2-B02 paragraphs and layout at 1440",
+            "pass": true
+          },
+          {
+            "name": "C2-B02 grammar companion at 1440",
+            "pass": true
+          },
+          {
+            "name": "B2-B02 objective 1",
+            "pass": true
+          },
+          {
+            "name": "B2-B02 objective 2",
+            "pass": true
+          },
+          {
+            "name": "B2-B02 objective 3",
+            "pass": true
+          },
+          {
+            "name": "B2-B02 objective 4",
+            "pass": true
+          },
+          {
+            "name": "B2-B02 objective 5",
+            "pass": true
+          },
+          {
+            "name": "B2-B02 objective 6",
+            "pass": true
+          },
+          {
+            "name": "B2-B02 open task self-assessment and saved draft",
+            "pass": true
+          },
+          {
+            "name": "C1-B02 objective 1",
+            "pass": true
+          },
+          {
+            "name": "C1-B02 objective 2",
+            "pass": true
+          },
+          {
+            "name": "C1-B02 objective 3",
+            "pass": true
+          },
+          {
+            "name": "C1-B02 objective 4",
+            "pass": true
+          },
+          {
+            "name": "C1-B02 objective 5",
+            "pass": true
+          },
+          {
+            "name": "C1-B02 objective 6",
+            "pass": true
+          },
+          {
+            "name": "C1-B02 open task self-assessment and saved draft",
+            "pass": true
+          },
+          {
+            "name": "C2-B02 objective 1",
+            "pass": true
+          },
+          {
+            "name": "C2-B02 objective 2",
+            "pass": true
+          },
+          {
+            "name": "C2-B02 objective 3",
+            "pass": true
+          },
+          {
+            "name": "C2-B02 objective 4",
+            "pass": true
+          },
+          {
+            "name": "C2-B02 objective 5",
+            "pass": true
+          },
+          {
+            "name": "C2-B02 objective 6",
+            "pass": true
+          },
+          {
+            "name": "C2-B02 open task self-assessment and saved draft",
+            "pass": true
+          },
+          {
+            "name": "all three readings discoverable by distinctive titles",
+            "pass": true
+          },
+          {
+            "name": "reading route entry, links and mobile width",
+            "pass": true
+          }
+        ],
+        "pageErrors": [],
+        "timestamp": "2026-10-15T08:27:24.674Z",
+        "scope": "Fresh headless context; real user progress/profile untouched; no real microphone or audible synthesis validation."
+      }
+    },
+    "schema_lessons": 356,
+    "schema_issues": [],
+    "prerequisite_graph_issues": [],
+    "nonreview_exact_duplicate_teaching_paragraphs": 0,
+    "grammar": [
+      "build-pages.py",
+      "check-baseline.py",
+      "check-strict-review.py",
+      "check-content.js",
+      "extract.js",
+      "check-audio.js: 1090 existing audio files validated"
+    ],
+    "syntax": [
+      "tutorial assets/app.js",
+      "grammar assets/app.js"
+    ],
+    "content_review": [
+      "Original six bridge lesson objects equal Git HEAD",
+      "All new French paragraphs scanned for mixed CJK or replacement characters",
+      "Model lengths checked against requested ranges",
+      "All objective answers and distractors internally reviewed against paragraph evidence",
+      "Open-task rubrics distinguish self-assessment from automatic grading"
+    ]
+  },
+  "failed": [],
+  "not_tested": [
+    "No new prerecorded audio generated: 18 new paragraphs use browser synthesis fallback",
+    "Actual Google français system voice availability and acoustic quality",
+    "Real microphone permissions/capture; synthetic MediaRecorder regression only",
+    "Independent external teacher assessment or official CEFR/exam scoring",
+    "No full acoustic transcription of existing audio"
+  ],
+  "scope": "Local backend/headless only; no desktop focus, GPU audio generation, commit, push, deployment or user-profile/progress upload.",
+  "record_scope": "Grammar repository; earlier combined validation counts are historical summaries, not copies of private tutorial content."
+}

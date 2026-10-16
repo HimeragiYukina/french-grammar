@@ -1,0 +1,10 @@
+{
+  "text": "Je les lui ai envoyés.",
+  "text_sha256": "5af44ddb6689a1a3289bb968596346e28491af83c51088cf7f6f1e0a7d66c041",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

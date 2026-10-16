@@ -1,0 +1,10 @@
+{
+  "text": "Le délai est court. Cela étant, le travail reste réalisable.",
+  "text_sha256": "a3e8bd7fecf659b5cc07be1bd40e135a956e85416b9e77f61d5f7e432325d639",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

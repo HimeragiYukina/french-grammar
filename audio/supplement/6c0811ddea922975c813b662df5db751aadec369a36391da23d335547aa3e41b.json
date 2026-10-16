@@ -1,0 +1,10 @@
+{
+  "text": "Le trajet est plus court ; il n’est pas pour autant moins dangereux.",
+  "text_sha256": "6c0811ddea922975c813b662df5db751aadec369a36391da23d335547aa3e41b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

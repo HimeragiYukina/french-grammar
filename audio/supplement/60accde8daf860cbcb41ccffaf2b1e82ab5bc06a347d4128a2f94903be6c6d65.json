@@ -1,0 +1,10 @@
+{
+  "text": "Même si tu ne me crois pas, c'est la vérité.",
+  "text_sha256": "60accde8daf860cbcb41ccffaf2b1e82ab5bc06a347d4128a2f94903be6c6d65",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

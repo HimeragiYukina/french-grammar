@@ -1,0 +1,10 @@
+{
+  "text": "Pourriez-vous préciser ce point ?",
+  "text_sha256": "fdf17454b642e735986268e549a53473971ea0b0cd6506dd4dd67025d5c878ca",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

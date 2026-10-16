@@ -1,0 +1,10 @@
+{
+  "text": "Après qu’il a plu, nous avons inspecté le terrain.",
+  "text_sha256": "8dd2e96d3d9cd5cdf5250af5e513a226161dc9c6363560bc01e1dc7f936c3402",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

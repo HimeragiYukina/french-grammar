@@ -1,0 +1,10 @@
+{
+  "text": "Contrairement à son frère, elle conduit très prudemment.",
+  "text_sha256": "afdcfa6f0b1550a6b65d939c9911e36c0f07e058df69afff5ae073e2088a6ae9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Le projet est viable dans la mesure où le budget est respecté.",
+  "text_sha256": "2757fb0c209133183da94d404d64cb371b6146fb8004b24815ad583884809356",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

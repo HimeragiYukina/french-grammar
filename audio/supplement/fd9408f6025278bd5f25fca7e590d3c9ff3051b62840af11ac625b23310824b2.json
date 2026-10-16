@@ -1,0 +1,10 @@
+{
+  "text": "Je serai absent pendant trois jours.",
+  "text_sha256": "fd9408f6025278bd5f25fca7e590d3c9ff3051b62840af11ac625b23310824b2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

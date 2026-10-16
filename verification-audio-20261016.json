@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-16",
+  "coverage": {
+    "coverage": {
+      "grammar": {
+        "covered": 256,
+        "denominator": 256,
+        "new_files": 207,
+        "reused": 49,
+        "new_seconds": 630.3869387755103,
+        "new_bytes": 27809172
+      }
+    },
+    "total_new_files": 207,
+    "new_seconds": 630.3869387755103,
+    "unique_site_text_units": 256,
+    "model": "fr_FR-siwis-medium",
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "threads": {
+      "intra_op": 2,
+      "inter_op": 1
+    },
+    "listened": false
+  },
+  "passed": {
+    "browser_checks": "Combined browser run recorded in french-tutorial; grammar subset separately recorded in verification-commit-20261016.json",
+    "browser_reports": {},
+    "grammar": [
+      "Original map/voices/labels equal pre-change archived manifest",
+      "check-baseline.py and check-strict-review.py preserve original material",
+      "check-content.js: 97 points,331 expansion sections,867 examples,51 extra exercises",
+      "check-audio.js:1090 original files and207 local exact-text mappings; outside-scope1207 runtime strings still use browser fallback"
+    ],
+    "syntax": [
+      "Both assets/app.js node --check",
+      "Delivered planner node --check",
+      "Delivered Python generator py_compile"
+    ],
+    "exact_text_and_files": "Every scoped text/file SHA-256 and HTTP link verified; all 467 new WAV files structurally decoded with positive duration/nonzero RMS; 49 preserved scoped MP3 durations also decoded in browser."
+  },
+  "language_review": {
+    "method": "Two independent read-only model agent reviews plus editorial decisions; not external teacher/human certification",
+    "record": "reports/language-review-20261016.json (tutorial); language-review-20261016.json (grammar)",
+    "reviewed": [
+      "Grammar,spelling,naturalness,Chinese translation",
+      "Objective answer uniqueness and open-task rubric limits",
+      "CEFR task design/prerequisite scope; not a proficiency certification"
+    ],
+    "verified_authority": [
+      {
+        "url": "https://www.academie-francaise.fr/apres-que",
+        "point": "after après que use indicative in normative written French; original example retained"
+      }
+    ]
+  },
+  "failed_final": [],
+  "resolved_test_issues": [
+    "Initial playback assertion used a fixed 200ms wait; changed to wait for actual media advancement.",
+    "Mock Google voice list initially contaminated tutorial fallback; isolated the mock to grammar origin. Final rerun has no page errors."
+  ],
+  "not_verified": [
+    "Auditory pronunciation,prosody and intelligibility: no actual listening acceptance performed",
+    "Independent external teacher judgement or learner CEFR/exam proficiency",
+    "Actual Google français availability/audio: preference logic only tested with a mock list",
+    "Real microphone input: synthetic-stream regression only"
+  ],
+  "preservation": {
+    "backup": "local-workspace\\backup-before-audio-20261016.zip",
+    "backup_sha256": "aaa005a04e874dda3a952d3f8f4ffdafb10b7356ccef6aade8181636e27a6721",
+    "before_manifest": "local-workspace\\backup-before-audio-20261016.json",
+    "state": "No user browser profile or learning-progress upload; original storage schema/keys retained",
+    "operations": "Local files,CPU synthesis and isolated headless Edge only; no visible desktop,no game/MAA process changes,no commit/push/deployment"
+  },
+  "browser": "Installed Microsoft Edge 155.0.4283.45,headless isolated contexts; not IAB or a user-visible existing session",
+  "record_scope": "Grammar repository; earlier combined validation counts are historical summaries, not copies of private tutorial content."
+}

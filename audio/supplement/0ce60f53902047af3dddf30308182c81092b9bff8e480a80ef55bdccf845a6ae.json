@@ -1,0 +1,10 @@
+{
+  "text": "Son bureau est vide et son manteau a disparu ; elle a dû partir.",
+  "text_sha256": "0ce60f53902047af3dddf30308182c81092b9bff8e480a80ef55bdccf845a6ae",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

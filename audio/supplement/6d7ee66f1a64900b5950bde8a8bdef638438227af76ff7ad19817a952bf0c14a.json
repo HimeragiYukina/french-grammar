@@ -1,0 +1,10 @@
+{
+  "text": "On plaît à quelqu’un, mais on voit quelqu’un : se est indirect dans la première phrase et direct dans la seconde.",
+  "text_sha256": "6d7ee66f1a64900b5950bde8a8bdef638438227af76ff7ad19817a952bf0c14a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

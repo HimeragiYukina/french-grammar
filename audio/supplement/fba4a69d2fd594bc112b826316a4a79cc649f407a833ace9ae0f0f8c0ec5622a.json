@@ -1,0 +1,10 @@
+{
+  "text": "Elle défendra son avis, quitte à déplaire.",
+  "text_sha256": "fba4a69d2fd594bc112b826316a4a79cc649f407a833ace9ae0f0f8c0ec5622a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

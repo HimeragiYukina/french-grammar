@@ -20,6 +20,20 @@ def main():
    for s in x['sections']:
     assert s['title'] and s['explanation'] and len(s['examples'])>=2,key
     assert all(e.get('fr') and e.get('zh') and e.get('use') for e in s['examples']),key
+  supplement_path=ROOT/'tools'/f'supplement-{level}.json'
+  if supplement_path.exists():
+   supplements=json.loads(supplement_path.read_text(encoding='utf-8'))
+   for key,extra in supplements.items():
+    assert key in data['expansions'],key
+    assert set(extra)=={'sections','practice','related'},key
+    for section in extra['sections']:
+     assert section['title'] and section['explanation'] and len(section['examples'])>=2,key
+     assert all(e.get('fr') and e.get('zh') and e.get('use') for e in section['examples']),key
+    assert all(q.get('q') and q.get('a') and q.get('note') for q in extra['practice']),key
+    assert all(target in data['expansions'] or target.split('-')[0] in LEVELS for target in extra['related']),key
+    data['expansions'][key]['related']=list(dict.fromkeys(data['expansions'][key].get('related',[])+extra['related']))
+    for field in ('sections','practice'):
+     data['expansions'][key].setdefault(field,[]).extend(extra[field])
   payload=json.dumps(data,ensure_ascii=False,indent=2).replace('</script','<\\/script')
   (ROOT/'data'/f'{level}.js').write_text('window.GRAMMAR_DATA=window.GRAMMAR_DATA||{};\nwindow.GRAMMAR_DATA.'+level.upper()+'='+payload+';\n',encoding='utf-8')
  (ROOT/'data/titles.js').write_text('window.GRAMMAR_TITLES='+json.dumps(titles,ensure_ascii=False)+';\n',encoding='utf-8')

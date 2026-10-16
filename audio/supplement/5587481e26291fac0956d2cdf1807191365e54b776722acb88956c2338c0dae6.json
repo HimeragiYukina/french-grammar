@@ -1,0 +1,10 @@
+{
+  "text": "Non. La phrase présente la comparabilité comme une condition à vérifier avant de poursuivre.",
+  "text_sha256": "5587481e26291fac0956d2cdf1807191365e54b776722acb88956c2338c0dae6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

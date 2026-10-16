@@ -1,0 +1,10 @@
+{
+  "text": "Ce bruit peut venir de la chaudière.",
+  "text_sha256": "59dce0090561a562a8436e9f940747d3d26b55ecadbae4b3f32a4c3d528dd271",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

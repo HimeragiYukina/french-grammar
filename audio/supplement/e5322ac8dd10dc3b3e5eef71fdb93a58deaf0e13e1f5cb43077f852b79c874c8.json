@@ -1,0 +1,10 @@
+{
+  "text": "Depuis que j’ai changé d’horaire, je dors mieux.",
+  "text_sha256": "e5322ac8dd10dc3b3e5eef71fdb93a58deaf0e13e1f5cb43077f852b79c874c8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

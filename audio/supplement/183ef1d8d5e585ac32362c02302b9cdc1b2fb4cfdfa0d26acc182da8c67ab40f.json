@@ -1,0 +1,10 @@
+{
+  "text": "Les maisons que nous avons vu construire sont habitées.",
+  "text_sha256": "183ef1d8d5e585ac32362c02302b9cdc1b2fb4cfdfa0d26acc182da8c67ab40f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

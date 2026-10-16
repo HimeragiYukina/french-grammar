@@ -1,0 +1,10 @@
+{
+  "text": "Elle regrette que le train soit déjà parti.",
+  "text_sha256": "255014ce0304ed3f920f767f5c136db7e830376be27b119ef338ecaec3762836",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

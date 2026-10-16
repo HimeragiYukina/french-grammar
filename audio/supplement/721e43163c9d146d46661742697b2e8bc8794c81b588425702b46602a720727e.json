@@ -1,0 +1,10 @@
+{
+  "text": "Non. Même si introduit une situation conditionnelle sans confirmer que la salle sera fermée.",
+  "text_sha256": "721e43163c9d146d46661742697b2e8bc8794c81b588425702b46602a720727e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Ces pommes sont bonnes ; j’en ai mangé deux.",
+  "text_sha256": "61cab88c3d9ae376d37444e930957322059e64f9d8a0062601fbad594dcb23c8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

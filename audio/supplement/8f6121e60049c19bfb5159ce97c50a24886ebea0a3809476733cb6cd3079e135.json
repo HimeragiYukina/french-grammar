@@ -1,0 +1,10 @@
+{
+  "text": "Elle fait de la natation deux fois par semaine.",
+  "text_sha256": "8f6121e60049c19bfb5159ce97c50a24886ebea0a3809476733cb6cd3079e135",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

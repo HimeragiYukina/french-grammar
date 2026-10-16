@@ -1,0 +1,10 @@
+{
+  "text": "Le service est lent ; en revanche, la cuisine est excellente.",
+  "text_sha256": "06450e7aa262932a18f395188c2b5a243f9ba00cd05b20efbb0ed80b7a3c4b7e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Tu m'en apportes ?",
+  "text_sha256": "bcffe5301048da9750dd8ec81e46c978d020ffff8d189cbc7fc1daf09a6610df",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

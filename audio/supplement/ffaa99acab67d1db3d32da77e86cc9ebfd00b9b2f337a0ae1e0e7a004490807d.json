@@ -1,0 +1,10 @@
+{
+  "text": "Bien que le jardin soit petit, les enfants y trouvent plusieurs coins tranquilles.",
+  "text_sha256": "ffaa99acab67d1db3d32da77e86cc9ebfd00b9b2f337a0ae1e0e7a004490807d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

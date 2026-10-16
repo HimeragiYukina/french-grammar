@@ -1,0 +1,10 @@
+{
+  "text": "Je travaille ici depuis lundi.",
+  "text_sha256": "f8c3d79b2e53e3f46b56d25b3b5d63686a1acf6d31e21906d98f9144d749cae7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

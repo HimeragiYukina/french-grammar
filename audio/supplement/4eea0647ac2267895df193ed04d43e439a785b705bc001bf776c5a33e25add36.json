@@ -1,0 +1,10 @@
+{
+  "text": "Le livre est instructif et, au demeurant, agréable à lire.",
+  "text_sha256": "4eea0647ac2267895df193ed04d43e439a785b705bc001bf776c5a33e25add36",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

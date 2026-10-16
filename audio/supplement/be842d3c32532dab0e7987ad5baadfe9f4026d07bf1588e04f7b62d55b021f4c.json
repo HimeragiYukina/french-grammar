@@ -1,0 +1,10 @@
+{
+  "text": "Les musiciennes que j’ai entendues jouer étaient excellentes.",
+  "text_sha256": "be842d3c32532dab0e7987ad5baadfe9f4026d07bf1588e04f7b62d55b021f4c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

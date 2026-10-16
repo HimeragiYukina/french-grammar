@@ -1,0 +1,10 @@
+{
+  "text": "La demande recule ; partant, les prix baissent.",
+  "text_sha256": "37dc90c99a911a9321de9f514f8b929be2431d78e243f32bf46c8e4a8b8a6b2a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

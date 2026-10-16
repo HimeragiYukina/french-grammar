@@ -1,0 +1,10 @@
+{
+  "text": "Dès lors que vous signez, le contrat s'applique.",
+  "text_sha256": "99dc5c49ab61f9a71807fcb98e140f9871eaed36dee73654206c3ba2db8e44c3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

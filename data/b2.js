@@ -1146,11 +1146,69 @@ window.GRAMMAR_DATA.B2={
               "use": "礼貌距离，不是在讨论真实能力条件。"
             }
           ]
+        },
+        {
+          "title": "事实已知，为何仍用虚拟式：评价与断言分开",
+          "explanation": "虚拟式并不等于事件不真实。Je suis heureuse qu’elle soit venue 可以用于双方都知道她已经到场的情境；主句评价这件事，而非把它作为新事实断言。Je sais qu’elle est venue 则以知道的内容提出命题，用直陈式。时态再独立选择：已经完成用虚拟式过去 soit venue；希望未来发生则用虚拟式现在 qu’elle vienne。连接词也有支配：bien que 通常接虚拟式，après que 在规范书面语中接直陈式，二者都可以涉及实际发生的事件。不要按“过去=直陈”“事实=直陈”“未来=将来时”三个口号选形式。",
+          "examples": [
+            {
+              "fr": "Je suis heureuse qu’elle soit venue.",
+              "zh": "我很高兴她来了。",
+              "use": "到场可为已知事实；情感评价触发虚拟式，先完成用 soit venue。"
+            },
+            {
+              "fr": "Je sais qu’elle est venue.",
+              "zh": "我知道她来过了。",
+              "use": "savoir 肯定句把命题作为所知内容，用直陈式复合过去时。"
+            },
+            {
+              "fr": "Je souhaite qu’elle vienne demain.",
+              "zh": "我希望她明天来。",
+              "use": "主句愿望触发虚拟式现在，demain 给将来时间，不改成 viendra。"
+            },
+            {
+              "fr": "Elle regrette que le train soit déjà parti.",
+              "zh": "她遗憾火车已经开走了。",
+              "use": "火车开走可以是确定事实；regretter que 评价已完成行为。"
+            },
+            {
+              "fr": "Bien qu’il ait plu, le match a eu lieu.",
+              "zh": "虽然下过雨，比赛还是举行了。",
+              "use": "让步不否认下雨，bien que 仍接虚拟式过去。"
+            },
+            {
+              "fr": "Après qu’il a plu, nous avons inspecté le terrain.",
+              "zh": "下雨后，我们检查了场地。",
+              "use": "规范书面语 après que 接直陈式；不能因同样有 que 而照搬 bien que 的语式。"
+            }
+          ]
         }
       ],
       "comparison": "Je sais qu'il est là（断言他在）/ Je souhaite qu'il soit là（希望他在）/ Il serait là si on l'avait prévenu（若通知过他，他就会在）。Je ne crois pas qu'il soit malade 表示不认可；Je ne crois pas qu'il est malade 可出现在把‘他病了’这一命题作为既有说法加以否定的语境，正式学习先掌握常见虚拟式。",
       "errors": "错：Il est possible qu'il viendra → qu'il vienne；错：Je veux qu'il viendrait → qu'il vienne。原来的‘确定=直陈、主观=虚拟’仅是入门提示：情感可指真实事实，直陈式也能表达主观信念。",
-      "boundaries": "先看支配结构与说话者立场，再看时间。疑问语调、倒装、否定范围和语境都会影响 penser/croire 后的选择；不要宣称所有否定/疑问都必须虚拟式。"
+      "boundaries": "先看支配结构与说话者立场，再看时间。疑问语调、倒装、否定范围和语境都会影响 penser/croire 后的选择；不要宣称所有否定/疑问都必须虚拟式。",
+      "related": [
+        "b1-subj-declencheurs",
+        "b2-subj-passe",
+        "c1-apres-que"
+      ],
+      "practice": [
+        {
+          "q": "已确认她到场。补全情感反应：Je suis heureuse qu’elle ___ (venir).",
+          "a": "Je suis heureuse qu’elle soit venue.",
+          "note": "情感评价后用虚拟式；到场先于当前高兴，选虚拟式过去。真实发生不排除虚拟式。"
+        },
+        {
+          "q": "希望她明天来：Je souhaite qu’elle ___ demain. 选 vienne / viendra / viendrait。",
+          "a": "Je souhaite qu’elle vienne demain.",
+          "note": "souhaiter que 触发虚拟式；虚拟式现在可指未来，不能机械套用将来时或条件式。"
+        },
+        {
+          "q": "说明 Bien qu’il ait plu 与 Après qu’il a plu 的语式差异，是否表示前者没下雨？",
+          "a": "Bien que appelle le subjonctif ; après que appelle l’indicatif dans la norme écrite. Les deux phrases peuvent évoquer une pluie réelle.",
+          "note": "连接词支配和语义关系不同：一个让步，一个先后。语式差别不是下雨真假对立；après que + 虚拟式在实际使用中可见，这里练规范书面语。"
+        }
+      ]
     },
     "b2-concordance": {
       "sections": [
@@ -1666,11 +1724,65 @@ window.GRAMMAR_DATA.B2={
               "use": "未完成过去 + 条件式，假设让步。"
             }
           ]
+        },
+        {
+          "title": "让步不等于两项事实相反：被阻断的是预期",
+          "explanation": "Bien que P, Q 通常承认 P，同时指出 Q 没有符合由 P 引出的通常预期。两个命题不必逻辑矛盾。“下雨但活动举行”依赖下雨通常可能妨碍活动这一背景。alors que 可对照主体、指标或时段，并不必包含障碍被克服的意思。même si 接直陈式，可引假设或承认的条件；不能把它后面的所有内容都当作已发生事实。",
+          "examples": [
+            {
+              "fr": "Bien que le jardin soit petit, les enfants y trouvent plusieurs coins tranquilles.",
+              "zh": "花园虽小，孩子们仍能在其中找到几处安静角落。",
+              "use": "虚拟式 soit 由 bien que 引出；承认小，但阻断“小就找不到安静处”的预期。"
+            },
+            {
+              "fr": "La cour est ouverte le matin, alors que le jardin est accessible l’après-midi.",
+              "zh": "院子上午开放，花园则下午可进入。",
+              "use": "alors que 对照时段，不必预设任一安排是障碍。"
+            }
+          ]
+        },
+        {
+          "title": "改写衔接词时，证据地位与语式一起检查",
+          "explanation": "Bien que la salle soit fermée 以让步方式呈现关门；Même si la salle est fermée 可引出“即便关门”的情景，不必确认实际关门。复合句中的 pouvoir 还可能表达许可、能力或可能，不能只凭连接词推导完整事实。重写时先记录P是否已知，再决定用事实性让步还是条件测试。",
+          "examples": [
+            {
+              "fr": "Même si la salle est fermée demain, nous pourrons nous réunir dans la cour.",
+              "zh": "即使明天大厅关门，我们也能在院子里集合。",
+              "use": "未来条件并未断言大厅一定关门；est 用现在时，不用 sera。"
+            },
+            {
+              "fr": "Bien que la salle ait été fermée hier, la réunion a pu se tenir dans la cour.",
+              "zh": "尽管昨天大厅关了门，会议仍得以在院子里举行。",
+              "use": "已过去的让步用虚拟式过去；a pu se tenir 在此为成功得以举行，不是纯粹猜测。"
+            }
+          ]
         }
       ],
       "comparison": "Il travaille alors qu'elle se repose（对照）/ Bien qu'il soit fatigué, il travaille（让步）。quoique = bien que；quoi que = 无论什么：Quoi que tu dises, je reste。Même s'il est riche 可陈述已知事实；Même s'il devenait riche 假设尚未发生。",
       "errors": "规范学习表达优先：bien qu'il soit，而非 bien qu'il est；后者的事实读法在部分用法中存在，但规范评价有分歧。学习标准语避免 malgré qu'il pleut，改 malgré la pluie / bien qu'il pleuve。错：même s'il pleuvra → même s'il pleut（开放条件读法）。",
-      "boundaries": "malgré que 在文学及部分用法中存在，固定 malgré qu'il en ait 有其历史用法；学习者正式写作优先 malgré + 名词或 bien que。par contre 获广泛承认，不必强制全部换 en revanche。"
+      "boundaries": "malgré que 在文学及部分用法中存在，固定 malgré qu'il en ait 有其历史用法；学习者正式写作优先 malgré + 名词或 bien que。par contre 获广泛承认，不必强制全部换 en revanche。",
+      "related": [
+        "b2-mode-choix",
+        "b1-si",
+        "b1-connecteurs-base"
+      ],
+      "practice": [
+        {
+          "q": "原文只说“即使明天大厅关门也可改院子”，可否摘要成“明天大厅已确定关门”？",
+          "a": "Non. Même si introduit une situation conditionnelle sans confirmer que la salle sera fermée.",
+          "note": "区分条件的适用范围与条件是否满足；后续有独立通知才能确认。"
+        },
+        {
+          "q": "补全：Bien que le jardin ___ petit, on peut y lire. (être)",
+          "a": "Bien que le jardin soit petit, on peut y lire.",
+          "note": "bien que 常接虚拟式；petit 是真实评价也不改成直陈式。"
+        },
+        {
+          "q": "给两个场所不同开放时段写一句中性对照，不暗示克服困难。",
+          "a": "La cour ouvre le matin, alors que le jardin ouvre l’après-midi.",
+          "note": "可用 tandis que；须保留不同主体/时段，不能把中性对照强行解释成原因或让步。"
+        }
+      ]
     },
     "b2-cause-consequence": {
       "sections": [

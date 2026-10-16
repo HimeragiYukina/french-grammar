@@ -1,0 +1,10 @@
+{
+  "text": "Un thé sans sucre, s’il vous plaît. Je ne bois pas de café.",
+  "text_sha256": "54f3956860142d7b28884cd27b37e3e0a1a19b7c6574967e5e1c6911ddce06de",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

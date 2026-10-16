@@ -1,0 +1,10 @@
+{
+  "text": "On frappe ; ce sera notre voisin.",
+  "text_sha256": "9a1bfc7c629cbaac73e596325986b0e4aaff7f32ed81a26b36580ad85539fff0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

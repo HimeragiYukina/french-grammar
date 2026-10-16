@@ -1,0 +1,10 @@
+{
+  "text": "Bien que la salle ait été fermée hier, la réunion a pu se tenir dans la cour.",
+  "text_sha256": "7c352cb143b03d5c92ac1bfb262a85d6e8ba99d3ccc049bfa3cc27a9af84bcdb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Je préfère rester, d’autant que la route est verglacée.",
+  "text_sha256": "01f59025b6b17b505689c94838cc4065eaae2c7bf1afba41f4532e1ce7c6e512",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

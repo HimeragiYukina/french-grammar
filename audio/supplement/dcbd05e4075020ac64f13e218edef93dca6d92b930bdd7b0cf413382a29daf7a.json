@@ -1,0 +1,10 @@
+{
+  "text": "En général, il faut réserver ; en l'occurrence, il reste des places.",
+  "text_sha256": "dcbd05e4075020ac64f13e218edef93dca6d92b930bdd7b0cf413382a29daf7a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

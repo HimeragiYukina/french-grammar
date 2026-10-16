@@ -1,0 +1,10 @@
+{
+  "text": "Il est d’autant moins inquiet qu’il connaît bien le dossier.",
+  "text_sha256": "a44366fe17ef6ac551d501ab84369405d91f53eac22c2544d4f447a45a301d31",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

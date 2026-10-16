@@ -1,0 +1,10 @@
+{
+  "text": "Le règlement exclut désormais les véhicules lourds ; dès lors, il faut revoir le trajet des livraisons.",
+  "text_sha256": "8451c361a05810f39fe0e341093c3d8bea98e7480898013b3a5db09c5fa1905d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

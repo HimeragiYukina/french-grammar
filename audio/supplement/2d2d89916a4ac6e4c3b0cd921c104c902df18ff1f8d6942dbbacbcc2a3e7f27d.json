@@ -1,0 +1,10 @@
+{
+  "text": "La seconde phrase exprime une possibilité, mais ne conserve pas l’attribution à un témoin ni la même distance énonciative.",
+  "text_sha256": "2d2d89916a4ac6e4c3b0cd921c104c902df18ff1f8d6942dbbacbcc2a3e7f27d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

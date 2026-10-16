@@ -1,0 +1,10 @@
+{
+  "text": "Il parle facilement ; par contre, il écoute rarement les autres.",
+  "text_sha256": "b70af461e591037e928f03ddb7e182dd1c4d8486b2f144852d2e6498588255e1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

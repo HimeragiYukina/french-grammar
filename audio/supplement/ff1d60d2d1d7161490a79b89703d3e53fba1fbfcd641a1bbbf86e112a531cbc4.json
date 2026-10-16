@@ -1,0 +1,10 @@
+{
+  "text": "Le comité a vérifié les chiffres sur ce point ; il n’a pas pour autant approuvé l’ensemble du rapport.",
+  "text_sha256": "ff1d60d2d1d7161490a79b89703d3e53fba1fbfcd641a1bbbf86e112a531cbc4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

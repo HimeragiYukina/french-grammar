@@ -1,0 +1,10 @@
+{
+  "text": "J’ai rempli le formulaire en une demi-heure hier.",
+  "text_sha256": "996cc64b068a1f3c9170d747fa584fcd249eb4832f1a4fb0f624546874badc53",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

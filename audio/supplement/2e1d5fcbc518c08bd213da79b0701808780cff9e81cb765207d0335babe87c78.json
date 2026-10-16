@@ -1,0 +1,10 @@
+{
+  "text": "Le témoignage est contradictoire et, partant, peu fiable.",
+  "text_sha256": "2e1d5fcbc518c08bd213da79b0701808780cff9e81cb765207d0335babe87c78",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

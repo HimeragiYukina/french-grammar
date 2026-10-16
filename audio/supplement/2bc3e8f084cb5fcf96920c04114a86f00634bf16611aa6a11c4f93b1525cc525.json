@@ -1,0 +1,10 @@
+{
+  "text": "Tous les candidats doivent être majeurs. Or, Léa a dix-sept ans.",
+  "text_sha256": "2bc3e8f084cb5fcf96920c04114a86f00634bf16611aa6a11c4f93b1525cc525",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

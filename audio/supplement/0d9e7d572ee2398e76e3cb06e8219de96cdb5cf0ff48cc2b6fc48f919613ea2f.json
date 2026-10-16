@@ -1,0 +1,10 @@
+{
+  "text": "Les deux directrices se sont succédé.",
+  "text_sha256": "0d9e7d572ee2398e76e3cb06e8219de96cdb5cf0ff48cc2b6fc48f919613ea2f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

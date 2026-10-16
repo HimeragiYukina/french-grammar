@@ -1,0 +1,10 @@
+{
+  "text": "Je ne bois pas de lait, mais ce n’est pas du lait dans ce verre.",
+  "text_sha256": "94238a8bc24fc57618555bc7d8d4132a224257c71bdd55301e274c6d9c6c411d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

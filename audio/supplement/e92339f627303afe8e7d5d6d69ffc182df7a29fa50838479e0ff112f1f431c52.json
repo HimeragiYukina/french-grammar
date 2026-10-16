@@ -1,0 +1,10 @@
+{
+  "text": "Elle est déjà rentrée ; elle aura pris un taxi.",
+  "text_sha256": "e92339f627303afe8e7d5d6d69ffc182df7a29fa50838479e0ff112f1f431c52",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

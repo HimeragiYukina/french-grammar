@@ -1,0 +1,10 @@
+{
+  "text": "Même si la salle est fermée demain, nous pourrons nous réunir dans la cour.",
+  "text_sha256": "e81661578d6f0981383bbe441db523a89bfe6683ee98dd3c8c5e39d4aa25d573",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

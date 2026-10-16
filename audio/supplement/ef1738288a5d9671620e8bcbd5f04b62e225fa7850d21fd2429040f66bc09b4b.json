@@ -1,0 +1,10 @@
+{
+  "text": "La clarté de la notice est reconnue, mais son champ ne comprend pas les horaires.",
+  "text_sha256": "ef1738288a5d9671620e8bcbd5f04b62e225fa7850d21fd2429040f66bc09b4b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Même si tu n'es pas d'accord, écoute-le jusqu'au bout.",
+  "text_sha256": "93dda48695ee099263abd359cb9a455990013893c80edabf323fa1b8c9dfc913",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

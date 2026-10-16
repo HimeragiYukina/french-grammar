@@ -1,0 +1,5251 @@
+{
+  "model": "fr_FR-siwis-medium",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "piper_version": "1.8.0",
+  "onnxruntime": "1.23.2",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "threads": {
+    "intra_op": 2,
+    "inter_op": 1
+  },
+  "priority": "BELOW_NORMAL",
+  "generated_this_run": 0,
+  "generation_runs": [
+    {
+      "generated": 207,
+      "note": "Grammar-only local Siwis output; combined synthesis timings are recorded in the private tutorial repository."
+    }
+  ],
+  "elapsed_seconds": 5.441740036010742,
+  "listened": false,
+  "records": [
+    {
+      "repo": "grammar",
+      "text": "L'article partitif",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "title"
+        }
+      ],
+      "existing": [],
+      "sha256": "c4a9799beebc14039f5bd82d30c73b53bcb488f70a9a16ea286f77e37e9210ab",
+      "path": "audio/fr-FR/2117eb537b000245.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "255e0aa6982503a963367b12e5de2eb84b33aa09d62c7011ff2a254ac63343d9",
+      "bytes": 13248
+    },
+    {
+      "repo": "grammar",
+      "text": "L'article partitif (du, de la, de l') exprime une quantité indéterminée d'une chose non comptable.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "fr"
+        }
+      ],
+      "existing": [],
+      "sha256": "2274003bdeac68c308ea4fa71bbd619ed1e92cdff31a3c0c738e3259cefff117",
+      "path": "audio/fr-FR/d158ca0964b62a2c.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "e1814342010f2e04337c9db746f4617c49e7d29595ce96f68bc6b7ff4a3ab789",
+      "bytes": 44208
+    },
+    {
+      "repo": "grammar",
+      "text": "Je bois du café et de l'eau.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "examples.0"
+        },
+        {
+          "id": "a1-partitif",
+          "field": "practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "0b20617981306f162d73cf3365a6011a70bdbeeff20e487fd96c3102e8cdf809",
+      "path": "audio/fr-FR/6dca16c047fa4ed1.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "6cef55f49e2f0c014a857739c5377d796413aaea0b5214f5dc67d9b2516c6e45",
+      "bytes": 15408
+    },
+    {
+      "repo": "grammar",
+      "text": "Tu as de la chance !",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "examples.1"
+        },
+        {
+          "id": "a1-partitif",
+          "field": "practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "d04f3895a45e23aaf28dc7a9faa21c3d17267e3187e717fe4c0241093eb8316c",
+      "path": "audio/fr-FR/6144e018cf228452.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "dd12e527027b4025d88f3222eecffac5dd8a32fae1650929d70228c0db16f2dd",
+      "bytes": 12096
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne mange pas de pain et je bois beaucoup d'eau.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "examples.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "bbfa29b4365d36edd03d106520b3ed7d6595f97ecbeaaa2561c5dc1abef4132b",
+      "path": "audio/supplement/bbfa29b4365d36edd03d106520b3ed7d6595f97ecbeaaa2561c5dc1abef4132b.wav",
+      "source": "local-siwis",
+      "file_sha256": "3d85c64cbcf3e808108d286c831fc4b892590062cfba0d9d1924965332f68bd6",
+      "bytes": 100908,
+      "seconds": 2.2871655328798184,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6176.513610527214
+    },
+    {
+      "repo": "grammar",
+      "text": "J'aime le thé, mais ce soir je bois du café.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "examples.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "4f846974348efbb087d18ef137d4e65eb464732b9987fa5d9f70f70dde13498d",
+      "path": "audio/supplement/4f846974348efbb087d18ef137d4e65eb464732b9987fa5d9f70f70dde13498d.wav",
+      "source": "local-siwis",
+      "file_sha256": "6a972c9ba149935fefe840b433f3e10ac8a5ef26cc0a3f7f3f80de5fdc9b54d8",
+      "bytes": 114220,
+      "seconds": 2.589024943310658,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4498.292421056252
+    },
+    {
+      "repo": "grammar",
+      "text": "Il ne boit pas de lait.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "abd84da6dae4e6d75ebd4e0f1552f049737371b3245e6b9cfdaa62d4b08e870b",
+      "path": "audio/supplement/abd84da6dae4e6d75ebd4e0f1552f049737371b3245e6b9cfdaa62d4b08e870b.wav",
+      "source": "local-siwis",
+      "file_sha256": "468e9d022410e4bf455f6d92692e0a350e409939d5aea09dd297115857876501",
+      "bytes": 49196,
+      "seconds": 1.1145578231292517,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4892.798946459673
+    },
+    {
+      "repo": "grammar",
+      "text": "J'aime le café, mais je bois du thé ce matin.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "c67747a877e0a8aee57d7da9de7e692d2ef88ac151e59d89f699f820bc364c68",
+      "path": "audio/supplement/c67747a877e0a8aee57d7da9de7e692d2ef88ac151e59d89f699f820bc364c68.wav",
+      "source": "local-siwis",
+      "file_sha256": "de879ecd52800f5e38208c8d0e24478fbf706f9270805f875cba043b97c6d7e4",
+      "bytes": 109100,
+      "seconds": 2.4729251700680273,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5731.581484086406
+    },
+    {
+      "repo": "grammar",
+      "text": "Ajoute de la farine et de l’eau.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "expansion.0.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "64b3117ffaa36e82c7f01e5f1f477438407b0266f9d206563439dce91257f6d3",
+      "path": "audio/supplement/64b3117ffaa36e82c7f01e5f1f477438407b0266f9d206563439dce91257f6d3.wav",
+      "source": "local-siwis",
+      "file_sha256": "10246e0efe299dffbf43d53b9d30aba6c439480ee69df88701b56b55944f8786",
+      "bytes": 83500,
+      "seconds": 1.8924263038548752,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5920.580007233441
+    },
+    {
+      "repo": "grammar",
+      "text": "Nous mangeons du poisson le vendredi.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "expansion.0.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "18e7e40c9c584c47bcdfad4c10986823ed38172351dafa1cc9ec2f9f882d0c4f",
+      "path": "audio/supplement/18e7e40c9c584c47bcdfad4c10986823ed38172351dafa1cc9ec2f9f882d0c4f.wav",
+      "source": "local-siwis",
+      "file_sha256": "b83d243b7b40707d532b63e5a8448023bbb3c8c582457dc2ef472a201d2a83fc",
+      "bytes": 72748,
+      "seconds": 1.6486167800453515,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6928.029773599168
+    },
+    {
+      "repo": "grammar",
+      "text": "Il faut du courage pour parler en public.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "expansion.1.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "99b523de9f469fa24d8a2d7a594dd994e42dd7a0817f11f0453802d5b6051f7e",
+      "path": "audio/supplement/99b523de9f469fa24d8a2d7a594dd994e42dd7a0817f11f0453802d5b6051f7e.wav",
+      "source": "local-siwis",
+      "file_sha256": "b2b311da9a425ca0f7243d5f69fcb84d5ecdd0ed4ee36dcf5102671b474c3dfd",
+      "bytes": 95276,
+      "seconds": 2.159455782312925,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6304.736919784058
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle fait de la natation deux fois par semaine.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "expansion.1.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "8f6121e60049c19bfb5159ce97c50a24886ebea0a3809476733cb6cd3079e135",
+      "path": "audio/supplement/8f6121e60049c19bfb5159ce97c50a24886ebea0a3809476733cb6cd3079e135.wav",
+      "source": "local-siwis",
+      "file_sha256": "1bbc0671761e1fbd335505340d96bb2d2525bcf1c70361413d7ba37163c0ed3b",
+      "bytes": 101932,
+      "seconds": 2.3103854875283445,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5710.90339545839
+    },
+    {
+      "repo": "grammar",
+      "text": "Achète un kilo de riz et une bouteille d’huile.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "expansion.2.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "5bf0112d294bdbe375379edb9b22314f7c09161e98f35ba7397187525038beb4",
+      "path": "audio/supplement/5bf0112d294bdbe375379edb9b22314f7c09161e98f35ba7397187525038beb4.wav",
+      "source": "local-siwis",
+      "file_sha256": "3dde12a6a3ab0e9854e48733819127c5eb75804af64768e866af93db62cb755e",
+      "bytes": 132140,
+      "seconds": 2.995374149659864,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5304.545497662665
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne bois pas de lait, mais ce n’est pas du lait dans ce verre.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "expansion.2.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "94238a8bc24fc57618555bc7d8d4132a224257c71bdd55301e274c6d9c6c411d",
+      "path": "audio/supplement/94238a8bc24fc57618555bc7d8d4132a224257c71bdd55301e274c6d9c6c411d.wav",
+      "source": "local-siwis",
+      "file_sha256": "9f1f421b5f6f261dc80d466cf57ed0e8bd3629a06aac60a6c962c912e7a430cd",
+      "bytes": 109612,
+      "seconds": 2.48453514739229,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4834.280086970182
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne bois pas de lait.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "expansion.3.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "d2e3192f4170589d445952993184d755b80a5659ad6bcb3de585dc1c08ad84fa",
+      "path": "audio/supplement/d2e3192f4170589d445952993184d755b80a5659ad6bcb3de585dc1c08ad84fa.wav",
+      "source": "local-siwis",
+      "file_sha256": "92167ed62473611d6a824c6d7e83bcee24500839d2944b6111cc9f4e2edb69f1",
+      "bytes": 50732,
+      "seconds": 1.1493877551020408,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4853.175032576072
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne bois pas le lait qui est dans ce verre.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "expansion.3.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "a0c7e39eea0c28afb817d8ce347800de5ee8dfe588f29d5062a0d32ecb6746ff",
+      "path": "audio/supplement/a0c7e39eea0c28afb817d8ce347800de5ee8dfe588f29d5062a0d32ecb6746ff.wav",
+      "source": "local-siwis",
+      "file_sha256": "573c9be9b75edcd64e8e324fd55837d6a5082c22596df87ed725f55da18a05c9",
+      "bytes": 90668,
+      "seconds": 2.0549659863945577,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5623.456540253595
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne bois pas du lait, mais du thé.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "expansion.3.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "4b86bdb704d872ebbf3f6549e1fc162f4f0d1d3a858731386f6dcadb7f283efb",
+      "path": "audio/supplement/4b86bdb704d872ebbf3f6549e1fc162f4f0d1d3a858731386f6dcadb7f283efb.wav",
+      "source": "local-siwis",
+      "file_sha256": "0b01e482479ce61560162b5e357d6057a1a4c7c6c1dd3be2b36aa1bbd3b6deda",
+      "bytes": 87084,
+      "seconds": 1.9736961451247166,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5102.2745000423265
+    },
+    {
+      "repo": "grammar",
+      "text": "Ce n’est pas un café, c’est une boulangerie.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "expansion.3.3"
+        },
+        {
+          "id": "a1-partitif",
+          "field": "supplement.practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "4b77cade0b39370f1b5ddc4c7b66fe77684aad8df018f0825bfb195438a1a462",
+      "path": "audio/supplement/4b77cade0b39370f1b5ddc4c7b66fe77684aad8df018f0825bfb195438a1a462.wav",
+      "source": "local-siwis",
+      "file_sha256": "8c358d1c28c27073a51c59e3875adf8f73a1d07193439f3be4cf44ca82742938",
+      "bytes": 124460,
+      "seconds": 2.8212244897959184,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5722.076681195077
+    },
+    {
+      "repo": "grammar",
+      "text": "Un café sans sucre, s’il vous plaît.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "expansion.3.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "2c87f82882f534da7f39f4f0b7f4f35d271b347dda15d598d4b512fcdf2d9716",
+      "path": "audio/supplement/2c87f82882f534da7f39f4f0b7f4f35d271b347dda15d598d4b512fcdf2d9716.wav",
+      "source": "local-siwis",
+      "file_sha256": "6b143f7b8c2caa9fd7932c5455672e2d287f12fcdb77e0daf42a4b9bbb998e8e",
+      "bytes": 87084,
+      "seconds": 1.9736961451247166,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5293.311281950031
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne bois pas le lait qui est dans le frigo.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "supplement.practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "6b795193b36a07d9935c619f64d7167c8ee0bcdeadf79ddcd4c871c59bad30a4",
+      "path": "audio/supplement/6b795193b36a07d9935c619f64d7167c8ee0bcdeadf79ddcd4c871c59bad30a4.wav",
+      "source": "local-siwis",
+      "file_sha256": "ec83486dd3290eab064886b6daeef1b79b7a16c25a4dec1f35d5b8227c8207c6",
+      "bytes": 94764,
+      "seconds": 2.147845804988662,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5387.439164168261
+    },
+    {
+      "repo": "grammar",
+      "text": "Un thé sans sucre, s’il vous plaît. Je ne bois pas de café.",
+      "occurrences": [
+        {
+          "id": "a1-partitif",
+          "field": "supplement.practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "54f3956860142d7b28884cd27b37e3e0a1a19b7c6574967e5e1c6911ddce06de",
+      "path": "audio/supplement/54f3956860142d7b28884cd27b37e3e0a1a19b7c6574967e5e1c6911ddce06de.wav",
+      "source": "local-siwis",
+      "file_sha256": "abbe621693e5a95075c0f11c3e8db225e2836b288b88268dc8c9d46f74868280",
+      "bytes": 142892,
+      "seconds": 3.239183673469388,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5925.431009054207
+    },
+    {
+      "repo": "grammar",
+      "text": "depuis / pendant / il y a / dans",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "title"
+        }
+      ],
+      "existing": [],
+      "sha256": "c3e3e7231a27ed9daf5d8677c298c91249d39600d81524f5776597cccd30a75e",
+      "path": "audio/fr-FR/86e1d23abe33a267.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "f49d1c47a4690a4059ed56ad144d7c95256feb6453b0ce76e71eee85eee21ca5",
+      "bytes": 16128
+    },
+    {
+      "repo": "grammar",
+      "text": "depuis relie un point de départ ou une durée à un moment de référence ; pendant exprime une durée ; il y a situe un fait avant le présent, dans situe un fait après le présent.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "fr"
+        }
+      ],
+      "existing": [],
+      "sha256": "4de9f223b185c436b38faafd5eca25de99fc393c026b974a08b5fb5a6e274a5f",
+      "path": "audio/supplement/4de9f223b185c436b38faafd5eca25de99fc393c026b974a08b5fb5a6e274a5f.wav",
+      "source": "local-siwis",
+      "file_sha256": "9a495129737824f80c8dbe29a4997b944b42e9b88770484911ed793c351b8fbc",
+      "bytes": 418348,
+      "seconds": 9.485351473922902,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5187.038142292666
+    },
+    {
+      "repo": "grammar",
+      "text": "J'apprends le français depuis deux ans.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "examples.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "4164ceb4623a9d7745f56b4b05cabb4c8394c4a6055a31c7a48ed3cc5b7d9ce4",
+      "path": "audio/fr-FR/bb7c50ad3fadd566.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "f601e295a3f745542038f4ff6e0e36251fa32e0db4acaa7cd5785a8539a5bd18",
+      "bytes": 15984
+    },
+    {
+      "repo": "grammar",
+      "text": "Il est parti il y a une heure ; il revient dans dix minutes.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "examples.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "b25e96ad653784061eb2fc9e0dadaf08f771d1b806af09a2311aaf63f74e80d7",
+      "path": "audio/fr-FR/33cb05234d0c93b6.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "edcf32d8dae0e20761917fa1431b19e0525e1ca79dd5b2eb6aebe3c3679b2440",
+      "bytes": 22464
+    },
+    {
+      "repo": "grammar",
+      "text": "Il a habité au Canada pendant cinq ans.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "examples.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "7c6f04b5253521e42690078befc28d2546694c3f7757fc10109345d03ae33ab6",
+      "path": "audio/supplement/7c6f04b5253521e42690078befc28d2546694c3f7757fc10109345d03ae33ab6.wav",
+      "source": "local-siwis",
+      "file_sha256": "389b2ee1e7dce0c5c2f0c1594e6bc8a81acca614d0c779e968c1d4550c1972ab",
+      "bytes": 96300,
+      "seconds": 2.182675736961451,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5153.812541504953
+    },
+    {
+      "repo": "grammar",
+      "text": "J'habite à Lyon depuis trois ans.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "a577194e6640f1b37557e949bdca45e3324d3229c46ad905eff67e2bc72fce74",
+      "path": "audio/fr-FR/146f3f706f6d7ba5.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "fe569324d59eecdc0b970f9baacb109286cd2b310ba189fff0a336483af661fa",
+      "bytes": 15840
+    },
+    {
+      "repo": "grammar",
+      "text": "Le film commence dans dix minutes.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "f93272647e984f89796f714897eff6fa20b3fca6f187ad645d8d8fb95c64f98b",
+      "path": "audio/fr-FR/be91e3375df905e1.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "2875f3e803f200bf42ed0d8e65beb431bea7173ec996bfacfc711867ceeb249d",
+      "bytes": 16848
+    },
+    {
+      "repo": "grammar",
+      "text": "Nous avons voyagé pendant trois semaines l'été dernier.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "967a2e8957b876a693238e7759b09d1c741f010cb49c8dae64f8af7a73d93913",
+      "path": "audio/supplement/967a2e8957b876a693238e7759b09d1c741f010cb49c8dae64f8af7a73d93913.wav",
+      "source": "local-siwis",
+      "file_sha256": "bf12bf6383d5d996305bc391ccaa872a5e4e4bea26685bac6369b37f17628511",
+      "bytes": 117804,
+      "seconds": 2.670294784580499,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5255.459097691998
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle a déménagé il y a deux ans.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "ef53f993f0372f8f5421437741558d0bb28b72c6b40fa55ab41de17136fab5f5",
+      "path": "audio/supplement/ef53f993f0372f8f5421437741558d0bb28b72c6b40fa55ab41de17136fab5f5.wav",
+      "source": "local-siwis",
+      "file_sha256": "c6bd5463c1e11748ca02105b4af17203eb082c9a6541f85cde1031ef59135078",
+      "bytes": 85036,
+      "seconds": 1.9272562358276644,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 7713.032049703623
+    },
+    {
+      "repo": "grammar",
+      "text": "J’habite ici depuis septembre.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.0.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "169471391ba7dff76d0601134e241f168ac9654bbc5e9da23c99f680a50f61f5",
+      "path": "audio/supplement/169471391ba7dff76d0601134e241f168ac9654bbc5e9da23c99f680a50f61f5.wav",
+      "source": "local-siwis",
+      "file_sha256": "3765cd1249433c2307b144f6be5840e3214232cf700b7d0ea3f1a1752256c0d1",
+      "bytes": 86572,
+      "seconds": 1.9620861678004535,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5143.710407609494
+    },
+    {
+      "repo": "grammar",
+      "text": "Quand je l’ai rencontré, il travaillait ici depuis dix ans.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.0.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "dc25c8a71ba00cad7b35bf4bf015033a3156f738d6aa50faff887b94096984a5",
+      "path": "audio/supplement/dc25c8a71ba00cad7b35bf4bf015033a3156f738d6aa50faff887b94096984a5.wav",
+      "source": "local-siwis",
+      "file_sha256": "4d218526c9901b5c9ff0e9f8f3669362d328d8c9d5fb5e4c0c6a40b004cab2dc",
+      "bytes": 147500,
+      "seconds": 3.3436734693877552,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5250.968979141173
+    },
+    {
+      "repo": "grammar",
+      "text": "Nous avons discuté pendant deux heures.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.1.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "baa97b515b94c67807f40f5a3b236cbe3cc4d02e81021f180b1e5567c40ee772",
+      "path": "audio/supplement/baa97b515b94c67807f40f5a3b236cbe3cc4d02e81021f180b1e5567c40ee772.wav",
+      "source": "local-siwis",
+      "file_sha256": "1c9eee29c0bd7000e2dcc2b436f966e98190d6a543b659e61c035f68c515f28c",
+      "bytes": 89132,
+      "seconds": 2.020136054421769,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4733.639820071399
+    },
+    {
+      "repo": "grammar",
+      "text": "Je serai absent pendant trois jours.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.1.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "fd9408f6025278bd5f25fca7e590d3c9ff3051b62840af11ac625b23310824b2",
+      "path": "audio/supplement/fd9408f6025278bd5f25fca7e590d3c9ff3051b62840af11ac625b23310824b2.wav",
+      "source": "local-siwis",
+      "file_sha256": "3e507c5c504ae43efee924d668329a675e9da912afe149146d9a77a248ea3f68",
+      "bytes": 86572,
+      "seconds": 1.9620861678004535,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6279.016690326758
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle est arrivée il y a vingt minutes.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.2.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "540ab660f783d6d1f620ed0df4a0a05ccab076be82935aeff0b80aa65e124401",
+      "path": "audio/supplement/540ab660f783d6d1f620ed0df4a0a05ccab076be82935aeff0b80aa65e124401.wav",
+      "source": "local-siwis",
+      "file_sha256": "102a412088e8f36b229b750f99f70e6dc93e02b4d6b2c4078b4deb8c4c54fe0e",
+      "bytes": 76844,
+      "seconds": 1.7414965986394557,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5282.593129621569
+    },
+    {
+      "repo": "grammar",
+      "text": "Le train part dans vingt minutes.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.2.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "3ce45c898a4ef296f2024ef2f24ae6ec26fdd9c9ad6292e72c83f861777cb59a",
+      "path": "audio/supplement/3ce45c898a4ef296f2024ef2f24ae6ec26fdd9c9ad6292e72c83f861777cb59a.wav",
+      "source": "local-siwis",
+      "file_sha256": "f48242e62a646825912ac27e530a7b7af841887550a426ab4f670d89af5c5d1f",
+      "bytes": 77356,
+      "seconds": 1.7531065759637188,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5787.080994734848
+    },
+    {
+      "repo": "grammar",
+      "text": "J’ai terminé ce travail en une heure.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.3.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "a88f3dfbe5c2b9fc193888b441db6c55fa4fd16fd4e001a2c6148e7a03b641e9",
+      "path": "audio/supplement/a88f3dfbe5c2b9fc193888b441db6c55fa4fd16fd4e001a2c6148e7a03b641e9.wav",
+      "source": "local-siwis",
+      "file_sha256": "f70999e869eb14ed629daac43281b65a7d3d93478bc7cddaec7f2519910efda4",
+      "bytes": 107564,
+      "seconds": 2.4380952380952383,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6411.722451057697
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle lit un roman en deux jours.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.3.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "d6e0b2dd47731816559dc4eaad16cb8e515013fa823058bf8bc2ecd2c6938113",
+      "path": "audio/supplement/d6e0b2dd47731816559dc4eaad16cb8e515013fa823058bf8bc2ecd2c6938113.wav",
+      "source": "local-siwis",
+      "file_sha256": "b4cd1694dc029b5f355fa23fa8b9edfd9e39fe012151ff50f4de69ab4d79b491",
+      "bytes": 70700,
+      "seconds": 1.6021768707482993,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6471.53121221672
+    },
+    {
+      "repo": "grammar",
+      "text": "Je pars pour trois jours.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.4.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "ebd3c6c43f99a858f6d26de8c2dc98861405998cb13a7e0db982c37cea21a6ad",
+      "path": "audio/supplement/ebd3c6c43f99a858f6d26de8c2dc98861405998cb13a7e0db982c37cea21a6ad.wav",
+      "source": "local-siwis",
+      "file_sha256": "778c0cf77254b18ed6fd23e5547f03a3811b3f1e1bc46472a84f55a781fffdac",
+      "bytes": 71212,
+      "seconds": 1.6137868480725623,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4399.247393793717
+    },
+    {
+      "repo": "grammar",
+      "text": "Nous avons loué cette voiture pour une semaine.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.4.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "6ed6ead19b8098ea8eb43c468c3231fb76c60aafb4c11c583bedfc775384abf4",
+      "path": "audio/supplement/6ed6ead19b8098ea8eb43c468c3231fb76c60aafb4c11c583bedfc775384abf4.wav",
+      "source": "local-siwis",
+      "file_sha256": "0c1081fc584c8bca015276c5df52ccd64bcf11c8a966c34e76787ba1e76f2dc4",
+      "bytes": 100908,
+      "seconds": 2.2871655328798184,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4869.9703840436005
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne l’ai pas vu depuis deux mois.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.5.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "838fe15ee3af9259d73853e2c02bee3adc82168e6141cea40d0b92a67bf1b64e",
+      "path": "audio/supplement/838fe15ee3af9259d73853e2c02bee3adc82168e6141cea40d0b92a67bf1b64e.wav",
+      "source": "local-siwis",
+      "file_sha256": "5d12fd7a47f6a906a97fb898eedccbb9ee6eed35bbae21f953dbdf42e4b7caad",
+      "bytes": 64044,
+      "seconds": 1.4512471655328798,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6224.640228880702
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle n’a pas pris de vacances depuis 2023.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.5.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "7bbf3d4a90e03009bac2e3e0504482ed4f6b404c7e975956df51f2ff99833e71",
+      "path": "audio/supplement/7bbf3d4a90e03009bac2e3e0504482ed4f6b404c7e975956df51f2ff99833e71.wav",
+      "source": "local-siwis",
+      "file_sha256": "4dc7a65e76d00ceca4a1279134c1cec1d70d75a17cc9607e11f9f93782d38606",
+      "bytes": 121900,
+      "seconds": 2.7631746031746034,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6300.931450840527
+    },
+    {
+      "repo": "grammar",
+      "text": "Je travaille ici depuis six mois ; j’ai commencé il y a six mois.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.6.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "29c64c313a194682c66fd91f86bc37e5ee059d072dffec01cac89d1903c0bcc3",
+      "path": "audio/supplement/29c64c313a194682c66fd91f86bc37e5ee059d072dffec01cac89d1903c0bcc3.wav",
+      "source": "local-siwis",
+      "file_sha256": "43e9a4561eb0e6ee05ccc6cdcdacf46fb835902d301b2137c05de797aae56848",
+      "bytes": 150572,
+      "seconds": 3.4133333333333336,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6209.067448994524
+    },
+    {
+      "repo": "grammar",
+      "text": "Quand j’ai appelé, elle attendait depuis vingt minutes ; le médecin est arrivé dix minutes plus tard.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.6.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "e99034aa6b476e90456aec083583f6a54b233290a7c65de8695fd7a450145ce8",
+      "path": "audio/supplement/e99034aa6b476e90456aec083583f6a54b233290a7c65de8695fd7a450145ce8.wav",
+      "source": "local-siwis",
+      "file_sha256": "272c7816acdd30c9c0fd083dc0f543cf98af1c5a58818453385f9b13901fcec6",
+      "bytes": 205356,
+      "seconds": 4.655600907029479,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6331.806377106402
+    },
+    {
+      "repo": "grammar",
+      "text": "Je travaille ici depuis lundi.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.7.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "f8c3d79b2e53e3f46b56d25b3b5d63686a1acf6d31e21906d98f9144d749cae7",
+      "path": "audio/supplement/f8c3d79b2e53e3f46b56d25b3b5d63686a1acf6d31e21906d98f9144d749cae7.wav",
+      "source": "local-siwis",
+      "file_sha256": "9f53b5d5fecb214bb099ebf832c5c64ae74ff2eea53b58e5fb0ec4d1a5c9b2cd",
+      "bytes": 69676,
+      "seconds": 1.5789569160997732,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5715.747151568255
+    },
+    {
+      "repo": "grammar",
+      "text": "Je n’ai pas reçu de réponse depuis lundi.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.7.1"
+        },
+        {
+          "id": "a2-temps-prep",
+          "field": "supplement.practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "321a298c83bdc4c8fc01a85b05061a3e8645bbe71b787b1cdfe1b33f64631a58",
+      "path": "audio/supplement/321a298c83bdc4c8fc01a85b05061a3e8645bbe71b787b1cdfe1b33f64631a58.wav",
+      "source": "local-siwis",
+      "file_sha256": "45383f0ae3eea3068b1e03d0c8b80b472953d5bad34b1332c86e3eb41e7de30a",
+      "bytes": 90156,
+      "seconds": 2.043356009070295,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6804.04620692062
+    },
+    {
+      "repo": "grammar",
+      "text": "Depuis que j’ai changé d’horaire, je dors mieux.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.7.2"
+        },
+        {
+          "id": "a2-temps-prep",
+          "field": "supplement.practice.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "e5322ac8dd10dc3b3e5eef71fdb93a58deaf0e13e1f5cb43077f852b79c874c8",
+      "path": "audio/supplement/e5322ac8dd10dc3b3e5eef71fdb93a58deaf0e13e1f5cb43077f852b79c874c8.wav",
+      "source": "local-siwis",
+      "file_sha256": "868fddc82a534f8dd5f344f4f06b430dfe9aeb4209aa67df79b7b7efb384c95d",
+      "bytes": 111148,
+      "seconds": 2.5193650793650795,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5369.743289294708
+    },
+    {
+      "repo": "grammar",
+      "text": "J’ai appelé il y a trois jours, mais je n’ai pas reçu de confirmation depuis.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "expansion.7.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "dbef7b6ef76e25409b719b9ea0d9dcf9079c1ba71561c7f0964229174eb9b5ad",
+      "path": "audio/supplement/dbef7b6ef76e25409b719b9ea0d9dcf9079c1ba71561c7f0964229174eb9b5ad.wav",
+      "source": "local-siwis",
+      "file_sha256": "10894c5f040171783ef175beac9dbc160fd90f49f328271728d22d145adbfb99",
+      "bytes": 176172,
+      "seconds": 3.9938321995464854,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5085.0292522380305
+    },
+    {
+      "repo": "grammar",
+      "text": "J’habite à Montréal depuis trois ans.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "supplement.practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "67064b50c56d6b937129ba03d3b66fbdb98ab1bf51cee6e9ccd39ea5863d3631",
+      "path": "audio/supplement/67064b50c56d6b937129ba03d3b66fbdb98ab1bf51cee6e9ccd39ea5863d3631.wav",
+      "source": "local-siwis",
+      "file_sha256": "4d4e0b2a5759cbc5d41dbde0a841a98bdd1fa49f0fbdc13893eaa5410df51008",
+      "bytes": 105004,
+      "seconds": 2.380045351473923,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5949.164940635935
+    },
+    {
+      "repo": "grammar",
+      "text": "Le rendez-vous est dans une heure.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "supplement.practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "1bafb8abeeecc3f056b81c07176eb2e8c1c0523baac3dd47dfbcb1c41d7c9cb2",
+      "path": "audio/supplement/1bafb8abeeecc3f056b81c07176eb2e8c1c0523baac3dd47dfbcb1c41d7c9cb2.wav",
+      "source": "local-siwis",
+      "file_sha256": "d57a77d2d3e47f955305a492f44457de0c7c22cb3a9d596d61d6193fece73de0",
+      "bytes": 74796,
+      "seconds": 1.6950566893424037,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5707.997730127569
+    },
+    {
+      "repo": "grammar",
+      "text": "J’ai rempli le formulaire en une demi-heure hier.",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "supplement.practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "996cc64b068a1f3c9170d747fa584fcd249eb4832f1a4fb0f624546874badc53",
+      "path": "audio/supplement/996cc64b068a1f3c9170d747fa584fcd249eb4832f1a4fb0f624546874badc53.wav",
+      "source": "local-siwis",
+      "file_sha256": "4107ffc29fc72f28a66bf4985beef45d2cedff1c5c04133e105864090122fdfe",
+      "bytes": 111660,
+      "seconds": 2.5309750566893423,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6561.917114415301
+    },
+    {
+      "repo": "grammar",
+      "text": "J’ai envoyé un courriel il y a trois jours, mais je n’ai pas reçu de réponse depuis. Pouvez-vous confirmer mon inscription ?",
+      "occurrences": [
+        {
+          "id": "a2-temps-prep",
+          "field": "supplement.practice.5"
+        }
+      ],
+      "existing": [],
+      "sha256": "7f32bce06d0650c0165797bc10046a483683594c6d26ec42ab918cc824a17eaa",
+      "path": "audio/supplement/7f32bce06d0650c0165797bc10046a483683594c6d26ec42ab918cc824a17eaa.wav",
+      "source": "local-siwis",
+      "file_sha256": "9e528e1914c682d9b5465b238467cd6d9cb5b518e392a0d856e34e56bea0ad3b",
+      "bytes": 279084,
+      "seconds": 6.327437641723356,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6061.153521725573
+    },
+    {
+      "repo": "grammar",
+      "text": "L'ordre des doubles pronoms",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "title"
+        }
+      ],
+      "existing": [],
+      "sha256": "dccb0094c31573755af435413789cddf30522d0751aa284444aedca708244d56",
+      "path": "audio/fr-FR/8689d3c50965fb1b.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "c572fcc6793275d037d79592b17c3eb2d2114ef61acb90a09a493f6d451a8719",
+      "bytes": 13248
+    },
+    {
+      "repo": "grammar",
+      "text": "Ordre des pronoms compléments : me te se nous vous / le la les / lui leur / y / en.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "fr"
+        }
+      ],
+      "existing": [],
+      "sha256": "59ab641a54dda41a0269320bd97b6615640e0f66fd5bf6c72a313da1ce907d86",
+      "path": "audio/fr-FR/7fec747d9ed9b603.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "d8b3d27c70f8c51bc7bc5842fb0c0a403cefe72ee3dae6fb12546c095e605289",
+      "bytes": 29088
+    },
+    {
+      "repo": "grammar",
+      "text": "Il me donne le livre → Il me le donne.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "examples.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "b4a9928a8154ed5892d9d6f2e5625335ce8f651287d6377fca1e5d585e856152",
+      "path": "audio/fr-FR/3bce8f44362c6184.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "4a8d128b6b21f39305280ca126666c53841667e553e630f5a48b3c412ce6b530",
+      "bytes": 16416
+    },
+    {
+      "repo": "grammar",
+      "text": "Tu donnes les clés à Paul ? → Tu les lui donnes ?",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "examples.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "d6a4407d1729e89006f90ee31b67da5f51f0f00dc5b9c5c105666fe9c4d95ede",
+      "path": "audio/fr-FR/7e9014b50e0d4191.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "36f6c9560d3d706d3cba57b05fb981b7536edd75e7ec56c1b8d5c3143974bdb7",
+      "bytes": 24768
+    },
+    {
+      "repo": "grammar",
+      "text": "Il me donne du café → Il m'en donne.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "examples.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "adbf72c39d0843d2f12567655ccc6d0c8c8fc53e07b0b97e4ff240824c05b423",
+      "path": "audio/supplement/adbf72c39d0843d2f12567655ccc6d0c8c8fc53e07b0b97e4ff240824c05b423.wav",
+      "source": "local-siwis",
+      "file_sha256": "c78e7d2c4491d22b23612f6e089e970a5f951a9db8cbb7c5a951b43c75bd7b7c",
+      "bytes": 79404,
+      "seconds": 1.799546485260771,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6330.768472487597
+    },
+    {
+      "repo": "grammar",
+      "text": "Donne-les-moi !",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "examples.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "0358d8345fe71f30fe54b64f01c18ee65d33e12c4ffb9202b6575e9efed981d8",
+      "path": "audio/supplement/0358d8345fe71f30fe54b64f01c18ee65d33e12c4ffb9202b6575e9efed981d8.wav",
+      "source": "local-siwis",
+      "file_sha256": "d501fcfd64ad4abbf7a01c6b92c0fac3a5cec1b8b34c12bc4bd00f2e38455d97",
+      "bytes": 42540,
+      "seconds": 0.9636281179138322,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6938.231970519676
+    },
+    {
+      "repo": "grammar",
+      "text": "Il me le donne.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "138f93abb857cc852d0eb29c1bea9f6113b822da1267c5743edee217f9868a2d",
+      "path": "audio/fr-FR/4c15b7a14896980e.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "d2e4c64184776afe8459b4f4cd236c7d444761ab3d1afbe8c33e2431e1af1b73",
+      "bytes": 10800
+    },
+    {
+      "repo": "grammar",
+      "text": "Tu les lui donnes ?",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "56d58997e9ea504040b36d6d04897f47efd780899a4a38757f0ae2d506aeb258",
+      "path": "audio/fr-FR/7fa46c404c7b896c.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "45a7400d9b8e7cbaabdf5aceb487e7d3181f86510f3c8df95ae4162580e600a9",
+      "bytes": 11664
+    },
+    {
+      "repo": "grammar",
+      "text": "Donne-le-moi !",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "bd54de9faa6ed167227cc8109c3247d4717525aa56f394b7833a15a823b8bd7d",
+      "path": "audio/fr-FR/7fb2f75dfd1bba75.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "37a67b436b495bb164e64e3bd01aaee4ddd1664e2965f39274f8365d36190939",
+      "bytes": 10368
+    },
+    {
+      "repo": "grammar",
+      "text": "Tu m'en apportes ?",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "bcffe5301048da9750dd8ec81e46c978d020ffff8d189cbc7fc1daf09a6610df",
+      "path": "audio/supplement/bcffe5301048da9750dd8ec81e46c978d020ffff8d189cbc7fc1daf09a6610df.wav",
+      "source": "local-siwis",
+      "file_sha256": "48bd606b3e52051d054831739090818ceff96dc7ed88b7fd1bd17bebf9496071",
+      "bytes": 34860,
+      "seconds": 0.7894784580498866,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 7609.887537304529
+    },
+    {
+      "repo": "grammar",
+      "text": "Il les y retrouve.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "practice.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "62eaa10f59816eab54bccfbf5d49bf79e8991caa802be2bf5523c8f793f24fb1",
+      "path": "audio/supplement/62eaa10f59816eab54bccfbf5d49bf79e8991caa802be2bf5523c8f793f24fb1.wav",
+      "source": "local-siwis",
+      "file_sha256": "c284b5a522a80ca1dd9618780f19298d98febe474611159242c99464ba267936",
+      "bytes": 56364,
+      "seconds": 1.2770975056689342,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5242.122998539636
+    },
+    {
+      "repo": "grammar",
+      "text": "Je te le donne demain.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.0.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "3ec576e1ede5699a8d6456afd70230cb6a2b1eaa967211bc39122c17068ca558",
+      "path": "audio/supplement/3ec576e1ede5699a8d6456afd70230cb6a2b1eaa967211bc39122c17068ca558.wav",
+      "source": "local-siwis",
+      "file_sha256": "8218bf64bb59072081ed25da68b42c7502569ea085c3b3bf5b7e3103d16aa147",
+      "bytes": 64556,
+      "seconds": 1.4628571428571429,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6204.755428931079
+    },
+    {
+      "repo": "grammar",
+      "text": "Je les lui ai envoyés.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.0.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "5af44ddb6689a1a3289bb968596346e28491af83c51088cf7f6f1e0a7d66c041",
+      "path": "audio/supplement/5af44ddb6689a1a3289bb968596346e28491af83c51088cf7f6f1e0a7d66c041.wav",
+      "source": "local-siwis",
+      "file_sha256": "6b7f81ef21f82d70d27d2d74fa09fdd14374e68e8379da3b5a2e7340d5337668",
+      "bytes": 61996,
+      "seconds": 1.4048072562358276,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5573.081515509386
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne vous en parlerai pas.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.0.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "0d49f722d2678891fa2bb9fc65f0b21bba455ed589cb4f3cb776d4257a80ca40",
+      "path": "audio/supplement/0d49f722d2678891fa2bb9fc65f0b21bba455ed589cb4f3cb776d4257a80ca40.wav",
+      "source": "local-siwis",
+      "file_sha256": "91d6e11b5d5e32c7255463bcfd54b53a5ae350667c42c7ff86cfed1b2adaf633",
+      "bytes": 65068,
+      "seconds": 1.474467120181406,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6536.652669885592
+    },
+    {
+      "repo": "grammar",
+      "text": "Il y en a trois.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.0.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "c57546dd8ad07bab6bd993d9f7928c5bb66ba13b9cc8359b9662e4548a927636",
+      "path": "audio/supplement/c57546dd8ad07bab6bd993d9f7928c5bb66ba13b9cc8359b9662e4548a927636.wav",
+      "source": "local-siwis",
+      "file_sha256": "2fe0dfdf91113a6d0dae21c2514b013b6654e0f05d2bb3257ac6e353431ca114",
+      "bytes": 44076,
+      "seconds": 0.9984580498866213,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 8223.288867810805
+    },
+    {
+      "repo": "grammar",
+      "text": "Donne-le-moi, s’il te plaît.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.1.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "abf1ae7f7778fabe286d1d2829110bfd1661fd44e748bdeff0d80a06021cdc72",
+      "path": "audio/supplement/abf1ae7f7778fabe286d1d2829110bfd1661fd44e748bdeff0d80a06021cdc72.wav",
+      "source": "local-siwis",
+      "file_sha256": "72e3a784de08c3338f18944734185172c26913bfbb389f1fe5b4873836382090",
+      "bytes": 81452,
+      "seconds": 1.8459863945578232,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5388.477210123036
+    },
+    {
+      "repo": "grammar",
+      "text": "Parlez-lui-en demain.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.1.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "149705f520d251d6da4accb312dfa04ed30a7a567a9005378282b021b2409036",
+      "path": "audio/supplement/149705f520d251d6da4accb312dfa04ed30a7a567a9005378282b021b2409036.wav",
+      "source": "local-siwis",
+      "file_sha256": "8c1f21d4ac4503920a664c1f2bd4e47762020e4fc63be8df8f88aabb8ca2f43d",
+      "bytes": 45612,
+      "seconds": 1.0332879818594105,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6936.431837490237
+    },
+    {
+      "repo": "grammar",
+      "text": "Donne-m’en un peu.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.1.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "b3232a7412b5baa1261c99927371a15a8f7571b63fac1122bf393c4e4a6f9291",
+      "path": "audio/supplement/b3232a7412b5baa1261c99927371a15a8f7571b63fac1122bf393c4e4a6f9291.wav",
+      "source": "local-siwis",
+      "file_sha256": "457a868bc8334dec5244af7e1dfd01f0ca1cb19a18156e6abda5160966c408fc",
+      "bytes": 49708,
+      "seconds": 1.1261678004535147,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5045.531805667012
+    },
+    {
+      "repo": "grammar",
+      "text": "Ne me le donne pas maintenant.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.1.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "95cec4c334d270a14e84ae83b7cad45b20d346149fde4e2a1197c36f87e92b37",
+      "path": "audio/supplement/95cec4c334d270a14e84ae83b7cad45b20d346149fde4e2a1197c36f87e92b37.wav",
+      "source": "local-siwis",
+      "file_sha256": "8d25da93a5d340ce2148772da5d08a9496a23433a652320ea2a8c846bcf38a07",
+      "bytes": 62508,
+      "seconds": 1.4164172335600906,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 7133.634028496041
+    },
+    {
+      "repo": "grammar",
+      "text": "Je vais le lui expliquer.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.2.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "b5e599da11e6ea2511782214be49b3da31e7539384328b9cde0df1af8aaf6041",
+      "path": "audio/supplement/b5e599da11e6ea2511782214be49b3da31e7539384328b9cde0df1af8aaf6041.wav",
+      "source": "local-siwis",
+      "file_sha256": "b1c8e1c8dda05d70238693626141338d9671a3a82c696915abd52b83c20cc063",
+      "bytes": 65068,
+      "seconds": 1.474467120181406,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5771.818534296784
+    },
+    {
+      "repo": "grammar",
+      "text": "Tu peux m’en donner deux ?",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.2.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "708ad4c93e049a3c6cb36d1fafa76af22ec3a52802bc2c3b0a891e3038802cc6",
+      "path": "audio/supplement/708ad4c93e049a3c6cb36d1fafa76af22ec3a52802bc2c3b0a891e3038802cc6.wav",
+      "source": "local-siwis",
+      "file_sha256": "09619f0b3624f0893f91ccf18496e36093883476470569cac60e6564e3b598ef",
+      "bytes": 43052,
+      "seconds": 0.9752380952380952,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 7035.524245848563
+    },
+    {
+      "repo": "grammar",
+      "text": "Je lui demande de me les envoyer demain.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.3.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "7b80a22aa703b0d85e74d33c314b8a4e4930af89742ee58a10312aa3e019e072",
+      "path": "audio/supplement/7b80a22aa703b0d85e74d33c314b8a4e4930af89742ee58a10312aa3e019e072.wav",
+      "source": "local-siwis",
+      "file_sha256": "34c5f5374c73d67a238538de292067337e076a29b114bf1ab424a5d702af582e",
+      "bytes": 87596,
+      "seconds": 1.9853061224489796,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5963.931525682761
+    },
+    {
+      "repo": "grammar",
+      "text": "Je promets de les lui envoyer demain.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.3.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "8c6056027ef4af21c1747b0a9e2816572375313f34c62238749e64f725766ef9",
+      "path": "audio/supplement/8c6056027ef4af21c1747b0a9e2816572375313f34c62238749e64f725766ef9.wav",
+      "source": "local-siwis",
+      "file_sha256": "9349b9ab2e925e370a13c4d62b4c9ea9ba638500e7fab161b15f1a1495a97ae8",
+      "bytes": 78380,
+      "seconds": 1.7763265306122449,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6601.143029934233
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne lui demande pas de venir.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.3.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "dc618a0287931fc2da1f12fb52c7581c20b093f2604becd5a27fec5c76a6c289",
+      "path": "audio/supplement/dc618a0287931fc2da1f12fb52c7581c20b093f2604becd5a27fec5c76a6c289.wav",
+      "source": "local-siwis",
+      "file_sha256": "5de107753874a842c010d78623d19844bf44b4a2818c010cc6c73d739e72a6e9",
+      "bytes": 73260,
+      "seconds": 1.6602267573696146,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5330.8127096536955
+    },
+    {
+      "repo": "grammar",
+      "text": "Je lui demande de ne pas venir.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "expansion.3.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "78c9f6cc23fe1525d3a73c400eb30dece95ffdf5b6157c32ee02029c50e97057",
+      "path": "audio/supplement/78c9f6cc23fe1525d3a73c400eb30dece95ffdf5b6157c32ee02029c50e97057.wav",
+      "source": "local-siwis",
+      "file_sha256": "bbba5e73ceb042321891e1562965bf0b2b18af1a05c2224727207c134cea2abf",
+      "bytes": 82476,
+      "seconds": 1.8692063492063493,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6040.958123670934
+    },
+    {
+      "repo": "grammar",
+      "text": "Je lui demande de me les envoyer.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "supplement.practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "296864f61f7b331b8983b6975fcbe50929aca4dc2202920c67a09655e11834bb",
+      "path": "audio/supplement/296864f61f7b331b8983b6975fcbe50929aca4dc2202920c67a09655e11834bb.wav",
+      "source": "local-siwis",
+      "file_sha256": "feff708e3db3c622fd7c4bbbc71e7051d163f82e6741b6661a67b216bf1f7538",
+      "bytes": 79404,
+      "seconds": 1.799546485260771,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6020.997183996396
+    },
+    {
+      "repo": "grammar",
+      "text": "Le locuteur, désigné par je, promet d’envoyer le dossier.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "supplement.practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "5b2bb3ca2334444873478bed19334a2e179cf03a464d19fe52d7fff88ed30e34",
+      "path": "audio/supplement/5b2bb3ca2334444873478bed19334a2e179cf03a464d19fe52d7fff88ed30e34.wav",
+      "source": "local-siwis",
+      "file_sha256": "4e2bbb48cb5dc5cb2798404efc6937f2fdeb9aff62ca7e46eb4c187195c4db7e",
+      "bytes": 145452,
+      "seconds": 3.297233560090703,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5453.184975932841
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne leur demande pas d’envoyer le dossier. / Je leur demande de ne pas envoyer le dossier.",
+      "occurrences": [
+        {
+          "id": "b1-double-pronoms",
+          "field": "supplement.practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "1b68bb69ed7d0cc3ddaee09ab4188aed5a04ac1cc906b5b6c796992bcd1a6a58",
+      "path": "audio/supplement/1b68bb69ed7d0cc3ddaee09ab4188aed5a04ac1cc906b5b6c796992bcd1a6a58.wav",
+      "source": "local-siwis",
+      "file_sha256": "d2d615e722abf563a652679173d9a92da004a4d85d8cc17e45745b9a35a640b0",
+      "bytes": 184876,
+      "seconds": 4.191201814058957,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5763.00294290274
+    },
+    {
+      "repo": "grammar",
+      "text": "Indicatif, subjonctif ou conditionnel ?",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "title"
+        }
+      ],
+      "existing": [],
+      "sha256": "897237a532e9226d3b620d46ffc52d94797b61546c1e6f2cd4b4d0dcbdb428eb",
+      "path": "audio/fr-FR/87d480bab50afcd4.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "12b2eef5a8e6c732c3d4ac7797f0b26e6bd6c052787de195995b6e1534ed0bd4",
+      "bytes": 21456
+    },
+    {
+      "repo": "grammar",
+      "text": "Le mode dépend de la construction et du point de vue : assertion à l’indicatif, souhait ou appréciation au subjonctif, hypothèse ou atténuation au conditionnel.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "fr"
+        }
+      ],
+      "existing": [],
+      "sha256": "7c99db607601be2c4c93cdf66d00edb17b7d477a8e1f1973854120659ea3610a",
+      "path": "audio/supplement/7c99db607601be2c4c93cdf66d00edb17b7d477a8e1f1973854120659ea3610a.wav",
+      "source": "local-siwis",
+      "file_sha256": "0f5950937de15fa44602b99f2b46829a30c41d1ee57a78dc2fe6378c926b614f",
+      "bytes": 406572,
+      "seconds": 9.218321995464853,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4236.8045826538355
+    },
+    {
+      "repo": "grammar",
+      "text": "Je pense qu'il a raison.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "examples.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "f64eccc3892062d0af2ae7d9d4aa022e597cbf643498dca5bb73f76aa3888149",
+      "path": "audio/fr-FR/9ae268a83528979b.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "6cb6f85c88c311ac84bc72ef0694987a49c6c69a7ed1fc9169d1e30971a6d2bf",
+      "bytes": 13680
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne pense pas qu'il ait raison.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "examples.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "75328bbd140b22c3ed0c5c631fe38936d0fbf7c42412cce748e17ebab9409252",
+      "path": "audio/fr-FR/707699ea6895f96f.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "323dca214a71b9068512b7ea57f42b43f9be528cc412bcd4c3ff78581e61ae9a",
+      "bytes": 14688
+    },
+    {
+      "repo": "grammar",
+      "text": "Il aurait raison de partir.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "examples.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "5617d5114702984fb363961dadfafda57e459f92e9b5e050740e1a750527fe1f",
+      "path": "audio/fr-FR/8f27048a7db85e10.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "52cef96fbe135916bbed8db7b9b35da5b730c580e427907b44dc85ee874bd26a",
+      "bytes": 14544
+    },
+    {
+      "repo": "grammar",
+      "text": "Il est probable qu'il viendra, mais il est possible qu'il soit en retard.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "examples.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "62b306b07004ab7ff2066fffaabb97e50401784164a32d79709b387ead9b5b00",
+      "path": "audio/supplement/62b306b07004ab7ff2066fffaabb97e50401784164a32d79709b387ead9b5b00.wav",
+      "source": "local-siwis",
+      "file_sha256": "0a3cfc55b87bbbf42649bda791bb31d5e0f59cee3c6dc4108cce6fa4a5a4b42c",
+      "bytes": 181292,
+      "seconds": 4.1099319727891155,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5573.7045260147615
+    },
+    {
+      "repo": "grammar",
+      "text": "Je suis sûr qu'il a raison.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "3ec903d2a024c5fd32265909928e73ec7883a917a8465b3b87b6bbaa5f7002b3",
+      "path": "audio/fr-FR/59df0ccae327d09b.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "379ffc27b4b25a8a83d60c79cb8912d752c10c5f9ba9166ff31c85c4c838401e",
+      "bytes": 14400
+    },
+    {
+      "repo": "grammar",
+      "text": "Je ne crois pas qu'il ait raison.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "4201c3541831449d39f4e72011c3ec51000ea4f539a4e5f639429678acbf3816",
+      "path": "audio/fr-FR/d30759c29a6d8137.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "2125bab7e63240ba84b2533677a9486e74890b616cc31f7043b04500779d02fb",
+      "bytes": 14400
+    },
+    {
+      "repo": "grammar",
+      "text": "À ta place, je refuserais cette proposition.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "70a5cf31ff9294a44409b716d27bfa31b91937fe3c6caa34652f2cf65c48dcfb",
+      "path": "audio/supplement/70a5cf31ff9294a44409b716d27bfa31b91937fe3c6caa34652f2cf65c48dcfb.wav",
+      "source": "local-siwis",
+      "file_sha256": "448929ed783285b40c803aaa728a06b808d6fa01c8030c245a71b06b2cc12120",
+      "bytes": 120364,
+      "seconds": 2.728344671201814,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6046.185519412736
+    },
+    {
+      "repo": "grammar",
+      "text": "Il est possible que nous devions reporter la réunion.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "804c5eed4180dfc62732eb60183b98257ad05120100b0f049ecb3c9a12f3c752",
+      "path": "audio/supplement/804c5eed4180dfc62732eb60183b98257ad05120100b0f049ecb3c9a12f3c752.wav",
+      "source": "local-siwis",
+      "file_sha256": "7042b8cb76ab3b2fbda7896cddf6cf7961420771e50a2b0bd8501a9638c146c9",
+      "bytes": 116780,
+      "seconds": 2.647074829931973,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5458.938471589714
+    },
+    {
+      "repo": "grammar",
+      "text": "Je crois qu'elle connaît déjà la réponse.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.0.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "fc257959a5d2272d7c8a59b2b7fda95e3f7aba70e26425d34a890fac1e14619e",
+      "path": "audio/supplement/fc257959a5d2272d7c8a59b2b7fda95e3f7aba70e26425d34a890fac1e14619e.wav",
+      "source": "local-siwis",
+      "file_sha256": "7cd9d524d0bdfedc9ae335bc33d70a8b0b16925503044ff748107fe303534188",
+      "bytes": 101932,
+      "seconds": 2.3103854875283445,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5675.26734964182
+    },
+    {
+      "repo": "grammar",
+      "text": "Il est probable que le train arrivera en retard.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.0.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "1779d1b37926dd51d2be08ddc8fd289b601d62f2eea0f7795b273b28f08c4d26",
+      "path": "audio/supplement/1779d1b37926dd51d2be08ddc8fd289b601d62f2eea0f7795b273b28f08c4d26.wav",
+      "source": "local-siwis",
+      "file_sha256": "a96f3e7af0499ae57ba80125b3dc0ba25cf2c9304800597c8caed0f53304387b",
+      "bytes": 110124,
+      "seconds": 2.4961451247165534,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5983.836698031322
+    },
+    {
+      "repo": "grammar",
+      "text": "Je doute qu'il ait lu le rapport jusqu'au bout.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.1.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "e45e5a61efb91b31ad6d1fc87dfc6ea21007ecc18f6da55dfbeae828062acc76",
+      "path": "audio/supplement/e45e5a61efb91b31ad6d1fc87dfc6ea21007ecc18f6da55dfbeae828062acc76.wav",
+      "source": "local-siwis",
+      "file_sha256": "eb33ab53cafb5f9b0755cb2bce752d4b72dbda074f5a1c7c1566b9aa915f65df",
+      "bytes": 99372,
+      "seconds": 2.2523356009070294,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5725.4338025100715
+    },
+    {
+      "repo": "grammar",
+      "text": "Penses-tu qu'une autre solution soit possible ?",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.1.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "7ab1a6d4858d08448e58ad1cc27e0856052000465f1fd59d1b3e131c37af2b12",
+      "path": "audio/supplement/7ab1a6d4858d08448e58ad1cc27e0856052000465f1fd59d1b3e131c37af2b12.wav",
+      "source": "local-siwis",
+      "file_sha256": "5cc6205ecb727fc48fc29e226ef6ddca7fda9616250647b77bd48ef2cc28bbd0",
+      "bytes": 107052,
+      "seconds": 2.426485260770975,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4751.93930989829
+    },
+    {
+      "repo": "grammar",
+      "text": "Avec davantage de temps, nous pourrions comparer les deux offres.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.2.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "63487869bd1f00581fc240b6170f3c671f0b825f044ef18bdf5f8d7fb4d0d7fc",
+      "path": "audio/supplement/63487869bd1f00581fc240b6170f3c671f0b825f044ef18bdf5f8d7fb4d0d7fc.wav",
+      "source": "local-siwis",
+      "file_sha256": "b80051e8daa09ee534dd62138a66e5f824ebb3224edb4cb2ae07b969d8bf15c9",
+      "bytes": 149036,
+      "seconds": 3.378503401360544,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5216.2951442032045
+    },
+    {
+      "repo": "grammar",
+      "text": "D'après la presse, le ministre aurait quitté le pays.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.2.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "daab7c4269b20f404116b40add1812b091d5670cfd3c82baf3d86f5787042f0d",
+      "path": "audio/supplement/daab7c4269b20f404116b40add1812b091d5670cfd3c82baf3d86f5787042f0d.wav",
+      "source": "local-siwis",
+      "file_sha256": "ea029c91076929233bda82d90370d754ee35803b9ac088daa8336118a60fe8da",
+      "bytes": 137772,
+      "seconds": 3.1230839002267574,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5206.191708822483
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle a annoncé qu'elle reviendrait lundi.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.2.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "b7defae7b817c972db6ecb25a8679a0009dca32f2c3b3d0e6de7ca2b5b6441c9",
+      "path": "audio/supplement/b7defae7b817c972db6ecb25a8679a0009dca32f2c3b3d0e6de7ca2b5b6441c9.wav",
+      "source": "local-siwis",
+      "file_sha256": "de0067ce58cecff49bf7cce8674392fbc7ba8297fe2ab7b3c3ae2015474314fd",
+      "bytes": 81964,
+      "seconds": 1.8575963718820863,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5883.747574024887
+    },
+    {
+      "repo": "grammar",
+      "text": "Pourriez-vous préciser ce point ?",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.2.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "fdf17454b642e735986268e549a53473971ea0b0cd6506dd4dd67025d5c878ca",
+      "path": "audio/supplement/fdf17454b642e735986268e549a53473971ea0b0cd6506dd4dd67025d5c878ca.wav",
+      "source": "local-siwis",
+      "file_sha256": "4df0cdd761ecec1397ae56552583d8d0533ed6ebae539067e9a2a4cae37cad24",
+      "bytes": 76844,
+      "seconds": 1.7414965986394557,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6731.369217638167
+    },
+    {
+      "repo": "grammar",
+      "text": "Je suis heureuse qu’elle soit venue.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.3.0"
+        },
+        {
+          "id": "b2-mode-choix",
+          "field": "supplement.practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "08b9207194cd4d62159d941e900e3bdbe0dcc7dabbb23277e2e971bdfd99b03a",
+      "path": "audio/supplement/08b9207194cd4d62159d941e900e3bdbe0dcc7dabbb23277e2e971bdfd99b03a.wav",
+      "source": "local-siwis",
+      "file_sha256": "e47fd8335b26b3a3b2ab44750f19ddc2da93ea22b9eb00d5fddf073852b61fb9",
+      "bytes": 73260,
+      "seconds": 1.6602267573696146,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6379.183463423799
+    },
+    {
+      "repo": "grammar",
+      "text": "Je sais qu’elle est venue.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.3.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "3cc6f7edc1613d17570d29168113400e614f9ed65b2a04b63f35e0b187ec4709",
+      "path": "audio/supplement/3cc6f7edc1613d17570d29168113400e614f9ed65b2a04b63f35e0b187ec4709.wav",
+      "source": "local-siwis",
+      "file_sha256": "9112f685e26c270b28e5a68a477380939a41817f0ab970fef6a8820fa3b8c52b",
+      "bytes": 58924,
+      "seconds": 1.3351473922902495,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6209.97345951662
+    },
+    {
+      "repo": "grammar",
+      "text": "Je souhaite qu’elle vienne demain.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.3.2"
+        },
+        {
+          "id": "b2-mode-choix",
+          "field": "supplement.practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "be67c0664c273da960747d100b3906c4ee7f55a09e8486b65fec0d6c44845732",
+      "path": "audio/supplement/be67c0664c273da960747d100b3906c4ee7f55a09e8486b65fec0d6c44845732.wav",
+      "source": "local-siwis",
+      "file_sha256": "2f815805856e6705cc5dba64a34ca4d18e9718c0a147ce5c214c59cb09725938",
+      "bytes": 70188,
+      "seconds": 1.5905668934240362,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 7376.8800150499865
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle regrette que le train soit déjà parti.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.3.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "255014ce0304ed3f920f767f5c136db7e830376be27b119ef338ecaec3762836",
+      "path": "audio/supplement/255014ce0304ed3f920f767f5c136db7e830376be27b119ef338ecaec3762836.wav",
+      "source": "local-siwis",
+      "file_sha256": "3bddebe4f824d509754a26e044f5ccea32c3a6d7b6c4382eeee4b6a596d0b0ab",
+      "bytes": 88108,
+      "seconds": 1.9969160997732427,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5573.473675535465
+    },
+    {
+      "repo": "grammar",
+      "text": "Bien qu’il ait plu, le match a eu lieu.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.3.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "e418eae76e034845ff3ca660bbd1e72b59f2d56d77dc3546f1660ac4a0f39776",
+      "path": "audio/supplement/e418eae76e034845ff3ca660bbd1e72b59f2d56d77dc3546f1660ac4a0f39776.wav",
+      "source": "local-siwis",
+      "file_sha256": "b4d3d80f8c8e416735df961a2babf749862cfa8a0d730b15dafb06200aa2b111",
+      "bytes": 102956,
+      "seconds": 2.3336054421768706,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4425.245273496689
+    },
+    {
+      "repo": "grammar",
+      "text": "Après qu’il a plu, nous avons inspecté le terrain.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "expansion.3.5"
+        }
+      ],
+      "existing": [],
+      "sha256": "8dd2e96d3d9cd5cdf5250af5e513a226161dc9c6363560bc01e1dc7f936c3402",
+      "path": "audio/supplement/8dd2e96d3d9cd5cdf5250af5e513a226161dc9c6363560bc01e1dc7f936c3402.wav",
+      "source": "local-siwis",
+      "file_sha256": "e03ec9d67715613a5883a3f22ae3818416045b363a783d073e3453124c7b6661",
+      "bytes": 133676,
+      "seconds": 3.030204081632653,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4484.694447724575
+    },
+    {
+      "repo": "grammar",
+      "text": "Bien que appelle le subjonctif ; après que appelle l’indicatif dans la norme écrite. Les deux phrases peuvent évoquer une pluie réelle.",
+      "occurrences": [
+        {
+          "id": "b2-mode-choix",
+          "field": "supplement.practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "d29972ce30933d85b8a65c101803cd432c7a81fa1cb5ff705c2ee3c4134451ba",
+      "path": "audio/supplement/d29972ce30933d85b8a65c101803cd432c7a81fa1cb5ff705c2ee3c4134451ba.wav",
+      "source": "local-siwis",
+      "file_sha256": "07961fc46c9c4f7ffaca1de6f084606109575fe74145ff5e094f4ae9bf438fa3",
+      "bytes": 334380,
+      "seconds": 7.581315192743764,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5165.036645286282
+    },
+    {
+      "repo": "grammar",
+      "text": "L'accord du participe passé (cas avancés)",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "title"
+        }
+      ],
+      "existing": [],
+      "sha256": "a1366a5f6ed91f895c89c8572dbcd426da40ae2999426953457a48b1b85aa4ee",
+      "path": "audio/fr-FR/53ad7673a4e30410.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "7bd095ef8680f9c149f96b923f1f409b0395b5cb16db3d6bce28e2e858c40e0f",
+      "bytes": 22176
+    },
+    {
+      "repo": "grammar",
+      "text": "Cas pièges : fait + inf. invariable ; avec avoir, participe suivi d’un infinitif (accord si le COD antéposé du participe est aussi le sujet sous-entendu de l’infinitif) ; COD = en → généralement pas d’accord.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "fr"
+        }
+      ],
+      "existing": [],
+      "sha256": "460081df62b0ab75b67a8d1eb716cc5ceea532a7c465757569a542d217173273",
+      "path": "audio/supplement/460081df62b0ab75b67a8d1eb716cc5ceea532a7c465757569a542d217173273.wav",
+      "source": "local-siwis",
+      "file_sha256": "49002a7e17026c0c445bc3ce9c6ac65b10a3fef996cf61d6f6d338f956abd237",
+      "bytes": 522284,
+      "seconds": 11.842176870748299,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4889.9978744694945
+    },
+    {
+      "repo": "grammar",
+      "text": "Les artistes que j'ai vus chanter.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "examples.0"
+        },
+        {
+          "id": "c1-accord-avance",
+          "field": "practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "476e678926b132f4f0aae408b4a06f7d3b9a391fb759573fedfe0dbb14e318af",
+      "path": "audio/fr-FR/2a2036d38764a43b.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "b23b1fceee404fe907ede8d71e3e11163a0d8e0e0242f0e013336c9d9f833f20",
+      "bytes": 16416
+    },
+    {
+      "repo": "grammar",
+      "text": "La chanson que j'ai entendu chanter.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "examples.1"
+        },
+        {
+          "id": "c1-accord-avance",
+          "field": "practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "a4445ff2acc17566485347483d2ce47c073f01babe0bbba27b3dfafff8975017",
+      "path": "audio/fr-FR/1d84d57348401525.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "bad1bf3bf9df5a212db4f5fc2d1b4627c7d5edd9de48d95c8c1f5aaed35cbf99",
+      "bytes": 17568
+    },
+    {
+      "repo": "grammar",
+      "text": "Des fautes ? J'en ai fait.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "examples.2"
+        },
+        {
+          "id": "c1-accord-avance",
+          "field": "practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "701e6fe34bf9107c65d492c1dd7a0c717972dcd577cb716c2e62b0256dfd7702",
+      "path": "audio/fr-FR/e9a5c29226161a79.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "68fba06a4f2a721a92d8b7576784c2a1a5c1084b157c5d20060f577921f71491",
+      "bytes": 19584
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle s'est fait couper les cheveux. / Les robes qu'elle a fait faire.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "examples.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "ad6e15afaece2d670e7338acf041d23a52b4c9a76eb7e9751596a84015a1d2ed",
+      "path": "audio/supplement/ad6e15afaece2d670e7338acf041d23a52b4c9a76eb7e9751596a84015a1d2ed.wav",
+      "source": "local-siwis",
+      "file_sha256": "94c88aa67275ce70ad4ec49d8277491ce5a651143c0f7095a451057aaf1ae2b7",
+      "bytes": 130604,
+      "seconds": 2.9605442176870747,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5697.512491082817
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle s'est fait couper les cheveux.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "880e5a6c2e7763f5d3b3d3a2b42224b045911bc827f9a21f07cd23d4d4ad0b59",
+      "path": "audio/supplement/880e5a6c2e7763f5d3b3d3a2b42224b045911bc827f9a21f07cd23d4d4ad0b59.wav",
+      "source": "local-siwis",
+      "file_sha256": "27444a8537ae9d2849999278b9373da5e98caa79f6461e07491992c5ea753b62",
+      "bytes": 65580,
+      "seconds": 1.486077097505669,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5038.032866509704
+    },
+    {
+      "repo": "grammar",
+      "text": "Les musiciennes que j’ai entendues jouer étaient excellentes.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.0.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "be842d3c32532dab0e7987ad5baadfe9f4026d07bf1588e04f7b62d55b021f4c",
+      "path": "audio/supplement/be842d3c32532dab0e7987ad5baadfe9f4026d07bf1588e04f7b62d55b021f4c.wav",
+      "source": "local-siwis",
+      "file_sha256": "d917df7cd95f973280d5049fabbf51f97a154d27ae70097ad01f9f807799c0dc",
+      "bytes": 128556,
+      "seconds": 2.914104308390023,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5767.496947858762
+    },
+    {
+      "repo": "grammar",
+      "text": "Les morceaux que j’ai entendu jouer étaient difficiles.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.0.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "8daa31cbf0d195a9c5f265826f57fefb4c8a3996b5e0373a8e3807e94638f884",
+      "path": "audio/supplement/8daa31cbf0d195a9c5f265826f57fefb4c8a3996b5e0373a8e3807e94638f884.wav",
+      "source": "local-siwis",
+      "file_sha256": "23a80014c6f15d35237f273a658433e31cef7c26b15f364f15a644366c6812da",
+      "bytes": 120876,
+      "seconds": 2.7399546485260773,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4040.309527733742
+    },
+    {
+      "repo": "grammar",
+      "text": "Les enfants que nous avons vus courir sont rentrés.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.0.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "0a29642566f8cc4a005c5694de7f9309606413c5060ca881ae63d8b9405928b7",
+      "path": "audio/supplement/0a29642566f8cc4a005c5694de7f9309606413c5060ca881ae63d8b9405928b7.wav",
+      "source": "local-siwis",
+      "file_sha256": "0402c047216ad72557fab56c725b6565c8cbd022b8847fca33d446ee8ab92d52",
+      "bytes": 107052,
+      "seconds": 2.426485260770975,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5851.394300498455
+    },
+    {
+      "repo": "grammar",
+      "text": "Les maisons que nous avons vu construire sont habitées.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.0.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "183ef1d8d5e585ac32362c02302b9cdc1b2fb4cfdfa0d26acc182da8c67ab40f",
+      "path": "audio/supplement/183ef1d8d5e585ac32362c02302b9cdc1b2fb4cfdfa0d26acc182da8c67ab40f.wav",
+      "source": "local-siwis",
+      "file_sha256": "24d417c7e14b189f2df1f0ad6af0cd36ac07089f2b8758e4823d6715fd5473f6",
+      "bytes": 113708,
+      "seconds": 2.5774149659863945,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5615.790748431571
+    },
+    {
+      "repo": "grammar",
+      "text": "Les enfants qu’elle a fait venir attendent dehors.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.1.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "6fce897d12966deadd52c39c003ee8d104a67c9fe81184ceb8dcbfcf92e61ce3",
+      "path": "audio/supplement/6fce897d12966deadd52c39c003ee8d104a67c9fe81184ceb8dcbfcf92e61ce3.wav",
+      "source": "local-siwis",
+      "file_sha256": "dc5cb2631a14118c363c8680bc4473e56e0c6119f6d38ba837ddf8717d8e7340",
+      "bytes": 102956,
+      "seconds": 2.3336054421768706,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6402.632301366757
+    },
+    {
+      "repo": "grammar",
+      "text": "Elles se sont fait photographier devant le musée.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.1.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "42ad023afdbbfb0e8393d83857294e356176086931acc11a899623de84b5f99d",
+      "path": "audio/supplement/42ad023afdbbfb0e8393d83857294e356176086931acc11a899623de84b5f99d.wav",
+      "source": "local-siwis",
+      "file_sha256": "0dfec6a7ac79d189ea8c4db3b0bf1506c903fd37aba7e88259def964ba01c811",
+      "bytes": 104492,
+      "seconds": 2.36843537414966,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6004.613575042542
+    },
+    {
+      "repo": "grammar",
+      "text": "Des erreurs, j’en ai commis plusieurs.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.2.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "fe000077f933aec739870fd09da600115f7e8acb42f4aa9a957205ffed957948",
+      "path": "audio/supplement/fe000077f933aec739870fd09da600115f7e8acb42f4aa9a957205ffed957948.wav",
+      "source": "local-siwis",
+      "file_sha256": "b5ab1fd8859a554b34ceb837d7d1184434577b470666ecb76379b731ad8346fa",
+      "bytes": 113708,
+      "seconds": 2.5774149659863945,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5674.031759819532
+    },
+    {
+      "repo": "grammar",
+      "text": "Ces pommes sont bonnes ; j’en ai mangé deux.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.2.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "61cab88c3d9ae376d37444e930957322059e64f9d8a0062601fbad594dcb23c8",
+      "path": "audio/supplement/61cab88c3d9ae376d37444e930957322059e64f9d8a0062601fbad594dcb23c8.wav",
+      "source": "local-siwis",
+      "file_sha256": "b24d5ff4c12cc9a1a12631a28100e43228b26c0f21555fd0115da20b742ffe6c",
+      "bytes": 108588,
+      "seconds": 2.461315192743764,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5641.076740185081
+    },
+    {
+      "repo": "grammar",
+      "text": "Les conclusions que j’en ai tirées sont prudentes.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.2.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "9debba2bf9450ccee731df75d680c6c790e88532a2e00db12f2862b66747b863",
+      "path": "audio/supplement/9debba2bf9450ccee731df75d680c6c790e88532a2e00db12f2862b66747b863.wav",
+      "source": "local-siwis",
+      "file_sha256": "7f431f95a5e298d4ccd480b8e7e0cc91a8af9e0b4220deb7531a181f9f2d951c",
+      "bytes": 118316,
+      "seconds": 2.681904761904762,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5654.539537901139
+    },
+    {
+      "repo": "grammar",
+      "text": "Les nouvelles qu’elle en a reçues étaient rassurantes.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.2.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "aa508aa7de4504d986a0533a4d5de813cb477bd6548804071aaa66039d01dac6",
+      "path": "audio/supplement/aa508aa7de4504d986a0533a4d5de813cb477bd6548804071aaa66039d01dac6.wav",
+      "source": "local-siwis",
+      "file_sha256": "d2bf6207266c7b53a7464f731033a57a9a674211320f6ae301d9b0a217e21e0b",
+      "bytes": 122924,
+      "seconds": 2.786394557823129,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5627.340696692389
+    },
+    {
+      "repo": "grammar",
+      "text": "Elles se sont laissé convaincre.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.3.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "d84139b56c5bd2af69b9e1b5d090b53494db4ba29461bf0f1da509a6e8047a1a",
+      "path": "audio/supplement/d84139b56c5bd2af69b9e1b5d090b53494db4ba29461bf0f1da509a6e8047a1a.wav",
+      "source": "local-siwis",
+      "file_sha256": "300a60e5aa723ffb4b589c0b1819e15e2514441f2ab712d9da6cde698eb00a95",
+      "bytes": 68140,
+      "seconds": 1.5441269841269842,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5802.054575892318
+    },
+    {
+      "repo": "grammar",
+      "text": "Les enfants que j’ai laissé partir sont revenus.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.3.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "703322b9eaf8adce6fc85eec9dd190ea80d4da8e29054507d56d044df9cd6537",
+      "path": "audio/supplement/703322b9eaf8adce6fc85eec9dd190ea80d4da8e29054507d56d044df9cd6537.wav",
+      "source": "local-siwis",
+      "file_sha256": "2cc8d6a317f4a8f9fbd5b85bd4d5fc9e2ba4c71cd5ea920e08e1723435c1ef0d",
+      "bytes": 106540,
+      "seconds": 2.414875283446712,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5062.624324606345
+    },
+    {
+      "repo": "grammar",
+      "text": "Elles se sont parlé pendant une heure.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.3.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "159c4c7a9fcf8a2190168d339869e1604949f48ce74cf980035432661da21235",
+      "path": "audio/supplement/159c4c7a9fcf8a2190168d339869e1604949f48ce74cf980035432661da21235.wav",
+      "source": "local-siwis",
+      "file_sha256": "fe739ab3871b1c1a73f1a74f04f4e6b66568564cf3026c401fab37daf42c8492",
+      "bytes": 80428,
+      "seconds": 1.822766439909297,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6168.000787090108
+    },
+    {
+      "repo": "grammar",
+      "text": "Les lettres qu’elles se sont écrites ont disparu.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.3.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "e84397ee7c202e3b83c7b1f19864db8a25a0c996c837bfb9d60ad18866f04c27",
+      "path": "audio/supplement/e84397ee7c202e3b83c7b1f19864db8a25a0c996c837bfb9d60ad18866f04c27.wav",
+      "source": "local-siwis",
+      "file_sha256": "32f18adacf147bd8c7d12e5b3c54487e3e95ba0dc0d0cc059c5b685e386b128b",
+      "bytes": 97324,
+      "seconds": 2.2058956916099772,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5939.104775230671
+    },
+    {
+      "repo": "grammar",
+      "text": "Elles se sont rendu compte de l’erreur.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.4.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "8b7ad01db6554e2957c6d6a7a53ba196e8196e88cefe08181827b064f46873d6",
+      "path": "audio/supplement/8b7ad01db6554e2957c6d6a7a53ba196e8196e88cefe08181827b064f46873d6.wav",
+      "source": "local-siwis",
+      "file_sha256": "bc1a95ef6deda7822b76a8e3d576feb16bac8bbe93deb53cfde918dfbea56bf4",
+      "bytes": 85036,
+      "seconds": 1.9272562358276644,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6128.457807103194
+    },
+    {
+      "repo": "grammar",
+      "text": "Elles se sont aperçues de l’erreur.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.4.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "94aa638685fb9bb7bfb44a20d4c1e4cf1d6cab2b8310b4b30f2d45533810bf64",
+      "path": "audio/supplement/94aa638685fb9bb7bfb44a20d4c1e4cf1d6cab2b8310b4b30f2d45533810bf64.wav",
+      "source": "local-siwis",
+      "file_sha256": "740052cac2ff74fdd14b21e51c88136cdd3f7647aaf0e3e9466aacbdadbcfba1",
+      "bytes": 75308,
+      "seconds": 1.7066666666666668,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5961.672292761556
+    },
+    {
+      "repo": "grammar",
+      "text": "Elles se sont plu dès leur première rencontre.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.4.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "a30c86774c4d15043e638f46e89cbf59d0f2dfff6cc9167bcdf91b20a3afd784",
+      "path": "audio/supplement/a30c86774c4d15043e638f46e89cbf59d0f2dfff6cc9167bcdf91b20a3afd784.wav",
+      "source": "local-siwis",
+      "file_sha256": "672a13641f946adc47e97320da96d62f9abdeef50fc4b64831c2d1a651b16d7b",
+      "bytes": 111148,
+      "seconds": 2.5193650793650795,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6115.709804800147
+    },
+    {
+      "repo": "grammar",
+      "text": "Trois directrices se sont succédé à la tête de l’association.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "expansion.4.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "95ab9e4f64b15b2874fd58f99dafa6d6e25f66e0dc666351500131f2c9c4146a",
+      "path": "audio/supplement/95ab9e4f64b15b2874fd58f99dafa6d6e25f66e0dc666351500131f2c9c4146a.wav",
+      "source": "local-siwis",
+      "file_sha256": "b91199ec3eb3c019f05f3cc1a05eee9d7fdc089c72b18c5291f50c471167d6c8",
+      "bytes": 126508,
+      "seconds": 2.8676643990929707,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4248.802097593858
+    },
+    {
+      "repo": "grammar",
+      "text": "Elles se sont rendu compte et se sont aperçues du problème.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "supplement.practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "7841cce94f0f3e5be8603999d81014089331021e281c49dc839674884f03abab",
+      "path": "audio/supplement/7841cce94f0f3e5be8603999d81014089331021e281c49dc839674884f03abab.wav",
+      "source": "local-siwis",
+      "file_sha256": "b03b8cb831c6ff00abe6196b4f702b34110dfc92e946bfd89bb58be875c8259b",
+      "bytes": 135724,
+      "seconds": 3.076643990929705,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4697.75516634944
+    },
+    {
+      "repo": "grammar",
+      "text": "Les deux directrices se sont succédé.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "supplement.practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "0d9e7d572ee2398e76e3cb06e8219de96cdb5cf0ff48cc2b6fc48f919613ea2f",
+      "path": "audio/supplement/0d9e7d572ee2398e76e3cb06e8219de96cdb5cf0ff48cc2b6fc48f919613ea2f.wav",
+      "source": "local-siwis",
+      "file_sha256": "58c46f88928a923fe0ffdf4e2e3d4398bf5ee04f129f52391d3fa82e0bc05b9a",
+      "bytes": 90156,
+      "seconds": 2.043356009070295,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6956.211632346472
+    },
+    {
+      "repo": "grammar",
+      "text": "On plaît à quelqu’un, mais on voit quelqu’un : se est indirect dans la première phrase et direct dans la seconde.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "supplement.practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "6d7ee66f1a64900b5950bde8a8bdef638438227af76ff7ad19817a952bf0c14a",
+      "path": "audio/supplement/6d7ee66f1a64900b5950bde8a8bdef638438227af76ff7ad19817a952bf0c14a.wav",
+      "source": "local-siwis",
+      "file_sha256": "530d8ea6ac06e5edffbb8752b59428bdb7032a2eab6a953266613af61f813ec2",
+      "bytes": 233516,
+      "seconds": 5.294149659863946,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5302.813524986415
+    },
+    {
+      "repo": "grammar",
+      "text": "Le futur et le conditionnel de conjecture",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "title"
+        }
+      ],
+      "existing": [],
+      "sha256": "23c4f5c52cf510cede1f86aa0eb8054206757f78cf36d2f7e04326adc7c29cab",
+      "path": "audio/fr-FR/b252e20f4c65bd18.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "446974bd7d97091d75badeddd9fb28769184a73a7fd4985b18ee8e7cc9e3535b",
+      "bytes": 20448
+    },
+    {
+      "repo": "grammar",
+      "text": "Le futur/conditionnel peut exprimer la conjecture (probabilité, information non confirmée).",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "fr"
+        }
+      ],
+      "existing": [],
+      "sha256": "0b4438d2ec92365e62b52800a890d28f92e781db6c416028391835b63268e4b7",
+      "path": "audio/fr-FR/3ffb4596e3f12951.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "54c154f754cbc74b3c88bd6c00e5ec85ca8b72e9f8931d958f7e9aa94e138bb4",
+      "bytes": 40752
+    },
+    {
+      "repo": "grammar",
+      "text": "On sonne — ce sera le facteur.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "examples.0"
+        },
+        {
+          "id": "c2-conjecture",
+          "field": "practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "7b87654facb7ea693a0d87b88d16fe02904c416b722ff00cb99d98b07abc7a23",
+      "path": "audio/fr-FR/85ddd5c6129cf323.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "a2f16fb84cf3f28444ca045f8a6486be220b84ea6c1fc64916854590eba42c15",
+      "bytes": 15696
+    },
+    {
+      "repo": "grammar",
+      "text": "Selon la presse, le bilan s'élèverait à dix morts.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "examples.1"
+        },
+        {
+          "id": "c2-conjecture",
+          "field": "practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "d6bf233f52aa3c4d5e4d19f612e075881e66c83f8add9beb88e9c8ea18dc2108",
+      "path": "audio/fr-FR/00a0d198efb78010.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "1c0f6e8c150871739a708b792738e226fbb67793d8c6263a4270fb9d995a7c75",
+      "bytes": 22752
+    },
+    {
+      "repo": "grammar",
+      "text": "Il doit être déjà parti.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "examples.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "5425d33c0230d6db96f954da0b244331b65dcb70051728927430f54b576b4844",
+      "path": "audio/fr-FR/7cf26ba0b8bfa889.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "943cf4d6f1dc4104a6948f4170efaa7f2422e472142e1e839a59c61f680b3982",
+      "bytes": 15408
+    },
+    {
+      "repo": "grammar",
+      "text": "Il n'est pas venu — il aura oublié notre rendez-vous.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "examples.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "ccf229477824ff5237d98153487a9d0f60cb08d69dfa5f503ff9d1ac82dbd6f1",
+      "path": "audio/supplement/ccf229477824ff5237d98153487a9d0f60cb08d69dfa5f503ff9d1ac82dbd6f1.wav",
+      "source": "local-siwis",
+      "file_sha256": "37b5595c3e721fa304d9569c777c2958cce01111cc94d89b87f90c8504299b81",
+      "bytes": 129068,
+      "seconds": 2.9257142857142857,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6787.967335409067
+    },
+    {
+      "repo": "grammar",
+      "text": "Il a pu manquer son train.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "examples.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "65b0a81965f481924de6787bdba99110a0a7afc618f9eacb400114448f52d2ea",
+      "path": "audio/supplement/65b0a81965f481924de6787bdba99110a0a7afc618f9eacb400114448f52d2ea.wav",
+      "source": "local-siwis",
+      "file_sha256": "c554518958a2d93dd3615091ac8750e75c1901cda3f15ce084a930709c17f42b",
+      "bytes": 63020,
+      "seconds": 1.4280272108843537,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4656.011691291414
+    },
+    {
+      "repo": "grammar",
+      "text": "Il n'est pas là ; il doit être déjà parti.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "adbb6c8d5115939d3c4c335a4a4ef7dbfef91cdf6bd4f435f30733f8f6cb4e9a",
+      "path": "audio/supplement/adbb6c8d5115939d3c4c335a4a4ef7dbfef91cdf6bd4f435f30733f8f6cb4e9a.wav",
+      "source": "local-siwis",
+      "file_sha256": "5b7bc82f8eddbc3df898fdf147afbef9feccaa1e60a4f708114de0d07b61fde7",
+      "bytes": 119340,
+      "seconds": 2.705124716553288,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6506.664475243667
+    },
+    {
+      "repo": "grammar",
+      "text": "Il n'est pas venu — il aura oublié.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "61b514adff23601505ee7e136a4ec03c6143cef0c7bc263655caf0818e4e6d6b",
+      "path": "audio/supplement/61b514adff23601505ee7e136a4ec03c6143cef0c7bc263655caf0818e4e6d6b.wav",
+      "source": "local-siwis",
+      "file_sha256": "1f52330ba7957517d751be05c14f59464efce67eb8484cea2e6f2f9b8529d4a2",
+      "bytes": 107564,
+      "seconds": 2.4380952380952383,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5604.475394980246
+    },
+    {
+      "repo": "grammar",
+      "text": "Il ne répond pas ; il sera encore en réunion.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.0.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "c60dcb4c365762ab00a5af49b79669b5b50155c9b3bff253739da06418706bad",
+      "path": "audio/supplement/c60dcb4c365762ab00a5af49b79669b5b50155c9b3bff253739da06418706bad.wav",
+      "source": "local-siwis",
+      "file_sha256": "747bb59ab3b5763296c868c438b127f8bc9d12c3557f9a55dd2ff53d800746de",
+      "bytes": 118316,
+      "seconds": 2.681904761904762,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5531.075986149805
+    },
+    {
+      "repo": "grammar",
+      "text": "La porte est ouverte ; ils auront oublié de la fermer.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.0.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "20c560d6a1db146b19096f1d384c5e2bb0d6d0808af340b399cac6a5487de093",
+      "path": "audio/supplement/20c560d6a1db146b19096f1d384c5e2bb0d6d0808af340b399cac6a5487de093.wav",
+      "source": "local-siwis",
+      "file_sha256": "c8a3fc4b7b72cb9100b6525d553682a6056b92994de735d44247ea5f481015cc",
+      "bytes": 146476,
+      "seconds": 3.320453514739229,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5831.777509252425
+    },
+    {
+      "repo": "grammar",
+      "text": "On frappe ; ce sera notre voisin.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.0.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "9a1bfc7c629cbaac73e596325986b0e4aaff7f32ed81a26b36580ad85539fff0",
+      "path": "audio/supplement/9a1bfc7c629cbaac73e596325986b0e4aaff7f32ed81a26b36580ad85539fff0.wav",
+      "source": "local-siwis",
+      "file_sha256": "51ec96c2b150ac0962e7d9b494bdd4074f64bd3c8e58ef8a8377ce85d5b442bf",
+      "bytes": 92204,
+      "seconds": 2.089795918367347,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5166.822948995158
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle est déjà rentrée ; elle aura pris un taxi.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.0.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "e92339f627303afe8e7d5d6d69ffc182df7a29fa50838479e0ff112f1f431c52",
+      "path": "audio/supplement/e92339f627303afe8e7d5d6d69ffc182df7a29fa50838479e0ff112f1f431c52.wav",
+      "source": "local-siwis",
+      "file_sha256": "8b6afb5c280298288a7d0a15b70d812fae9bdc0307598cee1e800606b95afada",
+      "bytes": 116268,
+      "seconds": 2.6354648526077096,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5330.246038458236
+    },
+    {
+      "repo": "grammar",
+      "text": "Selon plusieurs témoins, le suspect se trouverait à Lyon.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.1.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "b8787fb3b8d004f4e64dcfc3b9fe16c34412a440f638991068316c298797b4fe",
+      "path": "audio/supplement/b8787fb3b8d004f4e64dcfc3b9fe16c34412a440f638991068316c298797b4fe.wav",
+      "source": "local-siwis",
+      "file_sha256": "aae8f2576711422bcaba74a13439cf6b83e6be9e10ee8d9ed8bccaf0a3369222",
+      "bytes": 122924,
+      "seconds": 2.786394557823129,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4407.0076865543315
+    },
+    {
+      "repo": "grammar",
+      "text": "D'après la presse, l'entreprise aurait signé un accord hier.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.1.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "4a55ef8ffe6b69c598699c2ee63b0f9826e7678ff5b5515a4e53d439415fe873",
+      "path": "audio/supplement/4a55ef8ffe6b69c598699c2ee63b0f9826e7678ff5b5515a4e53d439415fe873.wav",
+      "source": "local-siwis",
+      "file_sha256": "fbe4387681554fe5c93ed4dc441637f9153de9ef4666ddae5b91d9c9aa0e508e",
+      "bytes": 175660,
+      "seconds": 3.982222222222222,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4391.6086270255355
+    },
+    {
+      "repo": "grammar",
+      "text": "Les lumières sont éteintes ; ils doivent être couchés.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.2.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "2dedbc8ebb55a3c24ee15c8024acf2ad230a1bd05dba6604a8d043ade5ac12e5",
+      "path": "audio/supplement/2dedbc8ebb55a3c24ee15c8024acf2ad230a1bd05dba6604a8d043ade5ac12e5.wav",
+      "source": "local-siwis",
+      "file_sha256": "bace21715a8bb88228de2fbe2aae1dc7050b55142e6fccadb236415747276d07",
+      "bytes": 128556,
+      "seconds": 2.914104308390023,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5187.95648807218
+    },
+    {
+      "repo": "grammar",
+      "text": "Il peut avoir mal compris votre message.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.2.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "e312d4bce8c1827bf6c0b5558d5aef42abb24bcea84711eb850a2a118c690e27",
+      "path": "audio/supplement/e312d4bce8c1827bf6c0b5558d5aef42abb24bcea84711eb850a2a118c690e27.wav",
+      "source": "local-siwis",
+      "file_sha256": "fc553a40bd7f860abbf6b2987a727a323b9b295c503209afedec2ad8deed2205",
+      "bytes": 107052,
+      "seconds": 2.426485260770975,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5516.795373816645
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle doit avoir oublié son téléphone chez elle.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.2.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "ceb4a98c6787aa1eccfa921dcd89833d746d1e84be5da51fc384d16791329cfd",
+      "path": "audio/supplement/ceb4a98c6787aa1eccfa921dcd89833d746d1e84be5da51fc384d16791329cfd.wav",
+      "source": "local-siwis",
+      "file_sha256": "9ca5432df13666f2cdbbe7db5a07fb6aeb47cd73d2bdffae890a4a8295ce844d",
+      "bytes": 108076,
+      "seconds": 2.449705215419501,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5562.683363966824
+    },
+    {
+      "repo": "grammar",
+      "text": "Ce bruit peut venir de la chaudière.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.2.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "59dce0090561a562a8436e9f940747d3d26b55ecadbae4b3f32a4c3d528dd271",
+      "path": "audio/supplement/59dce0090561a562a8436e9f940747d3d26b55ecadbae4b3f32a4c3d528dd271.wav",
+      "source": "local-siwis",
+      "file_sha256": "055cf57fd488164d5d7423646146044f95bb38765cffdf5d9ae40e86c6f19860",
+      "bytes": 84524,
+      "seconds": 1.9156462585034013,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6434.784292115461
+    },
+    {
+      "repo": "grammar",
+      "text": "Son bureau est vide et son manteau a disparu ; elle a dû partir.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.3.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "0ce60f53902047af3dddf30308182c81092b9bff8e480a80ef55bdccf845a6ae",
+      "path": "audio/supplement/0ce60f53902047af3dddf30308182c81092b9bff8e480a80ef55bdccf845a6ae.wav",
+      "source": "local-siwis",
+      "file_sha256": "9ece400f6579ba9abda402e0e4d378d1c4148706a579681494bdf24bb7332679",
+      "bytes": 161836,
+      "seconds": 3.6687528344671203,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5742.861381402115
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle aurait dû partir plus tôt : maintenant, elle a raté le train.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.3.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "0526e47a4d831a42ffa8d75e6f14d616f34e55b969a02f496a1200f87b4bd62f",
+      "path": "audio/supplement/0526e47a4d831a42ffa8d75e6f14d616f34e55b969a02f496a1200f87b4bd62f.wav",
+      "source": "local-siwis",
+      "file_sha256": "145e6b619d4974e5565783eb7f491bd2ca73067ea6ea1346e8a2b3d0fb3c3cc3",
+      "bytes": 159788,
+      "seconds": 3.622312925170068,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4796.073652738977
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle devait présenter le rapport lundi, mais la séance a été annulée.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.3.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "a4a9a355870abb1464cfe36847fe100b205f096d2a99117b74603b14f683b822",
+      "path": "audio/supplement/a4a9a355870abb1464cfe36847fe100b205f096d2a99117b74603b14f683b822.wav",
+      "source": "local-siwis",
+      "file_sha256": "798433aae8d864ef8e2f6f877ed418a762096591647ab4624a989bf2a57db6b3",
+      "bytes": 164396,
+      "seconds": 3.7268027210884354,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5942.172450218007
+    },
+    {
+      "repo": "grammar",
+      "text": "Selon un témoin, elle aurait présenté le rapport avant la pause.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "expansion.3.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "f33a2f7c5bec77cbb78aa4bc19e49140402eb84179174d69d9cb2f6404955238",
+      "path": "audio/supplement/f33a2f7c5bec77cbb78aa4bc19e49140402eb84179174d69d9cb2f6404955238.wav",
+      "source": "local-siwis",
+      "file_sha256": "6b139423c457ee91cc5e05614b184d364828416587f527c9a589c18f7e815260",
+      "bytes": 154668,
+      "seconds": 3.5062131519274375,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6267.846789254206
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle a dû partir.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "supplement.practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "531e5197503395c86d25d0138c6e35293447e8fb35d1c882ce50f4016e12b0b0",
+      "path": "audio/supplement/531e5197503395c86d25d0138c6e35293447e8fb35d1c882ce50f4016e12b0b0.wav",
+      "source": "local-siwis",
+      "file_sha256": "88f970134e55dd505b56544926325ca26e17464d7238963521c56dcee207ecde",
+      "bytes": 57388,
+      "seconds": 1.3003174603174603,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5048.410222425561
+    },
+    {
+      "repo": "grammar",
+      "text": "Son intervention était prévue pour lundi, mais la réunion a été annulée.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "supplement.practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "5ba19c6c2edf925a49e131978ac513d7c8794f8d7ba9d1a22c16903dbe90541a",
+      "path": "audio/supplement/5ba19c6c2edf925a49e131978ac513d7c8794f8d7ba9d1a22c16903dbe90541a.wav",
+      "source": "local-siwis",
+      "file_sha256": "0e60f12d8f22361ba20a62eb5da6b889d455d941b60e250eeceb00aaee5ef3dd",
+      "bytes": 179756,
+      "seconds": 4.0751020408163265,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4422.979852846986
+    },
+    {
+      "repo": "grammar",
+      "text": "La seconde phrase exprime une possibilité, mais ne conserve pas l’attribution à un témoin ni la même distance énonciative.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "supplement.practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "2d2d89916a4ac6e4c3b0cd921c104c902df18ff1f8d6942dbbacbcc2a3e7f27d",
+      "path": "audio/supplement/2d2d89916a4ac6e4c3b0cd921c104c902df18ff1f8d6942dbbacbcc2a3e7f27d.wav",
+      "source": "local-siwis",
+      "file_sha256": "42a1762f453032ef4cffdcfde00f988e1f938225b9b956bf56a427392bd0f1b8",
+      "bytes": 314924,
+      "seconds": 7.1401360544217685,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4808.38881653202
+    },
+    {
+      "repo": "grammar",
+      "text": "Opposition et concession",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "title"
+        }
+      ],
+      "existing": [],
+      "sha256": "7a3266d407c220cf755db49652fcfa652e51c740f2f1662f35fdb6bcd7fad989",
+      "path": "audio/fr-FR/3efd1b0eff549e5f.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "9a7ce763cdaff796b799374602bcf42558c0422dc0fcbcb4f11f2578106a108e",
+      "bytes": 14544
+    },
+    {
+      "repo": "grammar",
+      "text": "Opposition : alors que, tandis que, en revanche. Concession : bien que (+subj), malgré (+nom), avoir beau (+inf), même si (+indic), pourtant.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "fr"
+        }
+      ],
+      "existing": [],
+      "sha256": "967468ce4a1018f953c051e29416399a10c6071b8dfa1c263f81d60fdffc408a",
+      "path": "audio/fr-FR/83604330575ee8a1.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "fb89a1be315ea28bf73e8d5a7fa6e9b5a0303e7ec2e535a29549b34f9aa2d40f",
+      "bytes": 78480
+    },
+    {
+      "repo": "grammar",
+      "text": "Bien qu'il soit riche, il est malheureux.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "examples.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "ffe7f4617709c9dc66cf957d650b8bef92ee1c9eccca0172b59a4d0561b5d59a",
+      "path": "audio/fr-FR/dc4288b68c1f7810.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "2bd45f99a0c8ae1fc11d0c8f943341336695cfabac7a244fd15a5d6843438e71",
+      "bytes": 18288
+    },
+    {
+      "repo": "grammar",
+      "text": "Il a beau insister, je refuse.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "examples.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "6e7ac6d67fafd44943711df35e065e2f190a24304d994673a81d1aa7a9ace446",
+      "path": "audio/fr-FR/199d2db303944f6f.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "7a22ec3f110e4291beea7af4aec3bbf856bccaa92d5855ad757d930bc373d9d8",
+      "bytes": 18432
+    },
+    {
+      "repo": "grammar",
+      "text": "Malgré la pluie, ils sont sortis.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "examples.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "3f3a3c9c89fef84f00eff23f3265e8af36a1de68a4a685ff04ee6eccf05b13ad",
+      "path": "audio/fr-FR/263033513b7a5a92.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "f9a83d7d8511150a3aa0edc0986b2a84eb3bf9ea84994df959bfc295129b7416",
+      "bytes": 18432
+    },
+    {
+      "repo": "grammar",
+      "text": "Il fait doux à Nice, alors qu'il neige à Paris.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "examples.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "4ee02be409174c8cc5cadbf43ea80bc27b0e9c6c093c7599b4d40e756d872077",
+      "path": "audio/supplement/4ee02be409174c8cc5cadbf43ea80bc27b0e9c6c093c7599b4d40e756d872077.wav",
+      "source": "local-siwis",
+      "file_sha256": "2f6cff66abeeed224a887c75d57fd52399b786f61b65bca2c7fddc5d682931ec",
+      "bytes": 130092,
+      "seconds": 2.948934240362812,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4851.585538702002
+    },
+    {
+      "repo": "grammar",
+      "text": "Même si tu ne me crois pas, c'est la vérité.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "examples.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "60accde8daf860cbcb41ccffaf2b1e82ab5bc06a347d4128a2f94903be6c6d65",
+      "path": "audio/supplement/60accde8daf860cbcb41ccffaf2b1e82ab5bc06a347d4128a2f94903be6c6d65.wav",
+      "source": "local-siwis",
+      "file_sha256": "f67a1ed033bd0d12097bc3ee209a7086fdbe494e179b31a195f33dd975e46a15",
+      "bytes": 111148,
+      "seconds": 2.5193650793650795,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6001.537874233968
+    },
+    {
+      "repo": "grammar",
+      "text": "Le service est lent ; en revanche, la cuisine est excellente.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "examples.5"
+        }
+      ],
+      "existing": [],
+      "sha256": "06450e7aa262932a18f395188c2b5a243f9ba00cd05b20efbb0ed80b7a3c4b7e",
+      "path": "audio/supplement/06450e7aa262932a18f395188c2b5a243f9ba00cd05b20efbb0ed80b7a3c4b7e.wav",
+      "source": "local-siwis",
+      "file_sha256": "1116fcfd8ae79c5a9a3b3a17313802dac03152166317a4dee1213e0a236bed86",
+      "bytes": 171564,
+      "seconds": 3.889342403628118,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5013.396188142729
+    },
+    {
+      "repo": "grammar",
+      "text": "Il a beaucoup révisé, et pourtant il a raté l'examen.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "examples.6"
+        }
+      ],
+      "existing": [],
+      "sha256": "8585fc9a444a14c61ff1f6fc39d1e6da17cbab193fa7e19dbf54ddf572a22702",
+      "path": "audio/supplement/8585fc9a444a14c61ff1f6fc39d1e6da17cbab193fa7e19dbf54ddf572a22702.wav",
+      "source": "local-siwis",
+      "file_sha256": "37671b4f7c7797524c3b105ee4795812cb967be8779246349795f10e398ae517",
+      "bytes": 145452,
+      "seconds": 3.297233560090703,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5195.091551041385
+    },
+    {
+      "repo": "grammar",
+      "text": "Bien qu'il soit très qualifié, il n'a pas obtenu le poste.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "0d95b8e51d62629c007aaed73ab7cec220f66e8bf25d7d1be68b01892d3c5d16",
+      "path": "audio/fr-FR/b04778b9622a3eaa.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "7e26bafc44c0e624afebe1ab9507ea7771403f40b84caa7bafc7bc3e977e6168",
+      "bytes": 25200
+    },
+    {
+      "repo": "grammar",
+      "text": "Malgré ses efforts, il a échoué.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "c04332f76b0a2e7ad538c0b97671c12d2abb2736844c364e4ea2f2db327b7350",
+      "path": "audio/fr-FR/644a717f05ac6d42.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "f17b48539987f98f0b3349ced4d55750ce5a0eb28bd2c8ad06b0243ee63fc7b8",
+      "bytes": 19296
+    },
+    {
+      "repo": "grammar",
+      "text": "Il a beau crier, personne ne l'entend.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "6ea35393e8b11b122c0b0cd34d95479984ba4936dcf6f72bfdd449e51aead97f",
+      "path": "audio/fr-FR/414f798805a194c6.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "98efe09b40f5b2704111dbd38fadf7d0135968a088587fca0c0a8d464f5f6209",
+      "bytes": 18432
+    },
+    {
+      "repo": "grammar",
+      "text": "Même si tu n'es pas d'accord, écoute-le jusqu'au bout.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "93dda48695ee099263abd359cb9a455990013893c80edabf323fa1b8c9dfc913",
+      "path": "audio/supplement/93dda48695ee099263abd359cb9a455990013893c80edabf323fa1b8c9dfc913.wav",
+      "source": "local-siwis",
+      "file_sha256": "1a0df6479fc143d20484270de2313cb994953d1b6243c18b08f2e9f12dd39861",
+      "bytes": 129068,
+      "seconds": 2.9257142857142857,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5942.522757071779
+    },
+    {
+      "repo": "grammar",
+      "text": "Ma sœur adore la ville, alors que je préfère la campagne.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "practice.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "e7f12b48514e8adb59fab25a5a8ab0bf2b773f997cdd65fcc018477ea82a9343",
+      "path": "audio/supplement/e7f12b48514e8adb59fab25a5a8ab0bf2b773f997cdd65fcc018477ea82a9343.wav",
+      "source": "local-siwis",
+      "file_sha256": "4901886426e21dcb4657c1d06bc3c38115df7c6f467875dd000f2bcb43af7c27",
+      "bytes": 153644,
+      "seconds": 3.4829931972789114,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5119.808481291479
+    },
+    {
+      "repo": "grammar",
+      "text": "Ce restaurant est cher ; pourtant, il est toujours plein.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "practice.5"
+        }
+      ],
+      "existing": [],
+      "sha256": "728412d954154da3740996a73ef95f7468f16e596127d7d79f30329c56cd30cc",
+      "path": "audio/supplement/728412d954154da3740996a73ef95f7468f16e596127d7d79f30329c56cd30cc.wav",
+      "source": "local-siwis",
+      "file_sha256": "57edebdf9ae6bf2bf3a619f27c6d360005c218d434887cd02cccf014349110ed",
+      "bytes": 161836,
+      "seconds": 3.6687528344671203,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5080.750494103131
+    },
+    {
+      "repo": "grammar",
+      "text": "Il est faible en maths ; en revanche, il excelle en langues.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "practice.6"
+        }
+      ],
+      "existing": [],
+      "sha256": "d90d39485e5ed8ac1d980c21b5c436cb600e0903b5fa1e54541b80d531cfe030",
+      "path": "audio/supplement/d90d39485e5ed8ac1d980c21b5c436cb600e0903b5fa1e54541b80d531cfe030.wav",
+      "source": "local-siwis",
+      "file_sha256": "4ebcec9d32313f66b8b8f0a6e4489cb9e2006cd771108381334fee3174bf4440",
+      "bytes": 160300,
+      "seconds": 3.633922902494331,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5808.5365429032645
+    },
+    {
+      "repo": "grammar",
+      "text": "Léa préfère travailler seule, tandis que Paul aime les projets collectifs.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.0.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "ca10e8a8516f73cfcbfdcfa878156f44fc51e64cde22f5d7cb5afd4de9d30ac6",
+      "path": "audio/supplement/ca10e8a8516f73cfcbfdcfa878156f44fc51e64cde22f5d7cb5afd4de9d30ac6.wav",
+      "source": "local-siwis",
+      "file_sha256": "c6f2688727209b8eab14757ee333acb48ec8be84a984ea2dac55c0b4d31295ec",
+      "bytes": 175148,
+      "seconds": 3.9706122448979593,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5764.631591857098
+    },
+    {
+      "repo": "grammar",
+      "text": "Contrairement à son frère, elle conduit très prudemment.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.0.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "afdcfa6f0b1550a6b65d939c9911e36c0f07e058df69afff5ae073e2088a6ae9",
+      "path": "audio/supplement/afdcfa6f0b1550a6b65d939c9911e36c0f07e058df69afff5ae073e2088a6ae9.wav",
+      "source": "local-siwis",
+      "file_sha256": "063c25bd3f1d40d26ae07ffd5f925c74bb83b8a5b4ef66d14fb8d715fac5df6a",
+      "bytes": 138284,
+      "seconds": 3.1346938775510202,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5903.418341836832
+    },
+    {
+      "repo": "grammar",
+      "text": "Cette chambre est petite ; en revanche, elle donne sur le jardin.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.0.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "de67288ce2a067da5009b0d3d9fe7cd8483604ced05611c68a2c16a0a9903d7e",
+      "path": "audio/supplement/de67288ce2a067da5009b0d3d9fe7cd8483604ced05611c68a2c16a0a9903d7e.wav",
+      "source": "local-siwis",
+      "file_sha256": "0e3091dd6c0619aab77a60c390302416517568992eeb626e1df4cbb05bd37213",
+      "bytes": 162348,
+      "seconds": 3.680362811791383,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5332.109909128785
+    },
+    {
+      "repo": "grammar",
+      "text": "Il parle facilement ; par contre, il écoute rarement les autres.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.0.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "b70af461e591037e928f03ddb7e182dd1c4d8486b2f144852d2e6498588255e1",
+      "path": "audio/supplement/b70af461e591037e928f03ddb7e182dd1c4d8486b2f144852d2e6498588255e1.wav",
+      "source": "local-siwis",
+      "file_sha256": "7b363bf5f9f09b77b9b9dedd33f1422d10c850c4b77c1ec00ca88498c6892283",
+      "bytes": 177196,
+      "seconds": 4.017052154195011,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4422.649939177922
+    },
+    {
+      "repo": "grammar",
+      "text": "Bien qu'elle connaisse bien le sujet, elle a préparé son intervention.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.1.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "91eac9a1593b5d330cf09c8ee5649fa2590faee8c67972ce737a2f35a822e6da",
+      "path": "audio/supplement/91eac9a1593b5d330cf09c8ee5649fa2590faee8c67972ce737a2f35a822e6da.wav",
+      "source": "local-siwis",
+      "file_sha256": "c4d18b70233ba5e7d40cf90dafcc8f0d18e249233243fd0b174208827f69768f",
+      "bytes": 162348,
+      "seconds": 3.680362811791383,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4855.3637718008495
+    },
+    {
+      "repo": "grammar",
+      "text": "Malgré tous nos efforts, nous n'avons pas obtenu de réponse.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.1.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "d6adf92fc7621db137697be82bd3137e48eec51ee3f4b7ede9bbf40b1177b459",
+      "path": "audio/supplement/d6adf92fc7621db137697be82bd3137e48eec51ee3f4b7ede9bbf40b1177b459.wav",
+      "source": "local-siwis",
+      "file_sha256": "8802132ecb6a1b46f69514f2d73fb2204c268fdf705567da26104f43b9d2ac98",
+      "bytes": 145964,
+      "seconds": 3.308843537414966,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5025.425119962359
+    },
+    {
+      "repo": "grammar",
+      "text": "Le trajet est long ; toutefois, il reste moins cher que l'avion.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.1.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "55d30915079f73d7ae282993a31e7152a2c03e5c36f8074cd1f356e8b4a8fdeb",
+      "path": "audio/supplement/55d30915079f73d7ae282993a31e7152a2c03e5c36f8074cd1f356e8b4a8fdeb.wav",
+      "source": "local-siwis",
+      "file_sha256": "b6e8d76b9fe90f63985e8af530fb7cba0f368b36dd90c6b6bc74597bb7b8f7c9",
+      "bytes": 162860,
+      "seconds": 3.6919727891156464,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6008.268395601876
+    },
+    {
+      "repo": "grammar",
+      "text": "Il était très fatigué. Pourtant, il a terminé le travail.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.1.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "cf916eed8786ca2db88f95aac194ca157bc058d94a031d06cd30cf40526cb8fe",
+      "path": "audio/supplement/cf916eed8786ca2db88f95aac194ca157bc058d94a031d06cd30cf40526cb8fe.wav",
+      "source": "local-siwis",
+      "file_sha256": "5d64d84f12d4fd0d38451d121483856f5fdc8c8632c5a0423bbd5d305b02e7c9",
+      "bytes": 165932,
+      "seconds": 3.7616326530612243,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6204.576615642978
+    },
+    {
+      "repo": "grammar",
+      "text": "J'ai beau relire ce passage, je ne le comprends pas.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.2.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "6b6a51e768c7308d5129192d4c34ec037d0eb12c7bb83a17576b8a5750806bb5",
+      "path": "audio/supplement/6b6a51e768c7308d5129192d4c34ec037d0eb12c7bb83a17576b8a5750806bb5.wav",
+      "source": "local-siwis",
+      "file_sha256": "a6103979f67c47037798db1494872a361f386d7208628e8acacb25d815fb4a29",
+      "bytes": 130092,
+      "seconds": 2.948934240362812,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5592.07337408681
+    },
+    {
+      "repo": "grammar",
+      "text": "Il avait beau être expérimenté, cette situation le dépassait.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.2.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "3a84aa0bb967834eeb97733d3b58c16b5ac30f6e0008ede8e7965371089a4af8",
+      "path": "audio/supplement/3a84aa0bb967834eeb97733d3b58c16b5ac30f6e0008ede8e7965371089a4af8.wav",
+      "source": "local-siwis",
+      "file_sha256": "d1504ab712f72277f7b3363412931ad4103384f3bf86973d0283acd44b1d5cd9",
+      "bytes": 147500,
+      "seconds": 3.3436734693877552,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4874.088683229313
+    },
+    {
+      "repo": "grammar",
+      "text": "Même s'il pleut demain, nous sortirons.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.2.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "6bf481b3f492391bd0c5d4f598d1672ffbb6d85e13dbbab7262937743cdc08b4",
+      "path": "audio/supplement/6bf481b3f492391bd0c5d4f598d1672ffbb6d85e13dbbab7262937743cdc08b4.wav",
+      "source": "local-siwis",
+      "file_sha256": "c3f24e9600db0f8efd12f363135e61d32afbe76371b58176d1c1fc79f2017a67",
+      "bytes": 95276,
+      "seconds": 2.159455782312925,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6343.034072399075
+    },
+    {
+      "repo": "grammar",
+      "text": "Même si j'avais plus de temps, je ne pourrais pas tout vérifier.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.2.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "43207f94947c7cd4aad1af3455fe7b59b09d545bc329671ea7b7f73e472b4c43",
+      "path": "audio/supplement/43207f94947c7cd4aad1af3455fe7b59b09d545bc329671ea7b7f73e472b4c43.wav",
+      "source": "local-siwis",
+      "file_sha256": "79cc96fbf9e58a3d024b83baa4bb6ab58f51d23be182919f87e6bb327f81ea83",
+      "bytes": 133164,
+      "seconds": 3.01859410430839,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5693.795648433283
+    },
+    {
+      "repo": "grammar",
+      "text": "Bien que le jardin soit petit, les enfants y trouvent plusieurs coins tranquilles.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.3.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "ffaa99acab67d1db3d32da77e86cc9ebfd00b9b2f337a0ae1e0e7a004490807d",
+      "path": "audio/supplement/ffaa99acab67d1db3d32da77e86cc9ebfd00b9b2f337a0ae1e0e7a004490807d.wav",
+      "source": "local-siwis",
+      "file_sha256": "19d540d8a983c683e80638af8d03043f0c16d4261f9ecfb04ecf71fcdefa54a2",
+      "bytes": 180268,
+      "seconds": 4.08671201814059,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5135.488475624055
+    },
+    {
+      "repo": "grammar",
+      "text": "La cour est ouverte le matin, alors que le jardin est accessible l’après-midi.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.3.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "c9a37be5ba2d35278bbe9d69f156dd55114cae71de7138eb9144cb82a29ab8f0",
+      "path": "audio/supplement/c9a37be5ba2d35278bbe9d69f156dd55114cae71de7138eb9144cb82a29ab8f0.wav",
+      "source": "local-siwis",
+      "file_sha256": "aad0fcea64034b77a71189ff298f122cd5352880b0f4184781ee9e1c0bdc25a7",
+      "bytes": 182316,
+      "seconds": 4.133151927437642,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5117.416382663215
+    },
+    {
+      "repo": "grammar",
+      "text": "Même si la salle est fermée demain, nous pourrons nous réunir dans la cour.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.4.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "e81661578d6f0981383bbe441db523a89bfe6683ee98dd3c8c5e39d4aa25d573",
+      "path": "audio/supplement/e81661578d6f0981383bbe441db523a89bfe6683ee98dd3c8c5e39d4aa25d573.wav",
+      "source": "local-siwis",
+      "file_sha256": "2fdbeaee0dea0aea69a4c026072aff8b9bcd6932386a49ddc3da87a87ad8b737",
+      "bytes": 182316,
+      "seconds": 4.133151927437642,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6648.689002909919
+    },
+    {
+      "repo": "grammar",
+      "text": "Bien que la salle ait été fermée hier, la réunion a pu se tenir dans la cour.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "expansion.4.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "7c352cb143b03d5c92ac1bfb262a85d6e8ba99d3ccc049bfa3cc27a9af84bcdb",
+      "path": "audio/supplement/7c352cb143b03d5c92ac1bfb262a85d6e8ba99d3ccc049bfa3cc27a9af84bcdb.wav",
+      "source": "local-siwis",
+      "file_sha256": "9c41d94ae78c8a52eb626d31169d30f16f5a60eac38b657feda523297cdc2fbf",
+      "bytes": 200748,
+      "seconds": 4.551111111111111,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4604.656484978745
+    },
+    {
+      "repo": "grammar",
+      "text": "Non. Même si introduit une situation conditionnelle sans confirmer que la salle sera fermée.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "supplement.practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "721e43163c9d146d46661742697b2e8bc8794c81b588425702b46602a720727e",
+      "path": "audio/supplement/721e43163c9d146d46661742697b2e8bc8794c81b588425702b46602a720727e.wav",
+      "source": "local-siwis",
+      "file_sha256": "2c0a09b1feac9bbd10421411bee41c0ab56d4ce493c9cffd9e0b4d54ebb578ac",
+      "bytes": 253996,
+      "seconds": 5.758548752834467,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5100.677634885775
+    },
+    {
+      "repo": "grammar",
+      "text": "Bien que le jardin soit petit, on peut y lire.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "supplement.practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "963d4b586458e14d4e1ae418b17ce6dcaebce8b51a529b27afd004a4a77865a4",
+      "path": "audio/supplement/963d4b586458e14d4e1ae418b17ce6dcaebce8b51a529b27afd004a4a77865a4.wav",
+      "source": "local-siwis",
+      "file_sha256": "f1ed024d4f95091cfc4825ed78c996ffdb6a5011bd6bd6193fd5e6010cf24c55",
+      "bytes": 120876,
+      "seconds": 2.7399546485260773,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5457.373583952137
+    },
+    {
+      "repo": "grammar",
+      "text": "La cour ouvre le matin, alors que le jardin ouvre l’après-midi.",
+      "occurrences": [
+        {
+          "id": "b2-opposition-concession",
+          "field": "supplement.practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "36d42e40a809d8c488098cd57640c36cc858aa8888a5c4914d508619f9e52392",
+      "path": "audio/supplement/36d42e40a809d8c488098cd57640c36cc858aa8888a5c4914d508619f9e52392.wav",
+      "source": "local-siwis",
+      "file_sha256": "88becaa5d59eda4a92455068ecb45634ed714570b832bdf3b8aca356f985e5f8",
+      "bytes": 156204,
+      "seconds": 3.541043083900227,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6866.209913244213
+    },
+    {
+      "repo": "grammar",
+      "text": "Connecteurs logiques soutenus",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "title"
+        }
+      ],
+      "existing": [],
+      "sha256": "bdb9c3dac7fb4bedbf7061fb05405131205459f45939e985febe93438b4eb1ff",
+      "path": "audio/fr-FR/e890315742bcd14c.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "f476b270cefb3c432542c7ffb5e1624b802fa9768f063a708d556719caace369",
+      "bytes": 14976
+    },
+    {
+      "repo": "grammar",
+      "text": "Articulateurs soutenus : d'autant que, dans la mesure où, quitte à, sans quoi, dès lors que, or.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "fr"
+        }
+      ],
+      "existing": [],
+      "sha256": "dd52d75db885940771dfbf3660dab6e34e194e63e80a7277a58687537c3789ff",
+      "path": "audio/fr-FR/9ba7a6d5a1d4473d.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "dbab9e208bd52da1dcbfb7c5896122b92937fcd1071618953a1ba3570acb3f96",
+      "bytes": 41616
+    },
+    {
+      "repo": "grammar",
+      "text": "Il est d'autant plus déçu qu'il espérait gagner.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "examples.0"
+        },
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "4b7879820a43fd430a87e0814f1e76c864fa82c071d0057a6cb84922152a1533",
+      "path": "audio/fr-FR/edd034db3951d96f.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "8218e4714a741f390e018fe81ea92c2c8a3a8c247b97279bbb1c461588a3bbb9",
+      "bytes": 19584
+    },
+    {
+      "repo": "grammar",
+      "text": "Dépêchons-nous, sans quoi nous serons en retard.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "examples.1"
+        },
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "26aaa24b4c578c0a7bdb0892570a753e32620b736fe0018415ac08cc173bdb59",
+      "path": "audio/fr-FR/8802ccd396952030.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "c18ead1ded6f17f22c518a4bd4bf1b9cf92234439c643699d78314460316fd2e",
+      "bytes": 20880
+    },
+    {
+      "repo": "grammar",
+      "text": "Tous le savaient. Or, personne n'agit.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "examples.2"
+        },
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "df58184de78ae8f3de45e7921c45d66642aff96580d83df2c465a822e4a67216",
+      "path": "audio/fr-FR/1e5c38e3093083a0.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "e288477547acb7518d7ed48423979496fe8289795b411dcce41b5a0152e0f5e1",
+      "bytes": 25056
+    },
+    {
+      "repo": "grammar",
+      "text": "Le projet est viable dans la mesure où le budget est respecté.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "examples.3"
+        },
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "practice.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "2757fb0c209133183da94d404d64cb371b6146fb8004b24815ad583884809356",
+      "path": "audio/supplement/2757fb0c209133183da94d404d64cb371b6146fb8004b24815ad583884809356.wav",
+      "source": "local-siwis",
+      "file_sha256": "415f0b73cf4dccbdb070f37de3cb93769da8956c978805d817094761da6a2195",
+      "bytes": 167980,
+      "seconds": 3.8080725623582765,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6980.700177597674
+    },
+    {
+      "repo": "grammar",
+      "text": "Il dit la vérité, quitte à déplaire.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "examples.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "b0b730db04bf93df904f5c98a04ddaa2cfbb74cf1460fc746a18d3b13c097339",
+      "path": "audio/supplement/b0b730db04bf93df904f5c98a04ddaa2cfbb74cf1460fc746a18d3b13c097339.wav",
+      "source": "local-siwis",
+      "file_sha256": "642e3ec4ab76cacaa39703c02b2c7fab4e300071f23928cfb304333f565a58d0",
+      "bytes": 92716,
+      "seconds": 2.10140589569161,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5348.552759215852
+    },
+    {
+      "repo": "grammar",
+      "text": "Dès lors que vous signez, le contrat s'applique.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "examples.5"
+        },
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "practice.5"
+        }
+      ],
+      "existing": [],
+      "sha256": "99dc5c49ab61f9a71807fcb98e140f9871eaed36dee73654206c3ba2db8e44c3",
+      "path": "audio/supplement/99dc5c49ab61f9a71807fcb98e140f9871eaed36dee73654206c3ba2db8e44c3.wav",
+      "source": "local-siwis",
+      "file_sha256": "206e7da18818111b3e2a0dfdc5ab270870a1c586be2a1ee9f84eb8fa92d15cd6",
+      "bytes": 119852,
+      "seconds": 2.716734693877551,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4383.968113207279
+    },
+    {
+      "repo": "grammar",
+      "text": "Il dira la vérité, quitte à déplaire.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "76fd244002bcef46577c16eef422c7abefa39d582a213ea3fbdebf3fac872061",
+      "path": "audio/supplement/76fd244002bcef46577c16eef422c7abefa39d582a213ea3fbdebf3fac872061.wav",
+      "source": "local-siwis",
+      "file_sha256": "bcc22309a93a9e656f1c381afce3f790f41b710b735e868f0ddcf722e9e8147f",
+      "bytes": 102956,
+      "seconds": 2.3336054421768706,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6710.616177808967
+    },
+    {
+      "repo": "grammar",
+      "text": "Je préfère rester, d’autant que la route est verglacée.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.0.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "01f59025b6b17b505689c94838cc4065eaae2c7bf1afba41f4532e1ce7c6e512",
+      "path": "audio/supplement/01f59025b6b17b505689c94838cc4065eaae2c7bf1afba41f4532e1ce7c6e512.wav",
+      "source": "local-siwis",
+      "file_sha256": "e7b2ec28cc8a767957a4de5f9b06a1e1e9085b90f7bcaa0bef63cf3d2f0123a1",
+      "bytes": 136748,
+      "seconds": 3.0998639455782313,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5439.9186243264385
+    },
+    {
+      "repo": "grammar",
+      "text": "Il est d’autant moins inquiet qu’il connaît bien le dossier.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.0.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "a44366fe17ef6ac551d501ab84369405d91f53eac22c2544d4f447a45a301d31",
+      "path": "audio/supplement/a44366fe17ef6ac551d501ab84369405d91f53eac22c2544d4f447a45a301d31.wav",
+      "source": "local-siwis",
+      "file_sha256": "e48eec85a450f9683dd1ba291dd0bebc29461eee76f03345e5d0ff7f27e5c897",
+      "bytes": 118828,
+      "seconds": 2.693514739229025,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6192.653059481567
+    },
+    {
+      "repo": "grammar",
+      "text": "J’accepte dans la mesure où cela ne retarde pas le projet.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.1.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "3a646c0dfda3da917d099a607444f6fdf305097a24cfef9312b57e496d51a4b1",
+      "path": "audio/supplement/3a646c0dfda3da917d099a607444f6fdf305097a24cfef9312b57e496d51a4b1.wav",
+      "source": "local-siwis",
+      "file_sha256": "b5c0e0a7cdbca384908ceb446c6034a9ba4925309c3f9825b76150b2e8c66072",
+      "bytes": 149036,
+      "seconds": 3.378503401360544,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6298.9952069336205
+    },
+    {
+      "repo": "grammar",
+      "text": "Cette méthode est utile dans la mesure où elle permet de comparer les données.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.1.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "4614347a5226631609322c3dbda48f9dadadae77472507ff906c06042de21a9f",
+      "path": "audio/supplement/4614347a5226631609322c3dbda48f9dadadae77472507ff906c06042de21a9f.wav",
+      "source": "local-siwis",
+      "file_sha256": "e94a83c1057b1a49b803845418d3b1de66f3710b7da7bc11eb9a30caffbd7a31",
+      "bytes": 176684,
+      "seconds": 4.005442176870749,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5498.372729433055
+    },
+    {
+      "repo": "grammar",
+      "text": "Dès lors que les conditions sont remplies, l’aide est accordée.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.1.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "04f2057270d93e200910b5ff52e8e2e0737c65123cf3ad2dd6fd81b73e8712f9",
+      "path": "audio/supplement/04f2057270d93e200910b5ff52e8e2e0737c65123cf3ad2dd6fd81b73e8712f9.wav",
+      "source": "local-siwis",
+      "file_sha256": "f59863bd83eab59ef4f776e3c6cffa52013b1d674b7924f2ba692f9153128956",
+      "bytes": 156716,
+      "seconds": 3.5526530612244898,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4653.561873592491
+    },
+    {
+      "repo": "grammar",
+      "text": "Dès lors que vous connaissez les risques, vous pouvez décider.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.1.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "8071903385ebed69c5175e24cd29bc4835dea66ecbef5c7a57a1ea94fd08ba93",
+      "path": "audio/supplement/8071903385ebed69c5175e24cd29bc4835dea66ecbef5c7a57a1ea94fd08ba93.wav",
+      "source": "local-siwis",
+      "file_sha256": "e746648eb2cf26c5fe3739318ad61956ee839a9475b0c77b659629cbc8cddb44",
+      "bytes": 130604,
+      "seconds": 2.9605442176870747,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5451.524343096448
+    },
+    {
+      "repo": "grammar",
+      "text": "Je vérifierai encore, quitte à perdre un peu de temps.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.2.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "ad869e46a0da21fbca61ea830e338906ee317a6f17f6f840a4bcd471a2321a0c",
+      "path": "audio/supplement/ad869e46a0da21fbca61ea830e338906ee317a6f17f6f840a4bcd471a2321a0c.wav",
+      "source": "local-siwis",
+      "file_sha256": "b61186db28d3a92c3b1bcc1c2062a95bbb963f5da9294b54ff9100e281680b22",
+      "bytes": 129580,
+      "seconds": 2.9373242630385485,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6031.002383904586
+    },
+    {
+      "repo": "grammar",
+      "text": "Elle défendra son avis, quitte à déplaire.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.2.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "fba4a69d2fd594bc112b826316a4a79cc649f407a833ace9ae0f0f8c0ec5622a",
+      "path": "audio/supplement/fba4a69d2fd594bc112b826316a4a79cc649f407a833ace9ae0f0f8c0ec5622a.wav",
+      "source": "local-siwis",
+      "file_sha256": "00d0cbed1949f40792440bcc1b80d08f6c1484a0e6f577c893f66d2ad91fb057",
+      "bytes": 113708,
+      "seconds": 2.5774149659863945,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5803.763633577399
+    },
+    {
+      "repo": "grammar",
+      "text": "Confirmez avant lundi, sans quoi votre place sera attribuée.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.2.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "14d4c3104aabb835abac44d82c4341fc12f1b4c9f38582ce523a92db9810e8d3",
+      "path": "audio/supplement/14d4c3104aabb835abac44d82c4341fc12f1b4c9f38582ce523a92db9810e8d3.wav",
+      "source": "local-siwis",
+      "file_sha256": "8a28da0c60825bfd7ff652a6f9e9bac2853cd34722d9d18fee56ddbd81438a8b",
+      "bytes": 151084,
+      "seconds": 3.4249433106575964,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5055.977114699172
+    },
+    {
+      "repo": "grammar",
+      "text": "Il fallait réserver, faute de quoi nous n’aurions pas eu de place.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.2.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "31ba91ec5f55338c03eb0dbbb68a167ca15984d8e3dbb825979d7f59c13b0fcf",
+      "path": "audio/supplement/31ba91ec5f55338c03eb0dbbb68a167ca15984d8e3dbb825979d7f59c13b0fcf.wav",
+      "source": "local-siwis",
+      "file_sha256": "08794447d308bc3553984a968e19d074aa55426532be44d71368272fedcb0929",
+      "bytes": 161324,
+      "seconds": 3.657142857142857,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5250.445318469387
+    },
+    {
+      "repo": "grammar",
+      "text": "Tous les candidats doivent être majeurs. Or, Léa a dix-sept ans.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.3.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "2bc3e8f084cb5fcf96920c04114a86f00634bf16611aa6a11c4f93b1525cc525",
+      "path": "audio/supplement/2bc3e8f084cb5fcf96920c04114a86f00634bf16611aa6a11c4f93b1525cc525.wav",
+      "source": "local-siwis",
+      "file_sha256": "74df13046800a14fd4ea9b636cfd78c8ba028e1f9964db18503ff1d656e04086",
+      "bytes": 180268,
+      "seconds": 4.08671201814059,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6383.161945788196
+    },
+    {
+      "repo": "grammar",
+      "text": "Il promettait une baisse des prix. Or, ils ont augmenté.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.3.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "88871216f6f4d980750ef95d6852e8c7997bdd3c6ff473aebcbde5b9eb24dd19",
+      "path": "audio/supplement/88871216f6f4d980750ef95d6852e8c7997bdd3c6ff473aebcbde5b9eb24dd19.wav",
+      "source": "local-siwis",
+      "file_sha256": "03703e5e0a30acb7aee64b7599a05b1c4065f43eb80beace8300ebd1136fdddf",
+      "bytes": 157228,
+      "seconds": 3.564263038548753,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5349.650852661434
+    },
+    {
+      "repo": "grammar",
+      "text": "Le règlement exclut désormais les véhicules lourds ; dès lors, il faut revoir le trajet des livraisons.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.4.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "8451c361a05810f39fe0e341093c3d8bea98e7480898013b3a5db09c5fa1905d",
+      "path": "audio/supplement/8451c361a05810f39fe0e341093c3d8bea98e7480898013b3a5db09c5fa1905d.wav",
+      "source": "local-siwis",
+      "file_sha256": "d2484434268da10cfa55347a3280418030ae01775098378d7dab18224ad592eb",
+      "bytes": 224812,
+      "seconds": 5.0967800453514736,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4947.988249504775
+    },
+    {
+      "repo": "grammar",
+      "text": "Le trajet est plus court ; il n’est pas pour autant moins dangereux.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.4.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "6c0811ddea922975c813b662df5db751aadec369a36391da23d335547aa3e41b",
+      "path": "audio/supplement/6c0811ddea922975c813b662df5db751aadec369a36391da23d335547aa3e41b.wav",
+      "source": "local-siwis",
+      "file_sha256": "b600eaf5cfa151cca4e92aab7ea54304e0c7b27411333f6f37c6d4ed127448b1",
+      "bytes": 149548,
+      "seconds": 3.3901133786848074,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5249.941636435109
+    },
+    {
+      "repo": "grammar",
+      "text": "La notice, au demeurant très claire, ne répond pas à la question des horaires.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.5.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "22295bba0202aae18174ab75cd5f3c13f7dc8b0258b6f51ec551249838aaf38e",
+      "path": "audio/supplement/22295bba0202aae18174ab75cd5f3c13f7dc8b0258b6f51ec551249838aaf38e.wav",
+      "source": "local-siwis",
+      "file_sha256": "cf4d3e525d1ffe85022bf4139271f4d11c3a6f4fd73deee5a6165214b4959ab9",
+      "bytes": 192556,
+      "seconds": 4.365351473922902,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5640.444867580925
+    },
+    {
+      "repo": "grammar",
+      "text": "Le nouveau local est moins vaste ; en revanche, il est desservi par deux lignes de tramway.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "expansion.5.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "526304ffc5d83f6637e8b934566f0c82d49bd8b434886d913f1c67f0a6b092d4",
+      "path": "audio/supplement/526304ffc5d83f6637e8b934566f0c82d49bd8b434886d913f1c67f0a6b092d4.wav",
+      "source": "local-siwis",
+      "file_sha256": "aa6c3f8aac086d608c5aca894d5d0920df2f4134660e69c714f4fe658882954e",
+      "bytes": 211500,
+      "seconds": 4.794920634920635,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5642.790708775347
+    },
+    {
+      "repo": "grammar",
+      "text": "Non. La phrase refuse de déduire une meilleure sécurité de la seule réduction de distance.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "supplement.practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "da92224567c1178289e6a120640c2b264e245ff5d07fc7b7b6226fdc5a73c990",
+      "path": "audio/supplement/da92224567c1178289e6a120640c2b264e245ff5d07fc7b7b6226fdc5a73c990.wav",
+      "source": "local-siwis",
+      "file_sha256": "761c6b77ce973592f3ca79acf0a880fc9402ef0cb9cab55bc8e0e2a64ed3884e",
+      "bytes": 237100,
+      "seconds": 5.375419501133787,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4925.822729052006
+    },
+    {
+      "repo": "grammar",
+      "text": "Le local est plus petit ; en revanche, il est mieux desservi par les transports.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "supplement.practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "bd2848c18abfe585a3976215beda48451a998900f671bbe07e5b12791e5b636a",
+      "path": "audio/supplement/bd2848c18abfe585a3976215beda48451a998900f671bbe07e5b12791e5b636a.wav",
+      "source": "local-siwis",
+      "file_sha256": "cfe199e0f2bd0afacf61d10836be64c9af63077e18a5285651cec61a6fb72061",
+      "bytes": 199724,
+      "seconds": 4.527891156462585,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4432.1787069888205
+    },
+    {
+      "repo": "grammar",
+      "text": "La clarté de la notice est reconnue, mais son champ ne comprend pas les horaires.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "supplement.practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "ef1738288a5d9671620e8bcbd5f04b62e225fa7850d21fd2429040f66bc09b4b",
+      "path": "audio/supplement/ef1738288a5d9671620e8bcbd5f04b62e225fa7850d21fd2429040f66bc09b4b.wav",
+      "source": "local-siwis",
+      "file_sha256": "9b5eba2e4f7deaeae895537e523a3d9e0c31ba64458b3dc85fe27984af688cd1",
+      "bytes": 182828,
+      "seconds": 4.144761904761904,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5507.0278847032505
+    },
+    {
+      "repo": "grammar",
+      "text": "Les marqueurs de cohésion de haut niveau",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "title"
+        }
+      ],
+      "existing": [],
+      "sha256": "d932c6cbd0c179995586d377430d81e92f877b5927371c2bcfdf9aeb1f8297ba",
+      "path": "audio/fr-FR/0bd4483b7bd0b257.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "15704bdca862fa060f28c7d637b1bf8c43a294d9ae050692327b79c6707d9cf7",
+      "bytes": 17712
+    },
+    {
+      "repo": "grammar",
+      "text": "Connecteurs de haut niveau : or, au demeurant, en l'occurrence, partant, cela étant, quoi qu'il en soit, à cet égard.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "fr"
+        }
+      ],
+      "existing": [],
+      "sha256": "a00105a32fa12e83f2dc4d1acd660af292b6183557d35b6a046dc01336a98061",
+      "path": "audio/fr-FR/0064fa4db416d9ef.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "c7377d947861e2cd48651fda8e1fbc0d2242d08b4e52581088ba8f4b24bfa6b8",
+      "bytes": 50544
+    },
+    {
+      "repo": "grammar",
+      "text": "Quoi qu'il en soit, la décision est prise.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "examples.0"
+        },
+        {
+          "id": "c2-cohesion",
+          "field": "practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "108bd16429aafcc682e8e3282c0480c31aeac5887c6b24e1d03926943271d7f8",
+      "path": "audio/fr-FR/250a71bf67b63106.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "42a9f2ca4029270fedda6eca86dae0e4f7c9d2648d1a26be6d4722e743e22ad1",
+      "bytes": 20304
+    },
+    {
+      "repo": "grammar",
+      "text": "En l'occurrence, il avait raison.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "examples.1"
+        },
+        {
+          "id": "c2-cohesion",
+          "field": "practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "34cd57735c4340f9e8a24d946cd6454b3d87d9a4caa29abf4a3ee9e623b26a01",
+      "path": "audio/fr-FR/7e4cfbb453faf02e.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "104b709d72f905435f8cba829491172a86953b6439d191a7a63411248272336c",
+      "bytes": 17712
+    },
+    {
+      "repo": "grammar",
+      "text": "Le projet coûte cher ; cela étant, il est nécessaire.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "examples.2"
+        },
+        {
+          "id": "c2-cohesion",
+          "field": "practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "02019f9d7b9d4c3f047a641a7d39708a3af4c8650bd0166c214b4adc9690c1da",
+      "path": "audio/fr-FR/690f0e897a72ec22.mp3",
+      "source": "preserved-existing-neural",
+      "file_sha256": "281ce4da5ad5d2e4bb4441063a0ad4b1d82f0aeb7e569e5d6a4444421712f308",
+      "bytes": 25344
+    },
+    {
+      "repo": "grammar",
+      "text": "Tous les hommes sont mortels ; or Socrate est un homme ; donc Socrate est mortel.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "examples.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "f4ba38d36ace719dca919f52d67526e6967bd7a1d34b9332c8f3c9accbb825a5",
+      "path": "audio/supplement/f4ba38d36ace719dca919f52d67526e6967bd7a1d34b9332c8f3c9accbb825a5.wav",
+      "source": "local-siwis",
+      "file_sha256": "eb2f8424b7edb809ee65fb16729384c24b55c2a5de002a479cb5b21ccc37746f",
+      "bytes": 223276,
+      "seconds": 5.061950113378685,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4228.557101660313
+    },
+    {
+      "repo": "grammar",
+      "text": "Le style est dense, au demeurant élégant.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "examples.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "25eae31e6ffa660d256054eb1ff5038c5243e625dc346122ccbd876e0ab7dada",
+      "path": "audio/supplement/25eae31e6ffa660d256054eb1ff5038c5243e625dc346122ccbd876e0ab7dada.wav",
+      "source": "local-siwis",
+      "file_sha256": "a7b90ed6e86d6deb83d4553d44304a64c0ce1ce877ace5a473b9448829e866e5",
+      "bytes": 102444,
+      "seconds": 2.3219954648526078,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6565.854845842976
+    },
+    {
+      "repo": "grammar",
+      "text": "La demande recule ; partant, les prix baissent.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "examples.5"
+        }
+      ],
+      "existing": [],
+      "sha256": "37dc90c99a911a9321de9f514f8b929be2431d78e243f32bf46c8e4a8b8a6b2a",
+      "path": "audio/supplement/37dc90c99a911a9321de9f514f8b929be2431d78e243f32bf46c8e4a8b8a6b2a.wav",
+      "source": "local-siwis",
+      "file_sha256": "0cb1d7375f4ad2ea72d9ba40068bf5a3b290107d151cee1501f1a84cb7a6a668",
+      "bytes": 130092,
+      "seconds": 2.948934240362812,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4395.2045970128875
+    },
+    {
+      "repo": "grammar",
+      "text": "À cet égard, aucune décision n'a encore été prise.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "examples.6"
+        }
+      ],
+      "existing": [],
+      "sha256": "b7a6acaabf29b643e264ca70bfdcad30e3f8d9746ebcc670cf55d877eeb0ef1a",
+      "path": "audio/supplement/b7a6acaabf29b643e264ca70bfdcad30e3f8d9746ebcc670cf55d877eeb0ef1a.wav",
+      "source": "local-siwis",
+      "file_sha256": "26bc833a2b61847dcc8f68f703399f0ceed519386554abf49d52e5c72afb0d68",
+      "bytes": 148012,
+      "seconds": 3.355283446712018,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5329.935307062695
+    },
+    {
+      "repo": "grammar",
+      "text": "Il se dit pauvre ; or, il vient d'acheter une villa.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "practice.3"
+        }
+      ],
+      "existing": [],
+      "sha256": "8ab19b9a2633d31efd929c88a333fd75a1a4950339b95c32cdf68ea9b4c5ca09",
+      "path": "audio/supplement/8ab19b9a2633d31efd929c88a333fd75a1a4950339b95c32cdf68ea9b4c5ca09.wav",
+      "source": "local-siwis",
+      "file_sha256": "c371bc30ab603d6afdd0d3d79a7cffcfd3af1dca04eda12184571a666197aefa",
+      "bytes": 136748,
+      "seconds": 3.0998639455782313,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4964.279314369015
+    },
+    {
+      "repo": "grammar",
+      "text": "La route est longue ; elle est, au demeurant, fort belle.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "practice.4"
+        }
+      ],
+      "existing": [],
+      "sha256": "8a9985c06040f52f005d3ce255affc27ea1a6945e83a7befc315541c1f42d1d4",
+      "path": "audio/supplement/8a9985c06040f52f005d3ce255affc27ea1a6945e83a7befc315541c1f42d1d4.wav",
+      "source": "local-siwis",
+      "file_sha256": "efe6073133a9452b6282c9b09273d64dfa0c00cb8e2dc909bf09d1cf34f48545",
+      "bytes": 160300,
+      "seconds": 3.633922902494331,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4547.25730407812
+    },
+    {
+      "repo": "grammar",
+      "text": "Les coûts augmentent ; partant, les marges diminuent.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "practice.5"
+        }
+      ],
+      "existing": [],
+      "sha256": "89fdbf896a56f100af56db742778cd019d2fba555223986dff0840e9288de1a5",
+      "path": "audio/supplement/89fdbf896a56f100af56db742778cd019d2fba555223986dff0840e9288de1a5.wav",
+      "source": "local-siwis",
+      "file_sha256": "c7cc439aee00413883da42393f15436b3cd294f6ccf6bcaea2abe68b52875039",
+      "bytes": 143916,
+      "seconds": 3.2624036281179136,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4803.369698914973
+    },
+    {
+      "repo": "grammar",
+      "text": "À cet égard, votre proposition mérite examen.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "practice.6"
+        }
+      ],
+      "existing": [],
+      "sha256": "1548505fcd6c304ea1ae798edc0e508dab44ed8efee864f35a5794cf4955452a",
+      "path": "audio/supplement/1548505fcd6c304ea1ae798edc0e508dab44ed8efee864f35a5794cf4955452a.wav",
+      "source": "local-siwis",
+      "file_sha256": "b30dff0228c903f5e7452a2efefedeb40f26bea23fd5025bd98f877429101194",
+      "bytes": 129580,
+      "seconds": 2.9373242630385485,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5429.058633387822
+    },
+    {
+      "repo": "grammar",
+      "text": "Ce médicament exige une ordonnance ; or, je n'en ai pas.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.0.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "49eb5db74822811111d543f58a0c3c6388e955da3f6150b5103b3beca2951714",
+      "path": "audio/supplement/49eb5db74822811111d543f58a0c3c6388e955da3f6150b5103b3beca2951714.wav",
+      "source": "local-siwis",
+      "file_sha256": "25ff382b571b89d536e18a3834e747be689d0560c86812e21940267f3485bdd6",
+      "bytes": 155692,
+      "seconds": 3.5294331065759637,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4452.36509046566
+    },
+    {
+      "repo": "grammar",
+      "text": "Tous les candidats doivent être majeurs ; or, Léa a dix-sept ans.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.0.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "bc3b622a2469c339ec057c09846e251e9ce7069a8badc2ddf27260a6dd6c2eea",
+      "path": "audio/supplement/bc3b622a2469c339ec057c09846e251e9ce7069a8badc2ddf27260a6dd6c2eea.wav",
+      "source": "local-siwis",
+      "file_sha256": "2620482841b06ff0cbc0bb213094098820b946657d7c63cc2f8afd02f99f8273",
+      "bytes": 171052,
+      "seconds": 3.877732426303855,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5412.3619271164025
+    },
+    {
+      "repo": "grammar",
+      "text": "Les ressources sont limitées ; partant, il faut établir des priorités.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.1.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "8720e7bfda418dd20d07690a47cf27ca2f52eb1e74bf97b310aaa549885e8848",
+      "path": "audio/supplement/8720e7bfda418dd20d07690a47cf27ca2f52eb1e74bf97b310aaa549885e8848.wav",
+      "source": "local-siwis",
+      "file_sha256": "67f74ab8bd67fc682b58c72d3df6d796b8fc5359a18e0b6ab063fd58b10d4265",
+      "bytes": 180780,
+      "seconds": 4.098321995464852,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5611.429935408069
+    },
+    {
+      "repo": "grammar",
+      "text": "Le témoignage est contradictoire et, partant, peu fiable.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.1.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "2e1d5fcbc518c08bd213da79b0701808780cff9e81cb765207d0335babe87c78",
+      "path": "audio/supplement/2e1d5fcbc518c08bd213da79b0701808780cff9e81cb765207d0335babe87c78.wav",
+      "source": "local-siwis",
+      "file_sha256": "3263a4f775c81d44f27f32eb5dbfd704134602205cfb653411105ffd862ad27c",
+      "bytes": 161836,
+      "seconds": 3.6687528344671203,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5341.720274554049
+    },
+    {
+      "repo": "grammar",
+      "text": "Le délai est court. Cela étant, le travail reste réalisable.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.2.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "a3e8bd7fecf659b5cc07be1bd40e135a956e85416b9e77f61d5f7e432325d639",
+      "path": "audio/supplement/a3e8bd7fecf659b5cc07be1bd40e135a956e85416b9e77f61d5f7e432325d639.wav",
+      "source": "local-siwis",
+      "file_sha256": "85a09e464294ed88cfa860ee0468a6e4f634dea7c0e68ee21bdb0be3d5b2a9b7",
+      "bytes": 176684,
+      "seconds": 4.005442176870749,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5378.507761280698
+    },
+    {
+      "repo": "grammar",
+      "text": "Votre remarque est juste ; cela étant, elle ne résout pas le problème.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.2.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "5f214ad7bd8959597ef8368c7adce9a1900964a2b2203a08b4a47e6b6d4742a5",
+      "path": "audio/supplement/5f214ad7bd8959597ef8368c7adce9a1900964a2b2203a08b4a47e6b6d4742a5.wav",
+      "source": "local-siwis",
+      "file_sha256": "7e5e54b0ca238eca573969f116b199ea7514e5aeddad3cb9fe4c66e7e33590be",
+      "bytes": 171564,
+      "seconds": 3.889342403628118,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5275.220795018349
+    },
+    {
+      "repo": "grammar",
+      "text": "Il a peut-être été mal informé ; quoi qu'il en soit, il doit corriger son erreur.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.3.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "65283e2c3cec3458b7920304c2aaec042590a9b441df4172cdc904afe3c32a4d",
+      "path": "audio/supplement/65283e2c3cec3458b7920304c2aaec042590a9b441df4172cdc904afe3c32a4d.wav",
+      "source": "local-siwis",
+      "file_sha256": "247d217b2a08dbd8fb2f942fa960223f19de8a1afd62bd3b897d31fcbe52f423",
+      "bytes": 193580,
+      "seconds": 4.388571428571429,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5818.549629754779
+    },
+    {
+      "repo": "grammar",
+      "text": "Nous ignorons qui a décidé cela. Quoi qu'il en soit, la règle s'applique à tous.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.3.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "9ca7da4383b7c4afee3959a32e3e8c9ef80073b5381ef7e76c633ae1e1c0544a",
+      "path": "audio/supplement/9ca7da4383b7c4afee3959a32e3e8c9ef80073b5381ef7e76c633ae1e1c0544a.wav",
+      "source": "local-siwis",
+      "file_sha256": "48bb1ca6bc3f31e20edbfb4d7df42828577e89bf59b25e49b8e8ac0d3a1521d9",
+      "bytes": 203820,
+      "seconds": 4.620770975056689,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5835.5350276144545
+    },
+    {
+      "repo": "grammar",
+      "text": "En général, il faut réserver ; en l'occurrence, il reste des places.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.4.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "dcbd05e4075020ac64f13e218edef93dca6d92b930bdd7b0cf413382a29daf7a",
+      "path": "audio/supplement/dcbd05e4075020ac64f13e218edef93dca6d92b930bdd7b0cf413382a29daf7a.wav",
+      "source": "local-siwis",
+      "file_sha256": "c37ddd3a1797efacf43a5afc3847e573bf8050c68cfef2b58eb2c0b1e93d10f2",
+      "bytes": 202796,
+      "seconds": 4.597551020408163,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 6270.058689456063
+    },
+    {
+      "repo": "grammar",
+      "text": "La responsable, en l'occurrence Mme Durand, signera le document.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.4.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "f9eab3bb6e935437bfa4a9f8a281960ff8b5b2d1fd58c4c0ef0d7da109df28c3",
+      "path": "audio/supplement/f9eab3bb6e935437bfa4a9f8a281960ff8b5b2d1fd58c4c0ef0d7da109df28c3.wav",
+      "source": "local-siwis",
+      "file_sha256": "f07ebd993e04cedd6b4e62db8e57bbff5f9833c15ce333654be9ffcee5e3bc67",
+      "bytes": 196652,
+      "seconds": 4.458231292517007,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5193.634211091869
+    },
+    {
+      "repo": "grammar",
+      "text": "Il est exigeant, au demeurant très aimable.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.5.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "585905f161cd0bfa543c544eaff0bc2866e2aedfe060f9b89cf144b50c69402e",
+      "path": "audio/supplement/585905f161cd0bfa543c544eaff0bc2866e2aedfe060f9b89cf144b50c69402e.wav",
+      "source": "local-siwis",
+      "file_sha256": "3caa5a95850a1b0b5513b446d6c32a56db37ad838ab97858b0fd8651d0e8443f",
+      "bytes": 116268,
+      "seconds": 2.6354648526077096,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5954.427749277188
+    },
+    {
+      "repo": "grammar",
+      "text": "Le livre est instructif et, au demeurant, agréable à lire.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.5.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "4eea0647ac2267895df193ed04d43e439a785b705bc001bf776c5a33e25add36",
+      "path": "audio/supplement/4eea0647ac2267895df193ed04d43e439a785b705bc001bf776c5a33e25add36.wav",
+      "source": "local-siwis",
+      "file_sha256": "3d75153e81ed42b95cc8874d8fbced288e45045d8ab3aadcaab9ecf3344b0923",
+      "bytes": 184876,
+      "seconds": 4.191201814058957,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5943.914279119289
+    },
+    {
+      "repo": "grammar",
+      "text": "La sécurité reste notre priorité. À cet égard, deux mesures seront prises.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.6.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "b86071a1067c4c4df08b0f2ec1ead7c852be4c949ee83db335c85e2226b3af8f",
+      "path": "audio/supplement/b86071a1067c4c4df08b0f2ec1ead7c852be4c949ee83db335c85e2226b3af8f.wav",
+      "source": "local-siwis",
+      "file_sha256": "15f8692817c18e3d2d8208f7d28a019f70cf555c11c9ad7003edf079f025054b",
+      "bytes": 216620,
+      "seconds": 4.911020408163266,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5486.036127288438
+    },
+    {
+      "repo": "grammar",
+      "text": "Les deux contrats diffèrent quant aux délais ; à cet égard, le second est plus souple.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.6.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "6641c0de600f30b7345159c0115739a8c2bf2d206c496d2c148eca5390f3102c",
+      "path": "audio/supplement/6641c0de600f30b7345159c0115739a8c2bf2d206c496d2c148eca5390f3102c.wav",
+      "source": "local-siwis",
+      "file_sha256": "539df7324af13b4c9d75f8d954ea04dff816273909cd0e5c48860a22d8cf0c65",
+      "bytes": 185388,
+      "seconds": 4.20281179138322,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5267.775762349826
+    },
+    {
+      "repo": "grammar",
+      "text": "Il faut conserver un registre, ne serait-ce que pour retrouver la date d’une décision.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.7.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "2f5378c8c5b4e0374ea36eb3169fbbce302637a47ba422b2322d8a978a022f60",
+      "path": "audio/supplement/2f5378c8c5b4e0374ea36eb3169fbbce302637a47ba422b2322d8a978a022f60.wav",
+      "source": "local-siwis",
+      "file_sha256": "ddeec18d395239cfd841fd742f32de4f3b89e1621e87fdf3709b0af0178c7d17",
+      "bytes": 199724,
+      "seconds": 4.527891156462585,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5297.691544139291
+    },
+    {
+      "repo": "grammar",
+      "text": "La nouvelle procédure réduit le délai de réponse. À cet égard, elle constitue un progrès.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.7.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "19cddac07f6ee5c17bef435ec4f112c4970de43169dadc8b29f544299ae9e906",
+      "path": "audio/supplement/19cddac07f6ee5c17bef435ec4f112c4970de43169dadc8b29f544299ae9e906.wav",
+      "source": "local-siwis",
+      "file_sha256": "239cfb5bd61a2da979ed4b715056ffd7838156e71b16c09355dd30be94e88a13",
+      "bytes": 261676,
+      "seconds": 5.932698412698413,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5852.935380872968
+    },
+    {
+      "repo": "grammar",
+      "text": "On pourrait comparer les dossiers ; encore faudrait-il qu’ils portent sur la même période.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.8.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "fb1019b30d8accae152f27feab4971fca2aa105cf9ca66ee045e9c3b9498c317",
+      "path": "audio/supplement/fb1019b30d8accae152f27feab4971fca2aa105cf9ca66ee045e9c3b9498c317.wav",
+      "source": "local-siwis",
+      "file_sha256": "2cb72e8710436a19fbf4b7ace069d70da94286335d6eb44f07f491e6a6cd92bf",
+      "bytes": 200748,
+      "seconds": 4.551111111111111,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4178.12265330026
+    },
+    {
+      "repo": "grammar",
+      "text": "Le comité a vérifié les chiffres sur ce point ; il n’a pas pour autant approuvé l’ensemble du rapport.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "expansion.8.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "ff1d60d2d1d7161490a79b89703d3e53fba1fbfcd641a1bbbf86e112a531cbc4",
+      "path": "audio/supplement/ff1d60d2d1d7161490a79b89703d3e53fba1fbfcd641a1bbbf86e112a531cbc4.wav",
+      "source": "local-siwis",
+      "file_sha256": "68bae50be708c2b7ab4f54333802ba5b0228588bc56c60dd36139949488cc779",
+      "bytes": 224300,
+      "seconds": 5.085170068027211,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5112.484108830812
+    },
+    {
+      "repo": "grammar",
+      "text": "La procédure représente un progrès en matière de délai de réponse.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "supplement.practice.0"
+        }
+      ],
+      "existing": [],
+      "sha256": "8819e817ce69d9e5715e4ed1bed04d0fb6eae4358b56044a6ad5387e008e3a0f",
+      "path": "audio/supplement/8819e817ce69d9e5715e4ed1bed04d0fb6eae4358b56044a6ad5387e008e3a0f.wav",
+      "source": "local-siwis",
+      "file_sha256": "be278e2368f518e7bfe1e85c9075970af7bfa36157431c5c5ffaded05914174a",
+      "bytes": 171564,
+      "seconds": 3.889342403628118,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 5737.995010481463
+    },
+    {
+      "repo": "grammar",
+      "text": "Non. La phrase présente la comparabilité comme une condition à vérifier avant de poursuivre.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "supplement.practice.1"
+        }
+      ],
+      "existing": [],
+      "sha256": "5587481e26291fac0956d2cdf1807191365e54b776722acb88956c2338c0dae6",
+      "path": "audio/supplement/5587481e26291fac0956d2cdf1807191365e54b776722acb88956c2338c0dae6.wav",
+      "source": "local-siwis",
+      "file_sha256": "7327b7903900b0c272b0638e732a0263d2b82d2641d863ad90b865822f8fe2b7",
+      "bytes": 217132,
+      "seconds": 4.922630385487528,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4462.736805403677
+    },
+    {
+      "repo": "grammar",
+      "text": "Le comité n’a vérifié que les chiffres du troisième paragraphe.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "supplement.practice.2"
+        }
+      ],
+      "existing": [],
+      "sha256": "d510be39c97b6eb92153aed476f1fbb36dde18af3354a4581cff3c8dfdb7774d",
+      "path": "audio/supplement/d510be39c97b6eb92153aed476f1fbb36dde18af3354a4581cff3c8dfdb7774d.wav",
+      "source": "local-siwis",
+      "file_sha256": "843498715b216658c82738ca99d6f2692c46de417f463e066400d1eb1a94c24d",
+      "bytes": 165420,
+      "seconds": 3.7500226757369615,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "rms": 4913.028951599958
+    }
+  ],
+  "scope": {
+    "grammar": [
+      "a1-partitif",
+      "a2-temps-prep",
+      "b1-double-pronoms",
+      "b2-mode-choix",
+      "c1-accord-avance",
+      "c2-conjecture",
+      "b2-opposition-concession",
+      "c1-connecteurs-soutenus",
+      "c2-cohesion"
+    ],
+    "definition": "Standalone French playback units in the nine touched grammar points, including titles, examples and model answers."
+  },
+  "excluded": []
+}

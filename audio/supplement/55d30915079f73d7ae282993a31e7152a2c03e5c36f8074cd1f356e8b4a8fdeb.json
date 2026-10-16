@@ -1,0 +1,10 @@
+{
+  "text": "Le trajet est long ; toutefois, il reste moins cher que l'avion.",
+  "text_sha256": "55d30915079f73d7ae282993a31e7152a2c03e5c36f8074cd1f356e8b4a8fdeb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

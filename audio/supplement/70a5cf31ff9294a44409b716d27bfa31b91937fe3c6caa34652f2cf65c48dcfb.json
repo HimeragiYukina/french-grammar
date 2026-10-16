@@ -1,0 +1,10 @@
+{
+  "text": "À ta place, je refuserais cette proposition.",
+  "text_sha256": "70a5cf31ff9294a44409b716d27bfa31b91937fe3c6caa34652f2cf65c48dcfb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

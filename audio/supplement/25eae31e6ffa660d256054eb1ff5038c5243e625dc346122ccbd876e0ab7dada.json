@@ -1,0 +1,10 @@
+{
+  "text": "Le style est dense, au demeurant élégant.",
+  "text_sha256": "25eae31e6ffa660d256054eb1ff5038c5243e625dc346122ccbd876e0ab7dada",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

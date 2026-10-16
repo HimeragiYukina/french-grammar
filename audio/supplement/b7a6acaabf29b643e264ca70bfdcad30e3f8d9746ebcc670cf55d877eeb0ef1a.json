@@ -1,0 +1,10 @@
+{
+  "text": "À cet égard, aucune décision n'a encore été prise.",
+  "text_sha256": "b7a6acaabf29b643e264ca70bfdcad30e3f8d9746ebcc670cf55d877eeb0ef1a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

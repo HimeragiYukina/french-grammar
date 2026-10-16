@@ -1,0 +1,10 @@
+{
+  "text": "Je suis heureuse qu’elle soit venue.",
+  "text_sha256": "08b9207194cd4d62159d941e900e3bdbe0dcc7dabbb23277e2e971bdfd99b03a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Il se dit pauvre ; or, il vient d'acheter une villa.",
+  "text_sha256": "8ab19b9a2633d31efd929c88a333fd75a1a4950339b95c32cdf68ea9b4c5ca09",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

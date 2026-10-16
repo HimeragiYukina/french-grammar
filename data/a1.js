@@ -1539,11 +1539,63 @@ window.GRAMMAR_DATA.A1={
               "use": "前半全量否定改 de，后半 être 表语保留 du。"
             }
           ]
+        },
+        {
+          "title": "语境诊断：数量否定与特定对象：先问“没有什么”还是“不选哪一个”",
+          "explanation": "普通数量否定把 un/une/des 及部分冠词 du/de la/de l’ 变为 de/d’：Je ne bois pas de lait。若否定的是某个已确定对象，定冠词保留；若明确对比两种饮品，也可保留部分冠词。不能见 pas 就删除所有冠词。\nIl n’y a pas de café 表示没有咖啡或咖啡馆，须靠情境消歧；Ce n’est pas un café 在店铺语境否定类别。Je ne veux pas de sucre 否定需求；un café sans sucre 用 sans 表示不加糖。sans 后简单不定物质通常不用冠词，但这不能推广成 sans 后永远没有限定词，如 sans mon sac。",
+          "examples": [
+            {
+              "fr": "Je ne bois pas de lait.",
+              "zh": "我不喝奶（否定饮用奶这种东西）。",
+              "use": "一般不定数量否定：du lait → pas de lait。"
+            },
+            {
+              "fr": "Je ne bois pas le lait qui est dans ce verre.",
+              "zh": "我不喝这个杯子里的奶（特定的奶）。",
+              "use": "定冠词指由从句确定的奶，否定不删 le。"
+            },
+            {
+              "fr": "Je ne bois pas du lait, mais du thé.",
+              "zh": "我喝的不是奶，而是茶（明确对比）。",
+              "use": "明确对比奶和茶，保留 du。"
+            },
+            {
+              "fr": "Ce n’est pas un café, c’est une boulangerie.",
+              "zh": "这不是咖啡馆，是面包店。",
+              "use": "être 后否定类别，un 保留。"
+            },
+            {
+              "fr": "Un café sans sucre, s’il vous plaît.",
+              "zh": "请来一杯不加糖的咖啡。",
+              "use": "sans sucre 描述不加糖，不否定茶的存在。"
+            }
+          ]
         }
       ],
       "comparison": "Je mange du poulet（吃鸡肉）/ Je mange un poulet（吃一只鸡）；J’aime le pain（喜欢面包）/ Je veux du pain（想要些面包）。",
       "errors": "*beaucoup du pain → beaucoup de pain（不指定对象）；Ce n’est pas du café 保留部分冠词，不应一律改 de。",
-      "boundaries": "des 在 des épinards 等固定复数物质名词前常分析为复数部分冠词；术语分类可能不同，实际形式相同。数量限定具体整体时可说 beaucoup du pain que tu as fait。"
+      "boundaries": "des 在 des épinards 等固定复数物质名词前常分析为复数部分冠词；术语分类可能不同，实际形式相同。数量限定具体整体时可说 beaucoup du pain que tu as fait。",
+      "related": [
+        "a1-negation",
+        "a1-indefini"
+      ],
+      "practice": [
+        {
+          "q": "已指明冰箱里那瓶奶，表达“我不喝那瓶奶”，选哪句？ 选项：Je ne bois pas de lait. / Je ne bois pas le lait qui est dans le frigo. / Je ne bois pas du lait mais du thé.",
+          "a": "Je ne bois pas le lait qui est dans le frigo.",
+          "note": "定冠词 le 保留，关系从句限定具体对象。第一句否定一般数量；第三句建立饮品对比，均未准确表达题目范围。"
+        },
+        {
+          "q": "在咖啡馆下单：一杯不加糖的茶；再说明你不喝咖啡。写两句。",
+          "a": "Un thé sans sucre, s’il vous plaît. Je ne bois pas de café.",
+          "note": "sans sucre 描述添加物，pas de café 否定一般饮用。不能把第一句理解成茶不存在；其他礼貌措辞也可接受。"
+        },
+        {
+          "q": "店主纠正“这里是咖啡馆”的说法，哪句准确？ 选项：Ce n’est pas de café, c’est une boulangerie. / Ce n’est pas un café, c’est une boulangerie. / Il n’y a pas du café, c’est une boulangerie.",
+          "a": "Ce n’est pas un café, c’est une boulangerie.",
+          "note": "être 后否定类别保留 un；pas de 通常用于不存在或不定数量，不能机械替换这里的类别判断。"
+        }
+      ]
     },
     "a1-sujets": {
       "sections": [

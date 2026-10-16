@@ -1,0 +1,10 @@
+{
+  "text": "Elle doit avoir oublié son téléphone chez elle.",
+  "text_sha256": "ceb4a98c6787aa1eccfa921dcd89833d746d1e84be5da51fc384d16791329cfd",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

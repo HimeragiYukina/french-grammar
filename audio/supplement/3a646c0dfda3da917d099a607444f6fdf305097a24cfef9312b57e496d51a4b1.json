@@ -1,0 +1,10 @@
+{
+  "text": "J’accepte dans la mesure où cela ne retarde pas le projet.",
+  "text_sha256": "3a646c0dfda3da917d099a607444f6fdf305097a24cfef9312b57e496d51a4b1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

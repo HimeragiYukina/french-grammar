@@ -1,0 +1,10 @@
+{
+  "text": "Les deux contrats diffèrent quant aux délais ; à cet égard, le second est plus souple.",
+  "text_sha256": "6641c0de600f30b7345159c0115739a8c2bf2d206c496d2c148eca5390f3102c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

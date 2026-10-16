@@ -1,0 +1,10 @@
+{
+  "text": "Avec davantage de temps, nous pourrions comparer les deux offres.",
+  "text_sha256": "63487869bd1f00581fc240b6170f3c671f0b825f044ef18bdf5f8d7fb4d0d7fc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

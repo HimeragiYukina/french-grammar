@@ -1,0 +1,10 @@
+{
+  "text": "Les lumières sont éteintes ; ils doivent être couchés.",
+  "text_sha256": "2dedbc8ebb55a3c24ee15c8024acf2ad230a1bd05dba6604a8d043ade5ac12e5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

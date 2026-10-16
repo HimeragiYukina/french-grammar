@@ -1,0 +1,10 @@
+{
+  "text": "Les conclusions que j’en ai tirées sont prudentes.",
+  "text_sha256": "9debba2bf9450ccee731df75d680c6c790e88532a2e00db12f2862b66747b863",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

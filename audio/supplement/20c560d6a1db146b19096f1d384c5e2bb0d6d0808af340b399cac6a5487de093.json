@@ -1,0 +1,10 @@
+{
+  "text": "La porte est ouverte ; ils auront oublié de la fermer.",
+  "text_sha256": "20c560d6a1db146b19096f1d384c5e2bb0d6d0808af340b399cac6a5487de093",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

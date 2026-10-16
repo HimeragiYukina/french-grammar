@@ -1,0 +1,10 @@
+{
+  "text": "Je ne lui demande pas de venir.",
+  "text_sha256": "dc618a0287931fc2da1f12fb52c7581c20b093f2604becd5a27fec5c76a6c289",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

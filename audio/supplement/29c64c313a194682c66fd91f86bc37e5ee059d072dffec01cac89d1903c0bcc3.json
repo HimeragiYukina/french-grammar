@@ -1,0 +1,10 @@
+{
+  "text": "Je travaille ici depuis six mois ; j’ai commencé il y a six mois.",
+  "text_sha256": "29c64c313a194682c66fd91f86bc37e5ee059d072dffec01cac89d1903c0bcc3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

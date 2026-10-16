@@ -1,0 +1,10 @@
+{
+  "text": "D'après la presse, le ministre aurait quitté le pays.",
+  "text_sha256": "daab7c4269b20f404116b40add1812b091d5670cfd3c82baf3d86f5787042f0d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

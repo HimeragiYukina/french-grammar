@@ -1,0 +1,10 @@
+{
+  "text": "Malgré tous nos efforts, nous n'avons pas obtenu de réponse.",
+  "text_sha256": "d6adf92fc7621db137697be82bd3137e48eec51ee3f4b7ede9bbf40b1177b459",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

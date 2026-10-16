@@ -1,0 +1,10 @@
+{
+  "text": "Elles se sont fait photographier devant le musée.",
+  "text_sha256": "42ad023afdbbfb0e8393d83857294e356176086931acc11a899623de84b5f99d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

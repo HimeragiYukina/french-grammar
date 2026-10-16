@@ -1,0 +1,10 @@
+{
+  "text": "Nous ignorons qui a décidé cela. Quoi qu'il en soit, la règle s'applique à tous.",
+  "text_sha256": "9ca7da4383b7c4afee3959a32e3e8c9ef80073b5381ef7e76c633ae1e1c0544a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

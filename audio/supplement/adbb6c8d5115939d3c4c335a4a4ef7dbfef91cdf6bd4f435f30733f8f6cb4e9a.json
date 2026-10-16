@@ -1,0 +1,10 @@
+{
+  "text": "Il n'est pas là ; il doit être déjà parti.",
+  "text_sha256": "adbb6c8d5115939d3c4c335a4a4ef7dbfef91cdf6bd4f435f30733f8f6cb4e9a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

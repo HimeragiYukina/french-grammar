@@ -1,0 +1,10 @@
+{
+  "text": "Il est probable qu'il viendra, mais il est possible qu'il soit en retard.",
+  "text_sha256": "62b306b07004ab7ff2066fffaabb97e50401784164a32d79709b387ead9b5b00",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

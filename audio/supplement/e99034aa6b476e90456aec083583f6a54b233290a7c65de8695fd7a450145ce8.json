@@ -1,0 +1,10 @@
+{
+  "text": "Quand j’ai appelé, elle attendait depuis vingt minutes ; le médecin est arrivé dix minutes plus tard.",
+  "text_sha256": "e99034aa6b476e90456aec083583f6a54b233290a7c65de8695fd7a450145ce8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Les coûts augmentent ; partant, les marges diminuent.",
+  "text_sha256": "89fdbf896a56f100af56db742778cd019d2fba555223986dff0840e9288de1a5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

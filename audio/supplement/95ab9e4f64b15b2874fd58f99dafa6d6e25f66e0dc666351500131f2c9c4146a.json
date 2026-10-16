@@ -1,0 +1,10 @@
+{
+  "text": "Trois directrices se sont succédé à la tête de l’association.",
+  "text_sha256": "95ab9e4f64b15b2874fd58f99dafa6d6e25f66e0dc666351500131f2c9c4146a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Il est faible en maths ; en revanche, il excelle en langues.",
+  "text_sha256": "d90d39485e5ed8ac1d980c21b5c436cb600e0903b5fa1e54541b80d531cfe030",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Votre remarque est juste ; cela étant, elle ne résout pas le problème.",
+  "text_sha256": "5f214ad7bd8959597ef8368c7adce9a1900964a2b2203a08b4a47e6b6d4742a5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

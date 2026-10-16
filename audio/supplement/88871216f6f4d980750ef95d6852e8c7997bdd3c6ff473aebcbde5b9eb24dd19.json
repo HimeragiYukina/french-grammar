@@ -1,0 +1,10 @@
+{
+  "text": "Il promettait une baisse des prix. Or, ils ont augmenté.",
+  "text_sha256": "88871216f6f4d980750ef95d6852e8c7997bdd3c6ff473aebcbde5b9eb24dd19",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Je souhaite qu’elle vienne demain.",
+  "text_sha256": "be67c0664c273da960747d100b3906c4ee7f55a09e8486b65fec0d6c44845732",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

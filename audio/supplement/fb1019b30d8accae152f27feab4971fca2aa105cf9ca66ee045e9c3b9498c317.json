@@ -1,0 +1,10 @@
+{
+  "text": "On pourrait comparer les dossiers ; encore faudrait-il qu’ils portent sur la même période.",
+  "text_sha256": "fb1019b30d8accae152f27feab4971fca2aa105cf9ca66ee045e9c3b9498c317",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

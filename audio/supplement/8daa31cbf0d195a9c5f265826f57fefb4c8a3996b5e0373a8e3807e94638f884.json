@@ -1,0 +1,10 @@
+{
+  "text": "Les morceaux que j’ai entendu jouer étaient difficiles.",
+  "text_sha256": "8daa31cbf0d195a9c5f265826f57fefb4c8a3996b5e0373a8e3807e94638f884",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

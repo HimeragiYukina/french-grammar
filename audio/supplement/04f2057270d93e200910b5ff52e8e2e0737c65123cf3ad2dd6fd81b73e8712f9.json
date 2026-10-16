@@ -1,0 +1,10 @@
+{
+  "text": "Dès lors que les conditions sont remplies, l’aide est accordée.",
+  "text_sha256": "04f2057270d93e200910b5ff52e8e2e0737c65123cf3ad2dd6fd81b73e8712f9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1308,11 +1308,58 @@ window.GRAMMAR_DATA.C2={
               "use": "原因有多种，pouvoir 不作强断言。"
             }
           ]
+        },
+        {
+          "title": "语境诊断：a dû / aurait dû：推断已发生，还是评价本应发生",
+          "explanation": "Elle a dû partir 可指过去的必要性，也可在具体线索下推断她已经离开；上下文决定。Elle aurait dû partir plus tôt 在这一语境中可表达未实现的合宜行为或事后批评，不能当成较弱版本的“她一定离开了”。条件式还可用于转述未证实的义务，故同样必须核实语境。\nElle devait présenter le rapport 可表示过去计划或义务，既不能单独证明她已作报告，也不能单独证明取消。Elle aurait présenté le rapport, selon un témoin 标示未经确认的转述；il est possible qu’elle ait présenté le rapport 则提出可能性，未标示相同来源。改写时保留来源、时间和是否实现，不把所有弱化表达排成固定概率表。",
+          "examples": [
+            {
+              "fr": "Son bureau est vide et son manteau a disparu ; elle a dû partir.",
+              "zh": "她的办公室空了，外套也不见了；她想必走了。",
+              "use": "可见线索支持对过去离开的推断；此处 a dû 非义务。"
+            },
+            {
+              "fr": "Elle aurait dû partir plus tôt : maintenant, elle a raté le train.",
+              "zh": "她本该早点出发，现在已经错过火车了。",
+              "use": "aurait dû + 不定式在这个语境作事后评价，不能推断较早出发已实现。"
+            },
+            {
+              "fr": "Elle devait présenter le rapport lundi, mais la séance a été annulée.",
+              "zh": "她原定周一作报告，但会议取消了。",
+              "use": "devait 表过去计划；后文明确取消，不把计划写成既成事实。"
+            },
+            {
+              "fr": "Selon un témoin, elle aurait présenté le rapport avant la pause.",
+              "zh": "据一名目击者说，她据称在休息前作了报告。",
+              "use": "条件式过去保留证人来源与未确认距离，不表达固定概率。"
+            }
+          ]
         }
       ],
       "comparison": "À cette heure demain, il sera à Lyon 是真正未来；Il n'est pas ici, il sera à Lyon 是当前推测。Il serait à Lyon si le train circulait 是假设结果；Selon la police, il serait à Lyon 是未经确认信息。Il doit partir 表义务或推断，Il doit être parti 常是推断已离开。",
       "errors": "新闻条件式不等于“会”，也不必译为“如果”。× Il doit a oublié → ✓ Il doit avoir oublié。不要给 devoir/pouvoir 规定固定百分比概率；强弱依线索和语境变化。",
-      "boundaries": "将来时推测略带特定叙述口吻，口语常用 probablement / sans doute / devoir。a pu 在别的语境还可表示“成功做到”，如 Il a pu partir à temps，不是所有 a pu 都是过去猜测。"
+      "boundaries": "将来时推测略带特定叙述口吻，口语常用 probablement / sans doute / devoir。a pu 在别的语境还可表示“成功做到”，如 Il a pu partir à temps，不是所有 a pu 都是过去猜测。",
+      "related": [
+        "b1-cond-passe",
+        "b2-concordance"
+      ],
+      "practice": [
+        {
+          "q": "办公室空了，外套也不见了，据此推断她走了；哪句最直接？ 选项：Elle a dû partir. / Elle aurait dû partir plus tôt. / Elle devait partir demain.",
+          "a": "Elle a dû partir.",
+          "note": "a dû 在所给线索下作对已发生事件的推断。aurait dû 在第二句表示本应，devait…demain 给过去视点的计划；后二者均不直接断言她已离开。"
+        },
+        {
+          "q": "改写摘要：Elle devait intervenir lundi, mais la réunion a été annulée. 保留计划及取消，不虚构发言已完成。",
+          "a": "Son intervention était prévue pour lundi, mais la réunion a été annulée.",
+          "note": "原句支持过去计划和会议取消；不能概括为 Elle est intervenue lundi。也不应在没有补充证据时编造新的发言日期。"
+        },
+        {
+          "q": "比较 Selon un témoin, elle aurait présenté le rapport 与 Il est possible qu’elle ait présenté le rapport：改述时会丢失什么？",
+          "a": "La seconde phrase exprime une possibilité, mais ne conserve pas l’attribution à un témoin ni la même distance énonciative.",
+          "note": "两句都未作完全确认，但前句保留证人来源与转述距离；后句只提出可能性。不得把“据称”改成“已证实”，也不能指定固定概率差。"
+        }
+      ]
     },
     "c2-rection": {
       "sections": [
@@ -1599,11 +1646,65 @@ window.GRAMMAR_DATA.C2={
               "use": "限制比较维度，不评价合同整体。"
             }
           ]
+        },
+        {
+          "title": "限制性照应：ne serait-ce que 与 à cet égard",
+          "explanation": "ne serait-ce que 可提出足以支持主张的最低理由或最小程度，不必表示只有这一理由。à cet égard 把评价限制到刚说的那个方面；摘要删除它可能把局部判断扩大成整体判断。先明确照应对象，再决定可否压缩。",
+          "examples": [
+            {
+              "fr": "Il faut conserver un registre, ne serait-ce que pour retrouver la date d’une décision.",
+              "zh": "需要保留登记簿，哪怕只是为了查到某项决定的日期。",
+              "use": "提出最低理由，不排除登记簿还有其他用途。"
+            },
+            {
+              "fr": "La nouvelle procédure réduit le délai de réponse. À cet égard, elle constitue un progrès.",
+              "zh": "新流程缩短答复时间；在这一点上，它是进步。",
+              "use": "正面评价限于时间，未评估费用、公平或结果质量。"
+            }
+          ]
+        },
+        {
+          "title": "前提未落实：encore faudrait-il 与部分验证的边界",
+          "explanation": "Encore faudrait-il que P 提出使前述主张成立所需的前提，常带提醒或保留；不能机械理解成P一定不成立。条件式倒装并非普通疑问，que 后一般接虚拟式。把部分核查扩大成全程认可，常发生在压缩时遗漏 seulement、sur ce point 等限制；编辑应把限制当信息而非可删的赘词。",
+          "examples": [
+            {
+              "fr": "On pourrait comparer les dossiers ; encore faudrait-il qu’ils portent sur la même période.",
+              "zh": "可以比较这些档案，但还须它们覆盖同一时期。",
+              "use": "要求先核查可比性，不断言它们一定来自不同时期；portent 为虚拟式。"
+            },
+            {
+              "fr": "Le comité a vérifié les chiffres sur ce point ; il n’a pas pour autant approuvé l’ensemble du rapport.",
+              "zh": "委员会核查了这一点的数字，并不因此认可整份报告。",
+              "use": "核查对象受 sur ce point 限定，后句明确阻断整体认可。"
+            }
+          ]
         }
       ],
       "comparison": "or 添入关键事实；donc / partant 从前提推出结果。cela étant 承认前文但转向另一判断；quoi qu'il en soit 暂置争议、给不受影响的结论。en l'occurrence 具体到本次个案；à cet égard 具体到某一方面。",
       "errors": "不要把所有 or 都译成对立性很强的“然而”：三段论中常译“而”。× quoiqu'il en soit → ✓ quoi qu'il en soit。partant 不能只因两句相邻就使用；需可说明推导关系。",
-      "boundaries": "连接词标示逻辑，不能替代论据。au demeurant / partant 偏正式，日常口语无需刻意使用。三段论中 or 常译为“而”，例如“而苏格拉底是人”，避免无端加入对立。"
+      "boundaries": "连接词标示逻辑，不能替代论据。au demeurant / partant 偏正式，日常口语无需刻意使用。三段论中 or 常译为“而”，例如“而苏格拉底是人”，避免无端加入对立。",
+      "related": [
+        "c1-inversion",
+        "c1-connecteurs-soutenus",
+        "c2-ellipse"
+      ],
+      "practice": [
+        {
+          "q": "压缩为一句且保留局部评价：La procédure répond plus vite. À cet égard, elle représente un progrès.",
+          "a": "La procédure représente un progrès en matière de délai de réponse.",
+          "note": "不能简写为 La procédure est meilleure en tout。须保留评价维度；不增加费用或质量结论。"
+        },
+        {
+          "q": "Encore faudrait-il que les données soient comparables 是否断言数据不可比？",
+          "a": "Non. La phrase présente la comparabilité comme une condition à vérifier avant de poursuivre.",
+          "note": "可以暗示说话者有所怀疑，但不能把语用保留自动升级为事实否定。"
+        },
+        {
+          "q": "“审读组只核对第三段数字”不超过25法词改写，不暗示全文获批。",
+          "a": "Le comité n’a vérifié que les chiffres du troisième paragraphe.",
+          "note": "保留局部核查范围；不据此声称事实上从未批准全文。如需解释推论边界，可补 Cette vérification ne vaut pas approbation de l’ensemble du texte。不能把字数压缩自评直接换为语言等级。"
+        }
+      ]
     },
     "c2-exclamation": {
       "sections": [

@@ -1,0 +1,10 @@
+{
+  "text": "Je ne l’ai pas vu depuis deux mois.",
+  "text_sha256": "838fe15ee3af9259d73853e2c02bee3adc82168e6141cea40d0b92a67bf1b64e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

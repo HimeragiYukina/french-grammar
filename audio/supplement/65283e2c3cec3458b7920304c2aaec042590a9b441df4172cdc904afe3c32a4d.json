@@ -1,0 +1,10 @@
+{
+  "text": "Il a peut-être été mal informé ; quoi qu'il en soit, il doit corriger son erreur.",
+  "text_sha256": "65283e2c3cec3458b7920304c2aaec042590a9b441df4172cdc904afe3c32a4d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

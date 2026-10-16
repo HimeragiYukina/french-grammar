@@ -1,0 +1,10 @@
+{
+  "text": "J’ai terminé ce travail en une heure.",
+  "text_sha256": "a88f3dfbe5c2b9fc193888b441db6c55fa4fd16fd4e001a2c6148e7a03b641e9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

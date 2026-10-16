@@ -1,0 +1,10 @@
+{
+  "text": "Cas pièges : fait + inf. invariable ; avec avoir, participe suivi d’un infinitif (accord si le COD antéposé du participe est aussi le sujet sous-entendu de l’infinitif) ; COD = en → généralement pas d’accord.",
+  "text_sha256": "460081df62b0ab75b67a8d1eb716cc5ceea532a7c465757569a542d217173273",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

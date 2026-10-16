@@ -1,0 +1,10 @@
+{
+  "text": "Il y en a trois.",
+  "text_sha256": "c57546dd8ad07bab6bd993d9f7928c5bb66ba13b9cc8359b9662e4548a927636",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

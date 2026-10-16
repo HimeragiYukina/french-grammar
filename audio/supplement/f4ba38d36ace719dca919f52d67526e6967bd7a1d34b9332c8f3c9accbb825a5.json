@@ -1,0 +1,10 @@
+{
+  "text": "Tous les hommes sont mortels ; or Socrate est un homme ; donc Socrate est mortel.",
+  "text_sha256": "f4ba38d36ace719dca919f52d67526e6967bd7a1d34b9332c8f3c9accbb825a5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

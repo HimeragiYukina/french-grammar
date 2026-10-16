@@ -1,0 +1,10 @@
+{
+  "text": "La procédure représente un progrès en matière de délai de réponse.",
+  "text_sha256": "8819e817ce69d9e5715e4ed1bed04d0fb6eae4358b56044a6ad5387e008e3a0f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

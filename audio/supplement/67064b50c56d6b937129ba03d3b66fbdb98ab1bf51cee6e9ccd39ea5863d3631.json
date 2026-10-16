@@ -1,0 +1,10 @@
+{
+  "text": "J’habite à Montréal depuis trois ans.",
+  "text_sha256": "67064b50c56d6b937129ba03d3b66fbdb98ab1bf51cee6e9ccd39ea5863d3631",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

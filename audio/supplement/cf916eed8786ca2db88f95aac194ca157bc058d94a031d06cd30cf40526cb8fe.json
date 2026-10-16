@@ -1,0 +1,10 @@
+{
+  "text": "Il était très fatigué. Pourtant, il a terminé le travail.",
+  "text_sha256": "cf916eed8786ca2db88f95aac194ca157bc058d94a031d06cd30cf40526cb8fe",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

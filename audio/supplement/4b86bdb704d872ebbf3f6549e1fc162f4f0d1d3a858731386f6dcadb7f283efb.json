@@ -1,0 +1,10 @@
+{
+  "text": "Je ne bois pas du lait, mais du thé.",
+  "text_sha256": "4b86bdb704d872ebbf3f6549e1fc162f4f0d1d3a858731386f6dcadb7f283efb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}

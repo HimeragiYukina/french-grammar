@@ -1,0 +1,10 @@
+{
+  "text": "Nous avons voyagé pendant trois semaines l'été dernier.",
+  "text_sha256": "967a2e8957b876a693238e7759b09d1c741f010cb49c8dae64f8af7a73d93913",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ]
+}
