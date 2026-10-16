@@ -1,0 +1,122 @@
+[
+  {
+    "level": "A1",
+    "point": "a1-negation",
+    "sections": [
+      {
+        "title": "书包里的不存在、类别与具体选择",
+        "explanation": "以下是独立的课堂书包情境。普通数量否定把不定冠词变为de，元音前写d’；être后否定物品类别保留不定冠词。老师已出示蓝色和黑色笔记本时，否定选择那个蓝本子仍保留定冠词。不能把不存在、物品类别和具体选择都改成同一种冠词。",
+        "examples": [
+          {
+            "fr": "Ce n’est pas un cahier, c’est un livre.",
+            "zh": "这不是笔记本，是一本书。",
+            "use": "否定类别；être后保留un。"
+          },
+          {
+            "fr": "Il n’y a pas de cahiers dans ce sac.",
+            "zh": "这个书包里没有笔记本。",
+            "use": "普通不存在；des在该数量否定中变de。"
+          },
+          {
+            "fr": "Je ne prends pas le cahier bleu. Je prends le cahier noir.",
+            "zh": "我不要那个蓝色笔记本。我要那个黑色笔记本。",
+            "use": "两个本子已由老师出示，le回指具体物品。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "普通库存陈述，没有对比或强调数量：书包里没有笔记本。改正Il n’y a pas des cahiers dans ce sac.，写完整句。",
+        "a": "Il n’y a pas de cahiers dans ce sac.",
+        "note": "普通数量否定把des改de；不是把名词强制改成单数。也可用Il n’y a aucun cahier dans ce sac，但本题先掌握de结构。"
+      },
+      {
+        "q": "老师出示蓝本子和黑本子。你拒绝蓝本子，但选择黑本子。原总结Je ne prends pas de cahier遗漏了什么？写两句法语保留两个具体选择。",
+        "a": "Je ne prends pas le cahier bleu. Je prends le cahier noir.",
+        "note": "原总结说不拿任何笔记本，遗漏实际选择黑本子的事实。两个本子已被指定，保留定冠词；也接受Je ne choisis pas le cahier bleu, mais le cahier noir。"
+      }
+    ],
+    "reviewMode": "Single-agent second reading; no independent peer review"
+  },
+  {
+    "level": "A2",
+    "point": "a2-pc-vs-imp",
+    "sections": [
+      {
+        "title": "排练三小时也可用复合过去时：整体与当时画面",
+        "explanation": "独立排练情境中，时态选择取决于叙事角度。可把三小时排练看成完成的整体；也可进入某一时刻，描述电话响时正在进行的活动。未完成过去时不自动表示永远没有完成；一个后续事件也不必是背景活动停止的原因。",
+        "examples": [
+          {
+            "fr": "Nous avons répété pendant trois heures, puis nous sommes rentrés.",
+            "zh": "我们排练了三小时，然后回家。",
+            "use": "有边界的整体，持续较长仍可用复合过去时。"
+          },
+          {
+            "fr": "Nous répétions quand le téléphone du responsable a sonné.",
+            "zh": "负责人的电话响时，我们正在排练。",
+            "use": "正在进行的活动是观察背景，电话响是进入画面的事件；未说明因电话而停止排练。"
+          },
+          {
+            "fr": "La salle était calme et les fenêtres étaient ouvertes.",
+            "zh": "当时厅里很安静，窗户开着。",
+            "use": "状态背景，不因为静态就推出持续了整天。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "排练已结束；从开始到结束共三小时，然后大家回家。用复合过去时写出这两个完整事件，不因三小时较长而改用未完成过去时。",
+        "a": "Nous avons répété pendant trois heures, puis nous sommes rentrés.",
+        "note": "可写Nous avons fait trois heures de répétition, puis nous sommes rentrés。原句时间长度并不强制使用未完成过去时；女性全体主语相应写rentrées。"
+      },
+      {
+        "q": "只给观察：Quand le téléphone a sonné, Nora rangeait les partitions. 同伴据此断言她已经整理完所有乐谱。用原观察句纠正，并说明完成结果是否已给出。",
+        "a": "Nora rangeait les partitions quand le téléphone a sonné. La phrase ne dit pas si elle a terminé ce travail.",
+        "note": "保rangeait的当时画面，不能改成已整理完。可用中文补充结果未知；也不能反向断言她后来一定没有整理完。"
+      }
+    ],
+    "reviewMode": "Single-agent second reading; no independent peer review"
+  },
+  {
+    "level": "B1",
+    "point": "b1-pqp",
+    "sections": [
+      {
+        "title": "称好面粉是在大家进门前：不用距离远近替代过去参照",
+        "explanation": "以下是独立的虚构烘焙课堂叙述，只比较先后，不提供操作指引。愈过去时把一个完成动作放在另一个过去事件之前，可能只早几分钟。顺叙可以用两个复合过去时；改成未完成过去时则把听者带进当时仍在进行的活动，意义不同。",
+        "examples": [
+          {
+            "fr": "Quand le groupe est entré dans l’atelier, Hugo avait déjà pesé la farine.",
+            "zh": "大家进入教室时，雨果已经称好面粉。",
+            "use": "称好先于进门；不说明具体早了多久。"
+          },
+          {
+            "fr": "Hugo a pesé la farine, puis le groupe est entré.",
+            "zh": "雨果称好面粉，然后大家进来了。",
+            "use": "用顺叙恢复相同的先后关系。"
+          },
+          {
+            "fr": "Quand le groupe est entré, Hugo pesait la farine.",
+            "zh": "大家进来时，雨果正在称面粉。",
+            "use": "当时画面，不再是此前已称好的同一信息。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "q": "先称好面粉，后来大家进教室。用Quand把进门设为过去参照，并明确此前已经称好，不只说正在称。",
+        "a": "Quand le groupe est entré dans l’atelier, Hugo avait déjà pesé la farine.",
+        "note": "avait pesé标先前完成；pesait变成当时正在称，a pesé单独出现在此句时不明确标出本题要求的先前完成。也接受Lorsque le groupe est arrivé, Hugo avait déjà pesé la farine。"
+      },
+      {
+        "q": "只知Hugo avait préparé les étiquettes avant l’arrivée du groupe. 能否断言准备在前一天？写两句法语保留先后与精确时间未知。",
+        "a": "Hugo avait préparé les étiquettes avant l’arrivée du groupe. On ne connaît pas le moment précis de cette préparation.",
+        "note": "愈过去时不等于昨天或很久前。也可能只早几分钟，但材料没有确定是哪一种；不可把可能性改成事实。"
+      }
+    ],
+    "reviewMode": "Single-agent second reading; no independent peer review"
+  }
+]

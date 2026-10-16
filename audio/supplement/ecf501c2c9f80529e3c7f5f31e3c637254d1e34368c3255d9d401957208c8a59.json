@@ -1,0 +1,30 @@
+{
+  "text": "Lorsque le groupe est arrivé, Hugo avait déjà pesé la farine",
+  "text_sha256": "ecf501c2c9f80529e3c7f5f31e3c637254d1e34368c3255d9d401957208c8a59",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4713832199546486,
+      "source_seconds": 3.4713832199546486,
+      "source_file_sha256": "6fb86db11cc4577ddfa893018d195cf164df1628ce6f9c57de16bb9bee68780b",
+      "file_sha256": "d79d0cc9eb665412d8ae4cc53982702956208fdc20658bc3e08747cf07e91688",
+      "bytes": 28465,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

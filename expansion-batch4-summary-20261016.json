@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-16",
+  "title": "基础时态、否定与信息核对：第四批独立语法配套",
+  "status": "Verified; authorized commit/push original branch",
+  "basis": "实际源与本批前快照逐项相等；新增内容经单代理第二遍校对，非独立同行复审。",
+  "counts": {
+    "newPages": 0,
+    "improvedExistingGrammarPoints": 3,
+    "newSections": 3,
+    "newFrenchExamples": 9,
+    "newExplainedTransferQuestions": 6
+  },
+  "grammarPoints": [
+    {
+      "level": "A1",
+      "pointId": "a1-negation",
+      "newPages": 0,
+      "improvedExistingGrammarPoints": 1,
+      "newSections": 1,
+      "newExamples": 3,
+      "newExplainedQuestions": 2,
+      "sectionTitle": "书包里的不存在、类别与具体选择",
+      "actualSourceCheck": "verified"
+    },
+    {
+      "level": "A2",
+      "pointId": "a2-pc-vs-imp",
+      "newPages": 0,
+      "improvedExistingGrammarPoints": 1,
+      "newSections": 1,
+      "newExamples": 3,
+      "newExplainedQuestions": 2,
+      "sectionTitle": "排练三小时也可用复合过去时：整体与当时画面",
+      "actualSourceCheck": "verified"
+    },
+    {
+      "level": "B1",
+      "pointId": "b1-pqp",
+      "newPages": 0,
+      "improvedExistingGrammarPoints": 1,
+      "newSections": 1,
+      "newExamples": 3,
+      "newExplainedQuestions": 2,
+      "sectionTitle": "称好面粉是在大家进门前：不用距离远近替代过去参照",
+      "actualSourceCheck": "verified"
+    }
+  ],
+  "practiceUse": "依据例句和迁移题比较否定对象、叙事角度与过去参照；可与同伴解释答案，也可单独核对。这里不记录或证明已完成真实互动。",
+  "remainingGaps": [
+    "三个既有语法点的局部深化，不代表所有语域、例外和应用情境均覆盖。",
+    "语法判断需要在更长阅读与真实交流中复现；例句和题目正确不等于语言等级已达标。"
+  ],
+  "audio": {
+    "ownExactUnits": 3638,
+    "newCPURecordings": 19,
+    "newMP3FullDecodeVerified": 19,
+    "originalWavsRetained": true,
+    "sourceSpanMismatches": 0,
+    "technicalSamples": 6,
+    "technicalFailures": 0,
+    "thresholdFlags": 0,
+    "humanListeningPerformed": false
+  },
+  "tests": {
+    "passed": {
+      "static": "3sections6questions exact append-only ledger, schema and historical baselines",
+      "grammarPoints": 97,
+      "audioBrowser": "own HTTP/file playback, catalog links/filter/pagination/rate passed"
+    },
+    "failed": [],
+    "pending": [],
+    "notRun": [
+      "Actual human auditory review / speech alignment",
+      "Real human partner interaction",
+      "Real microphone permission",
+      "Installed Google français actual availability"
+    ]
+  },
+  "git": {
+    "authorized": true,
+    "delivery": "Commit and normal push original branch after verification; remote receipt separate",
+    "newDeployment": false
+  },
+  "limits": [
+    "新增内容和任务数量不代表CEFR等级达成，也不是官方考试评分。",
+    "原创虚构材料并非真实专业或法规指引。",
+    "仍需更多连续长输入、跨话题复现和真实互动，不能声称全课程已完整。"
+  ],
+  "wordCountConvention": "空白分词，不拆省音及连字符，独立标点token计入；非官方考试算法。",
+  "reviewMode": "Single-agent second reading. Separate source reconstruction validates exact offsets/hashes, not independent pedagogical or auditory review.",
+  "completedUtc": "2026-10-16T15:30:08.183293+00:00"
+}

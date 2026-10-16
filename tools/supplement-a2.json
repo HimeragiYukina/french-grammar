@@ -83,6 +83,27 @@
             "use": "按题目视角整体回顾昨天的这次安排；不由否定或hier单独决定时态。"
           }
         ]
+      },
+      {
+        "title": "排练三小时也可用复合过去时：整体与当时画面",
+        "explanation": "独立排练情境中，时态选择取决于叙事角度。可把三小时排练看成完成的整体；也可进入某一时刻，描述电话响时正在进行的活动。未完成过去时不自动表示永远没有完成；一个后续事件也不必是背景活动停止的原因。",
+        "examples": [
+          {
+            "fr": "Nous avons répété pendant trois heures, puis nous sommes rentrés.",
+            "zh": "我们排练了三小时，然后回家。",
+            "use": "有边界的整体，持续较长仍可用复合过去时。"
+          },
+          {
+            "fr": "Nous répétions quand le téléphone du responsable a sonné.",
+            "zh": "负责人的电话响时，我们正在排练。",
+            "use": "正在进行的活动是观察背景，电话响是进入画面的事件；未说明因电话而停止排练。"
+          },
+          {
+            "fr": "La salle était calme et les fenêtres étaient ouvertes.",
+            "zh": "当时厅里很安静，窗户开着。",
+            "use": "状态背景，不因为静态就推出持续了整天。"
+          }
+        ]
       }
     ],
     "practice": [
@@ -100,6 +121,16 @@
         "q": "用 quand 写一个过去背景时期加习惯的句子，证明它不自动要求复合过去时。",
         "a": "Quand nous habitions à Lille, nous allions souvent au marché.",
         "note": "其他背景时期和习惯可接受；解释应说清观察角度，而非宣称quand永远搭配未完成过去时。"
+      },
+      {
+        "q": "排练已结束；从开始到结束共三小时，然后大家回家。用复合过去时写出这两个完整事件，不因三小时较长而改用未完成过去时。",
+        "a": "Nous avons répété pendant trois heures, puis nous sommes rentrés.",
+        "note": "可写Nous avons fait trois heures de répétition, puis nous sommes rentrés。原句时间长度并不强制使用未完成过去时；女性全体主语相应写rentrées。"
+      },
+      {
+        "q": "只给观察：Quand le téléphone a sonné, Nora rangeait les partitions. 同伴据此断言她已经整理完所有乐谱。用原观察句纠正，并说明完成结果是否已给出。",
+        "a": "Nora rangeait les partitions quand le téléphone a sonné. La phrase ne dit pas si elle a terminé ce travail.",
+        "note": "保rangeait的当时画面，不能改成已整理完。可用中文补充结果未知；也不能反向断言她后来一定没有整理完。"
       }
     ],
     "related": [

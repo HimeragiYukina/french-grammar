@@ -2375,6 +2375,27 @@ window.GRAMMAR_DATA.A1={
               "use": "对比种类，保留 du；不同于单纯不喝任何茶。"
             }
           ]
+        },
+        {
+          "title": "书包里的不存在、类别与具体选择",
+          "explanation": "以下是独立的课堂书包情境。普通数量否定把不定冠词变为de，元音前写d’；être后否定物品类别保留不定冠词。老师已出示蓝色和黑色笔记本时，否定选择那个蓝本子仍保留定冠词。不能把不存在、物品类别和具体选择都改成同一种冠词。",
+          "examples": [
+            {
+              "fr": "Ce n’est pas un cahier, c’est un livre.",
+              "zh": "这不是笔记本，是一本书。",
+              "use": "否定类别；être后保留un。"
+            },
+            {
+              "fr": "Il n’y a pas de cahiers dans ce sac.",
+              "zh": "这个书包里没有笔记本。",
+              "use": "普通不存在；des在该数量否定中变de。"
+            },
+            {
+              "fr": "Je ne prends pas le cahier bleu. Je prends le cahier noir.",
+              "zh": "我不要那个蓝色笔记本。我要那个黑色笔记本。",
+              "use": "两个本子已由老师出示，le回指具体物品。"
+            }
+          ]
         }
       ],
       "comparison": "Je n’aime pas le café（不喜欢咖啡这一类）/ Je ne bois pas de café（不喝咖啡，量为零）；Ce n’est pas du café（那不是咖啡）保留 du。",
@@ -2391,6 +2412,16 @@ window.GRAMMAR_DATA.A1={
           "q": "一位朋友以为pas后总删冠词。用“不喜欢咖啡”和“没有咖啡”两句纠正。",
           "a": "Je n’aime pas le café. Il n’y a pas de café.",
           "note": "前句否定喜好整类保留le；后句普通存在/数量否定改de。不要求所有pas后冠词都相同。"
+        },
+        {
+          "q": "普通库存陈述，没有对比或强调数量：书包里没有笔记本。改正Il n’y a pas des cahiers dans ce sac.，写完整句。",
+          "a": "Il n’y a pas de cahiers dans ce sac.",
+          "note": "普通数量否定把des改de；不是把名词强制改成单数。也可用Il n’y a aucun cahier dans ce sac，但本题先掌握de结构。"
+        },
+        {
+          "q": "老师出示蓝本子和黑本子。你拒绝蓝本子，但选择黑本子。原总结Je ne prends pas de cahier遗漏了什么？写两句法语保留两个具体选择。",
+          "a": "Je ne prends pas le cahier bleu. Je prends le cahier noir.",
+          "note": "原总结说不拿任何笔记本，遗漏实际选择黑本子的事实。两个本子已被指定，保留定冠词；也接受Je ne choisis pas le cahier bleu, mais le cahier noir。"
         }
       ]
     },

@@ -1,0 +1,30 @@
+{
+  "text": "Hugo avait préparé les étiquettes avant l’arrivée du groupe. On ne connaît pas le moment précis de cette préparation.",
+  "text_sha256": "a0d1e92a9f2083f54262411df7ab568f0c9ec5e4d68c9a40c6ed4b8e6ff21a7c",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.944308390022676,
+      "source_seconds": 5.944308390022676,
+      "source_file_sha256": "8a7c747e5adb240b04ff924972a1d7038076f74242c08e1bd05bfec8fa0dc15f",
+      "file_sha256": "3a7d46a21405501217c89f3bd61216e064bdf81681e12c871878b83ca0a28c77",
+      "bytes": 48318,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

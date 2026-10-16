@@ -1,0 +1,30 @@
+{
+  "text": "Je ne prends pas le cahier bleu. Je prends le cahier noir.",
+  "text_sha256": "8a34545eeebd5b50db29389d47d5483f95f9fd841c0d05ec1caa7df6c19b07a3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.030204081632653,
+      "source_seconds": 3.030204081632653,
+      "source_file_sha256": "cb7725420b319f4dfb3b930b3124f91c07b3be0a79c3b59f8afd785f59667323",
+      "file_sha256": "a10579b6ab3223e15047249094a5033de3645bbd9f2d53e2514910c32fc9cd24",
+      "bytes": 24912,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -125,7 +125,29 @@
     ]
   },
   "b1-pqp": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "称好面粉是在大家进门前：不用距离远近替代过去参照",
+        "explanation": "以下是独立的虚构烘焙课堂叙述，只比较先后，不提供操作指引。愈过去时把一个完成动作放在另一个过去事件之前，可能只早几分钟。顺叙可以用两个复合过去时；改成未完成过去时则把听者带进当时仍在进行的活动，意义不同。",
+        "examples": [
+          {
+            "fr": "Quand le groupe est entré dans l’atelier, Hugo avait déjà pesé la farine.",
+            "zh": "大家进入教室时，雨果已经称好面粉。",
+            "use": "称好先于进门；不说明具体早了多久。"
+          },
+          {
+            "fr": "Hugo a pesé la farine, puis le groupe est entré.",
+            "zh": "雨果称好面粉，然后大家进来了。",
+            "use": "用顺叙恢复相同的先后关系。"
+          },
+          {
+            "fr": "Quand le groupe est entré, Hugo pesait la farine.",
+            "zh": "大家进来时，雨果正在称面粉。",
+            "use": "当时画面，不再是此前已称好的同一信息。"
+          }
+        ]
+      }
+    ],
     "related": [
       "a2-pc-vs-imp",
       "b1-discours-indirect",
@@ -141,6 +163,16 @@
         "q": "按给定视角改错并解释：Les lettres qu’elle avait écrit étaient déjà dans l’enveloppe quand je suis arrivé.",
         "a": "Les lettres qu’elle avait écrites étaient déjà dans l’enveloppe quand je suis arrivé.",
         "note": "que回指阴性复数lettres，作écrire前置COD，因此écrites；不是因为elle是女性而配合。étaient这里描述状态，不需要一律改成愈过去时。je若指女性，可写quand je suis arrivée；这不影响lettres与écrites的配合。"
+      },
+      {
+        "q": "先称好面粉，后来大家进教室。用Quand把进门设为过去参照，并明确此前已经称好，不只说正在称。",
+        "a": "Quand le groupe est entré dans l’atelier, Hugo avait déjà pesé la farine.",
+        "note": "avait pesé标先前完成；pesait变成当时正在称，a pesé单独出现在此句时不明确标出本题要求的先前完成。也接受Lorsque le groupe est arrivé, Hugo avait déjà pesé la farine。"
+      },
+      {
+        "q": "只知Hugo avait préparé les étiquettes avant l’arrivée du groupe. 能否断言准备在前一天？写两句法语保留先后与精确时间未知。",
+        "a": "Hugo avait préparé les étiquettes avant l’arrivée du groupe. On ne connaît pas le moment précis de cette préparation.",
+        "note": "愈过去时不等于昨天或很久前。也可能只早几分钟，但材料没有确定是哪一种；不可把可能性改成事实。"
       }
     ]
   },

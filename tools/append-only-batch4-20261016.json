@@ -1,0 +1,198 @@
+{
+  "batch": "4",
+  "counts": {
+    "sections": 3,
+    "practice": 6
+  },
+  "files": [
+    {
+      "file": "tools/supplement-a1.json",
+      "before_sha256": "3a84ea1811bfbe40267b937609b3410dcb8bc8c6b1ab08e8fc760dc383947954",
+      "after_sha256": "e63829323d6b511f9145d2bd65d24fe196ad189794a9f7cd8d6de322af14a491",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "a1-negation",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "书包里的不存在、类别与具体选择",
+              "explanation": "以下是独立的课堂书包情境。普通数量否定把不定冠词变为de，元音前写d’；être后否定物品类别保留不定冠词。老师已出示蓝色和黑色笔记本时，否定选择那个蓝本子仍保留定冠词。不能把不存在、物品类别和具体选择都改成同一种冠词。",
+              "examples": [
+                {
+                  "fr": "Ce n’est pas un cahier, c’est un livre.",
+                  "zh": "这不是笔记本，是一本书。",
+                  "use": "否定类别；être后保留un。"
+                },
+                {
+                  "fr": "Il n’y a pas de cahiers dans ce sac.",
+                  "zh": "这个书包里没有笔记本。",
+                  "use": "普通不存在；des在该数量否定中变de。"
+                },
+                {
+                  "fr": "Je ne prends pas le cahier bleu. Je prends le cahier noir.",
+                  "zh": "我不要那个蓝色笔记本。我要那个黑色笔记本。",
+                  "use": "两个本子已由老师出示，le回指具体物品。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "a1-negation",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "fe9d8cca2fa643e1157ffc77f0ffba1dd7ef51ca0487d5d770b7a52993a699f0",
+          "added": [
+            {
+              "q": "普通库存陈述，没有对比或强调数量：书包里没有笔记本。改正Il n’y a pas des cahiers dans ce sac.，写完整句。",
+              "a": "Il n’y a pas de cahiers dans ce sac.",
+              "note": "普通数量否定把des改de；不是把名词强制改成单数。也可用Il n’y a aucun cahier dans ce sac，但本题先掌握de结构。"
+            },
+            {
+              "q": "老师出示蓝本子和黑本子。你拒绝蓝本子，但选择黑本子。原总结Je ne prends pas de cahier遗漏了什么？写两句法语保留两个具体选择。",
+              "a": "Je ne prends pas le cahier bleu. Je prends le cahier noir.",
+              "note": "原总结说不拿任何笔记本，遗漏实际选择黑本子的事实。两个本子已被指定，保留定冠词；也接受Je ne choisis pas le cahier bleu, mais le cahier noir。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-a2.json",
+      "before_sha256": "cfe0ce0ec6dd2db5f57319085f22bda970e887b6428e4c2a851c1c3f98b9496d",
+      "after_sha256": "b1949c426f9d711dd19fdcce014e423c7a9223b1e797f4d8a74d3f4d66aae133",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "a2-pc-vs-imp",
+            "sections"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "60332aa9f201fe0d8771d4df74be593e6aabce71a75f75fea8bcf18c22ea0493",
+          "added": [
+            {
+              "title": "排练三小时也可用复合过去时：整体与当时画面",
+              "explanation": "独立排练情境中，时态选择取决于叙事角度。可把三小时排练看成完成的整体；也可进入某一时刻，描述电话响时正在进行的活动。未完成过去时不自动表示永远没有完成；一个后续事件也不必是背景活动停止的原因。",
+              "examples": [
+                {
+                  "fr": "Nous avons répété pendant trois heures, puis nous sommes rentrés.",
+                  "zh": "我们排练了三小时，然后回家。",
+                  "use": "有边界的整体，持续较长仍可用复合过去时。"
+                },
+                {
+                  "fr": "Nous répétions quand le téléphone du responsable a sonné.",
+                  "zh": "负责人的电话响时，我们正在排练。",
+                  "use": "正在进行的活动是观察背景，电话响是进入画面的事件；未说明因电话而停止排练。"
+                },
+                {
+                  "fr": "La salle était calme et les fenêtres étaient ouvertes.",
+                  "zh": "当时厅里很安静，窗户开着。",
+                  "use": "状态背景，不因为静态就推出持续了整天。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "a2-pc-vs-imp",
+            "practice"
+          ],
+          "prefix_length": 3,
+          "prefix_sha256": "ba6bb5b9f17883cfad99582fd0bddd5b5ee2639f91a8e3e13f919f4c00318796",
+          "added": [
+            {
+              "q": "排练已结束；从开始到结束共三小时，然后大家回家。用复合过去时写出这两个完整事件，不因三小时较长而改用未完成过去时。",
+              "a": "Nous avons répété pendant trois heures, puis nous sommes rentrés.",
+              "note": "可写Nous avons fait trois heures de répétition, puis nous sommes rentrés。原句时间长度并不强制使用未完成过去时；女性全体主语相应写rentrées。"
+            },
+            {
+              "q": "只给观察：Quand le téléphone a sonné, Nora rangeait les partitions. 同伴据此断言她已经整理完所有乐谱。用原观察句纠正，并说明完成结果是否已给出。",
+              "a": "Nora rangeait les partitions quand le téléphone a sonné. La phrase ne dit pas si elle a terminé ce travail.",
+              "note": "保rangeait的当时画面，不能改成已整理完。可用中文补充结果未知；也不能反向断言她后来一定没有整理完。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-b1.json",
+      "before_sha256": "42851af18ed549dc8d798cd1f4218862c1139993bf5cfd9ecb2aed149b81e7b9",
+      "after_sha256": "c8610e64fdb3f0f97ccbe5825ed8fa546770d1d3e53a4826cce9638f417b26e1",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "b1-pqp",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "称好面粉是在大家进门前：不用距离远近替代过去参照",
+              "explanation": "以下是独立的虚构烘焙课堂叙述，只比较先后，不提供操作指引。愈过去时把一个完成动作放在另一个过去事件之前，可能只早几分钟。顺叙可以用两个复合过去时；改成未完成过去时则把听者带进当时仍在进行的活动，意义不同。",
+              "examples": [
+                {
+                  "fr": "Quand le groupe est entré dans l’atelier, Hugo avait déjà pesé la farine.",
+                  "zh": "大家进入教室时，雨果已经称好面粉。",
+                  "use": "称好先于进门；不说明具体早了多久。"
+                },
+                {
+                  "fr": "Hugo a pesé la farine, puis le groupe est entré.",
+                  "zh": "雨果称好面粉，然后大家进来了。",
+                  "use": "用顺叙恢复相同的先后关系。"
+                },
+                {
+                  "fr": "Quand le groupe est entré, Hugo pesait la farine.",
+                  "zh": "大家进来时，雨果正在称面粉。",
+                  "use": "当时画面，不再是此前已称好的同一信息。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "b1-pqp",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "a5c3eb297fcacaa05d1cc07885727ca7134b32ab69fd5675b57d9d70fe189c53",
+          "added": [
+            {
+              "q": "先称好面粉，后来大家进教室。用Quand把进门设为过去参照，并明确此前已经称好，不只说正在称。",
+              "a": "Quand le groupe est entré dans l’atelier, Hugo avait déjà pesé la farine.",
+              "note": "avait pesé标先前完成；pesait变成当时正在称，a pesé单独出现在此句时不明确标出本题要求的先前完成。也接受Lorsque le groupe est arrivé, Hugo avait déjà pesé la farine。"
+            },
+            {
+              "q": "只知Hugo avait préparé les étiquettes avant l’arrivée du groupe. 能否断言准备在前一天？写两句法语保留先后与精确时间未知。",
+              "a": "Hugo avait préparé les étiquettes avant l’arrivée du groupe. On ne connaît pas le moment précis de cette préparation.",
+              "note": "愈过去时不等于昨天或很久前。也可能只早几分钟，但材料没有确定是哪一种；不可把可能性改成事实。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "protected_files_sha256": {
+    "append-only-batch2-20261016.json": "5cdfc333160fe3826204a2ac44dcab6619a332dbc471d4765aa94c8c212b71af",
+    "append-only-batch3-20261016.json": "353700af00f121d76d3ee500068eea510dea365d64f40aaab89988a4f61a40ab",
+    "append_batch2_evidence.py": "1488492e962c80202bc0c0114f4c48023f86b9ebff65fdce2693417b77b91555",
+    "append_batch3_evidence.py": "1ced42994671b8002aaed195d88c84f632c782f1d309531bd018504f454d95ff",
+    "content-baseline.json": "a17a54048c334231f27a84457574491fa726696791eadf6945abd666a4e4b225",
+    "strict-review-baseline.json": "25fbee3f19541f18d60be04ad4ace10f4b75c1cd5426d3863110cda368985ea8"
+  },
+  "method": "Exact full-file hashes, unchanged old prefixes and explicit suffixes; restore only in memory before prior batch3/batch2/original checks."
+}
