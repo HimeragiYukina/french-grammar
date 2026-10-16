@@ -1,0 +1,30 @@
+{
+  "text": "Appelez la responsable avant de venir, au cas où la séance aurait été déplacée.",
+  "text_sha256": "ba620c13a3041d05979b90f1a0c9bbd4f3936a55defefd93e70a5fbb96640726",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.050340136054421,
+      "source_seconds": 5.050340136054421,
+      "source_file_sha256": "6e9e885bd13ba1770496712f07dfb8c997faae56ebeef3582eb41c04ecae18c4",
+      "file_sha256": "007e08b2631701687c13eace0efe4e1bc23e70fdf0e0dca93d8c2d3c1f11d937",
+      "bytes": 41213,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

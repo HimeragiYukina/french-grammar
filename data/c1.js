@@ -1339,6 +1339,22 @@ window.GRAMMAR_DATA.C1={
               "use": "quelques 修饰复数名词 efforts，需要 s。"
             }
           ]
+        },
+        {
+          "title": "不论谁负责与不论多重：让步不取消行动条件",
+          "explanation": "摄影俱乐部成员讨论把作品挂在山间展室。quel que＋être虚拟式与后面主语配合，表示无论某属性如何；qui que＋虚拟式引入身份不定的人；si＋形容词＋que表示程度让步。这些结构取消某一差异对主句结论的影响，不承诺一切条件都已满足。尤其不要把“无论谁负责都要检查挂钩”改成“任何人都获准施工”。",
+          "examples": [
+            {
+              "fr": "Quelle que soit la personne chargée de l’accrochage, elle devra vérifier les crochets avant de suspendre les cadres.",
+              "zh": "不论谁负责布展，该负责者都须先检查挂钩，再挂相框。",
+              "use": "quelle随personne阴单，soit虚拟式；主句义务相同，不授予所有人布展权限。elle回指语法阴性的personne，不限定实际负责者为女性。"
+            },
+            {
+              "fr": "Si lourds que soient ces cadres, nous ne renoncerons pas à les présenter, à condition que les supports soient adaptés.",
+              "zh": "这些相框无论多重，我们都不放弃展出，条件是支撑装置合适。",
+              "use": "lourds随cadres阳复，soient复数；程度让步仍可与另一个明确前提并存，不等于无需合适支撑。"
+            }
+          ]
         }
       ],
       "comparison": "Quoiqu’il soit fatigué, il travaille（尽管已经疲倦）与 Quoi qu’il fasse, il se fatigue（不论做什么都累）。Il court aussi vite que son frère（他跑得和他哥哥一样快）是实际程度比较；Aussi vite qu’il coure, il perdra（无论跑得多快，他都会输）用虚拟式表示任意程度也改变不了结论。",
@@ -1358,6 +1374,16 @@ window.GRAMMAR_DATA.C1={
           "q": "同一论点改述为任意程度让步：Cette solution est très coûteuse, mais elle reste nécessaire. 使用si…que，避免条件si。",
           "a": "Si coûteuse que soit cette solution, elle reste nécessaire.",
           "note": "coûteuse与solution阴单；soit虚拟式。表达不论多贵仍必要，不是“如果很贵才必要”。也接受Si coûteuse que cette solution soit。"
+        },
+        {
+          "q": "独立展览通知：无论负责者有多少经验，都须由指定人员核查挂钩。用quel que…soit，以expérience阴性单数为主语，写完整法句；不能改成所有志愿者都能核查。",
+          "a": "Quelle que soit l’expérience de la personne responsable, les crochets doivent être vérifiés par la personne désignée.",
+          "note": "quelle/soit配expérience阴单。也可用quel que…表示人但须重构句子，本题目标保expérience；指定核查人不能被让步范围吞掉。"
+        },
+        {
+          "q": "迁移：展板很昂贵，但俱乐部仍想借用，前提是馆方同意。用si…que程度让步写一句，保阴性复数planches；不得把馆方同意说成已取得。",
+          "a": "Si coûteuses que soient ces planches, le club souhaite les emprunter, à condition que le musée donne son accord.",
+          "note": "coûteuses/soient随planches阴复；也接受Si coûteuses que ces planches soient。souhaite是意愿，à condition que＋虚拟式donne保批准尚为前提；不接受si条件从句机械替代程度让步。"
         }
       ]
     },

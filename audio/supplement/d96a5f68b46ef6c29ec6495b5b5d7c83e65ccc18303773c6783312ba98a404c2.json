@@ -1,0 +1,30 @@
+{
+  "text": "Si coûteuses que ces planches soient",
+  "text_sha256": "d96a5f68b46ef6c29ec6495b5b5d7c83e65ccc18303773c6783312ba98a404c2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.6253968253968254,
+      "source_seconds": 1.6253968253968254,
+      "source_file_sha256": "3afa1844e14e908dc7940031f72e258edadbd1f5dbdaadce4afafacb2bb808d0",
+      "file_sha256": "0683ae98f207f2214e7383f64b05420ee52c550abd944505d3df7493e4f1fe38",
+      "bytes": 13836,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

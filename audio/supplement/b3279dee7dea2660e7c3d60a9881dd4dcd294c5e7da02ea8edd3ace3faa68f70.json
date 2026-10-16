@@ -1,0 +1,30 @@
+{
+  "text": "Nous demandons une vérification pour que les visiteurs puissent être accueillis dans les conditions prévues.",
+  "text_sha256": "b3279dee7dea2660e7c3d60a9881dd4dcd294c5e7da02ea8edd3ace3faa68f70",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.655600907029479,
+      "source_seconds": 4.655600907029479,
+      "source_file_sha256": "cf4d06c1e999724fccf6ba6a7355931806cb29bf13ba46e08959f496339ee5e0",
+      "file_sha256": "ceaa6da8c6074001394047983a739e2a27f3da741c34371c42f29baaf1a0695b",
+      "bytes": 38078,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

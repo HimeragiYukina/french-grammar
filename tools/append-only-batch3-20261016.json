@@ -1,0 +1,185 @@
+{
+  "batch": "grammar-original-expansion-20261016-batch3",
+  "scope": "Grammar-only batch3: append-only supplements; prior batch2 ledger remains unchanged.",
+  "counts": {
+    "sections": 3,
+    "practice": 6
+  },
+  "protected_files_sha256": {
+    "append-only-batch2-20261016.json": "5cdfc333160fe3826204a2ac44dcab6619a332dbc471d4765aa94c8c212b71af",
+    "content-baseline.json": "a17a54048c334231f27a84457574491fa726696791eadf6945abd666a4e4b225",
+    "strict-review-baseline.json": "25fbee3f19541f18d60be04ad4ace10f4b75c1cd5426d3863110cda368985ea8"
+  },
+  "files": [
+    {
+      "file": "tools/supplement-b2.json",
+      "before_sha256": "c62debcc95af12d85af250b03eedce03f625064cf129dd5b93e3b854b9efc3bd",
+      "after_sha256": "25d2ee2fec92c1beed54f6f72f67b2d4e037bdd7d31f06ff91550303a1ba3465",
+      "changes": [
+        {
+          "path": [
+            "b2-but-condition",
+            "sections"
+          ],
+          "operation": "append",
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "预防、必要条件与未获批准的替代：不要把目的写成结果",
+              "explanation": "独立场景：社区陶艺工坊讨论是否开放一次烧窑体验。指导员可用à condition que规定必要条件，用pour que表达检查的目的，用au cas où预备故障方案。达到一个条件并不自动表示其余条件满足；目的从句也不证明安全检查已经通过。若故障只是预防性设想，不应改述成窑炉已经坏了。",
+              "examples": [
+                {
+                  "fr": "L’atelier ouvrira aux visiteurs à condition que la responsable ait confirmé la présence d’un encadrant.",
+                  "zh": "工坊将向访客开放，条件是负责人已确认有指导人员在场。",
+                  "use": "à condition que后用虚拟式过去ait confirmé，表示开放前需完成确认；不由此断言确认已获得。"
+                },
+                {
+                  "fr": "Appelez la responsable avant de venir, au cas où la séance aurait été déplacée.",
+                  "zh": "来之前请联系负责人，以防活动场次已经调整了时间或地点。",
+                  "use": "au cas où用条件式过去aurait été déplacée，预防性考虑此前可能发生的时间或地点调整，不说场次确实时间或地点调整。"
+                },
+                {
+                  "fr": "Nous demandons une vérification pour que les visiteurs puissent être accueillis dans les conditions prévues.",
+                  "zh": "我们要求核查，以便能按预定条件接待访客。",
+                  "use": "pour que+puissent表目的；核查申请不等于接待条件已获验证。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": [
+            "b2-but-condition",
+            "practice"
+          ],
+          "operation": "append",
+          "prefix_length": 2,
+          "prefix_sha256": "3a559a0d63ac1d638d8887d4087e94a36185e3d2d30d38e606a5c1cbbc69cccf",
+          "added": [
+            {
+              "q": "陶艺工坊只确认已订好接待材料，尚未确认指导员。用à condition que和虚拟式过去写一句说明开放仍须负责人完成哪项确认；不得把备料当全部条件满足。",
+              "a": "L’atelier pourra ouvrir aux visiteurs à condition que la responsable ait confirmé la présence d’un encadrant.",
+              "note": "ait confirmé标记开放前要完成的确认；材料已订不替代人员确认。也可用Nous pourrons accueillir les visiteurs…，但不能写la présence est déjà confirmée。开放是有条件的可能，不是单凭备料就已实现。"
+            },
+            {
+              "q": "指导员在周三发送信息：“Appelez avant de venir, au cas où la séance aurait été déplacée.” 同事据此断言场次已改期。写两句法语纠正，并给出一项不依赖改期是否真实的行动。",
+              "a": "Le message envisage un déplacement possible de la séance ; il ne confirme pas que la séance a été déplacée. Il faut appeler avant de venir pour vérifier la situation.",
+              "note": "au cas où+条件式过去给出预防性设想，不蕴含改期真实，也不蕴含一定未改。第二句保留可执行的核查行动。可用La séance a peut-être été déplacée, mais il faut le vérifier等完整表达；不得凭空指定新的日期或操作窑炉的办法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-c1.json",
+      "before_sha256": "0bae3586f4211506c36803b7d7853496c8ecf54c60c5f4b8127fcea539bc917e",
+      "after_sha256": "16e0265c4112755e1c252473127c039bb4cf57a6f05a5e40d73a1bfbad40290c",
+      "changes": [
+        {
+          "path": [
+            "c1-concession-indefinie",
+            "sections"
+          ],
+          "operation": "append",
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "不论谁负责与不论多重：让步不取消行动条件",
+              "explanation": "摄影俱乐部成员讨论把作品挂在山间展室。quel que＋être虚拟式与后面主语配合，表示无论某属性如何；qui que＋虚拟式引入身份不定的人；si＋形容词＋que表示程度让步。这些结构取消某一差异对主句结论的影响，不承诺一切条件都已满足。尤其不要把“无论谁负责都要检查挂钩”改成“任何人都获准施工”。",
+              "examples": [
+                {
+                  "fr": "Quelle que soit la personne chargée de l’accrochage, elle devra vérifier les crochets avant de suspendre les cadres.",
+                  "zh": "不论谁负责布展，该负责者都须先检查挂钩，再挂相框。",
+                  "use": "quelle随personne阴单，soit虚拟式；主句义务相同，不授予所有人布展权限。elle回指语法阴性的personne，不限定实际负责者为女性。"
+                },
+                {
+                  "fr": "Si lourds que soient ces cadres, nous ne renoncerons pas à les présenter, à condition que les supports soient adaptés.",
+                  "zh": "这些相框无论多重，我们都不放弃展出，条件是支撑装置合适。",
+                  "use": "lourds随cadres阳复，soient复数；程度让步仍可与另一个明确前提并存，不等于无需合适支撑。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": [
+            "c1-concession-indefinie",
+            "practice"
+          ],
+          "operation": "append",
+          "prefix_length": 2,
+          "prefix_sha256": "d46242edd5d7e0234e31e74555e462783775a1a956631f25f2a3f3b6fea4c714",
+          "added": [
+            {
+              "q": "独立展览通知：无论负责者有多少经验，都须由指定人员核查挂钩。用quel que…soit，以expérience阴性单数为主语，写完整法句；不能改成所有志愿者都能核查。",
+              "a": "Quelle que soit l’expérience de la personne responsable, les crochets doivent être vérifiés par la personne désignée.",
+              "note": "quelle/soit配expérience阴单。也可用quel que…表示人但须重构句子，本题目标保expérience；指定核查人不能被让步范围吞掉。"
+            },
+            {
+              "q": "迁移：展板很昂贵，但俱乐部仍想借用，前提是馆方同意。用si…que程度让步写一句，保阴性复数planches；不得把馆方同意说成已取得。",
+              "a": "Si coûteuses que soient ces planches, le club souhaite les emprunter, à condition que le musée donne son accord.",
+              "note": "coûteuses/soient随planches阴复；也接受Si coûteuses que ces planches soient。souhaite是意愿，à condition que＋虚拟式donne保批准尚为前提；不接受si条件从句机械替代程度让步。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-c2.json",
+      "before_sha256": "2c7f222d6b9aed50356a4ccc390f957536e75a03d1186b333b70c2b7d3abb8c5",
+      "after_sha256": "d0e42639bd90a33b5365b12acc57ff7428e6bde0ee98210c3a6c1953b8b6b6c1",
+      "changes": [
+        {
+          "path": [
+            "c2-cause-niee",
+            "sections"
+          ],
+          "operation": "append",
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "原因否定不等事实否定：合唱排练的取消",
+              "explanation": "独立原创情境：合唱团原定周六排练，场地确实狭小，但取消是因为指挥生病。non que＋虚拟式可以拒绝某个解释，而不要求否认从句事实；要保事实，可另加明确确认。ce n’est pas tant…que则比较因素权重，不能用于宣称前一因素绝无作用。语域较正式，转口语可用不是因为…而是因为…，但仍要保事实与因果归属。",
+              "examples": [
+                {
+                  "fr": "La répétition est annulée, non que la salle soit petite — elle l’est effectivement —, mais parce que la cheffe est malade.",
+                  "zh": "排练取消了，不是因为场地小——它确实小——而是因为女指挥病了。",
+                  "use": "non que否定小场地为这次取消的原因，不否定小的事实；cheffe指指挥。"
+                },
+                {
+                  "fr": "Ce n’est pas tant la taille de la salle qui inquiète les choristes que l’absence de remplaçante pour la cheffe.",
+                  "zh": "让合唱团员担心的，与其说是场地大小，不如说是没有能替代女指挥的人。",
+                  "use": "保留场地可有影响，突出替代人选缺失；不是non que的绝对原因排除。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": [
+            "c2-cause-niee",
+            "practice"
+          ],
+          "operation": "append",
+          "prefix_length": 2,
+          "prefix_sha256": "52e2f41807e1ab22df21e84dbfca2b44e3a76d61375e26a6541cefa78c20557d",
+          "added": [
+            {
+              "q": "原创合唱团：排练取消；场地确实狭小，但这次取消由女指挥生病导致。用non que写完整法语句，同时明确小场地事实；别改成场地不小。",
+              "a": "La répétition est annulée, non que la salle soit petite — elle l’est effectivement —, mais parce que la cheffe est malade.",
+              "note": "non que+soit1分；明确elle l’est确认事实1分；真实原因parce que+直陈1分；保取消事件1分。标点可分句，须保留题目给定的女指挥身份，不随意改人物性别；不能增补病情或取消时长。"
+            },
+            {
+              "q": "团员说场地大小也令人担心，但主要忧虑是没有替代指挥。编辑改为“La taille de la salle ne nous inquiète pas”。指出损失，用ce n’est pas tant…que忠实改写，并说明为何不能译成“完全不担心场地”。",
+              "a": "Ce n’est pas tant la taille de la salle qui nous inquiète que l’absence de remplaçante pour la cheffe. La taille nous inquiète aussi ; le manque de remplaçante est présenté comme la préoccupation principale.",
+              "note": "pas tant…que完整1分；比较对象平行1分；保留首项也确实令人担忧1分；后一项为主1分。也接受moins…que，自然改述可；不能把因素权重比较改成前项零影响。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

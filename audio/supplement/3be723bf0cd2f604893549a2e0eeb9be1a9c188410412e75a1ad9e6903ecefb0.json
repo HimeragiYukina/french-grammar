@@ -1,0 +1,30 @@
+{
+  "text": "La répétition est annulée, non que la salle soit petite — elle l’est effectivement —, mais parce que la cheffe est malade.",
+  "text_sha256": "3be723bf0cd2f604893549a2e0eeb9be1a9c188410412e75a1ad9e6903ecefb0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.955918367346939,
+      "source_seconds": 5.955918367346939,
+      "source_file_sha256": "566fb5c0108b91af9439b38445be28cdfcfb9778d7d1c7c17609f015e93b1197",
+      "file_sha256": "18a8049535d66a4f505fc280fe7d8cfe3ebf9d79c7d8faa35355af61c1e31683",
+      "bytes": 48318,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

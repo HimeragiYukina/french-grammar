@@ -1,0 +1,30 @@
+{
+  "text": "Le message envisage un déplacement possible de la séance ; il ne confirme pas que la séance a été déplacée. Il faut appeler avant de venir pour vérifier la situation.",
+  "text_sha256": "aebe5641c0559fff7a01d45d32a472b85dcdc1a7cd5ff9f03e66cefecb730d54",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.102222222222222,
+      "source_seconds": 9.102222222222222,
+      "source_file_sha256": "b7016a172dcbda7c597e740af68fa237f0ced7afba4582a4dd2e7e2bffd8bcab",
+      "file_sha256": "0614390f1ade3e6cb292c1bf1b04da989bee57971cbed7e48fce2954481ecfc5",
+      "bytes": 73604,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

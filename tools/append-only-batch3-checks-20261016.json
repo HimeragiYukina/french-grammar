@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "batch3": {
+    "sections": 3,
+    "practice": 6,
+    "files": 3
+  },
+  "batch2": {
+    "sections": 6,
+    "practice": 12,
+    "ledger_unchanged": true
+  },
+  "checks": {
+    "check-baseline.py": "passed:97points427originalexamples436originalpractice311originalsections812originalexpansionexamples",
+    "check-strict-review.py": "passed:97points6contexts145historicalfieldfixes",
+    "check-content.js": "passed:344runtime_sections898examples238addedpractice"
+  },
+  "negative_tests": [
+    {
+      "case": "old_prefix_loss",
+      "rejected": true,
+      "reason": "('Batch3 current source differs from ledger', 'tools/supplement-b2.json')"
+    },
+    {
+      "case": "new_suffix_mutation",
+      "rejected": true,
+      "reason": "('Batch3 current source differs from ledger', 'tools/supplement-b2.json')"
+    },
+    {
+      "case": "unrelated_field_mutation",
+      "rejected": true,
+      "reason": "('Batch3 current source differs from ledger', 'tools/supplement-b2.json')"
+    }
+  ],
+  "protected_files": [
+    {
+      "file": "tools/append-only-batch2-20261016.json",
+      "sha256": "5cdfc333160fe3826204a2ac44dcab6619a332dbc471d4765aa94c8c212b71af",
+      "unchanged": true
+    },
+    {
+      "file": "tools/content-baseline.json",
+      "sha256": "a17a54048c334231f27a84457574491fa726696791eadf6945abd666a4e4b225",
+      "unchanged": true
+    },
+    {
+      "file": "tools/strict-review-baseline.json",
+      "sha256": "25fbee3f19541f18d60be04ad4ace10f4b75c1cd5426d3863110cda368985ea8",
+      "unchanged": true
+    }
+  ],
+  "proof": "Current exact files -> verify batch3 after SHA and appended suffix/original prefix -> restore pre-batch3 whole-file SHA in scratch -> unchanged batch2 helper restores batch2 -> existing original historical baselines. Caller keyset preserved.",
+  "python_bytecode_writes_disabled": true,
+  "public_scope": "Grammar-only evidence; no private tutorial material.",
+  "limits": "No audio generation/listening or git write performed."
+}

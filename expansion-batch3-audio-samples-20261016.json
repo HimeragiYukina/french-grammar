@@ -1,0 +1,407 @@
+{
+  "scope": "Bounded selected audio technical sample review; exacttext/current mapping/hash/full PCM decode/metrics. No human listening, pronunciation, speech-content alignment or truncation verdict.",
+  "method": {
+    "cpu": "two-core affinity, one decode process at a time, codec/filter one thread, hidden BELOW_NORMAL",
+    "silence": "20ms RMS below -45dBFS",
+    "flags": "Threshold candidates for human review, never proof of pronunciation or truncation",
+    "ASRModulesUnavailable": {
+      "whisper": true,
+      "faster_whisper": true,
+      "vosk": true
+    }
+  },
+  "listen": false,
+  "speechAlignment": "not_verified",
+  "summary": {
+    "samples": 6,
+    "technicalFailures": 0,
+    "samplesWithCandidateFlags": 0,
+    "byLevelRepository": {
+      "A1": {
+        "grammar": 1
+      },
+      "A2": {
+        "grammar": 1
+      },
+      "B1": {
+        "grammar": 1
+      },
+      "B2": {
+        "grammar": 1
+      },
+      "C1": {
+        "grammar": 1
+      },
+      "C2": {
+        "grammar": 1
+      }
+    },
+    "tags": [
+      "abbreviation"
+    ],
+    "longreadFull": 0,
+    "longreadParagraphs": 0
+  },
+  "currentTextResolutions": [],
+  "prioritySelections": [],
+  "samples": [
+    {
+      "repo": "grammar",
+      "levels": [
+        "B2"
+      ],
+      "tags": [
+        "abbreviation"
+      ],
+      "text": "L’atelier ouvrira aux visiteurs à condition que la responsable ait confirmé la présence d’un encadrant.",
+      "path": "audio/supplement/7611f7dbef19fff7ed1598b1f38aabd3c9df098dfa01680068dfd13c1a60b2e8.mp3",
+      "textSHA256": "7611f7dbef19fff7ed1598b1f38aabd3c9df098dfa01680068dfd13c1a60b2e8",
+      "fileSHA256": "72a0b966197ae69504e2e517e83524ffe2802a2cacd1633b1634f3ec3a74d9d9",
+      "bytes": 46646,
+      "coverageSeconds": 5.723718820861678,
+      "occurrences": [
+        {
+          "id": "b2-but-condition",
+          "field": "/b2-but-condition/sections/4/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 103
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "batch3_new_grammar_example",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 5.723718820861678,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1723228846384802,
+        "rmsDbFS": -15.273140880261643,
+        "nonzeroFraction": 0.9782264198782962,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1837,
+        "maximumInternalSilenceSeconds": 0.1,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C1"
+      ],
+      "tags": [],
+      "text": "Quelle que soit la personne chargée de l’accrochage, elle devra vérifier les crochets avant de suspendre les cadres.",
+      "path": "audio/supplement/87e0988100e01ddc9fdbcab553a0df02dfabfd4c41ae8428aef68616a8a99ee5.mp3",
+      "textSHA256": "87e0988100e01ddc9fdbcab553a0df02dfabfd4c41ae8428aef68616a8a99ee5",
+      "fileSHA256": "3cbdc320053f4f378765a2a6432337b09ab6ad5c6cb2869d0d56378afa434323",
+      "bytes": 45392,
+      "coverageSeconds": 5.584399092970521,
+      "occurrences": [
+        {
+          "id": "c1-concession-indefinie",
+          "field": "/c1-concession-indefinie/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 116
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "batch3_new_grammar_example",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 5.584399092970521,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.11165852178923631,
+        "rmsDbFS": -19.04216251861152,
+        "nonzeroFraction": 0.9648843555093555,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1444,
+        "maximumInternalSilenceSeconds": 0.14,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [],
+      "text": "La répétition est annulée, non que la salle soit petite — elle l’est effectivement —, mais parce que la cheffe est malade.",
+      "path": "audio/supplement/3be723bf0cd2f604893549a2e0eeb9be1a9c188410412e75a1ad9e6903ecefb0.mp3",
+      "textSHA256": "3be723bf0cd2f604893549a2e0eeb9be1a9c188410412e75a1ad9e6903ecefb0",
+      "fileSHA256": "18a8049535d66a4f505fc280fe7d8cfe3ebf9d79c7d8faa35355af61c1e31683",
+      "bytes": 48318,
+      "coverageSeconds": 5.955918367346939,
+      "occurrences": [
+        {
+          "id": "c2-cause-niee",
+          "field": "/c2-cause-niee/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 122
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "c2-cause-niee",
+          "field": "/c2-cause-niee/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 122
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "batch3_new_grammar_example",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 5.955918367346939,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.11619709190554722,
+        "rmsDbFS": -18.69609482018362,
+        "nonzeroFraction": 0.9527671174463938,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1759,
+        "maximumInternalSilenceSeconds": 0.2,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A1"
+      ],
+      "tags": [
+        "abbreviation"
+      ],
+      "text": "Tout nom français a un genre (masculin/féminin). L'article défini (le, la, l', les) s'emploie pour une chose précise, connue ou unique.",
+      "path": "audio/fr-FR/f54a11a717866845.mp3",
+      "textSHA256": "958c16f22a07dc5bd40ce311fb9c8b15dc0c8ea1faf0cabe95df079fcf930a00",
+      "fileSHA256": "6a3e6105be16787e62c7e1a6fc689e1cddb5fa251373aa89dcacb02725820653",
+      "bytes": 65376,
+      "coverageSeconds": null,
+      "occurrences": [
+        {
+          "id": "a1-genre",
+          "field": "/a1-genre/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 135
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": null
+      },
+      "metrics": {
+        "decodedSeconds": 10.896,
+        "sampleRate": 24000,
+        "channels": 1,
+        "rms": 0.08548236189606777,
+        "rmsDbFS": -21.36246973384257,
+        "nonzeroFraction": 0.828392682329907,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.916,
+        "maximumInternalSilenceSeconds": 1.0,
+        "internalSilencesGE0_5Seconds": [
+          {
+            "start": 3.14,
+            "end": 4.14,
+            "seconds": 1.0
+          }
+        ],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A2"
+      ],
+      "tags": [],
+      "text": "La semaine dernière, ils ___ (choisir) un cadeau.",
+      "path": "audio/supplement/5f70746bb20b9c8373c456a1e94a2cbb67930d33609de8c46dace0827deecd59.mp3",
+      "textSHA256": "5f70746bb20b9c8373c456a1e94a2cbb67930d33609de8c46dace0827deecd59",
+      "fileSHA256": "541bcd9fe11e4a9671efba9fe5d9ac9c50547afba25dbffeaf862090b1a70251",
+      "bytes": 22613,
+      "coverageSeconds": 2.7399546485260773,
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/2/q",
+          "source": "runtime.PRACTICE",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 49
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.7399546485260773,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1382962438500469,
+        "rmsDbFS": -17.18379230487821,
+        "nonzeroFraction": 0.9119438559322034,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.06,
+        "trailingSilenceSeconds": 0.08,
+        "maximumInternalSilenceSeconds": 0.38,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [],
+      "text": "Quand je suis arrivé, le train était déjà parti.",
+      "path": "audio/fr-FR/e6d0c2b7a96f2e4a.mp3",
+      "textSHA256": "dc4c6d21c6f964562a4e182322d0b549cbe22f6f562c31f398a4ca7d00d24904",
+      "fileSHA256": "61b90ee504c5d814fb9b6a7491d11d7c4c344650e59aad2e85305e5260e147b6",
+      "bytes": 22464,
+      "coverageSeconds": null,
+      "occurrences": [
+        {
+          "id": "b1-pqp",
+          "field": "/b1-pqp/ex/0/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": null
+      },
+      "metrics": {
+        "decodedSeconds": 3.744,
+        "sampleRate": 24000,
+        "channels": 1,
+        "rms": 0.07718579174619833,
+        "rmsDbFS": -22.249252732695474,
+        "nonzeroFraction": 0.7488425925925926,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.904,
+        "maximumInternalSilenceSeconds": 0.28,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    }
+  ]
+}

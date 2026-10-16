@@ -1,0 +1,30 @@
+{
+  "text": "Si lourds que soient ces cadres, nous ne renoncerons pas à les présenter, à condition que les supports soient adaptés.",
+  "text_sha256": "96032c2c081baa6da9103bf6e2dd74949eb80602ac6bf4dee7bfa099cae62b5a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.88625850340136,
+      "source_seconds": 5.88625850340136,
+      "source_file_sha256": "96f9dc3a120c4e1221998b876599d63aed4130bdfd46b7c23c8a1b010e1a8596",
+      "file_sha256": "66430fdd30461881ff13eca4b408d9d83d2b10f7fb63b8f3026aab53ecd6f964",
+      "bytes": 47900,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "La taille de la salle ne nous inquiète pas",
+  "text_sha256": "bb33b8503d57acea5b14db783c71ba63d7e244fd7a89d94ca10c089dd674b948",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5425850340136056,
+      "source_seconds": 2.5425850340136056,
+      "source_file_sha256": "4ca6a5b9893d4655948bf69ae9836da64a167df012a7cbe2037f476bc0fc74a2",
+      "file_sha256": "f277ab97df3242d4c107983e7f3197bb6cc0fc9d5568ef1843164e5d5ec031cd",
+      "bytes": 21150,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

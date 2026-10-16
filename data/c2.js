@@ -1662,6 +1662,22 @@ window.GRAMMAR_DATA.C2={
               "use": "moins…que…修正主导原因，不否认愤怒可能存在。"
             }
           ]
+        },
+        {
+          "title": "原因否定不等事实否定：合唱排练的取消",
+          "explanation": "独立原创情境：合唱团原定周六排练，场地确实狭小，但取消是因为指挥生病。non que＋虚拟式可以拒绝某个解释，而不要求否认从句事实；要保事实，可另加明确确认。ce n’est pas tant…que则比较因素权重，不能用于宣称前一因素绝无作用。语域较正式，转口语可用不是因为…而是因为…，但仍要保事实与因果归属。",
+          "examples": [
+            {
+              "fr": "La répétition est annulée, non que la salle soit petite — elle l’est effectivement —, mais parce que la cheffe est malade.",
+              "zh": "排练取消了，不是因为场地小——它确实小——而是因为女指挥病了。",
+              "use": "non que否定小场地为这次取消的原因，不否定小的事实；cheffe指指挥。"
+            },
+            {
+              "fr": "Ce n’est pas tant la taille de la salle qui inquiète les choristes que l’absence de remplaçante pour la cheffe.",
+              "zh": "让合唱团员担心的，与其说是场地大小，不如说是没有能替代女指挥的人。",
+              "use": "保留场地可有影响，突出替代人选缺失；不是non que的绝对原因排除。"
+            }
+          ]
         }
       ],
       "comparison": "Il refuse parce qu'il est malade 断言病是原因；Il refuse, non qu'il soit malade, mais parce qu'il est fatigué 排除病作为解释。Non parce qu'il est malade, mais parce qu'il est fatigué 中 parce que 保持直陈式，与 non que 的支配不同。",
@@ -1678,6 +1694,16 @@ window.GRAMMAR_DATA.C2={
           "q": "原话承认价格有影响，但更在意无担保。把“Ce n'est pas le prix qui me gêne”改成不完全排除价格的说法，并解释权重。",
           "a": "Ce n'est pas tant le prix qui me gêne que le manque de garanties. Le prix peut jouer un rôle, mais le manque de garanties est présenté comme le facteur principal.",
           "note": "pas tant…que完整1分；两个比较对象平行1分；不否定价格作用1分；明确后一因素更重要1分。也接受moins…que结构。"
+        },
+        {
+          "q": "原创合唱团：排练取消；场地确实狭小，但这次取消由女指挥生病导致。用non que写完整法语句，同时明确小场地事实；别改成场地不小。",
+          "a": "La répétition est annulée, non que la salle soit petite — elle l’est effectivement —, mais parce que la cheffe est malade.",
+          "note": "non que+soit1分；明确elle l’est确认事实1分；真实原因parce que+直陈1分；保取消事件1分。标点可分句，须保留题目给定的女指挥身份，不随意改人物性别；不能增补病情或取消时长。"
+        },
+        {
+          "q": "团员说场地大小也令人担心，但主要忧虑是没有替代指挥。编辑改为“La taille de la salle ne nous inquiète pas”。指出损失，用ce n’est pas tant…que忠实改写，并说明为何不能译成“完全不担心场地”。",
+          "a": "Ce n’est pas tant la taille de la salle qui nous inquiète que l’absence de remplaçante pour la cheffe. La taille nous inquiète aussi ; le manque de remplaçante est présenté comme la préoccupation principale.",
+          "note": "pas tant…que完整1分；比较对象平行1分；保留首项也确实令人担忧1分；后一项为主1分。也接受moins…que，自然改述可；不能把因素权重比较改成前项零影响。"
         }
       ]
     },

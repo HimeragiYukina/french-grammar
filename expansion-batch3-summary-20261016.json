@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-16",
+  "title": "中高级持续输入与分轮追问：第三批独立语法配套",
+  "status": "Verified; authorized commit/push on original branch",
+  "basis": "本站三语法点实际追加讲解和题目与复审后的独立语法稿逐项相等。",
+  "counts": {
+    "newPages": 0,
+    "improvedExistingGrammarPoints": 3,
+    "newSections": 3,
+    "newFrenchExamples": 7,
+    "newExplainedTransferQuestions": 6
+  },
+  "grammarPoints": [
+    {
+      "level": "B2",
+      "pointId": "b2-but-condition",
+      "newPages": 0,
+      "improvedExistingGrammarPoints": 1,
+      "newSections": 1,
+      "newExamples": 3,
+      "newExplainedQuestions": 2,
+      "sectionTitle": "预防、必要条件与未获批准的替代：不要把目的写成结果",
+      "actualSourceCheck": "verified"
+    },
+    {
+      "level": "C1",
+      "pointId": "c1-concession-indefinie",
+      "newPages": 0,
+      "improvedExistingGrammarPoints": 1,
+      "newSections": 1,
+      "newExamples": 2,
+      "newExplainedQuestions": 2,
+      "sectionTitle": "不论谁负责与不论多重：让步不取消行动条件",
+      "actualSourceCheck": "verified"
+    },
+    {
+      "level": "C2",
+      "pointId": "c2-cause-niee",
+      "newPages": 0,
+      "improvedExistingGrammarPoints": 1,
+      "newSections": 1,
+      "newExamples": 2,
+      "newExplainedQuestions": 2,
+      "sectionTitle": "原因否定不等事实否定：合唱排练的取消",
+      "actualSourceCheck": "verified"
+    }
+  ],
+  "practiceUse": "依据例句和迁移题比较目的、条件、让步及原因归属；可与同伴解释答案，也可单独核对。这里不记录或证明已完成真实互动。",
+  "remainingGaps": [
+    "三个既有语法点的局部深化，不代表所有语域、例外和应用情境均覆盖。",
+    "语法判断需要在更长阅读与真实交流中复现；例句和题目正确不等于语言等级已达标。"
+  ],
+  "audio": {
+    "ownExactUnits": 3619,
+    "newCPURecordings": 27,
+    "newMP3FullDecodeVerified": 27,
+    "originalWavsRetained": true,
+    "sourceSpanMismatches": 0,
+    "technicalSamples": 6,
+    "technicalFailures": 0,
+    "thresholdFlags": 0,
+    "humanListeningPerformed": false
+  },
+  "tests": {
+    "passed": {
+      "static": "append-only ledger / baseline / strict / schema",
+      "grammarPoints": 97,
+      "audioBrowser": "own catalog HTTP/file playback passed",
+      "selfReview": 12,
+      "voiceCodeRegression": "unchanged app"
+    },
+    "failed": [],
+    "pending": [],
+    "notRun": [
+      "Human auditory review / speech alignment",
+      "Real human partner conversation",
+      "Real microphone permission",
+      "Installed Google français actual availability"
+    ]
+  },
+  "git": {
+    "authorized": true,
+    "delivery": "Commit and normal push existing branch after verified checks; remote receipt separate",
+    "deployment": false
+  },
+  "limits": [
+    "新增内容和任务数量不代表CEFR等级达成，也不是官方考试评分。",
+    "原创虚构材料并非真实专业或法规指引。",
+    "仍需更多连续长输入、跨话题复现和真实互动，不能声称全课程已完整。"
+  ],
+  "wordCountConvention": "空白分词，不拆省音及连字符，独立标点token计入；非官方考试算法。",
+  "completedUtc": "2026-10-16T15:07:37.038963+00:00"
+}

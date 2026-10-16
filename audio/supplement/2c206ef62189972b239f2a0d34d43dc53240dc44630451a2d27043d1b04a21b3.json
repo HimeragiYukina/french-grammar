@@ -1,0 +1,30 @@
+{
+  "text": "La séance a peut-être été déplacée, mais il faut le vérifier",
+  "text_sha256": "2c206ef62189972b239f2a0d34d43dc53240dc44630451a2d27043d1b04a21b3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.355283446712018,
+      "source_seconds": 3.355283446712018,
+      "source_file_sha256": "1a1ba01265d046ff48e3a5c5c3f323286ea770726f55d2b1462cb878452adecb",
+      "file_sha256": "e2e76fc4298d92a2d19afb3e270b9f571df2246acdd0c67ce657e64248704fdd",
+      "bytes": 27629,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

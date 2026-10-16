@@ -1,0 +1,30 @@
+{
+  "text": "Quelle que soit l’expérience de la personne responsable, les crochets doivent être vérifiés par la personne désignée.",
+  "text_sha256": "0ee6d90974b55f3d50c7e3db6384aa325f029519829a625b4b6e79d7d0ef45c4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.804988662131519,
+      "source_seconds": 5.804988662131519,
+      "source_file_sha256": "9c95eae629012fc2e38b1c31f228d78e06c2a5b6e91bf6a892b6b584fa65d1bb",
+      "file_sha256": "a926fef0d67c4f61ad8a80de47be81f38c7dbfc7976a6b1e1ea09ce20789f963",
+      "bytes": 47273,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3592,
-  "covered": 3592,
+  "denominator": 3619,
+  "covered": 3619,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -752,11 +752,11 @@
       "kind": "grammar-point",
       "id": "b2-but-condition",
       "level": "B2",
-      "exactTextUnits": 46,
-      "localFilesPresent": 46,
+      "exactTextUnits": 56,
+      "localFilesPresent": 56,
       "missingLocalFiles": 0,
-      "requiredUnits": 46,
-      "errorInputUnits": 0
+      "requiredUnits": 55,
+      "errorInputUnits": 1
     },
     {
       "repo": "grammar",
@@ -862,10 +862,10 @@
       "kind": "grammar-point",
       "id": "c1-concession-indefinie",
       "level": "C1",
-      "exactTextUnits": 47,
-      "localFilesPresent": 47,
+      "exactTextUnits": 58,
+      "localFilesPresent": 58,
       "missingLocalFiles": 0,
-      "requiredUnits": 45,
+      "requiredUnits": 56,
       "errorInputUnits": 2
     },
     {
@@ -1049,11 +1049,11 @@
       "kind": "grammar-point",
       "id": "c2-cause-niee",
       "level": "C2",
-      "exactTextUnits": 26,
-      "localFilesPresent": 26,
+      "exactTextUnits": 32,
+      "localFilesPresent": 32,
       "missingLocalFiles": 0,
-      "requiredUnits": 25,
-      "errorInputUnits": 1
+      "requiredUnits": 30,
+      "errorInputUnits": 2
     },
     {
       "repo": "grammar",

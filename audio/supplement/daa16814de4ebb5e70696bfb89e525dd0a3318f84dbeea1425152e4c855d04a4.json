@@ -1,0 +1,30 @@
+{
+  "text": "elle l’est",
+  "text_sha256": "daa16814de4ebb5e70696bfb89e525dd0a3318f84dbeea1425152e4c855d04a4",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.6385487528344671,
+      "source_seconds": 0.6385487528344671,
+      "source_file_sha256": "93ba168e0d25a1353e0386da864b5b04e1e895c85b2358b6d0491274ccc106d0",
+      "file_sha256": "bf9e9a19e5fd280ee96bc0225a2551b9ccf4980fec98c0f19870779b6e1046c1",
+      "bytes": 5895,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

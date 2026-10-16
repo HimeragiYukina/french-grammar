@@ -274,7 +274,29 @@
     ]
   },
   "b2-but-condition": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "预防、必要条件与未获批准的替代：不要把目的写成结果",
+        "explanation": "独立场景：社区陶艺工坊讨论是否开放一次烧窑体验。指导员可用à condition que规定必要条件，用pour que表达检查的目的，用au cas où预备故障方案。达到一个条件并不自动表示其余条件满足；目的从句也不证明安全检查已经通过。若故障只是预防性设想，不应改述成窑炉已经坏了。",
+        "examples": [
+          {
+            "fr": "L’atelier ouvrira aux visiteurs à condition que la responsable ait confirmé la présence d’un encadrant.",
+            "zh": "工坊将向访客开放，条件是负责人已确认有指导人员在场。",
+            "use": "à condition que后用虚拟式过去ait confirmé，表示开放前需完成确认；不由此断言确认已获得。"
+          },
+          {
+            "fr": "Appelez la responsable avant de venir, au cas où la séance aurait été déplacée.",
+            "zh": "来之前请联系负责人，以防活动场次已经调整了时间或地点。",
+            "use": "au cas où用条件式过去aurait été déplacée，预防性考虑此前可能发生的时间或地点调整，不说场次确实时间或地点调整。"
+          },
+          {
+            "fr": "Nous demandons une vérification pour que les visiteurs puissent être accueillis dans les conditions prévues.",
+            "zh": "我们要求核查，以便能按预定条件接待访客。",
+            "use": "pour que+puissent表目的；核查申请不等于接待条件已获验证。"
+          }
+        ]
+      }
+    ],
     "related": [],
     "practice": [
       {
@@ -286,6 +308,16 @@
         "q": "比较并译清：Elle téléphone de peur qu’il ne vienne. / Elle téléphone de peur qu’il ne vienne pas. 然后为“怕他不来”写一条明确原意的法句。",
         "a": "Dans la première phrase, elle craint sa venue ; ne peut être explétif. Dans la seconde, elle craint son absence : ne…pas est une négation. Elle téléphone parce qu’elle a peur qu’il ne vienne pas.",
         "note": "仅ne可为赘词，不反转venir；ne…pas真否定，恐惧对象为不来。接受Elle téléphone pour s’assurer qu’il viendra等语义清楚表达，但不能把两句都译成怕来。"
+      },
+      {
+        "q": "陶艺工坊只确认已订好接待材料，尚未确认指导员。用à condition que和虚拟式过去写一句说明开放仍须负责人完成哪项确认；不得把备料当全部条件满足。",
+        "a": "L’atelier pourra ouvrir aux visiteurs à condition que la responsable ait confirmé la présence d’un encadrant.",
+        "note": "ait confirmé标记开放前要完成的确认；材料已订不替代人员确认。也可用Nous pourrons accueillir les visiteurs…，但不能写la présence est déjà confirmée。开放是有条件的可能，不是单凭备料就已实现。"
+      },
+      {
+        "q": "指导员在周三发送信息：“Appelez avant de venir, au cas où la séance aurait été déplacée.” 同事据此断言场次已改期。写两句法语纠正，并给出一项不依赖改期是否真实的行动。",
+        "a": "Le message envisage un déplacement possible de la séance ; il ne confirme pas que la séance a été déplacée. Il faut appeler avant de venir pour vérifier la situation.",
+        "note": "au cas où+条件式过去给出预防性设想，不蕴含改期真实，也不蕴含一定未改。第二句保留可执行的核查行动。可用La séance a peut-être été déplacée, mais il faut le vérifier等完整表达；不得凭空指定新的日期或操作窑炉的办法。"
       }
     ]
   },

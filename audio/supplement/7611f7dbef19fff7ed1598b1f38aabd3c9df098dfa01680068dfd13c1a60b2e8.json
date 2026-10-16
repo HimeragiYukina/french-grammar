@@ -1,0 +1,30 @@
+{
+  "text": "L’atelier ouvrira aux visiteurs à condition que la responsable ait confirmé la présence d’un encadrant.",
+  "text_sha256": "7611f7dbef19fff7ed1598b1f38aabd3c9df098dfa01680068dfd13c1a60b2e8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.723718820861678,
+      "source_seconds": 5.723718820861678,
+      "source_file_sha256": "78f7f0426aedeafc6f49d723f0f7da772c7d1aa5ca226c180b2f18f54ee379f4",
+      "file_sha256": "72a0b966197ae69504e2e517e83524ffe2802a2cacd1633b1634f3ec3a74d9d9",
+      "bytes": 46646,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
