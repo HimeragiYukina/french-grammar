@@ -1712,6 +1712,16 @@ window.GRAMMAR_DATA.C2={
           "q": "写两句：指南面向初学者；讲者现在正向来宾讲话。都用s’adresser à。",
           "a": "Le guide s’adresse aux débutants. La conférencière s’adresse maintenant aux invités.",
           "note": "à与les合为aux；前句目标读者不必已在场，后句说当前讲话行为。不能把s’adresser改成无直接宾语的adresser aux…。"
+        },
+        {
+          "q": "在“考虑到天气，出发延迟”这一独立语境中，修正Compte tenue de la météo, le départ est retardé，并说明此处tenu是否随météo阴性配合。",
+          "a": "Compte tenu de la météo, le départ est retardé.",
+          "note": "compte tenu de在这里作为固定介词语块使用，tenu不随météo变成tenue；本句不是用阴性主语支配过去分词的结构。"
+        },
+        {
+          "q": "独立剧团情境：已经排练三次，但还没确定演出日期。用sans fixer de date保留这两项，不改成从没排练。",
+          "a": "La troupe a répété trois fois sans fixer de date de représentation.",
+          "note": "排练已发生与日期尚未确定可以同时成立；sans只限定后面的定日期动作，不抹去répété。"
         }
       ]
     },

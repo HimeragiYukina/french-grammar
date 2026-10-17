@@ -11,18 +11,18 @@
     ],
     "source_id_count": 103
   },
-  "string_leaves": 8739,
+  "string_leaves": 8745,
   "classification_counts": {
     "technical": 365,
     "excluded_chinese": 2488,
     "already_catalog": 2156,
-    "inline_fragment": 2259,
-    "eligible": 1471
+    "inline_fragment": 2261,
+    "eligible": 1475
   },
   "remaining_manual": 0,
   "exact_source_proof_errors": [],
-  "approved_occurrences": 4221,
-  "unique_exact_units": 3805,
+  "approved_occurrences": 4225,
+  "unique_exact_units": 3809,
   "source_snapshots": [
     {
       "repo": "grammar",
@@ -32,7 +32,7 @@
     {
       "repo": "grammar",
       "source": "runtime.EXPANSIONS",
-      "sha256": "6db3e0a2570c03f3928d48457dc6d5321c02909727a99d96447d4510a417e104"
+      "sha256": "5d39748257be2514fe44b9aeacc3045fae285c082abf364cb159e6721894fb7d"
     },
     {
       "repo": "grammar",
@@ -63,14 +63,14 @@
   },
   "portable_evidence": {
     "tools/audio-classified-leaves-20261016.jsonl": {
-      "records": 8739,
-      "bytes": 6317985,
-      "sha256": "d0960a03ca5507c52fb4b66e05b586fa1808f5a8b7d89adcc8a9b3cac5f17cc4"
+      "records": 8745,
+      "bytes": 6324710,
+      "sha256": "463fc247942189fe73b2085be47a12120b8788c6cd2ddfe26725d8e3c25af3e6"
     },
     "tools/audio-exclusions-20261016.jsonl": {
-      "records": 968,
-      "bytes": 430693,
-      "sha256": "ba9c9c8dc3be0343c1145cfca71e35327da4c79d337f89fccee835636d2f3426"
+      "records": 972,
+      "bytes": 433448,
+      "sha256": "d7fc1a0b11993f6abd1db9d95cb341bb84fcd1c232cfdba2356670db660645f3"
     },
     "tools/audio-runtime-controls-20261016.json": {
       "records": 50,
@@ -78,28 +78,28 @@
       "sha256": "ebdb9fb0eb26456f87a96d6a512b48ed80baf776a2255b59f7e5320df053154d"
     },
     "tools/audio-approved-spans-20261016.jsonl": {
-      "records": 4221,
-      "bytes": 2033724,
-      "sha256": "aec4ac0443b7d6cb5b2821ab70155488af675db6ba9a3fcdeef48129a7054970"
+      "records": 4225,
+      "bytes": 2035711,
+      "sha256": "04fe0b95b784953331d7ffa9946b78d92b207afe427823b900d857c8431933b5"
     }
   },
-  "source_hash_validation": "All 4221 approved occurrences independently reconstructed from current sources with zero mismatch. No acoustic certification.",
-  "required_exact_units": 3719,
-  "optional_error_exact_units": 86,
+  "source_hash_validation": "All 4225 approved occurrences independently reconstructed from current sources with zero mismatch. No acoustic certification.",
+  "required_exact_units": 3722,
+  "optional_error_exact_units": 87,
   "source_hash_definition": "SHA256 of UTF-8 canonical JSON (ensure_ascii=False, sorted keys, compact separators), per current actual source/runtime object; raw source_offsets use Unicode codepoints before HTML stripping.",
   "quality_changes": {
     "guarded_semantic_fixes": 11,
     "sourceSpanMismatches": 0
   },
   "kind_occurrences": {
-    "eligible_phrase": 1180,
-    "eligible_standalone": 2790,
+    "eligible_phrase": 1181,
+    "eligible_standalone": 2792,
     "lexical_unit": 121,
-    "error_input": 87,
+    "error_input": 88,
     "runtime_rule_bundle": 37,
     "runtime_composite": 6
   },
-  "all_exact_units": 3805,
+  "all_exact_units": 3809,
   "pending_manual": 0,
   "batch2_scope": {
     "definition": "Actual newly appended/changed French source leaves and mixed exact spans, complete models, answer variants, explicitly non-normative error inputs; current full dialogue composites rebuilt. Chinese, source metadata, grammatical labels and open-slot templates excluded.",
@@ -313,6 +313,17 @@
     "definition": "Actual newly appended/changed French source leaves and mixed exact spans, complete models, answer variants, explicitly non-normative error inputs; current full dialogue composites rebuilt. Chinese, source metadata, grammatical labels and open-slot templates excluded.",
     "source_ids": [
       "a1-heure-date"
+    ],
+    "added_leaves": 6,
+    "changed_leaves": 0,
+    "sourceSpanMismatches": 0,
+    "actualListening": "not performed",
+    "newAudioGeneratedByClassification": false
+  },
+  "batch19_scope": {
+    "definition": "Actual newly appended/changed French source leaves and mixed exact spans, complete models, answer variants, explicitly non-normative error inputs; current full dialogue composites rebuilt. Chinese, source metadata, grammatical labels and open-slot templates excluded.",
+    "source_ids": [
+      "c2-rection"
     ],
     "added_leaves": 6,
     "changed_leaves": 0,
