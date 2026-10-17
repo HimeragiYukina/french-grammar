@@ -1,0 +1,30 @@
+{
+  "text": "La première phrase rapporte une lecture antérieure à la réunion. La seconde envisage un oubli dans un scénario sans la note ; la seule chronologie ne prouve pas ce scénario.",
+  "text_sha256": "fe84f6ed3df646d0ae5bc2dba7cc485f631292d72b637c51f0babe49cc2f21cb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.427301587301587,
+      "source_seconds": 9.427301587301587,
+      "source_file_sha256": "5a51287c1f2f9edc1d2a070a98da636f2a45892ae1cdb631a74ffc38416e04db",
+      "file_sha256": "0d5172830931bbe75393e3d7a24d24aa8e8675b9c9c60cc0195f964445a3c2a4",
+      "bytes": 76112,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

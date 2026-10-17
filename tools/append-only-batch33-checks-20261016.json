@@ -1,0 +1,23 @@
+{
+  "appendOnly": {
+    "sections": 1,
+    "practice": 2
+  },
+  "legitimateRestorePassed": true,
+  "negativeTests": [
+    {
+      "case": "alter old practice",
+      "rejected": true
+    },
+    {
+      "case": "alter new practice",
+      "rejected": true
+    },
+    {
+      "case": "unrelated field changed",
+      "rejected": true
+    }
+  ],
+  "protectedPriorEvidenceUnchanged": true,
+  "diskSourceRestoredOrDeleted": false
+}

@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 0,
+  "generated_this_run": 1,
   "generation_runs": [
     {
-      "generated": 3361,
+      "generated": 3370,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 60.378737926483154,
+  "elapsed_seconds": 56.14840793609619,
   "listened": false,
   "records": [
     {
@@ -157473,6 +157473,387 @@
         "seconds": 1.7414965986394557
       },
       "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Sans votre message, j’aurais manqué le rendez-vous.",
+      "occurrences": [
+        {
+          "id": "b1-cond-passe",
+          "field": "/b1-cond-passe/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 51
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "805165ddb87ae94ddbb7999b73493b00b983d354c4d18ae09accba26038772e2",
+      "path": "audio/supplement/805165ddb87ae94ddbb7999b73493b00b983d354c4d18ae09accba26038772e2.mp3",
+      "source": "local-siwis",
+      "file_sha256": "98a229d7514b3c24c7498b135002c5ba188473caea7a059ae4ac03a0db1af424",
+      "bytes": 23867,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.8908843537414968,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/805165ddb87ae94ddbb7999b73493b00b983d354c4d18ae09accba26038772e2.wav",
+        "file_sha256": "9accbe23081bbc8f5e3d0eb13e3d6d5747839d48f690ab3794c286befee79e88",
+        "bytes": 127532,
+        "rms": 5893.942638068841
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Si vous ne m’aviez pas envoyé de message, j’aurais manqué le rendez-vous.",
+      "occurrences": [
+        {
+          "id": "b1-cond-passe",
+          "field": "/b1-cond-passe/sections/3/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 73
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "2861cfa6fda78cb3cd0b7b2700ffc2381207ed47fe1721a48033739827d33d16",
+      "path": "audio/supplement/2861cfa6fda78cb3cd0b7b2700ffc2381207ed47fe1721a48033739827d33d16.mp3",
+      "source": "local-siwis",
+      "file_sha256": "66b86b2ceac942bc7088014c8bc8a87ad5ef89a11377aac5eb76ed9e0c70f3c6",
+      "bytes": 30973,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.7732426303854876,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/2861cfa6fda78cb3cd0b7b2700ffc2381207ed47fe1721a48033739827d33d16.wav",
+        "file_sha256": "0acb9a5c239e594701217a72a8194b6e0cb56ee1bf85317c56554def2a7e3f98",
+        "bytes": 166444,
+        "rms": 6488.547901625038
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "J’ai reçu votre message avant le rendez-vous.",
+      "occurrences": [
+        {
+          "id": "b1-cond-passe",
+          "field": "/b1-cond-passe/sections/3/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 45
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "f7598cdf93b07e6b7b6cef2be3ffad7bc3897c92d67faedf7ff13ce0082beabc",
+      "path": "audio/supplement/f7598cdf93b07e6b7b6cef2be3ffad7bc3897c92d67faedf7ff13ce0082beabc.mp3",
+      "source": "local-siwis",
+      "file_sha256": "a0845790e01334a9dd1cb1b96dc6109f9cef26e5c6d9167af579f49e5409795b",
+      "bytes": 19479,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.3336054421768706,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/f7598cdf93b07e6b7b6cef2be3ffad7bc3897c92d67faedf7ff13ce0082beabc.wav",
+        "file_sha256": "140355d2b805fd17bea1f16b28c242b50d287375425eb0f0d09354cb3ddce4fb",
+        "bytes": 102956,
+        "rms": 6443.984568307488
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Sans cette note, j’aurais oublié de confirmer ma présence.",
+      "occurrences": [
+        {
+          "id": "b1-cond-passe",
+          "field": "/b1-cond-passe/practice/2/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 29,
+              "end_codepoint": 87
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "b1-cond-passe",
+          "field": "/b1-cond-passe/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 44,
+              "end_codepoint": 102
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "c8f48ddec0857ca9693f4a3d9656c56e99e3f621b12bf8fa466518b15a153031",
+      "path": "audio/supplement/c8f48ddec0857ca9693f4a3d9656c56e99e3f621b12bf8fa466518b15a153031.mp3",
+      "source": "local-siwis",
+      "file_sha256": "fd0682e987a530dad1b11abf9519d7e36db2d952be143bfcc5a0652c03d15aa0",
+      "bytes": 27629,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.3668934240362813,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/c8f48ddec0857ca9693f4a3d9656c56e99e3f621b12bf8fa466518b15a153031.wav",
+        "file_sha256": "55ae3f87189efd75807ab8ab9b93e693c5bedb41f6fd457b4e438520acbd03d5",
+        "bytes": 148524,
+        "rms": 5727.835296154742
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Si je n’avais pas lu cette note, j’aurais oublié de confirmer ma présence.",
+      "occurrences": [
+        {
+          "id": "b1-cond-passe",
+          "field": "/b1-cond-passe/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 74
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "abd0a68fa0e1aa50aa30472b6fa2a441479627498f7fc47d91cfb6d40ea44995",
+      "path": "audio/supplement/abd0a68fa0e1aa50aa30472b6fa2a441479627498f7fc47d91cfb6d40ea44995.mp3",
+      "source": "local-siwis",
+      "file_sha256": "e150d00b23f5afc107ce2b1cc578f4da8cac91ac41bf90f50c6a9b5309175108",
+      "bytes": 32017,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.912562358276644,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/abd0a68fa0e1aa50aa30472b6fa2a441479627498f7fc47d91cfb6d40ea44995.wav",
+        "file_sha256": "ec87cbee57abd68c6f88156edf9fd75fa58d47ee70cdb60b486eac2a8d30b1cd",
+        "bytes": 172588,
+        "rms": 5742.4739830108
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "J’aurais oublié de confirmer ma présence si je n’avais pas lu cette note.",
+      "occurrences": [
+        {
+          "id": "b1-cond-passe",
+          "field": "/b1-cond-passe/practice/2/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 3,
+              "end_codepoint": 76
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "5f46420c9c1282cc279e2a884f5d96079bf1945d3721037c1212b35370a4e322",
+      "path": "audio/supplement/5f46420c9c1282cc279e2a884f5d96079bf1945d3721037c1212b35370a4e322.mp3",
+      "source": "local-siwis",
+      "file_sha256": "48067e39e7013054c38815a1ae4ee787f40674a9b8f75843695631d2a229782a",
+      "bytes": 27629,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.355283446712018,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/5f46420c9c1282cc279e2a884f5d96079bf1945d3721037c1212b35370a4e322.wav",
+        "file_sha256": "de5ae771c8b8202aba8dbb8098d9c018f95787da2ad09130a82a6d8af45edc35",
+        "bytes": 148012,
+        "rms": 5272.682741137005
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "J’ai lu la note avant la réunion.",
+      "occurrences": [
+        {
+          "id": "b1-cond-passe",
+          "field": "/b1-cond-passe/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 10,
+              "end_codepoint": 43
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "c35180b40a9af29cee01664ad010f022bbe5759bd9ed9c7bd62566764522f899",
+      "path": "audio/supplement/c35180b40a9af29cee01664ad010f022bbe5759bd9ed9c7bd62566764522f899.mp3",
+      "source": "local-siwis",
+      "file_sha256": "905193238dda379829a51df82880dc4b85dfcabc7214106d986af3f757d02212",
+      "bytes": 16553,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.9853061224489796,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/c35180b40a9af29cee01664ad010f022bbe5759bd9ed9c7bd62566764522f899.wav",
+        "file_sha256": "45aae4b563819df8e8a082dff84dde6881cecc86a9f5ea32803527c0cf41814f",
+        "bytes": 87596,
+        "rms": 5798.261985517739
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La première phrase rapporte une lecture antérieure à la réunion. La seconde envisage un oubli dans un scénario sans la note ; la seule chronologie ne prouve pas ce scénario.",
+      "occurrences": [
+        {
+          "id": "b1-cond-passe",
+          "field": "/b1-cond-passe/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 173
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "fe84f6ed3df646d0ae5bc2dba7cc485f631292d72b637c51f0babe49cc2f21cb",
+      "path": "audio/supplement/fe84f6ed3df646d0ae5bc2dba7cc485f631292d72b637c51f0babe49cc2f21cb.mp3",
+      "source": "local-siwis",
+      "file_sha256": "0d5172830931bbe75393e3d7a24d24aa8e8675b9c9c60cc0195f964445a3c2a4",
+      "bytes": 76112,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 9.427301587301587,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/fe84f6ed3df646d0ae5bc2dba7cc485f631292d72b637c51f0babe49cc2f21cb.wav",
+        "file_sha256": "5a51287c1f2f9edc1d2a070a98da636f2a45892ae1cdb631a74ffc38416e04db",
+        "bytes": 415788,
+        "rms": 4832.716852979093
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La lecture est présentée comme un fait ; l’oubli sans la note est hypothétique. La première phrase ne suffit pas à établir la seconde.",
+      "occurrences": [
+        {
+          "id": "b1-cond-passe",
+          "field": "/b1-cond-passe/practice/3/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 3,
+              "end_codepoint": 137
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "87bb4aee7c0b544bb4ed735c57cec9df1715d2962a20027ba64d6cf7520ee799",
+      "path": "audio/supplement/87bb4aee7c0b544bb4ed735c57cec9df1715d2962a20027ba64d6cf7520ee799.mp3",
+      "source": "local-siwis",
+      "file_sha256": "622df3550151262988f2ab0b53fc47f768714cec9ac9e5092b9837ac47703770",
+      "bytes": 61693,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 7.616145124716553,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/87bb4aee7c0b544bb4ed735c57cec9df1715d2962a20027ba64d6cf7520ee799.wav",
+        "file_sha256": "32ef8b5743afb3c266b8706f3d75e5a42bb6ea6909f43add45a4bcc75b5e7302",
+        "bytes": 335916,
+        "rms": 5016.300844352879
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
     },
     {
       "repo": "grammar",

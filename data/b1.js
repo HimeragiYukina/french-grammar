@@ -1180,6 +1180,27 @@ window.GRAMMAR_DATA.B1={
               "use": "过去预期的先行完成。"
             }
           ]
+        },
+        {
+          "title": "sans压缩的过去条件：展开后再查因果依据",
+          "examples": [
+            {
+              "fr": "Sans votre message, j’aurais manqué le rendez-vous.",
+              "zh": "如果没有您的消息，我本会错过约定。",
+              "use": "名词组压缩条件；错过是说话者在无消息情景中设想的后果，不是实际错过的报道。"
+            },
+            {
+              "fr": "Si vous ne m’aviez pas envoyé de message, j’aurais manqué le rendez-vous.",
+              "zh": "如果您当时没有给我发消息，我本会错过约定。",
+              "use": "已给情境是对方发来消息；si从句用愈过去时，主句用条件式过去。在此非现实条件中，不把主句条件式直接搬进si从句。"
+            },
+            {
+              "fr": "J’ai reçu votre message avant le rendez-vous.",
+              "zh": "我在约定之前收到了您的消息。",
+              "use": "这是实际经历的先后。仅凭先收到消息，不能证明没有消息就必然错过；条件形式与因果依据是不同问题。"
+            }
+          ],
+          "explanation": "过去反事实可由sans加名词组压缩条件，或用si加愈过去时与主句条件式过去明确表达。还原时要根据已给情境补动词，不能随意发明过程。句式说明说话者怎样设想未发生的后果，不单凭形式证明因果或必然性；实际先后经历须另分开。"
         }
       ],
       "comparison": "J’aurais dû appeler 是“本该打电话”；je devrais appeler 是现在或未来的建议。Il a quitté le pays 陈述事实；il aurait quitté le pays 表示消息尚未证实。",
@@ -1200,6 +1221,16 @@ window.GRAMMAR_DATA.B1={
           "q": "指定女性说话者，改写为过去追悔：Je n’ai pas vérifié l’adresse avant de partir, et je suis allée au mauvais bâtiment. 用 J’aurais dû… 开头。",
           "a": "J’aurais dû vérifier l’adresse avant de partir ; je suis allée au mauvais bâtiment.",
           "note": "aurais dû＋原形表达事后追悔。dû不随女性je加e（此处无前置COD）；allée按女性je配合。可删后半已知后果，但不能把实际到错楼说成假设。"
+        },
+        {
+          "q": "原创上下文：你确实读了这张便条，并认为因此记得确认出席。把Sans cette note, j’aurais oublié de confirmer ma présence.展开为si引出的过去未实现条件，明确动作为读便条，保留后果。",
+          "a": "Si je n’avais pas lu cette note, j’aurais oublié de confirmer ma présence.",
+          "note": "也可：J’aurais oublié de confirmer ma présence si je n’avais pas lu cette note. 两种顺序均可；si从句的读使用愈过去时，忘记确认的主句使用条件式过去。这里的因果判断是情境给出的说话者设想，不由动词形式额外证明。"
+        },
+        {
+          "q": "另一个判断任务：比较J’ai lu la note avant la réunion.和Sans cette note, j’aurais oublié de confirmer ma présence.，指出实际经历与未实现后果，并说明仅凭前一句能否证明后一句。",
+          "a": "La première phrase rapporte une lecture antérieure à la réunion. La seconde envisage un oubli dans un scénario sans la note ; la seule chronologie ne prouve pas ce scénario.",
+          "note": "也可：La lecture est présentée comme un fait ; l’oubli sans la note est hypothétique. La première phrase ne suffit pas à établir la seconde. 句式、时间先后和因果依据分开判断；答案也可用中文解释，不能把过去条件式机械当成传闻或数学证明。"
         }
       ]
     },

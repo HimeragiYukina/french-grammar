@@ -125,3 +125,5 @@ A1–C2 各深化一个既有语法点，新增 6 节讲解、16 个双语例句
 - 2026-10-17 第28批：c2-conjecture：第28批有界复审。[本地验收报告](expansion-batch28-summary-20261017.html)；后续推送另行核实。
 
 - 2026-10-17 第29批：c2-exclamation：第29批有界复审。[本地验收报告](expansion-batch29-summary-20261017.html)；后续推送另行核实。
+
+- 2026-10-17：[B1条件式过去：sans条件与证据边界](expansion-batch33-summary-20261017.html)，范围、复用音频及未测项分列。

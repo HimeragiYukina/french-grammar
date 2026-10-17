@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3856,
-  "covered": 3856,
+  "denominator": 3865,
+  "covered": 3865,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -488,10 +488,10 @@
       "kind": "grammar-point",
       "id": "b1-cond-passe",
       "level": "B1",
-      "exactTextUnits": 25,
-      "localFilesPresent": 25,
+      "exactTextUnits": 34,
+      "localFilesPresent": 34,
       "missingLocalFiles": 0,
-      "requiredUnits": 24,
+      "requiredUnits": 33,
       "errorInputUnits": 1
     },
     {

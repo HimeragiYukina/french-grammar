@@ -1,0 +1,30 @@
+{
+  "text": "La lecture est présentée comme un fait ; l’oubli sans la note est hypothétique. La première phrase ne suffit pas à établir la seconde.",
+  "text_sha256": "87bb4aee7c0b544bb4ed735c57cec9df1715d2962a20027ba64d6cf7520ee799",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.616145124716553,
+      "source_seconds": 7.616145124716553,
+      "source_file_sha256": "32ef8b5743afb3c266b8706f3d75e5a42bb6ea6909f43add45a4bcc75b5e7302",
+      "file_sha256": "622df3550151262988f2ab0b53fc47f768714cec9ac9e5092b9837ac47703770",
+      "bytes": 61693,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
