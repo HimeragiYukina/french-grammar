@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 5,
+  "generated_this_run": 2,
   "generation_runs": [
     {
-      "generated": 3329,
+      "generated": 3331,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 155.06993436813354,
+  "elapsed_seconds": 60.51455760002136,
   "listened": false,
   "records": [
     {
@@ -113752,6 +113752,30 @@
             }
           ],
           "kind": "eligible_phrase"
+        },
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "/c1-connecteurs-soutenus/practice/4/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 27,
+              "end_codepoint": 39
+            }
+          ],
+          "kind": "eligible_phrase"
+        },
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "/c1-connecteurs-soutenus/practice/4/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 18,
+              "end_codepoint": 30
+            }
+          ],
+          "kind": "eligible_phrase"
         }
       ],
       "existing": [],
@@ -155950,17 +155974,17 @@
       "bytes": 27211,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.308843537414966,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/4d74ab9a92f184faa2082f438d990b5082020c7ad11dfb559882845e01f4925e.wav",
         "file_sha256": "74329e0c16ede5bc0c8a58ce6947ba04e8b0b2e720dea927e2c2204dc802f5ef",
-        "bytes": 145964,
-        "rms": 5117.208028780303
+        "seconds": 3.308843537414966
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155991,17 +156015,17 @@
       "bytes": 27002,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.274013605442177,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/8dccd95a2db2067c2756f5ae5e905117af431a9adb365ef44bdec6ed6507cb71.wav",
         "file_sha256": "fa44e43afdb53898826332e6f119d8167d93b4695bef3f229700332f8242515d",
-        "bytes": 144428,
-        "rms": 5748.004525128925
+        "seconds": 3.274013605442177
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156032,17 +156056,17 @@
       "bytes": 6940,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 0.7662585034013606,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/22ac1130259898d4cc255fe7cbbd325445f41a9a74b5f400475eea76fb16c512.wav",
         "file_sha256": "b0e505ef6dd67cb90cceeecf8947651d46a861f4487ab45cfd2ffdea3a90bd09",
-        "bytes": 33836,
-        "rms": 7922.394326400657
+        "seconds": 0.7662585034013606
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156073,17 +156097,17 @@
       "bytes": 23658,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.8560544217687074,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/8c78e27f7b0e248ae1e9110966a4e61696be8358eafd345de7e2b18816d77d20.wav",
         "file_sha256": "d38bd9fe1f583a825f72ecc83fe5316b88d10cea8bcf7834d118172b692e2802",
-        "bytes": 125996,
-        "rms": 6529.373794314502
+        "seconds": 2.8560544217687074
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156114,14 +156138,96 @@
       "bytes": 11955,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.4048072562358276,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/e57f1ee32af89aa4dc13a36d89e65be5806448ba73b25577935a930f654e36fa.wav",
         "file_sha256": "7a2df3d113eb2cc70616fbc914d3765e131a90d20a1b3dbc2dc946cf8d5f1e9c",
-        "bytes": 61996,
-        "rms": 6518.3703736783655
+        "seconds": 1.4048072562358276
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Le catalogue est en ligne ; cela ne prouve pas pour autant que les lecteurs trouvent les dossiers dont ils ont besoin.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "/c1-connecteurs-soutenus/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 118
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "3129a588bed02f01e2445d4405fa006efa3573fcd74f6949596baf467b5b8255",
+      "path": "audio/supplement/3129a588bed02f01e2445d4405fa006efa3573fcd74f6949596baf467b5b8255.mp3",
+      "source": "local-siwis",
+      "file_sha256": "b8bd73382c59c4c0b195029342ebeea785000c23fe2be1564defac54f824edf5",
+      "bytes": 44765,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 5.50312925170068,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/3129a588bed02f01e2445d4405fa006efa3573fcd74f6949596baf467b5b8255.wav",
+        "file_sha256": "62e1c60b8d8b9336562c5187b3fb9aa9ea57d72c0bd1e144fcfb760dd1cf140e",
+        "bytes": 242732,
+        "rms": 4731.754552967146
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La notice, au demeurant très claire, ne précise pas les horaires du week-end.",
+      "occurrences": [
+        {
+          "id": "c1-connecteurs-soutenus",
+          "field": "/c1-connecteurs-soutenus/practice/4/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 77
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "798444010de302867aee195fc34e4de0964a3c643cd7b0f34cd589a202772afc",
+      "path": "audio/supplement/798444010de302867aee195fc34e4de0964a3c643cd7b0f34cd589a202772afc.mp3",
+      "source": "local-siwis",
+      "file_sha256": "f712b7db25a97c0393d1b76fa2990b58c50de971172bd018f4066ffb83d5153d",
+      "bytes": 37869,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.632380952380952,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/798444010de302867aee195fc34e4de0964a3c643cd7b0f34cd589a202772afc.wav",
+        "file_sha256": "04fe0a3724b1ce1d47c19f58ff4f19bf8e288457710613419ddcbe4a0d648a81",
+        "bytes": 204332,
+        "rms": 5940.532491832451
       },
       "codec": "libmp3lame",
       "bitrate": 64000

@@ -2006,6 +2006,16 @@ window.GRAMMAR_DATA.C1={
           "q": "解释 La notice, au demeurant très claire, ne traite pas des horaires 中插入语与主句关系。",
           "a": "La clarté de la notice est reconnue, mais son champ ne comprend pas les horaires.",
           "note": "不是先肯定再撤销；清晰度与内容覆盖范围不同。可用中文，但须明确两个维度。"
+        },
+        {
+          "q": "独立档案室情境：目录已上网，但暂未测试读者能否查到所需卷宗。用ne…pas pour autant阻断“上网即证明可用”的推论，不断言目录必然无用。",
+          "a": "Le catalogue est en ligne ; cela ne prouve pas pour autant que les lecteurs trouvent les dossiers dont ils ont besoin.",
+          "note": "承认已上网，否定仅凭上线就证明实际检索成功。不能反过来宣布所有读者都失败；目录是否可用仍需观察。"
+        },
+        {
+          "q": "同一原创档案室已确认：说明写得清楚，但未列周末时段。用au demeurant插入对清晰度的评价，不把遗漏时段写成文字难懂。",
+          "a": "La notice, au demeurant très claire, ne précise pas les horaires du week-end.",
+          "note": "插入评价与正文遗漏可同时成立；不是用au demeurant撤销清晰度。可选自然同义改述，但应保留清晰度与覆盖范围两个维度。"
         }
       ]
     },

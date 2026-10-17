@@ -1,0 +1,30 @@
+{
+  "text": "Le catalogue est en ligne ; cela ne prouve pas pour autant que les lecteurs trouvent les dossiers dont ils ont besoin.",
+  "text_sha256": "3129a588bed02f01e2445d4405fa006efa3573fcd74f6949596baf467b5b8255",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.50312925170068,
+      "source_seconds": 5.50312925170068,
+      "source_file_sha256": "62e1c60b8d8b9336562c5187b3fb9aa9ea57d72c0bd1e144fcfb760dd1cf140e",
+      "file_sha256": "b8bd73382c59c4c0b195029342ebeea785000c23fe2be1564defac54f824edf5",
+      "bytes": 44765,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

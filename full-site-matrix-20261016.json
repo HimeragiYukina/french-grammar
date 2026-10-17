@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3824,
-  "covered": 3824,
+  "denominator": 3826,
+  "covered": 3826,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -906,10 +906,10 @@
       "kind": "grammar-point",
       "id": "c1-connecteurs-soutenus",
       "level": "C1",
-      "exactTextUnits": 55,
-      "localFilesPresent": 55,
+      "exactTextUnits": 57,
+      "localFilesPresent": 57,
       "missingLocalFiles": 0,
-      "requiredUnits": 54,
+      "requiredUnits": 56,
       "errorInputUnits": 1
     },
     {
