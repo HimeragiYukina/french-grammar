@@ -1,0 +1,30 @@
+{
+  "text": "À dix-sept heures, je vais à la pharmacie. Ensuite, je vais à la librairie près de la mairie.",
+  "text_sha256": "c490aefeb1241cc957b28d2f1b5166cefd6beef61081a542ec405f9b09e4d9fc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.445079365079365,
+      "source_seconds": 5.445079365079365,
+      "source_file_sha256": "c7160ef3df9afabe45e5988fca8d7c926c3702f160c0942b2a87516d3a109f38",
+      "file_sha256": "2bd2931f2218a674b63f74e8a1bae1a49fc2132617bfca57a1ceca3bd134e862",
+      "bytes": 44347,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

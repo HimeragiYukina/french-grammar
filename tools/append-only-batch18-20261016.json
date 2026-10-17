@@ -1,0 +1,100 @@
+{
+  "batch": "18",
+  "counts": {
+    "sections": 0,
+    "practice": 2
+  },
+  "files": [
+    {
+      "file": "tools/supplement-a1.json",
+      "before_sha256": "3a411c4a89bb48be5ed10737d1ebeeb32c345bb77ad5ba485d2678d4a466dd99",
+      "after_sha256": "a4476d588d7f9c4d7c4a553a63c6d7ba3f0c5efb4ee1274732f178e78ed929f4",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "a1-heure-date",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": []
+        },
+        {
+          "operation": "append",
+          "path": [
+            "a1-heure-date",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "ffb4e19c5407910d1c51310ece7315afd0ab5709a88da5aa6ad8295a08d1fda6",
+          "added": [
+            {
+              "q": "诊所约9点见，要求9点之前填完表。用à和avant分别写见面时点与填表完成计划，不说已经填好。 可用remplir le formulaire（填写表格）。",
+              "a": "Le rendez-vous est à neuf heures. Je vais remplir le formulaire avant neuf heures.",
+              "note": "à给预约时点，avant给完成界限；je vais remplir保留计划，不等于j’ai rempli。"
+            },
+            {
+              "q": "下午5点先去药店，随后到市政厅附近的书店。用两个简单句保留先后与附近关系，不编书店营业时间。 可用pharmacie（药店）、librairie（书店）、mairie（市政厅）。",
+              "a": "À dix-sept heures, je vais à la pharmacie. Ensuite, je vais à la librairie près de la mairie.",
+              "note": "dix-sept heures是17点；près de定位书店，不是说书店在市政厅里。第二句没有给准确抵达时间，不能据此编出17:10。 librairie是书店，不是bibliothèque（图书馆）。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "protected_files_sha256": {
+    "append-only-batch10-20261016.json": "ecf0a772653766cc5e81a09027f050dfebf7781badaae21eb340e7216b269257",
+    "append-only-batch10-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch11-20261016.json": "fabc8c6be7fa009e0886c646735f5dda11e5b94997945e382b76b069afc1568a",
+    "append-only-batch11-checks-20261016.json": "47245bbbfd62945f33bf9708e5dfd68f05d2d4878cab1a377b69d6a44a386c1a",
+    "append-only-batch12-20261016.json": "0de9886e76199ecf1ef5d8add65c8478f0e3f3906d4d5407c4baac67e6002132",
+    "append-only-batch12-checks-20261016.json": "47245bbbfd62945f33bf9708e5dfd68f05d2d4878cab1a377b69d6a44a386c1a",
+    "append-only-batch13-20261016.json": "e419517800d7f8b264e454a8daf1bebb0fbb7f0e9a509e4da29b037f87419984",
+    "append-only-batch13-checks-20261016.json": "5a360344dfb8f1a8ea4296e2a4dab43329c41e7de556dde8f2bc477652a261ac",
+    "append-only-batch14-20261016.json": "02a802b47bf3823108fc70883d1cf56384cb73ba9179ee524bbdfc4961953463",
+    "append-only-batch14-checks-20261016.json": "5a360344dfb8f1a8ea4296e2a4dab43329c41e7de556dde8f2bc477652a261ac",
+    "append-only-batch15-20261016.json": "fa3547d920c0c7a5907b9b13fcba6195e63884314399bd46b0b0dcd4a8647a48",
+    "append-only-batch15-checks-20261016.json": "f3a6ea4b7fc9b1ec4823f66bf6ffe3d518322c516ab6977935322e69a86a1092",
+    "append-only-batch16-20261016.json": "609b31aee33452182a53f85f1c82ff9b9902f277b963d38fd98b43d98eeccfd3",
+    "append-only-batch16-checks-20261016.json": "f3a6ea4b7fc9b1ec4823f66bf6ffe3d518322c516ab6977935322e69a86a1092",
+    "append-only-batch17-20261016.json": "04f08cd30277c27b5f88671f6b2403475d013808bf31f9d70d1383ebafeba970",
+    "append-only-batch17-checks-20261016.json": "f3a6ea4b7fc9b1ec4823f66bf6ffe3d518322c516ab6977935322e69a86a1092",
+    "append-only-batch2-20261016.json": "5cdfc333160fe3826204a2ac44dcab6619a332dbc471d4765aa94c8c212b71af",
+    "append-only-batch2-checks-20261016.json": "3c4458f65edcf547809e6dbe5bc176cfbe1a2a77ed1d5272b735b0535aa24aa0",
+    "append-only-batch3-20261016.json": "353700af00f121d76d3ee500068eea510dea365d64f40aaab89988a4f61a40ab",
+    "append-only-batch3-checks-20261016.json": "08ecd653be92cd4d2d64e96b5a0d06cf5e2da6d21f58e3590cd764eab7a26a40",
+    "append-only-batch4-20261016.json": "428c5477577664409b3eb90f77df940103e13ae537f505c576d0b1264655165e",
+    "append-only-batch4-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch5-20261016.json": "4596e055bb7fb3f009fbd046f9e0b3a7beb40fd74aeb6b82d0906042a235207d",
+    "append-only-batch5-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch6-20261016.json": "c76fdacb3e99c21b87dd0ab3c34056c73c6d7804a958dd29eef4e9f6c9b22e7d",
+    "append-only-batch6-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch7-20261016.json": "7f9f3bd88c98f22dedb696caa262dab14de579415e0a3a62d3bb44a7514f40aa",
+    "append-only-batch7-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch8-20261016.json": "53198a1e8ca20ec26cd9292efaa1da81f7dfc8ef72a33c150380a513e84cd1bf",
+    "append-only-batch8-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch9-20261016.json": "c9fcc9c8935bde71dd1456361afc356708fd1a1a24d41e78365821ea55dd1443",
+    "append-only-batch9-checks-20261016.json": "391fbbdfab401f79e22412250f12e6108e8d0e11f654f709ef7973533ff80e7a",
+    "append_batch10_evidence.py": "8d41384ac8c60027c62d1b53d3f74f6247364687ef680d93bdd80f714389ec5d",
+    "append_batch11_evidence.py": "4f19da5b3d7686edfffe284b2af9ea826f2ae7386f61f286c9de777089e7d300",
+    "append_batch12_evidence.py": "8921b62bfae154eeb7619f0eaa33247cbcf4098f88df1df399e0366dc5dcfa01",
+    "append_batch13_evidence.py": "ebf748bfab3f037fe1fb923c99c3a92e1f0f094c6e817fed7a35fa316272d730",
+    "append_batch14_evidence.py": "42e2441fc5651f569eaae391729503648da6d77b282b10663e960337026eb98a",
+    "append_batch15_evidence.py": "5684028767ed2c25ad12c10264632c2686dae9f6143d66c8ad9a4fdc05e532df",
+    "append_batch16_evidence.py": "f98ce6ee76f0aba10ae0ab24de60879c02a16faa999f1c1d128f16ecfa1aa02d",
+    "append_batch17_evidence.py": "d81f33fa3d7e8b0b0849c15b01dd398005eea14c8d70d5b27b212a39331cc24a",
+    "append_batch2_evidence.py": "1488492e962c80202bc0c0114f4c48023f86b9ebff65fdce2693417b77b91555",
+    "append_batch3_evidence.py": "1ced42994671b8002aaed195d88c84f632c782f1d309531bd018504f454d95ff",
+    "append_batch4_evidence.py": "48b881d966231cd661fe2e063850aa3328e5c0a237906e2a7eb387c01a990043",
+    "append_batch5_evidence.py": "1582039d1d83118f048654ddeb2546dcf7a3454df7f66781d8f7dd943da304ba",
+    "append_batch6_evidence.py": "0cd104bbd5d1df709a9963b757b5e59a490d70d99769ee94bc86e46e2940fa43",
+    "append_batch7_evidence.py": "e2a64a9f34699ebb0c6005f2b9c5151c7f19904592eacd834f32b93ba025de8d",
+    "append_batch8_evidence.py": "1ff28012222c430dd37d0aa8e74faf6a44f695d9f647369cd4e5dc64a3b8de3a",
+    "append_batch9_evidence.py": "45b38e4829865f98ede91ef2b9031ea5b9dff1511b1b13498f3515152e0607a6",
+    "content-baseline.json": "a17a54048c334231f27a84457574491fa726696791eadf6945abd666a4e4b225",
+    "strict-review-baseline.json": "25fbee3f19541f18d60be04ad4ace10f4b75c1cd5426d3863110cda368985ea8"
+  },
+  "method": "Exact full-file hashes, unchanged old prefixes and explicit suffixes; restore only in memory before prior batch3/batch2/original checks."
+}

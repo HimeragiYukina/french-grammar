@@ -1,0 +1,30 @@
+{
+  "text": "pharmacie",
+  "text_sha256": "79a1d0acf4c325acdce7b8b8b5467975a41a213a9a7cee3efe506458166cbfb1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.7894784580498866,
+      "source_seconds": 0.7894784580498866,
+      "source_file_sha256": "10e961afcf32ded97509258c1d3a86a4a4e655341e038e248941272bcb38a5f7",
+      "file_sha256": "b6d0d0c9fd5a012c2e2efe744d6629e80586f1e25f863438747fbaa46daf6880",
+      "bytes": 7149,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

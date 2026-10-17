@@ -15,8 +15,8 @@ def set_value(data,path,value):
  return data
 def main():
  baseline=read('tools/strict-review-baseline.json')['files'];current={name:read(name) for name in baseline}
- from append_batch17_evidence import restore_all_append_batches
- batch17_counts,batch16_counts,batch15_counts,batch14_counts,batch13_counts,batch12_counts,batch11_counts,batch10_counts,batch9_counts,batch8_counts,batch7_counts,batch6_counts,batch5_counts,batch4_counts,batch3_counts,append_counts=restore_all_append_batches(current)
+ from append_batch18_evidence import restore_all_append_batches
+ batch18_counts,batch17_counts,batch16_counts,batch15_counts,batch14_counts,batch13_counts,batch12_counts,batch11_counts,batch10_counts,batch9_counts,batch8_counts,batch7_counts,batch6_counts,batch5_counts,batch4_counts,batch3_counts,append_counts=restore_all_append_batches(current)
  for ch in reversed(read('tools/full-site-review-20261016.json')['changes']):
   if ch['file'] not in current:continue
   assert get(current[ch['file']],ch['path'])==ch['after'],(ch['file'],ch['path'])
@@ -47,6 +47,6 @@ def main():
   digest=hashlib.sha256(json.dumps(obj,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
   assert digest==baseline[name],('Unlogged JSON edit',name)
  assert len(rows)==97 and len(contexts)==6
- print(json.dumps({'append_only_batch17':batch17_counts,'append_only_batch16':batch16_counts,'append_only_batch15':batch15_counts,'append_only_batch14':batch14_counts,'append_only_batch13':batch13_counts,'append_only_batch12':batch12_counts,'append_only_batch11':batch11_counts,'append_only_batch10':batch10_counts,'append_only_batch9':batch9_counts,'append_only_batch8':batch8_counts,'append_only_batch7':batch7_counts,'append_only_batch6':batch6_counts,'append_only_batch5':batch5_counts,'append_only_batch4':batch4_counts,'append_only_batch3':batch3_counts,'append_only_batch2':append_counts,'points':len(rows),'contexts':len(contexts),'recorded_changes':len(changes),'checks':'per-ID semantic coverage counts and exact reversible edits against pre-review SHA-256 baseline'},ensure_ascii=False,indent=2))
+ print(json.dumps({'append_only_batch18':batch18_counts,'append_only_batch17':batch17_counts,'append_only_batch16':batch16_counts,'append_only_batch15':batch15_counts,'append_only_batch14':batch14_counts,'append_only_batch13':batch13_counts,'append_only_batch12':batch12_counts,'append_only_batch11':batch11_counts,'append_only_batch10':batch10_counts,'append_only_batch9':batch9_counts,'append_only_batch8':batch8_counts,'append_only_batch7':batch7_counts,'append_only_batch6':batch6_counts,'append_only_batch5':batch5_counts,'append_only_batch4':batch4_counts,'append_only_batch3':batch3_counts,'append_only_batch2':append_counts,'points':len(rows),'contexts':len(contexts),'recorded_changes':len(changes),'checks':'per-ID semantic coverage counts and exact reversible edits against pre-review SHA-256 baseline'},ensure_ascii=False,indent=2))
  return reports
 if __name__=='__main__':main()

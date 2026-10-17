@@ -2947,6 +2947,16 @@ window.GRAMMAR_DATA.A1={
           "q": "分别写每周一在家工作、上周一在办公室；说“中午十二点半”时demi是否加e？",
           "a": "Le lundi, je travaille chez moi. Lundi dernier, j’étais au bureau. midi et demi。",
           "note": "le lundi常表习惯；lundi dernier明确过去的一次。midi阳性demi无e，heures et demie有e。本题允许先理解j’étais语块。"
+        },
+        {
+          "q": "诊所约9点见，要求9点之前填完表。用à和avant分别写见面时点与填表完成计划，不说已经填好。 可用remplir le formulaire（填写表格）。",
+          "a": "Le rendez-vous est à neuf heures. Je vais remplir le formulaire avant neuf heures.",
+          "note": "à给预约时点，avant给完成界限；je vais remplir保留计划，不等于j’ai rempli。"
+        },
+        {
+          "q": "下午5点先去药店，随后到市政厅附近的书店。用两个简单句保留先后与附近关系，不编书店营业时间。 可用pharmacie（药店）、librairie（书店）、mairie（市政厅）。",
+          "a": "À dix-sept heures, je vais à la pharmacie. Ensuite, je vais à la librairie près de la mairie.",
+          "note": "dix-sept heures是17点；près de定位书店，不是说书店在市政厅里。第二句没有给准确抵达时间，不能据此编出17:10。 librairie是书店，不是bibliothèque（图书馆）。"
         }
       ]
     },
