@@ -1,0 +1,30 @@
+{
+  "text": "Permettez-moi d’achever ce point, puis je vous redonnerai la parole.",
+  "text_sha256": "6206fe75c26ec6821cae2384f808ea5b80c4880a489cb56e30bf6191fc1a702f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.947392290249433,
+      "source_seconds": 3.947392290249433,
+      "source_file_sha256": "366ce14b08d7bf5bf1e74a828d5320b17ca8f9f9daf30e61d3697e9ebcaddc49",
+      "file_sha256": "645d39e3bc8428d10c2a1b6f1d83fd4b4d5f4edfc0b146e2b68acbb15ac5eb98",
+      "bytes": 32435,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -417,7 +417,29 @@
     ]
   },
   "b2-registres": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "短话轮请求：形式、关系与语调一起决定效果",
+        "explanation": "以下为独立原创艺术讲解会情境。vous命令式可以用于正式请求，条件式可以缓和请求，但实际效果还取决于关系、时机和说话方式；不能仅凭一个动词形式断定全场已同意。说明只需完成一个短点，再明确交回话轮，比无边界地要求继续说更容易让听者知道下一步。书面例句不提供真实语调或插话录音的听辨证据。",
+        "examples": [
+          {
+            "fr": "Permettez-moi d’achever ce point, puis je vous redonnerai la parole.",
+            "zh": "请允许我讲完这一点，然后把发言权交还给您。",
+            "use": "vous命令式提出短请求，未来时交代后续交还；不宣称听者已接受。"
+          },
+          {
+            "fr": "Pourrais-je terminer cette explication avant d’écouter votre question ?",
+            "zh": "我可以先把这项解释说完，再听您的提问吗？",
+            "use": "条件式倒装提出请求，écouter votre question明确表示听对方提问，不等于已作答。"
+          },
+          {
+            "fr": "Oui, je vous laisse conclure ce point ; ensuite, j’aimerais préciser la durée retenue.",
+            "zh": "好的，我让您讲完这一点；然后我想明确所采用的期间。",
+            "use": "给对方完成短点的空间，并提出自己的后续澄清需要；不等于认可其所有论据。"
+          }
+        ]
+      }
+    ],
     "related": [],
     "practice": [
       {
@@ -429,6 +451,16 @@
         "q": "你对熟悉同事仍使用tu，但要把“Tu pars quand ?”改成较正式倒装，再礼貌请求他发具体文件。不要靠改成vous来完成全部任务。",
         "a": "Quand pars-tu ? Pourrais-tu m’envoyer le document concerné avant ton départ ?",
         "note": "tu保持人际关系；倒装pars-tu和条件式pourrais-tu调整表达方式。文件和时限可合理变化，不能用un truc替代具体对象，或称所有tu都不礼貌。"
+      },
+      {
+        "q": "独立艺术讲解会中，你希望先讲完当前解释，再交还话轮。用Permettez-moi de…提出短请求，并另写一句将来安排，不宣称对方已经同意。",
+        "a": "Permettez-moi de terminer cette explication. Je vous redonnerai ensuite la parole.",
+        "note": "permettez是vous命令式，de后terminer保持原形；redonnerai交代之后交回，不表示已经发生。也可用自然条件式请求，但本题指定的形式仍须完成。"
+      },
+      {
+        "q": "同一原创讲解会结束后，两位熟悉同事用tu讨论。一人请先讲完一个点，你同意，接着会提问。用tu命令式回复，别把同意让他讲完改成赞同论据。",
+        "a": "D’accord, termine ce point ; je poserai ma question ensuite.",
+        "note": "termine与tu对应；同意这次话轮安排不等于接受所有内容。保留明确的ensuite，实际语调仍需真实互动判断，不能因tu就判定失礼。"
       }
     ]
   },
