@@ -1,0 +1,30 @@
+{
+  "text": "Raccourcisse est ici au subjonctif après souhaiter que. La question porte sur un souhait ; elle n’affirme pas que la préface a déjà été raccourcie.",
+  "text_sha256": "cbe6aef88ee095441a5ed29f23e8b1d1ce80764b1e40a5296f311a17f3497e3d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.604535147392291,
+      "source_seconds": 7.604535147392291,
+      "source_file_sha256": "7499b25cd031e0beebcfe18ac678a10be25ee6dba132e91b5420df233d29e8cf",
+      "file_sha256": "8e21890fea85d6d564735319c219120858eb648f50e06eda5cca3161d2dad29f",
+      "bytes": 61693,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

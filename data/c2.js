@@ -1087,6 +1087,16 @@ window.GRAMMAR_DATA.C2={
           "q": "纠正编辑的绝对规则“le fait que后必虚拟，le premier后也必虚拟”。以已知他那天缺席、已知Paul今天第一个到为情境，各写一句反例并解释。",
           "a": "Vous oubliez le fait qu'il était absent ce jour-là. Paul est le premier candidat qui est arrivé ce matin. L'indicatif peut présenter des faits identifiés ; ces expressions ne déclenchent pas mécaniquement le subjonctif.",
           "note": "两个直陈实例各1分；说明确认事实的表达角度1分；不反向宣称虚拟式一律错1分。也接受le premier à être arrivé，自然正确但须另给关系从句以展示该规则。"
+        },
+        {
+          "q": "编辑问Souhaitez-vous que je raccourcisse la préface ?。用法语说明raccourcisse的语气和是否证明序言已缩短。",
+          "a": "Raccourcisse est ici au subjonctif après souhaiter que. La question porte sur un souhait ; elle n’affirme pas que la préface a déjà été raccourcie.",
+          "note": "希望、询问愿望与实际完成要区分；不能把虚拟式从句直接转成已经修改的叙述。"
+        },
+        {
+          "q": "写“我想知道更短的序言是否合适”，保留试探性的条件式。这里si是条件还是间接疑问？",
+          "a": "Je voudrais savoir si une préface plus courte conviendrait.",
+          "note": "si引间接“是否”，不是假设条件从句，故可接conviendrait。不能把“条件si后不用条件式”扩成任何si后都禁止条件式。"
         }
       ]
     },

@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 4,
+  "generated_this_run": 3,
   "generation_runs": [
     {
-      "generated": 3301,
+      "generated": 3304,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 60.21019911766052,
+  "elapsed_seconds": 181.48943758010864,
   "listened": false,
   "records": [
     {
@@ -154831,17 +154831,17 @@
       "bytes": 19061,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.2755555555555556,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/2502a0e0bd5b6bb25f342353c78adbfc39bc5f4de250e3c21541e3d1d08c6a0e.wav",
         "file_sha256": "ed2c5cd6e341b7a731c5daddf9a0ce68a7a33cf32c9f7e6cd783806bdb2f6930",
-        "bytes": 100396,
-        "rms": 4462.235147108623
+        "seconds": 2.2755555555555556
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -154872,17 +154872,17 @@
       "bytes": 18434,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.2058956916099772,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/774a284bc2af43e6a9172473b1fd06e0bffa652da140b2d368c222b4891d9b95.wav",
         "file_sha256": "f84afe243655629896c7ec05f3edddebf1a75559e4e77e4e4829b60c9e31894e",
-        "bytes": 97324,
-        "rms": 6000.304521610209
+        "seconds": 2.2058956916099772
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -154913,17 +154913,17 @@
       "bytes": 27002,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.2856235827664397,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/d3cd9eea7771e491f00996b05c1a54a7b116c2a5599467f5c4309e600d4ea7a2.wav",
         "file_sha256": "766908a6b34e0ba3c6a8ab8fb60eea1df4f2859e962610c24b7811f766757eee",
-        "bytes": 144940,
-        "rms": 5909.505838150247
+        "seconds": 3.2856235827664397
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -154954,14 +154954,137 @@
       "bytes": 61484,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 7.592925170068027,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/10b8a404d23c03cf518c1f83abb2292043ec00d14e5235c6ebf8698110a0a9a1.wav",
         "file_sha256": "a2aebe39a29b8e2e5d0ec9e3905f1ff63a064fc8d29b9a0dedd2cd43ecf401da",
-        "bytes": 334892,
-        "rms": 5582.449747148882
+        "seconds": 7.592925170068027
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Souhaitez-vous que je raccourcisse la préface ?",
+      "occurrences": [
+        {
+          "id": "c2-subj-fin",
+          "field": "/c2-subj-fin/practice/2/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 3,
+              "end_codepoint": 50
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "909c669ced90499c55fe1863e439f9bce3354d0195963c302fe69d0d8f788c25",
+      "path": "audio/supplement/909c669ced90499c55fe1863e439f9bce3354d0195963c302fe69d0d8f788c25.mp3",
+      "source": "local-siwis",
+      "file_sha256": "b106e67c656fd698f731229abae231016ec858f3728d8171277d62897fc3fcdf",
+      "bytes": 18225,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.1710657596371883,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/909c669ced90499c55fe1863e439f9bce3354d0195963c302fe69d0d8f788c25.wav",
+        "file_sha256": "7303a1bd74d97d209710cd3d99ab4dc40ddcfa3dfc8e1582087896eb57dada16",
+        "bytes": 95788,
+        "rms": 5653.062343474366
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Raccourcisse est ici au subjonctif après souhaiter que. La question porte sur un souhait ; elle n’affirme pas que la préface a déjà été raccourcie.",
+      "occurrences": [
+        {
+          "id": "c2-subj-fin",
+          "field": "/c2-subj-fin/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 147
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "cbe6aef88ee095441a5ed29f23e8b1d1ce80764b1e40a5296f311a17f3497e3d",
+      "path": "audio/supplement/cbe6aef88ee095441a5ed29f23e8b1d1ce80764b1e40a5296f311a17f3497e3d.mp3",
+      "source": "local-siwis",
+      "file_sha256": "8e21890fea85d6d564735319c219120858eb648f50e06eda5cca3161d2dad29f",
+      "bytes": 61693,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 7.604535147392291,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/cbe6aef88ee095441a5ed29f23e8b1d1ce80764b1e40a5296f311a17f3497e3d.wav",
+        "file_sha256": "7499b25cd031e0beebcfe18ac678a10be25ee6dba132e91b5420df233d29e8cf",
+        "bytes": 335404,
+        "rms": 5560.339161838456
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Je voudrais savoir si une préface plus courte conviendrait.",
+      "occurrences": [
+        {
+          "id": "c2-subj-fin",
+          "field": "/c2-subj-fin/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 59
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "8b4e98a740938cd0d7ab2301291157dee8267ca6b0ae6e1800412d4deccc0192",
+      "path": "audio/supplement/8b4e98a740938cd0d7ab2301291157dee8267ca6b0ae6e1800412d4deccc0192.mp3",
+      "source": "local-siwis",
+      "file_sha256": "71faacd6519c9c513b51e54033712d088fb4e9fcd99448c093db703ec82f8b6b",
+      "bytes": 27002,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.274013605442177,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/8b4e98a740938cd0d7ab2301291157dee8267ca6b0ae6e1800412d4deccc0192.wav",
+        "file_sha256": "54f95d12d76633ff0436193a3dc3b83090d0868233f6cb384d35512b2e4750a0",
+        "bytes": 144428,
+        "rms": 4919.113547709573
       },
       "codec": "libmp3lame",
       "bitrate": 64000

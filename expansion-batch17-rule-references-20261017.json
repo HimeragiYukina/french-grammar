@@ -1,0 +1,19 @@
+{
+  "references": [
+    {
+      "title": "OQLF — Subjonctif après certains verbes",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24253/la-grammaire/le-verbe/modes/subjonctif/subjonctif-apres-certains-verbes",
+      "checked": "2026-10-17",
+      "note": "核对愿望动词引导的que从句；例句原创。"
+    },
+    {
+      "title": "OQLF — Conditionnel dans les phrases hypothétiques",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24140/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/conditionnel-dans-les-phrases-hypothetiques",
+      "checked": "2026-10-17",
+      "note": "核对假设条件si与间接疑问si的区别；不从形式推定计划已实施。"
+    }
+  ],
+  "checked": "2026-10-17",
+  "examples": "Original; no source examples copied",
+  "scope": "Wishes and subordinate subjunctive; conditional si versus interrogative si"
+}
