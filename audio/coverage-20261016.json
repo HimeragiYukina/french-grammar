@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 6,
+  "generated_this_run": 5,
   "generation_runs": [
     {
-      "generated": 3324,
+      "generated": 3329,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 58.8700475692749,
+  "elapsed_seconds": 155.06993436813354,
   "listened": false,
   "records": [
     {
@@ -155692,17 +155692,17 @@
       "bytes": 8612,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 0.9868480725623583,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/d5afb0c567d404e30816156da8c211ce9bd017796cd21d3765c3652a781f698b.wav",
         "file_sha256": "afd2331957d2549c83ac088818c2527fdcf2bc4daf0d8ed106378cc6178b4eb2",
-        "bytes": 43564,
-        "rms": 4333.882159419789
+        "seconds": 0.9868480725623583
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155733,17 +155733,17 @@
       "bytes": 11119,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.2887074829931973,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/dbedc113e5991011be86fcfb9ca84b5384e210e4a49a46fb6e6e60bd605c65e7.wav",
         "file_sha256": "4d7fc9c0ee034f9a29379d3ea15b5359ebe0c2e5ae5158f00218a0a0959fb00a",
-        "bytes": 56876,
-        "rms": 5403.7093076647525
+        "seconds": 1.2887074829931973
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155774,17 +155774,17 @@
       "bytes": 39123,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 4.806530612244898,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/f0e2be62c8a9f34b1e62e764d79b146e108cd98c1d2f1eb1d38696fe44e7274f.wav",
         "file_sha256": "56b83dc983ca3c89065e41dffa094768b9353158f62dc3959fe12051e6d36914",
-        "bytes": 212012,
-        "rms": 5203.114810649415
+        "seconds": 4.806530612244898
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155815,17 +155815,17 @@
       "bytes": 8612,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 0.9752380952380952,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/1c37e29cf6dc2ca7c882b1eff1ae1d6175492020b0494aa2890ac18d55629cdd.wav",
         "file_sha256": "d1d2a4a97ae0744a478af6ba0d888c9cc733f18487e4d3a06050111cdf1cbcc8",
-        "bytes": 43052,
-        "rms": 5995.752795735086
+        "seconds": 0.9752380952380952
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155868,17 +155868,17 @@
       "bytes": 6731,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 0.7430385487528345,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/e757aaf34c5586769ccc60271b5f4e801a3d64b14bbb9e340c2a2313154e42a9.wav",
         "file_sha256": "1e9158a928f070bc965f36a22b50292724e4bf8c0055b93799eb24a50922a6ef",
-        "bytes": 32812,
-        "rms": 5955.309879806959
+        "seconds": 0.7430385487528345
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155909,14 +155909,219 @@
       "bytes": 34734,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 4.249251700680272,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/98334742d6f9c001cb73dd11bffdc4a44a08564e157af085208209fb17cfd520.wav",
         "file_sha256": "ef810aaa189ebdf4a6d974476758bf065ef21c3a52971725dcfc8bc2a22e135a",
-        "bytes": 187436,
-        "rms": 5958.580232065243
+        "seconds": 4.249251700680272
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Les photos que la responsable a choisi sont maintenant exposées.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "/c1-accord-avance/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 51,
+              "end_codepoint": 115
+            }
+          ],
+          "kind": "error_input"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "error_input"
+      ],
+      "kind": "error_input",
+      "sha256": "4d74ab9a92f184faa2082f438d990b5082020c7ad11dfb559882845e01f4925e",
+      "path": "audio/supplement/4d74ab9a92f184faa2082f438d990b5082020c7ad11dfb559882845e01f4925e.mp3",
+      "source": "local-siwis",
+      "file_sha256": "ebe14dfff17d707dcb0c94d566220d8c7ba799fd5bdb3e729aee39305f938584",
+      "bytes": 27211,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.308843537414966,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/4d74ab9a92f184faa2082f438d990b5082020c7ad11dfb559882845e01f4925e.wav",
+        "file_sha256": "74329e0c16ede5bc0c8a58ce6947ba04e8b0b2e720dea927e2c2204dc802f5ef",
+        "bytes": 145964,
+        "rms": 5117.208028780303
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Les photos que la responsable a choisies sont maintenant exposées.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "/c1-accord-avance/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 66
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "8dccd95a2db2067c2756f5ae5e905117af431a9adb365ef44bdec6ed6507cb71",
+      "path": "audio/supplement/8dccd95a2db2067c2756f5ae5e905117af431a9adb365ef44bdec6ed6507cb71.mp3",
+      "source": "local-siwis",
+      "file_sha256": "7c85e1547f9064daea7c084310e15a0652aed56c3d9220e41ba6e8462a4439e5",
+      "bytes": 27002,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.274013605442177,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/8dccd95a2db2067c2756f5ae5e905117af431a9adb365ef44bdec6ed6507cb71.wav",
+        "file_sha256": "fa44e43afdb53898826332e6f119d8167d93b4695bef3f229700332f8242515d",
+        "bytes": 144428,
+        "rms": 5748.004525128925
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "téléphoner",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "/c1-accord-avance/practice/4/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 109,
+              "end_codepoint": 119
+            }
+          ],
+          "kind": "lexical_unit"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "lexical_unit"
+      ],
+      "kind": "lexical_unit",
+      "sha256": "22ac1130259898d4cc255fe7cbbd325445f41a9a74b5f400475eea76fb16c512",
+      "path": "audio/supplement/22ac1130259898d4cc255fe7cbbd325445f41a9a74b5f400475eea76fb16c512.mp3",
+      "source": "local-siwis",
+      "file_sha256": "5058b42654c3c1475a0e55317f19358366c3a76080c8c9b414f2adf219d59163",
+      "bytes": 6940,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.7662585034013606,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/22ac1130259898d4cc255fe7cbbd325445f41a9a74b5f400475eea76fb16c512.wav",
+        "file_sha256": "b0e505ef6dd67cb90cceeecf8947651d46a861f4487ab45cfd2ffdea3a90bd09",
+        "bytes": 33836,
+        "rms": 7922.394326400657
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Les photographes auxquels elle a téléphoné ont répondu.",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "/c1-accord-avance/practice/4/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 55
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "8c78e27f7b0e248ae1e9110966a4e61696be8358eafd345de7e2b18816d77d20",
+      "path": "audio/supplement/8c78e27f7b0e248ae1e9110966a4e61696be8358eafd345de7e2b18816d77d20.mp3",
+      "source": "local-siwis",
+      "file_sha256": "54546178211d4c2d8f072ce8aeeea0a0265e58c1e2fe8eda7b0c0dcaea61c52a",
+      "bytes": 23658,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.8560544217687074,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/8c78e27f7b0e248ae1e9110966a4e61696be8358eafd345de7e2b18816d77d20.wav",
+        "file_sha256": "d38bd9fe1f583a825f72ecc83fe5316b88d10cea8bcf7834d118172b692e2802",
+        "bytes": 125996,
+        "rms": 6529.373794314502
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "téléphoner à quelqu’un",
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "/c1-accord-avance/practice/4/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 22
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "e57f1ee32af89aa4dc13a36d89e65be5806448ba73b25577935a930f654e36fa",
+      "path": "audio/supplement/e57f1ee32af89aa4dc13a36d89e65be5806448ba73b25577935a930f654e36fa.mp3",
+      "source": "local-siwis",
+      "file_sha256": "67eb0647afc962cb47e85d6fd791235b8d22e4ec57952fd2e78d8eb61b96613b",
+      "bytes": 11955,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.4048072562358276,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/e57f1ee32af89aa4dc13a36d89e65be5806448ba73b25577935a930f654e36fa.wav",
+        "file_sha256": "7a2df3d113eb2cc70616fbc914d3765e131a90d20a1b3dbc2dc946cf8d5f1e9c",
+        "bytes": 61996,
+        "rms": 6518.3703736783655
       },
       "codec": "libmp3lame",
       "bitrate": 64000

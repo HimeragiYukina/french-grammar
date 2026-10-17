@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3819,
-  "covered": 3819,
+  "denominator": 3824,
+  "covered": 3824,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -895,11 +895,11 @@
       "kind": "grammar-point",
       "id": "c1-accord-avance",
       "level": "C1",
-      "exactTextUnits": 49,
-      "localFilesPresent": 49,
+      "exactTextUnits": 54,
+      "localFilesPresent": 54,
       "missingLocalFiles": 0,
-      "requiredUnits": 48,
-      "errorInputUnits": 1
+      "requiredUnits": 52,
+      "errorInputUnits": 2
     },
     {
       "repo": "grammar",

@@ -1,0 +1,30 @@
+{
+  "text": "Les photos que la responsable a choisi sont maintenant exposées.",
+  "text_sha256": "4d74ab9a92f184faa2082f438d990b5082020c7ad11dfb559882845e01f4925e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.308843537414966,
+      "source_seconds": 3.308843537414966,
+      "source_file_sha256": "74329e0c16ede5bc0c8a58ce6947ba04e8b0b2e720dea927e2c2204dc802f5ef",
+      "file_sha256": "ebe14dfff17d707dcb0c94d566220d8c7ba799fd5bdb3e729aee39305f938584",
+      "bytes": 27211,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

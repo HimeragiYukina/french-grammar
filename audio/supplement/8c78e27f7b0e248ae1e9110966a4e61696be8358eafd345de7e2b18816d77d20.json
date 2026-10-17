@@ -1,0 +1,30 @@
+{
+  "text": "Les photographes auxquels elle a téléphoné ont répondu.",
+  "text_sha256": "8c78e27f7b0e248ae1e9110966a4e61696be8358eafd345de7e2b18816d77d20",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8560544217687074,
+      "source_seconds": 2.8560544217687074,
+      "source_file_sha256": "d38bd9fe1f583a825f72ecc83fe5316b88d10cea8bcf7834d118172b692e2802",
+      "file_sha256": "54546178211d4c2d8f072ce8aeeea0a0265e58c1e2fe8eda7b0c0dcaea61c52a",
+      "bytes": 23658,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

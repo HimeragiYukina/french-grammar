@@ -1851,6 +1851,16 @@ window.GRAMMAR_DATA.C1={
           "q": "编辑批注：为什么 Elles se sont plu 和 Elles se sont vues 的词尾不同？用法语解释一句。",
           "a": "On plaît à quelqu’un, mais on voit quelqu’un : se est indirect dans la première phrase et direct dans la seconde.",
           "note": "plaire à → se 为 COI，plu 不变；voir qn → 前置 se 为 COD，vues 配合。应说明支配关系，不只说一个是例外。"
+        },
+        {
+          "q": "独立展览筹备情境：已挂出的照片是阴性复数photos。修正书面配合，保留负责人先挑选、后来挂出的次序：Les photos que la responsable a choisi sont maintenant exposées.",
+          "a": "Les photos que la responsable a choisies sont maintenant exposées.",
+          "note": "que回指photos，是avoir前的直接宾语；choisies用阴性复数，不由responsable的身份控制。修正只涉及书面配合，不改变先选择、现展出的事件。"
+        },
+        {
+          "q": "继续原创展览情境：负责人给两位摄影师打了电话。补全并解释为何不能因les photographes为复数就加s：Les photographes auxquels elle a ___ ont répondu. 动词用téléphoner。",
+          "a": "Les photographes auxquels elle a téléphoné ont répondu.",
+          "note": "téléphoner à quelqu’un的接受者是间接宾语，auxquels不触发avoir过去分词配合；téléphoné不因前置复数摄影师加s。与直接宾语que对应photos的上一题分开。"
         }
       ]
     },
