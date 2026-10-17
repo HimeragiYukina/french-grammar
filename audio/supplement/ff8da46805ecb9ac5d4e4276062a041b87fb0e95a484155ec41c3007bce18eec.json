@@ -1,0 +1,30 @@
+{
+  "text": "Inès et Alice dessinent ensemble. Elles dessinent ensemble.",
+  "text_sha256": "ff8da46805ecb9ac5d4e4276062a041b87fb0e95a484155ec41c3007bce18eec",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.028662131519274,
+      "source_seconds": 4.028662131519274,
+      "source_file_sha256": "7cda566e098ec3cb0061f25e80cd704ce3077cba56b2e63c966afea9af84dcdc",
+      "file_sha256": "2c9f3161922bb1d3f13575bd5b4a045c4baf2a145f743184f93875ee45ba245d",
+      "bytes": 33062,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

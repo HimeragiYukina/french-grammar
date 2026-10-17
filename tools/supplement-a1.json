@@ -178,7 +178,29 @@
     ]
   },
   "a1-present-er": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "姓名主语、代词主语与共同活动",
+        "explanation": "多个姓名先判单复数与指代，再找动词词干；不能因姓名不是代词就跳过配合。说话者加入其他人用nous。以下小场景独立于课程，不把一种词尾附给整句所有动词。",
+        "examples": [
+          {
+            "fr": "Inès et Alice dessinent. Elles dessinent ensemble.",
+            "zh": "伊内丝和阿莉丝画画。她们一起画。",
+            "use": "复数女性姓名可用elles替代；-ent通常不额外发音。"
+          },
+          {
+            "fr": "Alice dessine et nous regardons son dessin.",
+            "zh": "阿莉丝画画，我们看她的画。",
+            "use": "两个不同主语分别对应dessine与regardons。"
+          },
+          {
+            "fr": "Vous regardez le dessin ? Oui, nous regardons le dessin.",
+            "zh": "你们看这幅画吗？是的，我们看这幅画。",
+            "use": "问者vous与答者nous指同一组人，形式随说话者改变。"
+          }
+        ]
+      }
+    ],
     "related": [],
     "practice": [
       {
@@ -190,6 +212,16 @@
         "q": "朋友以为你说Demain, je travaille是说此刻。用中文解释，并再写一个明确未来安排的现在时句。",
         "a": "Demain, nous visitons le musée.",
         "note": "这里demain让现在时指明天的安排。Demain, nous visitons le musée. 现在时不仅描述此刻；明确时间和安排可指未来。Je vais travailler demain也自然，但不是本题要求的现在时主干。"
+      },
+      {
+        "q": "Inès和Alice一起画画。先用姓名作主语，再用elles；动词dessiner现在时。",
+        "a": "Inès et Alice dessinent ensemble. Elles dessinent ensemble.",
+        "note": "两个主语都为复数；不能把elles后的词尾照单数dessine写。"
+      },
+      {
+        "q": "朋友问Vous regardez le dessin ?，你代表自己和同伴肯定回答，使用nous。",
+        "a": "Oui, nous regardons le dessin.",
+        "note": "答者包括自己用nous；词尾-ons。不是必须沿用问句的vous。"
       }
     ]
   },

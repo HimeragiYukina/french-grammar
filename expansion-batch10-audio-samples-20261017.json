@@ -1,0 +1,399 @@
+{
+  "scope": "Bounded selected audio technical sample review; exacttext/current mapping/hash/full PCM decode/metrics. No human listening, pronunciation, speech-content alignment or truncation verdict.",
+  "method": {
+    "cpu": "two-core affinity, one decode process at a time, codec/filter one thread, hidden BELOW_NORMAL",
+    "silence": "20ms RMS below -45dBFS",
+    "flags": "Threshold candidates for human review, never proof of pronunciation or truncation",
+    "ASRModulesUnavailable": {
+      "whisper": true,
+      "faster_whisper": true,
+      "vosk": true
+    }
+  },
+  "listen": false,
+  "speechAlignment": "not_verified",
+  "summary": {
+    "samples": 6,
+    "technicalFailures": 0,
+    "samplesWithCandidateFlags": 0,
+    "byLevelRepository": {
+      "A1": {
+        "grammar": 1
+      },
+      "A2": {
+        "grammar": 1
+      },
+      "B1": {
+        "grammar": 1
+      },
+      "B2": {
+        "grammar": 1
+      },
+      "C1": {
+        "grammar": 1
+      },
+      "C2": {
+        "grammar": 1
+      }
+    },
+    "tags": [
+      "liaison"
+    ],
+    "longreadFull": 0,
+    "longreadParagraphs": 0
+  },
+  "currentTextResolutions": [],
+  "prioritySelections": [],
+  "samples": [
+    {
+      "repo": "grammar",
+      "levels": [
+        "A1"
+      ],
+      "tags": [
+        "liaison"
+      ],
+      "text": "Inès et Alice dessinent. Elles dessinent ensemble.",
+      "path": "audio/supplement/e344a31394255f81716e8eea50caf22cf7678bcbecf5a6b82500e5e16992fec8.mp3",
+      "textSHA256": "e344a31394255f81716e8eea50caf22cf7678bcbecf5a6b82500e5e16992fec8",
+      "fileSHA256": "d757a9749495c469665dda6cc95c8039e0752fb3f760c081cab1d717400ffc7c",
+      "bytes": 27211,
+      "coverageSeconds": 3.308843537414966,
+      "occurrences": [
+        {
+          "id": "a1-present-er",
+          "field": "/a1-present-er/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 50
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "No liaison inferred after et.",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.308843537414966,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.16946275216092802,
+        "rmsDbFS": -15.418514894190107,
+        "nonzeroFraction": 0.9806332236842106,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.08,
+        "trailingSilenceSeconds": 0.1488,
+        "maximumInternalSilenceSeconds": 0.26,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A2"
+      ],
+      "tags": [],
+      "text": "Je suis inscrit à la séance du matin. Serait-il possible de participer à celle de l’après-midi ?",
+      "path": "audio/supplement/76d8a72e126bb19d63df07156e3dab54342698eec454cb55d6188fea66afecd2.mp3",
+      "textSHA256": "76d8a72e126bb19d63df07156e3dab54342698eec454cb55d6188fea66afecd2",
+      "fileSHA256": "bc33414318d3ed1ee4b498d9ca7f72272d955902286bdac1ee7478079228d15b",
+      "bytes": 41004,
+      "coverageSeconds": 5.038730158730159,
+      "occurrences": [
+        {
+          "id": "a2-politesse",
+          "field": "/a2-politesse/sections/4/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 96
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 5.038730158730159,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.18729779924826526,
+        "rmsDbFS": -14.54934651121918,
+        "nonzeroFraction": 0.9677239343317973,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1387,
+        "maximumInternalSilenceSeconds": 0.18,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [],
+      "text": "Peut-être la troupe acceptera-t-elle une répétition supplémentaire.",
+      "path": "audio/supplement/24971466c570af113ccf34ee4b151360022e83aeea9565d4a0a345bb9c022c1e.mp3",
+      "textSHA256": "24971466c570af113ccf34ee4b151360022e83aeea9565d4a0a345bb9c022c1e",
+      "fileSHA256": "a64f877706ab017c6da69a8c489deed8b8624b379bdd2c63e88fdc269b957770",
+      "bytes": 27420,
+      "coverageSeconds": 3.332063492063492,
+      "occurrences": [
+        {
+          "id": "c2-inversion-style",
+          "field": "/c2-inversion-style/sections/3/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 67
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "c2-inversion-style",
+          "field": "/c2-inversion-style/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 67
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.332063492063492,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.15222388871002582,
+        "rmsDbFS": -16.35034375540347,
+        "nonzeroFraction": 0.9595356054006968,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1521,
+        "maximumInternalSilenceSeconds": 0.06,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [],
+      "text": "Quand je suis arrivé, le train était déjà parti.",
+      "path": "audio/fr-FR/e6d0c2b7a96f2e4a.mp3",
+      "textSHA256": "dc4c6d21c6f964562a4e182322d0b549cbe22f6f562c31f398a4ca7d00d24904",
+      "fileSHA256": "61b90ee504c5d814fb9b6a7491d11d7c4c344650e59aad2e85305e5260e147b6",
+      "bytes": 22464,
+      "coverageSeconds": null,
+      "occurrences": [
+        {
+          "id": "b1-pqp",
+          "field": "/b1-pqp/ex/0/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": null
+      },
+      "metrics": {
+        "decodedSeconds": 3.744,
+        "sampleRate": 24000,
+        "channels": 1,
+        "rms": 0.07718579174619833,
+        "rmsDbFS": -22.249252732695474,
+        "nonzeroFraction": 0.7488425925925926,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.904,
+        "maximumInternalSilenceSeconds": 0.28,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B2"
+      ],
+      "tags": [],
+      "text": "J'attends que tu viennes ; je regrette que tu ne sois pas venu hier.",
+      "path": "audio/supplement/6da86e31ef23f6f49d57d9511cfeb20c5ae593a85d28f5cc763ff8c5aedb5de9.mp3",
+      "textSHA256": "6da86e31ef23f6f49d57d9511cfeb20c5ae593a85d28f5cc763ff8c5aedb5de9",
+      "fileSHA256": "20b8765762190fa5c0ce56a987fdec0ffa0b9d3b36ac3f5afd790a245d8f26e1",
+      "bytes": 28256,
+      "coverageSeconds": 3.4481632653061225,
+      "occurrences": [
+        {
+          "id": "b2-subj-passe",
+          "field": "/b2-subj-passe/ex/2/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 89
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.4481632653061225,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.13932556012471103,
+        "rmsDbFS": -17.119384045846914,
+        "nonzeroFraction": 0.9671585648148148,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.14,
+        "trailingSilenceSeconds": 0.1482,
+        "maximumInternalSilenceSeconds": 0.16,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C1"
+      ],
+      "tags": [],
+      "text": "Le passé simple est le temps du récit écrit/littéraire (action envisagée comme un tout achevé). À reconnaître en lecture.",
+      "path": "audio/supplement/6d92b592793226e180a9c6c5702b52e72573249ed3c9efcaa083aee5b61d8ce4.mp3",
+      "textSHA256": "6d92b592793226e180a9c6c5702b52e72573249ed3c9efcaa083aee5b61d8ce4",
+      "fileSHA256": "aa13dac89a1cdab02c8bc77e0a2b17fee708a4cbda831bfeb5fdd7ac54efa61f",
+      "bytes": 51870,
+      "coverageSeconds": 6.3854875283446715,
+      "occurrences": [
+        {
+          "id": "c1-passe-simple",
+          "field": "/c1-passe-simple/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 121
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 6.3854875283446715,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1507667181839929,
+        "rmsDbFS": -16.43389037148637,
+        "nonzeroFraction": 0.96875,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1855,
+        "maximumInternalSilenceSeconds": 0.22,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    }
+  ]
+}

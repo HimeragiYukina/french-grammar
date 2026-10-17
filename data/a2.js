@@ -2602,6 +2602,27 @@ window.GRAMMAR_DATA.A2={
               "use": "je pourrais 问自己是否获准；paierai 明确承诺未来行动，不能当条件式拼写。"
             }
           ]
+        },
+        {
+          "title": "把礼貌句落到可处理的动作：申请与确认",
+          "explanation": "礼貌形式之外，还须说明现有安排、希望的改动和对方要做的动作。Serait-il possible de…可问可否；确定自己的选择后用je confirme并不失礼。请求不是对方已经答应的证据，不能把条件式当批准标记。",
+          "examples": [
+            {
+              "fr": "Je suis inscrit à la séance du matin. Serait-il possible de participer à celle de l’après-midi ?",
+              "zh": "我报名了上午场，可以参加下午场吗？",
+              "use": "先定位原安排，再询问改动可能；没有宣称已获准。"
+            },
+            {
+              "fr": "Pourriez-vous me dire s’il reste une place ? Je vous répondrai avant vendredi.",
+              "zh": "您能告诉我是否还有名额吗？我会在周五前回复。",
+              "use": "请对方提供信息；将来时répondrai说自己的后续行动。"
+            },
+            {
+              "fr": "Merci pour votre réponse. Je confirme ma participation à la séance de l’après-midi.",
+              "zh": "谢谢回复。我确认参加下午场。",
+              "use": "收到肯定回复后确认自己的选择，不机械继续用未定愿望。"
+            }
+          ]
         }
       ],
       "comparison": "Je veux un café：直接表达想要，可能强硬但非语法错误；Je voudrais un café：服务情境常规委婉请求。Pouvez-vous…也可礼貌，Pourriez-vous…进一步缓和。",
@@ -2622,6 +2643,16 @@ window.GRAMMAR_DATA.A2={
           "q": "区别“我想要延期”和“您能延后截止日期吗”，各写一句条件式请求。",
           "a": "Je voudrais un délai supplémentaire. / Pourriez-vous reporter la date limite ?",
           "note": "第一句自己的需要；第二句请求对方采取行动。"
+        },
+        {
+          "q": "你原报名上午场，希望改下午场，尚未获准。用Serait-il possible de写申请，不宣称成功。",
+          "a": "Serait-il possible de participer à la séance de l’après-midi à la place de celle du matin ?",
+          "note": "也可先写原报名信息再请求。participer的动作主体是你；没有自动替工作人员作批准决定。"
+        },
+        {
+          "q": "收到“有名额”的回复后，你决定参加下午场。用je confirme写一条答复。",
+          "a": "Merci pour votre réponse. Je confirme ma participation à la séance de l’après-midi.",
+          "note": "直接确认自己已作出的选择可以清楚礼貌；不必再写成Je voudrais que vous…来要求对方替你确认。"
         }
       ],
       "related": [

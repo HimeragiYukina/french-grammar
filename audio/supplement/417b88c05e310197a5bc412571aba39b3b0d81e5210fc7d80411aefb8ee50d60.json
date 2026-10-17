@@ -1,0 +1,30 @@
+{
+  "text": "Serait-il possible de participer à la séance de l’après-midi à la place de celle du matin ?",
+  "text_sha256": "417b88c05e310197a5bc412571aba39b3b0d81e5210fc7d80411aefb8ee50d60",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.3769614512471655,
+      "source_seconds": 4.3769614512471655,
+      "source_file_sha256": "4bb1b0b8c69139517acc92e706bcf2e2f75a2a81db39112cf79246d15a078197",
+      "file_sha256": "db26c720ff096e537a512de62ae80a1308a9b67b3f5fa36c89c49ac805d05095",
+      "bytes": 35779,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

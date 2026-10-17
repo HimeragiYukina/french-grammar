@@ -4,13 +4,13 @@
     {
       "level": "a1",
       "points": 23,
-      "playbackTargets": 450,
+      "playbackTargets": 455,
       "unmapped": 0
     },
     {
       "level": "a2",
       "points": 18,
-      "playbackTargets": 405,
+      "playbackTargets": 410,
       "unmapped": 0
     },
     {
@@ -34,7 +34,7 @@
     {
       "level": "c2",
       "points": 12,
-      "playbackTargets": 304,
+      "playbackTargets": 309,
       "unmapped": 0
     }
   ],

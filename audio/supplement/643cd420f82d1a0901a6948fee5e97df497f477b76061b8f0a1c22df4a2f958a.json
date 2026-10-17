@@ -1,0 +1,30 @@
+{
+  "text": "Merci pour votre réponse. Je confirme ma participation à la séance de l’après-midi.",
+  "text_sha256": "643cd420f82d1a0901a6948fee5e97df497f477b76061b8f0a1c22df4a2f958a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.760090702947846,
+      "source_seconds": 4.760090702947846,
+      "source_file_sha256": "a75d5b72d5b3403b9e76a9be64fcaacecc44fd4a41f9202e9a9f042e9ac099f8",
+      "file_sha256": "14db37fb9646046739bb5cd21cac56482d459a225dad794f456fff1203a752ae",
+      "bytes": 38914,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

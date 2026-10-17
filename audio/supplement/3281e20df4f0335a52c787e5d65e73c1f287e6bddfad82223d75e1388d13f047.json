@@ -1,0 +1,30 @@
+{
+  "text": "Peut-être que la troupe acceptera une répétition supplémentaire.",
+  "text_sha256": "3281e20df4f0335a52c787e5d65e73c1f287e6bddfad82223d75e1388d13f047",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.308843537414966,
+      "source_seconds": 3.308843537414966,
+      "source_file_sha256": "7c045f8494d7ddf6004477c02e084d6d58a6b6d029f1cfa5212da7f5c55a0b51",
+      "file_sha256": "4a25b8dae9f11b58a7a6ccf701f17b8ddc27bb96d0d45f7dc69d23d15d071078",
+      "bytes": 27211,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

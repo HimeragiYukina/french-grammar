@@ -1,0 +1,30 @@
+{
+  "text": "Pourriez-vous me dire s’il reste une place ? Je vous répondrai avant vendredi.",
+  "text_sha256": "5fd479758a0e9923120214aa63171837a81225f23a87b68f32067b9a371b7721",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7035827664399092,
+      "source_seconds": 3.7035827664399092,
+      "source_file_sha256": "abc355ad51228939c8e30b3ca7dca8481b87628cc7a9c35d1e7fe12a81a6bf7a",
+      "file_sha256": "1776ce5e44908e623ec3ce74392dbd9f11fb8023ac0d023ef31a00f3885b5cd0",
+      "bytes": 30346,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

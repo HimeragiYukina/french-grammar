@@ -1,0 +1,30 @@
+{
+  "text": "Oui, nous regardons le dessin.",
+  "text_sha256": "c39b728e517bd7c7ad5344dab6c370bb7b327ce20ee661dce199280c3015c8b6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.9504761904761905,
+      "source_seconds": 1.9504761904761905,
+      "source_file_sha256": "86ffe8ed5aa6c8d6b695ca9c66be68db36b0d24f0aca94d0fdbc939650486342",
+      "file_sha256": "88b8800047592085062ce4fff0b7a4a384f894df32510f88d007d7b31e27bb25",
+      "bytes": 16344,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

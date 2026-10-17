@@ -1,0 +1,100 @@
+{
+  "completedUtc": "2026-10-17T03:07:22.236031+00:00",
+  "newPages": 0,
+  "reviewMode": "Single-agent explicit second reading and correction journal; not independent peer review",
+  "examFormatChanged": false,
+  "deployment": false,
+  "gitStatus": "Commit and verified remote receipt recorded separately in workspace",
+  "notTested": [
+    "Human acoustic listening and speech alignment",
+    "Real microphone and real partner interaction",
+    "Actual installed Google français availability"
+  ],
+  "remainingGaps": [
+    "现有主题仍需更广的跨话题检索、听辨和真实互动反馈；本批不是整个等级的覆盖结论。",
+    "保留的真人或原始素材与原创合成示范区分；技术播放不代替人工听审。",
+    "完成课程阅读不保证达到C2或取得某项考试成绩。"
+  ],
+  "title": "主语配合、请求确认与句首倒装：第十批语法",
+  "counts": {
+    "improvedExistingGrammarPoints": 3,
+    "newSections": 3,
+    "newOriginalFrenchExamples": 9,
+    "newExplainedPracticeQuestions": 6
+  },
+  "grammarPoints": [
+    {
+      "level": "A1",
+      "pointId": "a1-present-er",
+      "sectionTitle": "姓名主语、代词主语与共同活动",
+      "newSections": 1,
+      "newExamples": 3,
+      "newQuestions": 2
+    },
+    {
+      "level": "A2",
+      "pointId": "a2-politesse",
+      "sectionTitle": "把礼貌句落到可处理的动作：申请与确认",
+      "newSections": 1,
+      "newExamples": 3,
+      "newQuestions": 2
+    },
+    {
+      "level": "C2",
+      "pointId": "c2-inversion-style",
+      "sectionTitle": "句首peut-être：名词主语复指与que版本",
+      "newSections": 1,
+      "newExamples": 3,
+      "newQuestions": 2
+    }
+  ],
+  "audio": {
+    "ownExactUnits": 3746,
+    "newCPURecordings": 16,
+    "originalWavsRetained": true,
+    "sourceSpanMismatches": 0,
+    "technicalSamples": {
+      "samples": 6,
+      "technicalFailures": 0,
+      "samplesWithCandidateFlags": 0,
+      "byLevelRepository": {
+        "A1": {
+          "grammar": 1
+        },
+        "A2": {
+          "grammar": 1
+        },
+        "B1": {
+          "grammar": 1
+        },
+        "B2": {
+          "grammar": 1
+        },
+        "C1": {
+          "grammar": 1
+        },
+        "C2": {
+          "grammar": 1
+        }
+      },
+      "tags": [
+        "liaison"
+      ],
+      "longreadFull": 0,
+      "longreadParagraphs": 0
+    },
+    "humanListeningPerformed": false
+  },
+  "tests": {
+    "passed": {
+      "grammarPoints": 97,
+      "historicalLayersPreserved": true,
+      "appendOnlySections": 3,
+      "appendOnlyPractice": 6,
+      "tamperRejections": 3,
+      "allSixLevelPagesAt390px": true
+    },
+    "failed": [],
+    "pending": []
+  }
+}

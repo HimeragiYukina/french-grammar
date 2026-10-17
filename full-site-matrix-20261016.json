@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3730,
-  "covered": 3730,
+  "denominator": 3746,
+  "covered": 3746,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -103,10 +103,10 @@
       "kind": "grammar-point",
       "id": "a1-present-er",
       "level": "A1",
-      "exactTextUnits": 22,
-      "localFilesPresent": 22,
+      "exactTextUnits": 28,
+      "localFilesPresent": 28,
       "missingLocalFiles": 0,
-      "requiredUnits": 22,
+      "requiredUnits": 28,
       "errorInputUnits": 0
     },
     {
@@ -455,10 +455,10 @@
       "kind": "grammar-point",
       "id": "a2-politesse",
       "level": "A2",
-      "exactTextUnits": 31,
-      "localFilesPresent": 31,
+      "exactTextUnits": 35,
+      "localFilesPresent": 35,
       "missingLocalFiles": 0,
-      "requiredUnits": 30,
+      "requiredUnits": 34,
       "errorInputUnits": 1
     },
     {
@@ -1005,11 +1005,11 @@
       "kind": "grammar-point",
       "id": "c2-inversion-style",
       "level": "C2",
-      "exactTextUnits": 27,
-      "localFilesPresent": 27,
+      "exactTextUnits": 33,
+      "localFilesPresent": 33,
       "missingLocalFiles": 0,
-      "requiredUnits": 27,
-      "errorInputUnits": 0
+      "requiredUnits": 32,
+      "errorInputUnits": 1
     },
     {
       "repo": "grammar",

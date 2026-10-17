@@ -220,7 +220,29 @@
     ]
   },
   "c2-inversion-style": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "句首peut-être：名词主语复指与que版本",
+        "explanation": "peut-être直接起句时，书面语常用倒装。名词主语可保留在前，并在动词后加入同指代词；这不同于把名词本身移到动词后。peut-être que引出的句子用普通语序。此差异调整句式，不把不确定判断升级为事实；口语中也可出现无倒装形式，不据此一概判错。",
+        "examples": [
+          {
+            "fr": "Peut-être la troupe acceptera-t-elle une répétition supplémentaire.",
+            "zh": "也许剧团会接受加排一次。",
+            "use": "la troupe为阴性单数，elle复指；acceptera以a结尾，加入-t-。"
+          },
+          {
+            "fr": "Peut-être que la troupe acceptera une répétition supplémentaire.",
+            "zh": "也许剧团会接受加排一次。",
+            "use": "有que后不用acceptera-t-elle；在本情境保留同一不确定判断。"
+          },
+          {
+            "fr": "Peut-être les interprètes accepteront-ils une répétition supplémentaire.",
+            "zh": "也许这些表演者会接受加排一次。",
+            "use": "复数主语复指ils，accepteront本已有t，不另加-t-。"
+          }
+        ]
+      }
+    ],
     "related": [],
     "practice": [
       {
@@ -232,6 +254,16 @@
         "q": "面向读者先建立场景，把Une longue file attendait devant le théâtre改为地点在前、名词主语后置；再说明普通顺序是否错误。",
         "a": "Devant le théâtre attendait une longue file. L'ordre initial reste correct ; la postposition sert ici à présenter le cadre avant le groupe qui l'occupe.",
         "note": "后置名词完整1分；attendait与file单数配合1分；信息结构解释1分；承认普通语序正确1分。也接受se formait但须注明改变了动作意义。"
+      },
+      {
+        "q": "把Peut-être que la troupe acceptera une répétition supplémentaire改为不带que、保留名词主语并复指的书面句式。",
+        "a": "Peut-être la troupe acceptera-t-elle une répétition supplémentaire.",
+        "note": "保留troupe并用elle复指；不增加“已经同意”的承诺。acceptera结尾a，加入-t-。"
+      },
+      {
+        "q": "校改Peut-être que les interprètes accepteront-ils une répétition supplémentaire，保留que。再给一个去掉que的正确版本。",
+        "a": "Peut-être que les interprètes accepteront une répétition supplémentaire. Peut-être les interprètes accepteront-ils une répétition supplémentaire.",
+        "note": "保留que不用倒装；去掉que可用复数ils复指。accepteront末尾已有t，不写accepteront-t-ils。 若语境指全女性表演者，两个版本也可相应使用elles；题面未限定全女性，范例用ils。"
       }
     ]
   },
