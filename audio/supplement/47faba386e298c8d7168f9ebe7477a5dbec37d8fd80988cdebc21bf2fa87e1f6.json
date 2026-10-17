@@ -1,0 +1,30 @@
+{
+  "text": "tester un créneau",
+  "text_sha256": "47faba386e298c8d7168f9ebe7477a5dbec37d8fd80988cdebc21bf2fa87e1f6",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.230657596371882,
+      "source_seconds": 1.230657596371882,
+      "source_file_sha256": "0ab283ee6aecbd8ff295da5ed9d7586961c7a918b14e719647caff45006f1daf",
+      "file_sha256": "db1fb36445c613684ac7cab6a1fbdd04b560b8b6e1b458d471f03c15ebf3bbdc",
+      "bytes": 10701,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

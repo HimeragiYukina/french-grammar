@@ -193,6 +193,16 @@
         "q": "会议在明天；文件还没到。用条件式礼貌请求对方今天发送，写明原因，不能声称已发送。",
         "a": "Pourriez-vous m’envoyer le dossier aujourd’hui ? J’en ai besoin pour la réunion de demain.",
         "note": "两项内容必须有：发送请求＋今天期限/明天会议原因。Serait-il possible de m’envoyer…也接受。礼貌不等于删掉期限；不要把请求改成 Vous me l’avez envoyé。"
+      },
+      {
+        "q": "独立社区泳池情境：尚未决定永久改时段。用on pourrait建议先试一个周六时段，再评估，不写成已经实施。可用tester un créneau（试行一个时段）。",
+        "a": "On pourrait tester un créneau le samedi avant de modifier tous les horaires.",
+        "note": "pourrait提出备选行动；不表示试行已执行，也不保证评估会支持永久改动。avant de的两个动作由同一主体设想。"
+      },
+      {
+        "q": "同一原创泳池讨论中，用il faudrait＋原形提出“也应咨询工作人员”，保留尚在提议阶段，不改成已经完成。可用consulter le personnel。",
+        "a": "Il faudrait aussi consulter le personnel.",
+        "note": "faudrait给建议或必要性判断，后直接接consulter原形；不是已完成咨询的事实。可说也应征询工作人员，但不能据此写成已经征询或已获全体同意。"
       }
     ]
   },

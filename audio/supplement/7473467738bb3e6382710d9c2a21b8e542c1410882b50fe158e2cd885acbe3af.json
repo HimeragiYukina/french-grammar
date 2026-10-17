@@ -1,0 +1,30 @@
+{
+  "text": "Il faudrait aussi consulter le personnel.",
+  "text_sha256": "7473467738bb3e6382710d9c2a21b8e542c1410882b50fe158e2cd885acbe3af",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.36843537414966,
+      "source_seconds": 2.36843537414966,
+      "source_file_sha256": "b941899b5c92cb03201b5316487cc50b14ea1ecb3c0ff91a511de9ef069136fc",
+      "file_sha256": "da50e95c25a9a79d28b1201e84a7fbc627e74c414036d8ed28588757d83a9251",
+      "bytes": 19688,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

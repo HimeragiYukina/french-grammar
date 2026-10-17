@@ -14,11 +14,11 @@
   "generated_this_run": 4,
   "generation_runs": [
     {
-      "generated": 3335,
+      "generated": 3339,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 58.617107629776,
+  "elapsed_seconds": 57.734127044677734,
   "listened": false,
   "records": [
     {
@@ -156261,17 +156261,17 @@
       "bytes": 28047,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.4017233560090703,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/04a5186563c6bf07e5bf7c25d574bc433ba94ab097aab015737df15dbfcdfc10.wav",
         "file_sha256": "c2d57dbcf2882dfc8460724b74f567fa832b08d606e68526291dad07d5b7e2bf",
-        "bytes": 150060,
-        "rms": 6335.641303653663
+        "seconds": 3.4017233560090703
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156302,17 +156302,17 @@
       "bytes": 22404,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.705124716553288,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/19c1565a55cc1556b11c1f7b9021a2de63f9dca175852e994268e92fc898506c.wav",
         "file_sha256": "1023f8e29640820a5dcb745295e482026e318dc3e86df12927a574646794b301",
-        "bytes": 119340,
-        "rms": 5317.4671461109965
+        "seconds": 2.705124716553288
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156343,17 +156343,17 @@
       "bytes": 56050,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 6.907936507936508,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/ab1702e5bc3a02bbee1aaa0bd1a68a57faf46a3115e8842f07ec3216b5ba005a.wav",
         "file_sha256": "ebd492d09e240c97696cd73ea71203439137204efc55f246ca5e51a521dcbdc4",
-        "bytes": 304684,
-        "rms": 4995.428362875796
+        "seconds": 6.907936507936508
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156384,14 +156384,178 @@
       "bytes": 54169,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 6.675736961451247,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/aabf5e53031285eccec365597cea654bf19235275618f98bfc89814876461d5a.wav",
         "file_sha256": "693dde046bf0e23b7f53cb1c0d2977efe1f6b777781ea0f85584d3897c27c7e4",
-        "bytes": 294444,
-        "rms": 4747.439804909927
+        "seconds": 6.675736961451247
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "tester un créneau",
+      "occurrences": [
+        {
+          "id": "b1-cond-present",
+          "field": "/b1-cond-present/practice/2/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 56,
+              "end_codepoint": 73
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "47faba386e298c8d7168f9ebe7477a5dbec37d8fd80988cdebc21bf2fa87e1f6",
+      "path": "audio/supplement/47faba386e298c8d7168f9ebe7477a5dbec37d8fd80988cdebc21bf2fa87e1f6.mp3",
+      "source": "local-siwis",
+      "file_sha256": "db1fb36445c613684ac7cab6a1fbdd04b560b8b6e1b458d471f03c15ebf3bbdc",
+      "bytes": 10701,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.230657596371882,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/47faba386e298c8d7168f9ebe7477a5dbec37d8fd80988cdebc21bf2fa87e1f6.wav",
+        "file_sha256": "0ab283ee6aecbd8ff295da5ed9d7586961c7a918b14e719647caff45006f1daf",
+        "bytes": 54316,
+        "rms": 4614.847851026779
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "On pourrait tester un créneau le samedi avant de modifier tous les horaires.",
+      "occurrences": [
+        {
+          "id": "b1-cond-present",
+          "field": "/b1-cond-present/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 76
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "d49f79728743570abdf1b8d42e7c6dfac70e3b558aba09a48b7da02e722c571c",
+      "path": "audio/supplement/d49f79728743570abdf1b8d42e7c6dfac70e3b558aba09a48b7da02e722c571c.mp3",
+      "source": "local-siwis",
+      "file_sha256": "7d7c37e0ec427156a9d4d6c4f471ac6aa4fd4f298107f4d3e37b0030058d6634",
+      "bytes": 30973,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.7848526077097504,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/d49f79728743570abdf1b8d42e7c6dfac70e3b558aba09a48b7da02e722c571c.wav",
+        "file_sha256": "f76aca7d705f0f530d1dfd99dc7bf619ec530493f5a723140724290c1f213eba",
+        "bytes": 166956,
+        "rms": 5868.581785049347
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "consulter le personnel",
+      "occurrences": [
+        {
+          "id": "b1-cond-present",
+          "field": "/b1-cond-present/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 57,
+              "end_codepoint": 79
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "439f09927c44fa67474d1cb37107206db42535f400cd6dc1a3ee3417198439cb",
+      "path": "audio/supplement/439f09927c44fa67474d1cb37107206db42535f400cd6dc1a3ee3417198439cb.mp3",
+      "source": "local-siwis",
+      "file_sha256": "93f2abcf7d53c02751550e62a6aadb75706a375d5b9a53368cf02e8363da3760",
+      "bytes": 13209,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.555736961451247,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/439f09927c44fa67474d1cb37107206db42535f400cd6dc1a3ee3417198439cb.wav",
+        "file_sha256": "1bc03fab26e8b832a3e7ad00b4de312c38aa3f577b786a740911baee40bb607e",
+        "bytes": 68652,
+        "rms": 5853.274102175086
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Il faudrait aussi consulter le personnel.",
+      "occurrences": [
+        {
+          "id": "b1-cond-present",
+          "field": "/b1-cond-present/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 41
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "7473467738bb3e6382710d9c2a21b8e542c1410882b50fe158e2cd885acbe3af",
+      "path": "audio/supplement/7473467738bb3e6382710d9c2a21b8e542c1410882b50fe158e2cd885acbe3af.mp3",
+      "source": "local-siwis",
+      "file_sha256": "da50e95c25a9a79d28b1201e84a7fbc627e74c414036d8ed28588757d83a9251",
+      "bytes": 19688,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.36843537414966,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/7473467738bb3e6382710d9c2a21b8e542c1410882b50fe158e2cd885acbe3af.wav",
+        "file_sha256": "b941899b5c92cb03201b5316487cc50b14ea1ecb3c0ff91a511de9ef069136fc",
+        "bytes": 104492,
+        "rms": 5569.7618188527595
       },
       "codec": "libmp3lame",
       "bitrate": 64000
