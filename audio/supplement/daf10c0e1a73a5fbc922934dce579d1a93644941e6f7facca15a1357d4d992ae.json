@@ -1,0 +1,30 @@
+{
+  "text": "Un essai satisfaisant ne garantirait pas le même effet dans toutes les salles.",
+  "text_sha256": "daf10c0e1a73a5fbc922934dce579d1a93644941e6f7facca15a1357d4d992ae",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.889342403628118,
+      "source_seconds": 3.889342403628118,
+      "source_file_sha256": "ee6e709b6c8b7104f8ff2578478fd2dc05eef6670c8944454a382d3446f6d19f",
+      "file_sha256": "5bd4b235363d0215ec3e7903f52bf273acbb3afbf9b119bdc1adb16f55369a82",
+      "bytes": 31808,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

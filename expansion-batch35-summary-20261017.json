@@ -1,0 +1,33 @@
+{
+  "batch": 35,
+  "completedUtc": "2026-10-17T18:40:03.322207+00:00",
+  "grammarPoint": "b1-cond-present",
+  "counts": {
+    "improvedExistingGrammarPoints": 1,
+    "newPages": 0,
+    "newSections": 1,
+    "newPairedExamples": 2,
+    "newExplainedPractice": 2
+  },
+  "level": "B1",
+  "newMaterial": "Independent original theatre lighting scenario; proposal vs implementation and limits of generalization.",
+  "tests": {
+    "passed": {
+      "browserAssertions": 36,
+      "grammarPoints": 97,
+      "appendTamperRejections": 3,
+      "baselineStrictContentChecksPassed": true
+    },
+    "failed": [],
+    "notTested": [
+      "Human acoustic listening",
+      "Actual installed Google français voice availability"
+    ]
+  },
+  "audio": {
+    "newDeliveredClips": 3,
+    "humanListening": false
+  },
+  "voiceOrAppCodeChanged": false,
+  "newDeployment": false
+}

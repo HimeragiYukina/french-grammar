@@ -1,0 +1,11 @@
+{
+  "newDeliveredClips": 3,
+  "old_to_new": {
+    "grammar": {
+      "audio/supplement/25e14826f79c3a0d51e6ff971bf30ee89b1494cf3d3aa3976606c2f72c9d5db7.wav": "audio/supplement/25e14826f79c3a0d51e6ff971bf30ee89b1494cf3d3aa3976606c2f72c9d5db7.mp3",
+      "audio/supplement/daf10c0e1a73a5fbc922934dce579d1a93644941e6f7facca15a1357d4d992ae.wav": "audio/supplement/daf10c0e1a73a5fbc922934dce579d1a93644941e6f7facca15a1357d4d992ae.mp3",
+      "audio/supplement/46e7380ab4fc6d0aa6a4ffab2dbd8512c6893217b29bb3cbd978da08a1173dfb.wav": "audio/supplement/46e7380ab4fc6d0aa6a4ffab2dbd8512c6893217b29bb3cbd978da08a1173dfb.mp3"
+    }
+  },
+  "humanListening": false
+}

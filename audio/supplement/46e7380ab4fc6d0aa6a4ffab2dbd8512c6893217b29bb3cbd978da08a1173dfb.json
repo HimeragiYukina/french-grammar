@@ -1,0 +1,30 @@
+{
+  "text": "On pourrait tester cet éclairage dans la petite salle avant de modifier toutes les séances.",
+  "text_sha256": "46e7380ab4fc6d0aa6a4ffab2dbd8512c6893217b29bb3cbd978da08a1173dfb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.760090702947846,
+      "source_seconds": 4.760090702947846,
+      "source_file_sha256": "98978360a9297c47670d8b95bbdb4170cc0b6d9a4e7baa1c015179b561c9be46",
+      "file_sha256": "dd12bd4c8c9301ab55f4f6846c7ed73e6d5c94946c67256dbaee57f4963c2b9e",
+      "bytes": 38914,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

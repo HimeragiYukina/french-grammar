@@ -1078,6 +1078,22 @@ window.GRAMMAR_DATA.B1={
               "use": "报道中的待确认计划。"
             }
           ]
+        },
+        {
+          "title": "提议不等于事实：条件式与结果边界",
+          "explanation": "条件式可提出可讨论的行动，但不是所有条件式都表示不可靠，也不把尚未实施的建议变成过去事实。Dans cette salle, on pourrait…提出该场地可考虑的方案；Cela ne garantirait pas…说明按该方案仍不应保证的结果。条件或范围需从上下文保留，不能只认词尾。以下剧场情境完全原创，未说试验已经开展。",
+          "examples": [
+            {
+              "fr": "On pourrait tester cet éclairage dans la petite salle avant de le choisir pour toute la saison.",
+              "zh": "可以先在小厅试用这套照明，再决定是否整季采用。",
+              "use": "pourrait提出试用方案，avant de保留后续选择顺序；不是已试用或已选定。"
+            },
+            {
+              "fr": "Un essai satisfaisant ne garantirait pas le même effet dans toutes les salles.",
+              "zh": "一次满意的试验并不保证在所有厅室中效果相同。",
+              "use": "garantirait处于设想结果的语境；不保证普遍相同并不是断言别处必败。"
+            }
+          ]
         }
       ],
       "comparison": "Je viendrai demain 是直陈式将来、直接承诺；je viendrais si je pouvais 是附条件的结果。Je veux 更直接，je voudrais 更委婉。Elle a dit qu’elle viendrait 的条件式主要表示过去将来，不自动等于“也许来”。",
@@ -1108,6 +1124,16 @@ window.GRAMMAR_DATA.B1={
           "q": "同一原创泳池讨论中，用il faudrait＋原形提出“也应咨询工作人员”，保留尚在提议阶段，不改成已经完成。可用consulter le personnel。",
           "a": "Il faudrait aussi consulter le personnel.",
           "note": "faudrait给建议或必要性判断，后直接接consulter原形；不是已完成咨询的事实。可说也应征询工作人员，但不能据此写成已经征询或已获全体同意。"
+        },
+        {
+          "q": "原创剧场讨论：尚未测试。用on pourrait提出“先在小厅测试照明，再改变全部场次”，不要写成已经测试。",
+          "a": "On pourrait tester cet éclairage dans la petite salle avant de modifier toutes les séances.",
+          "note": "条件式提出可讨论建议，avant de后用原形；与on a testé事实陈述不同。保留小厅范围与先后顺序。"
+        },
+        {
+          "q": "续上：假设一次试验满意。用ne garantirait pas说明它并不保证所有厅室效果相同；不能改成别处一定失败。",
+          "a": "Un essai satisfaisant ne garantirait pas le même effet dans toutes les salles.",
+          "note": "否定的是普遍保证，不是所有其他场地可能成功。结果仍在设想中，既不报告已试验也不把条件式当据传。"
         }
       ]
     },
