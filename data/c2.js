@@ -2227,6 +2227,16 @@ window.GRAMMAR_DATA.C2={
           "q": "读者说自己的Quelle réussite !是反讽，听者此前听成真诚赞许。用两句法语报告，不将读者申明改成所有人原本都懂。",
           "a": "La lectrice a précisé qu’elle parlait ironiquement. Son interlocuteur avait compris une félicitation sincère.",
           "note": "接受selon elle等保来源的自然表达。需要区分两人的理解，不只逐字改正quel/quelle。"
+        },
+        {
+          "q": "原创文件交接情境：你只想知道同事完成了哪份文件，保留vous。把Quel dossier !改成完整的信息问句，不擅自加入对质量或速度的赞许。",
+          "a": "Quel dossier avez-vous terminé ?",
+          "note": "也可：Quel dossier avez-vous achevé ? quel随阳性单数dossier；这里按“只问哪份文件”的题设改变言语动作，不是只换叹号。真实交谈中的问句也要结合情境，不由这种形式保证某种情绪。"
+        },
+        {
+          "q": "同一原创情境中，Que de pages !只是对数量大的反应。你现在要实际询问同事重读了多少页，用relire与vous写完整问题，不猜页数；倒装或口语语序均可。",
+          "a": "Combien de pages avez-vous relues ?",
+          "note": "也可：Vous avez relu combien de pages ? 第一式pages作前置直接宾语，relues写阴性复数；第二式宾语在后，写relu。两式都问数量，原感叹不给具体数目；词尾差别口头可能听不出，本练习检查书面位置与配合。"
         }
       ]
     }

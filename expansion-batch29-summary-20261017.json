@@ -1,0 +1,71 @@
+{
+  "title": "c2-exclamation：第29批有界复审",
+  "completedUtc": "2026-10-17T17:14:38.581138+00:00",
+  "counts": {
+    "improvedExistingGrammarPoints": 1,
+    "newSections": 0,
+    "newExamples": 0,
+    "newExplainedQuestions": 2,
+    "newPages": 0
+  },
+  "levels": [
+    "C2"
+  ],
+  "reviewMode": "Single-agent second source reading; not independent peer review",
+  "voiceAndStorageCodeChanged": false,
+  "audio": {
+    "ownExactUnits": 3856,
+    "newCPURecordings": 4,
+    "originalWavsRetained": true,
+    "humanListening": false,
+    "technicalSamples": {
+      "samples": 9,
+      "technicalFailures": 0,
+      "samplesWithCandidateFlags": 0,
+      "byLevelRepository": {
+        "A1": {
+          "grammar": 1
+        },
+        "A2": {
+          "grammar": 1
+        },
+        "B1": {
+          "grammar": 1
+        },
+        "B2": {
+          "grammar": 1
+        },
+        "C1": {
+          "grammar": 1
+        },
+        "C2": {
+          "grammar": 4
+        }
+      },
+      "tags": [
+        "abbreviation"
+      ],
+      "longreadFull": 0,
+      "longreadParagraphs": 0
+    }
+  },
+  "tests": {
+    "passed": {
+      "points": 97,
+      "appendOnlySections": 0,
+      "appendOnlyPractice": 2,
+      "tamperRejections": 3,
+      "priorLayersPreserved": true,
+      "newGrammarPlaybackAndLayoutAssertions": 22
+    },
+    "failed": [],
+    "notTested": [
+      "Human acoustic listening/alignment",
+      "Real microphone or partner interaction",
+      "Actual installed Google français availability"
+    ]
+  },
+  "remotePush": "No push for batch29 or later; current delegation is local-only",
+  "deployment": false,
+  "examFormatChanged": false
+}

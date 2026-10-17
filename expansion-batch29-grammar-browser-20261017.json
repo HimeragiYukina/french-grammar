@@ -1,0 +1,96 @@
+{
+  "passed": 22,
+  "failed": [],
+  "checks": [
+    {
+      "name": "c2-exclamation 390 HTTP and local selection",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 390 unique new question 0",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 390 answer and explanation 0",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 390 exact mapped answer 0",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 390 actual local answer playback 0",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 390 unique new question 1",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 390 answer and explanation 1",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 390 exact mapped answer 1",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 390 actual local answer playback 1",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 390 viewport fits",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 390 no page error",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 1440 HTTP and local selection",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 1440 unique new question 0",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 1440 answer and explanation 0",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 1440 exact mapped answer 0",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 1440 actual local answer playback 0",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 1440 unique new question 1",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 1440 answer and explanation 1",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 1440 exact mapped answer 1",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 1440 actual local answer playback 1",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 1440 viewport fits",
+      "pass": true
+    },
+    {
+      "name": "c2-exclamation 1440 no page error",
+      "pass": true
+    }
+  ],
+  "isolatedProfile": true,
+  "humanListening": false
+}

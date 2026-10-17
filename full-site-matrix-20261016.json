@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3852,
-  "covered": 3852,
+  "denominator": 3856,
+  "covered": 3856,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -1071,10 +1071,10 @@
       "kind": "grammar-point",
       "id": "c2-exclamation",
       "level": "C2",
-      "exactTextUnits": 44,
-      "localFilesPresent": 44,
+      "exactTextUnits": 48,
+      "localFilesPresent": 48,
       "missingLocalFiles": 0,
-      "requiredUnits": 42,
+      "requiredUnits": 46,
       "errorInputUnits": 2
     },
     {
