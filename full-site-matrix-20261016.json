@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3813,
-  "covered": 3813,
+  "denominator": 3819,
+  "covered": 3819,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -433,10 +433,10 @@
       "kind": "grammar-point",
       "id": "a2-quantite",
       "level": "A2",
-      "exactTextUnits": 40,
-      "localFilesPresent": 40,
+      "exactTextUnits": 46,
+      "localFilesPresent": 46,
       "missingLocalFiles": 0,
-      "requiredUnits": 40,
+      "requiredUnits": 46,
       "errorInputUnits": 0
     },
     {

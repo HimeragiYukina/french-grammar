@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 4,
+  "generated_this_run": 6,
   "generation_runs": [
     {
-      "generated": 3318,
+      "generated": 3324,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 57.4925262928009,
+  "elapsed_seconds": 58.8700475692749,
   "listened": false,
   "records": [
     {
@@ -155528,17 +155528,17 @@
       "bytes": 10284,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.18421768707483,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/496b7f7aff10ebd71d1e15b356ae2e8609f939a5b3a54637127a91b18add8bc7.wav",
         "file_sha256": "199eaabc88e3609d3b21dfa3780a15e18d07e37fb37c7f6c8e6306ccf45d7aae",
-        "bytes": 52268,
-        "rms": 5809.729354666976
+        "seconds": 1.18421768707483
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155569,17 +155569,17 @@
       "bytes": 16971,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.020136054421769,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/92c5d88612a8d069f42ace905a28e3fc64d69080db244b0ae04bbc4bd00f4f41.wav",
         "file_sha256": "8e4432a677e9725d77527ae0b5c4b8958926fcfdabf82a9fee62e2eb3e2d4422",
-        "bytes": 89132,
-        "rms": 6189.287780711668
+        "seconds": 2.020136054421769
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155610,17 +155610,17 @@
       "bytes": 7985,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 0.905578231292517,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/ff8bbcf6b6d95d8ec2ea5bf39f0b3836c2d387345d838b17a6dbe939843ff67a.wav",
         "file_sha256": "da3215399948929dd888051c21126995a2d4e2bdf2a864cb3e3eef52d55fb55e",
-        "bytes": 39980,
-        "rms": 4077.569051173424
+        "seconds": 0.905578231292517
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155651,14 +155651,272 @@
       "bytes": 18434,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.2175056689342405,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/faca0c93dcd11fa83fb7e89b95c9983f150c71d812ed20d1593479fc834662a9.wav",
         "file_sha256": "750b1a0a6e347cf1d5f0a42f6745d4dec288dd2ff75d65ced2e3539573e8cf99",
-        "bytes": 97836,
-        "rms": 5249.922451969885
+        "seconds": 2.2175056689342405
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "par personne",
+      "occurrences": [
+        {
+          "id": "a2-quantite",
+          "field": "/a2-quantite/practice/4/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 32,
+              "end_codepoint": 44
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "d5afb0c567d404e30816156da8c211ce9bd017796cd21d3765c3652a781f698b",
+      "path": "audio/supplement/d5afb0c567d404e30816156da8c211ce9bd017796cd21d3765c3652a781f698b.mp3",
+      "source": "local-siwis",
+      "file_sha256": "43e3c3810d3808d8a95d56c2c1748be42e4b61d82af8a39699b75d8464380006",
+      "bytes": 8612,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.9868480725623583,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/d5afb0c567d404e30816156da8c211ce9bd017796cd21d3765c3652a781f698b.wav",
+        "file_sha256": "afd2331957d2549c83ac088818c2527fdcf2bc4daf0d8ed106378cc6178b4eb2",
+        "bytes": 43564,
+        "rms": 4333.882159419789
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "pour trois personnes",
+      "occurrences": [
+        {
+          "id": "a2-quantite",
+          "field": "/a2-quantite/practice/4/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 51,
+              "end_codepoint": 71
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "dbedc113e5991011be86fcfb9ca84b5384e210e4a49a46fb6e6e60bd605c65e7",
+      "path": "audio/supplement/dbedc113e5991011be86fcfb9ca84b5384e210e4a49a46fb6e6e60bd605c65e7.mp3",
+      "source": "local-siwis",
+      "file_sha256": "cf208523eaeb9af704bd1d2a7919cac721ae7b3c7e3b9d221b9bc109155820ed",
+      "bytes": 11119,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.2887074829931973,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/dbedc113e5991011be86fcfb9ca84b5384e210e4a49a46fb6e6e60bd605c65e7.wav",
+        "file_sha256": "4d7fc9c0ee034f9a29379d3ea15b5359ebe0c2e5ae5158f00218a0a0959fb00a",
+        "bytes": 56876,
+        "rms": 5403.7093076647525
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Le billet coûte neuf euros par personne, soit vingt-sept euros pour trois personnes.",
+      "occurrences": [
+        {
+          "id": "a2-quantite",
+          "field": "/a2-quantite/practice/4/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 84
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "f0e2be62c8a9f34b1e62e764d79b146e108cd98c1d2f1eb1d38696fe44e7274f",
+      "path": "audio/supplement/f0e2be62c8a9f34b1e62e764d79b146e108cd98c1d2f1eb1d38696fe44e7274f.mp3",
+      "source": "local-siwis",
+      "file_sha256": "d1033d43265e3d79e32c82a6447835f0e7d8b93ca84ffe357206d16d4c5799d9",
+      "bytes": 39123,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.806530612244898,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/f0e2be62c8a9f34b1e62e764d79b146e108cd98c1d2f1eb1d38696fe44e7274f.wav",
+        "file_sha256": "56b83dc983ca3c89065e41dffa094768b9353158f62dc3959fe12051e6d36914",
+        "bytes": 212012,
+        "rms": 5203.114810649415
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "deux personnes",
+      "occurrences": [
+        {
+          "id": "a2-quantite",
+          "field": "/a2-quantite/practice/5/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 31,
+              "end_codepoint": 45
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "1c37e29cf6dc2ca7c882b1eff1ae1d6175492020b0494aa2890ac18d55629cdd",
+      "path": "audio/supplement/1c37e29cf6dc2ca7c882b1eff1ae1d6175492020b0494aa2890ac18d55629cdd.mp3",
+      "source": "local-siwis",
+      "file_sha256": "75828f58addd05c43980be4bf264c7ab37982aeeef7cf31822067fa66f3f98d0",
+      "bytes": 8612,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.9752380952380952,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/1c37e29cf6dc2ca7c882b1eff1ae1d6175492020b0494aa2890ac18d55629cdd.wav",
+        "file_sha256": "d1d2a4a97ae0744a478af6ba0d888c9cc733f18487e4d3a06050111cdf1cbcc8",
+        "bytes": 43052,
+        "rms": 5995.752795735086
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "chacune",
+      "occurrences": [
+        {
+          "id": "a2-quantite",
+          "field": "/a2-quantite/practice/5/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 46,
+              "end_codepoint": 53
+            }
+          ],
+          "kind": "lexical_unit"
+        },
+        {
+          "id": "a2-quantite",
+          "field": "/a2-quantite/practice/5/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 7
+            }
+          ],
+          "kind": "lexical_unit"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "lexical_unit"
+      ],
+      "kind": "lexical_unit",
+      "sha256": "e757aaf34c5586769ccc60271b5f4e801a3d64b14bbb9e340c2a2313154e42a9",
+      "path": "audio/supplement/e757aaf34c5586769ccc60271b5f4e801a3d64b14bbb9e340c2a2313154e42a9.mp3",
+      "source": "local-siwis",
+      "file_sha256": "31d4bd1a6d1566821453d5d4dbe87a217854ba196c4b785396a905ae53fc9174",
+      "bytes": 6731,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.7430385487528345,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/e757aaf34c5586769ccc60271b5f4e801a3d64b14bbb9e340c2a2313154e42a9.wav",
+        "file_sha256": "1e9158a928f070bc965f36a22b50292724e4bf8c0055b93799eb24a50922a6ef",
+        "bytes": 32812,
+        "rms": 5955.309879806959
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Deux personnes paient neuf euros chacune ; le total est de dix-huit euros.",
+      "occurrences": [
+        {
+          "id": "a2-quantite",
+          "field": "/a2-quantite/practice/5/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 74
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "98334742d6f9c001cb73dd11bffdc4a44a08564e157af085208209fb17cfd520",
+      "path": "audio/supplement/98334742d6f9c001cb73dd11bffdc4a44a08564e157af085208209fb17cfd520.mp3",
+      "source": "local-siwis",
+      "file_sha256": "7c1f32750035cc1a56d24ad737f0bee01e7c10baaa1ce48282d7867dc8570785",
+      "bytes": 34734,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 4.249251700680272,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/98334742d6f9c001cb73dd11bffdc4a44a08564e157af085208209fb17cfd520.wav",
+        "file_sha256": "ef810aaa189ebdf4a6d974476758bf065ef21c3a52971725dcfc8bc2a22e135a",
+        "bytes": 187436,
+        "rms": 5958.580232065243
       },
       "codec": "libmp3lame",
       "bitrate": 64000

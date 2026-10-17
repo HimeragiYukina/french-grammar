@@ -1,0 +1,468 @@
+{
+  "scope": "Bounded selected audio technical sample review; exacttext/current mapping/hash/full PCM decode/metrics. No human listening, pronunciation, speech-content alignment or truncation verdict.",
+  "method": {
+    "cpu": "two-core affinity, one decode process at a time, codec/filter one thread, hidden BELOW_NORMAL",
+    "silence": "20ms RMS below -45dBFS",
+    "flags": "Threshold candidates for human review, never proof of pronunciation or truncation",
+    "ASRModulesUnavailable": {
+      "whisper": true,
+      "faster_whisper": true,
+      "vosk": true
+    }
+  },
+  "listen": false,
+  "speechAlignment": "not_verified",
+  "summary": {
+    "samples": 7,
+    "technicalFailures": 0,
+    "samplesWithCandidateFlags": 0,
+    "byLevelRepository": {
+      "A1": {
+        "grammar": 1
+      },
+      "A2": {
+        "grammar": 2
+      },
+      "B1": {
+        "grammar": 1
+      },
+      "B2": {
+        "grammar": 1
+      },
+      "C1": {
+        "grammar": 1
+      },
+      "C2": {
+        "grammar": 1
+      }
+    },
+    "tags": [
+      "abbreviation",
+      "numbers"
+    ],
+    "longreadFull": 0,
+    "longreadParagraphs": 0
+  },
+  "currentTextResolutions": [],
+  "prioritySelections": [],
+  "samples": [
+    {
+      "repo": "grammar",
+      "levels": [
+        "A2"
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "text": "Deux personnes paient neuf euros chacune ; le total est de dix-huit euros.",
+      "path": "audio/supplement/98334742d6f9c001cb73dd11bffdc4a44a08564e157af085208209fb17cfd520.mp3",
+      "textSHA256": "98334742d6f9c001cb73dd11bffdc4a44a08564e157af085208209fb17cfd520",
+      "fileSHA256": "7c1f32750035cc1a56d24ad737f0bee01e7c10baaa1ce48282d7867dc8570785",
+      "bytes": 34734,
+      "coverageSeconds": 4.249251700680272,
+      "occurrences": [
+        {
+          "id": "a2-quantite",
+          "field": "/a2-quantite/practice/5/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 74
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 4.249251700680272,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1722276498497124,
+        "rmsDbFS": -15.27794249165508,
+        "nonzeroFraction": 0.9817281420765027,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.06,
+        "trailingSilenceSeconds": 0.1093,
+        "maximumInternalSilenceSeconds": 0.32,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A2"
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "text": "Le billet coûte neuf euros par personne, soit vingt-sept euros pour trois personnes.",
+      "path": "audio/supplement/f0e2be62c8a9f34b1e62e764d79b146e108cd98c1d2f1eb1d38696fe44e7274f.mp3",
+      "textSHA256": "f0e2be62c8a9f34b1e62e764d79b146e108cd98c1d2f1eb1d38696fe44e7274f",
+      "fileSHA256": "d1033d43265e3d79e32c82a6447835f0e7d8b93ca84ffe357206d16d4c5799d9",
+      "bytes": 39123,
+      "coverageSeconds": 4.806530612244898,
+      "occurrences": [
+        {
+          "id": "a2-quantite",
+          "field": "/a2-quantite/practice/4/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 84
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 4.806530612244898,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.14982245533709035,
+        "rmsDbFS": -16.488461797067394,
+        "nonzeroFraction": 0.9822614734299517,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.06,
+        "trailingSilenceSeconds": 0.1265,
+        "maximumInternalSilenceSeconds": 0.24,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C1"
+      ],
+      "tags": [
+        "abbreviation"
+      ],
+      "text": "La responsable, en l'occurrence Mme Durand, signera le document.",
+      "path": "audio/supplement/f9eab3bb6e935437bfa4a9f8a281960ff8b5b2d1fd58c4c0ef0d7da109df28c3.mp3",
+      "textSHA256": "f9eab3bb6e935437bfa4a9f8a281960ff8b5b2d1fd58c4c0ef0d7da109df28c3",
+      "fileSHA256": "d6f4f22a38dc94708808f39d73bcd56092a9708b379a817b632a04b7079ec27e",
+      "bytes": 36406,
+      "coverageSeconds": 4.458231292517007,
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/sections/4/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 64
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 4.458231292517007,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1500720673963127,
+        "rmsDbFS": -16.47400269138153,
+        "nonzeroFraction": 0.956817626953125,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1182,
+        "maximumInternalSilenceSeconds": 0.36,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A1"
+      ],
+      "tags": [
+        "abbreviation"
+      ],
+      "text": "Tout nom français a un genre (masculin/féminin). L'article défini (le, la, l', les) s'emploie pour une chose précise, connue ou unique.",
+      "path": "audio/fr-FR/f54a11a717866845.mp3",
+      "textSHA256": "958c16f22a07dc5bd40ce311fb9c8b15dc0c8ea1faf0cabe95df079fcf930a00",
+      "fileSHA256": "6a3e6105be16787e62c7e1a6fc689e1cddb5fa251373aa89dcacb02725820653",
+      "bytes": 65376,
+      "coverageSeconds": null,
+      "occurrences": [
+        {
+          "id": "a1-genre",
+          "field": "/a1-genre/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 135
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": null
+      },
+      "metrics": {
+        "decodedSeconds": 10.896,
+        "sampleRate": 24000,
+        "channels": 1,
+        "rms": 0.08548236189606777,
+        "rmsDbFS": -21.36246973384257,
+        "nonzeroFraction": 0.828392682329907,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.916,
+        "maximumInternalSilenceSeconds": 1.0,
+        "internalSilencesGE0_5Seconds": [
+          {
+            "start": 3.14,
+            "end": 4.14,
+            "seconds": 1.0
+          }
+        ],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [],
+      "text": "Quand je suis arrivé, le train était déjà parti.",
+      "path": "audio/fr-FR/e6d0c2b7a96f2e4a.mp3",
+      "textSHA256": "dc4c6d21c6f964562a4e182322d0b549cbe22f6f562c31f398a4ca7d00d24904",
+      "fileSHA256": "61b90ee504c5d814fb9b6a7491d11d7c4c344650e59aad2e85305e5260e147b6",
+      "bytes": 22464,
+      "coverageSeconds": null,
+      "occurrences": [
+        {
+          "id": "b1-pqp",
+          "field": "/b1-pqp/ex/0/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": null
+      },
+      "metrics": {
+        "decodedSeconds": 3.744,
+        "sampleRate": 24000,
+        "channels": 1,
+        "rms": 0.07718579174619833,
+        "rmsDbFS": -22.249252732695474,
+        "nonzeroFraction": 0.7488425925925926,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.904,
+        "maximumInternalSilenceSeconds": 0.28,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B2"
+      ],
+      "tags": [],
+      "text": "J'attends que tu viennes ; je regrette que tu ne sois pas venu hier.",
+      "path": "audio/supplement/6da86e31ef23f6f49d57d9511cfeb20c5ae593a85d28f5cc763ff8c5aedb5de9.mp3",
+      "textSHA256": "6da86e31ef23f6f49d57d9511cfeb20c5ae593a85d28f5cc763ff8c5aedb5de9",
+      "fileSHA256": "20b8765762190fa5c0ce56a987fdec0ffa0b9d3b36ac3f5afd790a245d8f26e1",
+      "bytes": 28256,
+      "coverageSeconds": 3.4481632653061225,
+      "occurrences": [
+        {
+          "id": "b2-subj-passe",
+          "field": "/b2-subj-passe/ex/2/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 89
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.4481632653061225,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.13932556012471103,
+        "rmsDbFS": -17.119384045846914,
+        "nonzeroFraction": 0.9671585648148148,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.14,
+        "trailingSilenceSeconds": 0.1482,
+        "maximumInternalSilenceSeconds": 0.16,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [],
+      "text": "Elles se sont plu dès leur première rencontre.",
+      "path": "audio/supplement/a30c86774c4d15043e638f46e89cbf59d0f2dfff6cc9167bcdf91b20a3afd784.mp3",
+      "textSHA256": "a30c86774c4d15043e638f46e89cbf59d0f2dfff6cc9167bcdf91b20a3afd784",
+      "fileSHA256": "7fa38efb138691c80acf8ea609b1df746090a9b0361a87c79482b335058f7eb3",
+      "bytes": 20941,
+      "coverageSeconds": 2.5193650793650795,
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "/c1-accord-avance/sections/4/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 46
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "c2-accord-extreme",
+          "field": "/c2-accord-extreme/ex/4/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 53
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.5193650793650795,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.17497261156513466,
+        "rmsDbFS": -15.140598520790105,
+        "nonzeroFraction": 0.934601814516129,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.2,
+        "trailingSilenceSeconds": 0.1794,
+        "maximumInternalSilenceSeconds": 0.06,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    }
+  ]
+}

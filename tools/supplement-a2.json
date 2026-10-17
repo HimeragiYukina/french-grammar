@@ -433,6 +433,16 @@
         "q": "只够跑一趟，不够两趟。用assez de temps写完整句；不能把temps改成可数趟数。",
         "a": "Nous avons assez de temps pour un trajet, mais pas pour deux.",
         "note": "也接受Il reste assez de temps…。够用对象必须保留一趟与两趟的对比。"
+      },
+      {
+        "q": "原创展览票价：每人九欧元，三位参观者各买一次普通票，没有优惠。用par personne说明单价，再用pour trois personnes说合计。",
+        "a": "Le billet coûte neuf euros par personne, soit vingt-sept euros pour trois personnes.",
+        "note": "单价单位是人，三张九欧元的票合计二十七欧元；不是一组三人只付九欧元。这里只按已明确的一次购票计数。"
+      },
+      {
+        "q": "另一次原创购票：三位参观者中明确有一位免票，其余每人九欧元。用deux personnes和chacune说明付款者，再写总额；不要按未给出的年龄猜优惠。",
+        "a": "Deux personnes paient neuf euros chacune ; le total est de dix-huit euros.",
+        "note": "chacune指两个付款者中的每一位，随personnes用阴性单数；免费者不再乘九。三位到场不等于三位付款，不擅自添加年龄或折扣条件。"
       }
     ]
   },

@@ -1,0 +1,30 @@
+{
+  "text": "pour trois personnes",
+  "text_sha256": "dbedc113e5991011be86fcfb9ca84b5384e210e4a49a46fb6e6e60bd605c65e7",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2887074829931973,
+      "source_seconds": 1.2887074829931973,
+      "source_file_sha256": "4d7fc9c0ee034f9a29379d3ea15b5359ebe0c2e5ae5158f00218a0a0959fb00a",
+      "file_sha256": "cf208523eaeb9af704bd1d2a7919cac721ae7b3c7e3b9d221b9bc109155820ed",
+      "bytes": 11119,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Deux personnes paient neuf euros chacune ; le total est de dix-huit euros.",
+  "text_sha256": "98334742d6f9c001cb73dd11bffdc4a44a08564e157af085208209fb17cfd520",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.249251700680272,
+      "source_seconds": 4.249251700680272,
+      "source_file_sha256": "ef810aaa189ebdf4a6d974476758bf065ef21c3a52971725dcfc8bc2a22e135a",
+      "file_sha256": "7c1f32750035cc1a56d24ad737f0bee01e7c10baaa1ce48282d7867dc8570785",
+      "bytes": 34734,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

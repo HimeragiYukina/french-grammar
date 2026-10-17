@@ -1,0 +1,30 @@
+{
+  "text": "Le billet coûte neuf euros par personne, soit vingt-sept euros pour trois personnes.",
+  "text_sha256": "f0e2be62c8a9f34b1e62e764d79b146e108cd98c1d2f1eb1d38696fe44e7274f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.806530612244898,
+      "source_seconds": 4.806530612244898,
+      "source_file_sha256": "56b83dc983ca3c89065e41dffa094768b9353158f62dc3959fe12051e6d36914",
+      "file_sha256": "d1033d43265e3d79e32c82a6447835f0e7d8b93ca84ffe357206d16d4c5799d9",
+      "bytes": 39123,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

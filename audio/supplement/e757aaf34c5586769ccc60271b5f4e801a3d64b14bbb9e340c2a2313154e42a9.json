@@ -1,0 +1,30 @@
+{
+  "text": "chacune",
+  "text_sha256": "e757aaf34c5586769ccc60271b5f4e801a3d64b14bbb9e340c2a2313154e42a9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.7430385487528345,
+      "source_seconds": 0.7430385487528345,
+      "source_file_sha256": "1e9158a928f070bc965f36a22b50292724e4bf8c0055b93799eb24a50922a6ef",
+      "file_sha256": "31d4bd1a6d1566821453d5d4dbe87a217854ba196c4b785396a905ae53fc9174",
+      "bytes": 6731,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
