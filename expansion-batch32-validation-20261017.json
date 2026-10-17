@@ -1,0 +1,13 @@
+{
+  "scope": "Grammar-only integration validation; no grammar content expansion in this batch",
+  "completedUtc": "2026-10-17T17:38:13.743546+00:00",
+  "grammarPoints": 97,
+  "newSections": 0,
+  "newQuestions": 0,
+  "baselineAndStrictChecksPassed": true,
+  "contentChecksPassed": true,
+  "headlessMobileNavigationPassed": true,
+  "humanListening": false,
+  "microphoneTested": false,
+  "deployment": false
+}

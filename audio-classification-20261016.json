@@ -458,5 +458,14 @@
     "sourceSpanMismatches": 0,
     "actualListening": "not performed",
     "newAudioGeneratedByClassification": false
+  },
+  "batch32_scope": {
+    "definition": "Actual newly appended/changed French source leaves and mixed exact spans, complete models, answer variants, explicitly non-normative error inputs; current full dialogue composites rebuilt. Chinese, source metadata, grammatical labels and open-slot templates excluded.",
+    "source_ids": [],
+    "added_leaves": 0,
+    "changed_leaves": 0,
+    "sourceSpanMismatches": 0,
+    "actualListening": "not performed",
+    "newAudioGeneratedByClassification": false
   }
 }
