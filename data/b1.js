@@ -2216,6 +2216,27 @@ window.GRAMMAR_DATA.B1={
               "use": "让步。"
             }
           ]
+        },
+        {
+          "title": "整理书的人与被感谢的志愿者：副动词归属和名词修饰",
+          "explanation": "独立图书整理情境中，志愿者通过按作者分类来整理书。en＋分词可给方法；修饰名词的现在分词另找它所修饰的人。普通规范任务中，副动词隐含主语原则上与所依附句子的主语一致，不把文学或固定表达的例外一概判死。为避免误解，必要时展开从句。 <a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/24712/la-syntaxe/constructions-syntaxiques-boiteuses/logique-syntaxique-sujet-sous-entendu-du-participe-present\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF隐含主语</a>；<a href=\"https://eduscol.education.fr/document/1872/download#page=154\" target=\"_blank\" rel=\"noopener noreferrer\">教育部语法术语，第154页查看副动词</a>（2026-10-16）。",
+          "examples": [
+            {
+              "fr": "Nous rangeons les livres en les classant par auteur.",
+              "zh": "我们通过按作者分类来整理书。",
+              "use": "en les classant给整理的方法，施事为nous。"
+            },
+            {
+              "fr": "Nous remercions les bénévoles travaillant à la bibliothèque.",
+              "zh": "我们感谢在图书馆工作的志愿者。",
+              "use": "travaillant修饰bénévoles，可展开qui travaillent；不是说nous在图书馆工作。"
+            },
+            {
+              "fr": "Pendant que la bibliothécaire lit les titres, les bénévoles notent les auteurs.",
+              "zh": "图书管理员读书名时，志愿者记作者。",
+              "use": "两项活动主体不同，完整从句保持角色。"
+            }
+          ]
         }
       ],
       "comparison": "En arrivant, Paul a appelé 指 Paul 到达时打电话；Paul arrivant, nous avons fermé la porte 是现在分词独立结构，可有不同主语。Il apprend en lisant 表学习方式；il aime lire 中 lire 是动词的宾语。",
@@ -2235,6 +2256,16 @@ window.GRAMMAR_DATA.B1={
           "q": "指定“先完整读完，再回复”，用après avoir合并，不能把先后改为同时：J’ai lu tout le dossier. Ensuite, j’ai répondu au client.",
           "a": "Après avoir lu tout le dossier, j’ai répondu au client.",
           "note": "过去不定式avoir lu明确读取完成先于回复，两动作同je。En lisant…把动作放同时/过程中，不能保住“完整读完再回复”的任务要求。"
+        },
+        {
+          "q": "把“我们通过按作者分类来整理书”用en＋分词写成一句，再指出两项动作的施事。",
+          "a": "Nous rangeons les livres en les classant par auteur. Le sujet des deux actions est « nous ».",
+          "note": "也接受通过其他自然词序说明方法；不是只要有两个动词就必须用副动词。"
+        },
+        {
+          "q": "资料明确图书管理员读书名、志愿者只记作者。有人改成En lisant les titres, les bénévoles notent les auteurs。为何在本资料不忠实？给自然改写，不说该句在所有情境都不合法。",
+          "a": "Cette formulation attribue la lecture aux bénévoles. Pour garder les rôles : pendant que la bibliothécaire lit les titres, les bénévoles notent les auteurs.",
+          "note": "错误在于替换后角色改变。若新情境明确志愿者自己读书名，副动词结构可以成立。"
         }
       ]
     },

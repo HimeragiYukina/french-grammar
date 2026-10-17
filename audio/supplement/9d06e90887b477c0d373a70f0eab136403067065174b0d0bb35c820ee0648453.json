@@ -1,0 +1,30 @@
+{
+  "text": "Comme ce passage est clair ! Je plaisante : les pronoms me laissent encore hésiter entre deux personnes.",
+  "text_sha256": "9d06e90887b477c0d373a70f0eab136403067065174b0d0bb35c820ee0648453",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.7817687074829935,
+      "source_seconds": 5.7817687074829935,
+      "source_file_sha256": "ac5c60d9f1230d2882584604cc7cabe34218d96a3340e42423874802ae301de1",
+      "file_sha256": "e6e8b232283510ff4e43ab508840c26351fdd3c71f470af708ffb42c994b75c0",
+      "bytes": 47064,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

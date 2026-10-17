@@ -1,0 +1,30 @@
+{
+  "text": "Cette formulation attribue la lecture aux bénévoles. Pour garder les rôles : pendant que la bibliothécaire lit les titres, les bénévoles notent les auteurs.",
+  "text_sha256": "e63c6790ecca324db4db1d57f81135106e4c919825c96a2fb70c10085c58d527",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.767074829931973,
+      "source_seconds": 7.767074829931973,
+      "source_file_sha256": "bbf890b42becdad2cd92594d4b83eea68983a03412de6f6c5bdb6d47c9266fd3",
+      "file_sha256": "c71fcace4508a2456d03a6ed5f9947660a0ca042aceb3d0b87026c65efdf03fd",
+      "bytes": 62946,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

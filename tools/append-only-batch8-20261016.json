@@ -1,0 +1,212 @@
+{
+  "batch": "8",
+  "counts": {
+    "sections": 3,
+    "practice": 6
+  },
+  "files": [
+    {
+      "file": "tools/supplement-a2.json",
+      "before_sha256": "0c0dca11991d34462da4ec45442215504583cf7aeb03a2f81a2fe12230524d6c",
+      "after_sha256": "3830b33f19420543817ebfb12e4caa8579542d4f49acb040f17ec09b93d97463",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "a2-coi",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "同一接收者，直接对他说与对别人说的代词位置",
+              "explanation": "独立图书情境：Paul把两本漫画还给邻居。对邻居本人说vous；向第三人说这些邻居用leur。les指漫画，不随接收者性别变；leur不加s。陈述句me/te/nous/vous通常在le/la/les前，第三人接收者lui/leur在后；先确认两个宾语，不靠单一“人总在物前”口诀。",
+              "examples": [
+                {
+                  "fr": "Je vous les rends demain : ce sont vos deux bandes dessinées.",
+                  "zh": "我明天把这两本漫画还给您/你们，它们是您的/你们的。",
+                  "use": "vous在les前，接收者为当前听者。"
+                },
+                {
+                  "fr": "Paul les leur rend demain.",
+                  "zh": "保罗明天把它们还给邻居们。",
+                  "use": "第三人复数接收者leur在les后。"
+                },
+                {
+                  "fr": "La voisine me prête un album. Je le lui rends vendredi.",
+                  "zh": "女邻居借给我一本画册。我周五把它还给她。",
+                  "use": "lui可指女性单数；le指阳性album。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "a2-coi",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "dd1d1b8b271627a36a047bccf3340a56f4a21ee08d00e7d92126c633779665b0",
+          "added": [
+            {
+              "q": "Paul直接对邻居说“明天我把这两本漫画还给你们”，用vous和les。再由旁人说“Paul明天把它们还给他们”，用les与leur。",
+              "a": "Je vous les rends demain. Paul les leur rend demain.",
+              "note": "vous les与les leur顺序不同；leur指复数接收者仍不加s。也接受明确未来形式，只要保明天和角色。"
+            },
+            {
+              "q": "女邻居借给叙述者一本album。把“我周五把它还给她”写成一句，同时用直接与间接宾语代词。",
+              "a": "Je le lui rends vendredi.",
+              "note": "也接受Je le lui rendrai vendredi。le随album为阳性；lui不因邻居女性改成elle，也不写lui le。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-b1.json",
+      "before_sha256": "c8610e64fdb3f0f97ccbe5825ed8fa546770d1d3e53a4826cce9638f417b26e1",
+      "after_sha256": "25c6ae595f8229f817c1db071bdd370e7427590ba2bc6822bfc85f9ec5e55848",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "b1-gerondif",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "整理书的人与被感谢的志愿者：副动词归属和名词修饰",
+              "explanation": "独立图书整理情境中，志愿者通过按作者分类来整理书。en＋分词可给方法；修饰名词的现在分词另找它所修饰的人。普通规范任务中，副动词隐含主语原则上与所依附句子的主语一致，不把文学或固定表达的例外一概判死。为避免误解，必要时展开从句。 <a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/24712/la-syntaxe/constructions-syntaxiques-boiteuses/logique-syntaxique-sujet-sous-entendu-du-participe-present\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF隐含主语</a>；<a href=\"https://eduscol.education.fr/document/1872/download#page=154\" target=\"_blank\" rel=\"noopener noreferrer\">教育部语法术语，第154页查看副动词</a>（2026-10-16）。",
+              "examples": [
+                {
+                  "fr": "Nous rangeons les livres en les classant par auteur.",
+                  "zh": "我们通过按作者分类来整理书。",
+                  "use": "en les classant给整理的方法，施事为nous。"
+                },
+                {
+                  "fr": "Nous remercions les bénévoles travaillant à la bibliothèque.",
+                  "zh": "我们感谢在图书馆工作的志愿者。",
+                  "use": "travaillant修饰bénévoles，可展开qui travaillent；不是说nous在图书馆工作。"
+                },
+                {
+                  "fr": "Pendant que la bibliothécaire lit les titres, les bénévoles notent les auteurs.",
+                  "zh": "图书管理员读书名时，志愿者记作者。",
+                  "use": "两项活动主体不同，完整从句保持角色。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "b1-gerondif",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "93d1c490b6cd7f5ab4b26f0de32ff6483054fe68f7c20b7fdb5421b6e06667fc",
+          "added": [
+            {
+              "q": "把“我们通过按作者分类来整理书”用en＋分词写成一句，再指出两项动作的施事。",
+              "a": "Nous rangeons les livres en les classant par auteur. Le sujet des deux actions est « nous ».",
+              "note": "也接受通过其他自然词序说明方法；不是只要有两个动词就必须用副动词。"
+            },
+            {
+              "q": "资料明确图书管理员读书名、志愿者只记作者。有人改成En lisant les titres, les bénévoles notent les auteurs。为何在本资料不忠实？给自然改写，不说该句在所有情境都不合法。",
+              "a": "Cette formulation attribue la lecture aux bénévoles. Pour garder les rôles : pendant que la bibliothécaire lit les titres, les bénévoles notent les auteurs.",
+              "note": "错误在于替换后角色改变。若新情境明确志愿者自己读书名，副动词结构可以成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-c2.json",
+      "before_sha256": "8d0bca8f3ead301b537bc8912bf730a1f15e2563e8414f68f024da88709e7b63",
+      "after_sha256": "9ae3ee3011668152ac06b645537b4df232850b362bfc42e165a9be41d724f92c",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "c2-exclamation",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": [
+            {
+              "title": "感叹形式不固定评价方向：Comme ce passage est clair !",
+              "explanation": "独立读书情境中，同一感叹可随语境表示赞许或反语。Comme引程度感叹，一般保陈述语序；它本身不等于嘲讽。识别评价要看说话者回应什么、向谁说，以及后来如何澄清。这里练反语的具体用例，不把感叹句的全部用途缩为反义替换。 <a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/23225/la-redaction-et-la-communication/figures-de-style/figures-jouant-sur-le-sens/lantiphrase-et-lironie\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF反语与语境</a>（2026-10-16）。",
+              "examples": [
+                {
+                  "fr": "Comme ce passage est clair ! Je comprends enfin la différence entre les deux personnages.",
+                  "zh": "这段真清楚啊！我终于懂了两个人物的区别。",
+                  "use": "后句说明赞许依据；comme不是此处询问方式的comment。"
+                },
+                {
+                  "fr": "Comme ce passage est clair ! Je plaisante : les pronoms me laissent encore hésiter entre deux personnes.",
+                  "zh": "这段真清楚啊！我在说笑：这些代词仍让我在两人之间犹疑。",
+                  "use": "后续说明给出评价错位，不由comme或感叹号自动得出。"
+                },
+                {
+                  "fr": "Quelle réussite ! Selon la lectrice, cette formule était ironique ; son interlocuteur ne l’avait pas comprise ainsi.",
+                  "zh": "真成功啊！按这位读者的解释，这句话是反讽，但听者当时并没有这样理解。",
+                  "use": "区分意图申明与听者理解；réussite阴性配quelle。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operation": "append",
+          "path": [
+            "c2-exclamation",
+            "practice"
+          ],
+          "prefix_length": 2,
+          "prefix_sha256": "a1da3dff9ea3fc04f57773bcf30fa419ae465c05efac43662c820a900e785434",
+          "added": [
+            {
+              "q": "同伴把Comme ce passage est clair !一律判为嘲讽。用法语回应，给一句可直接支持真诚赞许的后续说明。",
+              "a": "La formule n’est pas forcément ironique. On peut ajouter : « Je comprends enfin la différence entre les personnages. »",
+              "note": "也可给其他明确正面理解依据；不是把所有解释归于标点。comme引程度感叹，不作询问方法的comment。"
+            },
+            {
+              "q": "读者说自己的Quelle réussite !是反讽，听者此前听成真诚赞许。用两句法语报告，不将读者申明改成所有人原本都懂。",
+              "a": "La lectrice a précisé qu’elle parlait ironiquement. Son interlocuteur avait compris une félicitation sincère.",
+              "note": "接受selon elle等保来源的自然表达。需要区分两人的理解，不只逐字改正quel/quelle。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "protected_files_sha256": {
+    "append-only-batch2-20261016.json": "5cdfc333160fe3826204a2ac44dcab6619a332dbc471d4765aa94c8c212b71af",
+    "append-only-batch2-checks-20261016.json": "3c4458f65edcf547809e6dbe5bc176cfbe1a2a77ed1d5272b735b0535aa24aa0",
+    "append-only-batch3-20261016.json": "353700af00f121d76d3ee500068eea510dea365d64f40aaab89988a4f61a40ab",
+    "append-only-batch3-checks-20261016.json": "08ecd653be92cd4d2d64e96b5a0d06cf5e2da6d21f58e3590cd764eab7a26a40",
+    "append-only-batch4-20261016.json": "428c5477577664409b3eb90f77df940103e13ae537f505c576d0b1264655165e",
+    "append-only-batch4-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch5-20261016.json": "4596e055bb7fb3f009fbd046f9e0b3a7beb40fd74aeb6b82d0906042a235207d",
+    "append-only-batch5-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch6-20261016.json": "c76fdacb3e99c21b87dd0ab3c34056c73c6d7804a958dd29eef4e9f6c9b22e7d",
+    "append-only-batch6-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch7-20261016.json": "7f9f3bd88c98f22dedb696caa262dab14de579415e0a3a62d3bb44a7514f40aa",
+    "append-only-batch7-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append_batch2_evidence.py": "1488492e962c80202bc0c0114f4c48023f86b9ebff65fdce2693417b77b91555",
+    "append_batch3_evidence.py": "1ced42994671b8002aaed195d88c84f632c782f1d309531bd018504f454d95ff",
+    "append_batch4_evidence.py": "48b881d966231cd661fe2e063850aa3328e5c0a237906e2a7eb387c01a990043",
+    "append_batch5_evidence.py": "1582039d1d83118f048654ddeb2546dcf7a3454df7f66781d8f7dd943da304ba",
+    "append_batch6_evidence.py": "0cd104bbd5d1df709a9963b757b5e59a490d70d99769ee94bc86e46e2940fa43",
+    "append_batch7_evidence.py": "e2a64a9f34699ebb0c6005f2b9c5151c7f19904592eacd834f32b93ba025de8d",
+    "content-baseline.json": "a17a54048c334231f27a84457574491fa726696791eadf6945abd666a4e4b225",
+    "strict-review-baseline.json": "25fbee3f19541f18d60be04ad4ace10f4b75c1cd5426d3863110cda368985ea8"
+  },
+  "method": "Exact full-file hashes, unchanged old prefixes and explicit suffixes; restore only in memory before prior batch3/batch2/original checks."
+}

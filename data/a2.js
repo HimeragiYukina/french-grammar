@@ -1601,6 +1601,27 @@ window.GRAMMAR_DATA.A2={
               "use": "tenir à人不用普通COI代词leur替换。"
             }
           ]
+        },
+        {
+          "title": "同一接收者，直接对他说与对别人说的代词位置",
+          "explanation": "独立图书情境：Paul把两本漫画还给邻居。对邻居本人说vous；向第三人说这些邻居用leur。les指漫画，不随接收者性别变；leur不加s。陈述句me/te/nous/vous通常在le/la/les前，第三人接收者lui/leur在后；先确认两个宾语，不靠单一“人总在物前”口诀。",
+          "examples": [
+            {
+              "fr": "Je vous les rends demain : ce sont vos deux bandes dessinées.",
+              "zh": "我明天把这两本漫画还给您/你们，它们是您的/你们的。",
+              "use": "vous在les前，接收者为当前听者。"
+            },
+            {
+              "fr": "Paul les leur rend demain.",
+              "zh": "保罗明天把它们还给邻居们。",
+              "use": "第三人复数接收者leur在les后。"
+            },
+            {
+              "fr": "La voisine me prête un album. Je le lui rends vendredi.",
+              "zh": "女邻居借给我一本画册。我周五把它还给她。",
+              "use": "lui可指女性单数；le指阳性album。"
+            }
+          ]
         }
       ],
       "comparison": "Je lui parle：parler à的普通COI；Je pense à lui：penser à的重读结构。Je parle de lui则是谈论他，介词de改变关系。",
@@ -1617,6 +1638,16 @@ window.GRAMMAR_DATA.A2={
           "q": "把“我在想Paul；我每天给他打电话”写成两句，避免重复Paul。第一句保留penser à，第二句用téléphoner。",
           "a": "Je pense à lui. Je lui téléphone tous les jours.",
           "note": "penser à特定人用à+重读代词；téléphoner à则用前置lui。不能因为两句中文都有“他”便统一Je lui pense，或统一y。"
+        },
+        {
+          "q": "Paul直接对邻居说“明天我把这两本漫画还给你们”，用vous和les。再由旁人说“Paul明天把它们还给他们”，用les与leur。",
+          "a": "Je vous les rends demain. Paul les leur rend demain.",
+          "note": "vous les与les leur顺序不同；leur指复数接收者仍不加s。也接受明确未来形式，只要保明天和角色。"
+        },
+        {
+          "q": "女邻居借给叙述者一本album。把“我周五把它还给她”写成一句，同时用直接与间接宾语代词。",
+          "a": "Je le lui rends vendredi.",
+          "note": "也接受Je le lui rendrai vendredi。le随album为阳性；lui不因邻居女性改成elle，也不写lui le。"
         }
       ]
     },

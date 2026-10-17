@@ -1,0 +1,30 @@
+{
+  "text": "Comme ce passage est clair ! Je comprends enfin la différence entre les deux personnages.",
+  "text_sha256": "64449dff61de00b28e99bff105d4682e912358257b3cfcf5960c7bea08c7a8cc",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.516281179138322,
+      "source_seconds": 4.516281179138322,
+      "source_file_sha256": "68bc0e99a65a6e98c5042d5407ac0e6e57f0dbe15e77174f12dc943e6f7a465f",
+      "file_sha256": "6031069c7e4b50128a455494c82491f1b0424c00b4728061ef895212aa4d434f",
+      "bytes": 36824,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

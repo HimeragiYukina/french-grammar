@@ -1,0 +1,30 @@
+{
+  "text": "Je le lui rendrai vendredi",
+  "text_sha256": "590e31836e414150efd3a93d4531a5fdd65e6ba1575480b48c6ff33f233212b3",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.2770975056689342,
+      "source_seconds": 1.2770975056689342,
+      "source_file_sha256": "7edbcb8e325dac08115d85e86108664c75a6c3e7abab7f88d7d35846a08345bb",
+      "file_sha256": "ca9e6adde865da4acc7e1eb4820d745b414a1ec305319fc8914a5758e09b2272",
+      "bytes": 10910,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

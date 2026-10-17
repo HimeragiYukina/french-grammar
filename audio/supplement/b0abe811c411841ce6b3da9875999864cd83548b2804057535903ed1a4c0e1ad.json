@@ -1,0 +1,30 @@
+{
+  "text": "Quelle réussite ! Selon la lectrice, cette formule était ironique ; son interlocuteur ne l’avait pas comprise ainsi.",
+  "text_sha256": "b0abe811c411841ce6b3da9875999864cd83548b2804057535903ed1a4c0e1ad",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.617687074829932,
+      "source_seconds": 6.617687074829932,
+      "source_file_sha256": "5362328683f3f13bcd99ed39f321b5fe32054c5f697c4815076e131d15055c96",
+      "file_sha256": "09d6431bee5de51c38d213383eafebe59e3e7978260f51df31070f1469f10ed3",
+      "bytes": 53751,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

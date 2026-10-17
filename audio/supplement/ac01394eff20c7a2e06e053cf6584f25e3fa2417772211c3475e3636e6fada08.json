@@ -1,0 +1,30 @@
+{
+  "text": "Nous rangeons les livres en les classant par auteur.",
+  "text_sha256": "ac01394eff20c7a2e06e053cf6584f25e3fa2417772211c3475e3636e6fada08",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.345215419501134,
+      "source_seconds": 2.345215419501134,
+      "source_file_sha256": "51abc91ee76ffc3fb7992aeedac15957d8b7509b9b3b61695f460a166ee56201",
+      "file_sha256": "373280362461639dcc0773c2e5c2761d548bffe3a479183fb018690776798e69",
+      "bytes": 19479,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

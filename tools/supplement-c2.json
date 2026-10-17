@@ -343,7 +343,29 @@
     ]
   },
   "c2-exclamation": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "感叹形式不固定评价方向：Comme ce passage est clair !",
+        "explanation": "独立读书情境中，同一感叹可随语境表示赞许或反语。Comme引程度感叹，一般保陈述语序；它本身不等于嘲讽。识别评价要看说话者回应什么、向谁说，以及后来如何澄清。这里练反语的具体用例，不把感叹句的全部用途缩为反义替换。 <a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/23225/la-redaction-et-la-communication/figures-de-style/figures-jouant-sur-le-sens/lantiphrase-et-lironie\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF反语与语境</a>（2026-10-16）。",
+        "examples": [
+          {
+            "fr": "Comme ce passage est clair ! Je comprends enfin la différence entre les deux personnages.",
+            "zh": "这段真清楚啊！我终于懂了两个人物的区别。",
+            "use": "后句说明赞许依据；comme不是此处询问方式的comment。"
+          },
+          {
+            "fr": "Comme ce passage est clair ! Je plaisante : les pronoms me laissent encore hésiter entre deux personnes.",
+            "zh": "这段真清楚啊！我在说笑：这些代词仍让我在两人之间犹疑。",
+            "use": "后续说明给出评价错位，不由comme或感叹号自动得出。"
+          },
+          {
+            "fr": "Quelle réussite ! Selon la lectrice, cette formule était ironique ; son interlocuteur ne l’avait pas comprise ainsi.",
+            "zh": "真成功啊！按这位读者的解释，这句话是反讽，但听者当时并没有这样理解。",
+            "use": "区分意图申明与听者理解；réussite阴性配quelle。"
+          }
+        ]
+      }
+    ],
     "related": [],
     "practice": [
       {
@@ -355,6 +377,16 @@
         "q": "报告写Le résultat est moins stable que nous ne le pensions。译文把它写成“比我们不以为的更不稳定”。给正常中文，并说明删ne、加pas各会怎样。",
         "a": "结果没有我们原先以为的那么稳定。Le résultat est moins stable que nous le pensions. 删去赘词ne不改变比较意义；加入pas会形成真实否定，不能当作同义替换。",
         "note": "结果没有我们原先以为的那么稳定。Le résultat est moins stable que nous le pensions. Ne可省且比较意义不变；不能把pas作为同样无意义的附加词。 正确比较方向1分；ne赘词不否定pensions1分；删ne同义1分；pas会加入真实否定或造成不自然结构1分。不从此句推断结果绝对不稳定。"
+      },
+      {
+        "q": "同伴把Comme ce passage est clair !一律判为嘲讽。用法语回应，给一句可直接支持真诚赞许的后续说明。",
+        "a": "La formule n’est pas forcément ironique. On peut ajouter : « Je comprends enfin la différence entre les personnages. »",
+        "note": "也可给其他明确正面理解依据；不是把所有解释归于标点。comme引程度感叹，不作询问方法的comment。"
+      },
+      {
+        "q": "读者说自己的Quelle réussite !是反讽，听者此前听成真诚赞许。用两句法语报告，不将读者申明改成所有人原本都懂。",
+        "a": "La lectrice a précisé qu’elle parlait ironiquement. Son interlocuteur avait compris une félicitation sincère.",
+        "note": "接受selon elle等保来源的自然表达。需要区分两人的理解，不只逐字改正quel/quelle。"
       }
     ]
   }

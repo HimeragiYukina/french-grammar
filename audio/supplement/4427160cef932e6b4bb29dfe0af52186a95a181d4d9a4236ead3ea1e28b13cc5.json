@@ -1,0 +1,30 @@
+{
+  "text": "Paul les leur rend demain.",
+  "text_sha256": "4427160cef932e6b4bb29dfe0af52186a95a181d4d9a4236ead3ea1e28b13cc5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.4048072562358276,
+      "source_seconds": 1.4048072562358276,
+      "source_file_sha256": "22adc61f1a376dff5532d2de2014f243d0ed26c472dfb81d7be9858bb73a9e24",
+      "file_sha256": "77b95b24f2ced5fe96977837f7b2a134346747945268339c6d20d16840883b6e",
+      "bytes": 11955,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
