@@ -623,6 +623,16 @@
         "q": "改错并解释为何不能说“第二个动词永远原形”：Elle veut apprend à conduire. J’ai manger。",
         "a": "Elle veut apprendre à conduire. J’ai mangé.",
         "note": "vouloir的原形补语为apprendre，后续apprendre à conduire自有à；复合过去时ai后过去分词mangé，不套两个动词第二个永远原形。"
+      },
+      {
+        "q": "独立图书馆情境：工作人员欢迎读者，说可以在这里借书。用vous pouvez＋原形，不改成必须借书。可用emprunter des livres（借书）。",
+        "a": "Vous pouvez emprunter des livres ici.",
+        "note": "在工作人员说明使用规则的语境中，pouvez给许可，不要求已经借书；emprunter保持原形。"
+      },
+      {
+        "q": "同一图书馆中，这次是读者没听清书名，礼貌请求工作人员重复。用Vous pouvez… ?，可用le titre（书名）。",
+        "a": "Vous pouvez répéter le titre, s’il vous plaît ?",
+        "note": "问句在这里作请求，目标是书名；与上一题工作人员给予许可的角色不同。不要把pouvoir一律当能力考试，répéter也不跟着pouvez再次变位。"
       }
     ]
   }

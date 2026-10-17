@@ -1,0 +1,30 @@
+{
+  "text": "Vous pouvez emprunter des livres ici.",
+  "text_sha256": "92c5d88612a8d069f42ace905a28e3fc64d69080db244b0ae04bbc4bd00f4f41",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.020136054421769,
+      "source_seconds": 2.020136054421769,
+      "source_file_sha256": "8e4432a677e9725d77527ae0b5c4b8958926fcfdabf82a9fee62e2eb3e2d4422",
+      "file_sha256": "8b8a1cd63ddc4d9fc0dfdd7130a676a77d721607c585c78daba22e8529970fd1",
+      "bytes": 16971,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

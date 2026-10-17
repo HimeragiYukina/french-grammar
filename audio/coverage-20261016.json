@@ -14,11 +14,11 @@
   "generated_this_run": 4,
   "generation_runs": [
     {
-      "generated": 3314,
+      "generated": 3318,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 59.605015993118286,
+  "elapsed_seconds": 57.4925262928009,
   "listened": false,
   "records": [
     {
@@ -155364,17 +155364,17 @@
       "bytes": 23658,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.8560544217687074,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/45b1237c64136464a8d467f9bd9e87ec85acad24c6e3161319d0c96cf72feddc.wav",
         "file_sha256": "f8255e7a39814dea9651de002e2d2b31251d6dc35f48fb3ca584abda1b808c00",
-        "bytes": 125996,
-        "rms": 5890.7860281641915
+        "seconds": 2.8560544217687074
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155405,17 +155405,17 @@
       "bytes": 23449,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.8328344671201813,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/2253010457d2fb062bc26e30a54a787d088647102da3f98b9de2203ae0369591.wav",
         "file_sha256": "617eeae823751aa14fecab60cb7e4501f00f38a8bddfb1de8e9c62ad009b142a",
-        "bytes": 124972,
-        "rms": 6140.3728448950405
+        "seconds": 2.8328344671201813
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155446,17 +155446,17 @@
       "bytes": 10910,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.2770975056689342,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/c1d5a6dc4bdd9e29b6eae9c8d7482aef4e67ef53ee9816a93d9fb45955cd671a.wav",
         "file_sha256": "166daab7a352003f297c9a151919cff9239486d6e65333aa19529ce2135a267d",
-        "bytes": 56364,
-        "rms": 6603.315218627875
+        "seconds": 1.2770975056689342
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -155487,14 +155487,178 @@
       "bytes": 32435,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.959002267573696,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/51ebda3c9e1beb4d1001855393d754f41a9caa9fc40ec5d85785be0a3132fdb9.wav",
         "file_sha256": "c324792fd4e3e199801cbf0aefec903c7dfbcb71f5637db58cebb68b83bbaa9d",
-        "bytes": 174636,
-        "rms": 4423.573870059508
+        "seconds": 3.959002267573696
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "emprunter des livres",
+      "occurrences": [
+        {
+          "id": "a1-vouloir-inf",
+          "field": "/a1-vouloir-inf/practice/2/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 52,
+              "end_codepoint": 72
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "496b7f7aff10ebd71d1e15b356ae2e8609f939a5b3a54637127a91b18add8bc7",
+      "path": "audio/supplement/496b7f7aff10ebd71d1e15b356ae2e8609f939a5b3a54637127a91b18add8bc7.mp3",
+      "source": "local-siwis",
+      "file_sha256": "6fa05d16c14b190d44455419ea7269c51ab366e18057924fe803dfa5ef7467b4",
+      "bytes": 10284,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.18421768707483,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/496b7f7aff10ebd71d1e15b356ae2e8609f939a5b3a54637127a91b18add8bc7.wav",
+        "file_sha256": "199eaabc88e3609d3b21dfa3780a15e18d07e37fb37c7f6c8e6306ccf45d7aae",
+        "bytes": 52268,
+        "rms": 5809.729354666976
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Vous pouvez emprunter des livres ici.",
+      "occurrences": [
+        {
+          "id": "a1-vouloir-inf",
+          "field": "/a1-vouloir-inf/practice/2/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 37
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "92c5d88612a8d069f42ace905a28e3fc64d69080db244b0ae04bbc4bd00f4f41",
+      "path": "audio/supplement/92c5d88612a8d069f42ace905a28e3fc64d69080db244b0ae04bbc4bd00f4f41.mp3",
+      "source": "local-siwis",
+      "file_sha256": "8b8a1cd63ddc4d9fc0dfdd7130a676a77d721607c585c78daba22e8529970fd1",
+      "bytes": 16971,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.020136054421769,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/92c5d88612a8d069f42ace905a28e3fc64d69080db244b0ae04bbc4bd00f4f41.wav",
+        "file_sha256": "8e4432a677e9725d77527ae0b5c4b8958926fcfdabf82a9fee62e2eb3e2d4422",
+        "bytes": 89132,
+        "rms": 6189.287780711668
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "le titre",
+      "occurrences": [
+        {
+          "id": "a1-vouloir-inf",
+          "field": "/a1-vouloir-inf/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 47,
+              "end_codepoint": 55
+            }
+          ],
+          "kind": "lexical_unit"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "lexical_unit"
+      ],
+      "kind": "lexical_unit",
+      "sha256": "ff8bbcf6b6d95d8ec2ea5bf39f0b3836c2d387345d838b17a6dbe939843ff67a",
+      "path": "audio/supplement/ff8bbcf6b6d95d8ec2ea5bf39f0b3836c2d387345d838b17a6dbe939843ff67a.mp3",
+      "source": "local-siwis",
+      "file_sha256": "8a39182400ab5216dd3d7c9e9b0bcbe352a9f9b0fe00582b0852372228753d07",
+      "bytes": 7985,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.905578231292517,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/ff8bbcf6b6d95d8ec2ea5bf39f0b3836c2d387345d838b17a6dbe939843ff67a.wav",
+        "file_sha256": "da3215399948929dd888051c21126995a2d4e2bdf2a864cb3e3eef52d55fb55e",
+        "bytes": 39980,
+        "rms": 4077.569051173424
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Vous pouvez répéter le titre, s’il vous plaît ?",
+      "occurrences": [
+        {
+          "id": "a1-vouloir-inf",
+          "field": "/a1-vouloir-inf/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 47
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "faca0c93dcd11fa83fb7e89b95c9983f150c71d812ed20d1593479fc834662a9",
+      "path": "audio/supplement/faca0c93dcd11fa83fb7e89b95c9983f150c71d812ed20d1593479fc834662a9.mp3",
+      "source": "local-siwis",
+      "file_sha256": "3c185d52c8bb5b97d7608015446bbe6c570ce2dd1e8d38f02e5409c83177ffb0",
+      "bytes": 18434,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.2175056689342405,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/faca0c93dcd11fa83fb7e89b95c9983f150c71d812ed20d1593479fc834662a9.wav",
+        "file_sha256": "750b1a0a6e347cf1d5f0a42f6745d4dec288dd2ff75d65ced2e3539573e8cf99",
+        "bytes": 97836,
+        "rms": 5249.922451969885
       },
       "codec": "libmp3lame",
       "bitrate": 64000
