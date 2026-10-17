@@ -1,0 +1,30 @@
+{
+  "text": "Il convient que le secrétariat envoie une précision.",
+  "text_sha256": "c688c626b8c3a5ea5fa67af8ca5b880f649cb7a5ce459bd7b71284ad2d68bd65",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5425850340136056,
+      "source_seconds": 2.5425850340136056,
+      "source_file_sha256": "28545f55fff92326d49d2341dd7e972d985ed421fb0a3602a431b6ed48e31ded",
+      "file_sha256": "cfcdad49f4085ec0ea99ec41e26d0bc50c68419aa4e7ec223456e3bcb1a470f8",
+      "bytes": 21150,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

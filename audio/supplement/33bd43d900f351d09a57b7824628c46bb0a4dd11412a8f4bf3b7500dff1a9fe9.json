@@ -1,0 +1,30 @@
+{
+  "text": "Il s’avère que les invitations n’indiquent pas la date. Il convient que le secrétariat envoie une précision.",
+  "text_sha256": "33bd43d900f351d09a57b7824628c46bb0a4dd11412a8f4bf3b7500dff1a9fe9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.340589569160998,
+      "source_seconds": 5.340589569160998,
+      "source_file_sha256": "87ed49cfc6888127e9159a6945d6db661d5f6a4c030d91c7542c274464ce6247",
+      "file_sha256": "a84e73d42ccf8347debf30f1e1e3dc41c9caeb9da57eeefb3c08b4fabdefd70d",
+      "bytes": 43511,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

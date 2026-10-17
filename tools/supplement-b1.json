@@ -252,6 +252,16 @@
         "q": "表达对明天成功的肯定期待与愿望。用réussir补全并说明差别：J’espère que tu ___ demain. / Je souhaite que tu ___ demain.",
         "a": "J’espère que tu réussiras demain. Je souhaite que tu réussisses demain.",
         "note": "肯定espérer que通常直陈将来réussiras，souhaiter que虚拟réussisses；不是根据中文“希望”统一用同一语气。只针对这两句肯定形式，不推广为否定/疑问中的绝对规则。"
+      },
+      {
+        "q": "朋友确实现在有空。你很高兴他有空，希望自己朗读他的诗，并期待他周六到场。分别用je suis heureux que、je souhaite加不定式、j’espère que写三句。",
+        "a": "Je suis heureux que tu sois disponible. Je souhaite lire ton poème. J’espère que tu viendras samedi.",
+        "note": "sois评价已确认事实；lire与je同一施事；肯定espérer以直陈将来viendras表达期待。女性说话者heureuse也正确。"
+      },
+      {
+        "q": "把Je souhaite que je termine la préparation ce soir改成更简洁的同主语表达。再写“我希望你今晚完成准备”，保持不同施事。",
+        "a": "Je souhaite terminer la préparation ce soir. Je souhaite que tu termines la préparation ce soir.",
+        "note": "同主语可用不定式，不是宣称原句在所有语境都不合语法；不同主语需保留tu。termines与直陈同形，不能据同形说不是虚拟式。"
       }
     ]
   },

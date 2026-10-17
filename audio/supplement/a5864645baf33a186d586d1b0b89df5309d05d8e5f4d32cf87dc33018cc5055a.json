@@ -1,0 +1,30 @@
+{
+  "text": "La fiche indique cinq cents images de petite taille. La comparaison ne vaut que pour les fichiers et les réglages décrits.",
+  "text_sha256": "a5864645baf33a186d586d1b0b89df5309d05d8e5f4d32cf87dc33018cc5055a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.431927437641724,
+      "source_seconds": 6.431927437641724,
+      "source_file_sha256": "0f5a834941763f9454de656add45f892e360505469f17179efea80d77e73dd30",
+      "file_sha256": "58366e9687d22170659bc90931713666f812a48bfe534d85db5ae6bbb4a8f50e",
+      "bytes": 52288,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

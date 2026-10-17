@@ -1,0 +1,30 @@
+{
+  "text": "Il reste à vérifier si les invitations indiquent la date.",
+  "text_sha256": "7048b3077e2f2545d4a0d950b8253c56f5dd981b1c749321de6e37a384ef8650",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.914104308390023,
+      "source_seconds": 2.914104308390023,
+      "source_file_sha256": "61e50be1caaa9263ba214455be734871d410b3e8cbbac8d8953dd2bfe7c4ce64",
+      "file_sha256": "d2c70faa621354b7a8e68ce58b66a796050bcf4bb7a3b6a202c60b44fe1ae8e8",
+      "bytes": 24076,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3746,
-  "covered": 3746,
+  "denominator": 3759,
+  "covered": 3759,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -510,10 +510,10 @@
       "kind": "grammar-point",
       "id": "b1-subj-declencheurs",
       "level": "B1",
-      "exactTextUnits": 46,
-      "localFilesPresent": 46,
+      "exactTextUnits": 49,
+      "localFilesPresent": 49,
       "missingLocalFiles": 0,
-      "requiredUnits": 46,
+      "requiredUnits": 49,
       "errorInputUnits": 0
     },
     {
@@ -785,10 +785,10 @@
       "kind": "grammar-point",
       "id": "b2-modalisation",
       "level": "B2",
-      "exactTextUnits": 38,
-      "localFilesPresent": 38,
+      "exactTextUnits": 43,
+      "localFilesPresent": 43,
       "missingLocalFiles": 0,
-      "requiredUnits": 37,
+      "requiredUnits": 42,
       "errorInputUnits": 1
     },
     {
@@ -928,11 +928,11 @@
       "kind": "grammar-point",
       "id": "c1-impersonnelles",
       "level": "C1",
-      "exactTextUnits": 40,
-      "localFilesPresent": 40,
+      "exactTextUnits": 45,
+      "localFilesPresent": 45,
       "missingLocalFiles": 0,
-      "requiredUnits": 38,
-      "errorInputUnits": 2
+      "requiredUnits": 42,
+      "errorInputUnits": 3
     },
     {
       "repo": "grammar",

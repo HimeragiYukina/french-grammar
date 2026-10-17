@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-17",
+  "allTeachingExamplesOriginal": true,
+  "examFormatChanged": false,
+  "references": [
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24253/la-grammaire/le-verbe/modes/subjonctif/subjonctif-apres-certains-verbes",
+      "verifiedScope": "Wish and emotion triggers; source example content not copied. Do not generalize to all subjunctive clauses being unreal."
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24148/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/valeur-modale-du-conditionnel",
+      "verifiedScope": "Modal source-distance and polite requests; no automatic conditional requirement for all attributed statements."
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-apres-si",
+      "verifiedScope": "si can introduce an indirect question, distinct from conditional si; no blanket prohibition on conditional after interrogative si. New course examples use present/imperfect according to their own timeline."
+    }
+  ],
+  "C1Scope": "Original fact-set; interrogative si distinction corroborated by OQLF; impersonal frames and answers received explicit single-agent second reading. Blocked dictionary pages are not cited as verified."
+}

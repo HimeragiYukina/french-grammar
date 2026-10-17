@@ -1,0 +1,30 @@
+{
+  "text": "Je suis heureux que tu sois disponible. Je souhaite lire ton poème. J’espère que tu viendras samedi.",
+  "text_sha256": "7c53826981403fff6d630431df0876cd51caec7eff6a2727ab73191d04ab0b8f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.468299319727891,
+      "source_seconds": 5.468299319727891,
+      "source_file_sha256": "3a2a51240cec763ddbd2b2a9db6fa688ba340a5fe3cb876a406a1f24150b3c3e",
+      "file_sha256": "5dec4e6ae0e1fadb5e198ee4d37b389f60a066fc9f248236967e8a17a3490d37",
+      "bytes": 44556,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

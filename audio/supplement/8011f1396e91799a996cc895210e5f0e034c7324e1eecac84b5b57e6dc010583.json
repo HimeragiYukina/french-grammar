@@ -1,0 +1,30 @@
+{
+  "text": "Je souhaite que je termine la préparation ce soir",
+  "text_sha256": "8011f1396e91799a996cc895210e5f0e034c7324e1eecac84b5b57e6dc010583",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.75156462585034,
+      "source_seconds": 2.75156462585034,
+      "source_file_sha256": "75ae73f3e4b0328ecc5673ceb48b821144dd9c6e9bee0dbd0f03d3dab25c7aa9",
+      "file_sha256": "9b784eae2b971e58ff07da22ac4199114221687ff5263a9b2617141c20496e1c",
+      "bytes": 22822,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

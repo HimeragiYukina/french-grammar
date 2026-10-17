@@ -1,0 +1,30 @@
+{
+  "text": "Selon l’éditeur, le logiciel traiterait deux fois plus d’images par minute. Quelle était la taille des fichiers utilisés ?",
+  "text_sha256": "68fef87c65797556caf0c4ee2364bb60f63cad03c2ea2b21fd6cb2c9da41a4f5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.501587301587302,
+      "source_seconds": 6.501587301587302,
+      "source_file_sha256": "ccb66a1e438c97c553acd061163098df94dc7524bb0e8ca36700816c5c1f4969",
+      "file_sha256": "e06594095741763f5a027347e90f0ed2c3f42b0b8e5c83ff7de8b2e536d26fdb",
+      "bytes": 52706,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

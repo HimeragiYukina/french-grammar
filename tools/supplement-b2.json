@@ -423,7 +423,29 @@
     ]
   },
   "b2-modalisation": {
-    "sections": [],
+    "sections": [
+      {
+        "title": "保留词、来源与条件分开处理",
+        "explanation": "条件式可以标记核实距离；限定条件说明说法适用于何处。仅加入semblerait或apparemment并不会自动补足比较基准。陈述“文档写了什么”与认可其全部结论不同，前者本身可以用直陈式。以下软件例子完全虚构。",
+        "examples": [
+          {
+            "fr": "Selon l’éditeur, le logiciel traiterait deux fois plus d’images par minute.",
+            "zh": "据软件发行方称，该软件据说每分钟处理的图像数为两倍。",
+            "use": "条件式保留对发行方承诺的核实距离，仍要问图像大小和比较对象。"
+          },
+          {
+            "fr": "La fiche indique cinq cents images de petite taille dans le premier essai.",
+            "zh": "资料表写，第一次测试使用500张小尺寸图像。",
+            "use": "直接报告表中文字，不等于对所有处理性能背书。"
+          },
+          {
+            "fr": "Cette comparaison ne vaut que pour les fichiers et les réglages décrits.",
+            "zh": "这一比较只适用于所述文件与设置。",
+            "use": "ne…que明确适用范围；不是断言任何其他条件都一定失败。"
+          }
+        ]
+      }
+    ],
     "related": [],
     "practice": [
       {
@@ -435,6 +457,16 @@
         "q": "对照“Sans doute a-t-elle oublié le rendez-vous”与“Elle l’a sans aucun doute oublié”。用两句中文说明力度，再用句中sans doute改写第一句，保持大概义。",
         "a": "Elle a sans doute oublié le rendez-vous.",
         "note": "第一句通常是“大概忘了”，第二句强调“毫无疑问忘了”。Elle a sans doute oublié le rendez-vous. 句中sans doute无需倒装；句首书面a-t-elle与力度并非同一维度。不能把sans doute机械译为绝对确定，仍须语境判断。"
+      },
+      {
+        "q": "把软件发行方未经独立核查的“两倍图像处理量”转述成有来源归属和条件式的句子，再问文件大小。",
+        "a": "Selon l’éditeur, le logiciel traiterait deux fois plus d’images par minute. Quelle était la taille des fichiers utilisés ?",
+        "note": "核实距离与比较条件须分别落实；也可用D’après l’éditeur。不把未经核查改成已经证明为假。"
+      },
+      {
+        "q": "资料表确实写了“500张小图像”。写一句直接报告表中文字的法语，再限制比较只适用于该文件与设置。",
+        "a": "La fiche indique cinq cents images de petite taille. La comparaison ne vaut que pour les fichiers et les réglages décrits.",
+        "note": "这里直陈式报告文档内容可以成立；不能机械要求每个有来源的句子都用条件式。范围限定不是说其他文件必定无法处理。"
       }
     ]
   },

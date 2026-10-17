@@ -1,0 +1,100 @@
+{
+  "completedUtc": "2026-10-17T03:22:28.933281+00:00",
+  "newPages": 0,
+  "reviewMode": "Single-agent explicit second reading and correction journal; not independent peer review",
+  "examFormatChanged": false,
+  "deployment": false,
+  "gitStatus": "Commit and verified remote receipt recorded separately in workspace",
+  "notTested": [
+    "Human acoustic listening and speech alignment",
+    "Real microphone and real partner interaction",
+    "Actual installed Google français availability"
+  ],
+  "remainingGaps": [
+    "现有主题仍需更广的跨话题检索、听辨和真实互动反馈；本批不是整个等级的覆盖结论。",
+    "保留的真人或原始素材与原创合成示范区分；技术播放不代替人工听审。",
+    "完成课程阅读不保证达到C2或取得某项考试成绩。"
+  ],
+  "title": "组合选式、来源保留与待查句架：第十一批语法",
+  "counts": {
+    "improvedExistingGrammarPoints": 3,
+    "newSections": 2,
+    "newOriginalFrenchExamples": 6,
+    "newExplainedPracticeQuestions": 6
+  },
+  "grammarPoints": [
+    {
+      "level": "B1",
+      "pointId": "b1-subj-declencheurs",
+      "sectionTitle": "既有规则下的组合应用练习（不新增讲解节）",
+      "newSections": 0,
+      "newExamples": 0,
+      "newQuestions": 2
+    },
+    {
+      "level": "B2",
+      "pointId": "b2-modalisation",
+      "sectionTitle": "保留词、来源与条件分开处理",
+      "newSections": 1,
+      "newExamples": 3,
+      "newQuestions": 2
+    },
+    {
+      "level": "C1",
+      "pointId": "c1-impersonnelles",
+      "sectionTitle": "待查的si问题、已查明的que发现与应做的动作",
+      "newSections": 1,
+      "newExamples": 3,
+      "newQuestions": 2
+    }
+  ],
+  "audio": {
+    "ownExactUnits": 3759,
+    "newCPURecordings": 13,
+    "originalWavsRetained": true,
+    "sourceSpanMismatches": 0,
+    "technicalSamples": {
+      "samples": 6,
+      "technicalFailures": 0,
+      "samplesWithCandidateFlags": 0,
+      "byLevelRepository": {
+        "A1": {
+          "grammar": 1
+        },
+        "A2": {
+          "grammar": 1
+        },
+        "B1": {
+          "grammar": 1
+        },
+        "B2": {
+          "grammar": 1
+        },
+        "C1": {
+          "grammar": 1
+        },
+        "C2": {
+          "grammar": 1
+        }
+      },
+      "tags": [
+        "abbreviation"
+      ],
+      "longreadFull": 0,
+      "longreadParagraphs": 0
+    },
+    "humanListeningPerformed": false
+  },
+  "tests": {
+    "passed": {
+      "grammarPoints": 97,
+      "historicalLayersPreserved": true,
+      "appendOnlySections": 2,
+      "appendOnlyPractice": 6,
+      "tamperRejections": 3,
+      "allSixLevelPagesAt390px": true
+    },
+    "failed": [],
+    "pending": []
+  }
+}

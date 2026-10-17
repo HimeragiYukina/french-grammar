@@ -2150,6 +2150,27 @@ window.GRAMMAR_DATA.C1={
               "use": "事实转折；a réussi 直陈式。"
             }
           ]
+        },
+        {
+          "title": "待查的si问题、已查明的que发现与应做的动作",
+          "explanation": "Il reste à vérifier si…把一个是否问题保留给核查；si引间接疑问，不是条件句。Il s’avère que…则把从句呈现为已查明发现。Il convient que…提出应采取的动作，用虚拟式。这三种句架不能仅因都显得正式而互换，须分别标清证据阶段。",
+          "examples": [
+            {
+              "fr": "Il reste à vérifier si les invitations indiquent la date.",
+              "zh": "仍需核查邀请函是否写明日期。",
+              "use": "目前不知道写没写，不把待查项改成缺失事实。"
+            },
+            {
+              "fr": "Après vérification, il s’avère que les invitations n’indiquent pas la date.",
+              "zh": "核对后发现，邀请函没写日期。",
+              "use": "另设已完成核对这一阶段，才陈述具体发现。"
+            },
+            {
+              "fr": "Il convient que le secrétariat envoie une précision.",
+              "zh": "秘书处应发送补充说明。",
+              "use": "envoie为虚拟式现在时；这是建议动作，不声称已经发出。"
+            }
+          ]
         }
       ],
       "comparison": "Il importe qu’il vienne（希望/要求他来，虚拟式）与 Il s’avère qu’il est venu（查明他来过，直陈式）。Cela empêche qu’il participe（阻止参加）与 Il n’empêche qu’il participe（尽管如此他仍参加）不是同一逻辑。",
@@ -2169,6 +2190,16 @@ window.GRAMMAR_DATA.C1={
           "q": "同事以Il va de soi que tous les usagers sont satisfaits替代“没有投诉”。改成保留证据边界的正式句。",
           "a": "Il convient de vérifier la satisfaction des usagers ; l’absence de plainte ne suffit pas à l’établir.",
           "note": "这不是找同义高级词，而是修复无证共识。接受Il importe que nous vérifiions…；须同时保留无投诉不足证明满意。"
+        },
+        {
+          "q": "邀请函是否写日期尚未查明。用Il reste à vérifier si写完整句，不预先断言缺日期。",
+          "a": "Il reste à vérifier si les invitations indiquent la date.",
+          "note": "si引间接疑问；不能换成Il s’avère que les invitations n’indiquent pas la date而无根据地添加发现。"
+        },
+        {
+          "q": "现在已经核对，邀请函确实缺日期。用il s’avère que报告发现，再用il convient que建议秘书处发送说明，不把建议写成已完成。",
+          "a": "Il s’avère que les invitations n’indiquent pas la date. Il convient que le secrétariat envoie une précision.",
+          "note": "查明事实与建议行动不同；envoie在此由convient que引虚拟式。未提供实际发送记录，不写le secrétariat a envoyé。"
         }
       ]
     },
