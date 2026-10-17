@@ -2651,6 +2651,16 @@ window.GRAMMAR_DATA.A1={
           "q": "独立迁移：工作人员说泳池八点开放，但游泳课开始时间还不知道。写两句，第一句回读泳池开放时刻，第二句询问课程何时开始；不要擅自说课也八点开始。",
           "a": "La piscine ouvre à huit heures. Quand est-ce que le cours commence ?",
           "note": "第一句回读已知事实，第二句索取仍未知的课程时刻。第二句也可用À quelle heure est-ce que le cours commence ?；不能仅凭场馆开放推定课程开始。"
+        },
+        {
+          "q": "Léo正在等女教师。分别问“谁在等女教师？”和“Léo在等谁？”。不要将两种qui混成同一角色。",
+          "a": "Qui attend la professeure ? Qui est-ce que Léo attend ?",
+          "note": "第一个qui是attend的主语；第二个qui是宾语，Léo仍作主语。也可口语问Léo attend qui ?；单独Qui attend Léo ?可能产生角色歧义，初学时用明确句式。"
+        },
+        {
+          "q": "你问出口在哪里，工作人员却回答“À dix heures.”。用一句礼貌的法语澄清你要的是地点，不猜出口编号。",
+          "a": "Merci. Mais où est la sortie ?",
+          "note": "dix heures回答时间；où问地点。也可说Merci, mais je voudrais savoir où se trouve la sortie.，后者是间接疑问。"
         }
       ]
     },

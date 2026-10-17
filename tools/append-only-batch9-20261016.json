@@ -1,0 +1,149 @@
+{
+  "batch": "9",
+  "counts": {
+    "sections": 0,
+    "practice": 6
+  },
+  "files": [
+    {
+      "file": "tools/supplement-a1.json",
+      "before_sha256": "d0e280a54d322380fcfd04a915bac25bf1f8292803b0efb899b2dae473b27d3c",
+      "after_sha256": "a0e614eb1af25e4401b9a12e9609e34eabb938e67528926446b389435a75ead2",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "a1-mots-interro",
+            "sections"
+          ],
+          "prefix_length": 0,
+          "prefix_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "added": []
+        },
+        {
+          "operation": "append",
+          "path": [
+            "a1-mots-interro",
+            "practice"
+          ],
+          "prefix_length": 4,
+          "prefix_sha256": "4568a386b45a52f76979ba7b5ec3337b6a0cb66fe6c862554bb2297c68ab979d",
+          "added": [
+            {
+              "q": "Léo正在等女教师。分别问“谁在等女教师？”和“Léo在等谁？”。不要将两种qui混成同一角色。",
+              "a": "Qui attend la professeure ? Qui est-ce que Léo attend ?",
+              "note": "第一个qui是attend的主语；第二个qui是宾语，Léo仍作主语。也可口语问Léo attend qui ?；单独Qui attend Léo ?可能产生角色歧义，初学时用明确句式。"
+            },
+            {
+              "q": "你问出口在哪里，工作人员却回答“À dix heures.”。用一句礼貌的法语澄清你要的是地点，不猜出口编号。",
+              "a": "Merci. Mais où est la sortie ?",
+              "note": "dix heures回答时间；où问地点。也可说Merci, mais je voudrais savoir où se trouve la sortie.，后者是间接疑问。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-a2.json",
+      "before_sha256": "3830b33f19420543817ebfb12e4caa8579542d4f49acb040f17ec09b93d97463",
+      "after_sha256": "66f7b7cfb0223174e488dbc8d4cb72df95ecffe4c0e135778c793e54bab7cd34",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "a2-coi",
+            "sections"
+          ],
+          "prefix_length": 1,
+          "prefix_sha256": "530d0cb4a67491343701bea7b8f8b7212edd6b21ab424166cba1b1342bc5fec2",
+          "added": []
+        },
+        {
+          "operation": "append",
+          "path": [
+            "a2-coi",
+            "practice"
+          ],
+          "prefix_length": 4,
+          "prefix_sha256": "bdc9799e87799293417001cc9d327269295fd710569daa4942e16e18199abbd2",
+          "added": [
+            {
+              "q": "分别把Marie替成代词：Je préviens Marie avant mon départ. Je téléphone à Marie. 保留两个动词。",
+              "a": "Je la préviens avant mon départ. Je lui téléphone.",
+              "note": "prévenir quelqu’un直接接人，用la；téléphoner à quelqu’un用lui。人物对象不自动都是间接宾语；prévenir此处是告知。"
+            },
+            {
+              "q": "Marc和Nadia都需要收到出发消息。用将来时分别说“我会提前告知他们”“我会给他们打电话”，使用prévenir与téléphoner及代词。",
+              "a": "Je les préviendrai. Je leur téléphonerai.",
+              "note": "prévenir是直接宾语，用les；téléphoner à是间接宾语，用leur。这里leur是不变的代词，不写leurs。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tools/supplement-c2.json",
+      "before_sha256": "9ae3ee3011668152ac06b645537b4df232850b362bfc42e165a9be41d724f92c",
+      "after_sha256": "4c17c4641aac1b615670d818336507ae2cdefde14191838253c8c57836d1dcae",
+      "changes": [
+        {
+          "operation": "append",
+          "path": [
+            "c2-ellipse",
+            "sections"
+          ],
+          "prefix_length": 1,
+          "prefix_sha256": "b49ba115ea2eca23a27f7d0db86612a138757650cca17e7a776708e29d0a809f",
+          "added": []
+        },
+        {
+          "operation": "append",
+          "path": [
+            "c2-ellipse",
+            "practice"
+          ],
+          "prefix_length": 4,
+          "prefix_sha256": "fb7d3c467ebad2abc11795f41f6926097739e725a32af7d6b0edc5650bdd1acb",
+          "added": [
+            {
+              "q": "编辑问“Le texte et les images sont prêts ?”，答“Pour le texte, oui.”。用完整句还原确认范围，保留图像状态未知。",
+              "a": "Le texte est prêt. La réponse ne précise pas si les images le sont.",
+              "note": "限定语只确认文字。le sont中的le代替prêtes这一表语内容，不是把images当成阳性名词texte，也不表示图片没准备好。"
+            },
+            {
+              "q": "同一回答后，拟用标题“Publication validée”。写一条编辑意见并拟替代标题，避免把准备完成写成出版获批。",
+              "a": "Le texte est prêt, mais la réponse ne confirme pas que la publication a été approuvée. Titre : « Texte prêt ; état des images non précisé ».",
+              "note": "prêt与approuvé不等义：材料准备状态不自动等于出版批准。替代标题不应编造图片未完成或审批被拒绝；可以用其他同样限定范围的自然措辞。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "protected_files_sha256": {
+    "append-only-batch2-20261016.json": "5cdfc333160fe3826204a2ac44dcab6619a332dbc471d4765aa94c8c212b71af",
+    "append-only-batch2-checks-20261016.json": "3c4458f65edcf547809e6dbe5bc176cfbe1a2a77ed1d5272b735b0535aa24aa0",
+    "append-only-batch3-20261016.json": "353700af00f121d76d3ee500068eea510dea365d64f40aaab89988a4f61a40ab",
+    "append-only-batch3-checks-20261016.json": "08ecd653be92cd4d2d64e96b5a0d06cf5e2da6d21f58e3590cd764eab7a26a40",
+    "append-only-batch4-20261016.json": "428c5477577664409b3eb90f77df940103e13ae537f505c576d0b1264655165e",
+    "append-only-batch4-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch5-20261016.json": "4596e055bb7fb3f009fbd046f9e0b3a7beb40fd74aeb6b82d0906042a235207d",
+    "append-only-batch5-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch6-20261016.json": "c76fdacb3e99c21b87dd0ab3c34056c73c6d7804a958dd29eef4e9f6c9b22e7d",
+    "append-only-batch6-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch7-20261016.json": "7f9f3bd88c98f22dedb696caa262dab14de579415e0a3a62d3bb44a7514f40aa",
+    "append-only-batch7-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append-only-batch8-20261016.json": "53198a1e8ca20ec26cd9292efaa1da81f7dfc8ef72a33c150380a513e84cd1bf",
+    "append-only-batch8-checks-20261016.json": "516977f9ad86fda439ea1f29335dd9b7cbdbee548f82db8990812d844b3e4b4a",
+    "append_batch2_evidence.py": "1488492e962c80202bc0c0114f4c48023f86b9ebff65fdce2693417b77b91555",
+    "append_batch3_evidence.py": "1ced42994671b8002aaed195d88c84f632c782f1d309531bd018504f454d95ff",
+    "append_batch4_evidence.py": "48b881d966231cd661fe2e063850aa3328e5c0a237906e2a7eb387c01a990043",
+    "append_batch5_evidence.py": "1582039d1d83118f048654ddeb2546dcf7a3454df7f66781d8f7dd943da304ba",
+    "append_batch6_evidence.py": "0cd104bbd5d1df709a9963b757b5e59a490d70d99769ee94bc86e46e2940fa43",
+    "append_batch7_evidence.py": "e2a64a9f34699ebb0c6005f2b9c5151c7f19904592eacd834f32b93ba025de8d",
+    "append_batch8_evidence.py": "1ff28012222c430dd37d0aa8e74faf6a44f695d9f647369cd4e5dc64a3b8de3a",
+    "content-baseline.json": "a17a54048c334231f27a84457574491fa726696791eadf6945abd666a4e4b225",
+    "strict-review-baseline.json": "25fbee3f19541f18d60be04ad4ace10f4b75c1cd5426d3863110cda368985ea8"
+  },
+  "method": "Exact full-file hashes, unchanged old prefixes and explicit suffixes; restore only in memory before prior batch3/batch2/original checks."
+}

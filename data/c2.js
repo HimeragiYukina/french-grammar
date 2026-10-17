@@ -1358,6 +1358,16 @@ window.GRAMMAR_DATA.C2={
           "q": "短篇评论标题写“Une sirène : le stade évacué”，但材料只有“Gradins vides. Au loin, une sirène.”。指出新增推论，改成不强定因果的法语标题；再给一个保留文学停顿的版本，不能声称看台从未有人。",
           "a": "Le titre ajoute une évacuation et suggère un lien avec la sirène, que les deux fragments n’établissent pas. Version prudente : « Des gradins vides, une sirène au loin ». Version rythmée : « Les gradins, vides. Au loin, la sirène. »",
           "note": "识别évacuation新增1分；冒号因果暗示被指出1分；谨慎标题保观察范围1分；节奏版不加从未有人/迫切命令1分。也接受其他自然无因果并置；两碎片不提供警笛发生的确切时刻或负责者。"
+        },
+        {
+          "q": "编辑问“Le texte et les images sont prêts ?”，答“Pour le texte, oui.”。用完整句还原确认范围，保留图像状态未知。",
+          "a": "Le texte est prêt. La réponse ne précise pas si les images le sont.",
+          "note": "限定语只确认文字。le sont中的le代替prêtes这一表语内容，不是把images当成阳性名词texte，也不表示图片没准备好。"
+        },
+        {
+          "q": "同一回答后，拟用标题“Publication validée”。写一条编辑意见并拟替代标题，避免把准备完成写成出版获批。",
+          "a": "Le texte est prêt, mais la réponse ne confirme pas que la publication a été approuvée. Titre : « Texte prêt ; état des images non précisé ».",
+          "note": "prêt与approuvé不等义：材料准备状态不自动等于出版批准。替代标题不应编造图片未完成或审批被拒绝；可以用其他同样限定范围的自然措辞。"
         }
       ]
     },

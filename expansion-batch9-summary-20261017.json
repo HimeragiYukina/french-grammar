@@ -1,0 +1,78 @@
+{
+  "completedUtc": "2026-10-17T02:52:24.495228+00:00",
+  "newPages": 0,
+  "reviewMode": "Single-agent second reading with explicit corrections; not independent peer review",
+  "deployment": false,
+  "humanAcousticListening": false,
+  "notTested": [
+    "Human acoustic listening and speech alignment",
+    "Real microphone or partner conversation",
+    "Actual installed Google français availability"
+  ],
+  "examFormatChanged": false,
+  "gitStatus": "Commit and remote receipt recorded separately in workspace; not a deployment",
+  "title": "问句角色、动词补语与限定回答：第九批练习",
+  "counts": {
+    "improvedExistingGrammarPoints": 3,
+    "newSections": 0,
+    "newExplainedPracticeQuestions": 6
+  },
+  "audio": {
+    "ownExactUnits": 3730,
+    "newCPURecordings": 15,
+    "sourceSpanMismatches": 0,
+    "originalWavsRetained": true,
+    "technicalSampleSummary": {
+      "samples": 6,
+      "technicalFailures": 0,
+      "samplesWithCandidateFlags": 0,
+      "byLevelRepository": {
+        "A1": {
+          "grammar": 1
+        },
+        "A2": {
+          "grammar": 1
+        },
+        "B1": {
+          "grammar": 1
+        },
+        "B2": {
+          "grammar": 1
+        },
+        "C1": {
+          "grammar": 1
+        },
+        "C2": {
+          "grammar": 1
+        }
+      },
+      "tags": [
+        "liaison"
+      ],
+      "longreadFull": 0,
+      "longreadParagraphs": 0
+    }
+  },
+  "tests": {
+    "passed": {
+      "grammarPoints": 97,
+      "practiceOnlyAppendProof": true,
+      "historicalEvidencePreserved": true,
+      "tamperRejections": 3
+    },
+    "failed": [],
+    "pending": [],
+    "resolvedSetupFailures": [
+      "Initial technical sample selection lacked a liaison tag; selected an actual les images utterance and reran all 45 samples successfully."
+    ]
+  },
+  "remainingGaps": [
+    "此批补足既有长文的词汇检索和新情境应用，不表示主题已穷尽或读完可达到C2。",
+    "还需更广的听辨、跨主题表达和真实交流反馈；机器播放与技术解码不等于人工听审。"
+  ],
+  "grammarPoints": [
+    "a1-mots-interro",
+    "a2-coi",
+    "c2-ellipse"
+  ]
+}

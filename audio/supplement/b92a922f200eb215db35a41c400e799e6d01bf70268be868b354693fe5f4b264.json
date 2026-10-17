@@ -1,0 +1,30 @@
+{
+  "text": "Je les préviendrai. Je leur téléphonerai.",
+  "text_sha256": "b92a922f200eb215db35a41c400e799e6d01bf70268be868b354693fe5f4b264",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.705124716553288,
+      "source_seconds": 2.705124716553288,
+      "source_file_sha256": "946af7de18cf09627aa663e80416bd86f959f4147a87233062b3cc955c12bb4d",
+      "file_sha256": "7bb000d47bd40dc9d0d375f4aa48cd2a320ad514a375b0d6916ad8aaa582b496",
+      "bytes": 22404,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

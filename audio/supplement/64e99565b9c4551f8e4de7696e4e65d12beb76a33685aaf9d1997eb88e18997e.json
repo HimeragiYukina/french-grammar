@@ -1,0 +1,30 @@
+{
+  "text": "Je préviens Marie avant mon départ.",
+  "text_sha256": "64e99565b9c4551f8e4de7696e4e65d12beb76a33685aaf9d1997eb88e18997e",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.136235827664399,
+      "source_seconds": 2.136235827664399,
+      "source_file_sha256": "295f5fcde28b1a8958142d679d3e1017e1b8f3aa2baa0d79547ef2c11c780112",
+      "file_sha256": "6bac0b849f8cd64a1b105cb967227bae56ebe3d6e8bf04512300f9af7cc26d8f",
+      "bytes": 17807,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-17",
+  "originalExamplesCopied": false,
+  "examFormatChanged": false,
+  "references": [
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23908/la-syntaxe/le-complement-du-verbe/telephoner-et-ses-complements",
+      "check": "Person complement of telephoner introduced by preposition; message complement can be direct, so not an absolute intransitive-only claim."
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24276/la-grammaire/la-grammaire-actuelle/les-fonctions-et-roles-syntaxiques/le-complement-direct",
+      "check": "Direct complement can be pronominalized with le/la/les; do not classify person objects by meaning alone."
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24269/la-grammaire/la-grammaire-actuelle/la-phrase/les-types-de-phrases",
+      "check": "Interrogative constructions include subject qui and est-ce que; questions not indirect declarative order."
+    }
+  ]
+}

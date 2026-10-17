@@ -248,6 +248,16 @@
         "q": "女邻居借给叙述者一本album。把“我周五把它还给她”写成一句，同时用直接与间接宾语代词。",
         "a": "Je le lui rends vendredi.",
         "note": "也接受Je le lui rendrai vendredi。le随album为阳性；lui不因邻居女性改成elle，也不写lui le。"
+      },
+      {
+        "q": "分别把Marie替成代词：Je préviens Marie avant mon départ. Je téléphone à Marie. 保留两个动词。",
+        "a": "Je la préviens avant mon départ. Je lui téléphone.",
+        "note": "prévenir quelqu’un直接接人，用la；téléphoner à quelqu’un用lui。人物对象不自动都是间接宾语；prévenir此处是告知。"
+      },
+      {
+        "q": "Marc和Nadia都需要收到出发消息。用将来时分别说“我会提前告知他们”“我会给他们打电话”，使用prévenir与téléphoner及代词。",
+        "a": "Je les préviendrai. Je leur téléphonerai.",
+        "note": "prévenir是直接宾语，用les；téléphoner à是间接宾语，用leur。这里leur是不变的代词，不写leurs。"
       }
     ]
   },
