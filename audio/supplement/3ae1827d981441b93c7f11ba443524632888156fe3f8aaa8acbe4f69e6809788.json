@@ -1,0 +1,30 @@
+{
+  "text": "Il a trente ans. Il a deux billets",
+  "text_sha256": "3ae1827d981441b93c7f11ba443524632888156fe3f8aaa8acbe4f69e6809788",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.159455782312925,
+      "source_seconds": 2.159455782312925,
+      "source_file_sha256": "f08f550222f5e3c51a8b6a3fa6640f9b4e7e6b53f40890140c3822ea82de3039",
+      "file_sha256": "16dc2e07462fa4f407386cde634a7b94820fa9ea0cc407ba5f7a9442a7c8ab34",
+      "bytes": 18016,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

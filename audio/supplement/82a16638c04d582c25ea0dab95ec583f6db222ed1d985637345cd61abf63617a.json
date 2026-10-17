@@ -1,0 +1,30 @@
+{
+  "text": "Le livre est parfait, enfin, sa structure me paraît très réussie.",
+  "text_sha256": "82a16638c04d582c25ea0dab95ec583f6db222ed1d985637345cd61abf63617a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.4117913832199545,
+      "source_seconds": 4.4117913832199545,
+      "source_file_sha256": "15f63e3b46ab40881bc5c9ad6f6eba22f849facc18bec5abcc263f360d357924",
+      "file_sha256": "f390128b55146b0dae462768a6d45e3c954741cef23051f1550c96004d805009",
+      "bytes": 35988,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

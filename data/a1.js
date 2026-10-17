@@ -1847,6 +1847,16 @@ window.GRAMMAR_DATA.A1={
           "q": "区分“我有一辆车”和“门前有一辆车”，各写一句。",
           "a": "J’ai une voiture. Il y a une voiture devant la porte.",
           "note": "第一句拥有者作主语，用avoir；第二句存在结构il y a不随voiture变性数。不能据门前存在推断车属于我。"
+        },
+        {
+          "q": "Amélie与Noémie各28岁。先用姓名陈述，再让她们用nous说两人都28岁。",
+          "a": "Amélie et Noémie ont vingt-huit ans. Nous avons vingt-huit ans toutes les deux.",
+          "note": "姓名复数用ont，自称nous用avons。两位女性用toutes；这不是两人年龄的总和。"
+        },
+        {
+          "q": "一位参加者30岁，并有两张邀请票。用avoir各写一句，不把年龄和票数合并。",
+          "a": "La personne a trente ans. Elle a deux billets d’invitation.",
+          "note": "a随单数personne；elle按阴性personne复指。也可设定男性角色写Il a trente ans. Il a deux billets。"
         }
       ]
     },

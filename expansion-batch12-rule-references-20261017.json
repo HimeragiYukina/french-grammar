@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-17",
+  "allTeachingExamplesOriginal": true,
+  "examFormatChanged": false,
+  "references": [
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24213/la-grammaire/le-verbe/conjugaison/terminaison-des-verbes-reguliers-et-irreguliers-au-present-de-lindicatif",
+      "verifiedScope": "avoir present-tense person forms in the official table."
+    },
+    {
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24711/la-syntaxe/constructions-syntaxiques-boiteuses/logique-syntaxique-sujet-sous-entendu-de-linfinitif",
+      "verifiedScope": "Normal implicit-agent alignment for prepositional infinitive adjuncts; contextual exceptions acknowledged, not categorically prohibited."
+    },
+    {
+      "url": "https://fr.wiktionary.org/wiki/enfin",
+      "referenceType": "Community-authored lexical entry, not an official examination rule",
+      "verifiedScope": "Enumeration/conclusion and correction/precision senses; original scenarios and examples, no literary quotations copied."
+    }
+  ]
+}

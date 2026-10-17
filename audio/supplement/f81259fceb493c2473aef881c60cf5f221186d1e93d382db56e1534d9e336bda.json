@@ -1,0 +1,30 @@
+{
+  "text": "Je parlerais d’une rupture, ou plutôt d’un changement de rythme.",
+  "text_sha256": "f81259fceb493c2473aef881c60cf5f221186d1e93d382db56e1534d9e336bda",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4481632653061225,
+      "source_seconds": 3.4481632653061225,
+      "source_file_sha256": "38299ecac5f3c0866647a3804747b2a5be2e21e58ff25c8baa9df7aa615bb3c0",
+      "file_sha256": "f3c40c394ea49724493e65e9648f10e9b022d02e26d73d3488f5fa83c83dc4cf",
+      "bytes": 28256,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

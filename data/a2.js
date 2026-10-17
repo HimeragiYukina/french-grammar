@@ -2493,6 +2493,27 @@ window.GRAMMAR_DATA.A2={
               "use": "il y a 定位一次电话，depuis 指之后直到现在。"
             }
           ]
+        },
+        {
+          "title": "avant de加不定式与avant加明确的出发者",
+          "explanation": "在本节简单句中，avant de partir通常让离开者与主句主语相同。若另一人离开，可用avant ton départ、avant le départ de…等名词词组明确人物。avant加具体钟点则给时间界限。先用不含歧义的常规句式，不靠最近的人名猜施事。",
+          "examples": [
+            {
+              "fr": "Je rangerai les dossiers avant de partir.",
+              "zh": "我会在自己离开前收好文件。",
+              "use": "收文件与离开都由je执行。"
+            },
+            {
+              "fr": "Je rangerai les dossiers avant ton départ, puis je resterai au bureau.",
+              "zh": "你离开前我会收好文件，之后我会留在办公室。",
+              "use": "je收文件、tu离开，后句明确je留在办公室。"
+            },
+            {
+              "fr": "Tu vérifieras les dossiers avant dix-sept heures.",
+              "zh": "你会在17点前核对文件。",
+              "use": "时间界限不单独说明谁离开。"
+            }
+          ]
         }
       ],
       "comparison": "Il est parti il y a trois jours：三天前走的；Il est absent depuis trois jours：已不在这里三天；Il part pour trois jours：预计离开三天。pendant两小时是持续时间，en两小时是完成耗时。",
@@ -2528,6 +2549,16 @@ window.GRAMMAR_DATA.A2={
           "q": "向活动中心追问报名：三天前发了邮件，此后未收到答复；要求确认。",
           "a": "J’ai envoyé un courriel il y a trois jours, mais je n’ai pas reçu de réponse depuis. Pouvez-vous confirmer mon inscription ?",
           "note": "须保留一次已完成的发送、直到现在无回复及确认请求。courriel 可换成 e-mail；开放题不要求逐字相同。"
+        },
+        {
+          "q": "你收文件，并在收好后自己离开。用je、ranger les dossiers和avant de partir写一句。",
+          "a": "Je rangerai les dossiers avant de partir.",
+          "note": "两个动作都由je执行；也可在明确当前习惯的语境用现在时。"
+        },
+        {
+          "q": "同事17点离开，你留办公室；你会在同事离开前收文件。用avant ton départ写计划，不把自己说成离开者。",
+          "a": "Je rangerai les dossiers avant ton départ, puis je resterai au bureau.",
+          "note": "也可用avant le départ de ma collègue等明确名词；avant de partir在此通常会改变离开者。"
         }
       ],
       "related": [

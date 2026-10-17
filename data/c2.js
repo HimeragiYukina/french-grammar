@@ -1914,6 +1914,27 @@ window.GRAMMAR_DATA.C2={
               "use": "la traductrice依据已知角色回指Léa；不按最近女性名字误指Mina。"
             }
           ]
+        },
+        {
+          "title": "enfin收束列举，还是返回前话作修正",
+          "explanation": "enfin既可引列举末项，也可引对刚说内容的局部修正。判断要看前后话语动作，不靠一个固定中文译法。ou plutôt可换掉一个不够贴切的词组；修正后仍需让读者识别新的范围或评价。下面书稿场景独立于课程表演讨论。",
+          "examples": [
+            {
+              "fr": "Le livre est parfait, enfin, sa structure me paraît très réussie.",
+              "zh": "这本书完美——更准确说，它的结构在我看来很成功。",
+              "use": "把全书笼统评价收窄到结构，并标记为自己的评价。"
+            },
+            {
+              "fr": "Nous avons révisé l’introduction, les exemples et, enfin, la conclusion.",
+              "zh": "我们修订了引言、例子，最后修订结论。",
+              "use": "列举最后一步，不撤回前两项。"
+            },
+            {
+              "fr": "Je parlerais d’une rupture, ou plutôt d’un changement de rythme.",
+              "zh": "我会说是断裂，或更准确地说，是节奏变化。",
+              "use": "局部替换概念；不预设两种说法在所有语境同义。"
+            }
+          ]
         }
       ],
       "comparison": "or 添入关键事实；donc / partant 从前提推出结果。cela étant 承认前文但转向另一判断；quoi qu'il en soit 暂置争议、给不受影响的结论。en l'occurrence 具体到本次个案；à cet égard 具体到某一方面。",
@@ -1949,6 +1970,16 @@ window.GRAMMAR_DATA.C2={
           "q": "朗读有利于听节奏。用à cet égard给出局部评价，不将它说成取代印本文本。",
           "a": "La lecture permet d’entendre le rythme. À cet égard, elle complète le texte imprimé sans le remplacer.",
           "note": "接受en ce qui concerne le rythme等明确保维度的改写。最后的“不替代”是任务要求的立场，不伪装成原材料已验证的事实。"
+        },
+        {
+          "q": "你只研究过书的结构，刚说Le livre est parfait过于笼统。用enfin局部修复并保留对结构的正面评价。",
+          "a": "Le livre est parfait, enfin, sa structure me paraît très réussie.",
+          "note": "允许其他自然修复，如Je dirais plutôt…；须明确缩到结构，不仅加保留词却保留原先全书范围。"
+        },
+        {
+          "q": "比较两句的enfin：Nous avons relu l’introduction et, enfin, la conclusion. / Le livre est parfait, enfin, sa structure me plaît beaucoup. 用两句法语说明列举与修复。",
+          "a": "Dans la première phrase, enfin introduit le dernier élément de la série. Dans la seconde, il corrige la portée de l’appréciation en la limitant à la structure.",
+          "note": "前句不取消已重读引言；后句返回前话收窄评价。也可用rectification/reformulation等准确描述。"
         }
       ]
     },

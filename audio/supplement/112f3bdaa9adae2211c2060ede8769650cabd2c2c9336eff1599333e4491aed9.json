@@ -1,0 +1,30 @@
+{
+  "text": "Nous avons révisé l’introduction, les exemples et, enfin, la conclusion.",
+  "text_sha256": "112f3bdaa9adae2211c2060ede8769650cabd2c2c9336eff1599333e4491aed9",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.829750566893424,
+      "source_seconds": 4.829750566893424,
+      "source_file_sha256": "3a7fa4f06c869cb3eacdb744441dec2157c090275b2eae75a4fa30fb950a7095",
+      "file_sha256": "c09bdf64695b5a1afe07af04ccb8818fbee198ea63207c3caa57fddd819b9d45",
+      "bytes": 39332,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

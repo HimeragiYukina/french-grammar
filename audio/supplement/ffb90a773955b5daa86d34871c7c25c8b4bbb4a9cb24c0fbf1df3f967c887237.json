@@ -1,0 +1,30 @@
+{
+  "text": "Amélie et Noémie ont vingt-huit ans. Nous avons vingt-huit ans toutes les deux.",
+  "text_sha256": "ffb90a773955b5daa86d34871c7c25c8b4bbb4a9cb24c0fbf1df3f967c887237",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.237641723356009,
+      "source_seconds": 4.237641723356009,
+      "source_file_sha256": "6187ab650a2d1df9367dd2d98a132ed80ded9911f4fb74c11755a97a7cc67639",
+      "file_sha256": "294875e301b43f4fce233b1f927697ca0bc6c9d092be2a461515ccf0f7a6289d",
+      "bytes": 34734,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

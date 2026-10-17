@@ -1,0 +1,30 @@
+{
+  "text": "Je rangerai les dossiers avant de partir.",
+  "text_sha256": "4aae1bcb49179a1a7698956dfeda679d3dbd80018de56a22a7a0eaf499f44a1f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.182675736961451,
+      "source_seconds": 2.182675736961451,
+      "source_file_sha256": "3c52f9aa7eb89d52a04f44840753a1f9dd95a2bc5655dad59f2baecc383c442f",
+      "file_sha256": "62a8594c06abb4b0f2da89f671bb3cc7a377cbe2a689be3c43cd8a87aba72d58",
+      "bytes": 18225,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

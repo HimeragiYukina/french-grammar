@@ -1,0 +1,30 @@
+{
+  "text": "Tu vérifieras les dossiers avant dix-sept heures.",
+  "text_sha256": "d75abf6089dc544fe65c056e029d1612044e12e0a55912954bb957556c400dbb",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.2058956916099772,
+      "source_seconds": 2.2058956916099772,
+      "source_file_sha256": "dc35848b0690fce0e8cdae2008c3856d85486aef6b7c12a3c721de864f8422c9",
+      "file_sha256": "e190ec356e71360cd411f6fd6bbe36782fc08162d2d201bdba21154586bcbb7d",
+      "bytes": 18434,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

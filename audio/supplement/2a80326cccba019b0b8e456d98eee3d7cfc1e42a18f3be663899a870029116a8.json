@@ -1,0 +1,30 @@
+{
+  "text": "La personne a trente ans. Elle a deux billets d’invitation.",
+  "text_sha256": "2a80326cccba019b0b8e456d98eee3d7cfc1e42a18f3be663899a870029116a8",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.1463038548752835,
+      "source_seconds": 3.1463038548752835,
+      "source_file_sha256": "9bf9d7d4d91bbcb8cd9daee710a1920ab92df7904be538b2145a8002eabe84f1",
+      "file_sha256": "fdf39077ac1f7640f2386bbf62da1fdcff0ac09669a02645c3b3c6881ab040cd",
+      "bytes": 25957,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
