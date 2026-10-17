@@ -11,18 +11,18 @@
     ],
     "source_id_count": 103
   },
-  "string_leaves": 8669,
+  "string_leaves": 8692,
   "classification_counts": {
     "technical": 365,
-    "excluded_chinese": 2475,
+    "excluded_chinese": 2479,
     "already_catalog": 2156,
-    "inline_fragment": 2234,
-    "eligible": 1439
+    "inline_fragment": 2245,
+    "eligible": 1447
   },
   "remaining_manual": 0,
   "exact_source_proof_errors": [],
-  "approved_occurrences": 4187,
-  "unique_exact_units": 3772,
+  "approved_occurrences": 4195,
+  "unique_exact_units": 3779,
   "source_snapshots": [
     {
       "repo": "grammar",
@@ -32,7 +32,7 @@
     {
       "repo": "grammar",
       "source": "runtime.EXPANSIONS",
-      "sha256": "84caa2152683d725564d0c10aa25e81ced970e31a451cea663627630a95d4623"
+      "sha256": "d892bda651b43edaf27175623273a3c7b7342871674e5f9f1c1d603163db6d0d"
     },
     {
       "repo": "grammar",
@@ -63,14 +63,14 @@
   },
   "portable_evidence": {
     "tools/audio-classified-leaves-20261016.jsonl": {
-      "records": 8669,
-      "bytes": 6253366,
-      "sha256": "d8caaed2349a419478351923e181c87c89d8e37c1741cf97a4f7931d2a243c3b"
+      "records": 8692,
+      "bytes": 6272678,
+      "sha256": "6f5dd47c52a2a811d430ef17ea991207b52f44a42bfb0542c568ce75e9e6bfcb"
     },
     "tools/audio-exclusions-20261016.jsonl": {
-      "records": 920,
-      "bytes": 405225,
-      "sha256": "45cf7af99bdebaa56472399347de05e6073916b5adc273d066ea9064b394e112"
+      "records": 936,
+      "bytes": 413364,
+      "sha256": "65711e2aefc57c97a6ea39835d38062cc276b4f26da02d138523bb6fe40be733"
     },
     "tools/audio-runtime-controls-20261016.json": {
       "records": 50,
@@ -78,13 +78,13 @@
       "sha256": "ebdb9fb0eb26456f87a96d6a512b48ed80baf776a2255b59f7e5320df053154d"
     },
     "tools/audio-approved-spans-20261016.jsonl": {
-      "records": 4187,
-      "bytes": 2016707,
-      "sha256": "1f347c75793657f13cf3f168b87a1f628fcee1b8032760f5029884a7a9ace2be"
+      "records": 4195,
+      "bytes": 2020699,
+      "sha256": "0676ba23729e448f82d197ba2750e8fe856cf3f43885dabde81710e0f364324d"
     }
   },
-  "source_hash_validation": "All 4187 approved occurrences independently reconstructed from current sources with zero mismatch. No acoustic certification.",
-  "required_exact_units": 3687,
+  "source_hash_validation": "All 4195 approved occurrences independently reconstructed from current sources with zero mismatch. No acoustic certification.",
+  "required_exact_units": 3694,
   "optional_error_exact_units": 85,
   "source_hash_definition": "SHA256 of UTF-8 canonical JSON (ensure_ascii=False, sorted keys, compact separators), per current actual source/runtime object; raw source_offsets use Unicode codepoints before HTML stripping.",
   "quality_changes": {
@@ -92,14 +92,14 @@
     "sourceSpanMismatches": 0
   },
   "kind_occurrences": {
-    "eligible_phrase": 1178,
-    "eligible_standalone": 2762,
+    "eligible_phrase": 1179,
+    "eligible_standalone": 2769,
     "lexical_unit": 118,
     "error_input": 86,
     "runtime_rule_bundle": 37,
     "runtime_composite": 6
   },
-  "all_exact_units": 3772,
+  "all_exact_units": 3779,
   "pending_manual": 0,
   "batch2_scope": {
     "definition": "Actual newly appended/changed French source leaves and mixed exact spans, complete models, answer variants, explicitly non-normative error inputs; current full dialogue composites rebuilt. Chinese, source metadata, grammatical labels and open-slot templates excluded.",
@@ -247,6 +247,18 @@
       "c2-cohesion"
     ],
     "added_leaves": 40,
+    "changed_leaves": 0,
+    "sourceSpanMismatches": 0,
+    "actualListening": "not performed",
+    "newAudioGeneratedByClassification": false
+  },
+  "batch13_scope": {
+    "definition": "Actual newly appended/changed French source leaves and mixed exact spans, complete models, answer variants, explicitly non-normative error inputs; current full dialogue composites rebuilt. Chinese, source metadata, grammatical labels and open-slot templates excluded.",
+    "source_ids": [
+      "a1-question",
+      "c2-rection"
+    ],
+    "added_leaves": 23,
     "changed_leaves": 0,
     "sourceSpanMismatches": 0,
     "actualListening": "not performed",

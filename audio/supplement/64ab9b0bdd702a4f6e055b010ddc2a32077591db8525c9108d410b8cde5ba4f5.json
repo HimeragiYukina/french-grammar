@@ -1,0 +1,30 @@
+{
+  "text": "La visiteuse a pris la sortie de secours pour l’entrée principale.",
+  "text_sha256": "64ab9b0bdd702a4f6e055b010ddc2a32077591db8525c9108d410b8cde5ba4f5",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.564263038548753,
+      "source_seconds": 3.564263038548753,
+      "source_file_sha256": "bc473f05664f9085d070e71077256b46bb3ed3b8ae6ba644bff24f4dfc06b456",
+      "file_sha256": "2e09af2f654daba2c50fb243f9a4b4f569561276fa24976ec84bd95be90bac0f",
+      "bytes": 29301,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

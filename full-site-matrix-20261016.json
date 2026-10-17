@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3772,
-  "covered": 3772,
+  "denominator": 3779,
+  "covered": 3779,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -180,10 +180,10 @@
       "kind": "grammar-point",
       "id": "a1-question",
       "level": "A1",
-      "exactTextUnits": 26,
-      "localFilesPresent": 26,
+      "exactTextUnits": 29,
+      "localFilesPresent": 29,
       "missingLocalFiles": 0,
-      "requiredUnits": 26,
+      "requiredUnits": 29,
       "errorInputUnits": 0
     },
     {
@@ -1038,10 +1038,10 @@
       "kind": "grammar-point",
       "id": "c2-rection",
       "level": "C2",
-      "exactTextUnits": 63,
-      "localFilesPresent": 63,
+      "exactTextUnits": 67,
+      "localFilesPresent": 67,
       "missingLocalFiles": 0,
-      "requiredUnits": 61,
+      "requiredUnits": 65,
       "errorInputUnits": 2
     },
     {

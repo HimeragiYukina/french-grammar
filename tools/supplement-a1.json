@@ -440,6 +440,16 @@
         "q": "以Paul为主语，正式问他是否和我们一起去，再写一种自然口语形式。",
         "a": "Paul vient-il avec nous ? Paul vient avec nous ?",
         "note": "正式复杂倒装保留名词并用il复指；口语保留词序配问号和语调。礼貌由整体措辞决定，不是所有语调问句都粗鲁。"
+      },
+      {
+        "q": "电影院告知场次19点开始，你先听成9点。写一句回读候选理解的问句，再用est-ce que重新确认19点。",
+        "a": "Pardon, à neuf heures ? Est-ce que la séance commence à dix-neuf heures ?",
+        "note": "第一句只是候选理解，不能记为9点事实。第二句est-ce que后用陈述语序。19点也可说sept heures du soir。"
+      },
+      {
+        "q": "你没听清街名，请对方重复街名而不是重复时间。用vous pouvez的礼貌问句。",
+        "a": "Vous pouvez répéter le nom de la rue, s’il vous plaît ?",
+        "note": "也接受Pouvez-vous répéter le nom de la rue… ?；不把est-ce que与倒装叠加。"
       }
     ]
   },

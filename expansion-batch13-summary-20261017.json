@@ -1,0 +1,96 @@
+{
+  "completedUtc": "2026-10-17T04:02:44.888361+00:00",
+  "newPages": 0,
+  "reviewMode": "Single-agent explicit second reading, not independent peer review",
+  "examFormatChanged": false,
+  "deployment": false,
+  "gitStatus": "Local only; batches12 and13 unpushed; remote push paused after approval review rejection",
+  "notTested": [
+    "Human acoustic listening and speech alignment",
+    "Real microphone or partner interaction",
+    "Actual installed Google français availability"
+  ],
+  "remainingGaps": [
+    "其他课仍需逐条审查泛化注释；本轮只修订明确列出的两课，不声称全部级别已复核。",
+    "已有合成音频只完成技术和浏览器检查，尚无人工听审。",
+    "课程阅读不保证达到C2或取得考试成绩。"
+  ],
+  "title": "疑问确认与动词补语：第十三批语法补充",
+  "levels": [
+    "A1",
+    "C2"
+  ],
+  "counts": {
+    "improvedExistingGrammarPoints": 2,
+    "newSections": 1,
+    "newOriginalFrenchExamples": 3,
+    "newExplainedPracticeQuestions": 4
+  },
+  "grammarPoints": [
+    {
+      "level": "A1",
+      "pointId": "a1-question",
+      "newSections": 0,
+      "newExamples": 0,
+      "newQuestions": 2
+    },
+    {
+      "level": "C2",
+      "pointId": "c2-rection",
+      "newSections": 1,
+      "newExamples": 3,
+      "newQuestions": 2
+    }
+  ],
+  "audio": {
+    "ownExactUnits": 3779,
+    "newCPURecordings": 7,
+    "originalWavsRetained": true,
+    "sourceSpanMismatches": 0,
+    "technicalSamples": {
+      "samples": 10,
+      "technicalFailures": 0,
+      "samplesWithCandidateFlags": 0,
+      "byLevelRepository": {
+        "A1": {
+          "grammar": 2
+        },
+        "A2": {
+          "grammar": 1
+        },
+        "B1": {
+          "grammar": 1
+        },
+        "B2": {
+          "grammar": 1
+        },
+        "C1": {
+          "grammar": 1
+        },
+        "C2": {
+          "grammar": 4
+        }
+      },
+      "tags": [
+        "abbreviation",
+        "liaison",
+        "numbers"
+      ],
+      "longreadFull": 0,
+      "longreadParagraphs": 0
+    },
+    "humanListeningPerformed": false
+  },
+  "tests": {
+    "passed": {
+      "grammarPoints": 97,
+      "historicalLayersPreserved": true,
+      "appendOnlySections": 1,
+      "appendOnlyPractice": 4,
+      "tamperRejections": 3,
+      "allSixLevelPagesAt390px": true
+    },
+    "failed": [],
+    "pending": []
+  }
+}

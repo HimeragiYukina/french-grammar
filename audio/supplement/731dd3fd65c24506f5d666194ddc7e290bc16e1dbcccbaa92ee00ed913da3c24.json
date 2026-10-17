@@ -1,0 +1,30 @@
+{
+  "text": "Le guide s’adresse aux débutants. La conférencière s’adresse maintenant aux invités.",
+  "text_sha256": "731dd3fd65c24506f5d666194ddc7e290bc16e1dbcccbaa92ee00ed913da3c24",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.783310657596372,
+      "source_seconds": 4.783310657596372,
+      "source_file_sha256": "aad870e77f76d52223dc6f1fd15cf267f95b46777e27c1e92ed1fedd2cceb3a7",
+      "file_sha256": "e336b47790603ac90a7877a4ef9bb9d19ccdbcaee31cad4d7fed5f277f3ca1e6",
+      "bytes": 39123,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

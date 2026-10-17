@@ -1,0 +1,30 @@
+{
+  "text": "Pardon, à neuf heures ? Est-ce que la séance commence à dix-neuf heures ?",
+  "text_sha256": "495640ea79797d4434a35af23cd11c6f94e33306d8ea9bd903b10f0b0ede2f23",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.378503401360544,
+      "source_seconds": 3.378503401360544,
+      "source_file_sha256": "2d7307101f9ab067efd314c9bd12a872812eec3b9a8977312bebc32c1360a170",
+      "file_sha256": "86cdd26905af22a20eee846dc6be8b8b83069ea4ecdc4ffd63184634945ad782",
+      "bytes": 27838,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

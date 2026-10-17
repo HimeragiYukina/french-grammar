@@ -1635,6 +1635,27 @@ window.GRAMMAR_DATA.C2={
               "use": "完整 à + 人；pour 可引入原因。"
             }
           ]
+        },
+        {
+          "title": "prendre pour的归类与s’adresser à的目标",
+          "explanation": "prendre某物pour某类事物可以是把它看作该类，也可能在语境中表示误认；被判断的对象与归类结果不能颠倒。s’adresser à可写人向谁讲话，也可写文字面向的受众。不要把同一动词在不同结构中的补语位置机械互换。",
+          "examples": [
+            {
+              "fr": "La visiteuse a pris la sortie de secours pour l’entrée principale.",
+              "zh": "访客把紧急出口误认成主入口。",
+              "use": "被误认对象是sortie，误认结果为entrée，不能颠倒。"
+            },
+            {
+              "fr": "Je ne prendrais pas cette esquisse pour une version définitive.",
+              "zh": "我不会把这份草图当作最终版本。",
+              "use": "是审慎的归类评价，不是把草图拿走的动作。"
+            },
+            {
+              "fr": "Ce guide s’adresse aux débutants ; la conférencière s’adresse maintenant aux invités.",
+              "zh": "指南面向初学者；女讲者现在向来宾讲话。",
+              "use": "前半是预期受众，后半是当前讲话对象，两者均保留à。"
+            }
+          ]
         }
       ],
       "comparison": "Je pense à lui → Je pense à lui，不能套成 je lui pense；Je tiens à lui 同样保留重读形式。Tu me manques（我想你）/ Je te manque（你想我）。Ce roman traite de l'exil / Dans ce roman, il s'agit de l'exil 都正确；× Ce roman s'agit de… 不正确。",
@@ -1651,6 +1672,16 @@ window.GRAMMAR_DATA.C2={
           "q": "编辑了错误搭配：Ce chapitre s'agit de l'exil. Je lui tiens beaucoup parce qu'il m'a aidée. 若说的是“本章涉及流亡；我很在乎他”，请改正。",
           "a": "Dans ce chapitre, il s'agit de l'exil. Je tiens beaucoup à lui parce qu'il m'a aidée.",
           "note": "il非人称1分；Dans ce chapitre保主题1分；tenir à lui不用lui tenir1分；a aidée保女性直接宾语配合1分。若用Ce chapitre traite de l’exil同样可接受。"
+        },
+        {
+          "q": "访客把紧急出口误认成主入口。用prendre…pour写句子，不颠倒两个对象。",
+          "a": "La visiteuse a pris la sortie de secours pour l’entrée principale.",
+          "note": "直接宾语给实际对象，pour后给被当作的身份。可改用其他自然主语，不改变误认方向。"
+        },
+        {
+          "q": "写两句：指南面向初学者；讲者现在正向来宾讲话。都用s’adresser à。",
+          "a": "Le guide s’adresse aux débutants. La conférencière s’adresse maintenant aux invités.",
+          "note": "à与les合为aux；前句目标读者不必已在场，后句说当前讲话行为。不能把s’adresser改成无直接宾语的adresser aux…。"
         }
       ]
     },

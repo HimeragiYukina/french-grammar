@@ -1,0 +1,26 @@
+{
+  "references": [
+    {
+      "title": "OQLF — Les types de phrases：interrogation",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24269/la-grammaire/la-grammaire-actuelle/la-phrase/les-types-de-phrases",
+      "checked": "2026-10-17",
+      "note": "核对疑问构式及语调问句；时间、地点与修复对话均原创。"
+    },
+    {
+      "title": "OQLF — Acceptation et acception",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22920/le-vocabulaire/paronymes/sens-et-emploi-de-acceptation-et-de-acception",
+      "checked": "2026-10-17",
+      "note": "核对词义术语acception与acceptation的区别；所有节目说明和例句原创。"
+    },
+    {
+      "title": "OQLF — Valeur modale du conditionnel",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24148/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/valeur-modale-du-conditionnel",
+      "checked": "2026-10-17",
+      "note": "核对ne saurait加不定式在本段的实际否定义与判断中的条件式；不复制资料例句。"
+    }
+  ],
+  "additionalLexicalReference": "https://fr.wiktionary.org/wiki/prendre_pour",
+  "examples": "Original; no commercial textbook copying",
+  "checked": "2026-10-17",
+  "examinationFormatsChanged": false
+}
