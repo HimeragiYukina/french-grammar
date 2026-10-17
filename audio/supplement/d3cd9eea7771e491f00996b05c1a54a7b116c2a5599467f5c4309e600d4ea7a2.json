@@ -1,0 +1,30 @@
+{
+  "text": "Il n’a pas cessé de m’écrire : il ne m’a jamais écrit",
+  "text_sha256": "d3cd9eea7771e491f00996b05c1a54a7b116c2a5599467f5c4309e600d4ea7a2",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.2856235827664397,
+      "source_seconds": 3.2856235827664397,
+      "source_file_sha256": "766908a6b34e0ba3c6a8ab8fb60eea1df4f2859e962610c24b7811f766757eee",
+      "file_sha256": "29b844739256b436b946fcfa7003358adeeff809d91943efaa8f4b88ab567bf0",
+      "bytes": 27002,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

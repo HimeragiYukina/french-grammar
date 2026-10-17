@@ -1531,6 +1531,16 @@ window.GRAMMAR_DATA.C2={
           "q": "书面摘要只有Selon le laboratoire, le résultat serait provisoire。指出可保留的来源与距离，不替它写确认概率。",
           "a": "Le laboratoire est la source mentionnée. Le conditionnel marque une distance à l’égard de l’information ; la phrase ne donne aucun pourcentage de certitude.",
           "note": "来源仍是实验室；转述距离不是任意数字，也不等于说结果已被独立复核。"
+        },
+        {
+          "q": "记者问Pourquoi la diffusion du bulletin a-t-elle cessé ?。尚未核实过去是否发行。先写一个询问过去是否发行的法语问题，不预先接受停刊。",
+          "a": "Le bulletin a-t-il déjà été diffusé ?",
+          "note": "先查是否发生；原pourquoi问句把过去发行及后来停止放在背景。新问法聚焦该存在问题，不宣称所有语言背景均被清空。"
+        },
+        {
+          "q": "受访人答Il n’a pas cessé de m’écrire : il ne m’a jamais écrit。说明为何不能截前半概括为一直写信。",
+          "a": "La seconde partie refuse l’existence de lettres antérieures. Il s’agit de contester la formulation cesser de, et non d’affirmer que les lettres continuent.",
+          "note": "冒号后明确拒绝背景；读完整修复语段，不把普通否定的默认延续解读机械套在元语言反驳上。"
         }
       ]
     },

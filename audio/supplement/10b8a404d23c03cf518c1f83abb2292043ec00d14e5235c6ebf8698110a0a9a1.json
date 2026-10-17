@@ -1,0 +1,30 @@
+{
+  "text": "La seconde partie refuse l’existence de lettres antérieures. Il s’agit de contester la formulation cesser de, et non d’affirmer que les lettres continuent.",
+  "text_sha256": "10b8a404d23c03cf518c1f83abb2292043ec00d14e5235c6ebf8698110a0a9a1",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 7.592925170068027,
+      "source_seconds": 7.592925170068027,
+      "source_file_sha256": "a2aebe39a29b8e2e5d0ec9e3905f1ff63a064fc8d29b9a0dedd2cd43ecf401da",
+      "file_sha256": "c50cc4a7bf183b7b7226f67130c0b6bb8a7cfed713b8bdcf3a86cef627324f66",
+      "bytes": 61484,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
