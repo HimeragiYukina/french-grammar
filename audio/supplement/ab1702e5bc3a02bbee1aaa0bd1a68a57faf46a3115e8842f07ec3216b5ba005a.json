@@ -1,0 +1,30 @@
+{
+  "text": "Les conditions sont précisées. Nous avons observé les couleurs dans ces conditions, à l’intérieur sous un éclairage fixe.",
+  "text_sha256": "ab1702e5bc3a02bbee1aaa0bd1a68a57faf46a3115e8842f07ec3216b5ba005a",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.907936507936508,
+      "source_seconds": 6.907936507936508,
+      "source_file_sha256": "ebd492d09e240c97696cd73ea71203439137204efc55f246ca5e51a521dcbdc4",
+      "file_sha256": "44ba1d30c0733c16ee2e828d3ead88105fc15d1e0c1dc4350592abd30e464ac7",
+      "bytes": 56050,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

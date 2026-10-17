@@ -243,6 +243,16 @@
         "q": "原指令la note jointe à la page, à laquelle je me réfère有两个阴单候选。作者已确认自己指的是page。重写保页、附注及明确指代，可拆句或重置关系从句。",
         "a": "Je me réfère à la page. La note est jointe à cette page.",
         "note": "也接受Je me réfère à la page à laquelle la note est jointe。重点是明确page；只把laquelle换成另一个同形关系词不保证解决问题。"
+      },
+      {
+        "q": "原创摄影社情境：比较照片所依据的标准已列出。合并Les critères sont écrits. Nous nous appuyons sur ces critères. 用sur lesquels，不把介词换成de。",
+        "a": "Les critères sur lesquels nous nous appuyons sont écrits.",
+        "note": "s’appuyer sur决定sur，lesquels随critères阳性复数；dont不能替代此处的sur。合并只说明标准已写出，不推断所有照片已比较完成。"
+      },
+      {
+        "q": "同一摄影社在室内固定灯光下观察过颜色，没做户外观察。用dans lesquelles合并并保留限定：Les conditions sont précisées. Nous avons observé les couleurs dans ces conditions, à l’intérieur sous un éclairage fixe.",
+        "a": "Les conditions dans lesquelles nous avons observé les couleurs sont précisées : à l’intérieur, sous un éclairage fixe.",
+        "note": "dans保留观察条件，lesquelles随conditions阴性复数。限定只涉及这次室内观察，不推为户外颜色也已验证；不能仅为使用关系从句就扩大结果范围。"
       }
     ]
   },

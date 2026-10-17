@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3826,
-  "covered": 3826,
+  "denominator": 3830,
+  "covered": 3830,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -686,10 +686,10 @@
       "kind": "grammar-point",
       "id": "b2-relatifs-composes",
       "level": "B2",
-      "exactTextUnits": 52,
-      "localFilesPresent": 52,
+      "exactTextUnits": 56,
+      "localFilesPresent": 56,
       "missingLocalFiles": 0,
-      "requiredUnits": 51,
+      "requiredUnits": 55,
       "errorInputUnits": 1
     },
     {

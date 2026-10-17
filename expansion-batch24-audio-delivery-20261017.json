@@ -1,0 +1,14 @@
+{
+  "units": 3830,
+  "compressed": 4,
+  "old_to_new": {
+    "grammar": {
+      "audio/supplement/04a5186563c6bf07e5bf7c25d574bc433ba94ab097aab015737df15dbfcdfc10.wav": "audio/supplement/04a5186563c6bf07e5bf7c25d574bc433ba94ab097aab015737df15dbfcdfc10.mp3",
+      "audio/supplement/19c1565a55cc1556b11c1f7b9021a2de63f9dca175852e994268e92fc898506c.wav": "audio/supplement/19c1565a55cc1556b11c1f7b9021a2de63f9dca175852e994268e92fc898506c.mp3",
+      "audio/supplement/ab1702e5bc3a02bbee1aaa0bd1a68a57faf46a3115e8842f07ec3216b5ba005a.wav": "audio/supplement/ab1702e5bc3a02bbee1aaa0bd1a68a57faf46a3115e8842f07ec3216b5ba005a.mp3",
+      "audio/supplement/aabf5e53031285eccec365597cea654bf19235275618f98bfc89814876461d5a.wav": "audio/supplement/aabf5e53031285eccec365597cea654bf19235275618f98bfc89814876461d5a.mp3"
+    }
+  },
+  "originalWavsRetained": true,
+  "humanListening": false
+}

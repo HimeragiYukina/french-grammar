@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 2,
+  "generated_this_run": 4,
   "generation_runs": [
     {
-      "generated": 3331,
+      "generated": 3335,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 60.51455760002136,
+  "elapsed_seconds": 58.617107629776,
   "listened": false,
   "records": [
     {
@@ -156179,17 +156179,17 @@
       "bytes": 44765,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 5.50312925170068,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/3129a588bed02f01e2445d4405fa006efa3573fcd74f6949596baf467b5b8255.wav",
         "file_sha256": "62e1c60b8d8b9336562c5187b3fb9aa9ea57d72c0bd1e144fcfb760dd1cf140e",
-        "bytes": 242732,
-        "rms": 4731.754552967146
+        "seconds": 5.50312925170068
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156220,14 +156220,178 @@
       "bytes": 37869,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 4.632380952380952,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/798444010de302867aee195fc34e4de0964a3c643cd7b0f34cd589a202772afc.wav",
         "file_sha256": "04fe0a3724b1ce1d47c19f58ff4f19bf8e288457710613419ddcbe4a0d648a81",
-        "bytes": 204332,
-        "rms": 5940.532491832451
+        "seconds": 4.632380952380952
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Les critères sont écrits. Nous nous appuyons sur ces critères.",
+      "occurrences": [
+        {
+          "id": "b2-relatifs-composes",
+          "field": "/b2-relatifs-composes/practice/4/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 24,
+              "end_codepoint": 86
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "04a5186563c6bf07e5bf7c25d574bc433ba94ab097aab015737df15dbfcdfc10",
+      "path": "audio/supplement/04a5186563c6bf07e5bf7c25d574bc433ba94ab097aab015737df15dbfcdfc10.mp3",
+      "source": "local-siwis",
+      "file_sha256": "676dcf1f72eebfe1b0f1eae20c463297d3a7a0fc97f2088bff6a66696723720e",
+      "bytes": 28047,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.4017233560090703,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/04a5186563c6bf07e5bf7c25d574bc433ba94ab097aab015737df15dbfcdfc10.wav",
+        "file_sha256": "c2d57dbcf2882dfc8460724b74f567fa832b08d606e68526291dad07d5b7e2bf",
+        "bytes": 150060,
+        "rms": 6335.641303653663
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Les critères sur lesquels nous nous appuyons sont écrits.",
+      "occurrences": [
+        {
+          "id": "b2-relatifs-composes",
+          "field": "/b2-relatifs-composes/practice/4/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 57
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "19c1565a55cc1556b11c1f7b9021a2de63f9dca175852e994268e92fc898506c",
+      "path": "audio/supplement/19c1565a55cc1556b11c1f7b9021a2de63f9dca175852e994268e92fc898506c.mp3",
+      "source": "local-siwis",
+      "file_sha256": "f74dfca6f32ff3cabb9b97c8a1146b3ccafcc8e4ea8300f6bc9666187fd0d447",
+      "bytes": 22404,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.705124716553288,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/19c1565a55cc1556b11c1f7b9021a2de63f9dca175852e994268e92fc898506c.wav",
+        "file_sha256": "1023f8e29640820a5dcb745295e482026e318dc3e86df12927a574646794b301",
+        "bytes": 119340,
+        "rms": 5317.4671461109965
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Les conditions sont précisées. Nous avons observé les couleurs dans ces conditions, à l’intérieur sous un éclairage fixe.",
+      "occurrences": [
+        {
+          "id": "b2-relatifs-composes",
+          "field": "/b2-relatifs-composes/practice/5/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 50,
+              "end_codepoint": 171
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "ab1702e5bc3a02bbee1aaa0bd1a68a57faf46a3115e8842f07ec3216b5ba005a",
+      "path": "audio/supplement/ab1702e5bc3a02bbee1aaa0bd1a68a57faf46a3115e8842f07ec3216b5ba005a.mp3",
+      "source": "local-siwis",
+      "file_sha256": "44ba1d30c0733c16ee2e828d3ead88105fc15d1e0c1dc4350592abd30e464ac7",
+      "bytes": 56050,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 6.907936507936508,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/ab1702e5bc3a02bbee1aaa0bd1a68a57faf46a3115e8842f07ec3216b5ba005a.wav",
+        "file_sha256": "ebd492d09e240c97696cd73ea71203439137204efc55f246ca5e51a521dcbdc4",
+        "bytes": 304684,
+        "rms": 4995.428362875796
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Les conditions dans lesquelles nous avons observé les couleurs sont précisées : à l’intérieur, sous un éclairage fixe.",
+      "occurrences": [
+        {
+          "id": "b2-relatifs-composes",
+          "field": "/b2-relatifs-composes/practice/5/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 118
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "aabf5e53031285eccec365597cea654bf19235275618f98bfc89814876461d5a",
+      "path": "audio/supplement/aabf5e53031285eccec365597cea654bf19235275618f98bfc89814876461d5a.mp3",
+      "source": "local-siwis",
+      "file_sha256": "d1c00d841a66f5bca6e97eb9804b4cb1e8752928a63c4750134d6d698970db28",
+      "bytes": 54169,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 6.675736961451247,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/aabf5e53031285eccec365597cea654bf19235275618f98bfc89814876461d5a.wav",
+        "file_sha256": "693dde046bf0e23b7f53cb1c0d2977efe1f6b777781ea0f85584d3897c27c7e4",
+        "bytes": 294444,
+        "rms": 4747.439804909927
       },
       "codec": "libmp3lame",
       "bitrate": 64000
