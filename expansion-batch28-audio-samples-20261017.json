@@ -1,0 +1,700 @@
+{
+  "scope": "Bounded selected audio technical sample review; exacttext/current mapping/hash/full PCM decode/metrics. No human listening, pronunciation, speech-content alignment or truncation verdict.",
+  "method": {
+    "cpu": "two-core affinity, one decode process at a time, codec/filter one thread, hidden BELOW_NORMAL",
+    "silence": "20ms RMS below -45dBFS",
+    "flags": "Threshold candidates for human review, never proof of pronunciation or truncation",
+    "ASRModulesUnavailable": {
+      "whisper": true,
+      "faster_whisper": true,
+      "vosk": true
+    }
+  },
+  "listen": false,
+  "speechAlignment": "not_verified",
+  "summary": {
+    "samples": 11,
+    "technicalFailures": 0,
+    "samplesWithCandidateFlags": 0,
+    "byLevelRepository": {
+      "A1": {
+        "grammar": 1
+      },
+      "A2": {
+        "grammar": 1
+      },
+      "B1": {
+        "grammar": 1
+      },
+      "B2": {
+        "grammar": 1
+      },
+      "C1": {
+        "grammar": 1
+      },
+      "C2": {
+        "grammar": 6
+      }
+    },
+    "tags": [
+      "abbreviation",
+      "longsentence"
+    ],
+    "longreadFull": 0,
+    "longreadParagraphs": 0
+  },
+  "currentTextResolutions": [],
+  "prioritySelections": [],
+  "samples": [
+    {
+      "repo": "grammar",
+      "levels": [
+        "C1"
+      ],
+      "tags": [
+        "abbreviation"
+      ],
+      "text": "La responsable, en l'occurrence Mme Durand, signera le document.",
+      "path": "audio/supplement/f9eab3bb6e935437bfa4a9f8a281960ff8b5b2d1fd58c4c0ef0d7da109df28c3.mp3",
+      "textSHA256": "f9eab3bb6e935437bfa4a9f8a281960ff8b5b2d1fd58c4c0ef0d7da109df28c3",
+      "fileSHA256": "d6f4f22a38dc94708808f39d73bcd56092a9708b379a817b632a04b7079ec27e",
+      "bytes": 36406,
+      "coverageSeconds": 4.458231292517007,
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/sections/4/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 64
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 4.458231292517007,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1500720673963127,
+        "rmsDbFS": -16.47400269138153,
+        "nonzeroFraction": 0.956817626953125,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1182,
+        "maximumInternalSilenceSeconds": 0.36,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [
+        "longsentence"
+      ],
+      "text": "Je crois reconnaître ce titre ; je vais le vérifier dans le catalogue.",
+      "path": "audio/supplement/1dbf411da87957d9ab71badbd367450c2d3618712202651f838d0ab963dc578e.mp3",
+      "textSHA256": "1dbf411da87957d9ab71badbd367450c2d3618712202651f838d0ab963dc578e",
+      "fileSHA256": "fb1c638d2a50e447e8bf72a46d815e41ab9497b7417860dd3f5437fee68d0e9f",
+      "bytes": 32226,
+      "coverageSeconds": 3.93578231292517,
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/sections/4/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 70
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.93578231292517,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1352835317143355,
+        "rmsDbFS": -17.375101351253804,
+        "nonzeroFraction": 0.969268528761062,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1558,
+        "maximumInternalSilenceSeconds": 0.36,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [
+        "longsentence"
+      ],
+      "text": "Je crois avoir reconnu ce titre, mais je veux le vérifier.",
+      "path": "audio/supplement/05722b3cd4b2a6e8ccc5a886f6e8f3633618dd1abf035842abba4b2675b4aede.mp3",
+      "textSHA256": "05722b3cd4b2a6e8ccc5a886f6e8f3633618dd1abf035842abba4b2675b4aede",
+      "fileSHA256": "bb55200d1e7fa5a061515866603e95faf85ff6f4503133e1d164760e121d678f",
+      "bytes": 25957,
+      "coverageSeconds": 3.1579138321995464,
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/sections/4/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 58
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.1579138321995464,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.11802772494339822,
+        "rmsDbFS": -18.56031928173925,
+        "nonzeroFraction": 0.9245749080882353,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1579,
+        "maximumInternalSilenceSeconds": 0.24,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [
+        "longsentence"
+      ],
+      "text": "Je crois que Léa a reconnu ce titre ; je vais le lui demander.",
+      "path": "audio/supplement/d02213d01d8b40eb46c6cb712c16a37d2c6b47da4e82fb10c84e2988d928d21b.mp3",
+      "textSHA256": "d02213d01d8b40eb46c6cb712c16a37d2c6b47da4e82fb10c84e2988d928d21b",
+      "fileSHA256": "2ec17fdd049ac1069f41ccb86513f57664dfac5da7dc3f151e5dfc63ac376cbb",
+      "bytes": 28256,
+      "coverageSeconds": 3.4249433106575964,
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/sections/4/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/8/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.4249433106575964,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.17372041807538594,
+        "rmsDbFS": -15.202982682717625,
+        "nonzeroFraction": 0.972166313559322,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.16,
+        "trailingSilenceSeconds": 0.1249,
+        "maximumInternalSilenceSeconds": 0.24,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [
+        "longsentence"
+      ],
+      "text": "Je crois avoir reconnu ce titre, mais je vais le vérifier dans le catalogue.",
+      "path": "audio/supplement/67833cc3069167fcb5a8d954143f9c128e16eba415bc8de542dd822886eccbfc.mp3",
+      "textSHA256": "67833cc3069167fcb5a8d954143f9c128e16eba415bc8de542dd822886eccbfc",
+      "fileSHA256": "26e6f79e80eadfaa605fe735fa5f45fc793ebac5151bb0fd2d48398945b149ce",
+      "bytes": 31390,
+      "coverageSeconds": 3.8312925170068026,
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/7/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 76
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.8312925170068026,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.13257124265596737,
+        "rmsDbFS": -17.551013456830496,
+        "nonzeroFraction": 0.9631392045454545,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1513,
+        "maximumInternalSilenceSeconds": 0.16,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [
+        "longsentence"
+      ],
+      "text": "Je crois que j’ai reconnu ce titre ; je vais le vérifier dans le catalogue.",
+      "path": "audio/supplement/8318eae9d64f9b60c5c6e372c25bb4d41d284bb2fbf5a08a5d2fbb1ccd6f9ac5.mp3",
+      "textSHA256": "8318eae9d64f9b60c5c6e372c25bb4d41d284bb2fbf5a08a5d2fbb1ccd6f9ac5",
+      "fileSHA256": "bd4002ca84b8efb99abf7006333deabf09a7e93dc9c8b45da1d3247f857bf225",
+      "bytes": 31599,
+      "coverageSeconds": 3.8545124716553287,
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/7/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 19,
+              "end_codepoint": 94
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.8545124716553287,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1453698126979317,
+        "rmsDbFS": -16.750515382584837,
+        "nonzeroFraction": 0.9455595820783133,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1745,
+        "maximumInternalSilenceSeconds": 0.16,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [
+        "longsentence"
+      ],
+      "text": "Je crois qu’elle a reconnu ce titre ; je vais demander confirmation à Léa.",
+      "path": "audio/supplement/a9c5194149ce490ae3d997ba69b20d118837fd4e0247668d717b00f64d81e567.mp3",
+      "textSHA256": "a9c5194149ce490ae3d997ba69b20d118837fd4e0247668d717b00f64d81e567",
+      "fileSHA256": "bfc78be1eb47470e3a576087013983ce60d39b2050aab110daedd00c79f925ac",
+      "bytes": 30764,
+      "coverageSeconds": 3.7500226757369615,
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/8/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 23,
+              "end_codepoint": 97
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.7500226757369615,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.13584729442012686,
+        "rmsDbFS": -17.338980134264496,
+        "nonzeroFraction": 0.9564991292569659,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.17,
+        "maximumInternalSilenceSeconds": 0.12,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A1"
+      ],
+      "tags": [
+        "abbreviation"
+      ],
+      "text": "Tout nom français a un genre (masculin/féminin). L'article défini (le, la, l', les) s'emploie pour une chose précise, connue ou unique.",
+      "path": "audio/fr-FR/f54a11a717866845.mp3",
+      "textSHA256": "958c16f22a07dc5bd40ce311fb9c8b15dc0c8ea1faf0cabe95df079fcf930a00",
+      "fileSHA256": "6a3e6105be16787e62c7e1a6fc689e1cddb5fa251373aa89dcacb02725820653",
+      "bytes": 65376,
+      "coverageSeconds": null,
+      "occurrences": [
+        {
+          "id": "a1-genre",
+          "field": "/a1-genre/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 135
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": null
+      },
+      "metrics": {
+        "decodedSeconds": 10.896,
+        "sampleRate": 24000,
+        "channels": 1,
+        "rms": 0.08548236189606777,
+        "rmsDbFS": -21.36246973384257,
+        "nonzeroFraction": 0.828392682329907,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.916,
+        "maximumInternalSilenceSeconds": 1.0,
+        "internalSilencesGE0_5Seconds": [
+          {
+            "start": 3.14,
+            "end": 4.14,
+            "seconds": 1.0
+          }
+        ],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A2"
+      ],
+      "tags": [],
+      "text": "La semaine dernière, ils ___ (choisir) un cadeau.",
+      "path": "audio/supplement/5f70746bb20b9c8373c456a1e94a2cbb67930d33609de8c46dace0827deecd59.mp3",
+      "textSHA256": "5f70746bb20b9c8373c456a1e94a2cbb67930d33609de8c46dace0827deecd59",
+      "fileSHA256": "541bcd9fe11e4a9671efba9fe5d9ac9c50547afba25dbffeaf862090b1a70251",
+      "bytes": 22613,
+      "coverageSeconds": 2.7399546485260773,
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/2/q",
+          "source": "runtime.PRACTICE",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 49
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.7399546485260773,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1382962438500469,
+        "rmsDbFS": -17.18379230487821,
+        "nonzeroFraction": 0.9119438559322034,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.06,
+        "trailingSilenceSeconds": 0.08,
+        "maximumInternalSilenceSeconds": 0.38,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [],
+      "text": "Quand je suis arrivé, le train était déjà parti.",
+      "path": "audio/fr-FR/e6d0c2b7a96f2e4a.mp3",
+      "textSHA256": "dc4c6d21c6f964562a4e182322d0b549cbe22f6f562c31f398a4ca7d00d24904",
+      "fileSHA256": "61b90ee504c5d814fb9b6a7491d11d7c4c344650e59aad2e85305e5260e147b6",
+      "bytes": 22464,
+      "coverageSeconds": null,
+      "occurrences": [
+        {
+          "id": "b1-pqp",
+          "field": "/b1-pqp/ex/0/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": null
+      },
+      "metrics": {
+        "decodedSeconds": 3.744,
+        "sampleRate": 24000,
+        "channels": 1,
+        "rms": 0.07718579174619833,
+        "rmsDbFS": -22.249252732695474,
+        "nonzeroFraction": 0.7488425925925926,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.904,
+        "maximumInternalSilenceSeconds": 0.28,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B2"
+      ],
+      "tags": [],
+      "text": "J'attends que tu viennes ; je regrette que tu ne sois pas venu hier.",
+      "path": "audio/supplement/6da86e31ef23f6f49d57d9511cfeb20c5ae593a85d28f5cc763ff8c5aedb5de9.mp3",
+      "textSHA256": "6da86e31ef23f6f49d57d9511cfeb20c5ae593a85d28f5cc763ff8c5aedb5de9",
+      "fileSHA256": "20b8765762190fa5c0ce56a987fdec0ffa0b9d3b36ac3f5afd790a245d8f26e1",
+      "bytes": 28256,
+      "coverageSeconds": 3.4481632653061225,
+      "occurrences": [
+        {
+          "id": "b2-subj-passe",
+          "field": "/b2-subj-passe/ex/2/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 89
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.4481632653061225,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.13932556012471103,
+        "rmsDbFS": -17.119384045846914,
+        "nonzeroFraction": 0.9671585648148148,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.14,
+        "trailingSilenceSeconds": 0.1482,
+        "maximumInternalSilenceSeconds": 0.16,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    }
+  ]
+}

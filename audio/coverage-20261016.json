@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 2,
+  "generated_this_run": 6,
   "generation_runs": [
     {
-      "generated": 3351,
+      "generated": 3357,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 56.748387575149536,
+  "elapsed_seconds": 65.24274039268494,
   "listened": false,
   "records": [
     {
@@ -156835,17 +156835,17 @@
       "bytes": 32435,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.947392290249433,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/6206fe75c26ec6821cae2384f808ea5b80c4880a489cb56e30bf6191fc1a702f.wav",
         "file_sha256": "366ce14b08d7bf5bf1e74a828d5320b17ca8f9f9daf30e61d3697e9ebcaddc49",
-        "bytes": 174124,
-        "rms": 6009.742518344623
+        "seconds": 3.947392290249433
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156876,17 +156876,17 @@
       "bytes": 27420,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.320453514739229,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/1fe365788d3865a46de988ccbad77d66180b9d791ddfe53c17db97d9045d9644.wav",
         "file_sha256": "1f95fbb257564c442fb62bd51b1502fd30507a3e5ec35bb7123dab09e6015fef",
-        "bytes": 146476,
-        "rms": 5985.5908968429785
+        "seconds": 3.320453514739229
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156917,17 +156917,17 @@
       "bytes": 11955,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.4048072562358276,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/80c37d92e84342a8f7bcb002edb9982ce1e34b6beee7201b8d79777d502f69c7.wav",
         "file_sha256": "97021ad801b3e10bf37d6a7a1a9b7dce0e8f63fe905a04f57b041938c7550835",
-        "bytes": 61996,
-        "rms": 4566.0393365138325
+        "seconds": 1.4048072562358276
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156958,17 +156958,17 @@
       "bytes": 38914,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 4.760090702947846,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/d2503c45f4140e3933f1aa6c2ccb89c747f065443d4c8c158743e4e1b78f6c21.wav",
         "file_sha256": "83e593d080c8f7735c061bdc9fcf93663fb7958687f56f50780c629fbc7f91db",
-        "bytes": 209964,
-        "rms": 4860.988727004848
+        "seconds": 4.760090702947846
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156999,17 +156999,17 @@
       "bytes": 32853,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 4.017052154195011,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/deb5a7af9297dbf07a31de4aede212ea2a1427859a7a8f9bbb0f37ab2e70f835.wav",
         "file_sha256": "f75b95607cc6b1181d34091248d35874a54e8d1325b6c35f9364dde29308e4a3",
-        "bytes": 177196,
-        "rms": 7102.145555435741
+        "seconds": 4.017052154195011
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -157040,14 +157040,272 @@
       "bytes": 33480,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 4.098321995464852,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/88a46661a8e10a9c4ed12855a60b8289e11f818d43112c9eb17b6d50671096f6.wav",
         "file_sha256": "70d16092271905012f679d323839847e24ba473de81b3f469ce8b38adb544f64",
-        "bytes": 180780,
-        "rms": 5094.649214409629
+        "seconds": 4.098321995464852
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Je crois reconnaître ce titre ; je vais le vérifier dans le catalogue.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/sections/4/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 70
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "1dbf411da87957d9ab71badbd367450c2d3618712202651f838d0ab963dc578e",
+      "path": "audio/supplement/1dbf411da87957d9ab71badbd367450c2d3618712202651f838d0ab963dc578e.mp3",
+      "source": "local-siwis",
+      "file_sha256": "fb1c638d2a50e447e8bf72a46d815e41ab9497b7417860dd3f5437fee68d0e9f",
+      "bytes": 32226,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.93578231292517,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/1dbf411da87957d9ab71badbd367450c2d3618712202651f838d0ab963dc578e.wav",
+        "file_sha256": "637daebeaaca12d3f4608ce8f93650d401b89cbf73d7246341026795654d9c73",
+        "bytes": 173612,
+        "rms": 4670.180133569238
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Je crois avoir reconnu ce titre, mais je veux le vérifier.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/sections/4/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 58
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "05722b3cd4b2a6e8ccc5a886f6e8f3633618dd1abf035842abba4b2675b4aede",
+      "path": "audio/supplement/05722b3cd4b2a6e8ccc5a886f6e8f3633618dd1abf035842abba4b2675b4aede.mp3",
+      "source": "local-siwis",
+      "file_sha256": "bb55200d1e7fa5a061515866603e95faf85ff6f4503133e1d164760e121d678f",
+      "bytes": 25957,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.1579138321995464,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/05722b3cd4b2a6e8ccc5a886f6e8f3633618dd1abf035842abba4b2675b4aede.wav",
+        "file_sha256": "8001cc96eb81006a5d947caf3ffea9ed22bdd633fd7ed44c1c132a1618c32a2b",
+        "bytes": 139308,
+        "rms": 4084.266998767584
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Je crois que Léa a reconnu ce titre ; je vais le lui demander.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/sections/4/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/8/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "d02213d01d8b40eb46c6cb712c16a37d2c6b47da4e82fb10c84e2988d928d21b",
+      "path": "audio/supplement/d02213d01d8b40eb46c6cb712c16a37d2c6b47da4e82fb10c84e2988d928d21b.mp3",
+      "source": "local-siwis",
+      "file_sha256": "2ec17fdd049ac1069f41ccb86513f57664dfac5da7dc3f151e5dfc63ac376cbb",
+      "bytes": 28256,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.4249433106575964,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/d02213d01d8b40eb46c6cb712c16a37d2c6b47da4e82fb10c84e2988d928d21b.wav",
+        "file_sha256": "e2728c7545801dda3ea473e38c2de9ccdf8a12243c0c91a29b527f342ba93c56",
+        "bytes": 151084,
+        "rms": 6013.827755522536
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Je crois avoir reconnu ce titre, mais je vais le vérifier dans le catalogue.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/7/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 76
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "67833cc3069167fcb5a8d954143f9c128e16eba415bc8de542dd822886eccbfc",
+      "path": "audio/supplement/67833cc3069167fcb5a8d954143f9c128e16eba415bc8de542dd822886eccbfc.mp3",
+      "source": "local-siwis",
+      "file_sha256": "26e6f79e80eadfaa605fe735fa5f45fc793ebac5151bb0fd2d48398945b149ce",
+      "bytes": 31390,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.8312925170068026,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/67833cc3069167fcb5a8d954143f9c128e16eba415bc8de542dd822886eccbfc.wav",
+        "file_sha256": "1740349ef7fd9535db4b58833142aabcd7931dccfa968bc43fb5fee6e5809baa",
+        "bytes": 169004,
+        "rms": 4581.585107284249
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Je crois que j’ai reconnu ce titre ; je vais le vérifier dans le catalogue.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/7/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 19,
+              "end_codepoint": 94
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "8318eae9d64f9b60c5c6e372c25bb4d41d284bb2fbf5a08a5d2fbb1ccd6f9ac5",
+      "path": "audio/supplement/8318eae9d64f9b60c5c6e372c25bb4d41d284bb2fbf5a08a5d2fbb1ccd6f9ac5.mp3",
+      "source": "local-siwis",
+      "file_sha256": "bd4002ca84b8efb99abf7006333deabf09a7e93dc9c8b45da1d3247f857bf225",
+      "bytes": 31599,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.8545124716553287,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/8318eae9d64f9b60c5c6e372c25bb4d41d284bb2fbf5a08a5d2fbb1ccd6f9ac5.wav",
+        "file_sha256": "7b767a4aa94aedea7ee60430c10ed1653a6b7acca0d699f4eef9930679d520a8",
+        "bytes": 170028,
+        "rms": 5022.973596862413
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Je crois qu’elle a reconnu ce titre ; je vais demander confirmation à Léa.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/8/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 23,
+              "end_codepoint": 97
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "a9c5194149ce490ae3d997ba69b20d118837fd4e0247668d717b00f64d81e567",
+      "path": "audio/supplement/a9c5194149ce490ae3d997ba69b20d118837fd4e0247668d717b00f64d81e567.mp3",
+      "source": "local-siwis",
+      "file_sha256": "bfc78be1eb47470e3a576087013983ce60d39b2050aab110daedd00c79f925ac",
+      "bytes": 30764,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.7500226757369615,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/a9c5194149ce490ae3d997ba69b20d118837fd4e0247668d717b00f64d81e567.wav",
+        "file_sha256": "c13a004157c6ceb158e4d7928ad7da3c7c6e4f022efa3d31688e349b1a4ce4ab",
+        "bytes": 165420,
+        "rms": 4696.786368234168
       },
       "codec": "libmp3lame",
       "bitrate": 64000

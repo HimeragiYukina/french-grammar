@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3846,
-  "covered": 3846,
+  "denominator": 3852,
+  "covered": 3852,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -1027,10 +1027,10 @@
       "kind": "grammar-point",
       "id": "c2-conjecture",
       "level": "C2",
-      "exactTextUnits": 54,
-      "localFilesPresent": 54,
+      "exactTextUnits": 60,
+      "localFilesPresent": 60,
       "missingLocalFiles": 0,
-      "requiredUnits": 53,
+      "requiredUnits": 59,
       "errorInputUnits": 1
     },
     {

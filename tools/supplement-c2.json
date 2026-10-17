@@ -26,6 +26,27 @@
             "use": "条件式过去保留证人来源与未确认距离，不表达固定概率。"
           }
         ]
+      },
+      {
+        "title": "croire后的时序与主体：识别印象不等于核查完成",
+        "explanation": "独立原创目录检索情境中，读者认为自己或另一位读者认出了书名，仍计划核查。Je crois reconnaître把识别放在当前，Je crois avoir reconnu把识别放在当前看法之前；这两句的识别者都是je。que从句可以明确另一主体。croire不是固定的低信心百分比，本例的待核查状态还来自后续说明，不能只凭一个动词形式判定已经确认。",
+        "examples": [
+          {
+            "fr": "Je crois reconnaître ce titre ; je vais le vérifier dans le catalogue.",
+            "zh": "我觉得认出了这个书名，我会在目录里核查。",
+            "use": "当前看法与当前识别；查目录仍是计划。"
+          },
+          {
+            "fr": "Je crois avoir reconnu ce titre, mais je veux le vérifier.",
+            "zh": "我认为刚才认出了这个书名，但我想再核查。",
+            "use": "avoir reconnu是不定式过去式，识别先于当前看法；不等于核查已完成。"
+          },
+          {
+            "fr": "Je crois que Léa a reconnu ce titre ; je vais le lui demander.",
+            "zh": "我认为莱娅认出了这个书名，我会问问她。",
+            "use": "认出者是Léa，不能改成Je crois avoir reconnu而仍声称主体不变。"
+          }
+        ]
       }
     ],
     "practice": [
@@ -63,6 +84,16 @@
         "q": "受访人答Il n’a pas cessé de m’écrire : il ne m’a jamais écrit。说明为何不能截前半概括为一直写信。",
         "a": "La seconde partie refuse l’existence de lettres antérieures. Il s’agit de contester la formulation cesser de, et non d’affirmer que les lettres continuent.",
         "note": "冒号后明确拒绝背景；读完整修复语段，不把普通否定的默认延续解读机械套在元语言反驳上。"
+      },
+      {
+        "q": "原创目录检索：你认为自己刚认出了书名，但仍要核查。用croire表达这个看法并给出查目录的下一步，可用过去不定式或保持同一主体的que从句。",
+        "a": "Je crois avoir reconnu ce titre, mais je vais le vérifier dans le catalogue.",
+        "note": "识别在当前看法之前，核查尚未做。也可：Je crois que j’ai reconnu ce titre ; je vais le vérifier dans le catalogue. 两式都保留je，不把看法直接写成核查结论。"
+      },
+      {
+        "q": "同一原创情境：你认为认出书名的是Léa，尚未向她确认。用croire的que从句保留她这一主体，再写询问她的行动。",
+        "a": "Je crois que Léa a reconnu ce titre ; je vais le lui demander.",
+        "note": "le是要确认的识别情况，lui指Léa。也可：Je crois qu’elle a reconnu ce titre ; je vais demander confirmation à Léa. 换成Je crois avoir reconnu会把认出者改成je，不是保持原义的变体。"
       }
     ],
     "related": [

@@ -1,0 +1,16 @@
+{
+  "units": 3852,
+  "compressed": 6,
+  "old_to_new": {
+    "grammar": {
+      "audio/supplement/1dbf411da87957d9ab71badbd367450c2d3618712202651f838d0ab963dc578e.wav": "audio/supplement/1dbf411da87957d9ab71badbd367450c2d3618712202651f838d0ab963dc578e.mp3",
+      "audio/supplement/05722b3cd4b2a6e8ccc5a886f6e8f3633618dd1abf035842abba4b2675b4aede.wav": "audio/supplement/05722b3cd4b2a6e8ccc5a886f6e8f3633618dd1abf035842abba4b2675b4aede.mp3",
+      "audio/supplement/d02213d01d8b40eb46c6cb712c16a37d2c6b47da4e82fb10c84e2988d928d21b.wav": "audio/supplement/d02213d01d8b40eb46c6cb712c16a37d2c6b47da4e82fb10c84e2988d928d21b.mp3",
+      "audio/supplement/67833cc3069167fcb5a8d954143f9c128e16eba415bc8de542dd822886eccbfc.wav": "audio/supplement/67833cc3069167fcb5a8d954143f9c128e16eba415bc8de542dd822886eccbfc.mp3",
+      "audio/supplement/8318eae9d64f9b60c5c6e372c25bb4d41d284bb2fbf5a08a5d2fbb1ccd6f9ac5.wav": "audio/supplement/8318eae9d64f9b60c5c6e372c25bb4d41d284bb2fbf5a08a5d2fbb1ccd6f9ac5.mp3",
+      "audio/supplement/a9c5194149ce490ae3d997ba69b20d118837fd4e0247668d717b00f64d81e567.wav": "audio/supplement/a9c5194149ce490ae3d997ba69b20d118837fd4e0247668d717b00f64d81e567.mp3"
+    }
+  },
+  "originalWavsRetained": true,
+  "humanListening": false
+}

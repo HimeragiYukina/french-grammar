@@ -1,0 +1,30 @@
+{
+  "text": "Je crois que Léa a reconnu ce titre ; je vais le lui demander.",
+  "text_sha256": "d02213d01d8b40eb46c6cb712c16a37d2c6b47da4e82fb10c84e2988d928d21b",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.4249433106575964,
+      "source_seconds": 3.4249433106575964,
+      "source_file_sha256": "e2728c7545801dda3ea473e38c2de9ccdf8a12243c0c91a29b527f342ba93c56",
+      "file_sha256": "2ec17fdd049ac1069f41ccb86513f57664dfac5da7dc3f151e5dfc63ac376cbb",
+      "bytes": 28256,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
