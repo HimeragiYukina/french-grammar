@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3779,
-  "covered": 3779,
+  "denominator": 3788,
+  "covered": 3788,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -136,10 +136,10 @@
       "kind": "grammar-point",
       "id": "a1-adj",
       "level": "A1",
-      "exactTextUnits": 30,
-      "localFilesPresent": 30,
+      "exactTextUnits": 35,
+      "localFilesPresent": 35,
       "missingLocalFiles": 0,
-      "requiredUnits": 30,
+      "requiredUnits": 35,
       "errorInputUnits": 0
     },
     {
@@ -1027,10 +1027,10 @@
       "kind": "grammar-point",
       "id": "c2-conjecture",
       "level": "C2",
-      "exactTextUnits": 46,
-      "localFilesPresent": 46,
+      "exactTextUnits": 50,
+      "localFilesPresent": 50,
       "missingLocalFiles": 0,
-      "requiredUnits": 46,
+      "requiredUnits": 50,
       "errorInputUnits": 0
     },
     {

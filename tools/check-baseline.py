@@ -7,8 +7,8 @@ for l in ('a1','a2','b1','b2','c1','c2'):
  for kind in ('grammar','expansion'):
   name=f'tools/{kind}-{l}.json';source[name]=json.loads((r/name).read_text(encoding='utf-8'))
 # Verify exact appended suffixes and original prefixes, then restore only this batch in memory.
-from append_batch13_evidence import restore_all_append_batches
-batch13_counts,batch12_counts,batch11_counts,batch10_counts,batch9_counts,batch8_counts,batch7_counts,batch6_counts,batch5_counts,batch4_counts,batch3_counts,append_counts=restore_all_append_batches(source)
+from append_batch14_evidence import restore_all_append_batches
+batch14_counts,batch13_counts,batch12_counts,batch11_counts,batch10_counts,batch9_counts,batch8_counts,batch7_counts,batch6_counts,batch5_counts,batch4_counts,batch3_counts,append_counts=restore_all_append_batches(source)
 # Reverse this batch before replaying historical review ledgers.
 for ch in reversed(json.loads((r/'tools/full-site-review-20261016.json').read_text(encoding='utf-8'))['changes']):
  if ch['file'] not in source:continue
@@ -40,6 +40,7 @@ b=json.loads((r/'tools/content-baseline.json').read_text(encoding='utf-8'))
 for key,data in [('GRAMMAR',g),('PRACTICE',p),('EXPANSIONS',x)]:
  digest=hashlib.sha256(json.dumps(data,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
  assert digest==b['sha256'][key],f'Unrecorded change/loss in {key}'
+print('Batch14 append-only proof:', batch14_counts)
 print('Batch13 append-only proof:', batch13_counts)
 print('Batch12 append-only proof:', batch12_counts)
 print('Batch11 append-only proof:', batch11_counts)

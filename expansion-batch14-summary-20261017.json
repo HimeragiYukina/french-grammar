@@ -1,0 +1,79 @@
+{
+  "title": "颜色配合与条件式语境：第十四批语法补充",
+  "completedUtc": "2026-10-17T04:11:33.269141+00:00",
+  "counts": {
+    "improvedExistingGrammarPoints": 2,
+    "newSections": 1,
+    "newExamples": 3,
+    "newExplainedQuestions": 4,
+    "newPages": 0
+  },
+  "levels": [
+    "A1",
+    "C2"
+  ],
+  "reviewMode": "Single-agent second source reading; not independent peer review",
+  "originalReadingAndVocabularyIndicesPreserved": true,
+  "voiceAndStorageCodeChanged": false,
+  "audio": {
+    "ownExactUnits": 3788,
+    "newCPURecordings": 9,
+    "originalWavsRetained": true,
+    "humanListening": false,
+    "technicalSamples": {
+      "samples": 11,
+      "technicalFailures": 0,
+      "samplesWithCandidateFlags": 0,
+      "byLevelRepository": {
+        "A1": {
+          "grammar": 5
+        },
+        "A2": {
+          "grammar": 1
+        },
+        "B1": {
+          "grammar": 1
+        },
+        "B2": {
+          "grammar": 1
+        },
+        "C1": {
+          "grammar": 1
+        },
+        "C2": {
+          "grammar": 2
+        }
+      },
+      "tags": [
+        "abbreviation",
+        "liaison",
+        "longsentence",
+        "numbers"
+      ],
+      "longreadFull": 0,
+      "longreadParagraphs": 0
+    }
+  },
+  "tests": {
+    "passed": {
+      "points": 97,
+      "appendOnlySections": 1,
+      "appendOnlyPractice": 4,
+      "tamperRejections": 3,
+      "priorLayersPreserved": true
+    },
+    "failed": [],
+    "notTested": [
+      "Human acoustic listening and alignment",
+      "Real microphone/partner interaction",
+      "Actual installed Google français availability"
+    ]
+  },
+  "remotePush": "Paused; local only",
+  "deployment": false,
+  "examFormatChanged": false,
+  "remainingGaps": [
+    "其他课程中的泛化注释、过时引文和未真正完成改述的参考答案仍须逐条核对。",
+    "本批不宣称完成所有级别复核，阅读课程不保证达到C2或获得考试成绩。"
+  ]
+}

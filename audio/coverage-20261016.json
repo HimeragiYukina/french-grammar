@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 7,
+  "generated_this_run": 9,
   "generation_runs": [
     {
-      "generated": 3284,
+      "generated": 3293,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 72.30628061294556,
+  "elapsed_seconds": 66.08010601997375,
   "listened": false,
   "records": [
     {
@@ -153999,17 +153999,17 @@
       "bytes": 27838,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.378503401360544,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/495640ea79797d4434a35af23cd11c6f94e33306d8ea9bd903b10f0b0ede2f23.wav",
         "file_sha256": "2d7307101f9ab067efd314c9bd12a872812eec3b9a8977312bebc32c1360a170",
-        "bytes": 149036,
-        "rms": 6356.825639630926
+        "seconds": 3.378503401360544
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -154040,17 +154040,17 @@
       "bytes": 11119,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.2887074829931973,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/f763372cc7f95988d7118c33668999d3aa7bb72217ac92dd24c77868cbf98299.wav",
         "file_sha256": "b41198c6c0d571311ab050c1296e36aa2da754740a0a544e985edd3219a3665a",
-        "bytes": 56876,
-        "rms": 5206.343456851691
+        "seconds": 1.2887074829931973
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -154081,17 +154081,17 @@
       "bytes": 21777,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.6354648526077096,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/dba3d000f9062592a1e997d5e1a569c030e1a7cbbcdd975d9af1fc9ac672fa02.wav",
         "file_sha256": "70ecb107d2159ec6e1695ed566cd247ff99deb0fa1125865b1761b679ac99727",
-        "bytes": 116268,
-        "rms": 6568.65153690502
+        "seconds": 2.6354648526077096
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -154134,17 +154134,17 @@
       "bytes": 29301,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.564263038548753,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/64ab9b0bdd702a4f6e055b010ddc2a32077591db8525c9108d410b8cde5ba4f5.wav",
         "file_sha256": "bc473f05664f9085d070e71077256b46bb3ed3b8ae6ba644bff24f4dfc06b456",
-        "bytes": 157228,
-        "rms": 5839.453481402106
+        "seconds": 3.564263038548753
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -154175,17 +154175,17 @@
       "bytes": 23240,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.809614512471655,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/a6388c0a2c9e31f6231a5fb6248ecc49ff45711a324a41a5a6a6a5fa34deb04e.wav",
         "file_sha256": "aa1212fa55da18d9f9e7443059f551547e99278bd7458d3b2c2d18a54b3f77e9",
-        "bytes": 123948,
-        "rms": 4830.2583749290725
+        "seconds": 2.809614512471655
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -154216,17 +154216,17 @@
       "bytes": 40795,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 5.00390022675737,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/80f32893c96df6fe6b95497264e02833df7bd9d7980dea2fc57a266a25d22f27.wav",
         "file_sha256": "e7dca66b718cc5f10f6903f3012b1d0c4abe880ab909521d5cf0019ddd55d431",
-        "bytes": 220716,
-        "rms": 4904.883108948226
+        "seconds": 5.00390022675737
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -154257,14 +154257,383 @@
       "bytes": 39123,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 4.783310657596372,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/731dd3fd65c24506f5d666194ddc7e290bc16e1dbcccbaa92ee00ed913da3c24.wav",
         "file_sha256": "aad870e77f76d52223dc6f1fd15cf267f95b46777e27c1e92ed1fedd2cceb3a7",
-        "bytes": 210988,
-        "rms": 5946.4975225223825
+        "seconds": 4.783310657596372
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Il achète trois oranges.",
+      "occurrences": [
+        {
+          "id": "a1-adj",
+          "field": "/a1-adj/sections/4/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 24
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "c5fb506562aeb5ffd72a0c7d048e7a504074fbf5f4b706ed684c0492f6403379",
+      "path": "audio/supplement/c5fb506562aeb5ffd72a0c7d048e7a504074fbf5f4b706ed684c0492f6403379.mp3",
+      "source": "local-siwis",
+      "file_sha256": "d94a16d1f571660d64438585915e5cb46314c23df0998360329aacb362d3ee66",
+      "bytes": 13000,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.5325170068027212,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/c5fb506562aeb5ffd72a0c7d048e7a504074fbf5f4b706ed684c0492f6403379.wav",
+        "file_sha256": "7d9ae8d555b3824975c35c26552a1c3f32dfa5ff9777c922113836954c55dfda",
+        "bytes": 67628,
+        "rms": 6096.477218442966
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Il choisit trois assiettes orange.",
+      "occurrences": [
+        {
+          "id": "a1-adj",
+          "field": "/a1-adj/sections/4/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 34
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "ce3b4dee3c2d36b04f14253f87fb8acc363b373659587174df2f1631328996ea",
+      "path": "audio/supplement/ce3b4dee3c2d36b04f14253f87fb8acc363b373659587174df2f1631328996ea.mp3",
+      "source": "local-siwis",
+      "file_sha256": "3140a65b88492606e50203189e15f9a77a6e5d31946d8b6f41b209f7199e3b32",
+      "bytes": 17598,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.10140589569161,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/ce3b4dee3c2d36b04f14253f87fb8acc363b373659587174df2f1631328996ea.wav",
+        "file_sha256": "e9803dc66db333c482e4e4942f5b7b4b41f9e044895c06daf5f85fbd4144d0d5",
+        "bytes": 92716,
+        "rms": 5241.421017296682
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Les tasses sont roses.",
+      "occurrences": [
+        {
+          "id": "a1-adj",
+          "field": "/a1-adj/sections/4/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 22
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "9aab15a8f0070a57d3421552fe894a1dc4114ffa618ac9f9d684914d1a6ddc61",
+      "path": "audio/supplement/9aab15a8f0070a57d3421552fe894a1dc4114ffa618ac9f9d684914d1a6ddc61.mp3",
+      "source": "local-siwis",
+      "file_sha256": "bd518f1a78985224b1557321ed8a251ac5948dc05231f81c969a58e0977a9298",
+      "bytes": 12373,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.4396371882086167,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/9aab15a8f0070a57d3421552fe894a1dc4114ffa618ac9f9d684914d1a6ddc61.wav",
+        "file_sha256": "8b0dce5a093c7dd3900c3b5c8ac14837ed31ea2906d305d30bc3eb67555245da",
+        "bytes": 63532,
+        "rms": 4140.032823285255
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Deux oranges et deux tasses orange.",
+      "occurrences": [
+        {
+          "id": "a1-adj",
+          "field": "/a1-adj/practice/4/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 35
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "68968434af76f0a0ac9e45315feb590c2fdc5e08e0f8deb8f36e751f1bb03670",
+      "path": "audio/supplement/68968434af76f0a0ac9e45315feb590c2fdc5e08e0f8deb8f36e751f1bb03670.mp3",
+      "source": "local-siwis",
+      "file_sha256": "663c652744d8c9ed0d65651c157dadf102199548de19516404b0fff519e0898b",
+      "bytes": 20733,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.4961451247165534,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/68968434af76f0a0ac9e45315feb590c2fdc5e08e0f8deb8f36e751f1bb03670.wav",
+        "file_sha256": "0b348c34b47d2fb3b78fd028260f92b5e65f5ddf207d7bfccd32dfbe39f1e6bd",
+        "bytes": 110124,
+        "rms": 6714.906481342797
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Les tasses sont roses. Les assiettes sont orange.",
+      "occurrences": [
+        {
+          "id": "a1-adj",
+          "field": "/a1-adj/practice/5/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 49
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "75a039b9f1b57d6917e728c279b9c0841c6c4b9598af5d17087f219c21195da0",
+      "path": "audio/supplement/75a039b9f1b57d6917e728c279b9c0841c6c4b9598af5d17087f219c21195da0.mp3",
+      "source": "local-siwis",
+      "file_sha256": "282e4d466d1702529936b137e7039563a5c8b1a5bb758e17727495e501d0db06",
+      "bytes": 23867,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.8792743764172335,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/75a039b9f1b57d6917e728c279b9c0841c6c4b9598af5d17087f219c21195da0.wav",
+        "file_sha256": "d74df39b8cc7d06188d00315de14b829fc9aede786dc4edc0f48fa30e566cb4c",
+        "bytes": 127020,
+        "rms": 5026.533945408832
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Cette simplification aurait effacé la réserve méthodologique",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/3/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 12,
+              "end_codepoint": 72
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "780a8f88f7cf65f28ce6432eea416ac9ca981dbae808f5961546b739e2c3d2a0",
+      "path": "audio/supplement/780a8f88f7cf65f28ce6432eea416ac9ca981dbae808f5961546b739e2c3d2a0.mp3",
+      "source": "local-siwis",
+      "file_sha256": "7d949747dbd0adbf36f91bd5a2554fb62b84682f2e725aa56b574cecbdd61f10",
+      "bytes": 32017,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.900952380952381,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/780a8f88f7cf65f28ce6432eea416ac9ca981dbae808f5961546b739e2c3d2a0.wav",
+        "file_sha256": "e93476c235e426411119c266a81b0f1958f06100408f436016a2a05804a53579",
+        "bytes": 172076,
+        "rms": 5431.1521943070675
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "La phrase envisage l’effet qu’aurait eu une simplification non retenue ; elle n’affirme pas que la réserve a effectivement été supprimée.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/3/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 137
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "2a2ff0979ad4b2696e085c8a227c8e6815fd56fa9607b7da555debdae4acedde",
+      "path": "audio/supplement/2a2ff0979ad4b2696e085c8a227c8e6815fd56fa9607b7da555debdae4acedde.mp3",
+      "source": "local-siwis",
+      "file_sha256": "fd44e73fec40da396f5403ea9bcbe97f2b9e5093599d8be11e02a7c937c0d54a",
+      "bytes": 51870,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 6.3854875283446715,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/2a2ff0979ad4b2696e085c8a227c8e6815fd56fa9607b7da555debdae4acedde.wav",
+        "file_sha256": "b131d6caa06bce206773aa6a260685142f386af35ea0628412504593091ef464",
+        "bytes": 281644,
+        "rms": 4671.353783217768
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Selon le laboratoire, le résultat serait provisoire",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/4/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 6,
+              "end_codepoint": 57
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "0eb1dabf8b9317e9b85574524c0126cabc8db582d37946901c11e7afeb367cb1",
+      "path": "audio/supplement/0eb1dabf8b9317e9b85574524c0126cabc8db582d37946901c11e7afeb367cb1.mp3",
+      "source": "local-siwis",
+      "file_sha256": "cb642f41121a6f11f2e0022b03c577cb22605eaf1a6d18165709fec30ad2ff54",
+      "bytes": 26793,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.2624036281179136,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/0eb1dabf8b9317e9b85574524c0126cabc8db582d37946901c11e7afeb367cb1.wav",
+        "file_sha256": "9df502022b826e82cdfca2d300fbd247a15fbe78efa78e18f61c17f25cbc916b",
+        "bytes": 143916,
+        "rms": 5016.888893077105
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Le laboratoire est la source mentionnée. Le conditionnel marque une distance à l’égard de l’information ; la phrase ne donne aucun pourcentage de certitude.",
+      "occurrences": [
+        {
+          "id": "c2-conjecture",
+          "field": "/c2-conjecture/practice/4/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 156
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "1f3e689946a061720f4bfdee92c088f2793706a4292481dce85a4cb834a6fd3d",
+      "path": "audio/supplement/1f3e689946a061720f4bfdee92c088f2793706a4292481dce85a4cb834a6fd3d.mp3",
+      "source": "local-siwis",
+      "file_sha256": "53317c31c0a2d13ba23571072c9ef9b4a8a92fbe2f100003e735730a8deb2ed6",
+      "bytes": 74022,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 9.160272108843538,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/1f3e689946a061720f4bfdee92c088f2793706a4292481dce85a4cb834a6fd3d.wav",
+        "file_sha256": "223d20546defb31b9f6eca5b9019ccc64f2500155e3602dd1eedf60b497ae1e6",
+        "bytes": 404012,
+        "rms": 4849.095473189467
       },
       "codec": "libmp3lame",
       "bitrate": 64000

@@ -1,0 +1,25 @@
+{
+  "references": [
+    {
+      "title": "OQLF — Accord des adjectifs de couleur de forme simple",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21721/la-grammaire/ladjectif/accord-de-ladjectif/adjectifs-de-couleur/accord-des-adjectifs-de-couleur-de-forme-simple",
+      "checked": "2026-10-17",
+      "note": "核对orange与rose等例外；例句原创。"
+    },
+    {
+      "title": "OQLF — Accord des adjectifs de couleur de forme composée",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21724/la-grammaire/ladjectif/accord-de-ladjectif/adjectifs-de-couleur/accord-des-adjectifs-de-couleur-de-forme-composee",
+      "checked": "2026-10-17",
+      "note": "核对浅深等成分共同限定颜色时的不变；不复制资料例句。"
+    },
+    {
+      "title": "OQLF — Valeur modale du conditionnel",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24148/la-grammaire/le-verbe/temps-grammaticaux/conditionnel/valeur-modale-du-conditionnel",
+      "checked": "2026-10-17",
+      "note": "核对条件式的假设、评价及转述等语境值；本课不是固定概率表，所有例句原创。"
+    }
+  ],
+  "checked": "2026-10-17",
+  "examples": "Original; no source examples copied",
+  "examFormatChanged": false
+}

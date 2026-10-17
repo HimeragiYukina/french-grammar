@@ -1,0 +1,30 @@
+{
+  "text": "Le laboratoire est la source mentionnée. Le conditionnel marque une distance à l’égard de l’information ; la phrase ne donne aucun pourcentage de certitude.",
+  "text_sha256": "1f3e689946a061720f4bfdee92c088f2793706a4292481dce85a4cb834a6fd3d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 9.160272108843538,
+      "source_seconds": 9.160272108843538,
+      "source_file_sha256": "223d20546defb31b9f6eca5b9019ccc64f2500155e3602dd1eedf60b497ae1e6",
+      "file_sha256": "53317c31c0a2d13ba23571072c9ef9b4a8a92fbe2f100003e735730a8deb2ed6",
+      "bytes": 74022,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

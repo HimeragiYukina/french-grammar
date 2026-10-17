@@ -1,0 +1,30 @@
+{
+  "text": "La phrase envisage l’effet qu’aurait eu une simplification non retenue ; elle n’affirme pas que la réserve a effectivement été supprimée.",
+  "text_sha256": "2a2ff0979ad4b2696e085c8a227c8e6815fd56fa9607b7da555debdae4acedde",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 6.3854875283446715,
+      "source_seconds": 6.3854875283446715,
+      "source_file_sha256": "b131d6caa06bce206773aa6a260685142f386af35ea0628412504593091ef464",
+      "file_sha256": "fd44e73fec40da396f5403ea9bcbe97f2b9e5093599d8be11e02a7c937c0d54a",
+      "bytes": 51870,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

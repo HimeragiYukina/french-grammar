@@ -1521,6 +1521,16 @@ window.GRAMMAR_DATA.C2={
           "q": "比较 Selon un témoin, elle aurait présenté le rapport 与 Il est possible qu’elle ait présenté le rapport：改述时会丢失什么？",
           "a": "La seconde phrase exprime une possibilité, mais ne conserve pas l’attribution à un témoin ni la même distance énonciative.",
           "note": "两句都未作完全确认，但前句保留证人来源与转述距离；后句只提出可能性。不得把“据称”改成“已证实”，也不能指定固定概率差。"
+        },
+        {
+          "q": "编辑未采用一种简写。解释Cette simplification aurait effacé la réserve méthodologique为何不应直接写成已删掉限制。",
+          "a": "La phrase envisage l’effet qu’aurait eu une simplification non retenue ; elle n’affirme pas que la réserve a effectivement été supprimée.",
+          "note": "该条件式过去由明确的未采用方案语境支持；不能机械按形式标成未经证实的新闻消息。"
+        },
+        {
+          "q": "书面摘要只有Selon le laboratoire, le résultat serait provisoire。指出可保留的来源与距离，不替它写确认概率。",
+          "a": "Le laboratoire est la source mentionnée. Le conditionnel marque une distance à l’égard de l’information ; la phrase ne donne aucun pourcentage de certitude.",
+          "note": "来源仍是实验室；转述距离不是任意数字，也不等于说结果已被独立复核。"
         }
       ]
     },

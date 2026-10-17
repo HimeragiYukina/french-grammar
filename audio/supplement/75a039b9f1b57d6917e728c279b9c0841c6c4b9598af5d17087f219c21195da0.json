@@ -1,0 +1,30 @@
+{
+  "text": "Les tasses sont roses. Les assiettes sont orange.",
+  "text_sha256": "75a039b9f1b57d6917e728c279b9c0841c6c4b9598af5d17087f219c21195da0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.8792743764172335,
+      "source_seconds": 2.8792743764172335,
+      "source_file_sha256": "d74df39b8cc7d06188d00315de14b829fc9aede786dc4edc0f48fa30e566cb4c",
+      "file_sha256": "282e4d466d1702529936b137e7039563a5c8b1a5bb758e17727495e501d0db06",
+      "bytes": 23867,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

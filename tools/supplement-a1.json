@@ -289,6 +289,27 @@
             "use": "noire阴单；rouges复数。rouge的阴性形式不再加第二个e。"
           }
         ]
+      },
+      {
+        "title": "同一写法的不同身份：水果名词与颜色形容词",
+        "explanation": "orange作水果名词时有复数；作颜色修饰另一个名词时保持不变。rose是已词汇化、正常配合的颜色形容词，不能因它也指花就不配合。这里先比较实际句子，不要求A1记全部颜色词来源。规则参考：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/21721/la-grammaire/ladjectif/accord-de-ladjectif/adjectifs-de-couleur/accord-des-adjectifs-de-couleur-de-forme-simple\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF颜色配合</a>（2026-10-17）。",
+        "examples": [
+          {
+            "fr": "Il achète trois oranges.",
+            "zh": "他买三个橙子。",
+            "use": "水果名词orange按普通可数名词写复数。"
+          },
+          {
+            "fr": "Il choisit trois assiettes orange.",
+            "zh": "他选三个橙色盘子。",
+            "use": "orange修饰assiettes，保持不变。"
+          },
+          {
+            "fr": "Les tasses sont roses.",
+            "zh": "杯子是粉色的。",
+            "use": "rose作颜色形容词正常随复数tasses写roses。"
+          }
+        ]
       }
     ],
     "related": [],
@@ -312,6 +333,16 @@
         "q": "把“桌布是黑色，餐巾是红色”写成两句：nappe阴单，serviettes阴复。",
         "a": "La nappe est noire. Les serviettes sont rouges.",
         "note": "可用et合句。noire的e是阴性配合；rouges的s是复数拼写，不给rouge再加e。"
+      },
+      {
+        "q": "写“两个橙子、两个橙色杯子”。分别判断orange是水果名词还是颜色修饰语。",
+        "a": "Deux oranges et deux tasses orange.",
+        "note": "前一个是水果名词的复数，后一个修饰tasses表颜色。两个地方不可机械同写或都不加s。"
+      },
+      {
+        "q": "杯子是粉色，盘子是橙色。用tasses和assiettes各写一句，保留复数。",
+        "a": "Les tasses sont roses. Les assiettes sont orange.",
+        "note": "也可用et合句。rose正常配合，orange作颜色保持不变；作表语并不取消这一区别。"
       }
     ]
   },

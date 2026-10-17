@@ -1,0 +1,30 @@
+{
+  "text": "Cette simplification aurait effacé la réserve méthodologique",
+  "text_sha256": "780a8f88f7cf65f28ce6432eea416ac9ca981dbae808f5961546b739e2c3d2a0",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.900952380952381,
+      "source_seconds": 3.900952380952381,
+      "source_file_sha256": "e93476c235e426411119c266a81b0f1958f06100408f436016a2a05804a53579",
+      "file_sha256": "7d949747dbd0adbf36f91bd5a2554fb62b84682f2e725aa56b574cecbdd61f10",
+      "bytes": 32017,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

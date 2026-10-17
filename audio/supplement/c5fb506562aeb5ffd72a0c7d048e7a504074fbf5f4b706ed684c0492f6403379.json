@@ -1,0 +1,30 @@
+{
+  "text": "Il achète trois oranges.",
+  "text_sha256": "c5fb506562aeb5ffd72a0c7d048e7a504074fbf5f4b706ed684c0492f6403379",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 1.5325170068027212,
+      "source_seconds": 1.5325170068027212,
+      "source_file_sha256": "7d9ae8d555b3824975c35c26552a1c3f32dfa5ff9777c922113836954c55dfda",
+      "file_sha256": "d94a16d1f571660d64438585915e5cb46314c23df0998360329aacb362d3ee66",
+      "bytes": 13000,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
