@@ -1,0 +1,456 @@
+{
+  "scope": "Bounded selected audio technical sample review; exacttext/current mapping/hash/full PCM decode/metrics. No human listening, pronunciation, speech-content alignment or truncation verdict.",
+  "method": {
+    "cpu": "two-core affinity, one decode process at a time, codec/filter one thread, hidden BELOW_NORMAL",
+    "silence": "20ms RMS below -45dBFS",
+    "flags": "Threshold candidates for human review, never proof of pronunciation or truncation",
+    "ASRModulesUnavailable": {
+      "whisper": true,
+      "faster_whisper": true,
+      "vosk": true
+    }
+  },
+  "listen": false,
+  "speechAlignment": "not_verified",
+  "summary": {
+    "samples": 7,
+    "technicalFailures": 0,
+    "samplesWithCandidateFlags": 0,
+    "byLevelRepository": {
+      "A1": {
+        "grammar": 1
+      },
+      "A2": {
+        "grammar": 1
+      },
+      "B1": {
+        "grammar": 1
+      },
+      "B2": {
+        "grammar": 1
+      },
+      "C1": {
+        "grammar": 1
+      },
+      "C2": {
+        "grammar": 2
+      }
+    },
+    "tags": [
+      "abbreviation",
+      "quotes"
+    ],
+    "longreadFull": 0,
+    "longreadParagraphs": 0
+  },
+  "currentTextResolutions": [],
+  "prioritySelections": [],
+  "samples": [
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "Celle-ci renvoie à l’ouverture nocturne annoncée. Cette reprise identifie l’objet du discours, mais ne prouve pas que l’ouverture aura effectivement lieu.",
+      "path": "audio/supplement/dad31696fafe10488d9c3c2a57bf0de197a38276b13022f97d4e12c6ac7f720d.mp3",
+      "textSHA256": "dad31696fafe10488d9c3c2a57bf0de197a38276b13022f97d4e12c6ac7f720d",
+      "fileSHA256": "0ee4d40a02cbd08b2f5b072ec3418af06822709259fdcac35d78deacea535ccf",
+      "bytes": 67753,
+      "coverageSeconds": 8.370793650793651,
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/practice/7/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 154
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 8.370793650793651,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.14245492003245083,
+        "rmsDbFS": -16.92645093466139,
+        "nonzeroFraction": 0.9840228415395285,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.12,
+        "trailingSilenceSeconds": 0.1508,
+        "maximumInternalSilenceSeconds": 0.2,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "Le dispositif d’aide est prévu, mais ses modalités restent à préciser.",
+      "path": "audio/supplement/47286736a6e40eb3e1fa0b1cb39bcba6fc4fae19970bb12bdafdc3d222cb9816.mp3",
+      "textSHA256": "47286736a6e40eb3e1fa0b1cb39bcba6fc4fae19970bb12bdafdc3d222cb9816",
+      "fileSHA256": "137b57eebec147bc6f2edfbc030ac4496eb32fad6c237fcae3015a709d425dc3",
+      "bytes": 32853,
+      "coverageSeconds": 4.005442176870749,
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/practice/8/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 70
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 4.005442176870749,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.14440787181936332,
+        "rmsDbFS": -16.80818264578019,
+        "nonzeroFraction": 0.9544044384057971,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.06,
+        "trailingSilenceSeconds": 0.1654,
+        "maximumInternalSilenceSeconds": 0.46,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C1"
+      ],
+      "tags": [
+        "abbreviation"
+      ],
+      "text": "La responsable, en l'occurrence Mme Durand, signera le document.",
+      "path": "audio/supplement/f9eab3bb6e935437bfa4a9f8a281960ff8b5b2d1fd58c4c0ef0d7da109df28c3.mp3",
+      "textSHA256": "f9eab3bb6e935437bfa4a9f8a281960ff8b5b2d1fd58c4c0ef0d7da109df28c3",
+      "fileSHA256": "d6f4f22a38dc94708808f39d73bcd56092a9708b379a817b632a04b7079ec27e",
+      "bytes": 36406,
+      "coverageSeconds": 4.458231292517007,
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/sections/4/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 64
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 4.458231292517007,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1500720673963127,
+        "rmsDbFS": -16.47400269138153,
+        "nonzeroFraction": 0.956817626953125,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1182,
+        "maximumInternalSilenceSeconds": 0.36,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A1"
+      ],
+      "tags": [
+        "abbreviation"
+      ],
+      "text": "Tout nom français a un genre (masculin/féminin). L'article défini (le, la, l', les) s'emploie pour une chose précise, connue ou unique.",
+      "path": "audio/fr-FR/f54a11a717866845.mp3",
+      "textSHA256": "958c16f22a07dc5bd40ce311fb9c8b15dc0c8ea1faf0cabe95df079fcf930a00",
+      "fileSHA256": "6a3e6105be16787e62c7e1a6fc689e1cddb5fa251373aa89dcacb02725820653",
+      "bytes": 65376,
+      "coverageSeconds": null,
+      "occurrences": [
+        {
+          "id": "a1-genre",
+          "field": "/a1-genre/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 135
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": null
+      },
+      "metrics": {
+        "decodedSeconds": 10.896,
+        "sampleRate": 24000,
+        "channels": 1,
+        "rms": 0.08548236189606777,
+        "rmsDbFS": -21.36246973384257,
+        "nonzeroFraction": 0.828392682329907,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.916,
+        "maximumInternalSilenceSeconds": 1.0,
+        "internalSilencesGE0_5Seconds": [
+          {
+            "start": 3.14,
+            "end": 4.14,
+            "seconds": 1.0
+          }
+        ],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A2"
+      ],
+      "tags": [],
+      "text": "La semaine dernière, ils ___ (choisir) un cadeau.",
+      "path": "audio/supplement/5f70746bb20b9c8373c456a1e94a2cbb67930d33609de8c46dace0827deecd59.mp3",
+      "textSHA256": "5f70746bb20b9c8373c456a1e94a2cbb67930d33609de8c46dace0827deecd59",
+      "fileSHA256": "541bcd9fe11e4a9671efba9fe5d9ac9c50547afba25dbffeaf862090b1a70251",
+      "bytes": 22613,
+      "coverageSeconds": 2.7399546485260773,
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/2/q",
+          "source": "runtime.PRACTICE",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 49
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.7399546485260773,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1382962438500469,
+        "rmsDbFS": -17.18379230487821,
+        "nonzeroFraction": 0.9119438559322034,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.06,
+        "trailingSilenceSeconds": 0.08,
+        "maximumInternalSilenceSeconds": 0.38,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [],
+      "text": "Quand je suis arrivé, le train était déjà parti.",
+      "path": "audio/fr-FR/e6d0c2b7a96f2e4a.mp3",
+      "textSHA256": "dc4c6d21c6f964562a4e182322d0b549cbe22f6f562c31f398a4ca7d00d24904",
+      "fileSHA256": "61b90ee504c5d814fb9b6a7491d11d7c4c344650e59aad2e85305e5260e147b6",
+      "bytes": 22464,
+      "coverageSeconds": null,
+      "occurrences": [
+        {
+          "id": "b1-pqp",
+          "field": "/b1-pqp/ex/0/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": null
+      },
+      "metrics": {
+        "decodedSeconds": 3.744,
+        "sampleRate": 24000,
+        "channels": 1,
+        "rms": 0.07718579174619833,
+        "rmsDbFS": -22.249252732695474,
+        "nonzeroFraction": 0.7488425925925926,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.904,
+        "maximumInternalSilenceSeconds": 0.28,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B2"
+      ],
+      "tags": [],
+      "text": "J'attends que tu viennes ; je regrette que tu ne sois pas venu hier.",
+      "path": "audio/supplement/6da86e31ef23f6f49d57d9511cfeb20c5ae593a85d28f5cc763ff8c5aedb5de9.mp3",
+      "textSHA256": "6da86e31ef23f6f49d57d9511cfeb20c5ae593a85d28f5cc763ff8c5aedb5de9",
+      "fileSHA256": "20b8765762190fa5c0ce56a987fdec0ffa0b9d3b36ac3f5afd790a245d8f26e1",
+      "bytes": 28256,
+      "coverageSeconds": 3.4481632653061225,
+      "occurrences": [
+        {
+          "id": "b2-subj-passe",
+          "field": "/b2-subj-passe/ex/2/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 89
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.4481632653061225,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.13932556012471103,
+        "rmsDbFS": -17.119384045846914,
+        "nonzeroFraction": 0.9671585648148148,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.14,
+        "trailingSilenceSeconds": 0.1482,
+        "maximumInternalSilenceSeconds": 0.16,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    }
+  ]
+}

@@ -172,6 +172,16 @@
         "q": "比较两句的enfin：Nous avons relu l’introduction et, enfin, la conclusion. / Le livre est parfait, enfin, sa structure me plaît beaucoup. 用两句法语说明列举与修复。",
         "a": "Dans la première phrase, enfin introduit le dernier élément de la série. Dans la seconde, il corrige la portée de l’appréciation en la limitant à la structure.",
         "note": "前句不取消已重读引言；后句返回前话收窄评价。也可用rectification/reformulation等准确描述。"
+      },
+      {
+        "q": "某报告写Le club annonce une ouverture nocturne. Celle-ci reste à confirmer。说明celle-ci指什么，不能把回指当成何种证明。",
+        "a": "Celle-ci renvoie à l’ouverture nocturne annoncée. Cette reprise identifie l’objet du discours, mais ne prouve pas que l’ouverture aura effectivement lieu.",
+        "note": "代词承接一个被宣布的安排；第二句还明确待确认，不能因回指成功就认定安排已实现。"
+      },
+      {
+        "q": "报道写Un dispositif d’aide est prévu. Ses modalités ne sont pas encore connues。用一句法语保留安排与细节未知，不写成已全天运行。",
+        "a": "Le dispositif d’aide est prévu, mais ses modalités restent à préciser.",
+        "note": "ses回指dispositif；prévu与细节未知均保留，不凭安排用现在时就推定已经投入运行。"
       }
     ],
     "related": [

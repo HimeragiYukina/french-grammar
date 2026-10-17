@@ -1,0 +1,30 @@
+{
+  "text": "Le club annonce une ouverture nocturne. Celle-ci reste à confirmer",
+  "text_sha256": "f0f212fc38ed380b6ad18015a27541d02f39879949651064bda56eef430dbd3f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.7500226757369615,
+      "source_seconds": 3.7500226757369615,
+      "source_file_sha256": "883d61fa15a45df51b5d86d02ce8a8de90b0e1748a7465124cc2a261e925b214",
+      "file_sha256": "eac55202187a2eeff724f4f884896f78d9396f224c46a0e6593288d6ef71ef0f",
+      "bytes": 30764,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "status": "local-files-and-final-browser-verified",
-  "denominator": 3788,
-  "covered": 3788,
+  "denominator": 3792,
+  "covered": 3792,
   "missing": 0,
   "rowCounts": {
     "grammar-point": 97,
@@ -1060,10 +1060,10 @@
       "kind": "grammar-point",
       "id": "c2-cohesion",
       "level": "C2",
-      "exactTextUnits": 65,
-      "localFilesPresent": 65,
+      "exactTextUnits": 69,
+      "localFilesPresent": 69,
       "missingLocalFiles": 0,
-      "requiredUnits": 63,
+      "requiredUnits": 67,
       "errorInputUnits": 2
     },
     {

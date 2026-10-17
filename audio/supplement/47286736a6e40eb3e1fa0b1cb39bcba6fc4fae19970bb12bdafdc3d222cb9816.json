@@ -1,0 +1,30 @@
+{
+  "text": "Le dispositif d’aide est prévu, mais ses modalités restent à préciser.",
+  "text_sha256": "47286736a6e40eb3e1fa0b1cb39bcba6fc4fae19970bb12bdafdc3d222cb9816",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 4.005442176870749,
+      "source_seconds": 4.005442176870749,
+      "source_file_sha256": "939b3f7c0b2af9ea3a55a32212065ece793afa40ce725adf2203aab76f47a643",
+      "file_sha256": "137b57eebec147bc6f2edfbc030ac4496eb32fad6c237fcae3015a709d425dc3",
+      "bytes": 32853,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
