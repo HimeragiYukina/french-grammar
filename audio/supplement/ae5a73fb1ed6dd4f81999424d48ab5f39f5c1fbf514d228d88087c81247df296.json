@@ -1,0 +1,30 @@
+{
+  "text": "d’une part",
+  "text_sha256": "ae5a73fb1ed6dd4f81999424d48ab5f39f5c1fbf514d228d88087c81247df296",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 0.8359183673469388,
+      "source_seconds": 0.8359183673469388,
+      "source_file_sha256": "96e1c258b7a443c1024a17bd8304c9ecf5153d088d21891c8cb08605157ca95b",
+      "file_sha256": "d0e0637ccb9624b1e7c3a8f1d2da85300f271c9e9bfbf16f88c2543ed73ed9c9",
+      "bytes": 7358,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

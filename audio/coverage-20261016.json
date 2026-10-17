@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 4,
+  "generated_this_run": 6,
   "generation_runs": [
     {
-      "generated": 3339,
+      "generated": 3345,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 57.734127044677734,
+  "elapsed_seconds": 59.044644594192505,
   "listened": false,
   "records": [
     {
@@ -156425,17 +156425,17 @@
       "bytes": 10701,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.230657596371882,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/47faba386e298c8d7168f9ebe7477a5dbec37d8fd80988cdebc21bf2fa87e1f6.wav",
         "file_sha256": "0ab283ee6aecbd8ff295da5ed9d7586961c7a918b14e719647caff45006f1daf",
-        "bytes": 54316,
-        "rms": 4614.847851026779
+        "seconds": 1.230657596371882
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156466,17 +156466,17 @@
       "bytes": 30973,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.7848526077097504,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/d49f79728743570abdf1b8d42e7c6dfac70e3b558aba09a48b7da02e722c571c.wav",
         "file_sha256": "f76aca7d705f0f530d1dfd99dc7bf619ec530493f5a723140724290c1f213eba",
-        "bytes": 166956,
-        "rms": 5868.581785049347
+        "seconds": 3.7848526077097504
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156507,17 +156507,17 @@
       "bytes": 13209,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.555736961451247,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/439f09927c44fa67474d1cb37107206db42535f400cd6dc1a3ee3417198439cb.wav",
         "file_sha256": "1bc03fab26e8b832a3e7ad00b4de312c38aa3f577b786a740911baee40bb607e",
-        "bytes": 68652,
-        "rms": 5853.274102175086
+        "seconds": 1.555736961451247
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -156548,14 +156548,260 @@
       "bytes": 19688,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.36843537414966,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/7473467738bb3e6382710d9c2a21b8e542c1410882b50fe158e2cd885acbe3af.wav",
         "file_sha256": "b941899b5c92cb03201b5316487cc50b14ea1ecb3c0ff91a511de9ef069136fc",
-        "bytes": 104492,
-        "rms": 5569.7618188527595
+        "seconds": 2.36843537414966
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "d’une part",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/practice/9/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 29,
+              "end_codepoint": 39
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "ae5a73fb1ed6dd4f81999424d48ab5f39f5c1fbf514d228d88087c81247df296",
+      "path": "audio/supplement/ae5a73fb1ed6dd4f81999424d48ab5f39f5c1fbf514d228d88087c81247df296.mp3",
+      "source": "local-siwis",
+      "file_sha256": "d0e0637ccb9624b1e7c3a8f1d2da85300f271c9e9bfbf16f88c2543ed73ed9c9",
+      "bytes": 7358,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.8359183673469388,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/ae5a73fb1ed6dd4f81999424d48ab5f39f5c1fbf514d228d88087c81247df296.wav",
+        "file_sha256": "96e1c258b7a443c1024a17bd8304c9ecf5153d088d21891c8cb08605157ca95b",
+        "bytes": 36908,
+        "rms": 5887.9936076465865
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "d’autre part",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/practice/9/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 40,
+              "end_codepoint": 52
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "57312f6e6c40c1de8593788475e9d45d9acfcda3da5b32dc7e276d1b83adabe1",
+      "path": "audio/supplement/57312f6e6c40c1de8593788475e9d45d9acfcda3da5b32dc7e276d1b83adabe1.mp3",
+      "source": "local-siwis",
+      "file_sha256": "b6e1677db288db07a12dee9c9064892c36a202b6b69eae57a76deef4c9fea88b",
+      "bytes": 9239,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 1.0565079365079366,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/57312f6e6c40c1de8593788475e9d45d9acfcda3da5b32dc7e276d1b83adabe1.wav",
+        "file_sha256": "fc718e827e053a1e10b516024bf57198babb7ce9c0b59ac62d0ad26151cac087",
+        "bytes": 46636,
+        "rms": 5227.418339548863
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "D’une part, les contours du dessin sont plus nets ; d’autre part, sa date reste incertaine.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/practice/9/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 91
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "632e1c99e38020351597dadb24b673a91230b6323ef8626c13d17c2c6d6cb1cf",
+      "path": "audio/supplement/632e1c99e38020351597dadb24b673a91230b6323ef8626c13d17c2c6d6cb1cf.mp3",
+      "source": "local-siwis",
+      "file_sha256": "8a656dc19501280e71f2bb2b8dd5a90516b8dc2868c85367bae50258327d1567",
+      "bytes": 42675,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 5.2477097505668935,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/632e1c99e38020351597dadb24b673a91230b6323ef8626c13d17c2c6d6cb1cf.wav",
+        "file_sha256": "4d6726a1ba969728d518a6cc015f3084e0d39346d1d9ef05d31f39f538af328b",
+        "bytes": 231468,
+        "rms": 5055.340121662199
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Les contours sont plus nets, mais la date du dessin reste incertaine. Cette amélioration ne résout pas la seconde question.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/practice/10/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 20,
+              "end_codepoint": 143
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "1aec6c0c61e4c16cc75a75cd5a566af95eaab07ff68db929573e35c88b138066",
+      "path": "audio/supplement/1aec6c0c61e4c16cc75a75cd5a566af95eaab07ff68db929573e35c88b138066.mp3",
+      "source": "local-siwis",
+      "file_sha256": "0acf39f2f22740ef461e0a232db4ac709e1128d52b1b969ca94bfb94e20b0da5",
+      "bytes": 55214,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 6.8034467120181406,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/1aec6c0c61e4c16cc75a75cd5a566af95eaab07ff68db929573e35c88b138066.wav",
+        "file_sha256": "6eb2ea5920eb7baea0597e3c910e77a80fb358cb7546e8d2e9e2044911e27f5f",
+        "bytes": 300076,
+        "rms": 5225.9846419587775
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "L’amélioration de la netteté des contours ne permet pas, à elle seule, de déterminer la date du dessin.",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/practice/10/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 103
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "a46b8026c9b9db2afe63aeb4b99a3bff098ede002dded1ac93ea60f2bbf41f97",
+      "path": "audio/supplement/a46b8026c9b9db2afe63aeb4b99a3bff098ede002dded1ac93ea60f2bbf41f97.mp3",
+      "source": "local-siwis",
+      "file_sha256": "eb4ad1b35a4b48332e04060d8e2cafb82c4a68b9a0785824eea9cb562442f0cf",
+      "bytes": 45392,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 5.572789115646258,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/a46b8026c9b9db2afe63aeb4b99a3bff098ede002dded1ac93ea60f2bbf41f97.wav",
+        "file_sha256": "e71732cd6a8e3ab0c576ea1812f9a2716438c5258c420c325e2ac3187a2aa59c",
+        "bytes": 245804,
+        "rms": 5365.268877324295
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "à elle seule",
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/practice/10/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 39,
+              "end_codepoint": 51
+            }
+          ],
+          "kind": "eligible_phrase"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_phrase"
+      ],
+      "kind": "eligible_phrase",
+      "sha256": "fe4b5644517bbaca4fe0e14bde237f995f6cb67b7d3cf899f2b1eaab3f0e1267",
+      "path": "audio/supplement/fe4b5644517bbaca4fe0e14bde237f995f6cb67b7d3cf899f2b1eaab3f0e1267.mp3",
+      "source": "local-siwis",
+      "file_sha256": "923978511115f81679185048a40acb54a878e5daba8b9325f86808710e0a5691",
+      "bytes": 7567,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 0.8591383219954648,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/fe4b5644517bbaca4fe0e14bde237f995f6cb67b7d3cf899f2b1eaab3f0e1267.wav",
+        "file_sha256": "267fb617e306218912546fabe05a33df31363cb8014dedee54fa33f7937c6e21",
+        "bytes": 37932,
+        "rms": 6253.38655562006
       },
       "codec": "libmp3lame",
       "bitrate": 64000

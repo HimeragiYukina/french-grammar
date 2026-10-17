@@ -2061,6 +2061,16 @@ window.GRAMMAR_DATA.C2={
           "q": "报道写Un dispositif d’aide est prévu. Ses modalités ne sont pas encore connues。用一句法语保留安排与细节未知，不写成已全天运行。",
           "a": "Le dispositif d’aide est prévu, mais ses modalités restent à préciser.",
           "note": "ses回指dispositif；prévu与细节未知均保留，不凭安排用现在时就推定已经投入运行。"
+        },
+        {
+          "q": "独立虚构图画记录：修整后轮廓更清晰，但图画年代仍未确定。用d’une part与d’autre part并列两项信息，不写成清晰就已断代。",
+          "a": "D’une part, les contours du dessin sont plus nets ; d’autre part, sa date reste incertaine.",
+          "note": "两部分分别谈可见轮廓和年代知识状态，二者可同时成立；连接词不建立“更清楚所以年代已知”的因果。"
+        },
+        {
+          "q": "同一原创记录中，把泛泛回指换成明确名词：Les contours sont plus nets, mais la date du dessin reste incertaine. Cette amélioration ne résout pas la seconde question. 重写最后一句，点名改善与仍待确定的对象。",
+          "a": "L’amélioration de la netteté des contours ne permet pas, à elle seule, de déterminer la date du dessin.",
+          "note": "改善的是轮廓清晰度，未确定的是年代；明确名词比让读者跨句猜两处指代更清楚。限定à elle seule保留材料范围，不否定所有进一步研究的可能。"
         }
       ]
     },

@@ -1,0 +1,30 @@
+{
+  "text": "D’une part, les contours du dessin sont plus nets ; d’autre part, sa date reste incertaine.",
+  "text_sha256": "632e1c99e38020351597dadb24b673a91230b6323ef8626c13d17c2c6d6cb1cf",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 5.2477097505668935,
+      "source_seconds": 5.2477097505668935,
+      "source_file_sha256": "4d6726a1ba969728d518a6cc015f3084e0d39346d1d9ef05d31f39f538af328b",
+      "file_sha256": "8a656dc19501280e71f2bb2b8dd5a90516b8dc2868c85367bae50258327d1567",
+      "bytes": 42675,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}
