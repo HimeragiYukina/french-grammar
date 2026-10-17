@@ -1,0 +1,78 @@
+{
+  "completedUtc": "2026-10-17T18:22:26.151495+00:00",
+  "counts": {
+    "improvedExistingGrammarPoints": 1,
+    "newSections": 1,
+    "newPairedExamples": 3,
+    "newExplainedQuestions": 2,
+    "newPages": 0
+  },
+  "levels": [
+    "B1"
+  ],
+  "reviewMode": "Single-agent second reading; not independent peer review",
+  "audio": {
+    "newDeliveredClips": 8,
+    "ownActiveExactUnits": 3873,
+    "reusedOwnActiveExactUnits": 3865,
+    "originalReadingAudioRegenerated": 0,
+    "originalWavsRetained": true,
+    "humanListening": false,
+    "technicalSamples": {
+      "samples": 13,
+      "technicalFailures": 0,
+      "samplesWithCandidateFlags": 0,
+      "byLevelRepository": {
+        "A1": {
+          "grammar": 1
+        },
+        "A2": {
+          "grammar": 1
+        },
+        "B1": {
+          "grammar": 8
+        },
+        "B2": {
+          "grammar": 1
+        },
+        "C1": {
+          "grammar": 1
+        },
+        "C2": {
+          "grammar": 1
+        }
+      },
+      "tags": [
+        "abbreviation",
+        "quotes"
+      ],
+      "longreadFull": 0,
+      "longreadParagraphs": 0
+    }
+  },
+  "tests": {
+    "passed": {
+      "grammarPoints": 97,
+      "newSectionExamplesAndPracticeAssertions": 42,
+      "appendOnlySections": 1,
+      "appendOnlyPractice": 2,
+      "tamperRejections": 3,
+      "protectedHistoricalEvidenceUnchanged": true,
+      "baselineStrictContentChecksPassed": true
+    },
+    "failed": [],
+    "notTested": [
+      "Human acoustic listening or speech alignment",
+      "Real microphone or partner interaction",
+      "Actual installed Google français availability"
+    ]
+  },
+  "voiceAndStorageCodeChanged": false,
+  "examFormatChanged": false,
+  "newDeployment": false,
+  "pushStatus": "Acceptance snapshot; original-target remote save verified separately",
+  "grammarPoint": "b1-discours-indirect",
+  "newMaterialOriginal": true,
+  "originalReferencesRetained": true,
+  "reviewedVoiceLimit": "The given context supports viewpoint identification; tense or punctuation alone does not prove the discourse type or actual realization of a thought."
+}

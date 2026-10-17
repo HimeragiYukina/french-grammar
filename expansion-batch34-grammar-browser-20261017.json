@@ -1,0 +1,176 @@
+{
+  "passed": 42,
+  "failed": [],
+  "checks": [
+    {
+      "name": "b1-discours-indirect 390 HTTP and local selection",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 new section title and explanation",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 new section example text 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 new section mapped example 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 new section actual playback 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 new section example text 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 new section mapped example 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 new section actual playback 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 new section example text 2",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 new section mapped example 2",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 new section actual playback 2",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 unique new question 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 answer and explanation 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 exact mapped answer 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 actual local answer playback 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 unique new question 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 answer and explanation 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 exact mapped answer 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 actual local answer playback 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 viewport fits",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 390 no page error",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 HTTP and local selection",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 new section title and explanation",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 new section example text 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 new section mapped example 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 new section actual playback 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 new section example text 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 new section mapped example 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 new section actual playback 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 new section example text 2",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 new section mapped example 2",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 new section actual playback 2",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 unique new question 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 answer and explanation 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 exact mapped answer 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 actual local answer playback 0",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 unique new question 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 answer and explanation 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 exact mapped answer 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 actual local answer playback 1",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 viewport fits",
+      "pass": true
+    },
+    {
+      "name": "b1-discours-indirect 1440 no page error",
+      "pass": true
+    }
+  ],
+  "isolatedProfile": true,
+  "humanListening": false
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Demain, je prendrai donc le premier train !",
+  "text_sha256": "7f08bdbda8842254d88dd2a0a081b4db6ea455311010f85841e66cc794ad8e0d",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.48453514739229,
+      "source_seconds": 2.48453514739229,
+      "source_file_sha256": "036449e3c97fe23cb2e9aa13acfcbd1646cc61b85ff519cc1d219e93b838eb5b",
+      "file_sha256": "f63613219305ff9b48894385719af40f092d071cd8dd355fe08a50752b03256e",
+      "bytes": 20733,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

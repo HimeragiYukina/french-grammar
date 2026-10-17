@@ -1,0 +1,816 @@
+{
+  "scope": "Bounded selected audio technical sample review; exacttext/current mapping/hash/full PCM decode/metrics. No human listening, pronunciation, speech-content alignment or truncation verdict.",
+  "method": {
+    "cpu": "two-core affinity, one decode process at a time, codec/filter one thread, hidden BELOW_NORMAL",
+    "silence": "20ms RMS below -45dBFS",
+    "flags": "Threshold candidates for human review, never proof of pronunciation or truncation",
+    "ASRModulesUnavailable": {
+      "whisper": true,
+      "faster_whisper": true,
+      "vosk": true
+    }
+  },
+  "listen": false,
+  "speechAlignment": "not_verified",
+  "summary": {
+    "samples": 13,
+    "technicalFailures": 0,
+    "samplesWithCandidateFlags": 0,
+    "byLevelRepository": {
+      "A1": {
+        "grammar": 1
+      },
+      "A2": {
+        "grammar": 1
+      },
+      "B1": {
+        "grammar": 8
+      },
+      "B2": {
+        "grammar": 1
+      },
+      "C1": {
+        "grammar": 1
+      },
+      "C2": {
+        "grammar": 1
+      }
+    },
+    "tags": [
+      "abbreviation",
+      "quotes"
+    ],
+    "longreadFull": 0,
+    "longreadParagraphs": 0
+  },
+  "currentTextResolutions": [],
+  "prioritySelections": [],
+  "samples": [
+    {
+      "repo": "grammar",
+      "levels": [
+        "C1"
+      ],
+      "tags": [
+        "abbreviation"
+      ],
+      "text": "La responsable, en l'occurrence Mme Durand, signera le document.",
+      "path": "audio/supplement/f9eab3bb6e935437bfa4a9f8a281960ff8b5b2d1fd58c4c0ef0d7da109df28c3.mp3",
+      "textSHA256": "f9eab3bb6e935437bfa4a9f8a281960ff8b5b2d1fd58c4c0ef0d7da109df28c3",
+      "fileSHA256": "d6f4f22a38dc94708808f39d73bcd56092a9708b379a817b632a04b7079ec27e",
+      "bytes": 36406,
+      "coverageSeconds": 4.458231292517007,
+      "occurrences": [
+        {
+          "id": "c2-cohesion",
+          "field": "/c2-cohesion/sections/4/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 64
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 4.458231292517007,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1500720673963127,
+        "rmsDbFS": -16.47400269138153,
+        "nonzeroFraction": 0.956817626953125,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1182,
+        "maximumInternalSilenceSeconds": 0.36,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "Julie pensa : « Je serai donc encore en retard ! »",
+      "path": "audio/supplement/9e1ff84c871b1e70b33ebc794c041a63df22248e840b72c55c7f9ac1c26988de.mp3",
+      "textSHA256": "9e1ff84c871b1e70b33ebc794c041a63df22248e840b72c55c7f9ac1c26988de",
+      "fileSHA256": "c1f45c27b42e93300ec978f0e7098c6871be6ca815e352f65606066d2553e305",
+      "bytes": 25330,
+      "coverageSeconds": 3.076643990929705,
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/6/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 50
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.076643990929705,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.17211162870882965,
+        "rmsDbFS": -15.28379571216332,
+        "nonzeroFraction": 0.953125,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1366,
+        "maximumInternalSilenceSeconds": 0.42,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "Julie pensa qu’elle serait donc encore en retard.",
+      "path": "audio/supplement/d1e5bb72ef4550f2dcf189588e5901617d22d74ac845668b6ac3d5a5a13a339f.mp3",
+      "textSHA256": "d1e5bb72ef4550f2dcf189588e5901617d22d74ac845668b6ac3d5a5a13a339f",
+      "fileSHA256": "57d2b3a8709b6bd1d6e4ca4ac5f6d9943efbb110ceb1077b050fbe160358264d",
+      "bytes": 21359,
+      "coverageSeconds": 2.5658049886621317,
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/6/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 49
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.5658049886621317,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.19087904440496972,
+        "rmsDbFS": -14.384834957410899,
+        "nonzeroFraction": 0.979920814479638,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.06,
+        "trailingSilenceSeconds": 0.1658,
+        "maximumInternalSilenceSeconds": 0.02,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "Le bus s’éloigna. Elle serait donc encore en retard !",
+      "path": "audio/supplement/9a26a4a39ec19404ca1e8a7853b285e6c90a725977b0657d260def58eb809289.mp3",
+      "textSHA256": "9a26a4a39ec19404ca1e8a7853b285e6c90a725977b0657d260def58eb809289",
+      "fileSHA256": "4f0589a196df567d680698ab40d049ef33d41909ce999083c2351bd796f56a4b",
+      "bytes": 25121,
+      "coverageSeconds": 3.0418140589569163,
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/6/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 53
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.0418140589569163,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1914220840487231,
+        "rmsDbFS": -14.360159196676767,
+        "nonzeroFraction": 0.9332955629770993,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1418,
+        "maximumInternalSilenceSeconds": 0.24,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "Marc pensa qu’il prendrait donc le premier train le lendemain.",
+      "path": "audio/supplement/0cede00328c8778b6f328b6c5bb7a7f0c5eb7fe7664126ee90bd006121f75473.mp3",
+      "textSHA256": "0cede00328c8778b6f328b6c5bb7a7f0c5eb7fe7664126ee90bd006121f75473",
+      "fileSHA256": "511a6a12e0db62f7e647568212bf7adb1c137ea0e3d180b05f895b28b0b01022",
+      "bytes": 23867,
+      "coverageSeconds": 2.8908843537414968,
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/6/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.8908843537414968,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.12374923385876677,
+        "rmsDbFS": -18.14914962274685,
+        "nonzeroFraction": 0.9811276355421686,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.06,
+        "trailingSilenceSeconds": 0.0709,
+        "maximumInternalSilenceSeconds": 0.06,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "Il prendrait donc le premier train le lendemain !",
+      "path": "audio/supplement/4576fe44f5bfcc078d322701bca775872305d1a1d2c424a51bfe38e0a908256f.mp3",
+      "textSHA256": "4576fe44f5bfcc078d322701bca775872305d1a1d2c424a51bfe38e0a908256f",
+      "fileSHA256": "0f5347205fef76d6dc1df6607231334bb6c254226d3705c04bc2542ebf531832",
+      "bytes": 18434,
+      "coverageSeconds": 2.2175056689342405,
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/7/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 49
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.2175056689342405,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.19296735655846944,
+        "rmsDbFS": -14.290323049438163,
+        "nonzeroFraction": 0.9285013089005235,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.0975,
+        "maximumInternalSilenceSeconds": 0,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "Demain, je prendrai donc le premier train !",
+      "path": "audio/supplement/7f08bdbda8842254d88dd2a0a081b4db6ea455311010f85841e66cc794ad8e0d.mp3",
+      "textSHA256": "7f08bdbda8842254d88dd2a0a081b4db6ea455311010f85841e66cc794ad8e0d",
+      "fileSHA256": "f63613219305ff9b48894385719af40f092d071cd8dd355fe08a50752b03256e",
+      "bytes": 20733,
+      "coverageSeconds": 2.48453514739229,
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/6/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 21,
+              "end_codepoint": 64
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.48453514739229,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.15417870873381292,
+        "rmsDbFS": -16.239511918418124,
+        "nonzeroFraction": 0.930928738317757,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1645,
+        "maximumInternalSilenceSeconds": 0.22,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "Marc pensa que, le lendemain, il prendrait donc le premier train.",
+      "path": "audio/supplement/b621c86cac0d8f6d3a6e9d492e6016ec4a06550d480cd5dc6724f049807c9f02.mp3",
+      "textSHA256": "b621c86cac0d8f6d3a6e9d492e6016ec4a06550d480cd5dc6724f049807c9f02",
+      "fileSHA256": "7a88d8038829b4d42d99d068e8aa7d8eecf9e0ff90b4c41d0ce4b4ae2b91ce1f",
+      "bytes": 31181,
+      "coverageSeconds": 3.8080725623582765,
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/6/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 3,
+              "end_codepoint": 68
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.8080725623582765,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.13664416065677998,
+        "rmsDbFS": -17.288178453773156,
+        "nonzeroFraction": 0.9527677210365854,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1281,
+        "maximumInternalSilenceSeconds": 0.18,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B1"
+      ],
+      "tags": [
+        "quotes"
+      ],
+      "text": "Le lendemain, il prendrait donc le premier train !",
+      "path": "audio/supplement/f347a0873645dfef2378e423f1d0772ed18616dc44ffce964fec0a5875e96066.mp3",
+      "textSHA256": "f347a0873645dfef2378e423f1d0772ed18616dc44ffce964fec0a5875e96066",
+      "fileSHA256": "490c48398266a07559e9ec06e842744e64ab4b0066e9a5d692d7bfdb532d98c9",
+      "bytes": 24076,
+      "coverageSeconds": 2.9024943310657596,
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/7/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 3,
+              "end_codepoint": 53
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": null,
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.9024943310657596,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.18552898435971504,
+        "rmsDbFS": -14.631764657456237,
+        "nonzeroFraction": 0.93184375,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.1225,
+        "maximumInternalSilenceSeconds": 0.4,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A1"
+      ],
+      "tags": [
+        "abbreviation"
+      ],
+      "text": "Tout nom français a un genre (masculin/féminin). L'article défini (le, la, l', les) s'emploie pour une chose précise, connue ou unique.",
+      "path": "audio/fr-FR/f54a11a717866845.mp3",
+      "textSHA256": "958c16f22a07dc5bd40ce311fb9c8b15dc0c8ea1faf0cabe95df079fcf930a00",
+      "fileSHA256": "6a3e6105be16787e62c7e1a6fc689e1cddb5fa251373aa89dcacb02725820653",
+      "bytes": 65376,
+      "coverageSeconds": null,
+      "occurrences": [
+        {
+          "id": "a1-genre",
+          "field": "/a1-genre/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 135
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": null
+      },
+      "metrics": {
+        "decodedSeconds": 10.896,
+        "sampleRate": 24000,
+        "channels": 1,
+        "rms": 0.08548236189606777,
+        "rmsDbFS": -21.36246973384257,
+        "nonzeroFraction": 0.828392682329907,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.18,
+        "trailingSilenceSeconds": 0.916,
+        "maximumInternalSilenceSeconds": 1.0,
+        "internalSilencesGE0_5Seconds": [
+          {
+            "start": 3.14,
+            "end": 4.14,
+            "seconds": 1.0
+          }
+        ],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "A2"
+      ],
+      "tags": [],
+      "text": "La semaine dernière, ils ___ (choisir) un cadeau.",
+      "path": "audio/supplement/5f70746bb20b9c8373c456a1e94a2cbb67930d33609de8c46dace0827deecd59.mp3",
+      "textSHA256": "5f70746bb20b9c8373c456a1e94a2cbb67930d33609de8c46dace0827deecd59",
+      "fileSHA256": "541bcd9fe11e4a9671efba9fe5d9ac9c50547afba25dbffeaf862090b1a70251",
+      "bytes": 22613,
+      "coverageSeconds": 2.7399546485260773,
+      "occurrences": [
+        {
+          "id": "a2-pc-avoir",
+          "field": "/a2-pc-avoir/2/q",
+          "source": "runtime.PRACTICE",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 49
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.7399546485260773,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.1382962438500469,
+        "rmsDbFS": -17.18379230487821,
+        "nonzeroFraction": 0.9119438559322034,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.06,
+        "trailingSilenceSeconds": 0.08,
+        "maximumInternalSilenceSeconds": 0.38,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "B2"
+      ],
+      "tags": [],
+      "text": "J'attends que tu viennes ; je regrette que tu ne sois pas venu hier.",
+      "path": "audio/supplement/6da86e31ef23f6f49d57d9511cfeb20c5ae593a85d28f5cc763ff8c5aedb5de9.mp3",
+      "textSHA256": "6da86e31ef23f6f49d57d9511cfeb20c5ae593a85d28f5cc763ff8c5aedb5de9",
+      "fileSHA256": "20b8765762190fa5c0ce56a987fdec0ffa0b9d3b36ac3f5afd790a245d8f26e1",
+      "bytes": 28256,
+      "coverageSeconds": 3.4481632653061225,
+      "occurrences": [
+        {
+          "id": "b2-subj-passe",
+          "field": "/b2-subj-passe/ex/2/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 89
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 3.4481632653061225,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.13932556012471103,
+        "rmsDbFS": -17.119384045846914,
+        "nonzeroFraction": 0.9671585648148148,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.14,
+        "trailingSilenceSeconds": 0.1482,
+        "maximumInternalSilenceSeconds": 0.16,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    },
+    {
+      "repo": "grammar",
+      "levels": [
+        "C2"
+      ],
+      "tags": [],
+      "text": "Elles se sont plu dès leur première rencontre.",
+      "path": "audio/supplement/a30c86774c4d15043e638f46e89cbf59d0f2dfff6cc9167bcdf91b20a3afd784.mp3",
+      "textSHA256": "a30c86774c4d15043e638f46e89cbf59d0f2dfff6cc9167bcdf91b20a3afd784",
+      "fileSHA256": "7fa38efb138691c80acf8ea609b1df746090a9b0361a87c79482b335058f7eb3",
+      "bytes": 20941,
+      "coverageSeconds": 2.5193650793650795,
+      "occurrences": [
+        {
+          "id": "c1-accord-avance",
+          "field": "/c1-accord-avance/sections/4/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 46
+            }
+          ],
+          "kind": "eligible_standalone"
+        },
+        {
+          "id": "c2-accord-extreme",
+          "field": "/c2-accord-extreme/ex/4/fr",
+          "source": "runtime.GRAMMAR",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 53
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "selectionPurpose": "coverage fallback: current level/repository sample",
+      "affectedCorrections": [],
+      "longread": null,
+      "checks": {
+        "textSHA256": true,
+        "fileSHA256": true,
+        "fileBytes": true,
+        "currentMap": true,
+        "decodedDurationVsCoverage": true
+      },
+      "metrics": {
+        "decodedSeconds": 2.5193650793650795,
+        "sampleRate": 22050,
+        "channels": 1,
+        "rms": 0.17497261156513466,
+        "rmsDbFS": -15.140598520790105,
+        "nonzeroFraction": 0.934601814516129,
+        "clippingFractionAbsGE0_999": 0.0,
+        "leadingSilenceSeconds": 0.2,
+        "trailingSilenceSeconds": 0.1794,
+        "maximumInternalSilenceSeconds": 0.06,
+        "internalSilencesGE0_5Seconds": [],
+        "silenceDefinition": "20ms RMS windows below -45dBFS; boundaries quantized to20ms"
+      },
+      "technicalIssues": [],
+      "candidateFlags": [],
+      "listen": false,
+      "speechAlignment": "not_verified",
+      "humanListeningNeeded": true
+    }
+  ]
+}

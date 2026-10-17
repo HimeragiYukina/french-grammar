@@ -11,14 +11,14 @@
     "inter_op": 1
   },
   "priority": "BELOW_NORMAL",
-  "generated_this_run": 1,
+  "generated_this_run": 8,
   "generation_runs": [
     {
-      "generated": 3370,
+      "generated": 3378,
       "note": "Grammar-only clips; combined timings retained in tutorial repository."
     }
   ],
-  "elapsed_seconds": 56.14840793609619,
+  "elapsed_seconds": 68.00938701629639,
   "listened": false,
   "records": [
     {
@@ -157503,17 +157503,17 @@
       "bytes": 23867,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.8908843537414968,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/805165ddb87ae94ddbb7999b73493b00b983d354c4d18ae09accba26038772e2.wav",
         "file_sha256": "9accbe23081bbc8f5e3d0eb13e3d6d5747839d48f690ab3794c286befee79e88",
-        "bytes": 127532,
-        "rms": 5893.942638068841
+        "seconds": 2.8908843537414968
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -157544,17 +157544,17 @@
       "bytes": 30973,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.7732426303854876,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/2861cfa6fda78cb3cd0b7b2700ffc2381207ed47fe1721a48033739827d33d16.wav",
         "file_sha256": "0acb9a5c239e594701217a72a8194b6e0cb56ee1bf85317c56554def2a7e3f98",
-        "bytes": 166444,
-        "rms": 6488.547901625038
+        "seconds": 3.7732426303854876
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -157585,17 +157585,17 @@
       "bytes": 19479,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 2.3336054421768706,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/f7598cdf93b07e6b7b6cef2be3ffad7bc3897c92d67faedf7ff13ce0082beabc.wav",
         "file_sha256": "140355d2b805fd17bea1f16b28c242b50d287375425eb0f0d09354cb3ddce4fb",
-        "bytes": 102956,
-        "rms": 6443.984568307488
+        "seconds": 2.3336054421768706
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -157638,17 +157638,17 @@
       "bytes": 27629,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.3668934240362813,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/c8f48ddec0857ca9693f4a3d9656c56e99e3f621b12bf8fa466518b15a153031.wav",
         "file_sha256": "55ae3f87189efd75807ab8ab9b93e693c5bedb41f6fd457b4e438520acbd03d5",
-        "bytes": 148524,
-        "rms": 5727.835296154742
+        "seconds": 3.3668934240362813
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -157679,17 +157679,17 @@
       "bytes": 32017,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.912562358276644,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/abd0a68fa0e1aa50aa30472b6fa2a441479627498f7fc47d91cfb6d40ea44995.wav",
         "file_sha256": "ec87cbee57abd68c6f88156edf9fd75fa58d47ee70cdb60b486eac2a8d30b1cd",
-        "bytes": 172588,
-        "rms": 5742.4739830108
+        "seconds": 3.912562358276644
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -157720,17 +157720,17 @@
       "bytes": 27629,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 3.355283446712018,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/5f46420c9c1282cc279e2a884f5d96079bf1945d3721037c1212b35370a4e322.wav",
         "file_sha256": "de5ae771c8b8202aba8dbb8098d9c018f95787da2ad09130a82a6d8af45edc35",
-        "bytes": 148012,
-        "rms": 5272.682741137005
+        "seconds": 3.355283446712018
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -157761,17 +157761,17 @@
       "bytes": 16553,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 1.9853061224489796,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/c35180b40a9af29cee01664ad010f022bbe5759bd9ed9c7bd62566764522f899.wav",
         "file_sha256": "45aae4b563819df8e8a082dff84dde6881cecc86a9f5ea32803527c0cf41814f",
-        "bytes": 87596,
-        "rms": 5798.261985517739
+        "seconds": 1.9853061224489796
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -157802,17 +157802,17 @@
       "bytes": 76112,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 9.427301587301587,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/fe84f6ed3df646d0ae5bc2dba7cc485f631292d72b637c51f0babe49cc2f21cb.wav",
         "file_sha256": "5a51287c1f2f9edc1d2a070a98da636f2a45892ae1cdb631a74ffc38416e04db",
-        "bytes": 415788,
-        "rms": 4832.716852979093
+        "seconds": 9.427301587301587
       },
-      "codec": "libmp3lame",
-      "bitrate": 64000
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
     },
     {
       "repo": "grammar",
@@ -157843,14 +157843,342 @@
       "bytes": 61693,
       "inventoryCoverage": "verified-local-file",
       "audioformat": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
       "seconds": 7.616145124716553,
       "sample_rate": 22050,
       "channels": 1,
       "original_wav": {
         "path": "audio/supplement/87bb4aee7c0b544bb4ed735c57cec9df1715d2962a20027ba64d6cf7520ee799.wav",
         "file_sha256": "32ef8b5743afb3c266b8706f3d75e5a42bb6ea6909f43add45a4bcc75b5e7302",
-        "bytes": 335916,
-        "rms": 5016.300844352879
+        "seconds": 7.616145124716553
+      },
+      "encoding_verification": "full ffmpeg PCM decode; duration compared with original WAV"
+    },
+    {
+      "repo": "grammar",
+      "text": "Julie pensa : « Je serai donc encore en retard ! »",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/6/examples/0/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 50
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "9e1ff84c871b1e70b33ebc794c041a63df22248e840b72c55c7f9ac1c26988de",
+      "path": "audio/supplement/9e1ff84c871b1e70b33ebc794c041a63df22248e840b72c55c7f9ac1c26988de.mp3",
+      "source": "local-siwis",
+      "file_sha256": "c1f45c27b42e93300ec978f0e7098c6871be6ca815e352f65606066d2553e305",
+      "bytes": 25330,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.076643990929705,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/9e1ff84c871b1e70b33ebc794c041a63df22248e840b72c55c7f9ac1c26988de.wav",
+        "file_sha256": "ed5bbe1fcf6314403e3adda22b602be8d0c94298341f989ff895b18b3070081d",
+        "bytes": 135724,
+        "rms": 5987.630221176931
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Julie pensa qu’elle serait donc encore en retard.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/6/examples/1/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 49
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "d1e5bb72ef4550f2dcf189588e5901617d22d74ac845668b6ac3d5a5a13a339f",
+      "path": "audio/supplement/d1e5bb72ef4550f2dcf189588e5901617d22d74ac845668b6ac3d5a5a13a339f.mp3",
+      "source": "local-siwis",
+      "file_sha256": "57d2b3a8709b6bd1d6e4ca4ac5f6d9943efbb110ceb1077b050fbe160358264d",
+      "bytes": 21359,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.5658049886621317,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/d1e5bb72ef4550f2dcf189588e5901617d22d74ac845668b6ac3d5a5a13a339f.wav",
+        "file_sha256": "684dbac6e8f9b1ba91ec9df10950ce6a9cb2f519cf394a65c0a97b4de0e8af7b",
+        "bytes": 113196,
+        "rms": 6601.879814441418
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Le bus s’éloigna. Elle serait donc encore en retard !",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/sections/6/examples/2/fr",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 53
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "9a26a4a39ec19404ca1e8a7853b285e6c90a725977b0657d260def58eb809289",
+      "path": "audio/supplement/9a26a4a39ec19404ca1e8a7853b285e6c90a725977b0657d260def58eb809289.mp3",
+      "source": "local-siwis",
+      "file_sha256": "4f0589a196df567d680698ab40d049ef33d41909ce999083c2351bd796f56a4b",
+      "bytes": 25121,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.0418140589569163,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/9a26a4a39ec19404ca1e8a7853b285e6c90a725977b0657d260def58eb809289.wav",
+        "file_sha256": "0a2625a7cab0d6e08a08643b1ea556119be0a08a94e3e460589c6a22ab4323de",
+        "bytes": 134188,
+        "rms": 6624.118754065764
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Demain, je prendrai donc le premier train !",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/6/q",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 21,
+              "end_codepoint": 64
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "7f08bdbda8842254d88dd2a0a081b4db6ea455311010f85841e66cc794ad8e0d",
+      "path": "audio/supplement/7f08bdbda8842254d88dd2a0a081b4db6ea455311010f85841e66cc794ad8e0d.mp3",
+      "source": "local-siwis",
+      "file_sha256": "f63613219305ff9b48894385719af40f092d071cd8dd355fe08a50752b03256e",
+      "bytes": 20733,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.48453514739229,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/7f08bdbda8842254d88dd2a0a081b4db6ea455311010f85841e66cc794ad8e0d.wav",
+        "file_sha256": "036449e3c97fe23cb2e9aa13acfcbd1646cc61b85ff519cc1d219e93b838eb5b",
+        "bytes": 109612,
+        "rms": 5333.246149233856
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Marc pensa qu’il prendrait donc le premier train le lendemain.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/6/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 62
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "0cede00328c8778b6f328b6c5bb7a7f0c5eb7fe7664126ee90bd006121f75473",
+      "path": "audio/supplement/0cede00328c8778b6f328b6c5bb7a7f0c5eb7fe7664126ee90bd006121f75473.mp3",
+      "source": "local-siwis",
+      "file_sha256": "511a6a12e0db62f7e647568212bf7adb1c137ea0e3d180b05f895b28b0b01022",
+      "bytes": 23867,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.8908843537414968,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/0cede00328c8778b6f328b6c5bb7a7f0c5eb7fe7664126ee90bd006121f75473.wav",
+        "file_sha256": "3135d2ad8af42e623682d505ec3047963465a15c671d2385daf50de9295ee0b5",
+        "bytes": 127532,
+        "rms": 4272.300568332999
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Marc pensa que, le lendemain, il prendrait donc le premier train.",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/6/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 3,
+              "end_codepoint": 68
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "b621c86cac0d8f6d3a6e9d492e6016ec4a06550d480cd5dc6724f049807c9f02",
+      "path": "audio/supplement/b621c86cac0d8f6d3a6e9d492e6016ec4a06550d480cd5dc6724f049807c9f02.mp3",
+      "source": "local-siwis",
+      "file_sha256": "7a88d8038829b4d42d99d068e8aa7d8eecf9e0ff90b4c41d0ce4b4ae2b91ce1f",
+      "bytes": 31181,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 3.8080725623582765,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/b621c86cac0d8f6d3a6e9d492e6016ec4a06550d480cd5dc6724f049807c9f02.wav",
+        "file_sha256": "661411086f81b450409e4bd778a952ea62357b6b16efd8c475da26f9d9981dc7",
+        "bytes": 167980,
+        "rms": 4718.852782860119
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Il prendrait donc le premier train le lendemain !",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/7/a",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 0,
+              "end_codepoint": 49
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "4576fe44f5bfcc078d322701bca775872305d1a1d2c424a51bfe38e0a908256f",
+      "path": "audio/supplement/4576fe44f5bfcc078d322701bca775872305d1a1d2c424a51bfe38e0a908256f.mp3",
+      "source": "local-siwis",
+      "file_sha256": "0f5347205fef76d6dc1df6607231334bb6c254226d3705c04bc2542ebf531832",
+      "bytes": 18434,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.2175056689342405,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/4576fe44f5bfcc078d322701bca775872305d1a1d2c424a51bfe38e0a908256f.wav",
+        "file_sha256": "0c472de473302a84acc3cf0f064fc01ee2f92afdfd8f5bc32b27c499acd7a639",
+        "bytes": 97836,
+        "rms": 6660.721966348313
+      },
+      "codec": "libmp3lame",
+      "bitrate": 64000
+    },
+    {
+      "repo": "grammar",
+      "text": "Le lendemain, il prendrait donc le premier train !",
+      "occurrences": [
+        {
+          "id": "b1-discours-indirect",
+          "field": "/b1-discours-indirect/practice/7/note",
+          "source": "runtime.EXPANSIONS",
+          "source_offsets": [
+            {
+              "start_codepoint": 3,
+              "end_codepoint": 53
+            }
+          ],
+          "kind": "eligible_standalone"
+        }
+      ],
+      "existing": [],
+      "roles": [
+        "eligible_standalone"
+      ],
+      "kind": "eligible_standalone",
+      "sha256": "f347a0873645dfef2378e423f1d0772ed18616dc44ffce964fec0a5875e96066",
+      "path": "audio/supplement/f347a0873645dfef2378e423f1d0772ed18616dc44ffce964fec0a5875e96066.mp3",
+      "source": "local-siwis",
+      "file_sha256": "490c48398266a07559e9ec06e842744e64ab4b0066e9a5d692d7bfdb532d98c9",
+      "bytes": 24076,
+      "inventoryCoverage": "verified-local-file",
+      "audioformat": "mp3",
+      "seconds": 2.9024943310657596,
+      "sample_rate": 22050,
+      "channels": 1,
+      "original_wav": {
+        "path": "audio/supplement/f347a0873645dfef2378e423f1d0772ed18616dc44ffce964fec0a5875e96066.wav",
+        "file_sha256": "b63fc3a763d14f8d1e137da9d37b3820c83fddf1d77c0822ecc3f690b984603f",
+        "bytes": 128044,
+        "rms": 6391.614549646279
       },
       "codec": "libmp3lame",
       "bitrate": 64000

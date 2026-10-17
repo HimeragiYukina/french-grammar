@@ -1683,6 +1683,27 @@ window.GRAMMAR_DATA.B1={
               "use": "le lendemain 相对周一为周二；承诺不证明已经借出。"
             }
           ]
+        },
+        {
+          "title": "进阶阅读：直接思想、明确转述与自由间接片段",
+          "explanation": "同一原创情境：公交开走，Julie担心会再次迟到。直接思想保留她的第一人称；明确间接式由思想动词引入；自由间接片段把人物推论放进第三人称过去叙事。条件式在这里可表示过去视点的将来，不独自证明传闻或结果已发生。识别声音还须结合上下文，不靠一个时态或感叹号。",
+          "examples": [
+            {
+              "fr": "Julie pensa : « Je serai donc encore en retard ! »",
+              "zh": "朱莉想：“这么说我又要迟到了！”",
+              "use": "人物的直接思想，不是叙述者已证实迟到；情境中公交已开走。"
+            },
+            {
+              "fr": "Julie pensa qu’elle serait donc encore en retard.",
+              "zh": "朱莉想，她这样又要迟到了。",
+              "use": "思想动词和从句显式标出归属，条件式承接过去视点的未来。"
+            },
+            {
+              "fr": "Le bus s’éloigna. Elle serait donc encore en retard !",
+              "zh": "公交驶远了。这么说，她又要迟到了！",
+              "use": "给定Julie视角下，人物推论进入叙事；不能把第三人称加条件式当作任何语境下自由间接的充分证明。"
+            }
+          ]
         }
       ],
       "comparison": "Il demande : « Qu’est-ce qui se passe ? » → Il demande ce qui se passe；« Qu’est-ce que tu fais ? » → Il demande ce que tu fais。Demander si 不表示条件，其后可有将来或条件式。",
@@ -1723,6 +1744,16 @@ window.GRAMMAR_DATA.B1={
           "q": "另一则独立维修消息：周三维修员写“Mon passage est finalement prévu jeudi à neuf heures. Ne laissez pas l’appareil branché avant mon arrivée.” 当天向同住人转告两项内容，用Elle a précisé que…与Elle nous a demandé de…；不得变成修好保证。",
           "a": "Elle a précisé que son passage était finalement prévu jeudi à neuf heures. Elle nous a demandé de ne pas laisser l’appareil branché avant son arrivée.",
           "note": "son passage指她来访，ne pas位于不定式前，son arrivée仍指维修员。也接受que son passage est finalement prévu…以强调仍有效安排。已安排来访不等于保证当场修好，原文也未给维修费用。"
+        },
+        {
+          "q": "原创过去叙事情境：Marc读通知，内心说“Demain, je prendrai donc le premier train !”。用Marc pensa que明确转述，把demain定位于该过去时刻的次日，不声称已买票或已乘车。",
+          "a": "Marc pensa qu’il prendrait donc le premier train le lendemain.",
+          "note": "也可：Marc pensa que, le lendemain, il prendrait donc le premier train. 主语、过去视点将来和相对日期须一致；这里是思想归属，不保证计划兑现。"
+        },
+        {
+          "q": "同一已给Marc视角中，用一句自由间接片段呈现他要在次日坐首班车的推论。保第三人称与过去叙事的将来，去掉明确思想引入语；可调整语序。",
+          "a": "Il prendrait donc le premier train le lendemain !",
+          "note": "也可：Le lendemain, il prendrait donc le premier train ! 需接在给定的人物视角背景中读，保留他自己的推论；单独抽出条件式或感叹号并不能在所有文本中证明声音类型。"
         }
       ]
     },

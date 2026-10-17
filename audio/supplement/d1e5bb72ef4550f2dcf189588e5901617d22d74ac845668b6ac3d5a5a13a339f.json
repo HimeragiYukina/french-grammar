@@ -1,0 +1,30 @@
+{
+  "text": "Julie pensa qu’elle serait donc encore en retard.",
+  "text_sha256": "d1e5bb72ef4550f2dcf189588e5901617d22d74ac845668b6ac3d5a5a13a339f",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 2.5658049886621317,
+      "source_seconds": 2.5658049886621317,
+      "source_file_sha256": "684dbac6e8f9b1ba91ec9df10950ce6a9cb2f519cf394a65c0a97b4de0e8af7b",
+      "file_sha256": "57d2b3a8709b6bd1d6e4ca4ac5f6d9943efbb110ceb1077b050fbe160358264d",
+      "bytes": 21359,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "text": "Le bus s’éloigna. Elle serait donc encore en retard !",
+  "text_sha256": "9a26a4a39ec19404ca1e8a7853b285e6c90a725977b0657d260def58eb809289",
+  "model_sha256": "641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99",
+  "model": "fr_FR-siwis-medium",
+  "piper_version": "1.8.0",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "encodings": {
+    "mp3": {
+      "format": "mp3",
+      "codec": "libmp3lame",
+      "bitrate": 64000,
+      "channels": 1,
+      "sample_rate": 22050,
+      "seconds": 3.0418140589569163,
+      "source_seconds": 3.0418140589569163,
+      "source_file_sha256": "0a2625a7cab0d6e08a08643b1ea556119be0a08a94e3e460589c6a22ab4323de",
+      "file_sha256": "4f0589a196df567d680698ab40d049ef33d41909ce999083c2351bd796f56a4b",
+      "bytes": 25121,
+      "verification": "full ffmpeg PCM decode; duration compared with original WAV",
+      "encoder": "D:\\Apps\\ImageMagick-7.1.1-Q16-HDRI\\ffmpeg.exe",
+      "cpu_only": true,
+      "codec_threads": 1,
+      "filter_threads": 1,
+      "priority": "BELOW_NORMAL"
+    }
+  }
+}

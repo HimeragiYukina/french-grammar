@@ -1,0 +1,16 @@
+{
+  "passed": 2,
+  "failed": [],
+  "rows": [
+    {
+      "width": 390,
+      "url": "http://127.0.0.1:8765/expansion-batch34-summary-20261017.html",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "url": "http://127.0.0.1:8765/expansion-batch34-summary-20261017.html",
+      "pass": true
+    }
+  ]
+}

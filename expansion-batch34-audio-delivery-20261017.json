@@ -1,0 +1,18 @@
+{
+  "newDeliveredClips": 8,
+  "ownExactUnits": 3873,
+  "originalWavsRetained": true,
+  "humanListening": false,
+  "old_to_new": {
+    "grammar": {
+      "audio/supplement/9e1ff84c871b1e70b33ebc794c041a63df22248e840b72c55c7f9ac1c26988de.wav": "audio/supplement/9e1ff84c871b1e70b33ebc794c041a63df22248e840b72c55c7f9ac1c26988de.mp3",
+      "audio/supplement/d1e5bb72ef4550f2dcf189588e5901617d22d74ac845668b6ac3d5a5a13a339f.wav": "audio/supplement/d1e5bb72ef4550f2dcf189588e5901617d22d74ac845668b6ac3d5a5a13a339f.mp3",
+      "audio/supplement/9a26a4a39ec19404ca1e8a7853b285e6c90a725977b0657d260def58eb809289.wav": "audio/supplement/9a26a4a39ec19404ca1e8a7853b285e6c90a725977b0657d260def58eb809289.mp3",
+      "audio/supplement/7f08bdbda8842254d88dd2a0a081b4db6ea455311010f85841e66cc794ad8e0d.wav": "audio/supplement/7f08bdbda8842254d88dd2a0a081b4db6ea455311010f85841e66cc794ad8e0d.mp3",
+      "audio/supplement/0cede00328c8778b6f328b6c5bb7a7f0c5eb7fe7664126ee90bd006121f75473.wav": "audio/supplement/0cede00328c8778b6f328b6c5bb7a7f0c5eb7fe7664126ee90bd006121f75473.mp3",
+      "audio/supplement/b621c86cac0d8f6d3a6e9d492e6016ec4a06550d480cd5dc6724f049807c9f02.wav": "audio/supplement/b621c86cac0d8f6d3a6e9d492e6016ec4a06550d480cd5dc6724f049807c9f02.mp3",
+      "audio/supplement/4576fe44f5bfcc078d322701bca775872305d1a1d2c424a51bfe38e0a908256f.wav": "audio/supplement/4576fe44f5bfcc078d322701bca775872305d1a1d2c424a51bfe38e0a908256f.mp3",
+      "audio/supplement/f347a0873645dfef2378e423f1d0772ed18616dc44ffce964fec0a5875e96066.wav": "audio/supplement/f347a0873645dfef2378e423f1d0772ed18616dc44ffce964fec0a5875e96066.mp3"
+    }
+  }
+}
